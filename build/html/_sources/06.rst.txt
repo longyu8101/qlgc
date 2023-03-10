@@ -1,0 +1,173 @@
+6 吊车荷载
+=======================================
+
+.. raw:: html
+
+  <h2 id="test111">6 吊车荷载</h2>
+
+
+6.1 吊车竖向和水平荷载
+---------------------------------
+.. raw:: html
+
+ <p style="text-align:justify;" id="aaa"><a href="#id6.1.1">6.1.1</a> <span id="id6.1.1">按吊车荷载设计结构时，有关吊车的技术资料（包括吊车的最大或最小轮压）都应由工艺提供。多年实践表明，由各工厂设计的起重机械，其参数和尺寸不太可能完全与该标准保持一致。因此，设计时仍应直接参照制造厂当时的产品规格作为设计依据。</span></p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">选用的吊车是按其工作的繁重程度来分级的，这不仅对吊车本身的设计有直接的意义，也和厂房结构的设计有关。国家标准《起重机设计规范》GB3811—83是参照国际标准《起重设备分级》ISO4301—1980的原则，重新划分了起重机的工作级别。在考虑吊车繁重程度时，它区分了吊车的利用次数和荷载大小两种因素。按吊车在使用期内要求的总工作循环次数分成10个利用等级，又按吊车荷载达到其额定值的频繁程度分成4个载荷状态（轻、中、重、特重）。根据要求的利用等级和载荷状态，确定吊车的工作级别，共分8个级别作为吊车设计的依据。</p>
+ <p style="text-indent:2em;text-align:justify;">这样的工作级别划分在原则上也适用于厂房的结构设计，虽然根据过去的设计经验，在按吊车荷载设计结构时，仅参照吊车的载荷状态将其划分为轻、中、重和超重4级工作制，而不考虑吊车的利用因素，这样做实际上也并不会影响到厂房的结构设计，但是，在执行国家标准《起重机设计规范》GB3811—83以来，所有吊车的生产和定货，项目的工艺设计以及土建原始资料的提供，都以吊车的工作级别为依据，因此在吊车荷载的规定中也相应改用按工作级别划分。采用的工作级别是按<a href="#B5">表5</a>与过去的工作制等级相对应的。</p>
+ <table id="biaoge" style="font-family:times new roman">
+    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#B5">表5 吊车的工作制等级与工作级别的对应关系</b></caption>	    
+	 <tr>
+	 <td width="200px" align="center">工作制等级</td>
+	 <td width="125px" align="center">轻级</td>
+    <td width="125px" align="center">中级</td>
+    <td width="125px" align="center">重级</td>
+    <td width="125px" align="center">超重级</td>
+    </tr>
+    <tr>
+	 <td align="center">工作级别</td>
+	 <td align="center">A1~A3</td>
+    <td align="center">A4,A5</td>
+    <td align="center">A6,A7</td>
+    <td align="center">A8</td>
+	 </tr>
+ </table>
+ <p></p>
+ <p style="text-align:justify;" id="aaa"><a href="#id6.1.2">6.1.2</a> <span id="id6.1.2">吊车的水平荷载分纵向和横向两种，分别由吊车的大车和小车的运行机构在启动或制动时引起的惯性力产生。惯性力为运行重量与运行加速度的乘积，但必须通过制动轮与钢轨间的摩擦传递给厂房结构。因此，吊车的水平荷载取决于制动轮的轮压和它与钢轨间的滑动摩擦系数，摩擦系数一般可取0.14。</span></p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">在规范TJ9—74中，吊车纵向水平荷载取作用在一边轨道上所有刹车轮最大轮压之和的10％，虽比理论值为低，但经长期使用检验，尚未发现有问题。太原重机学院曾对1台300t中级工作制的桥式吊车进行了纵向水平荷载的测试，得出大车制动力系数为0.084～0.091，与规范规定值比较接近。因此，纵向水平荷载的取值仍保持不变。</p>
+ <p style="text-indent:2em;text-align:justify;">吊车的横向水平荷载可按下式取值：</p>
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+ </style>
+
+$$ T= α(Q+Q_{1})g $$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">Q</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">吊车的额定起重量；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>Q</i><sub>1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横行小车重量；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">g</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">重力加速度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">α</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横向水平荷载系数（或称小车制动力系数）。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">如考虑小车制动轮数占总轮数之半，则理论上α应取0.07，但TJ9—74当年对软钩吊车取α不小于0.05，对硬钩吊车取α为0.10，并规定该荷载仅由一边轨道上各车轮平均传递到轨顶，方向与轨道垂直，同时考虑正反两个方向。</p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">经浙江大学、太原重机学院及原第一机械工业部第一设计院等单位，在3个地区对5个厂房及12个露天栈桥的额定起重量为5t～75t的中级工作制桥式吊车进行了实测。实测结果表明：小车制动力的上限均超过规范的规定值，而且横向水平荷载系数α往往随吊车起重量的减小而增大，这可能是由于司机对起重量大的吊车能控制以较低的运行速度所致。根据实测资料分别给出5t～75t吊车上小车制动力的统计参数，见<a href="#B6">表6</a>。若对小车制动力的标准值按保证率99.9％取值，则<i>T</i><sub>k</sub>＝<i>μ</i><sub>T</sub>＋3<i>σ</i><sub>T</sub>，由此得出系数α，除5t吊车明显偏大外，其他约在0.08～0.11之间。经综合分析比较，将吊车额定起重量按大小分成3个组别，分别规定了软钩吊车的横向水平荷载系数为0.12，0.10和0.08。</p>
+ <p style="text-indent:2em;text-align:justify;">对于夹钳、料耙、脱锭等硬钩吊车，由于使用频繁，运行速度高，小车附设的悬臂结构使起吊的重物不能自由摆动等原因，以致制动时产生较大的惯性力。TJ9—74规范规定它的横向水平荷载虽已比软钩吊车大一倍，但与实测相比还是偏低，曾对10t夹钳吊车进行实测，实测的制动力为规范规定值的1.44倍。此外，硬钩吊车的另一个问题是卡轨现象严重。综合上述情况，GBJ 9—87已将硬钩吊车的横向水平荷载系数α提高为0.2。</p>
+ <table id="biaoge" style="font-family:times new roman">
+    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#B6">表6 吊车制动力统计参数</b></caption>	    
+	 <tr>
+	 <td width="150px" align="center" rowspan="2" id="bgcz">吊车额定起重量（t）</td>
+	 <td width="250px" align="center" colspan="2">制动力T（kN）</td>
+    <td width="150px" align="center" rowspan="2" id="bgcz">标准值<i>T</i><sub>k</sub>（kN）</td>
+    <td width="150px" align="center" rowspan="2" id="bgcz"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>α</mi><mo>=</mo><mfrac><msub><mi>T</mi><mrow><mi>k</mi></mrow></msub><mrow><mo stretchy="false">(</mo><mi>Q</mi><mo>+</mo><msub><mi>Q</mi><mrow><mn>1</mn></mrow></msub><mo stretchy="false">)</mo><mi>g</mi></mrow></mfrac></math></td>
+    </tr>
+    <tr>
+	 <td width="125px" align="center">均值<i>μ</i><sub>T</sub></td>
+    <td width="125px" align="center">标准差<i>σ</i><sub>T</sub></td>
+	 </tr>
+    <tr>
+	 <td align="center">5</td>
+	 <td align="center">0.056</td>
+    <td align="center">0.020</td>
+    <td align="center">0.116</td>
+    <td align="center">0.175</td>
+	 </tr>
+    <tr>
+	 <td align="center">10</td>
+	 <td align="center">0.074</td>
+    <td align="center">0.022</td>
+    <td align="center">0.140</td>
+    <td align="center">0.108</td>
+	 </tr>
+    <tr>
+	 <td align="center">20</td>
+	 <td align="center">0.121</td>
+    <td align="center">0.040</td>
+    <td align="center">0.247</td>
+    <td align="center">0.079</td>
+	 </tr>
+    <tr>
+	 <td align="center">30</td>
+	 <td align="center">0.181</td>
+    <td align="center">0.048</td>
+    <td align="center">0.325</td>
+    <td align="center">0.081</td>
+	 </tr>
+    <tr>
+	 <td align="center">75</td>
+	 <td align="center">0.405</td>
+    <td align="center">0.141</td>
+    <td align="center">0.828</td>
+    <td align="center">0.080</td>
+	 </tr>
+ </table>
+ <p></p>
+ <p style="text-indent:2em;text-align:justify;" >经对13个车间和露天栈桥的小车制动力实测数据进行分析，表明吊车制动轮与轨道之间的摩擦力足以传递小车制动时产生的制动力。小车制动力是由支承吊车的两边相应的承重结构共同承受，并不是TJ9—74规范中所认为的仅由一边轨道传递横向水平荷载。经对实测资料的统计分析，当两边柱的刚度相等时，小车制动力的横向分配系数多数为0.45/0.55，少数为0.4/0.6，个别为0.3/0.7，平均为0.474/0.526。为了计算方便，GBJ 9—87规范已建议吊车的横向水平荷载在两边轨道上平等分配，这个规定与欧美的规范也是一致的。</p>
+ 
+ 
+
+6.2 多台吊车的组合
+---------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify;" id="aaa"><a href="#id6.2.1">6.2.1</a> <span id="id6.2.1">设计厂房的吊车梁和排架时，考虑参与组合的吊车台数是根据所计算的结构构件能同时产生效应的吊车台数确定。它主要取决于柱距大小和厂房跨间的数量，其次是各吊车同时集聚在同一柱距范围内的可能性。根据实际观察，在同一跨度内，2台吊车以邻接距离运行的情况还是常见的，但3台吊车相邻运行却很罕见，即使发生，由于柱距所限，能产生影响的也只是2台。因此，对单跨厂房设计时最多考虑2台吊车。</span></p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">对多跨厂房，在同一柱距内同时出现超过2台吊车的机会增加。但考虑隔跨吊车对结构的影响减弱，为了计算上的方便，容许在计算吊车竖向荷载时，最多只考虑4台吊车。而在计算吊车水平荷载时，由于同时制动的机会很小，容许最多只考虑2台吊车。</p>
+ <p style="text-indent:2em;text-align:justify;">本次修订增加了双层吊车组合的规定；当下层吊车满载时，上层吊车只考虑空载的工况；当上层吊车满载时，下层吊车不应同时作业，不予考虑。</p>
+ <p style="text-align:justify;" id="aaa"><a href="#id6.2.2">6.2.2</a> <span id="id6.2.2">TJ9—74规范对吊车荷载，无论是由2台还是4台吊车引起的，都按同时满载，且其小车位置都按同时处于最不利的极限工作位置上考虑。根据在北京、上海、沈阳、鞍山、大连等地的实际观察调查，实际上这种最不利的情况是不可能出现的。对不同工作制的吊车，其吊车载荷有所不同，即不同吊车有各自的满载概率，而2台或4台同时满载，且小车又同时处于最不利位置的概率就更小。因此，本条文给出的折减系数是从概率的观点考虑多台吊车共同作用时的吊车荷载效应组合相对于最不利效应的折减。</span></p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">为了探讨多台吊车组合后的折减系数，在编制GBJ 68—84时，曾在全国3个地区9个机械工厂的机械加工、冲压、装配和铸造车间，对额定起重量为2t～50t的轻、中、重级工作制的57台吊车做了吊车竖向荷载的实测调查工作。根据所得资料，经整理并通过统计分析，根据分析结果表明，吊车荷载的折减系数与吊车工作的载荷状态有关，随吊车工作载荷状态由轻级到重级而增大；随额定起重量的增大而减小；同跨2台和相邻跨2台的差别不大。在对竖向吊车荷载分析结果的基础上，并参考国外规范的规定，本条文给出的折减系数值还是偏于保守的；并将此规定直接引用到横向水平荷载的折减。GB50009—2001修订时，在参与组合的吊车数量上，插入了台数为3的可能情况。</p>
+ <p style="text-indent:2em;text-align:justify;">双层吊车的吊车荷载折减系数可以参照单层吊车的规定采用。</p>
+
+6.3 吊车荷载的动力系数
+---------------------------------
+.. raw:: html
+
+ <p style="text-align:justify;" id="aaa"><a href="#id6.3.1">6.3.1</a> <span id="id6.3.1">吊车竖向荷载的动力系数，主要是考虑吊车在运行时对吊车梁及其连接的动力影响。根据调查了解，产生动力的主要因素是吊车轨道接头的高低不平和工件翻转时的振动。从少量实测资料来看，其量值都在1.2以内。TJ9—74规范对钢吊车梁取1.1，对钢筋混凝土吊车梁按工作制级别分别取1.1，1.2和1.3。在前苏联荷载规范CHMII6—74中，不分材料，仅对重级工作制的吊车梁取动力系数1.1。GBJ9—87修订时，主要考虑到吊车荷载分项系数统一按可变荷载分项系数1.4取值后，相对于以往的设计而言偏高，会影响吊车梁的材料用量。在当时对吊车梁的实际动力特性不甚清楚的前提下，暂时采用略为降低的值1.05和1.1，以弥补偏高的荷载分项系数。</span></p>
+ <p style="text-indent:2em;text-align:justify;">TJ9—74规范当时对横向水平荷载还规定了动力系数，以计算重级工作制的吊车梁上翼缘及其制动结构的强度和稳定性以及连接的强度，这主要是考虑在这类厂房中，吊车在实际运行过程中产生的水平卡轨力。产生卡轨力的原因主要在于吊车轨道不直或吊车行驶时的歪斜，其大小与吊车的制造、安装、调试和使用期间的维护等管理因素有关。在下沉的条件下，不应出现严重的卡轨现象，但实际上由于生产中难以控制的因素，尤其是硬钩吊车，经常产生较大的卡轨力，使轨道被严重啃蚀，有时还会造成吊车梁与柱连接的破坏。假如采用按吊车的横向制动力乘以所谓动力系数的方式来规定卡轨力，在概念上是不够清楚的。鉴于目前对卡轨力的产生机理、传递方式以及在正常条件下的统计规律还缺乏足够的认识，因此在取得更为系统的实测资料以前，还无法建立合理的计算模型，给出明确的设计规定。TJ9—74规范中关于这个问题的规定，已从本规范中撤销，由各结构设计规范和技术标准根据自身特点分别自行规定。</p>
+
+6.4 吊车荷载的组合值、频遇值及准永久值
+---------------------------------------------------
+
+.. raw:: html
+
+ 
+ <p style="text-align:justify;"><a href="#id6.4.2">6.4.2</a> <span id="id6.4.2">处于工作状态的吊车，一般很少会持续地停留在某一个位置上，所以在正常条件下，吊车荷载的作用都是短时间的。但当空载吊车经常被安置在指定的某个位置时，计算吊车梁的长期荷载效应可按本条文规定的准永久值采用。</span></p>
+
+:math:`\ `

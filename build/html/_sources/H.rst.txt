@@ -1,0 +1,659 @@
+附录H 横风向及扭转风振的等效风荷载
+=======================================
+
+.. raw:: html
+
+  <h2 id="test111">附录H 横风向及扭转风振的等效风荷载</h2>
+
+H.1 圆形截面结构横风向风振等效风荷载
+--------------------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify;"><a href="#idH.1.1">H.1.1</a> <span id="idH.1.1">跨临界强风共振引起在z高度处振型j的等效风荷载标准值可按下列规定确定：</span></p>
+ <ol>
+ <li style="text-align:justify;">等效风荷载标准值<i>w</i><sub>Lk,j</sub>（kN/㎡）可按下式计算：</li>
+ </ol>
+
+$$w_{Lk,j} =|λ_{j}|v_{cr}^{2} φ_{j} (z)/12800ξ_{j}\\tag{H.1.1-1}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>λ</i><sub>j</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">计算系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>v</i><sub>cr</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">临界风速，按本规范公式（8.5.3—2）计算；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>φ</i><sub>j</sub>(z)</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构的第j振型系数，由计算确定或按本规范附录G确定；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>ξ</i><sub>j</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构第j振型的阻尼比；对第1振型，钢结构取0.01，房屋钢结构取0.02，混凝土结构取0.05；对高阶振型的阻尼比，若无相关资料，可近似按第1振型的值取用。</td>
+ </tr>
+ </table>
+ <p></p>
+ <ol start="2">
+ <li style="text-align:justify;">临界风速起始点高度<i>H</i><sub>1</sub>可按下式计算：</li>
+ </ol>
+
+$$H_{1} =H × (\\frac{v_{cr}}{1.2v_{H}} )^\\frac{1}{α} \\tag{H.1.1-2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">α</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">地面粗糙度指数，对A、B、C和D四类地面粗糙度分别取0.12、0.15、0.22和0.30；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>v</i><sub>H</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构顶部风速（m/s），按本规范公式（8.5.3—3）计算。</td>
+ </tr>
+ </table>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs"><font size="2">注：</td>
+ <td width="650px" align='left' id="eqzs"><font size="2">横风向风振等效风荷载所考虑的高阶振型序号不大于4，对一般悬臂型结构，可只取第1或第2阶振型。</td>
+ </tr>
+ </table>
+ <p></p>
+ <ol start="3">
+ <li style="text-align:justify;">计算系数λ，可按<a href="#BH.1.1">表H.1.1</a>采用。</li>
+ </ol>
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+ </style>
+ <table id="biaoge" style="font-family:times new roman">
+    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#BH.1.1">表H.1.1 <i>λ</i><sub>j</sub>计算用表</b></caption>	    
+		<tr>
+		   <td width="75px" align="center" rowspan="2" id="bgcz">结构类型</td> 
+       <td width="75px" align="center" rowspan="2" id="bgcz">振型序号</td>
+       <td width="550px" align="center" colspan="11"><i>H</i><sub>1</sub>/H</td>
+		</tr>
+    <tr>
+       <td width="50px" align="center">0</td>
+       <td width="50px" align="center">0.1</td>
+       <td width="50px" align="center">0.2</td>
+       <td width="50px" align="center">0.3</td>
+       <td width="50px" align="center">0.4</td>
+       <td width="50px" align="center">0.5</td>
+       <td width="50px" align="center">0.6</td>
+       <td width="50px" align="center">0.7</td>
+       <td width="50px" align="center">0.8</td>
+       <td width="50px" align="center">0.9</td>
+       <td width="50px" align="center">1.0</td>
+		</tr>
+    <tr>
+       <td align="center" rowspan="4" id="bgcz">高耸结构</td> 
+		   <td align="center">1</td>
+       <td align="center">1.56</td>
+       <td align="center">1.55</td>
+       <td align="center">1.54</td>
+       <td align="center">1.49</td>
+       <td align="center">1.42</td>
+       <td align="center">1.31</td>
+       <td align="center">1.15</td>
+       <td align="center">0.94</td>
+       <td align="center">0.68</td>
+       <td align="center">0.37</td>
+       <td align="center">0</td>
+		</tr>
+    <tr>
+		   <td align="center">2</td>
+       <td align="center">0.83</td>
+       <td align="center">0.82</td>
+       <td align="center">0.76</td>
+       <td align="center">0.60</td>
+       <td align="center">0.37</td>
+       <td align="center">0.09</td>
+       <td align="center">-0.16</td>
+       <td align="center">-0.33</td>
+       <td align="center">-0.38</td>
+       <td align="center">-0.27</td>
+       <td align="center">0</td>
+		</tr>
+    <tr>
+		   <td align="center">3</td>
+       <td align="center">0.52</td>
+       <td align="center">0.48</td>
+       <td align="center">0.32</td>
+       <td align="center">0.06</td>
+       <td align="center">-0.19</td>
+       <td align="center">-0.30</td>
+       <td align="center">-0.21</td>
+       <td align="center">0.00</td>
+       <td align="center">0.20</td>
+       <td align="center">0.23</td>
+       <td align="center">0</td>
+		</tr>
+    <tr>
+		   <td align="center">4</td>
+       <td align="center">0.30</td>
+       <td align="center">0.33</td>
+       <td align="center">0.02</td>
+       <td align="center">-0.20</td>
+       <td align="center">-0.23</td>
+       <td align="center">0.03</td>
+       <td align="center">0.16</td>
+       <td align="center">0.15</td>
+       <td align="center">-0.05</td>
+       <td align="center">-0.18</td>
+       <td align="center">0</td>
+		</tr>
+    <tr>
+       <td align="center" rowspan="2" id="bgcz">高层建筑</td> 
+		   <td align="center">1</td>
+       <td align="center">1.56</td>
+       <td align="center">1.56</td>
+       <td align="center">1.54</td>
+       <td align="center">1.49</td>
+       <td align="center">1.41</td>
+       <td align="center">1.28</td>
+       <td align="center">1.12</td>
+       <td align="center">0.91</td>
+       <td align="center">0.65</td>
+       <td align="center">0.35</td>
+       <td align="center">0</td>
+		</tr>
+    <tr>
+		   <td align="center">2</td>
+       <td align="center">0.73</td>
+       <td align="center">0.72</td>
+       <td align="center">0.63</td>
+       <td align="center">0.45</td>
+       <td align="center">0.19</td>
+       <td align="center">-0.11</td>
+       <td align="center">-0.36</td>
+       <td align="center">-0.52</td>
+       <td align="center">-0.53</td>
+       <td align="center">-0.36</td>
+       <td align="center">0</td>
+		</tr>
+ </table>
+ <p></p>
+
+ 
+
+H.2 矩形截面结构横风向风振等效风荷载
+-------------------------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify;"><a href="#idH.2.1">H.2.1</a> <span id="idH.2.1">矩形截面高层建筑当满足下列条件时，可按本节的规定确定其横风向风振等效风荷载：</span></p>
+ <ol>
+ <li style="text-align:justify;">建筑的平面形状和质量在整个高度范围内基本相同；</li>
+ <li style="text-align:justify;">高宽比H/<math><msqrt><mi>B</mi><mi>D</mi></msqrt></math>在4～8之间，深宽比D/B在0.5～2之间，其中B为结构的迎风面宽度，D为结构平面的进深（顺风向尺寸）；</li>
+ <li style="text-align:justify;"><i>v</i><sub>H</sub><i>T</i><sub>L1</sub>/<math><msqrt><mi>B</mi><mi>D</mi></msqrt></math>≤10，<i>T</i><sub>L1</sub>为结构横风向第1阶自振周期，<i>v</i><sub>H</sub>为结构顶部风速。</li>
+ </ol>
+ <p style="text-align:justify;"><a href="#idH.2.2">H.2.2</a> <span id="idH.2.2">矩形截面高层建筑横风向风振等效风荷载标准值可按下式计算：</span></p>
+
+$$w_{Lk} =g w_{0}μ_{z}C_{L}^{'} \\sqrt{1+R_{L}^{2} }  \\tag{H.2.2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>w</i><sub>Lk</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">横风向风振等效风荷载标准值（kN/㎡），计算横风向风力时应乘以迎风面的面积；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">g</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">峰值因子，可取2.5；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><math><msubsup><mi>C</mi><mrow><mi>L</mi></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风力系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>R</i><sub>L</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向共振因子。</td>
+ </tr>
+ </table>
+ <p></p>
+
+.. raw:: html
+
+ <p style="text-align:justify;"><a href="#idH.2.3">H.2.3</a> <span id="idH.2.3">横风向风力系数可按下列公式计算：</span></p>
+
+$$C_{L}^{'} =(2+2α)C_{m}μ_{z}γ_{CM}  \\tag{H.2.3-1}$$
+
+$$γ_{CM} =C_{R}-0.019(\\frac{D}{B} )^{-2.54}  \\tag{H.2.3-2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>C</i><sub>m</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">横风向风力角沿修正系数，可按本附录第H.2.5条的规定采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">α</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风速剖面指数，对应A、B、C和D类粗糙度分别取0.12、0.15、0.22和0.30；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>C</i><sub>R</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">地面粗糙度系数，对应A、B、C和D类粗糙度分别取0.236、0.211、0.202和0.197。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p style="text-align:justify;"><a href="#idH.2.4">H.2.4</a> <span id="idH.2.4">横风向共振因子可按下列规定确定：</span></p>
+ <ol>
+ <li style="text-align:justify;">横风向共振因子<i>R</i><sub>1</sub>可按下列公式计算：</li>
+ </ol>
+
+$$R_{L} =K_{L}\\sqrt{\\frac{πS_{F_{L}}C_{sm}/γ_{CM}^{2}}{4(ξ_{1}+ξ_{a1})} }   \\tag{H.2.4-1}$$
+
+$$K_{L} = \\frac{1.4}{(\\alpha +0.95)C_{m}} ·(\\frac{z}{H} )^{-2\\alpha +0.9} \\tag{H.2.4-2}$$
+
+$$ ξ_{a1} = \\frac{0.0025(1-T_{L1}^{ * 2 })T_{L1}^{ * }+0.000125T_{L1}^{ * 2 }}{(1-T_{L1}^{* 2})^{2}+0.029T_{L1}^{* 2}}  \\tag{H.2.4-3} $$
+
+$$T_{L1}^{*} = \\frac{v_{H}T_{L1}}{9.8B}  \\tag{H.2.4-4}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>S</i><sub><i>F</i><sub>L</sub></sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">无量纲横风向广义风力功率谱；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>C</i><sub>sm</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风力功率谱的角沿修正系数，可按本附录第H.2.5条的规定采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>ξ</i><sub>1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构第1阶振型阻尼比；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>K</i><sub>L</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">振型修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>ξ</i><sub>a1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构横风向第1阶振型气动阻尼比；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><math><msubsup><mi>T</mi><mrow><mi>L</mi><mn>1</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">折算周期。</td>
+ </tr>
+ </table>
+ <p></p>
+ <ol start="2">
+ <li style="text-align:justify;">无量纲横风向广义风力功率谱<i>S</i><sub><i>F</i><sub>L</sub></sub>，可根据深宽比D/B和折算频率<math><msubsup><mi>f</mi><mrow><mi>L</mi><mn>1</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math>按<a href="#imageH241">图H.2.4</a>确定。折算频率<math><msubsup><mi>f</mi><mrow><mi>L</mi><mn>1</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math>按下式计算：</li>
+ </ol>
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="imageH241" src="./_static/H241.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图H.2.4 无量纲横风向广义风力功率谱（一）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('imageH241'));</script>
+
+ <div><img id="imageH242" src="./_static/H242.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图H.2.4 无量纲横风向广义风力功率谱（二）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('imageH242'));</script>
+
+$$f_{L1}^{*} = f_{L1}B/v  \\tag{H.2.4-5}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>f</i><sub>L1</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">结构横风向第1阶振型的频率（Hz）。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p style="text-align:justify;"><a href="#idH.2.5">H.2.5</a> <span id="idH.2.5">角沿修正系数<i>C</i><sub>m</sub>和<i>C</i><sub>sm</sub>可按下列规定确定：</span></p>
+ <ol>
+ <li style="text-align:justify;">对于横截面为标准方形或矩形的高层建筑，<i>C</i><sub>m</sub>和<i>C</i><sub>sm</sub>取1.0;</li>
+ <li style="text-align:justify;">对于图H.2.5所示的削角或凹角矩形截面，横风向风力系数的角沿修正系数<i>C</i><sub>m</sub>可按下式计算：</li>
+ <p ><font size="2"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mtable displaystyle="true"><mlabeledtr><mtd id="mjx-eqn-H.2.5"><mtext>(H.2.5)</mtext></mtd><mtd><msub><mi>C</mi><mrow><mi>m</mi></mrow></msub><mo>=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mtable columnalign="left left" columnspacing="1em" rowspacing=".2em"><mtr><mtd></mtd><mtd><mn>1.00</mn><mo>−</mo><mn>81.6</mn><mo stretchy="false">(</mo><mfrac><mi>b</mi><mi>B</mi></mfrac><msup><mo stretchy="false">)</mo><mrow><mn>1.5</mn></mrow></msup><mo>+</mo><mn>301</mn><mo stretchy="false">(</mo><mfrac><mi>b</mi><mi>B</mi></mfrac><msup><mo stretchy="false">)</mo><mrow><mn>2</mn></mrow></msup><mo>−</mo><mn>290</mn><mo stretchy="false">(</mo><mfrac><mi>b</mi><mi>B</mi></mfrac><msup><mo stretchy="false">)</mo><mrow><mn>2.5</mn></mrow></msup></mtd><mtd><mn>0.05</mn><mo>≤</mo><mi>b</mi><mrow><mo>/</mo></mrow><mi>B</mi><mo>≤</mo><mn>0.2</mn></mtd><mtd><mtext>凹角</mtext></mtd></mtr><mtr><mtd></mtd><mtd><mn>1.00</mn><mo>−</mo><mn>2.05</mn><mo stretchy="false">(</mo><mfrac><mi>b</mi><mi>B</mi></mfrac><msup><mo stretchy="false">)</mo><mrow><mn>0.5</mn></mrow></msup><mo>+</mo><mn>24</mn><mo stretchy="false">(</mo><mfrac><mi>b</mi><mi>B</mi></mfrac><msup><mo stretchy="false">)</mo><mrow><mn>1.5</mn></mrow></msup><mo>−</mo><mn>36.8</mn><mo stretchy="false">(</mo><mfrac><mi>b</mi><mi>B</mi></mfrac><msup><mo stretchy="false">)</mo><mrow><mn>2</mn></mrow></msup></mtd><mtd><mn>0.05</mn><mo>≤</mo><mi>b</mi><mrow><mo>/</mo></mrow><mi>B</mi><mo>≤</mo><mn>0.2</mn></mtd><mtd><mtext>削角</mtext></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE" fence="true" stretchy="true" symmetric="true"></mo></mrow></mtd></mlabeledtr></mtable></math></p>
+ </ol>
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">b</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">削角或凹角修正尺寸（m）（<a href="#imageH25">图H.2.5</a>）。</td>
+ </tr>
+ </table>
+ <p></p>
+ <div><img id="imageH25" src="./_static/H25.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图H.2.5 截面削角和凹角示意图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('imageH25'));</script>
+ <ol start="3">
+ <li style="text-align:justify;"><font size="3">对于图H.2.5所示的削角或凹角矩形截面，横风向广义风力功率谱的角沿修正系数<i>C</i><sub>sm</sub>可按<a href="#BH.2.5">表H.2.5</a>取值。</li>
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#BH.2.5">表H.2.5 横风向广义风力功率谱的角沿修正系数<i>C</i><sub>sm</sub></b></caption>	    
+		<tr>
+		   <td width="100px" align="center" rowspan="2" id="bgcz">角沿情况</td> 
+       <td width="150px" align="center" rowspan="2" id="bgcz">地面粗糙度类别</td>
+       <td width="100px" align="center" rowspan="2" id="bgcz">b/B</td>
+       <td width="350px" align="center" colspan="7">折减频率<math><msubsup><mi>f</mi><mrow><mi>L</mi><mn>1</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math></td>
+		</tr>
+    <tr>
+       <td width="50px" align="center">0.100</td>
+       <td width="50px" align="center">0.125</td>
+       <td width="50px" align="center">0.150</td>
+       <td width="50px" align="center">0.175</td>
+       <td width="50px" align="center">0.200</td>
+       <td width="50px" align="center">0.225</td>
+       <td width="50px" align="center">0.250</td>
+		</tr>
+    <tr>
+       <td align="center" rowspan="6" id="bgcz">削角</td> 
+       <td align="center" rowspan="3" id="bgcz">B类</td> 
+		   <td align="center">5%</td>
+       <td align="center">0.183</td>
+       <td align="center">0.905</td>
+       <td align="center">1.2</td>
+       <td align="center">1.2</td>
+       <td align="center">1.2</td>
+       <td align="center">1.2</td>
+       <td align="center">1.1</td>
+		</tr>
+    <tr>
+		   <td align="center">10%</td>
+       <td align="center">0.070</td>
+       <td align="center">0.349</td>
+       <td align="center">0.568</td>
+       <td align="center">0.653</td>
+       <td align="center">0.684</td>
+       <td align="center">0.670</td>
+       <td align="center">0.653</td>
+		</tr>
+    <tr>
+		   <td align="center">20%</td>
+       <td align="center">0.106</td>
+       <td align="center">0.902</td>
+       <td align="center">0.953</td>
+       <td align="center">0.819</td>
+       <td align="center">0.743</td>
+       <td align="center">0.667</td>
+       <td align="center">0.626</td>
+		</tr>
+    <tr> 
+       <td align="center" rowspan="3" id="bgcz">D类</td> 
+		   <td align="center">5%</td>
+       <td align="center">0.368</td>
+       <td align="center">0.749</td>
+       <td align="center">0.922</td>
+       <td align="center">0.955</td>
+       <td align="center">0.943</td>
+       <td align="center">0.917</td>
+       <td align="center">0.897</td>
+		</tr>
+    <tr>
+		   <td align="center">10%</td>
+       <td align="center">0.256</td>
+       <td align="center">0.504</td>
+       <td align="center">0.659</td>
+       <td align="center">0.706</td>
+       <td align="center">0.713</td>
+       <td align="center">0.697</td>
+       <td align="center">0.686</td>
+		</tr>
+    <tr>
+		   <td align="center">20%</td>
+       <td align="center">0.339</td>
+       <td align="center">0.974</td>
+       <td align="center">0.977</td>
+       <td align="center">0.894</td>
+       <td align="center">0.841</td>
+       <td align="center">0.805</td>
+       <td align="center">0.790</td>
+		</tr>
+    <tr>
+       <td align="center" rowspan="6" id="bgcz">凹角</td> 
+       <td align="center" rowspan="3" id="bgcz">B类</td> 
+		   <td align="center">5%</td>
+       <td align="center">0.106</td>
+       <td align="center">0.595</td>
+       <td align="center">0.980</td>
+       <td align="center">1.0</td>
+       <td align="center">1.0</td>
+       <td align="center">1.0</td>
+       <td align="center">1.0</td>
+		</tr>
+    <tr>
+		   <td align="center">10%</td>
+       <td align="center">0.033</td>
+       <td align="center">0.228</td>
+       <td align="center">0.450</td>
+       <td align="center">0.565</td>
+       <td align="center">0.610</td>
+       <td align="center">0.604</td>
+       <td align="center">0.594</td>
+		</tr>
+    <tr>
+		   <td align="center">20%</td>
+       <td align="center">0.042</td>
+       <td align="center">0.842</td>
+       <td align="center">0.563</td>
+       <td align="center">0.451</td>
+       <td align="center">0.421</td>
+       <td align="center">0.400</td>
+       <td align="center">0.400</td>
+		</tr>
+    <tr> 
+       <td align="center" rowspan="3" id="bgcz">D类</td> 
+		   <td align="center">5%</td>
+       <td align="center">0.267</td>
+       <td align="center">0.586</td>
+       <td align="center">0.839</td>
+       <td align="center">0.955</td>
+       <td align="center">0.987</td>
+       <td align="center">0.991</td>
+       <td align="center">0.984</td>
+		</tr>
+    <tr>
+		   <td align="center">10%</td>
+       <td align="center">0.097</td>
+       <td align="center">0.261</td>
+       <td align="center">0.452</td>
+       <td align="center">0.567</td>
+       <td align="center">0.613</td>
+       <td align="center">0.633</td>
+       <td align="center">0.628</td>
+		</tr>
+    <tr>
+		   <td align="center">20%</td>
+       <td align="center">0.169</td>
+       <td align="center">0.954</td>
+       <td align="center">0.659</td>
+       <td align="center">0.527</td>
+       <td align="center">0.475</td>
+       <td align="center">0.447</td>
+       <td align="center">0.453</td>
+		</tr>
+ </table>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs"><font size="2">注：</td>
+ <td width="650px" align='left' id="eqzs"><font size="2">1 A类地面粗糙度的<i>C</i><sub>sm</sub>可按B类取值；</td>
+ </tr>
+ <tr>
+ <td width="50px" align='right' id="eqzs"><font size="2"></td>
+ <td width="650px" align='left' id="eqzs"><font size="2">2 C类地面粗糙度的<i>C</i><sub>sm</sub>可按B类和D类插值取用。</td>
+ </tr>
+ </table>
+ <p></p>
+
+
+H.3 矩形截面结构扭转风振等效风荷载
+-----------------------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify;"><a href="#idH.3.1">H.3.1</a> <span id="idH.3.1">矩形截面高层建筑当满足下列条件时，可按本节的规定确定其扭转风振等效风荷载：</span></p>
+ <ol>
+ <li style="text-align:justify;">建筑的平面形状在整个高度范围内基本相同；</li>
+ <li style="text-align:justify;">刚度及质量的偏心率（偏心距/回转半径）小于0.2；</li>
+ <li style="text-align:justify;"><math><mfrac><mi>H</mi><msqrt><mi>B</mi><mi>D</mi></msqrt></mfrac></math>≤6，D/B在1.5～5范围内，<math><mfrac><mrow><msub><mi>T</mi><mrow><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub></mrow></msub><msub><mi>v</mi><mrow><mi>H</mi></mrow></msub></mrow><msqrt><mi>B</mi><mi>D</mi></msqrt></mfrac></math>≤6，其中<i>T</i><sub><i>T</i><sub>1</sub></sub>为结构第1阶扭转振型的周期（s），应按结构动力计算确定。</li>
+ </ol>
+ <p style="text-align:justify;"><a href="#idH.3.2">H.3.2</a> <span id="idH.3.2">矩形截面高层建筑扭转风振等效风荷载标准值可按下式计算：</span></p>
+
+$$w_{Tk} =1.8g w_{0}μ_{H}C_{T}^{'} (\\frac{z}{H} )^{0.9}\\sqrt{1+R_{T}^{2} }  \\tag{H.3.2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>w</i><sub>Tk</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">扭转风振等效风荷载标准值（kN/㎡），扭矩计算应乘以迎风面面积和宽度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>μ</i><sub>H</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构顶部风压高度变化系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">g</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">峰值因子，可取2.5；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><math><msubsup><mi>C</mi><mrow><mi>T</mi></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风致扭矩系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>R</i><sub>T</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">扭转共振因子。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p style="text-align:justify;"><a href="#idH.3.3">H.3.3</a> <span id="idH.3.3">风致扭矩系数可按下式计算：</span></p>
+
+$$C_{T}^{'} =\\left \\{ 0.0066+0.015(D/B)^{2}\\right \\} ^{0.78}\\tag{H.3.3}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;"><a href="#idH.3.4">H.3.4</a> <span id="idH.3.4">扭转共振因子可按下列规定确定：</span></p>
+ <ol>
+ <li style="text-align:justify;">扭转共振因子可按下列公式计算：</li>
+ </ol>
+
+$$R_{T} =K_{T}\\sqrt{\\frac{πF_{T}}{4ξ_{1}} } \\tag{H.3.4-1}$$
+
+$$K_{T} =\\frac{(B^{2}+D^{2})}{20r^{2}} (\\frac{z}{H} )^{-0.1} \\tag{H.3.4-2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>F</i><sub>T</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">扭矩谱能量因子；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>K</i><sub>T</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">扭转振型修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">r</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构的回转半径（m）。</td>
+ </tr>
+ </table>
+ <p></p>
+ <ol start="2">
+ <li style="text-align:justify;">扭矩谱能量因子<i>F</i><sub>T</sub>可根据深宽比D/B和扭转折算频率<math><msubsup><mi>f</mi><mrow><mi>T</mi><mn>1</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math>按<a href="#imageH34">图H.3.4</a>确定。扭转折算频率<math><msubsup><mi>f</mi><mrow><mi>T</mi><mn>1</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math>按下式计算：</li>
+ </ol>
+
+$$f_{T1}^{ * } =\\frac{f_{T1}\\sqrt{BD} }{v_{H}}  \\tag{H.3.4-3}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>f</i><sub>T1</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">结构第1阶扭转自振频率（Hz）。</td>
+ </tr>
+ </table>
+ <p></p>
+ <div><img id="imageH34" src="./_static/H34.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图H.3.4 扭矩谱能量因子</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('imageH34'));</script>
+
+:math:`\ `

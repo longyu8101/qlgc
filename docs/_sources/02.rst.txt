@@ -1,0 +1,22 @@
+2 术语和符号
+=================
+
+.. raw:: html
+
+  <h2 id="test111">2 术语和符号</h2>
+
+  <p style="text-indent:2em;text-align:justify;">术语和符号是根据现行国家标准《工程结构设计基本术语和通用符号》GBJ 132、《建筑结构设计术语和符号标准》GB／T50083的规定，并结合本规范的具体情况给出的。</p>
+  <p style="text-indent:2em;text-align:justify;">本次修订在保持原有术语符号基本不变的情况下，增加了与温度作用相关的术语，如温度作用、气温、基本气温、均匀温度以及初始温度等，增加了横风向与扭转风振、温度作用以及偶然荷载相关的符号。</p>
+
+
+.. raw:: html
+
+    <style>
+        #abc{
+            height:600px;
+            background-color: #f0ffff;
+        }
+    </style>
+ <body>
+    <div id="abc"></div>
+ </body>

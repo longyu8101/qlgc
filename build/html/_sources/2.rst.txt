@@ -1,0 +1,620 @@
+2 术语和符号
+=================
+
+.. raw:: html
+
+  <h2 id="test111">2 术语和符号</h2>
+
+
+2.1 术语
+--------------------
+
+.. raw:: html
+
+ <p id="aaa"><a href="#id2.1.1"> 2.1.1</a> <span id="id2.1.1">永久荷载 permanent load</span></p>
+ <p style="text-indent:2em;">在结构使用期间，其值不随时间变化，或其变化与平均值相比可以忽略不计，或其变化是单调的并能趋于限值的荷载。</p>
+ 
+ <p id="aaa"><a href="#id2.1.2"> 2.1.2</a> <span id="id2.1.2"> 可变荷载 variable load</span></p>
+ <p style="text-indent:2em;">在结构使用期间，其值随时间变化，且其变化与平均值相比不可以忽略不计的荷载。</p>
+
+ <p id="aaa"><a href="#id2.1.3"> 2.1.3</a> <span id="id2.1.3">偶然荷载 accidental load</span></p>
+ <p style="text-indent:2em;">在结构设计使用年限内不一定出现，而一旦出现其量值很大，且持续时间很短的荷载。</p>
+
+ <p id="aaa"><a href="#id2.1.4"> 2.1.4</a> <span id="id2.1.4">荷载代表值 representative values of a load</span></p>
+ <p style="text-indent:2em;">设计中用以验算极限状态所采用的荷载量值，例如标准值、组合值、频遇值和准永久值。</p>
+
+ <p id="aaa"><a href="#id2.1.5"> 2.1.5</a> <span id="id2.1.5">设计基准期 design reference period</span></p>
+ <p style="text-indent:2em;">为确定可变荷载代表值而选用的时间参数。</p>
+
+ <p id="aaa"><a href="#id2.1.6"> 2.1.6</a> <span id="id2.1.6">标准值 characteristic value/nominal value</span></p>
+ <p style="text-indent:2em;">荷载的基本代表值，为设计基准期内最大荷载统计分布的特征值（例如均值、众值、中值或某个分位值）。</p>
+
+ <p id="aaa"><a href="#id2.1.7"> 2.1.7</a> <span id="id2.1.7">组合值 combination value</span></p>
+ <p style="text-indent:2em;">对可变荷载，使组合后的荷载效应在设计基准期内的超越概率，能与该荷载单独出现时的相应概率趋于一致的荷载值；或使组合后的结构具有统一规定的可靠指标的荷载值。</p>
+
+ <p id="aaa"><a href="#id2.1.8"> 2.1.8</a> <span id="id2.1.8">频遇值 frequent value</span></p>
+ <p style="text-indent:2em;">对可变荷载，在设计基准期内，其超越的总时间为规定的较小比率或超越频率为规定频率的荷载值。</p>
+
+ <p id="aaa"><a href="#id2.1.9"> 2.1.9</a> <span id="id2.1.9">准永久值 quasi-permanent value</span></p>
+ <p style="text-indent:2em;">对可变荷载，在设计基准期内，其超越的总时间约为设计基准期一半的荷载值。</p>
+
+ <p id="aaa"><a href="#id2.1.10"> 2.1.10</a> <span id="id2.1.10">荷载设计值 design value of a load</span></p>
+ <p style="text-indent:2em;">荷载代表值与荷载分项系数的乘积。</p>
+
+ <p id="aaa"><a href="#id2.1.11"> 2.1.11</a> <span id="id2.1.11">荷载效应 load effect</span></p>
+ <p style="text-indent:2em;">由荷载引起结构或结构构件的反应，例如内力、变形和裂缝等。</p>
+
+ <p id="aaa"><a href="#id2.1.12"> 2.1.12</a> <span id="id2.1.12">荷载组合 load combination</span></p>
+ <p style="text-indent:2em;">按极限状态设计时，为保证结构的可靠性而对同时出现的各种荷载设计值的规定。</p>
+
+ <p id="aaa"><a href="#id2.1.13"> 2.1.13</a> <span id="id2.1.13">基本组合 fundamental combination</span></p>
+ <p style="text-indent:2em;">承载能力极限状态计算时，永久荷载和可变荷载的组合。</p>
+
+ <p id="aaa"><a href="#id2.1.14"> 2.1.14</a> <span id="id2.1.14">偶然组合 accidental combination</span></p>
+ <p style="text-indent:2em;">承载能力极限状态计算时永久荷载、可变荷载和一个偶然荷载的组合，以及偶然事件发生后受损结构整体稳固性验算时永久荷载与可变荷载的组合。</p>
+
+ <p id="aaa"><a href="#id2.1.15"> 2.1.15</a> <span id="id2.1.15">标准组合 characteristic/nominal combination</span></p>
+ <p style="text-indent:2em;">正常使用极限状态计算时，采用标准值或组合值为荷载代表值的组合。</p>
+
+ <p id="aaa"><a href="#id2.1.16"> 2.1.16</a> <span id="id2.1.16">频遇组合 frequent combination</span></p>
+ <p style="text-indent:2em;">正常使用极限状态计算时，对可变荷载采用频遇值或准永久值为荷载代表值的组合。</p>
+
+ <p id="aaa"><a href="#id2.1.17"> 2.1.17</a> <span id="id2.1.17">准永久组合 quasi-permanent combination</span></p>
+ <p style="text-indent:2em;">正常使用极限状态计算时，对可变荷载采用准永久值为荷载代表值的组合。</p>
+
+ <p id="aaa"><a href="#id2.1.18"> 2.1.18</a> <span id="id2.1.18">等效均布荷载 equivalent uniform live load</span></p>
+ <p style="text-indent:2em;">结构设计时，楼面上不连续分布的实际荷载，一般采用均布荷载代替；等效均布荷载系指其在结构上所得的荷载效应能与实际的荷载效应保持一致的均布荷载。</p>
+
+ <p id="aaa"><a href="#id2.1.19"> 2.1.19</a> <span id="id2.1.19">从属面积 tributary area</span></p>
+ <p style="text-indent:2em;">考虑梁、柱等构件均布荷载折减所采用的计算构件负荷的楼面面积。</p>
+
+ <p id="aaa"><a href="#id2.1.20"> 2.1.20</a> <span id="id2.1.20">动力系数 dynamic coefficient</span></p>
+ <p style="text-indent:2em;">承受动力荷载的结构或构件，当按静力设计时采用的等效系数，其值为结构或构件的最大动力效应与相应的静力效应的比值。</p>
+
+ <p id="aaa"><a href="#id2.1.21"> 2.1.21</a> <span id="id2.1.21">基本雪压 reference snow pressure</span></p>
+ <p style="text-indent:2em;">雪荷载的基准压力，一般按当地空旷平坦地面上积雪自重的观测数据，经概率统计得出50年一遇最大值确定。</p>
+
+ <p id="aaa"><a href="#id2.1.22"> 2.1.22</a> <span id="id2.1.22">基本风压 reference wind pressure</span></p>
+ <p style="text-indent:2em;text-align:justify;">风荷载的基准压力，一般按当地空旷平坦地面上10m高度处10min平均的风速观测数据，经概率统计得出50年一遇最大值确定的风速，再考虑相应的空气密度，按贝努利（Bernoulli）公式（E．2.4）确定的风压。</p>
+
+ <p id="aaa"><a href="#id2.1.23"> 2.1.23</a> <span id="id2.1.23">地面粗糙度 terrain roughness</span></p>
+ <p style="text-indent:2em;">风在到达结构物以前吹越过2km范围内的地面时，描述该地面上不规则障碍物分布状况的等级。</p>
+
+ <p id="aaa"><a href="#id2.1.24"> 2.1.24</a> <span id="id2.1.24"> 温度作用 thermal action</span></p>
+ <p style="text-indent:2em;">结构或结构构件中由于温度变化所引起的作用。</p>
+
+ <p id="aaa"><a href="#id2.1.25"> 2.1.25</a> <span id="id2.1.25">气温 shade air temperature</span></p>
+ <p style="text-indent:2em;">在标准百叶箱内测量所得按小时定时记录的温度。</p>
+
+ <p id="aaa"><a href="#id2.1.26"> 2.1.26</a> <span id="id2.1.26">基本气温 reference air temperature</span></p>
+ <p style="text-indent:2em;">气温的基准值，取50年一遇月平均最高气温和月平均最低气温，根据历年最高温度月内最高气温的平均值和最低温度月内最低气温的平均值经统计确定。</p>
+
+ <p id="aaa"><a href="#id2.1.27"> 2.1.27</a> <span id="id2.1.27">均匀温度 uniform temperature</span></p>
+ <p style="text-indent:2em;">在结构构件的整个截面中为常数且主导结构构件膨胀或收缩的温度。</p>
+
+ <p id="aaa"><a href="#id2.1.28"> 2.1.28</a> <span id="id2.1.28">初始温度 initial temperature</span></p>
+ <p style="text-indent:2em;">结构在施工某个特定阶段形成整体约束的结构系统时的温度，也称合拢温度。</p>
+
+ 
+
+
+
+2.2 符号
+-------------------------------
+
+.. raw:: html
+
+ <p><a href="#id2.2.1"> 2.2.1</a> <span id="id2.2.1">荷载代表值及荷载组合</span></p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="30px" id="eqzs"></td>
+ <td width="30px" align='right' id="eqzs"><i>A</i><sub>d</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">偶然荷载的标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>C</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构或构件达到正常使用要求的规定限值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>G</i><sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">永久荷载的标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>Q</i><sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载的标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>R</i><sub>d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构构件抗力的设计值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub><i>A</i><sub>d</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">偶然荷载效应的标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub><i>G</i><sub>k</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">永久荷载效应的标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub><i>Q</i><sub>k</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载效应的标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub>d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">荷载效应组合设计值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>γ</i><sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构重要性系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>γ</i><sub>G</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">永久荷载的分项系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>γ</i><sub>Q</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载的分项系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>γ</i><sub><i>L</i><sub>j</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载考虑设计使用年限的调整系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>ψ</i><sub>c</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载的组合值系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>ψ</i><sub>f</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载的频遇值系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>ψ</i><sub>q</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">可变荷载的准永久值系数。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p><a href="#id2.2.2"> 2.2.2</a> <span id="id2.2.2">雪荷载及风荷载</span></p>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="30px" id="eqzs"></td>
+ <td width="50px" align='right' id="eqzs"><i>a</i><sub>D,z</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">高层建筑z高度顺风向风振加速度（m/<i>s</i><sup>2</sup>）；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>a</i><sub>L,z</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">高层建筑z高度横风向风振加速度（m/<i>s</i><sup>2</sup>）；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>B</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构迎风面宽度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>B</i><sub>z</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">脉动风荷载的背景分量因子；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><math xmlns='http://www.w3.org/1998/Math/MathML'><msubsup><mrow><mi> C </mi></mrow><mrow><mi> L </mi></mrow><mrow><mn>＇</mn></mrow></msubsup></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风力系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><math xmlns='http://www.w3.org/1998/Math/MathML'><msubsup><mrow><mi> C </mi></mrow><mrow><mi> T </mi></mrow><mrow><mn>＇</mn></mrow></msubsup></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风致扭矩系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>C</i><sub>m</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风力的角沿修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>C</i><sub>sm</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风力功率谱的角沿修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>D</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构平面进深（顺风向尺寸）或直径；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>f</i><sub>1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构第1阶自振频率；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>f</i><sub>T1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构第1阶扭转自振频率；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><math xmlns='http://www.w3.org/1998/Math/MathML'><msubsup><mrow><mi> f </mi></mrow><mrow><mi> 1 </mi></mrow><mrow><mn>*</mn></mrow></msubsup></math></td></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">折算频率；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><math xmlns='http://www.w3.org/1998/Math/MathML'><msubsup><mrow><mi> f </mi></mrow><mrow><mi> T1 </mi></mrow><mrow><mn>*</mn></mrow></msubsup></math></td></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">扭转折算频率；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>F</i><sub>Dk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">顺风向单位高度风力标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>F</i><sub>Lk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向单位高度风力标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>T</i><sub>Tk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">单位高度风致扭矩标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>g</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">重力加速度，或峰值因子；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>H</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构或山峰顶部高度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>I</i><sub>10</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">10m高度处风的名义湍流强度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>K</i><sub>L</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向振型修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>K</i><sub>T</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">扭转振型修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>R</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">脉动风荷载的共振分量因子；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>R</i><sub>L</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风振共振因子；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>R</i><sub>T</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">扭转风振共振因子；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>R</i><sub>e</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">雷诺数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub>t</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">斯脱罗哈数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">雪荷载标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>S</i><sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">基本雪压；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>T</i><sub>1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构第1阶自振周期；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>T</i><sub>L1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构横风向第1阶自振周期；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>T</i><sub>T1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构扭转第1阶自振周期；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>w</i><sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">基本风压；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>w</i><sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风荷载标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>w</i><sub>Lk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向风振等效风荷载标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>w</i><sub>Tk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">扭转风振等效风荷载标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>α</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">坡度角，或风速剖面指数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>β</i><sub>z</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">高度z处的风振系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>β</i><sub>gz</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">阵风系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>v</i><sub>cr</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向共振的临界风速；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>v</i><sub>H</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构顶部风速；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>μ</i><sub>r</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">屋面积雪分布系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>μ</i><sub>z</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风压高度变化系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>μ</i><sub>s</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风荷载体型系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>μ</i><sub>sl</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风荷载局部体型系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>η</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">风荷载地形地貌修正系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>η</i><sub>a</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">顺风向风振加速度的脉动系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>ρ</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">空气密度，或积雪密度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='left'><i>ρ</i><sub>x</sub>、<i>ρ</i><sub>z</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">水平方向和竖直方向脉动风荷载相关系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>ψ</i><sub>z</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构振型系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>ξ</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构阻尼比；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>ξ</i><sub>a</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">横风向气动阻尼比。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p><a href="#id2.2.3"> 2.2.3</a> <span id="id2.2.3">温度作用</span></p>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="30px" id="eqzs"></td>
+ <td width="100px" align='right' id="eqzs"><i>T</i><sub>max</sub>、<i>T</i><sub>min</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">月平均最高气温，月平均最低气温；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>T</i><sub>s,max</sub>、<i>T</i><sub>s,min</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构最高平均温度，结构最低平均温度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>T</i><sub>0,max</sub>、<i>T</i><sub>0,min</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构最高初始温度，结构最低初始温度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>ΔT</i><sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">均匀温度作用标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>α</i><sub>T</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">材料的线膨胀系数。</td>
+ </tr>
+ </table>
+ <p></p>
+ <p><a href="#id2.2.4"> 2.2.4</a> <span id="id2.2.4">偶然荷载</span></p>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="30px" id="eqzs"></td>
+ <td width="30px" align='right' id="eqzs"><i>A</i><sub>v</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">通口板面积（㎡）；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>K</i><sub>dc</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">计算爆炸等效均布静力荷载的动力系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>m</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车或直升机的质量；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>P</i><sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">撞击荷载标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>p</i><sub>c</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">爆炸均布动荷载最大压力；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>p</i><sub>V</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">通口板的核定破坏压力；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'><i>q</i><sub>ce</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">爆炸等效均布静力荷载标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>t</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">撞击时间；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>v</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车速度（m/s）；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" align='right'>V</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">爆炸空间的体积。</td>
+ </tr>
+ </table>
+ <p></p>
+
+:math:`\ `
