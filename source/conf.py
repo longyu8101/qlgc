@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '建筑结构荷载规范<br /><br />GB50009—2012'
+project = '桥梁工程<br /><br />第2版'
 copyright = '哈尔滨工业大学' 
 
 # -- General configuration ---------------------------------------------------
@@ -34,7 +34,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # html_theme = 'sphinx_book_theme'
 
-html_title = "建筑结构荷载规范 GB50009-2012"
+html_title = "桥梁工程 第2版"
 # html_logo = "_static/logo.png"
 html_favicon = "_static/logo.png"
 

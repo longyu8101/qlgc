@@ -3,36 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-中华人民共和国国家标准
 
-建筑结构荷载规范
+
+桥梁工程
 =========================================
 
 .. raw:: html
 
-  <h2 id="test111">建筑结构荷载规范</h2>
+  <h2 id="test111">桥梁工程</h2>
 
-GB 50009-2012
+（第2版）
 
-
-
-.. raw:: html
-
-   <table border="0" style="font-family:times new roman">
-   <tr>
-      <td>主编部门:</td>
-      <td>中华人民共和国住房和城乡建设部</td>
-   </tr>
-   <tr>
-      <td>批准部门：</td>
-      <td>中华人民共和国住房和城乡建设部</td>
-   </tr>
-   <tr>
-      <td>施行日期：</td>
-      <td>2012年10月1日</td>
-   </tr>
-   </table>
-   
 
 .. raw:: html
 
@@ -45,12 +26,25 @@ GB 50009-2012
    <body>
       <div id="abc"></div>
    </body>
+.. raw:: html
+
+   <table border="0" style="font-family:times new roman">
+   <tr>
+      <td>主编:</td>
+      <td>刘龄嘉 王晓明</td>
+   </tr>
+   <tr>
+      <td>主审：</td>
+      <td>徐 &emsp; 岳</td>
+   </tr>
+ 
+   </table>
+   
 
 
 
-中国建筑工业出版社
 
-2012·北京
+
 
 
 .. toctree::
@@ -58,30 +52,9 @@ GB 50009-2012
     :maxdepth: 3
     :hidden:
     
-    gg
     qy
     1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    H
-    J
-    ycsm
-    bzml
-    twsm
+  
     
    
 
