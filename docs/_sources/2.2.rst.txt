@@ -6,10 +6,9 @@
 
  <h3 id="test111"> 第二节  桥梁设计与建设程序</h3>
 
-   <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
-  <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
-  <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
-  <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
-  <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
-  <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
-  <p style="text-indent:2em;text-align:justify;text-indent:2em"> </p>
+  <p style="text-align:justify"> 一座桥梁的规划设计所涉及的因素很多，特别是对于比较复杂的大、中桥梁，是一个综合性的系统工程。设计合理与否，将直接影响到区域的政治、经济、文化以及人民的生活，因此必须建立一套严格的管理体制和有序的工作程序。在我国，桥梁工程设计在基本建设程序中分为研究阶段（前期工作）和设计阶段两个大步骤，相互关系如图1-2-1所示。下面分别简要介绍各阶段的主要内容及要求。</p>
+  <p style="text-align:justify"> </p>
+  <p style="text-align:justify"> </p>
+  <p style="text-align:justify"> </p>
+  <p style="text-align:justify"> </p>
+  <p style="text-align:justify"> </p>
