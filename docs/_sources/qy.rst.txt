@@ -30,4 +30,8 @@
   
 
   
+.. raw:: html
 
+   <video width="720" height="400" controls>
+      <source src="./_static/aaa.mp4" type="video/mp4">
+   </video>

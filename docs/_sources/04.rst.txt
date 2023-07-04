@@ -17,13 +17,13 @@
 
 .. toctree::
     :caption:  第四章
-    :maxdepth: 3
+    :maxdepth: 2
     :hidden:
 
-    4.1
-    4.2
-    4.3
-    4.4
+    4/4.1
+    4/4.2
+    4/4.3
+    4/4.4
 
 .. raw:: html
    
