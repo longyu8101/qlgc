@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box022{
+                width: 700px;
+                height: 250px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box0221{
+                height: 215px;
+             }
+             .box1{
+                width: 340px;
+                height: 230px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             .box2{
+                width: 340px;
+                height: 230px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             #title22{
+                height:250px;
+                width:100%;
+                position: absolute;
+                margin-top:220px;
+                margin-left:40%;
+             }
+         </style>
+     </head>
+     <body>
+        <div style="margin-top: 60px;">
+           <div class="box022">
+            <p class="box1" style="text-align:center;font-family:times new roman"><img id="image3a" src="./_static/fig/1-1-3a.jpg" alt="Picture">a）山西丹河大桥（石拱桥）   </p>
+            <p class="box2" style="text-align:center;font-family:times new roman"><img id="image3b" src="./_static/fig/1-1-3b.jpg" alt="Picture">b）上海卢浦大桥（系杆拱桥）</p>
+           </div>
+        </div>
+        <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            var viewer = new Viewer(document.getElementById('image3a'));
+            var viewer = new Viewer(document.getElementById('image3b'));
+        </script>
+    </body>
+    <body>
+        <div>
+           <div class="box022">
+            <p class="box1" style="text-align:center;font-family:times new roman"><img id="image3c" src="./_static/fig/1-1-3c.jpg" alt="Picture">c）杭州湾大桥主桥（主桥为斜拉桥）  </p>
+            <p class="box2" style="text-align:center;font-family:times new roman"><img id="image3d" src="./_static/fig/1-1-3d.jpg" alt="Picture">d）干海子特大桥（连续刚构桥） </p>
+           </div>
+        </div>
+        <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            var viewer = new Viewer(document.getElementById('image3c'));
+            var viewer = new Viewer(document.getElementById('image3d'));
+        </script>
+    </body>
+    <body>
+        <div>
+           <div class="box022 box0221">
+            <p class="box1" style="text-align:center;font-family:times new roman"><img id="image3e" src="./_static/fig/1-1-3e.jpg" alt="Picture">e）赫章大桥（连续刚构桥）  </p>
+            <p class="box2" style="text-align:center;font-family:times new roman"><img id="image3f" src="./_static/fig/1-1-3f.jpg" alt="Picture">f）金安金沙江大桥（悬索桥） </p>
+           </div>
+        </div>
+        <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            var viewer = new Viewer(document.getElementById('image3e'));
+            var viewer = new Viewer(document.getElementById('image3f'));
+        </script>
+    </body>
+
+
+    <body>
+        <div>
+           <div class="box022">
+            <p class="box1" style="text-align:center;font-family:times new roman"><img id="image3g" src="./_static/fig/1-1-3g.jpg" alt="Picture">g）沪通长江大桥（公铁两用斜拉桥） </p>
+            <p class="box2" style="text-align:center;font-family:times new roman"><img id="image3h" src="./_static/fig/1-1-3h.jpg" alt="Picture">h）港珠澳大桥青州航道桥（斜拉桥）</p>
+            <p id="title22" style="font-family:times new roman">图1-1-3  现代桥梁</p>
+           </div>
+        </div>
+        <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            var viewer = new Viewer(document.getElementById('image3g'));
+            var viewer = new Viewer(document.getElementById('image3h'));
+        </script>
+    </body>
+</html>

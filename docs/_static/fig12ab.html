@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box021{
+                width: 700px;
+                height: 280px;
+                margin-top: 20px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box1{
+                width: 340px;
+                height: 300px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box2{
+                width: 340px;
+                height: 300px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title2{
+                height:250px;
+                width:100%;
+                position: absolute;
+                margin-top:240px;
+                margin-left:37%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box021">
+                <p class="box1" style="text-align:center;font-family:times new roman"><img id="image2a" src="./_static/fig/1-1-2a.jpg" alt="Picture">a）踏步桥 </p>
+                <p class="box2" style="text-align:center;font-family:times new roman"><img id="image2b" src="./_static/fig/1-1-2b.jpg" alt="Picture">b）石板桥</p>
+            </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image2a'));
+             var viewer = new Viewer(document.getElementById('image2b'));
+         </script>
+     </body>
+</html>
