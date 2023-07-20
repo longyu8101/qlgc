@@ -14,38 +14,690 @@
  <p><a href="#id1.2.3.2">二、立面设计</a> <span id="id1.2.3.2"> </span></p>
  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.121"> [A1.121]</a><span id="idA1.121"> 桥梁立面设计是工程范围以内沿桥梁纵向中轴线断面布置的设计，包括：引道、引桥、主桥起讫点或分界点里程的确定；桥梁总长、桥梁分孔、墩台编号与中心线里程的确定；桥面高程与桥下净空、桥上和桥头引道纵坡以及基础的埋置深度的确定等。</span></p>
  <ol style="font-family:times new roman" >
- <li> 桥梁长度
-     <ul>
-     <li>桥梁长度一般根据水文计算来确定。其基本原则是：应使桥梁在整个使用年限内，保证设计洪水能顺利宣泄；河流中可能出现的流冰和船只、排筏等能顺利通过；避免因过分压缩河床引起河道和河岸的不利变迁；避免因桥前壅水而淹没农田、房屋、村镇和其他公共设施等。对于桥梁结构本身来说，不能因桥梁长度缩短而引起河水对河床过度冲刷给浅埋基础带来不利的影响。</li>
-     <li> 在某些情况下，为了降低工程造价，可以在不超过允许的桥前壅水和规范规定的允许最大冲刷系数条件下，可适当放宽冲刷限制，以适当缩短桥梁长度。例如，对于深埋基础，一般允许稍大一点的冲刷，使桥梁长度适当减小；对于平原区稳定的宽滩河段，河水流速较慢，漂流物也少，这时，可以对河滩浅水流区段作适当的压缩，即缩短桥梁长度，但必须慎重校核，压缩后的桥梁壅水不得危及河滩路堤以及附近农田和建筑物。</li>
-     </ul></li>
- <li> 桥跨（孔）布置<br>  对于一座较长的桥梁，应当分成若干孔。跨径划分的大小，不仅影响过水断面、基础冲刷、使用效果和施工等，而且在很大程度上影响桥梁的总造价。例如，所采用的跨径愈大，固然可以降低墩台的造价，但却使上部结构的造价大大增高；反之，上部结构的造价虽然降低了，但墩台的造价却又有所增高。因此，在满足基础冲刷、使用和技术要求的前提下，通常采用最经济的分跨方式，使上、下部结构的总造价趋于最低，此时的跨径为经济跨径。桥跨布置原则是：
-     <ul>
-     <li> 大型（独立）桥梁
-         <ul>
-         <li> 对于通航河流，在分孔时首先应满足桥下的通航要求。桥梁的通航孔应布置在主航道上，对于变迁性河流，根据具体条件，应多设几个通航孔。</li>
-         <li> 对于平原区宽阔河流上的桥梁，通常在主河槽部分按需要布置较大的通航孔，而在两侧浅滩部分按经济跨径进行分孔。</li>
-         <li> 当在山区的深谷、水深流急的江河以及水库上修桥时，为了减少中间桥墩数量，减小桥墩施工难度和造价，应加大跨径。条件允许时，甚至可以采用特大跨径单孔跨越。</li>
-         <li> 对于跨线公路桥梁，在桥下净空尺寸满足要求的前提下，按经济跨径进行分孔。</li>
-         <li> 对于采用连续体系的多孔桥梁，应从结构的受力特性考虑，使边跨与中跨的跨中弯矩接近相等，合理地确定相邻跨之间的比例；对于斜拉桥或悬索桥，还需根据建桥实际条件和设计经验，合理确定边跨与主跨、塔高与主跨、梁高与主跨之间的比例关系。</li>
-         <li> 对于桥位中存在岩石破碎带、断层、裂隙、溶洞等不良地质条件的地段，在布孔时，应尽量使基础避开这些区段。</li>  
-         <li> 桥墩位置应尽可能避开堤坝、河岸有滑坡坍塌之处和主河槽深水区，特别是对于防洪要求高的重要河流，桥墩位置与上述区域之间还应预留适当的安全距离。</li>
-         <li> 对于跨越重要河流的公路桥梁，应按批准的河道及（或）航道整治规划，结合现状布孔；若无规划，则应根据现状按设计洪水流量满足泄洪要求和通航要求进行布孔，并适当考虑将来的发展；同时还应尽量减小对水流的天然状态与河床形态的影响。<br>总之，对于大、中桥梁的分孔是一个相当复杂的问题，必须根据使用功能要求、桥位处的地形和环境、河床地质条件、水文条件、通航和防洪等具体情况和制约因素，通过技术、经济、环境、社会等各方面的综合分析比较，才能做出比较合理的设计方案。</li>                 
-         </ul> </li>
-     <li> 常规桥梁</li>
-     <li> 山区公路桥梁</li>
-     </ul></li>
- 
- 
- 
- <li> 桥面高程<br>合理的桥面高程必须根据设计水位、桥下通航（通车）净空的需要，并结合桥型、跨径以及与连接道路的匹配等综合考虑。</li>
+ <li> 桥梁长度</li>
  </ol>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.122"> [A1.122]</a><span id="idA1.122"> 桥梁长度一般根据水文计算来确定。其基本原则是：应使桥梁在整个使用年限内，保证设计洪水能顺利宣泄；河流中可能出现的流冰和船只、排筏等能顺利通过；避免因过分压缩河床引起河道和河岸的不利变迁；避免因桥前壅水而淹没农田、房屋、村镇和其他公共设施等。对于桥梁结构本身来说，不能因桥梁长度缩短而引起河水对河床过度冲刷给浅埋基础带来不利的影响。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.123"> [A1.123]</a><span id="idA1.123"> 在某些情况下，为了降低工程造价，可以在不超过允许的桥前壅水和规范规定的允许最大冲刷系数条件下，可适当放宽冲刷限制，以适当缩短桥梁长度。例如，对于深埋基础，一般允许稍大一点的冲刷，使桥梁长度适当减小；对于平原区稳定的宽滩河段，河水流速较慢，漂流物也少，这时，可以对河滩浅水流区段作适当的压缩，即缩短桥梁长度，但必须慎重校核，压缩后的桥梁壅水不得危及河滩路堤以及附近农田和建筑物。</span></p>
+
+ <ol style="font-family:times new roman"  start="2">
+ <li> 桥跨（孔）布置</li>
+ </ol>
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.124"> [A1.124]</a><span id="idA1.124"> 对于一座较长的桥梁，应当分成若干孔。跨径划分的大小，不仅影响过水断面、基础冲刷、使用效果和施工等，而且在很大程度上影响桥梁的总造价。例如，所采用的跨径愈大，固然可以降低墩台的造价，但却使上部结构的造价大大增高；反之，上部结构的造价虽然降低了，但墩台的造价却又有所增高。因此，在满足基础冲刷、使用和技术要求的前提下，通常采用最经济的分跨方式，使上、下部结构的总造价趋于最低，此时的跨径为经济跨径。桥跨布置原则是：</span></p>
+  
+  
+ （1）大型（独立）桥梁 
+   
+
+  <ul  style="font-family:times new roman" >
+  <li> 对于通航河流，在分孔时首先应满足桥下的通航要求。桥梁的通航孔应布置在主航道上，对于变迁性河流，根据具体条件，应多设几个通航孔。</li>
+  <li> 对于平原区宽阔河流上的桥梁，通常在主河槽部分按需要布置较大的通航孔，而在两侧浅滩部分按经济跨径进行分孔。</li>
+  <li> 当在山区的深谷、水深流急的江河以及水库上修桥时，为了减少中间桥墩数量，减小桥墩施工难度和造价，应加大跨径。条件允许时，甚至可以采用特大跨径单孔跨越。</li>
+  <li> 对于跨线公路桥梁，在桥下净空尺寸满足要求的前提下，按经济跨径进行分孔。</li>
+  <li> 对于采用连续体系的多孔桥梁，应从结构的受力特性考虑，使边跨与中跨的跨中弯矩接近相等，合理地确定相邻跨之间的比例；对于斜拉桥或悬索桥，还需根据建桥实际条件和设计经验，合理确定边跨与主跨、塔高与主跨、梁高与主跨之间的比例关系。</li>
+  <li> 对于桥位中存在岩石破碎带、断层、裂隙、溶洞等不良地质条件的地段，在布孔时，应尽量使基础避开这些区段。</li>  
+  <li> 桥墩位置应尽可能避开堤坝、河岸有滑坡坍塌之处和主河槽深水区，特别是对于防洪要求高的重要河流，桥墩位置与上述区域之间还应预留适当的安全距离。</li>
+  <li> 对于跨越重要河流的公路桥梁，应按批准的河道及（或）航道整治规划，结合现状布孔；若无规划，则应根据现状按设计洪水流量满足泄洪要求和通航要求进行布孔，并适当考虑将来的发展；同时还应尽量减小对水流的天然状态与河床形态的影响。</li>                 
+  </ul> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.125"> [A1.125]</a><span id="idA1.125"> 总之，对于大、中桥梁的分孔是一个相当复杂的问题，必须根据使用功能要求、桥位处的地形和环境、河床地质条件、水文条件、通航和防洪等具体情况和制约因素，通过技术、经济、环境、社会等各方面的综合分析比较，才能做出比较合理的设计方案。</span></p>
+
+ （2） 常规桥梁 
  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.126"> [A1.126]</a><span id="idA1.126"> 常规大、中、小型桥梁立面设计除应参照上述大型(独立)桥梁的布置原则外，一般还需要遵守以下规定: </span></p>
  
+ <ul  style="font-family:times new roman" >
+ <li> 按照需跨越的道路、铁路、河道、管线等的规划线位及断面，结合现况条件合理布置桥孔，在满足交通功能的同时，还应满足所跨越构筑物的使用和维护等方面的要求。</li>
+ <li> 立交桥梁布孔长度，应结合桥梁所处地区的环境布置。一般在市区为考虑街道两侧通透，桥头挡土墙高度可考虑在4 m以下，但不宜小于2.0 m；远离市区可考虑6.5～7.5 m；在山区可根据路基形式及需要确定桥长；在软土地基上应考虑路基沉降及稳定性等因素，可适当加长桥孔长度，降低桥头填土高度。当为路口转向处及斜桥、弯桥时还应考虑行车视线要求。</li>
+ <li> 一般情况下主桥的主孔跨径应大于边孔。对于立交桥主跨一般宜设在被交道路部分；在同一座桥中，如果没有特殊情况，大跨与小跨不应交替出现，跨径变化也不宜太多。</li>
+ <li> 对于跨越河道或沟渠的桥梁一般宜设计为奇数孔，主孔应布置在河道的主槽。</li>
+ <li> 桥梁跨越或下穿铁路（公路）时，桥跨布置和桥型结构应考虑铁路（公路）的运营管理要求，同时应注意铁路(公路)相关管线、杆塔对布跨的影响。桥跨布置及结构方案应征得铁路（公路)相关管理部门的同意。</li>
+ <li> 对于纵坡较大的桥梁，特别是独柱支承的匝道桥梁，应注意桥梁向下坡位移的潜在影响。桥跨布置时独柱墩连续梁的分联长度不宜过长，中墩支座不得采用板式橡胶支座，保证墩柱有适宜的刚度，必要时中墩尽量采用梁墩固接。</li>                 
+ </ul>
+           
+     
+
+ （3）山区公路桥梁
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.127"> [A1.127]</a><span id="idA1.127"> 山区公路桥梁所处外部环境一般具有以下特点：</span></p>
+  
+  <ul   style="font-family:times new roman" >
+             <li> 地形、地质条件复杂，沟壑纵横、沟深谷幽，尤其在西部地区，活动断裂带广布，滑坡、泥石流等地质灾害突出。地形、地质条件复杂，沟壑纵横、沟深谷幽，尤其在西部地区，活动断裂带广布，滑坡、泥石流等地质灾害突出。</li>
+             <li> 地震烈度高，诱发的山地灾害严重。</li>
+             <li> 自然生态脆弱，环保要求高，土地资源宝贵。</li>
+             <li> 走廊带狭窄，运输通道相互干扰，线位布设困难，施工干扰大（公路、铁路、管道、电站、输电线路等常布置在同一通道内）。</li>
+             <li> 地形狭窄，预制场地狭小，甚至没有预制场地，连材料堆放都很困难。</li>
+             <li> 交通不便，便道条件差，运输受限，大型机具、大型构件无法进场。</li>  
+             <li> 因受地形限制和高速公路对线形的严格要求，弯坡斜桥和高墩大跨桥梁多，且许多大跨桥梁难于避免弯道及大纵坡。</li>
+             <li> 季节气候差异大，特点明显，施工组织要求高。</li>  
+             <li> 西部山区经济不发达，建设成本高，交通量相对较小，投资回收期长，建设资金筹措压力非常大。</li>               
+  </ul> 
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.128"> [A1.128]</a><span id="idA1.128">山区桥梁布设原则：</span></p>
+  <ul   style="font-family:times new roman">
+             <li> 尽可能采用技术成熟、标准化程度高的中小跨径桥梁；受路线及地形、地质条件影响，也可采用大跨径或特大跨径桥梁。</li>
+             <li> 一般桥梁应以中小跨径为主。山区桥梁布孔应充分考虑在桥宽及坡脚范围内地形变化对布孔及基础的影响。山区施工场地狭窄，从占地、运输、安装等方而考虑，一般宜用中小跨径，与平原软土地区相比较，山区一般基岩浅，甚至出露，桥梁基础建设费用省，虽然有些桥墩较高，但仍适用中等跨径的梁式桥。由于许多桥梁处在陡斜坡地带，考虑坡面上墩台基础施工开挖及便道的影响，跨径也不宜太小。</li>
+             <li> 同一桥梁跨径类型不宜过多。由于地形陡、墩高变化大，而桥梁总长有限，考虑上部结构的标准化、批量化，减少模板种类和简化施工的要求，桥跨类型、墩柱形式不宜太多。</li>
+             <li> 合理选择桥面高程，尽可能使桥面不侵占坡面。</li>
+             <li> 山区桥梁一般采用分幅设计，陡坡地形的单幅桥墩尽量采用柱式或小间距桥墩，使同一桥墩的横向刚度趋于一致，利于受力。高墩桥梁下部结构工程量大，造价高，施工工期长，宜采用整幅双柱式、预应力混凝士盖梁，可减小下部结构工程量，既经济又美观。 </li>               
+  </ul> 
  
+  <ol style="font-family:times new roman"  start="3">
+ <li> 桥面高程</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.129"> [A1.129]</a><span id="idA1.129"> 合理的桥面高程必须根据设计水位、桥下通航（通车）净空的需要，并结合桥型、跨径以及与连接道路的匹配等综合考虑。</span></p>
+ (1) 流水净空要求
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.130"> [A1.130]</a><span id="idA1.130"> 为了保证支座的安全和正常工作，对于设支座的桥梁，支座底面应高出计算水位（即设计洪水水位加壅水高、浪高等）不小于0.25 m，并高出最高流冰面不小于0.50 m，如<a href="#image1.2.3">图1-2-3</a>所示。</span></p>
+  <body>
+
+ <style type="text/css">
+      #image1.2.3{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.3" src="../_static/fig/1-2-3.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-2-3  梁桥立面规划示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.3'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.131"> [A1.131]</a><span id="idA1.131"> 对于无铰拱桥，拱脚允许被洪水淹没<a href="#image1.2.4">（图1-2-4）</a>但淹没深度不宜超过拱圈净矢高 <i>f</i><sub>0</sub> 的2/3，并且在任何情况下，拱顶底面应高出计算水位不小于1.0 m，拱脚的起拱线应高出最高流冰面不小于0.25 m。</span></p>
  
- 
- 
+  <body>
+
+ <style type="text/css">
+      #image1.2.4{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.4" src="../_static/fig/1-2-4.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-2-4  拱桥桥下净空示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.4'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.132"> [A1.132]</a><span id="idA1.132"> 《通规》（JTG D60—2015）规定：在不通航或无流放木筏河流上及通航河流的不通航桥孔内，桥下净空不应小于<a href="#B1.2.1">表1-2-1</a>的规定。</span></p>
+
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.2.1">表1-2-1 非通航河流桥下最小净空</b></caption>	
+              
+		    <tr>
+		        <td  colspan="2" align="center" id="dhbg">桥梁的部位</td>
+                <!-- <th></th> -->
+		        <td  width=300px align="center" id="dhbg">高出设计水位(m)</td>
+		        <td  width=300px align="center">高出最高流水面(m)</td>
+		    </tr>
+		    <tr>
+		        <td  rowspan="3" align="center" id="dhbg">梁底</td>
+		        <td  width=300px align="center" id="dhbg">洪水期无大漂流物</td>
+		        <td  align="center" id="dhbg"> 0.50</td>
+                <td  align="center" id="dhbg"> 0.75</td>
+		    </tr>
+		    <tr>
+                <!-- <th></th> -->
+		        <td  align="center" id="dhbg">洪水期有大漂流物</td>
+		        <td  align="center" id="dhbg">1.50</td>
+		        <td  align="center" id="dhbg">—</td>
+		    </tr> 
+  		    <tr>
+                <!-- <th></th> -->
+		        <td  align="center" id="dhbg">有泥石流</td>
+		        <td  align="center" id="dhbg">1.00</td>
+		        <td  align="center" id="dhbg">—</td>
+		    </tr>
+		    <tr>
+		        <td  colspan="2" align="center" id="dhbg">支撑垫石顶面</td>
+                <!-- <th></th> -->
+		        <td  align="center" id="dhbg">0.25</td>
+		        <td  align="center" id="dhbg">0.50</td>
+		    </tr>
+		    <tr>
+		        <td  colspan="2" align="center" id="dhbg">拱脚</td>
+                <!-- <th></th> -->
+		        <td  align="center" id="dhbg">0.25</td>
+		        <td  align="center" id="dhbg">0.25</td>
+		    </tr>     
+     </table>
+   
+ (2) 通航净空要求
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.133"> [A1.133]</a><span id="idA1.133"> 为了保证桥下安全通航，通航孔桥跨结构下缘的高程应高出自设计通航水位算起的净空高度（<a href="#image1.2.4">图1-2-4</a>）。我国对于内河通航净空的尺寸规定如<a href="#image1.2.5">图1-2-5</a>及<a href="#B1.2.2">表1-2-2</a>。此外，交通运输部还颁布了《海轮航道通航标准》（JTS 180-3），适用于沿海及海湾区域内通航海轮航道的桥梁。</span></p>
+  
+  <body>
+
+ <style type="text/css">
+      #image1.2.5{
+        margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.5" src="../_static/fig/1-2-5.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-2-5  水上过河建筑物通航净空尺寸示意<br><i>B</i><sub>m</sub>—水上过河建筑物通航净宽；<i>H</i><sub>m</sub>—水上过河建筑物通航净高；<i>H</i>—航道水深；<i>b</i>—上底宽；<br><i>a</i>—斜边水平距离；<i>h</i>—侧高；<i>DHNWL</i>—设计最高通航水位；<i>DLNWL</i>—设计最低通航水位。</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.5'));</script>
+  </body>
+
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.2.2">表1-2-2 天然和渠化河流水上过河建筑物通航净空尺度（m）</b></caption>	
+              
+		    <tr>
+		        <td  rowspan="2" width="60px" align="center" id="dhbg">航道等级</td>
+              <td  rowspan="2" width="200px" align="center" id="dhbg">代表船舶、船队</td>
+              <td  rowspan="2" width="100px"align="center" id="dhbg">净高（<i>H</i><sub>m</sub>）</td>
+              <td  colspan="3" width="80px" align="center" id="dhbg">单向通航孔</td>
+              <!-- <th></th> -->
+              <!-- <th></th> -->
+             <td  colspan="3" align="center" id="dhbg">双向通航孔</td>
+              <!-- <th></th> -->
+              <!-- <th></th> -->
+		    </tr>
+		    <tr>
+		        <!-- <th></th> -->
+              <!-- <th></th> -->
+              <!-- <th></th> -->
+              <td   width="80px" align="center" id="dhbg">净宽（<i>B</i><sub>m</sub>）</td>
+              <td   width="80px" align="center" id="dhbg">上底宽（<i>b</i>）</td>
+              <td   width="80px" align="center" id="dhbg">侧高（<i>h</i>）</td>
+              <td   width="80px" align="center" id="dhbg">净宽（<i>B</i><sub>m</sub>）</td>
+              <td   width="80px" align="center" id="dhbg">上底宽（<i>b</i>）</td>
+              <td   width="80px" align="center" id="dhbg">侧高（<i>h</i>）</td>
+		    </tr>
+          <tr>
+          <td rowspan="3" align="center" id="dhbg">I</td>
+          <td align="center" id="dhbg">(1)4排4列</td>
+          <td align="center" id="dhbg">24.0</td>
+          <td align="center" id="dhbg">200</td>
+          <td align="center" id="dhbg">150</td>
+          <td align="center" id="dhbg">7.0</td>
+          <td align="center" id="dhbg">400</td>
+          <td align="center" id="dhbg">350</td>
+          <td align="center" id="dhbg">7.0</td>
+          </tr>
+          <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)3排3列</td>
+          <td rowspan="2"  align="center" id="dhbg">18.0</td>
+          <td align="center" id="dhbg">160</td>
+          <td align="center" id="dhbg">120</td>
+          <td align="center" id="dhbg">7.0</td>
+          <td align="center" id="dhbg">320</td>
+          <td align="center" id="dhbg">280</td>
+          <td align="center" id="dhbg">7.0</td>
+          </tr>
+          <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(3)2排2列</td>
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">110</td>
+          <td align="center" id="dhbg">82</td>
+          <td align="center" id="dhbg">8.0</td>
+          <td align="center" id="dhbg">220</td>
+          <td align="center" id="dhbg">192</td>
+          <td align="center" id="dhbg">8.0</td>
+          </tr>
+          <tr>
+          <td rowspan="3" align="center" id="dhbg">Ⅱ</td>
+          <td align="center" id="dhbg">(1)3排3列</td>
+          <td rowspan="2"  align="center" id="dhbg">18.0</td>
+          <td align="center" id="dhbg">145</td>
+          <td align="center" id="dhbg">108</td>
+          <td align="center" id="dhbg">6.0</td>
+          <td align="center" id="dhbg">290</td>
+          <td align="center" id="dhbg">253</td>
+          <td align="center" id="dhbg">6.0</td>
+          </tr>
+          <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)2排2列</td>
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">105</td>
+          <td align="center" id="dhbg">78</td>
+          <td align="center" id="dhbg">8.0</td>
+          <td align="center" id="dhbg">210</td>
+          <td align="center" id="dhbg">183</td>
+          <td align="center" id="dhbg">80</td>
+          </tr>
+          <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(3)2排1列</td>
+          <td align="center" id="dhbg">110</td>
+          <td align="center" id="dhbg">75</td>
+          <td align="center" id="dhbg">56</td>
+          <td align="center" id="dhbg">6.0</td>
+          <td align="center" id="dhbg">150</td>
+          <td align="center" id="dhbg">131</td>
+          <td align="center" id="dhbg">6.0</td>
+          </tr> 
+          <tr>
+          <td rowspan="4" align="center" id="dhbg">Ⅲ</td>
+          <td  rowspan="2" align="center" id="dhbg">(1)3排2列</td>
+          <td align="center" id="dhbg">18.0<sup>☆</sup></td>
+          <td  rowspan="2"  align="center" id="dhbg">100</td>
+          <td  rowspan="2"  align="center" id="dhbg">75</td>
+          <td  rowspan="2"  align="center" id="dhbg">6.0</td>
+          <td  rowspan="2"  align="center" id="dhbg">200</td>
+          <td  rowspan="2"  align="center" id="dhbg">175</td>
+          <td  rowspan="2"  align="center" id="dhbg">6.0</td>
+          </tr>  
+           <tr>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">10.0</td>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          </tr>
+           <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)2排2列</td>
+          <td rowspan="2"  align="center" id="dhbg">10.0</td>
+          <td align="center" id="dhbg">75</td>
+          <td align="center" id="dhbg">56</td>
+          <td align="center" id="dhbg">6.0</td>
+          <td align="center" id="dhbg">150</td>
+          <td align="center" id="dhbg">131</td>
+          <td align="center" id="dhbg">6.0</td>
+          </tr>   
+            <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(3)2排1列</td>
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">55</td>
+          <td align="center" id="dhbg">41</td>
+          <td align="center" id="dhbg">6.0</td>
+          <td align="center" id="dhbg">110</td>
+          <td align="center" id="dhbg">96</td>
+          <td align="center" id="dhbg">6.0</td>
+          </tr>  
+           <tr>
+          <td  rowspan="4" align="center" id="dhbg">Ⅳ</td>
+          <td  align="center" id="dhbg">(1)3排2列</td>
+          <td  rowspan="4" align="center" id="dhbg">8.0</td>
+          <td align="center" id="dhbg">75</td>
+          <td  align="center" id="dhbg">61</td>
+          <td  align="center" id="dhbg">4.0</td>
+          <td  align="center" id="dhbg">150</td>
+          <td  align="center" id="dhbg">136</td>
+          <td  align="center" id="dhbg">4.0</td>
+          </tr>  
+           <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)2排2列</td>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">60</td>
+          <td align="center" id="dhbg">49</td>
+          <td align="center" id="dhbg">4.0</td>
+          <td align="center" id="dhbg">120</td>
+          <td align="center" id="dhbg">109</td>
+          <td align="center" id="dhbg">4.0</td>
+          </tr>   
+            <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(3)2排1列</td>
+          <!-- <th></th> -->
+          <td rowspan="2"  align="center" id="dhbg">45</td>
+          <td rowspan="2"  align="center" id="dhbg">36</td>
+          <td rowspan="2"  align="center" id="dhbg">5.0</td>
+          <td rowspan="2"  align="center" id="dhbg">90</td>
+          <td rowspan="2"  align="center" id="dhbg">81</td>
+          <td rowspan="2"  align="center" id="dhbg">5.0</td>
+          </tr> 
+            <tr>
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">（4）货船</td>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          </tr>  
+          <tr>
+          <td rowspan="3" align="center" id="dhbg">Ⅴ</td>
+          <td align="center" id="dhbg">(1)2排2列</td>
+          <td align="center" id="dhbg">8.0</td>
+          <td align="center" id="dhbg">55</td>
+          <td align="center" id="dhbg">44</td>
+          <td align="center" id="dhbg">4.5</td>
+          <td align="center" id="dhbg">110</td>
+          <td align="center" id="dhbg">99</td>
+          <td align="center" id="dhbg">4.5</td>
+          </tr>
+          <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)2排1列</td>
+          <td rowspan="2"  align="center" id="dhbg">8.0或5.0<sup>▲</sup></td>
+          <td rowspan="2"  align="center" id="dhbg">40</td>
+          <td rowspan="2"  align="center" id="dhbg">32</td>
+          <td rowspan="2"  align="center" id="dhbg">5.5或3.5<sup>▲</sup></td>
+          <td rowspan="2"  align="center" id="dhbg">80</td>
+          <td rowspan="2"  align="center" id="dhbg">72</td>
+          <td rowspan="2"  align="center" id="dhbg">5.5或3.5<sup>▲</sup></td>
+          </tr>
+          <tr>
+           <!-- <th></th> -->
+          <td align="center" id="dhbg">(3)货船</td>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          </tr>      
+          <tr>
+          <td rowspan="2" align="center" id="dhbg">Ⅵ</td>
+          <td align="center" id="dhbg">(1)1拖5</td>
+          <td align="center" id="dhbg">45</td>
+          <td rowspan="2"  align="center" id="dhbg">25</td>
+          <td rowspan="2"  align="center" id="dhbg">18</td>
+          <td align="center" id="dhbg">3.4</td>
+          <td rowspan="2"  align="center" id="dhbg">40</td>
+          <td rowspan="2"  align="center" id="dhbg">33</td>
+          <td align="center" id="dhbg">3.4</td>
+          </tr>
+          <tr>
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)货船</td>
+          <td align="center" id="dhbg">6.0</td>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">4.0</td>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">4.0</td>
+          </tr>  
+           <tr>
+          <td rowspan="2" align="center" id="dhbg">Ⅶ</td>
+          <td align="center" id="dhbg">(1)1拖5</td>
+          <td align="center" id="dhbg">3.5</td>
+          <td rowspan="2"  align="center" id="dhbg">20</td>
+          <td rowspan="2"  align="center" id="dhbg">15</td>
+          <td rowspan="2"  align="center" id="dhbg">2.8</td>
+          <td rowspan="2"  align="center" id="dhbg">32</td>
+          <td rowspan="2"  align="center" id="dhbg">27</td>
+          <td rowspan="2"  align="center" id="dhbg">2.8</td>
+          </tr>
+          <tr>
+          <!-- <th></th> -->
+          <td align="center" id="dhbg">(2)货船</td>
+          <td align="center" id="dhbg">4.5</td>
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          <!-- <th></th> -->
+          </tr>                  
+     </table>
+ <p style="font-family:times new roman"><font size="1">注：1.角注☆的尺度仅适用于长江：<br>
+    &emsp;&emsp;&nbsp;&nbsp;2.角注▲的尺度仅适用于通航拖带船队的河流。<br>
+    &emsp;&emsp;&nbsp;&nbsp;3.黑龙江水系水上过河建筑物、珠江三角洲至港澳线内河水上过河建筑物以及限制性航道水上过河建筑物通航净空尺度参照现行《内河通航标准》（GB 50139）相关规定。</font></p>
+
+ (3) 跨线桥桥下净空要求
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.134"> [A1.134]</a><span id="idA1.134"> 在设计跨越线路（铁路、公路、其他道路等）的立体交叉时，桥跨结构底缘的高程应高出被交叉线路（铁路、公路、其他道路等）建筑限界[<a href="https://qlgc.readthedocs.io/zh/latest/1/1.2.html#image12">图1-1-12a）</a>]的规定。对于公路所需的建筑限界，见以下“三、桥梁的横断面设计”部分，铁路的建筑限界可查阅国家标准“标准轨距铁路机车车辆限界和建筑限界”的规定，其他道路的建筑限界可查阅相应的规范及标准。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.135"> [A1.135]</a><span id="idA1.135"> 综上所述，全桥位于河流中的桥面高程应首先满足流水净空（泄洪）的要求；对于通航孔或桥下通车的立交孔还应满足通航或立交净空的要求；另外，还应考虑桥的两端能够与公路或城市道路的顺利衔接等，因此，桥面高程的确定必须综合考虑和规划。桥梁的桥面控制高程确定后，一般是将桥梁立面设计成具有单向或双向的桥面纵坡，既利于交通，美观效果好，又便于桥面排水（对于不太长的小桥，可以做成平坡桥）。但《桥规》规定：桥上纵坡不宜大于4%，桥头引道纵坡不宜大于5%；位于市镇混合交通繁忙处的桥梁，桥上纵坡和桥头引道纵坡均不得大于3%；对于宜结冰、积雪的桥梁，桥上纵坡不得大于3%。并应在纵坡变更处按规定设置竖曲线，使纵坡改变处不致出现转角。</span></p>
  <p><a href="#id1.2.3.3">三、桥梁横断面设计</a> <span id="id1.2.3.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.136"> [A1.136]</a><span id="idA1.136"> 公路桥梁横断面的设计，主要确定桥面宽度和桥跨结构横截面的布置形式 。</span></p>
+ <ol style="font-family:times new roman"  >
+ <li> 桥面宽度</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.137"> [A1.137]</a><span id="idA1.137"> 桥面宽度取决于行车和行人的交通需要。我国交通运输部颁布的《公路工程技术标准》（JTG B01—2014）中，规定了各级公路桥面净空限界，如<a href="#image1.2.6">图1-2-6</a>所示，在公路建筑限界内，不得有任何部件侵入。</span></p>
+  
+  <body>
+
+ <style type="text/css">
+      #image1.2.6{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.6" src="../_static/fig/1-2-6.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-2-6  各等级公路的建筑限界（尺寸单位：m）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.6'));</script>
+
+  </body>
+ <p style="font-family:times new roman"><font size="1">注：1.当桥梁设置人行道时，桥涵净空应包括该部分的宽度；<br>
+    &emsp;&emsp;&nbsp;&nbsp;2.人行道、自行车道与行车道分开设置时，其净高不应小于2.5 m。</font></p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="100px" align='right'  id="eqzs" ><i>W</i></td>
+ <td width="50px" align='left' id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs"> 行车道宽度</td>
+ </tr>
+  <tr>
+ <td  align='right'  id="eqzs" ><i>C</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs">当设计速度大于100 km/h时为0. 5m，小于或等于100 km/h时为0.25 m；</td>
+ </tr>
+  <tr>
+ <td align='right'  id="eqzs" ><i>D</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs">路缘石高度，小于或等于0.25 m。一般情况下，高速公路可不设路缘石；</td>
+ </tr>
+  <tr>
+ <td  align='right'  id="eqzs" ><i>S</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs"> 行车道左侧路缘带宽度；</td>
+ </tr>
+  <tr>
+ <td align='right'  id="eqzs" ><i>S</i><sub>2</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs">行车道右侧路缘带宽度；</td>
+ </tr>
+  <tr>
+ <td align='right'  id="eqzs" ><i>M</i><sub>1</sub>、<i>M</i><sub>2</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs">中间带、中央分隔带宽度；</td>
+ </tr>
+  <tr>
+ <td  align='right'  id="eqzs" ><i>E</i><sub>1</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs"> 建筑限界顶角宽度，当<i>L</i>≤1 m时，<i>E</i>＝<i>L</i>；当<i>L</i>＞1 m时，<i>E</i>＝1 m；</td>
+ </tr>
+  <tr>
+ <td  align='right'  id="eqzs" ><i>E</i><sub>1</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs">建筑限界顶角宽度，当<i>L</i><sub>1</sub>＜1 m时，<i>E</i><sub>1</sub>＝<i>L</i><sub>1</sub>，或<i>S</i><sub>1</sub>＋<i>C</i>＜1 m时，<i>E</i><sub>1</sub>＝<i>S</i><sub>1</sub>＋<i>C</i>；当<i>L</i>≥1 m或<i>S</i><sub>1</sub>＋<i>C</i>≥1 m时，<i>E</i><sub>1</sub>＝1 m；</td>
+ </tr>
+  <tr>
+ <td  align='right'  id="eqzs" ><i>E</i><sub>2</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs"> 建筑限界顶角宽度，<i>E</i><sub>2</sub>＝1 m；</td>
+ </tr>
+ <tr>
+ <td  align='right'  id="eqzs" ><i>H</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs"> 净空高度，一条公路应采用同一净空高度，高速公路、一级公路、二级公路为5.00 m，三级公路、四级公路为4.50 m；</td>
+ </tr>
+  <tr>
+ <td align='right'  id="eqzs" ><i>L</i><sub>1</sub></td>
+ <td align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs"> 左侧硬路肩宽度；</td>
+ </tr>
+  <tr>
+ <td align='right'  id="eqzs" ><i>L</i><sub>2</sub></td>
+ <td align='left'   id="eqzs">——</td>
+ <td align='left'   id="eqzs">右侧硬路肩宽度；</td>
+ </tr>
+   <tr>
+ <td align='right'  id="eqzs" ><i>L</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td align='left'  id="eqzs"> 侧向宽度。二级公路的侧向宽度为硬路肩宽度；三、四级公路的侧向宽度为路肩宽度减去0.25 m。设置护栏时，应根据护栏需要的宽度加宽路基。</td>
+ </tr>
+ </table>
+ <P></P>
 
 
+
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.138"> [A1.138]</a><span id="idA1.138"> 公路桥面净空限界的边界线划定：桥面不设超高的双向横坡桥梁，上缘边界线应为水平，两侧边界线应与水平线垂直<a href="#image1.2.7">[图1-2-7a）]</a>；桥面设置超高或单向横坡时，上缘边界线应与桥面横坡平行，两侧边界线应与桥面横坡垂直<a href="#image1.2.7">[图 1-2-7b ）]</a>。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image1.2.7{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.7" src="../_static/fig/1-2-7.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-2-7  桥面净空限界的边线划定</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.6'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.139"> [A1.139]</a><span id="idA1.139"> 高速公路、一级公路上的桥梁宜设计为上、下行两座分离的独立桥梁。各级公路上的涵洞和二、三、四级公路上跨径小于8 m的单孔小桥的桥面宽度，应与路基同宽。城市桥梁或城市交通的公路桥梁桥面宽度，应考虑到城市交通工程的规划要求予以适当加宽。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.140"> [A1.140]</a><span id="idA1.140"> 在弯道上的桥梁，应按路线要求予以加宽和设置超高。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.141"> [A1.141]</a><span id="idA1.141"> 高速公路上的桥梁应设检修道，不宜设人行道。漫水桥和过水路面可不设人行道。一、二、三、四级公路上桥梁的桥上人行道和自行车道的设置，应根据需要而定，并应与前后路线布置协调，人行道、自行车道与行车道之间，应设分隔设施。一个自行车道的宽度为1.0 m，当单独设置自行车道时，不宜小于两个自行车道的宽度。人行车道的宽度宜为0.75 m或1.0 m，大于1.0 m时，按0.5 m的级差增加。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.142"> [A1.142]</a><span id="idA1.142"> 高速公路、一级公路上的桥梁必须设置护栏；二、三、四级公路上特大桥、大桥、中桥应设护栏或栏杆和安全带，小桥和涵洞可仅设缘石或栏杆；不设人行道的漫水桥和过水路面应设标杆或护栏。</span></p>
+
+  <ol style="font-family:times new roman"  start="2">
+ <li> 桥跨结构横截面设计</li>
+ </ol>
+ （1）设计原则
+ <ul style="font-family:times new roman" >
+ <li>桥梁横截面设计可根据道路规划、实施方案，布置为单幅<a href="#image1.2.8">[图1-2-8a）]</a>、双幅<a href="#image1.2.8">[图1-2-8b）]</a>或多幅桥梁。为加强桥梁的整体性及整体使用效果，一般宽度在20 m以下的桥梁，上部结构采用整体式断面<a href="#image1.2.8">[图1-2-8a）]</a>。</li>
+ <li>如确属需要或双向行车时，桥梁横断面可分为两幅桥时，应在分隔带处分开；当两幅桥之间仅设纵缝时应做好纵缝防水、伸缩等处理措施。</li>
+ <li>当桥梁采用分期实施方案时，桥梁横断面设计应充分考虑远、近期实施的可行性。</li>
+ <li>设置纵缝的两幅桥，一联桥长内桥墩不宜均采用独柱结构。当采用独柱结构时，应按相关设计规范要求验算抗倾覆稳定性，并设置可靠的限位、防落梁构造。</li>
+ </ul>
+ <body>
+
+ <style type="text/css">
+      #image1.2.8{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.8" src="../_static/fig/1-2-8.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">（图中符号：W-行车道宽度；R-人行道宽度；B-桥面宽度；<br> H-道路中心线处梁的高度；b-箱梁底板宽度；L-箱梁悬臂长度）<br>图1-2-8  桥跨结构横截面布置（图中未示路缘带宽度）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.8'));</script>
+
+  </body>
+
+
+
+
+
+ （2）截面类型
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.143"> [A1.143]</a><span id="idA1.143"> 桥跨结构的截面类型较多，根据施工方法不同，分为整体式（截面为一个整体）截面<a href="#image1.2.8">[图1-2-8a）]</a>与装配式（截面由若干部分集成）截面<a href="#image1.2.9">（图1-2-9）</a>；根据建筑材料不同，分为钢筋混凝土与预应力混凝土梁截面<a href="#image1.2.9">（图1-2-9）</a>、钢箱梁截面<a href="#image1.2.9">[图1-2-9a）]</a>、钢桁梁截面<a href="#image1.2.9">[图1-2-9b）]</a>、钢-混凝土组合梁截面<a href="#image1.2.9">[图1-2-9c）]</a>等，对于拱桥还有圬工截面。除了圬工截面应用于拱桥外，其他截面类型在各体系桥跨结构中均有应用。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image1.2.9{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div><img id="image1.2.9" src="../_static/fig/1-2-9.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-2-9  不同材料建造的桥跨结构横截面类型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.2.9'));</script>
+
+  </body>
+
+
+
+
+
+:math:`\ `
