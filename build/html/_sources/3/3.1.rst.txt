@@ -613,6 +613,7 @@ $$\\lambda=\\mathrm{tan}^{2}(45^{\\circ}-\\frac{\\varphi}{2})\\tag{1-3-10}$$
 $$b=\\frac{nD+\\displaystyle\\sum_{i=1}^{n-1}l_{i}}{n}\\tag{1-3-11}$$  
 
 .. raw:: html
+   
  <style>
       #biaoge {
          border: 2px solid black;
