@@ -4,3 +4,274 @@
 .. raw:: html
 
  <h3 id="test111">第四节  人行道、栏杆与护栏、照明灯柱</h3>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.235"> [A1.235]</a><span id="idA1.235"> 位于城镇和市郊等人口稠密地区的桥梁均应设置人行道、栏杆及灯柱，在城镇以外行人稀少地区的公路桥梁上，可以不设人行道和灯柱，但必须设置栏杆、安全带或护栏。这些设施虽然并不直接参与桥梁结构受力，但对于行人和车辆安全，以及桥梁美观有着重要作用。城市桥梁的栏杆和灯柱设计应重视其艺术造型，并应简洁明快，并与周围的环境和桥梁结构整体相协调，给行人和行驶车辆提供一个广阔的视野和安全感。</span></p>
+ <p><a href="#id1.4.4.1"> 一、人行道</a> <span id="id1.4.4.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.236"> [A1.236]</a><span id="idA1.236"> 人行道是位于行车道两侧，专供行人行走的路幅或桥面部分。其宽度等于一条行人带宽度乘以带数，我国每条行人带宽度取用0.75～1.00m，其通行能力均为800～1000人／小时；带数由人流大小决定。桥梁上人行道宽度宜为0.75m或1.00m，大于1.00m时，按0.50m的倍数增加，其高度至少高出行车道0.20～0.25m，以策行人和行车的安全。人行道一般构造如<a href="#image1.4.11">图1-4-11所示</a>。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image1.4.11{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.11" src="../_static/fig/1-4-11.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4-11 人行道一般构造（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.11'));</script>
+
+  </body>
+
+ <p><a href="#id1.4.4.2"> 二、安全带</a> <span id="id1.4.4.2"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.237"> [A1.237]</a><span id="idA1.237"> 安全带是指为保证车辆在桥上靠边行驶时的安全而设置的带状构造物。在不设人行道情况下，必须设置安全带和栏杆，安全带应高出桥面，尺寸应根据道路等级而定。安全带内边缘至栏杆内边缘之间安全距离一般不小于25cm。安全带构造如<a href="#image1.4.12">图1-4-12</a>所示。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image1.4.12{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.12" src="../_static/fig/1-4-12.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4-12 安全带一般构造示意（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.12'));</script>
+
+  </body>
+
+
+ <p><a href="#id1.4.4.3"> 三、栏杆与护栏</a> <span id="id1.4.4.3"> </span></p>
+  <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>栏杆</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"> 栏杆是设置在桥面两侧以利行人安全过桥的防护设施，要求既要坚固耐用，又要经济美观。</p>
+ <p style="text-align:justify;font-family:times new roman">（1）分类</p>
+ <p style="text-align:justify;font-family:times new roman"> ①按照制作材料划分<br>栏杆按制作材料的不同可分为钢筋混凝土栏杆、钢栏杆、钢-混凝土混合式栏杆、木栏杆及塑料栏杆等，在公路桥梁上，常采用钢筋混凝土栏杆、钢栏杆和砖石栏杆，应结合桥型特点和美观要求合理选材。</p>
+  <p style="text-align:justify;font-family:times new roman">②按构造类型划分<br>栏杆从构造形式上可分为节间式[<a href="#image1.4.13">图1-4-13a）</a>]与连续式[<a href="#image1.4.13">图1-4-13b）</a>]。<br>节间式栏杆由栏杆柱（立柱）、扶手及横挡（或栏板）组成。扶手支承于立柱上，两立柱之间为一个节间，也称一榀，一般为1.5～2.5m。节间式便于预制安装，但对于不等跨分孔的桥梁，在节间划分上会有困难。<br>连续式栏杆具有连续的扶手，一般由扶手、栏板（或立柱和栏杆）及底座组成，采用有规律的栏板，简洁，明快，有节奏感，但一般安装自重较大。</p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image1.4.13{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.13" src="../_static/fig/1-4-13.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4-13 栏杆形式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.13'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman">③按高度划分<br>根据栏杆的高度，栏杆可分为高栏（1.10～1.30 m）、中栏（0.80～0.90 m）和低栏（0.20～0.30 m），公路与城市道路桥梁上栏杆的高度要求不得小于1.10 m。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）设计要求<br> 桥梁栏杆的设计应考虑安全可靠、适用耐久、经济美观、节省空间和方便施工。尽管桥梁栏杆的计算在桥梁结构计算中占次要地位，但作为一种安全防护装置和措施，其坚固性和耐久性是不可忽视的。在靠近伸缩缝处的所有栏杆，均应能自由变形，避免参与桥跨结构受力。</p>
+ <p style="text-align:justify;font-family:times new roman"> （3）美学要求<br>栏杆是桥梁的表面构造物，栏杆设置在桥面的边缘，对桥梁起着装饰作用。当行人走在桥上或车辆行驶上桥后，主要看到的就是桥面及桥上栏杆，因此栏杆设计的重点是栏杆本身的造型及其美学要素，使其适应周围环境（包括风景及风土人情）及桥跨结构的造型。<br>栏杆的构造形式应避免与桥梁结构雷同，设计时应将两者结合起来考虑，对于拱桥，栏杆应尽量采用直线形式，立柱应多数与水平线垂直；当桥型为斜拉桥时，斜拉索与塔柱形成巨大的伞状，则栏杆以连续式为宜[<a href="#image1.4.14">图1-4-14a）</a>]；对于梁板式桥，因为构成桥体的主要线条除桥墩外多为水平线，所以栏杆的设计应以垂线为，两个立柱间用镂空板或雕塑造型修饰[<a href="#image1.4.14">图1-4-14b）</a>]。<br> 栏杆的装饰和颜色要与大自然的景色相协调，并且要与桥梁的基色相匹配。</p>
+
+   <body>
+
+ <style type="text/css">
+      #image1.4.14{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.14" src="../_static/fig/1-4-14.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">a）连续式 &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; b）节间式<br> 图1-4-14  栏杆造型示例</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.14'));</script>
+
+  </body>
+
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>护栏</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"> 护栏又称护栅，是车辆与车辆或车辆与行人分道行驶，以及防止车辆驶离规定行车道位置而设置的安全防护设施。前者称作防护栏，后者称作防撞护栏。防护栏可用混凝土或金属材料制作（<a href="#image1.4.15">图1-4-15</a>）；高速公路的桥梁均需设置防撞护栏，一般采用钢筋混凝土结构，具有一定的抗撞能力，以保证行车安全。</p>
+
+   <body>
+
+ <style type="text/css">
+      #image1.4.15{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.15" src="../_static/fig/1-4-15.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4-15  护栏造型示例</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.15'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"> 桥梁护栏按设置部位可分为桥侧护栏（<a href="#image1.4.16">图1-4-16</a>）、桥梁中央分隔带护栏[<a href="#image1.4.15">图1-4-15c）</a>]和人行与车道分界护栏[<a href="#image1.4.15">图1-4-15a）、b）</a>]。按构造特征可分为钢筋混凝土梁柱式护栏[<a href="#image1.4.16">图1-4-16a）</a>] 、墙式护栏[<a href="#image1.4.116">图1-4-16b）</a>]和组合式护栏。护栏埋置方式有立柱直接埋入式、法兰盘连接式和通过传力钢筋把桥梁护栏和桥面板浇筑成一体等三种方式。<br>桥梁护栏形式选择和截面尺寸要求与公路等级、设计速度、护栏防护等级等有关，可参照现行《公路交通安全设施设计规范》（JTG D81），这里不再详述。</p>
+
+
+
+ <body>
+
+ <style type="text/css">
+      #image1.4.16{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.16" src="../_static/fig/1-4-16.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman"> 图1-4-16 护栏一般构造</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.16'));</script>
+
+  </body>
+
+
+
+ <p><a href="#id1.4.4.4"> 四、照明灯柱</a> <span id="id1.4.4.4"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.238"> [A1.238]</a><span id="idA1.238"> 位于城镇和市郊人口稠密地区的桥梁，应当提供桥上照明设施，因此需要设置照明灯柱。对于行车道和人行道均不宽的桥梁，照明可以设置在栏杆上[<a href="#image1.4.17ab">图1-4-17a）</a>]；如果人行道较宽时，可将照明设置在靠近路缘石处[<a href="#image1.4.17ab">图1-4-17b）</a>]；当桥面很宽并设有机动车道和非机动车道时，则可将照明设置在机动车与非机动车道之间的分隔带处[<a href="#image1.4.17cd">图1-4-17c）</a>]；当桥面为双幅桥时，照明可设在双幅桥的中央分隔带处。《城市道路照明指南》规定灯具的安装高度应等于或大于单向行车道的路面有效宽度，并满足桥面净空的要求，不得侵入限界。具体设置位置，可根据桥梁横断面的具体情况来确定。对于一些大型桥梁或美观上要求较高的桥梁，灯柱的设计不但要考虑从桥上观赏，而且还要符合全桥在立面上具有与周围环境统一协调的艺术造型要求，使桥梁为所在地区的夜景增辉添色。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image1.4.17ab{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.17ab" src="../_static/fig/1-4-17ab.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">&emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;   a）灯柱设于栏杆处 &emsp;   &emsp;&emsp; &emsp; &emsp; &emsp;    &emsp;   &emsp;   &emsp;   &emsp; &emsp;   b）灯柱设于路缘石处</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.17ab'));</script>
+
+  </body>
+
+    <body>
+
+ <style type="text/css">
+      #image1.4.17cd{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.17cd" src="../_static/fig/1-4-17cd.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">c）灯柱设于机非分隔带处  &emsp;   &emsp;   &emsp;   &emsp; &emsp;  &emsp;    d）灯柱设于中央分隔带处<br>图1-4-17 主动土压力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.17cd'));</script>
+
+  </body>
+
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.239"> [A1.239]</a><span id="idA1.239">[拓展小知识1-5] 桥面系构造</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">为保护桥跨结构安全耐久、车辆正常行驶和行人安全通行，公路桥梁与铁路桥梁都设置了桥面系构造，但两者是有区别的。<br>公路桥梁的桥面系构造包括桥面铺装、伸缩装置、人行道（安全带）、栏杆（护栏）、防（排）水设施、灯柱照明设备等。由于公路汽车行驶在桥面上，因此在伸缩缝处设置了伸缩装置；汽车专用桥的桥面两侧设置防撞护栏，允许行人通过的桥梁设置人行道和栏杆（可做美观设计）；位于城镇和市郊人口稠密地区的桥梁，桥上设置灯柱照明设备（可做美观设计）等。<br>铁路桥梁的桥面系构造包括轨道及线路设备（包括道床、轨枕、钢轨等）、护轮轨、人行道、栏杆、避车台、通信（信号）电缆槽等。由于铁路列车行驶在钢轨上，因此在伸缩缝处无需设置伸缩装置；为防止列车脱轨，桥长大于50 m的有砟桥面和无砟无枕桥梁及桥长大于20 m的明桥面钢梁桥，在桥上基本轨内侧铺设护轮轨；桥上均设置人行道和栏杆（一般比较简易），仅供检查、养护维修人员使用，一般行人不可通行（除设计了专用人行道外）；桥上一般不设置灯柱照明设备；设计时速160 km/h及以下的铁路桥梁应在人行道两侧间隔30 m左右交错设置避车台；在人行道外侧设置通信（信号）电缆槽等。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.240"> [A1.240]</a><span id="idA1.240">[学习提示]</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">为了避免桥跨结构在服役期间被磨损破坏，应设置一层保护层——桥面铺装，桥面铺装有多种类型，一般桥梁根据道路等级、桥址所处环境等条件选用，重要大桥、特大桥也可根据需要进行专门设计。<br>为避免车辆在伸缩缝处产生冲击而使桥跨结构损坏，并保障车辆安全平稳行驶，需在伸缩缝处设置伸缩装置（除桥面连续外），伸缩装置的种类也较多，应根据伸缩量要求选用成品，当伸缩量超出成品伸缩装置范围时，需进行特殊伸缩装置的设计。<br>为保障汽车通行安全，在桥面（横桥向）两侧应设置防撞护栏，一般根据道路等级、行车速度、环境条件等因素进行设计，现场现浇施工；在允许行人通行的桥梁，一般在桥面（横桥向）两侧设置人行道及栏杆，栏杆可以采用成品，也可专门进行美观设计。<br>大桥、特大桥需设置照明设施，照明灯及灯柱一般采用成品，当桥梁在城市附近时，可根据需要进行景观照明设计。<br>同时，为保障桥跨结构的耐久性，应做好桥面防水及排水设施。<br>由此可见，一座功能完备的现代桥梁，在桥跨结构上应配有与之相应的桥面系构造设施。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.241"> [A1.241]</a><span id="idA1.241">  [思考与练习]</span></p>
+  
+  <ol style="font-family:times new roman" >
+  <li>桥面系构造包括哪些组成部分？各部分的功能是什么？分别有哪些类型？</li>
+  <li>为什么要设置桥面伸缩装置？伸缩量如何计算？如何选择伸缩装置？</li>
+  <li>简述桥面横坡有哪几种设置方式？各有何特点？</li>
+  <li>为了迅速排除桥面雨水，可采取哪些措施？简述其设置方式。</li>
+  <li>栏杆与护栏（防撞护栏）的区别是什么？</li>
+  <li>人行道宽度的确定受哪些因素影响？</li>        
+  </ol>
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.242"> [A1.242]</a><span id="idA1.242">  [本篇总结]</span></p>
+
+  <ol style="font-family:times new roman"start="1" >
+  <li>桥梁组成与分类</li>
+   </ol>
+  <ul style="font-family:times new roman"  >
+ <li>桥梁是供铁路、道路、渠道、管线、行人等跨越河流、山谷、海湾、其他线路或障碍时的架空建筑物。</li>
+ <li>桥梁是由上部结构（包括桥跨结构、桥面系）、支座、下部结构（包括桥墩、桥台、基础）、防护设施及调节河流构筑物等组成。</li>
+ <li>桥梁的基本结构体系有：梁桥、拱桥、悬索桥、斜拉桥和组合体系桥。</li>
+ <li>按桥梁承重结构用材分类，有钢筋混凝土桥、预应力混凝土桥、圬工桥（砖、石、混凝土桥）、钢桥、钢及混凝土组合梁桥、木桥等。</li>
+ <li>桥梁按建设规模分为特大桥、大桥、中桥、小桥和涵洞。</li>
+ <li>桥梁按用途划分，有公路桥、铁路桥、城市道路桥、城市轨道交通桥梁、公路与铁路两用桥、人行桥、输水桥、农用桥等。</li>
+ <li>桥梁按平面布置分类，有直桥（正桥）、斜桥、弯桥（曲线梁桥）、坡桥和匝道桥等。</li>
+ </ul>  
+
+ <ol style="font-family:times new roman"start="2" >
+  <li>桥梁结构设计</li>
+  </ol>
+  <ul style="font-family:times new roman"  >
+ <li>公路桥梁应根据所在公路的作用，性质和将来发展的需要，除应符合技术先进、安全可靠、适用耐久、经济合理的要求外，还应按照美观和有利环保的原则进行设计，并考虑因地制宜、就地取材、便于施工和养护等因素。</li>
+ <li>桥梁结构设计包括平面设计、立面设计和横断面设计三大部分。桥梁的平面设计为桥位选定和平面线形设计。桥梁立面设计包括确定桥长、桥梁的分孔、桥面高程与桥下净空、桥上和桥头引道的纵坡以及基础的埋置深度等。桥梁的横断面设计，主要取决于桥面的宽度（由交通量确定，并应符合规范规定的车道宽度和人行道宽度）和不同桥跨结构横截面的形式。</li>
+ <li>一座桥梁从项目立项开始到运营通车，要经过研究阶段（预可和工可）、设计阶段（初设、技设和施设）、施工阶段和运营阶段。国内一般的（常规的）桥梁采用两阶段设计，即初步设计和施工图设计。对于技术简单、方案明确的小桥，也可采用一阶段设计，即施工图设计。对于技术复杂的大型桥梁，采用三阶段设计，即初步设计、技术设计和施工图设计。</li>
+ <li>桥梁设计方案的比选主要包括桥位方案比选和桥型方案比选，本课程要求重点掌握桥型方案比选。桥型方案比选是在初步设计阶段（两阶段设计）或技术设计阶段（三阶段设计）完成的，一般至少要选择三个以上桥型进行比选，并推荐较优者作为施工图设计阶段的桥型。</li>
+ <li>通过桥梁工程课程学习，应能完成一座中等跨径桥梁的课程设计，并为毕业设计（完成桥梁方案设计、初步设计、施工图设计和施工方案设计）打好基础，如<a href="#image1.z.1">图1-Z-1</a>所示。在桥梁工程课程学习中，通过学习、理解、查阅大量实桥照片和实桥设计图去理解掌握各类桥型的构造还不是最难的，如何将一座实桥的构造和构件之间不同连接方式简化成结构力学的计算图式才是最难掌握的，计算图式简化错误，所有计算结果都将是错误的。因此，只有正确地理解和掌握各桥型及各构件的构造特点、彼此之间的连接方式、边界条件等，才能熟练而准确地计算各构件的内力。这一部分是桥梁工程课程学习的精髓，需要学生有扎实的力学基础，并结合桥梁构造反复练习。</li>
+ </ul> 
+
+  </body>
+
+    <body>
+
+ <style type="text/css">
+      #image1.z.1{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.z.1" src="../_static/fig/1-z-1.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-z-1 桥梁设计内容<br>（文字加粗者为桥梁工程课程必须掌握的内容）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.z.1'));</script>
+
+  </body>
+
+
+  <ol style="font-family:times new roman"start="3" >
+  <li>桥梁设计荷载</li>
+  </ol>
+ <ul style="font-family:times new roman"  >
+ <li>作用于桥梁结构的荷载和引起结构外加变形或约束变形的原因统称为作用。作用是施加在结构上的一组集中力或分布力，或引起结构外加变形或约束变形的原因，前者称直接作用，亦称荷载，后者称间接作用。作用于桥梁结构的作用可分为四类：永久作用、可变作用、偶然作用和地震作用。永久作用主要指恒载，可变作用包括活载、温度作用等，偶然作用主要为船舶、漂流物、汽车等的撞击作用，地震作用主要是指地震时强烈的地面运动引起的结构惯性力。</li>
+ <li>在桥梁结构设计中仅将可能同时作用于桥梁结构上的作用进行各种最不利组合，以满足不同的设计需要。在结构按承载能力极限状态设计时，采用基本组合、偶然组合（考虑偶然作用时）和地震组合（考虑地震作用时）；在结构按正常使用极限状态设计时，应根据不同的设计要求，采用频遇组合或准永久组合。用组合后的设计值进行结构设计。</li>
+ <li>汽车荷载分为公路-Ⅰ级和公路-Ⅱ级两个等级。汽车荷载由车道荷载和车辆荷载组成。车道荷载由均布荷载和集中荷载组成，桥梁结构的整体计算采用车道荷载。车辆荷载为一辆5轴550kN标准车辆，桥梁结构的局部加载、涵洞、桥台和挡土墙土压力等的计算采用车辆荷载。车道荷载与车辆荷载的作用不得叠加。</li>
+ <li>当桥涵设计车道数等于或大于2时，多车道桥梁上的汽车荷载产生的效应按规范规定进行横向折减，但折减后的效应不得小于两设计车道的荷载效应；当桥梁计算跨径大于150m时，应按规范规定的纵向折减系数进行纵向折减。</li>
+ <li>车辆动载过桥时会引起桥梁发生振动而造成内力加大，这一现象称为冲击效应，桥规用冲击系数考虑这一因素的影响。在计算基本组合时，汽车荷载效应中应计入冲击力的影响，在计算作用频遇组合和准永久组合时，汽车荷载效应中不计冲击力的影响。</li>
+ </ul> 
+ <ol style="font-family:times new roman"start="4" >
+ <li>桥面系构造</li>
+  </ol>
+  <ul style="font-family:times new roman"  >
+ <li>桥面系构造包括桥面铺装、防水和排水设施、人行道（或安全带）、缘石、分隔带、栏杆、护栏、灯柱照明设备和伸缩缝等。</li>
+ <li>桥面铺装有沥青表面处置、沥青混凝土、水泥混凝土等多种类型。</li>
+ <li>桥面排水设施主要为设置桥面纵坡、横坡（包括超高）排水，并设置一定数量的排水管外泄。桥面横坡一般采用1.5%～3%，通常有三种设置形式（即：桥面铺装层下设置三角垫层、在墩台顶帽上设置横坡或变高度支承垫石、调整箱梁腹板高度形成横坡）。桥梁常用的泄水管道有竖向、横向和封闭式泄水管道等。</li>
+ <li>为了适应梁端变位，常需设置桥面伸缩装置。伸缩装置主要分为模数式伸缩装置、梳齿板式伸缩装置和无缝式伸缩装置。为了克服桥面伸缩缝在使用过程中容易损坏和行车不稳的现象，可采用桥面连续的结构构造。</li>
+ <li>当桥梁上允许行人通过时，在行车道（或非机动车道）两侧需设置人行道，否则应设置安全带。在人行道（或安全带）外侧应设置栏杆（高度不得小于1.10 m）或护栏，栏杆支起到安全防护作用，不能低档车辆的撞击。而护栏既能保障行人和车辆的安全，又能低档车辆的撞击。</li>
+ </ul> 
+ <ol style="font-family:times new roman"start="5" >
+  <li>学习内容总结</li>    
+  </ol>
+
+  <p style="text-align:justify;font-family:times new roman"> 本篇学习内容概要如<a href="#image1.z.2">图1-Z-2</a>所示。 </p>
+    <body>
+
+ <style type="text/css">
+      #image1.z.2{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.z.2" src="../_static/fig/1-z-2.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-z-2 第一篇学习内容概要</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.z.2'));</script>
+
+  </body>

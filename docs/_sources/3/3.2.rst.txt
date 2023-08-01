@@ -6,22 +6,915 @@
 
  <h3 id="test111"> 第二节  作用的表征、组合及效应设计值</h3>
 
-   <p><a href="#id1.3.1.1"> 一、作用的代表值</a> <span id="id1.2.1.1"> </span></p>
-   <p><a href="#id1.2.1.2"> 二、作用的设计值</a> <span id="id1.2.1.2"> </span></p>
-   <p><a href="#id1.2.1.3"> 三、作用的组合</a> <span id="id1.2.1.3"> </span></p>
-   <p><a href="#id1.2.1.4"> 四、作用组合的效应设计值</a> <span id="id1.2.1.4"> </span></p>
-   
-  <p style="text-indent:2em;text-align:justify;text-indent:2em">[思考与练习]<br></p>
-  
-1. 说明永久作用、可变作用和偶然作用的具体含义。
-2. 水浮力是永久作用还是可变作用？
-3. 为什么桥梁结构整体分析计算时采用车道荷载加载，桥梁局部分析或涵洞、桥台计算时采用车辆荷载加载？
-4. 为什么2车道以上或桥长大于150m的桥梁，汽车荷载效应可予以折减？
-5. 汽车冲击力是怎样产生的？ 
-6. 某1孔20m钢筋混凝土简支梁桥，跨中截面弯矩：
+ <p><a href="#id1.3.1.1"> 一、作用的代表值</a> <span id="id1.2.1.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.203"> [A1.203]</a><span id="idA1.203"> 作用具有变异性，但在结构设计时，不可能直接引用作用随机变量或随机过程的各类统计参数通过复杂的计算进行设计，作用代表值就是为结构设计而给定的量值。设计的要求不同，采用的作用代表值也不同，这样可以更确切、合理地反映作用对结构在不同设计要求下的特点。《通规》（JTG D60—2015）所确定的作用代表值是指极限状态设计所采用的作用值，可以是作用的标准值或可变作用的伴随值。作用的标准值是作用的主要代表值，可根据对观测数据的统计、作用的自然界限或工程经验确定。可变作用的伴随值是在作用组合中，伴随主导作用的可变作用值，可以是组合值、频遇值或准永久值。可通过可变作用的标准值分别乘以组合值系数<i>Ψ</i><sub>c</sub>，频遇值系数<i>Ψ</i><sub>f</sub> 和准永久值系数<i>Ψ</i><sub>q</sub> 来确定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.204"> [A1.204]</a><span id="idA1.204"> 永久作用被近似地认为在设计基准期内（公路桥涵结构的设计基准期为100年）是不变的，其代表值只有一个，即标准值。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.205"> [A1.205]</a><span id="idA1.205"> 可变作用应根据不同状况下的计算项目分别采用不同的代表值，即，可取标准值、组合值、频遇值和准永久值作为其代表值。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.206"> [A1.206]</a><span id="idA1.206"> 偶然作用取其设计值作为代表值，可根据历史记载、现场观测和试验，并结合工程经验综合分析确定，也可根据有关标准的专门规定确定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.207"> [A1.207]</a><span id="idA1.207"> 地震作用的代表值为其标准值。地震作用的标准值应根据现行《公路工程抗震规范》（JTG B02）的规定确定。</span></p>
 
-结构重力 ＝736kN-m，汽车荷载 ＝525kN-m，冲击系数（1+μ）＝1.20，人群荷载 ＝50kN-m。
-试进行承载能力极限状态和正常使用极限状态设计时的作用组合效应设计值计算。
+ <p><a href="#id1.2.1.2"> 二、作用的设计值</a> <span id="id1.2.1.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.208"> [A1.208]</a><span id="idA1.208"> 作用的设计值为作用的代表值与作用分项系数的乘积。作用分项系数见<a href="#B1.3.20">表1-3-20</a>。</span></p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.20">表1-3-20 作用分项系数</b></caption>	
+              
+		  <tr>
+		  <td width="70px" rowspan="2" align="center" id="dhbg">编号</td>
+      <td width="70px" rowspan="2"  align="center" id="dhbg">作用分类</td>
+      <td colspan="2"  rowspan="2" align="center" id="dhbg">作用类别</td>
+      <td colspan="3" align="center" id="dhbg">作用分项系数</td>
+      <!-- <th></th> -->   
+      <!-- <th></th> -->   
+		  </tr>
+ 		  <tr>
+		  <!-- <th></th> -->
+      <!-- <th></th> -->
+      <!-- <th></th> -->
+      <!-- <th></th> --> 
+      <td width="70px" align="center" id="dhbg">符号</td>
+      <td width="185px" align="center" id="dhbg">对结构的承载力不利时</td>
+      <td width="185px" align="center" id="dhbg">对结构的承载力有利时</td>  
+		  </tr>  
+  	  <tr>
+		  <td align="center" rowspan="2" id="dhbg">1</td>
+      <td align="center" rowspan="9" id="dhbg">永久作用</td>
+      <td align="center" colspan="2" id="dhbg">混凝土和圬工结构重力（包括结构附加重力）</td>
+      <!-- <th></th> -->
+      <td align="center" rowspan="2" id="dhbg"><i>γ</i><sub>G<sub>1</sub></sub></td>
+      <td align="center"   id="dhbg">1.2</td>
+      <td align="center" rowspan="2" id="dhbg">1.0</td>   
+		  </tr>  
+      <tr>
+		  <!-- <th></th> -->
+      <!-- <th></th> -->
+      <td align="center" colspan="2" id="dhbg">钢结构重力（包括结构附加重力）</td>
+      <!-- <th></th> --> 
+      <!-- <th></th> -->
+      <td align="center"   id="dhbg">1.1或1.2</td>
+      <!-- <th></th> -->  
+		  </tr> 
+  	  <tr>
+		  <td align="center" id="dhbg">2</td>
+      <!-- <th></th> -->
+      <td align="center" colspan="2"  id="dhbg">预加力</td>
+      <!-- <th></th> -->  
+      <td align="center"   id="dhbg"><i>γ</i><sub>G<sub>2</sub></sub></td>
+      <td align="center"   id="dhbg">1.2</td>
+      <td align="center"   id="dhbg">1.0</td>
+		  </tr>  
+  	  <tr>
+		  <td align="center" id="dhbg">3</td>
+      <!-- <th></th> -->
+      <td align="center" colspan="2" id="dhbg">土的重力</td>
+      <!-- <th></th> --> 
+      <td align="center"   id="dhbg"><i>γ</i><sub>G<sub>3</sub></sub></td>
+      <td align="center"   id="dhbg">1.2</td>
+      <td align="center"   id="dhbg">1.0</td>
+		  </tr> 
+  	  <tr>
+		  <td align="center" id="dhbg">4</td>
+      <!-- <th></th> -->
+      <td align="center" colspan="2" id="dhbg">混凝土收缩及徐变作用</td>
+      <!-- <th></th> -->
+      <td align="center"   id="dhbg"><i>γ</i><sub>G<sub>4</sub></sub></td>
+      <td align="center"   id="dhbg">1.0</td>
+      <td align="center"   id="dhbg">1.0</td>
+		  </tr> 
+  	  <tr>
+		  <td align="center" id="dhbg">5</td>
+      <!-- <th></th> -->
+      <td align="center" colspan="2" id="dhbg">土侧压力</td>
+      <!-- <th></th> --> 
+      <td align="center"   id="dhbg"><i>γ</i><sub>G<sub>5</sub></sub></td>
+      <td align="center"   id="dhbg">1.4</td>
+      <td align="center"   id="dhbg">1.0</td>
+		  </tr> 
+  	  <tr>
+		  <td align="center" id="dhbg">6</td>
+      <!-- <th></th> -->
+      <td align="center" colspan="2"  id="dhbg">水的浮力</td>
+      <!-- <th></th> --> 
+      <td align="center"   id="dhbg"><i>γ</i><sub>G<sub>6</sub></sub></td>
+      <td align="center"   id="dhbg">1.0</td>
+      <td align="center"   id="dhbg">1.0</td>
+		  </tr> 
+  	  <tr>
+		  <td align="center" rowspan="2" id="dhbg">7</td>
+      <!-- <th></th> -->
+      <td align="center"  width="150px" rowspan="2" id="dhbg">基础变位作用</td>
+      <td align="center"  width="150px"  id="dhbg">混凝土和圬工结构</td>
+      <td align="center" rowspan="2" id="dhbg"><i>γ</i><sub>G<sub>7</sub></sub></td>
+      <td align="center"  id="dhbg">0.5</td>
+      <td align="center"  id="dhbg">0.5</td>   
+		  </tr>  
+      <tr>
+		  <!-- <th></th> -->
+      <!-- <th></th> -->
+      <!-- <th></th> -->
+      <td align="center" id="dhbg">钢结构</td>
+      <!-- <th></th> -->
+      <td align="center"   id="dhbg">1.0</td>
+      <td align="center" id="dhbg">1.0</td>   
+		  </tr>   
+      <tr>
+		  <td align="center" rowspan="3"  id="dhbg">1</td>
+      <td align="center" rowspan="10" id="dhbg">可变作用</td>
+      <td align="center" colspan="2"  id="dhbg">汽车荷载</td>
+      <!-- <th></th> --> 
+      <td align="center" rowspan="3" id="dhbg"><i>γ</i><sub>Q<sub>1</sub></sub></td>
+      <td align="center" rowspan="3" colspan="2" id="dhbg">车道荷载：1.4<br>车辆荷载：1.8</td>
+      <!-- <th></th> -->  
+		  </tr> 
+      <tr>
+		  <!-- <th></th> --> 
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">汽车冲击力</td>
+      <!-- <th></th> --> 
+      <!-- <th></th> --> 
+      <!-- <th></th> --> 
+      <!-- <th></th> -->  
+		  </tr>
+      <tr>
+		  <!-- <th></th> --> 
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">汽车离心力</td>
+      <!-- <th></th> --> 
+      <!-- <th></th> --> 
+      <!-- <th></th> --> 
+      <!-- <th></th> -->  
+		  </tr>
+       <tr>
+		  <td align="center" id="dhbg">2</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">汽车引起的土侧压力</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>2</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr>      
+      <tr>
+		  <td align="center" id="dhbg">3</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">人群荷载</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>3</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr>      
+      <tr>
+		  <td align="center" id="dhbg">4</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">汽车制动力</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>4</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr> 
+      <tr>
+		  <td align="center" id="dhbg">5</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">风荷载</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>5</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr> 
+      <tr>
+		  <td align="center" id="dhbg">6</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">流水压力</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>6</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr>  
+      <tr>
+		  <td align="center" id="dhbg">7</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">冰压力</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>7</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr> 
+      <tr>
+		  <td align="center" id="dhbg">8</td>
+      <!-- <th></th> --> 
+      <td align="center" colspan="2"  id="dhbg">温度（均匀温度和梯度温度）作用</td>
+      <!-- <th></th> --> 
+      <td align="center"  id="dhbg"><i>γ</i><sub>Q<sub>8</sub></sub></td> 
+      <td align="center" colspan="2"  id="dhbg">1.4</td>
+      <!-- <th></th> -->  
+		  </tr> 
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+ <p><a href="#id1.2.1.3"> 三、作用的组合</a> <span id="id1.2.1.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.209"> [A1.209]</a><span id="idA1.209"> 桥梁结构通常同时承受多种作用。《通规》（JTG D60—2015）要求公路桥梁结构设计应考虑可能同时出现的多种作用，分别按承载能力极限状态和正常使用极限状态进行组合，具体组合原则为：</span></p>
+ <p style="text-align:justify">（1）只有在结构上可能同时出现的作用，才能进行组合。</p>
+ <p style="text-align:justify">（2）当某个可变作用对结构或构件产生有利影响时，该作用不应参与组合。实际不可能同时出现的作用或出现概率很小的作用，按<a href="#B1.3.21">表1-3-21</a>规定不参与组合。</p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.21">表1-3-21 可变作用不同时组合表</b></caption>	
+              
+		  <tr>
+		  <td width="300px" align="center" id="dhbg">作用名称</td>
+      <td width="600px" align="center" id="dhbg">不与该作用同时参与组合的作用</td>
+      </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">汽车制动力</td>
+      <td align="center" id="dhbg">流水压力、冰压力、波浪力、支座摩阻力</td>
+		  </tr>  
+ 		  <tr>
+		  <td align="center" id="dhbg">流水压力</td>
+      <td align="center" id="dhbg">汽车制动力、冰压力、波浪力</td>
+		  </tr> 
+ 		  <tr>
+		  <td align="center" id="dhbg">波浪力</td>
+      <td align="center" id="dhbg">汽车制动力、流水压力、冰压力</td>
+		  </tr> 
+ 		  <tr>
+		  <td align="center" id="dhbg">冰压力</td>
+      <td align="center" id="dhbg">汽车制动力、流水压力、波浪力</td>
+		  </tr> 
+   	  <tr>
+		  <td align="center" id="dhbg">支座摩阻力</td>
+      <td align="center" id="dhbg">汽车制动力</td>
+		  </tr>                   	
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+ <p style="text-align:justify;font-family:times new roman">（3）施工阶段的作用组合，应按计算需要及结构所处条件而定，结构上的施工人员和施工机具设备应作为可变作用加以考虑。对于组合式桥梁，当把底梁作为施工支撑时，作用组合效应宜分两个阶段计算，底梁受荷为第一个阶段，组合梁受荷为第二个阶段。</p>
+ <p style="text-align:justify;font-family:times new roman">（4）多个偶然作用不同时参与组合。</p>
+ <p style="text-align:justify;font-family:times new roman">（5）地震作用不与偶然作用同时参与组合。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.210"> [A1.210]</a><span id="idA1.210"> 需要特别说明，上述组合原则仅仅明确了作用的组合方式，很显然，组合结果是多种多样的。进行桥梁结构设计时，无论是承载能力极限状态还是正常使用极限状态，应在所有可能的作用组合中，取最不利作用组合的效应进行设计。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.211"> [A1.211]</a><span id="idA1.211"> 以下将根据《通规》（JTG D60—2015）规定给出具体的作用组合方式，尤其是与作用组合方式相匹配的效应设计值计算方法。</span></p>
+ 
+ <p><a href="#id1.2.1.4"> 四、作用组合的效应设计值</a> <span id="id1.2.1.4"> </span></p>
+ <ol style="font-family:times new roman"  start="1">
+  <li>承载能力极限状态</li>
+  </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.212"> [A1.212]</a><span id="idA1.212"> 公路桥涵结构按承载能力极限状态设计时，对于持久设计状况和短暂设计状况应采用作用的基本组合，对于偶然设计状况应采用作用的偶然组合，对于地震设计状况应采用作用的地震组合。</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1） 作用的基本组合</p>
+ <p style="text-align:justify;font-family:times new roman">①组合方式<br>组合方式为：永久作用设计值与可变作用设计值相组合。<br>这里特别强调，直接用于结构计算与验算的并非作用组合的结果，而是与该组合方式相匹配的效应设计值。</p>
+ <p style="text-align:justify;font-family:times new roman">②作用基本组合的效应设计值<br>作用基本组合的效应设计值按下式计算：</p>
+
+$$S_{\\mathrm{ud}}=\\gamma_{0}S(\\displaystyle\\sum_{i=1}^{m}\\gamma_{G_{\\mathrm{i}}}G_{\\mathrm{ik}},\\gamma_{\\mathrm{Q_{\\mathrm{1}}}}\\gamma_{\\mathrm{L}}Q_{\\mathrm{1k}},\\psi_{\\mathrm{c}}\\displaystyle\\sum_{j=2}^{n}\\gamma_{\\mathrm{Lj}}\\gamma_{\\mathrm{Q_{\\mathrm{j}}}}Q_{\\mathrm{jk}})\\tag{1-3-22}$$  
+$$或 S_{\\mathrm{ud}}=\\gamma_{0}S(\\displaystyle\\sum_{i=1}^{m}G_{\\mathrm{id}},Q_{\\mathrm{1d}},\\displaystyle\\sum_{j=2}^{n}Q_{\\mathrm{jd}})\\tag{1-3-23}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="90px" align='right'  id="eqzs" ><i>S</i><sub>ud</sub></td>
+ <td width="40px" align='left'   id="eqzs">——</td>
+ <td width="700px" align='left'  id="eqzs">承载能力极限状态下作用基本组合的效应设计值； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>S</i>( &ensp; )</td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 柱的直径或宽度（m）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">结构重要性系数，见表1-3-22； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i><sub>G<sub>i</sub></sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">第<i>i</i>个永久作用的分项系数，见<a href="#B1.3.20">表1-3-20</a>；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i><sub>Q<sub>1</sub></sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">汽车荷载（含汽车冲击力、离心力）的分项系数，见<a href="#B1.3.20">表1-3-20</a>。当采用车道荷载计算时取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4，采用车辆荷载计算时<i>γ</i><sub>Q<sub>1</sub></sub>=1.8。当某个可变作用在组合中其效应值超过汽车荷载效应时，则该作用取代汽车荷载，其分项系数取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4；对专为承受某作用而设置的结构或装置，设计时该作用的分项系数取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4；计算人行道板和人行道栏杆的局部荷载，其分项系数也取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i><sub>Q<sub>j</sub></sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">在作用组合中除汽车荷载（含汽车冲击力、离心力）外的其他第j个可变作用的分项系数，见<a href="#B1.3.20">表1-3-20</a>；</td>
+ </tr>  
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>G</i><sub>ik</sub>，<i>G</i><sub>id</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">第i个永久作用的标准值和设计值；</td>
+ </tr>  
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Q</i><sub>1k</sub>，<i>Q</i><sub>1d</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">汽车荷载（含汽车冲击力、离心力）的标准值和设计值；</td>
+ </tr>  
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Q</i><sub>jk</sub>，<i>Q</i><sub>jd</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">在作用组合中除汽车荷载（含汽车冲击力、离心力）外的其他第j个可变作用的标准值和设计值；</td>
+ </tr>  
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Ψ</i><sub>c</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">在作用组合中除汽车荷载（含汽车冲击力、离心力）外的其他可变作用的组合系数，取<i>Ψ</i><sub>c</sub>=0.75；</td>
+ </tr>  
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Ψ</i><sub>c</sub><i>Q</i><sub>jk</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">在作用组合中除汽车荷载（含汽车冲击力、离心力）外的第j个可变作用的组合值；</td>
+ </tr>  
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i><sub>L<sub>j</sub></sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">第j个可变作用的结构设计使用年限荷载调整系数。公路桥涵结构的设计使用年限按<a href="#B1.3.23">表1-3-23</a>取值时，<i>γ</i><sub>L<sub>j</sub></sub>=1.0；否则，<i>γ</i><sub>L<sub>j</sub></sub>取值应按专题研究确定。</td>
+ </tr>       
+ </table>
+ <p> </p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.22">表1-3-22 结构重要性系数及设计安全等级 </b></caption>	
+              
+		  <tr>
+		  <td width="200px" align="center" id="dhbg">设计安全等级</td>
+      <td width="450px" align="center" id="dhbg">桥涵结构</td>
+      <td width="250px" align="center" id="dhbg">结构重要性系数<i>γ</i><sub>0</sub></td>
+		  </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">一级</td>
+      <td align="center"  id="dhbg">（1）各等级公路上的特大桥、大桥、中桥；<br>（2）高速公路、一级公路、二级公路、国防公路及城市附近交通繁忙公路上的小桥。</td>
+      <td align="center"  id="dhbg">1.1</td>
+		  </tr>  
+      <tr>
+		  <td align="center" id="dhbg">二级</td>
+      <td align="center"  id="dhbg">（1）三、四级公路上的小桥；<br>（2）高速公路、一级公路、二级公路、国防公路及城市附近交通繁忙公路上的涵洞。</td>
+      <td align="center"  id="dhbg">1.0</td>
+		  </tr>  
+ 		  <tr>
+		  <td align="center" id="dhbg">三级</td>
+      <td align="center"  id="dhbg">三、四级公路上的涵洞</td>
+      <td align="center"  id="dhbg">0.9</td>
+		  </tr>    
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.23">表1-3-23 桥涵设计使用年限（年）</b></caption>	
+              
+		  <tr>
+		  <td width="150px" rowspan="2" align="center" id="dhbg">公路等级</td>
+      <td   align="center" colspan="3" id="dhbg">主体结构</td>
+      <!-- <th></th> -->   
+      <!-- <th></th> -->  
+      <td width="200px"  align="center" id="dhbg"> </td>
+      <td width="200px"   align="center" id="dhbg">可更换部件</td>   
+		  </tr>
+		  <tr>
+		  <!-- <th></th> --> 
+      <td   align="center"   id="dhbg">特大桥，中桥</td>
+      <td   align="center"   id="dhbg">中桥</td> 
+      <td   align="center"   id="dhbg">小桥，涵洞</td> 
+      <td width="200px"  align="center" id="dhbg"> 斜拉索，吊索，系杆等</td>
+      <td width="200px"   align="center" id="dhbg">栏杆，伸缩缝，支座等</td>   
+		  </tr>      
+ 		  <tr>
+		  <td align="center" id="dhbg">高速公路<br>一级公路</td>
+      <td align="center"  id="dhbg">100</td>
+      <td align="center"  id="dhbg">100</td>
+      <td align="center"  id="dhbg">50</td>
+      <td align="center" rowspan="3" id="dhbg">20</td>
+      <td align="center" rowspan="3" id="dhbg">15</td>
+		  </tr>  
+		  <tr>
+		  <td align="center" id="dhbg">二级公路<br>三级公路</td>
+      <td align="center"  id="dhbg">100</td>
+      <td align="center"  id="dhbg">50</td>
+      <td align="center"  id="dhbg">30</td>
+      <!-- <th></th> --> 
+      <!-- <th></th> --> 
+		  </tr> 
+		  <tr>
+		  <td align="center" id="dhbg">四级公路</td>
+      <td align="center"  id="dhbg">100</td>
+      <td align="center"  id="dhbg">50</td>
+      <td align="center"  id="dhbg">30</td>
+      <!-- <th></th> --> 
+      <!-- <th></th> --> 
+		  </tr>             
+     </table>
+   <p style="font-family:times new roman"> </p>
+ <p style="text-align:justify;font-family:times new roman">当作用与作用效应为线性关系时，作用基本组合的效应设计值<i>S</i><sub>ud</sub>可通过作用效应代数相加计算。</p>
+ <p style="text-align:justify;font-family:times new roman">设计弯桥时，若离心力与制动力同时参与组合，制动力标准值或设计值按70%取用。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）作用的偶然组合</p>
+ <p style="text-align:justify;font-family:times new roman">①组合方式<br>组合方式为：永久作用标准值与可变作用某种代表值、一种偶然作用设计值相组合；与偶然作用同时出现的可变作用，可根据观测资料和工程经验取用频遇值或准永久值。</p>
+ <p style="text-align:justify;font-family:times new roman">②作用偶然组合的效应设计值<br>作用偶然组合的效应设计值按下式计算：</p>
+
+$$S_{\\mathrm{ad}}=S\(\\displaystyle\\sum_{i=1}^{m}G_{\\mathrm{ik}},A_{\\mathrm{d}},(\\Psi_{\\mathrm{f1}}或\\Psi_{\\mathrm{q1}}) Q_{\\mathrm{1K}},\\displaystyle\\sum_{j=2}^{n} \\Psi_{\\mathrm{qj}} Q_{\\mathrm{jK}})\\tag{1-3-24}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>S</i><sub>ad</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">承载能力极限状态下作用偶然组合的效应设计值； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>A</i><sub>d</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 偶然作用的设计值；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i> Ψ</i><sub>f1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">汽车荷载（含汽车冲击力、离心力）的频遇值系数，取<i> Ψ</i><sub>f1</sub>=0.7；当某个可变作用在组合中其效应值超过汽车荷载效应吋，则该作用取代汽车荷载，人群荷载 <i> Ψ</i><sub>f</sub>=1.0，风荷载 <i> Ψ</i><sub>f</sub>=0.75，温度梯度作用 <i> Ψ</i><sub>f</sub>=0.8，其他作用 <i> Ψ</i><sub>f</sub>=1.0；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i> Ψ</i><sub>f1</sub><i> Q</i><sub>1k</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">汽车荷载的频遇值；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i> Ψ</i><sub>q1</sub>，<i> Ψ</i><sub>qj</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">第1个和第j个可变作用的准永久值系数，汽车荷载（含汽车冲击力、离心力） <i> Ψ</i><sub>q</sub>=0.4，人群荷载 <i> Ψ</i><sub>q</sub>=0.4，风荷载 <i> Ψ</i><sub>q</sub>=0.75，温度梯度作用 <i> Ψ</i><sub>q</sub>=0.8，其他作用 <i> Ψ</i><sub>q</sub>=1.0；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i> Ψ</i><sub>q1</sub><i> Q</i><sub>1k</sub>，<i> Ψ</i><sub>qj</sub><i> Q</i><sub>jk</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">第1个和第j个可变作用的准永久值。</td>
+ </tr>  
+ </table>
+ <p> </p>
+
+
+ <p style="text-align:justify;font-family:times new roman">当作用与作用效应可按线性关系时，作用偶然组合的效应设计值<i>S</i><sub>ad</sub>均可通过作用效应代数相加计算。</p>
+ <p style="text-align:justify;font-family:times new roman">作用地震组合的效应设计值应按现行《公路工程抗震规范》（JTG B02）的有关规定计算。</p>
+ 
+ 
+  <ol style="font-family:times new roman"  start="2">
+  <li>正常使用极限状态</li>
+  </ol>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.213"> [A1.213]</a><span id="idA1.213"> 公路桥涵结构按正常使用极限状态设计时，应根据不同的设计要求，采用作用的频遇组合或准永久组合。</span></p>
+  <p style="text-align:justify;font-family:times new roman">（1）作用的频遇组合</p>
+  <p style="text-align:justify;font-family:times new roman">①组合方式<br>组合方式为：永久作用标准值与汽车荷载频遇值、其他可变作用准永久值相组合。</p>
+  <p style="text-align:justify;font-family:times new roman">②作用频遇组合的效应设计值<br>作用频遇组合的效应设计值按下式计算：</p>
+
+
+$$S_{\\mathrm{fd}}=S\(\\displaystyle\\sum_{i=1}^{m}G_{\\mathrm{ik}},\\Psi_{\\mathrm{f1}}Q_{\\mathrm{1K}},\\displaystyle\\sum_{j=2}^{n} \\Psi_{\\mathrm{qj}} Q_{\\mathrm{jK}})\\tag{1-3-25}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>S</i><sub>fd</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">作用频遇组合的效应设计值； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Ψ</i><sub>f1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 汽车荷载（不计汽车冲击力）频遇值系数，取0.7。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+  <p style="text-align:justify;font-family:times new roman">当作用与作用的效应为线性关系时，作用频遇组合的效应设计值<i>S</i><sub>fd</sub>可通过作用效应代数相加计算。</p>
+  <p style="text-align:justify;font-family:times new roman">（2）作用的准永久组合</p>
+  <p style="text-align:justify;font-family:times new roman">①组合方式<br>组合方式为：永久作用标准值与可变作用准永久值相组合。</p>
+  <p style="text-align:justify;font-family:times new roman">②作用准永久组合的效应设计值<br>作用准永久组合的效应设计值按下式计算：</p>
+
+$$S_{\\mathrm{qd}}=S\(\\displaystyle\\sum_{i=1}^{m}G_{\\mathrm{ik}},\\displaystyle\\sum_{j=1}^{n} \\Psi_{\\mathrm{qj}} Q_{\\mathrm{jK}})\\tag{1-3-26}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>S</i><sub>qd</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">作用准永久组合的效应设计值； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Ψ</i><sub>qj</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 汽车荷载（不计汽车冲击力）准永久值系数，取0.4。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+  <p style="text-align:justify;font-family:times new roman">当作用与作用效应可按线性关系时，作用准永久组合的效应设计值<i>S</i><sub>qd</sub>均可通过作用效应代数相加计算。</p>
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.214"> [A1.214]</a><span id="idA1.214"> [例题1-3-1]某1孔30 m预应力混凝土简支梁桥，<math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn>l</mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> </math>跨径截面的剪力<i>V</i><sub>Gk</sub>=187.01kN（结构重力）， <i>V</i><sub>Q1k</sub>=261.76kN（汽车荷载），冲击系数（1+μ）＝1.19，人群荷载 <i>V</i><sub>Q2k</sub>=57.20kN，温度梯度作用 <i>V</i><sub>Q3k</sub>=41.50kN。试进行承载能力极限状态和正常使用极限状态设计时的作用组合及组合效应设计值计算。</span></p>
+
+  <p style="text-align:justify;font-family:times new roman">解：<br>（1）承载能力极限状态</p>
+
+  <p style="text-align:justify;font-family:times new roman">按承载能力极限状态设计时作用组合有基本组合和偶然组合，设计暂不考虑偶然组合。基本组合采用<a href="#ideq1-3-23">式(1-3-23)</a><span id="ideq1-3-23">计算。</P>
+
+  <p style="text-align:justify;font-family:times new roman">参照本篇第一章表1-1-1，1孔20 m简支梁桥为中桥，查<a href="#B1.3.21">表1-3-21</a>，其设计安全等级为一级、结构重要性系数 <i>γ</i><sub>0</sub>=1.1。</P>
+
+  <p style="text-align:justify;font-family:times new roman">作用分项系数查<a href="#B1.3.20">表1-3-20</a>，结构重力<i>γ</i><sub>G1</sub>=1.2，汽车荷载 <i>γ</i><sub>Q1</sub>=1.4，人群荷载 <i>γ</i><sub>Q2</sub>=1.4，温度梯度作用<i>γ</i><sub>Q3</sub>=1.4 。</P>
+
+  <p style="text-align:justify;font-family:times new roman">设计使用年限荷载调整系数，汽车荷载 <i>γ</i><sub>L</sub>=1.0，人群荷载 <i>γ</i><sub>L2</sub>=1.0，温度梯度作用 <i>γ</i><sub>L3</sub>=1.0 。</P>
+  <p style="text-align:justify;font-family:times new roman">组合系数 <i>Ψ</i><sub>c</sub>=0.75。</P>
+  <p style="text-align:justify;font-family:times new roman">结构重力设计值 <i>V</i><sub>Gd</sub>=<i>γ</i><sub>G1</sub>·<i>V</i><sub>Gk</sub>=1.2×187.01=224.412（kN）</P>
+  <p style="text-align:justify;font-family:times new roman">汽车荷载设计值 <i>V</i><sub>Q1d</sub>=<i>γ</i><sub>Q1</sub>·<i>γ</i><sub>L</sub>·<i>V</i><sub>Q1k</sub>=1.4×1.0×261.76=366.464（kN）</P>
+  <p style="text-align:justify;font-family:times new roman">人群荷载设计值 <i>V</i><sub>Q2d</sub>=<i>γ</i><sub>Q2</sub>·<i>γ</i><sub>L2</sub>·<i>V</i><sub>Q2k</sub>=1.4×1.0×57.20=80.080（kN）</P>
+  <p style="text-align:justify;font-family:times new roman">温度梯度作用设计值 <i>V</i><sub>Q3d</sub>=<i>γ</i><sub>Q3</sub>·<i>γ</i><sub>L3</sub>·<i>V</i><sub>Q3k</sub>=1.4×1.0×41.50=58.100（kN）</P>
+  <p style="text-align:justify;font-family:times new roman">考虑本算例跨径较小，可认为作用与作用效应为线性关系，因此，基本组合的剪力效应设计值可分别采用相应作用设计值的代数和，则：</P>
+  <p style="text-align:justify;font-family:times new roman">基本组合1：结构重力与汽车荷载、人群荷载组合的剪力效应设计值为</P>
+
+
+\\begin{align}
+V_{\\mathrm{ud}} &= \\gamma_{0}\\cdot[V_{\\mathrm{Gd}}+(1+\\mu)\\cdot V_{\\mathrm{Q1d}}+\\Psi_{\\mathrm{c}}\\cdot V_{\\mathrm{Q2d}}]\\\\
+&= 1.1\\times(224.412+1.19\\times 366.464+0.75\\times 80.080)=792.621(\\mathrm{kN}) 
+\\end{align}
+
+
+
+.. raw:: html
+   
+
+ <p style="text-align:justify;font-family:times new roman">基本组合2：结构重力与汽车荷载、温度梯度作用组合的剪力效应设计值为</P>
+
+
+\\begin{align}
+V_{\\mathrm{ud}} & =\\gamma_{0}\\cdot[V_{\\mathrm{Gd}}+(1+\\mu)\\cdot V_{\\mathrm{Q1d}}+\\Psi_{\\mathrm{c}}\\cdot V_{\\mathrm{Q3d}}]\\\\ 
+&=1.1\\times(224.412+1.19\\times 366.464+0.75\\times 58.100)=774.487(\\mathrm{kN})
+\\end{align}
+
+.. raw:: html
+   
+ 
+ <p style="text-align:justify;font-family:times new roman">基本组合3：结构重力与汽车荷载、人群荷载、温度梯度作用组合的剪力效应设计值为</P>
+
+\\begin{align}
+V_{\\mathrm{ud}} & =\\gamma_{0}\\cdot[V_{\\mathrm{Gd}}+(1+\\mu)\\cdot V_{\\mathrm{Q1d}}+\\Psi_{\\mathrm{c}}\\cdot (V_{\\mathrm{Q2d}}+V_{\\mathrm{Q3d}})]\\\\
+&=1.1\\times[224.412+1.19\\times 366.464+0.75\\times (80.080+5.100)]=840.553(\\mathrm{kN})
+\\end{align}
+
+.. raw:: html
+ 
+ <p style="text-align:justify;font-family:times new roman">（2）正常使用极限状态</P>
+ <p style="text-align:justify;font-family:times new roman">按正常使用极限状态设计时，作用组合有频遇组合和准永久组合，频遇组合的效应设计值采用<a href="#ideq1-3-25">式(1-3-25)</a><span id="ideq1-3-25">计算，准永久组合的效应设计值采用<a href="#ideq1-3-26">式(1-3-26)</a><span id="ideq1-3-26">计算，并且认为作用与作用效应为线性关系。</P>
+ <p style="text-align:justify;font-family:times new roman">频遇值系数：汽车荷载 <i>Ψ</i><sub>f1</sub>=0.7；</P>
+ <p style="text-align:justify;font-family:times new roman">准永久值系数：汽车荷载 <i>Ψ</i><sub>q1</sub>=0.4，人群荷载 <i>Ψ</i><sub>q2</sub>=0.7，温度梯度作用<i>Ψ</i><sub>q3</sub>=0.8。</P>
+ <p style="text-align:justify;font-family:times new roman">汽车荷载频遇值  <i>V</i><sub>Q1fd</sub>=<i>Ψ</i><sub>f1</sub>·<i>V</i><sub>Q1k</sub>=0.7×261.76=183.232（kN）</P>
+ <p style="text-align:justify;font-family:times new roman">汽车荷载准永久值 <i>V</i><sub>Q1qd</sub>=<i>Ψ</i><sub>q1</sub>·<i>V</i><sub>Q1k</sub>=0.4×261.76=104.704（kN）</P>
+ <p style="text-align:justify;font-family:times new roman">人群荷载准永久值 <i>V</i><sub>Q2qd</sub>=<i>Ψ</i><sub>q2</sub>·<i>V</i><sub>Q2k</sub>=0.4×57.20=22.880（kN）</P>
+ <p style="text-align:justify;font-family:times new roman">温度梯度作用效应准永久值  <i>V</i><sub>Q3qd</sub>=<i>Ψ</i><sub>q3</sub>·<i>V</i><sub>Q2k</sub>=0.8×41.50=33.200（kN）</P>
+ <p style="text-align:justify;font-family:times new roman">①频遇组合<br>频遇组合1：结构重力与汽车荷载、人群荷载组合的剪力效应设计值为</P>
+
+\\begin{align} 
+V_{\\mathrm{fd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1fd}}+V_{\\mathrm{Q2qd}}\\\\  
+&=187.01+183.232+22.880=393.122(\\mathrm{kN}) 
+\\end{align}
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">频遇组合2：结构重力与汽车荷载、温度梯度作用组合的剪力效应设计值为</P>
+
+\\begin{align} 
+V_{\\mathrm{fd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1fd}}+V_{\\mathrm{Q3qd}}\\\\   
+&=187.01+183.232+33.200=403.442(\\mathrm{kN})  
+\\end{align}
+
+.. raw:: html
+ 
+ <p style="text-align:justify;font-family:times new roman">频遇组合3：结构重力与汽车荷载、人群荷载、温度梯度作用组合的剪力效应设计值为</P>
+
+\\begin{align} 
+V_{\\mathrm{fd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1fd}}+V_{\\mathrm{Q2qd}}+V_{\\mathrm{Q3qd}}\\\\ 
+&=187.01+183.232+22.880+33.200=426.322(\\mathrm{kN})
+\\end{align}
+
+.. raw:: html 
+ 
+ <p style="text-align:justify;font-family:times new roman">②准永久组合<br>准永久组合1：结构重力与汽车荷载、人群荷载组合的剪力效应设计值为</P>
+ 
+\\begin{align} 
+V_{\\mathrm{qd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1qd}}+V_{\\mathrm{Q2qd}}\\\\ 
+&=187.01+104.704+22.880=314.594(\\mathrm{kN})  
+\\end{align}
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">准永久组合2：结构重力与汽车荷载、温度梯度作用组合的剪力效应设计值为</P>
+
+
+ 
+\\begin{align} 
+V_{\\mathrm{qd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1qd}}+V_{\\mathrm{Q3qd}}\\\\ 
+&=187.01+104.704+33.200=324.914(\\mathrm{kN})  
+\\end{align}
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">准永久组合3：结构重力与汽车荷载、人群荷载、温度梯度作用组合的剪力效应设计值为</P>
+
+ 
+\\begin{align} 
+V_{\\mathrm{qd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1qd}}+V_{\\mathrm{Q2qd}}+V_{\\mathrm{Q3qd}}\\\\ 
+&=187.01+104.704+22.880+33.200=347.794(\\mathrm{kN})  
+\\end{align}
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn>l</mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> </math>跨径截面剪力承载能力极限状态和正常使用极限状态作用组合的剪力设计值计算结果见<a href="#B1.3.24">表1-3-24</a>所示。</P>
+
+
+
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.24">表1-3-24  <math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn>l</mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> </math>跨径截面剪力设计值<i>V</i>计算结果   </b></caption>	
+              
+		  <tr>
+		  <td width="240px" rowspan="2"  align="center" id="dhbg"> <math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn>l</mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> </math>跨径截面剪力<i>V</i></td>
+      <td width="220px" align="center" id="dhbg">组合1</td>
+      <td width="220px" align="center" id="dhbg">组合2</td>
+      <td width="220px" align="center" id="dhbg">组合3</td>
+  	  </tr>
+      <tr>
+      <!-- <th></th> --> 
+      <td align="left"   id="dhbg">结构重力与汽车荷载、人群荷载组合</td>
+      <td align="left"   id="dhbg">结构重力与汽车荷载、温度梯度作用组合</td>
+      <td align="left"   id="dhbg">结构重力与汽车荷载、人群荷载、温度梯度作用组合</td>  
+      </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">基本组合<i>V</i><sub>ud</sub>（kN）</td>
+      <td align="center"   id="dhbg">792.621</td>
+      <td align="center"   id="dhbg">774.487</td>
+      <td align="center"   id="dhbg">840.553</td>
+		  </tr>  
+ 		  <tr>
+		  <td align="center" id="dhbg">频遇组合<i>V</i><sub>fd</sub>（kN）</td>
+      <td align="center"   id="dhbg">393.122</td>
+      <td align="center"   id="dhbg">403.442</td>
+      <td align="center"   id="dhbg">426.322</td>
+		  </tr>  
+  	 <tr>
+		  <td align="center" id="dhbg">准永久组合<i>V</i><sub>qd</sub>（kN）</td>
+      <td align="center"   id="dhbg">314.594</td>
+      <td align="center"   id="dhbg">324.914</td>
+      <td align="center"   id="dhbg">347.794</td>
+		  </tr>         		
+     </table>
+   <p style="font-family:times new roman"><font size="1"><i>L</i><sub>0</sub>为桥梁计算跨径。计算剪力效应时，表中集中荷载标准值<i>P</i><sub>k</sub>应乘以系数1.2。</font></p>
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.215"> [A1.215]</a><span id="idA1.215"> [拓展小知识1-4] 桥梁设计荷载<br>公路桥梁与铁路桥梁的设计荷载是不同的。①名词术语不同。公路桥梁设计荷载分为永久作用、可变作用、偶然作用和地震作用；铁路桥梁设计荷载分为主力（包括恒载和活载）、附加力和特殊荷载。②设计方法不同。公路桥梁采用概率极限状态法设计；铁路桥梁目前仍采用容许应力法设计[已颁布了极限状态法设计规范（Q/CR）]。③荷载组合方式不同。公路桥梁按持久状况设计时，应分别计算承载能力极限状态下的基本组合、偶然组合，正常使用极限状态下的频遇组合、准永久组合；铁路桥梁按容许应力法设计时，则按主力（恒载+活载）、主力+附加力（仅考虑一个方向的）、主力+特殊荷载分别进行组合。④汽车活载与列车荷载不同。公路桥梁汽车荷载分车道荷载和车辆荷载，整体分析时采用车道荷载（<i>q</i><sub>k</sub>和<i>P</i><sub>k</sub> ）加载，局部分析时采用车辆荷载加载；铁路桥梁无论整体分析还是局部分析均采用列车荷载加载。可参见“参考文献[1]和[12]”。</span></p>
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.216"> [A1.216]</a><span id="idA1.216"> [学习提示]<br>“桥梁工程”课程的主要内容包括：依据经验（已建成桥梁）和现行公路桥涵设计规范构造结构体系，确定作用于桥跨结构上的作用类型，根据结构受力特点确定控制截面上的荷载（永久作用、可变作用、偶然作用等）及其作用组合的内力设计值，采用最不利组合进行截面设计。<br>“结构设计原理”课程讲授的是依据构件上最不利截面的作用效应设计值进行构件截面设计，而截面的作用效应设计值计算则是桥梁工程课程解决的问题。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.217"> [A1.217]</a><span id="idA1.217"> [思考与练习]<br>1. 说明永久作用、可变作用和偶然作用的具体含义。</span></p>
+ <br>2. 水浮力是永久作用还是可变作用？
+ <br>3. 为什么桥梁结构整体分析计算时采用车道荷载加载，桥梁局部分析或涵洞、桥台计算时采用车辆荷载加载？
+ <br>4. 为什么2车道以上或桥长大于150 m的桥梁，汽车荷载效应可予以折减？
+ <br>5. 汽车冲击力是怎样产生的？ 
+ <br>6. 某1孔20m钢筋混凝土简支梁桥，跨中截面弯矩：</p>
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">结构重力<i>M</i><sub>G<sub>k</sub></sub>=736 kN-m，汽车荷载 <i>M</i><sub>Q<sub>k</sub></sub>=525 kN-m，冲击系数(1+μ)=1.20，人群荷载<i>M</i><sub>Q<sub>2k</sub></sub>=50 kN-m。</p>
+ <p style="text-align:justify;font-family:times new roman">试进行承载能力极限状态和正常使用极限状态设计时的作用组合效应设计值计算。</p>
 
 
 :math:`\ `

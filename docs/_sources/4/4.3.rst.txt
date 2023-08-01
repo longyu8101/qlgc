@@ -4,3 +4,624 @@
 .. raw:: html
 
  <h3 id="test111">第三节  伸缩装置与桥面连续</h3>
+ <p><a href="#id1.4.3.1"> 一、桥梁伸缩装置</a> <span id="id1.4.3.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.231"> [A1.231]</a><span id="idA1.231"> 桥梁伸缩装置，是指在桥梁温度变化、混凝土收缩、徐变以及荷载作用等产生梁端变位的情况下，为了使车辆能够顺利地在桥面行驶，同时能够满足桥面变形的要求，而在梁端与桥台背墙之间、两相邻梁端之间设置的装置。</span></p>
+ 
+ <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>构造要求</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"> 桥梁伸缩装置在构造上应满足：</p>
+ <p style="text-align:justify;font-family:times new roman"> （1）能自由伸缩和转动；<br>（2）牢固可靠；<br>（3）车辆行驶时平顺、无突跳和噪声；<br>（4）能防止雨水渗入和及时排除，并能防止污物侵入和阻塞；<br>（5）易于安装、检查、养护和清除污物；</p>
+
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>主要类型与构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"> 我国公路桥梁和城市桥梁工程上使用的伸缩装置种类很多，《公路桥梁伸缩装置通用技术条件》（JT∕T 327—2016）按伸缩结构分为三大类：模数式伸缩装置（代号M）、梳齿板式伸缩装置（代号S）和无缝式伸缩装置（代号W），如<a href="#B1.4.1">表1-4-1</a>所示。在此着重介绍伸缩装置的构造特点。</p>
+
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.3">表1-3-3 各级公路桥涵的汽车荷载等级和车道荷载标准值   </b></caption>	
+              
+		<tr>
+		<td colspan="3" align="center" id="dhbg">伸缩装置类型</td>
+      <!-- <th></th> -->
+      <!-- <th></th> -->
+      <td width="140px" align="center" id="dhbg">代号</td>
+      <td width="180px" align="center" id="dhbg">伸缩量<i>e</i>(mm)</td>   
+		</tr>
+ 		<tr>
+		<td width="220px"  align="center" rowspan="2" id="dhbg">模数式伸缩装置</td>
+      <td align="center" colspan="2" id="dhbg">单缝模数式伸缩装置</td>
+      <!-- <th></th> -->
+      <td align="center" id="dhbg">MA</td>
+      <td align="center"  id="dhbg">20 ≤ <i>e</i> ≤ 80</td>
+		</tr>  
+  		<tr>
+		<!-- <th></th> -->
+      <td width="180px" colspan="2" align="center" id="dhbg">多缝模数式伸缩装置</td>
+      <!-- <th></th> -->
+      <td align="center" id="dhbg">MB</td>
+      <td align="center"  id="dhbg"><i>e</i> ≥ 160</td>    
+		</tr>  
+   	<tr>
+		<td align="center" rowspan="3" id="dhbg">梳齿板式伸缩装置</td>
+      <td align="center" colspan="2" width="180px" id="dhbg">悬臂梳齿板式伸缩装置</td>
+      <!-- <th></th> -->
+      <td align="center" id="dhbg">SC</td>
+      <td align="center"  id="dhbg">60 ≤ <i>e</i> ≤ 240</td>    
+		</tr>  
+   	<tr>
+		<!-- <th></th> -->
+      <td align="center" width="180px" rowspan="2"id="dhbg">简支梳齿板式伸缩装置</td>
+      <td align="center" width="180px" id="dhbg">活动梳齿板的齿板位于伸缩缝一侧</td>
+      <td align="center" id="dhbg">SSA</td>
+      <td align="center"  id="dhbg">80 ≤ <i>e</i> ＜ 1000</td>    
+		</tr> 
+    	<tr>
+		  <!-- <th></th> -->
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">活动梳齿板的齿板跨越伸缩缝</td>
+        <td align="center"  id="dhbg">SSB</td>
+        <td align="center"  id="dhbg"> <i>e</i> ≥ 1000</td>    
+		  </tr> 
+     	  <tr>
+		  <td align="center"  id="dhbg">无缝式伸缩装置</td>
+        <td align="center"  id="dhbg"> </td>
+        <td align="center"  id="dhbg"> </td>
+        <td align="center"  id="dhbg">W</td>
+        <td align="center"  id="dhbg">20 ≤ <i>e</i> ≤ 100</td>    
+		  </tr>                                        
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+   <p style="font-family:times new roman"> （1）模数式伸缩装置 </p>
+   <p style="font-family:times new roman"> 随着我国高等级公路和城市高架桥建设事业的迅速发展，桥梁的长大化得到突破性发展，这就要求有结构合理、大位移量的桥梁伸缩装置来适应这一发展需要。然而板式橡胶伸缩装置很难满足大位移量的要求；钢制伸缩装置又很难做到密封不透水，而且容易造成对车辆的冲击，影响车辆的行驶性能。因此，出现了利用吸震缓冲性能好又容易做到密封的橡胶材料，与强度高、刚性好的异形钢材组合，在大位移量情况下能承受车辆荷载的各种模数式（模数支承式）桥梁伸缩装置系列。这类伸缩装置的共同点在于，均由V形截面或其他截面形状的橡胶密封条（带）嵌接于异形边钢梁内组成可伸缩的密封体，异形钢梁直接承受车辆荷载，且可根据要求的伸缩量，随意增加中间钢梁和密封橡胶条（带），加工组装成各种伸缩量的系列产品；不同点仅在于承重异形钢梁和传递伸缩力的传动机构形式和原理。异形钢有采用钢板或型钢焊接而成，有挤压成形，也有轧钢坯经车轧成形或局部分段（层）轧制焊接成形的。目前已实现了热轧整体成形专用异形钢材的国产化。<a href="#image1.4.7">图1-4-7</a>为MB型伸缩装置立面构造图。 </p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image1.4.7{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.7" src="../_static/fig/1-4-7.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">1-横梁支承箱；2-活动横梁；3-滑板；4-四氟板橡胶支承垫；5-橡胶滚轮；6-限位栓；7-橡胶伸缩带；8-工字形中间梁；9-工字形边梁；10-钢穿心杆；11-套筒；<br>图1-4-7  多缝模数式伸缩装置</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.7'));</script>
+
+  </body>
+
+ <p style="font-family:times new roman"> （2）梳齿板式伸缩装置 </p>
+ <p style="font-family:times new roman"> 梳齿板式伸缩装置是钢制支承式伸缩装置，用钢材装配制成，能直接承受车轮荷载。这种伸缩装置多用于钢桥，现也用于混凝土桥梁。梳齿板式伸缩装置的形状、尺寸和种类较多，其中有面层板设计成齿形，从左右伸出桥面板间隙处相互啮合的悬臂式构造[<a href="#image1.4.8a">图1-4-8a)</a>]，伸缩量在240 mm以内；有面层板做成矩形的叠合悬架式构造[<a href="#image1.4.8bc">图1-4-8b）、c）</a>]，属于简支梳齿板式伸缩装置，当伸缩量不超过1000 mm时，可采用活动梳齿板的齿板位于伸缩缝一侧的伸缩装置，当伸缩量超过1000mm时，可采用活动梳齿板的齿板跨越伸缩缝的伸缩装置。</p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image1.4.8a{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.8a" src="../_static/fig/1-4-8a.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">a）啮合悬臂式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.8a'));</script>
+
+  </body>
+
+ <body>
+
+ <style type="text/css">
+      #image1.4.8bc{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.8bc" src="../_static/fig/1-4-8bc.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">b）叠合悬架式立面 &emsp; &emsp; &emsp; &emsp;  c）叠合悬架式平面<br>图1-4-8  梳齿板式伸缩装置图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.8bc'));</script>
+
+  </body>
+
+ <p style="font-family:times new roman"> （3）无缝式（暗缝型）伸缩装置 </p>
+ <p style="font-family:times new roman"> 无缝式伸缩装置，是接缝构造不伸出桥面时，在桥梁端部的伸缩间隙中填入弹性材料并铺上防水材料，然后在桥面铺装层铺筑黏弹性复合材料，使伸缩接缝处的桥面铺装与其他铺装部分形成一连续体，以连接缝的沥青混凝土等材料的变形承受伸缩的一种构造，如我国常用的桥面连续、TST弹性体（<a href="#image1.4.9">图1-4-9</a>）等。这类伸缩装置的主要特点为：①能适应桥梁上部构造的伸缩变形和小量转动变形；②将使桥面铺装形成连续体，行车时不致产生冲击、振动等，舒适性较好；③形成多重防水构造，防水性较好；④在寒冷地区，易于机械化除雪养护，不致破坏接缝；⑤施工简单，一般易于维修和更换。鉴于这类形式的构造特点，是在路面铺装完成后再用切割器切割路面，并在其槽口内注入嵌缝材料而成的构造，这种接缝仅适用于较小的接缝部位，适用范围有所限制。</p>
+
+ <body>
+
+ <style type="text/css">
+      #image1.4.9{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.9" src="../_static/fig/1-4-9.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4-9  TST碎石弹性伸缩缝立面</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.9'));</script>
+
+  </body>
+
+
+ <ol style="text-align:justify;font-family:times new roman" start="3">
+ <li>伸缩量计算</li>
+ </ol>
+ <p style="font-family:times new roman"> 桥跨结构总伸缩变形量主要包括温度、混凝土徐变、混凝土收缩引起的伸缩量，以及其他因素引起的伸缩量。可按下式进行计算： </p>
+
+
+$$\\Delta l=\\Delta l_{\\mathrm{t}}+\\Delta l_{\\mathrm{e}}+\\Delta l_{\\mathrm{s}}+\\Delta l_{\\mathrm{E}}\\tag{1-4-1}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>Δl</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">桥跨结构总伸缩变形量； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Δl<sub>t</sub></i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 温度引起的伸缩量，可按下式计算；</td>
+ </tr>
+  </table>
+ <p> </p>
+
+$$伸长量：\\Delta l_{\\mathrm{t}}^{+}=(T_{\\mathrm{max}}-T_{\\mathrm{set}})\\alpha l$$  
+$$缩短量：\\Delta l_{\\mathrm{t}}^{-}=(T_{\\mathrm{set}}-T_{\\mathrm{mix}})\\alpha l$$  
+
+$$\\Delta l_{\\mathrm{t}}=\\Delta l_{\\mathrm{t}}^{+}+\\Delta l_{\\mathrm{t}}^{-}\\tag{1-4-2}$$  
+
+.. raw:: html
+
+ <p style="font-family:times new roman"> 其中：<i>T</i><sub>max</sub>、<i>T</i><sub>min</sub> 、<i>T</i><sub>set</sub>分别为最高温度、最低温度和安装温度；<i>l</i>为梁的长度；<i>α</i>为线胀系数，混凝土 <i>α</i>＝10×10<sup>-6</sup>℃<sup>-1</sup>，钢<i>α</i>＝12×10<sup>-6</sup>℃<sup>-1</sup> 。</p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>Δl</i><sub>e</sub>+<i>Δl</i><sub>s</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">混凝土徐变、收缩引起的收缩量，可按下式计算； </td>
+ </tr>
+ </table>
+ <p> </p>
+
+
+$$\\Delta l_{\\mathrm{e}}=\\frac{\\sigma_{\\mathrm{P}}}{E_{\\mathrm{c}}} \\times \\varphi\\times l \\times \\beta \\tag{1-4-3}$$  
+
+$$\\Delta l_{\\mathrm{s}}=20\\times \\alpha \\times l \\times \\beta \\tag{1-4-4}$$  
+ 
+.. raw:: html
+
+ <p style="font-family:times new roman"> 其中：<i>σ</i><sub>P</sub>为预应力等引起的平均轴向应力；<i>E</i><sub>c</sub>为混凝土的弹性模量；<i>φ</i>为混凝土的徐变系数，对于一般野外情况，<i>φ</i>可取2.0；<i>β</i>为混凝土徐变、干燥收缩递减系数，见<a href="#B1.4.2">表1-4-2</a>。</p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>Δl</i><sub>E</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">其他因素引起的伸缩量及安全裕量，可按计算变形量的30%估算。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.4.2">表1-4-2   混凝土徐变、干燥收缩递减系数  </b></caption>	
+              
+		  <tr>
+		  <td width="340px" align="center" id="dhbg">混凝土的龄期（月）</td>
+        <td width="80px" align="center" id="dhbg">0.25</td>
+        <td width="80px" align="center" id="dhbg">0.5</td>
+        <td width="80px" align="center" id="dhbg">1</td>
+        <td width="80px" align="center" id="dhbg">3</td>   
+        <td width="80px" align="center" id="dhbg">6</td> 
+        <td width="80px" align="center" id="dhbg">12</td>   
+        <td width="80px" align="center" id="dhbg">24</td>            
+		  </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">徐变、干燥收缩的递减系数<i>β</i></td>
+		  <td align="center" id="dhbg">0.8</td>
+		  <td align="center" id="dhbg">0.7</td>
+		  <td align="center" id="dhbg">0.6</td>
+		  <td align="center" id="dhbg">0.4</td>
+		  <td align="center" id="dhbg">0.3</td>
+		  <td align="center" id="dhbg">0.2</td>
+		  <td align="center" id="dhbg">0.1</td>                  
+		  </tr>  
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+  <ol style="text-align:justify;font-family:times new roman" start="4">
+ <li>伸缩装置选择</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"> 桥梁伸缩装置形式的选择非常重要，必须以道路性质、桥跨结构类型、需要的伸缩量为依据，综合考虑道路、桥梁和伸缩装置整体的耐久性、平整性、防排水性、施工与维修及经济性等，选择恰当形式的伸缩装置，以保证伸缩装置尽可能与桥梁结构具有相近的寿命。</p>
+ <p style="text-align:justify;font-family:times new roman"> 伸缩装置的伸缩量计算值确定后，直接影响对伸缩装置尺寸选择，若伸缩装置尺寸选择不合理，又直接影响伸缩装置使用效果。同时选择伸缩装置尺寸时还应考虑梁、板间伸缩缝间隙量大小，以保证伸缩装置与梁、板两端能充分锚固，以求达到最佳使用效果。</p>
+ <p style="text-align:justify;font-family:times new roman"> 目前，国内有多家生产企业专门从事伸缩装置的研发、设计与生产工作，制造出不同规格、型号的桥梁伸缩装置，能够满足一般桥梁的设计使用需要。在桥梁设计中，根据桥跨结构的计算伸缩量值选择成品伸缩装置型号。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.232"> [A1.232]</a><span id="idA1.232">  [例2-2-1]某一级公路全长30km，共设有5座装配式预应力梁桥：2×20 m简支T梁桥、2×30 m简支T梁桥、1×20 m简支空心板桥、4×20 m先简支后连续T梁桥、5×30 m先简支后连续T梁桥。位于寒冷地区，最低气温-20℃，最高气温+50℃。以2×30 m简支T梁桥和5×30 m先简支后连续T梁桥为例，说明伸缩装置型号的选择方法，其他三座桥方法类似，读者可自选练习。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 解：</p>
+ <p style="text-align:justify;font-family:times new roman">  （1）2×30m简支T梁桥伸缩量计算<br>2×30 m简支T梁桥，两跨单独受力，只需计算一跨的伸缩量，另一跨相同。假定桥面纵坡不考虑，一片30 mT梁内预应力钢筋采用1束<i>φ</i><sup>5</sup>15.2-11和2束<i>φ</i><sup>5</sup>15.2-10，抗拉标准强度<i>f</i><sub>pk</sub>=1860MPa；T梁采用C50混凝土，横截面面积为1.20㎡。</p>
+ <p style="text-align:justify;font-family:times new roman"> ①温度引起的伸缩量<i>Δl</i><sub>t</sub><br>T梁安装温度假设为15℃。</p> 
+
+$$伸长量：\\Delta l_{\\mathrm{t}}^{+}=(T_{\\mathrm{max}}-T_{\\mathrm{set}})\\alpha l=(50-15)\\times 10\\times 10^{-6}\\times 30=10.50\\times 10^{-3}(m)$$  
+$$缩短量：\\Delta l_{\\mathrm{t}}^{-}=(T_{\\mathrm{set}}-T_{\\mathrm{mix}})\\alpha l=[15-(-20)]\\times 10\\times 10^{-6}\\times 30=10.50\\times 10^{-3}(m)$$  
+
+$$\\Delta l_{\\mathrm{t}}=\\Delta l_{\\mathrm{t}}^{+}+\\Delta l_{\\mathrm{t}}^{-}=10.50 \\times 10^{-3}+10.50 \\times 10^{-3}=21 \\times 10^{-3}(m)$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ②混凝土徐变引起的收缩量<i>Δl</i><sub>e</sub> </p> 
+ 
+
+$$\\sigma_{\\mathrm{p}}=\\frac{(1860 \\times 0.75) \\times(\\frac{\\pi}{4} \\times 5^2 \\times 7) \\times(11+10 \\times 2)}{1.20 \\times 10^6}=4.953(\\mathrm{MPa})$$
+$$\\Delta l_{\\mathrm{e}}=\\frac{\\sigma_{\\mathrm{p}}}{E_{\\mathrm{c}}} \\times \\varphi \\times l \\times \\beta=\\frac{4.953}{3.45 \\times 10^4} \\times 2.0 \\times 30 \\times 0.6=5.17 \\times 10^{-3}(\\mathrm{m})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ③混凝土收缩引起的收缩量<i>Δl</i><sub>s</sub> </p> 
+ 
+
+$$\\Delta l_{\\mathrm{s}}=20 \\times \\alpha \\times l \\times \\beta=20 \\times 10 \\times 10^{-6} \\times 30 \\times 0.6=3.60 \times 10^{-3}(\\mathrm{m})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ④其他因素引起的伸缩量及安全裕量<i>Δl</i><sub>E</sub></p> 
+
+$$\\Delta l_{E}=(\\Delta l_{\\mathrm{t}}+\\Delta l_{\\mathrm{e}}+\\Delta l_{\\mathrm{s}}) \\times 30 \\%=(21.00 \\times 10^{-3}+5.17 \\times 10^{-3}+3.60 \\times 10^{-3}) \\times 30 \\%=8.93 \\times 10^{-3}(\\mathrm{m})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ⑤总伸缩变形量</p> 
+
+\\begin{align} 
+\\Delta l & =\\Delta l_{\\mathrm{t}}+\\Delta l_{\\mathrm{e}}+\\Delta l_{\\mathrm{s}}+\\Delta l_{\\mathrm{E}} \\\\
+& =21.00 \\times 10^{-3}+5.17 \\times 10^{-3}+3.60 \\times 10^{-3}+8.93 \\times 10^{-3}=38.70 \\times 10^{-3}(\\mathrm{m})
+\\end{align}
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 由计算结果知，一跨30m梁的伸缩变形量约为39 mm。</p> 
+ 
+ <p style="text-align:justify;font-family:times new roman">  （2）5×30m先简支后连续T梁桥伸缩量计算<br>5×30 m先简支后连续T梁桥，假定不考虑桥面纵坡，一片30mT梁内预应力钢筋采用1束<i>φ</i><sup>5</sup>15.2-8和2束<i>φ</i><sup>5</sup>15.2-9，抗拉标准强度<i>f</i><sub>pk</sub>=1860MPa；T梁采用C50混凝土，横截面面积为1.20㎡。</p>
+ <p style="text-align:justify;font-family:times new roman"> ①温度引起的伸缩量<i>Δl</i><sub>t</sub><br>T梁安装温度假设为15℃。</p> 
+
+$$伸长量：\\Delta l_{\\mathrm{t}}^{+}=(T_{\\mathrm{max}}-T_{\\mathrm{set}})\\alpha l=(50-15)\\times 10\\times 10^{-6}\\times 30\\times 5=52.50\\times 10^{-3}(m)$$  
+$$缩短量：\\Delta l_{\\mathrm{t}}^{-}=(T_{\\mathrm{set}}-T_{\\mathrm{mix}})\\alpha l=[15-(-20)]\\times 10\\times 10^{-6}\\times 30\\times 5=52.50\\times 10^{-3}(m)$$  
+
+$$\\Delta l_{\\mathrm{t}}=\\Delta l_{\\mathrm{t}}^{+}+\\Delta l_{\\mathrm{t}}^{-}=52.50 \\times 10^{-3}+52.50 \\times 10^{-3}=105.00 \\times 10^{-3}(m)$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ②混凝土徐变引起的收缩量<i>Δl</i><sub>e</sub> </p> 
+ 
+
+$$\\sigma_{\\mathrm{p}}=\\frac{(1860 \\times 0.75) \\times(\\frac{\\pi}{4} \\times 5^2 \\times 7) \\times(8+9 \\times 2)}{1.20 \\times 10^6}=4.154(\\mathrm{MPa})$$
+$$\\Delta l_{\\mathrm{e}}=\\frac{\\sigma_{\\mathrm{p}}}{E_{\\mathrm{c}}} \\times \\varphi \\times l \\times \\beta=\\frac{4.154}{3.45 \\times 10^4} \\times 2.0 \\times 30 \\times 5 \\times 0.6=21.67 \\times 10^{-3}(\\mathrm{m})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ③混凝土收缩引起的收缩量<i>Δl</i><sub>s</sub> </p> 
+ 
+
+$$\\Delta l_{\\mathrm{s}}=20 \\times \\alpha \\times l \\times \\beta=20 \\times 10 \\times 10^{-6} \\times 30 \\times 5 \\times 0.6=18.00 \\times 10^{-3}(\\mathrm{m})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ④其他因素引起的伸缩量及安全裕量<i>Δl</i><sub>E</sub></p> 
+
+$$\\Delta l_{E}=(\\Delta l_{\\mathrm{t}}+\\Delta l_{\\mathrm{e}}+\\Delta l_{\\mathrm{s}}) \\times 30 \\%=(105.00 \\times 10^{-3}+21.67\\times 10^{-3}+18.00 \\times 10^{-3}) \\times 30 \\%=43.40 \\times 10^{-3}(\\mathrm{m})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ⑤总伸缩变形量</p> 
+
+\\begin{align} 
+\\Delta l & =\\Delta l_{\\mathrm{t}}+\\Delta l_{\\mathrm{e}}+\\Delta l_{\\mathrm{s}}+\\Delta l_{\\mathrm{E}} \\\\
+& =105 \\times 10^{-3}+21.67 \\times 10^{-3}+18\\times 10^{-3}+43.40 \\times 10^{-3}=188.07 \\times 10^{-3}(\\mathrm{m})
+\\end{align}
+ 
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 由计算结果知，五跨一联30 mT梁的伸缩变形量约为188 mm。</p> 
+
+ <p style="text-align:justify;font-family:times new roman"> （3）伸缩装置选择<br>在选择伸缩装置时，应考虑道路全线桥梁尽量采用相同类型，这样便于安装与更换。综合考虑该道路等级、全线简支梁和先简支后连续梁的伸缩量值范围，确定选择钢梳齿板型伸缩装置，如<a href="#image1.4.8bc">图1-4-8b）、c）</a>所示。<a href="#B1.4.3">表1-4-3</a>所示为成品钢梳齿板型伸缩装置参数信息。</p> 
+ <p style="text-align:justify;font-family:times new roman"> ①2×30 m简支梁桥<br>30m简支梁一跨总伸缩量约为39 mm，查<a href="#B1.4.3">表1-4-3</a>，选用80型伸缩装置，全桥有三道伸缩缝，共需设置三套80型钢梳齿板伸缩装置。</p> 
+ <p style="text-align:justify;font-family:times new roman"> ②5×30 m先简支后连续T梁桥<br>5×30 m先简支后连续T梁桥一联总伸缩量约为188mm，在一联两侧各设一道伸缩缝，每端伸缩量值为188/2=94（mm），考虑到安装时梁端间隙要求，查<a href="#B1.4.3">表1-4-3</a>，选用160型伸缩装置，全桥共需设置两套伸缩装置。</p> 
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.3">表1-3-3 各级公路桥涵的汽车荷载等级和车道荷载标准值   </b></caption>	
+              
+		  <tr>
+		  <td width="110px" rowspan="2" align="center" id="dhbg">型号</td>
+        <td width="110px" rowspan="2" align="center" id="dhbg">伸缩量（mm）</td>
+        <td width="110px" rowspan="2" align="center" id="dhbg">预留槽宽度B1（mm）</td>
+        <td width="110px" rowspan="2" align="center" id="dhbg">预留槽宽度B2（mm）</td>
+        <td  colspan="3" align="center" id="dhbg">梁端间隙E（mm）</td>   
+        <!-- <th></th> --> 
+        <!-- <th></th> -->  
+        <td width="130px" rowspan="2" align="center" id="dhbg">预留槽深度H（mm）</td>             
+		  </tr>
+ 		  <tr>
+		  <!-- <th></th> -->
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <td width="110px" align="center" id="dhbg">5℃</td>
+        <td width="110px" align="center" id="dhbg">15℃</td>
+        <td width="110px" align="center" id="dhbg">25℃</td> 
+        <!-- <th></th> -->   
+		  </tr>  
+  		  <tr>
+		  <td align="center" id="dhbg">80型</td>
+        <td align="center" id="dhbg">0~80</td>
+        <td align="center" id="dhbg">400</td>
+        <td align="center" id="dhbg">400</td>
+        <td align="center" id="dhbg">60±10</td>
+        <td align="center" id="dhbg">40</td>
+        <td align="center" id="dhbg">50±10</td>
+        <td align="center" id="dhbg">≥150</td>        
+		  </tr>  
+   	  <tr>
+		  <td align="center" id="dhbg">120型</td>
+        <td align="center" id="dhbg">0~120</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">600</td>
+        <td align="center" id="dhbg">90±10</td>
+        <td align="center" id="dhbg">60</td>
+        <td align="center" id="dhbg">30±10</td>
+        <td align="center" id="dhbg">≥250</td>        
+		  </tr> 
+    	  <tr>
+		  <td align="center" id="dhbg">160型</td>
+        <td align="center" id="dhbg">0~160</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">660</td>
+        <td align="center" id="dhbg">110±10</td>
+        <td align="center" id="dhbg">80</td>
+        <td align="center" id="dhbg">50±10</td>
+        <td align="center" id="dhbg">≥250</td>        
+		  </tr> 
+   	  <tr>
+		  <td align="center" id="dhbg">240型</td>
+        <td align="center" id="dhbg">0~240</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">900</td>
+        <td align="center" id="dhbg">170±10</td>
+        <td align="center" id="dhbg">120</td>
+        <td align="center" id="dhbg">70±10</td>
+        <td align="center" id="dhbg">≥250</td>        
+		  </tr> 
+    	  <tr>
+		  <td align="center" id="dhbg">320型</td>
+        <td align="center" id="dhbg">0~320</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">1000</td>
+        <td align="center" id="dhbg">230±10</td>
+        <td align="center" id="dhbg">160</td>
+        <td align="center" id="dhbg">90±10</td>
+        <td align="center" id="dhbg">≥250</td>        
+		  </tr> 
+   	  <tr>
+		  <td align="center" id="dhbg">400型</td>
+        <td align="center" id="dhbg">0~400</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">1280</td>
+        <td align="center" id="dhbg">290±10</td>
+        <td align="center" id="dhbg">200</td>
+        <td align="center" id="dhbg">110±10</td>
+        <td align="center" id="dhbg">≥250</td>        
+		  </tr> 
+   	  <tr>
+		  <td align="center" id="dhbg">480型</td>
+        <td align="center" id="dhbg">0~480</td>
+        <td align="center" id="dhbg">450</td>
+        <td align="center" id="dhbg">1420</td>
+        <td align="center" id="dhbg">340±10</td>
+        <td align="center" id="dhbg">240</td>
+        <td align="center" id="dhbg">140±10</td>
+        <td align="center" id="dhbg">≥300</td>        
+		  </tr> 
+   	  <tr>
+		  <td align="center" id="dhbg">506型</td>
+        <td align="center" id="dhbg">0~560</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">1600</td>
+        <td align="center" id="dhbg">400±10</td>
+        <td align="center" id="dhbg">280</td>
+        <td align="center" id="dhbg">160±10</td>
+        <td align="center" id="dhbg">≥300</td>        
+		  </tr>                                                                       
+     </table>
+   <p style="font-family:times new roman"><font size="1">注：表中温度值是指伸缩装置的安装温度。</font></p>
+
+ <p><a href="#id1.4.3.1"> 二、桥面连续</a> <span id="id1.4.3.1"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.233"> [A1.233]</a><span id="idA1.233"> 桥面上的伸缩缝在使用过程中容易损坏，因此，为了提高行车的舒适性，减轻桥梁的养护工作和提高桥梁的使用寿命，应力求减少伸缩缝的数量。对于多孔简支体系的桥梁，减少桥梁伸缩缝的做法一般是采用桥面连续。桥面连续构造的实质是将简支梁在伸缩缝处的桥面铺装部分做成连续体，该连续体刚度较小，不致影响简支梁的基本受力性质，使主梁在竖向力作用下仍能满足简支体系的受力特征。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.234"> [A1.234]</a><span id="idA1.234"> 桥面连续的基本构造，对于简支板桥而言是在桥面铺装混凝土中设置连接钢筋网，钢筋网跨越相邻板梁两端接缝处，并在接缝处设置假缝和垫铺橡胶片，将混凝土桥面铺装在一定长度范围内与板梁隔开，使梁端之间的变形由这一整段铺装层来分布承担，从而减少混凝土铺装层中的拉应力。对于肋板式简支梁桥，则首先把梁端接头处的桥面板用连接钢筋连接起来，连接钢筋在一定长度范围内用玻璃丝布和聚乙烯胶带包裹，使这段连接钢筋与现浇混凝土隔开，梁端之间的变形由这段范围内的分布钢筋承担，另外在桥面铺装混凝土中设置连续钢筋网，使整个桥面铺装形成连续构造。桥面连续钢筋构造如<a href="#image1.4.10">图1-4-10</a>所示。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image1.4.10{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.4.10" src="../_static/fig/1-4-10.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4-10 主动土压力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4.10'));</script>
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:math:`\ ` 

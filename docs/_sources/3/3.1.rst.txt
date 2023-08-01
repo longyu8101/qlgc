@@ -306,7 +306,7 @@ $$G_{K}=\\gamma{V}\\tag{1-3-1}$$
  <td  align='left' id="eqzs"> </td>
  <td  align='right'  id="eqzs" ><i>γ</i></td>
  <td  align='left' id="eqzs">——</td>
- <td align='left'  id="eqzs">材料的重度（kN/m³）；</td>
+ <td  align='left'  id="eqzs">材料的重度（kN/m³）；</td>
  </tr>
  <tr>
  <td  align='left' id="eqzs"> </td> 
@@ -315,7 +315,7 @@ $$G_{K}=\\gamma{V}\\tag{1-3-1}$$
  <td align='left'  id="eqzs">体积（m³）。</td>
  </tr>
  </table>
- 
+ <p> </p>
   <ol style="font-family:times new roman"  start="2">
   <li>预加力</li>
   </ol>
@@ -432,7 +432,7 @@ $$E_{\\mathrm{j}}=\\frac{1}{2}\\xi \\gamma H^{2}\\tag{1-3-5}$$
  <td  align='left' id="eqzs"> </td>
  <td  align='right'  id="eqzs" ><i>E</i><sub>j</sub></td>
  <td  align='left' id="eqzs">——</td>
- <td  align='left'  id="eqzs">高度范围内单位宽度的静土压力标准值（kN／m）；</td>
+ <td  align='left'  id="eqzs">高度范围内单位宽度的静土压力标准值（kN/m）；</td>
  </tr>
  <tr>
  <td  align='left' id="eqzs"></td>
@@ -444,7 +444,7 @@ $$E_{\\mathrm{j}}=\\frac{1}{2}\\xi \\gamma H^{2}\\tag{1-3-5}$$
  <td  align='left' id="eqzs"></td>
  <td  align='right'  id="eqzs" ><i>γ</i></td>
  <td  align='left' id="eqzs">——</td>
- <td  align='left'  id="eqzs">土的重度（kN／m3）；</td>
+ <td  align='left'  id="eqzs">土的重度（kN/m³）；</td>
  </tr> 
  <tr>
  <td  align='left' id="eqzs"></td>
@@ -544,7 +544,7 @@ $$\\mu=\\frac{\\mathrm{cos}^{2}(\\varphi-\\alpha)}{\\mathrm{cos}^{2}\\alpha\\cdo
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
- <div><img id="image1.3.1" src="../_static/fig/1-3-1.jpg" alt="Picture"></div>
+ <div style="text-align:center;"><img id="image1.3.1" src="../_static/fig/1-3-1.jpg" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3-1  主动土压力计算图式</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3.1'));</script>
 
@@ -675,7 +675,7 @@ $$b=\\frac{nD+\\displaystyle\\sum_{i=1}^{n-1}l_{i}}{n}\\tag{1-3-11}$$
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
- <div><img id="image1.3.2" src="../_static/fig/1-3-2.jpg" alt="Picture"></div>
+ <div style="text-align:center;"><img id="image1.3.2" src="../_static/fig/1-3-2.jpg" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3-2  柱的土侧压力计算宽度</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3.2'));</script>
 
@@ -751,7 +751,7 @@ $$F=\\gamma V_{w}\\tag{1-3-14}$$
  </table>
  <p> </p>
 
-  <ol style="font-family:times new roman"  start="5">
+  <ol style="font-family:times new roman"  start="1">
   <li>混凝土收缩和徐变作用</li>
   </ol>  
 
@@ -761,9 +761,1614 @@ $$F=\\gamma V_{w}\\tag{1-3-14}$$
  （4）计算混凝土圬工拱圈的收缩作用效应时，如考虑徐变影响，作用效应可乘以折减系数0.45。<br>
  <p></p>
  <p><a href="#id1.3.1.2"> 二、可变作用</a> <span id="id1.3.1.2"> </span></p>
- <p><a href="#id1.3.1.3"> 三、偶然作用</a> <span id="id1.3.1.3"> </span></p>
- <p><a href="#id1.3.1.4"> 四、地震作用</a> <span id="id1.3.1.4"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.174"> [A1.174]</a><span id="idA1.174"> 可变作用（也称活载）是在设计基准期（公路桥涵结构的设计基准期为100年）内其量值随时间而变化，且变化值与平均值相比不可忽略不计的作用。主要包括汽车荷载及其影响力、自然和人为产生的各种变化力。</span></p>
+  <ol style="font-family:times new roman"  start="1">
+  <li>汽车荷载及其影响力</li>
+  </ol>  
+  （1） 汽车荷载
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.175"> [A1.175]</a><span id="idA1.175"> 公路桥涵设计时，汽车荷载的计算图式、荷载等级及其标准值、加载方法和纵横向折减等应符合下列规定：</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.176"> [A1.176]</a><span id="idA1.176"> ①汽车荷载等级：分为公路—Ⅰ级和公路—Ⅱ级两个等级。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.177"> [A1.177]</a><span id="idA1.177"> ②汽车荷载组成：由车道荷载和车辆荷载组成。车道荷载由均布荷载和集中荷载组成，用于桥梁结构的整体分析计算，计算图式如<a href="#image1.3.3">图1-3-3</a>所示。车辆荷载用于桥梁的局部加载、涵洞、桥台和挡土墙土压力等的分析计算，计算图式如<a href="#image1.3.4">图1-3-4</a>所示。汽车荷载的横向布置如<a href="#image1.3.5">图1-3-5</a>所示。车道荷载与车辆荷载的作用不得相互叠加。</span></p>
+ 
+   <body>
 
+ <style type="text/css">
+      #image1.3.3{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.3.3" src="../_static/fig/1-3-3.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3-3 车道荷载</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3.3'));</script>
+
+  </body>
+ 
+   <body>
+
+ <style type="text/css">
+      #image1.3.4{
+         margin-left:150px;
+      }
+ 
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.3.4" src="../_static/fig/1-3-4.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3-4  车辆荷载的立面、平面尺寸<br>（尺寸单位：m，荷载单位：kN）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3.4'));</script>
+
+  </body>
+
+  <body>
+
+ <style type="text/css">
+      #image1.3.5{
+         margin-left:50px;
+        
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.3.5" src="../_static/fig/1-3-5.jpg"  alt="Picture" ></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3-5  车辆荷载横向布置（尺寸单位：m）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3.5'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.178"> [A1.178]</a><span id="idA1.178"> ③汽车荷载标准值：各级公路桥涵设计的汽车荷载等级和车道荷载标准值应符合<a href="#B1.3.3">表1-3-3。</a>的规定；公路—Ⅰ级和公路—Ⅱ级车辆荷载标准值相同。</span></p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.3">表1-3-3 各级公路桥涵的汽车荷载等级和车道荷载标准值   </b></caption>	
+              
+		  <tr>
+		  <td width="200px" align="center" id="dhbg">公路等级</td>
+        <td width="120px" align="center" id="dhbg">高速公路</td>
+        <td width="120px" align="center" id="dhbg">一级公路</td>
+        <td width="120px" align="center" id="dhbg">二级公路</td>
+        <td width="120px" align="center" id="dhbg">三级公路</td>   
+        <td width="120px" align="center" id="dhbg">四级公路</td>     
+		  </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">汽车荷载等级</td>
+        <td align="center" colspan="3" id="dhbg">公路—Ⅰ级</td>
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <td align="center" colspan="2" id="dhbg">公路—Ⅱ级</td>
+        <!-- <th></th> -->     
+		  </tr>  
+  		  <tr>
+		  <td align="center" id="dhbg">均布荷载标准值<br><i>q</i><sub>k</sub> (kN/m)</td>
+        <td align="center" colspan="3" id="dhbg">10.5</td>
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <td align="center" colspan="2" id="dhbg">7.875</td>
+        <!-- <th></th> -->     
+		  </tr>  
+   	  <tr>
+		  <td align="center" id="dhbg">集中荷载标准值<br><i>P</i><sub>k</sub> (kN)</td>
+        <td align="left" colspan="3" id="dhbg"><i>L</i><sub>0</sub>≤5 m：<i>P</i><sub>k</sub>=270 kN<br>5m＜<i>L</i><sub>0</sub>＜50 m：<i>P</i><sub>k</sub>=2（<i>L</i><sub>0</sub>+130）<br><i>L</i><sub>0</sub>≥50 m：<i>P</i><sub>k</sub>=360 kN</td>
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <td align="left" colspan="2" id="dhbg"><i>L</i><sub>0</sub>≤5 m：<i>P</i><sub>k</sub>=202.5 kN<br>5m＜<i>L</i><sub>0</sub>＜50 m：<i>P</i><sub>k</sub>=1.5（<i>L</i><sub>0</sub>+130）<br><i>L</i><sub>0</sub>≥50 m：<i>P</i><sub>k</sub>=270 kN</td>
+        <!-- <th></th> -->     
+		  </tr>                   
+     </table>
+   <p style="font-family:times new roman"><font size="1"><i>L</i><sub>0</sub>为桥梁计算跨径。计算剪力效应时，表中集中荷载标准值<i>P</i><sub>k</sub>应乘以系数1.2。</font></p>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.179"> [A1.179]</a><span id="idA1.179"> ④汽车荷载的加载规定：车道荷载的纵向加载为均布荷载标准值 满布于使结构产生最不利效应的同号影响线上；集中荷载标准值 只作用于相应影响线中一个影响线峰值处。横向分布系数按<a href="#image1.3.5">图1-3-5</a>所示，根据设计车道数布置车道荷载进行计算。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.180"> [A1.180]</a><span id="idA1.180"> ⑤横向车道布载系数：桥涵设计车道数应符合<a href="#B1.3.4">表1-3-4</a>的规定。横桥向布置多车道汽车荷载时，应考虑汽车荷载的折减；布置一条车道汽车荷载时，应考虑汽车荷载的提高。横向车道布置系数应符合<a href="#B1.3.5">表1-3-5</a>规定。多车道布载的荷载效应不得小于两条车道布载的荷载效应。</span></p>
+
+ 
+    <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.4">表1-3-4 桥涵设计车道数  </b></caption>	
+     
+       <tr>
+		  <td colspan="2"  align="center" id="dhbg">桥面宽度<i>W</i>（m）</td>
+        <!-- <th></th> -->
+         <td align="center" rowspan="2" id="dhbg">桥涵设计车道数</td>       
+		  </tr>        
+		  <tr>
+		  <td width="300px" align="center" id="dhbg">车辆单向行驶时</td>
+        <td width="300x" align="center" id="dhbg">车辆双向行驶时</td>
+        <!-- <th></th> -->
+		  </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg"><i>W</i>＜ 7.0</td>
+        <td align="center"  id="dhbg"> </td>
+        <td width="300px" align="center" id="dhbg">1</td>
+		  </tr>  
+  		  <tr>
+		  <td align="center" id="dhbg">7.0 ≤<i>W</i> ＜ 10.5</td>
+        <td align="center" id="dhbg">6.0 ≤<i>W</i> ＜ 14.0</td>
+        <td align="center"  id="dhbg">2 </td>
+		  </tr>  
+   	  <tr>
+		  <td align="center" id="dhbg">10.5≤<i>W</i> ＜ 14.0</td>
+        <td align="center" id="dhbg"> </td>
+        <td align="center" id="dhbg">3 </td>
+		  </tr>   
+    	  <tr>
+		  <td align="center" id="dhbg">14.0≤<i>W</i> ＜ 17.5</td>
+        <td align="center" id="dhbg"> 14≤<i>W</i> ＜ 21.0</td>
+        <td align="center" id="dhbg">4 </td>
+		  </tr>   
+     	  <tr>
+		  <td align="center" id="dhbg">17.5≤<i>W</i> ＜ 21.0</td>
+        <td align="center" id="dhbg">  </td>
+        <td align="center" id="dhbg">5 </td>
+		  </tr>  
+    	  <tr>
+		   <td align="center" id="dhbg">21.0≤<i>W</i> ＜ 24.5</td>
+        <td align="center" id="dhbg"> 21.0≤<i>W</i> ＜28.0</td>
+        <td align="center" id="dhbg">6 </td>
+		  </tr>  
+     	  <tr>
+		  <td align="center" id="dhbg">24.5≤<i>W</i> ＜ 28.0</td>
+        <td align="center" id="dhbg"> </td>
+        <td align="center" id="dhbg">7 </td>
+		  </tr>  
+     	  <tr>
+		  <td align="center" id="dhbg">28.0≤<i>W</i> ＜ 31.5</td>
+        <td align="center" id="dhbg"> 28.0≤<i>W</i> ＜ 35.0</td>
+        <td align="center" id="dhbg">8 </td>
+		  </tr>                                                    
+     </table>
+     <p></p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.5">表1-3-5 横向车道布载系数  </b></caption>	
+     
+       <tr>
+		  <td width="250px" align="center" id="dhbg">横向布载车道数（条）</td>
+        <td width="80x" align="center" id="dhbg">1</td>   
+		  <td width="80px" align="center" id="dhbg">2</td>
+        <td width="80x" align="center" id="dhbg">3</td>
+        <td width="80px" align="center" id="dhbg">4</td>
+        <td width="80x" align="center" id="dhbg">5</td>   
+		  <td width="80px" align="center" id="dhbg">6</td>
+        <td width="80x" align="center" id="dhbg">7</td>
+        <td width="80px" align="center" id="dhbg">8</td>
+   	  </tr>
+ 		  <tr>
+		  <td align="center"  id="dhbg"> 横向车道布载系数</td>
+        <td align="center"  id="dhbg"> 1.20</td>
+        <td align="center"  id="dhbg"> 1.00</td>
+        <td align="center"  id="dhbg"> 0.78</td>
+        <td align="center"  id="dhbg"> 0.67</td>
+        <td align="center"  id="dhbg"> 0.60</td>
+        <td align="center"  id="dhbg"> 0.55</td>
+        <td align="center"  id="dhbg"> 0.52</td>
+        <td align="center"  id="dhbg"> 0.50</td>   
+		  </tr>  
+     </table>
+     <p></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.181"> [A1.181]</a><span id="idA1.181"> ⑥纵向折减系数：当桥梁计算跨径大于150m时，应按<a href="#B1.3.6">表1-3-6</a>规定的纵向折减系数进行纵向折减。当为多跨连续结构时，整个结构应按最大的计算跨径考虑汽车荷载效应的纵向折减。</span></p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.6">表1-3-6 纵向折减系数   </b></caption>	
+     
+       <tr>
+		  <td width="210px" align="center" id="dhbg">计算跨径<i>L</i><sub>0</sub>（m）</td>
+        <td width="210x"  align="center" id="dhbg">纵向折减系数</td>   
+		  <td width="60px" align="center" id="dhbg"> </td>
+        <td width="210x"  align="center" id="dhbg">计算跨径<i>L</i><sub>0</sub>（m）</td>
+        <td width="210px" align="center" id="dhbg">纵向折减系数</td>
+   	  </tr>
+ 		  <tr>
+		  <td align="center"  id="dhbg"> 150＜<i>L</i><sub>0</sub>＜400</td>
+        <td align="center"  id="dhbg"> 0.97</td>
+         <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg"> 800≤<i>L</i><sub>0</sub>＜1000</td>
+        <td align="center"  id="dhbg"> 0.94</td>
+       </tr> 
+       <tr>
+        <td align="center"  id="dhbg"> 400≤<i>L</i><sub>0</sub>＜600</td>
+        <td align="center"  id="dhbg"> 0.96</td>
+        <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg"> <i>L</i><sub>0</sub>≥1000</td>
+        <td align="center"  id="dhbg"> 0.93</td>   
+		  </tr>  
+        <tr>
+        <td align="center"  id="dhbg"> 600≤<i>L</i><sub>0</sub>＜800</td>
+        <td align="center"  id="dhbg"> 0.95</td>
+        <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg">  </td>   
+		  </tr>         
+     </table>
+     <p></p>
+
+
+ （2）汽车冲击力
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.182"> [A1.182]</a><span id="idA1.182"> 汽车以较高的速度驶过桥梁时，桥梁产生的应力与变形比大小相等的静载引起的要大一些，这是因为汽车荷载不是慢慢地增加，而是以较快的速度突然加载于桥上，因而使桥梁发生振动。同时由于桥面不平整、车轮不圆以及发动机抖动等原因，也会使桥梁结构发生振动。这种由于荷载的动力作用使桥梁发生振动而造成内力加大的现象称为冲击效应。即桥梁不仅承受车辆荷载的重力作用，还受到一种冲击力。鉴于目前对冲击力还不能从理论上作出符合实际的精确计算，只能采用粗糙的近似方法，即以冲击系数<i>μ</i>来计及荷载的冲击力。《通规》（JTG D60—2015）中规定：</span></p>
+
+  <p style="text-align:justify;font-family:times new roman">①钢桥、钢筋混凝土及预应力混凝土桥、圬工拱桥等上部构造和钢支座、板式橡胶支座、盆式橡胶支座及钢筋混凝土柱式墩台，应计算汽车的冲击作用。</p>
+  <p style="text-align:justify;font-family:times new roman">②填料厚度（包括路面厚度）等于或大于0.5 m的拱桥、涵洞以及重力式墩台不计冲击力。</p>
+  <p style="text-align:justify;font-family:times new roman">③支座的冲击力，按相应的桥梁取用。</p>
+  <p style="text-align:justify;font-family:times new roman">④汽车荷载的冲击力标准值为汽车荷载标准值乘以冲击系数<i>μ</i>。</p>
+  <p style="text-align:justify;font-family:times new roman">⑤冲击系数<i>μ</i>按<a href="#B1.3.7">表1-3-7。</a>采用。</p>
+  <p style="text-align:justify;font-family:times new roman">⑥汽车荷载的局部加载及在T梁、箱梁悬臂板上的冲击系数采用0.3。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.183"> [A1.183]</a><span id="idA1.183"> ⑥纵向折减系数：当桥梁计算跨径大于150m时，应按<a href="#B1.3.6">表1-3-6</a>规定的纵向折减系数进行纵向折减。当为多跨连续结构时，整个结构应按最大的计算跨径考虑汽车荷载效应的纵向折减。</span></p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.7">表1-3-7 冲击系数<i>μ</i>  </b></caption>	
+     
+       <tr>
+		  <td width="450px" align="center" id="dhbg">结构基频<i>f</i>（Hz）</td>
+        <td width="450x"  align="center" id="dhbg">冲击系数<i>μ</i></td>   
+		  </tr>
+ 		  <tr>
+		  <td align="center"  id="dhbg"> <i>f</i>＜1.5 Hz</td>
+        <td align="center"  id="dhbg"> 0.05</td>
+		  </tr>  
+  		  <tr>
+		  <td align="center"  id="dhbg">1.5 Hz≤ <i>f</i>＜14 Hz</td>
+        <td align="center"  id="dhbg">0.1767ln <i>f</i> － 0.0157</td>
+		  </tr> 
+  		  <tr>
+		  <td align="center"  id="dhbg"><i>f</i>＞14 Hz</td>
+        <td align="center"  id="dhbg">0.45</td>
+		  </tr>               
+     </table>
+     <p></p>
+
+ （3）汽车离心力
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.184"> [A1.184]</a><span id="idA1.184"> 位于曲线上的桥梁，应计算汽车荷载引起的离心力。汽车荷载离心力标准值为车辆荷载（不计冲击力）标准值乘以离心力系数<i>C</i>，离心力系数按下式计算：</span></p>
+
+$$C=\\frac{v^{2}}{127R}\\tag{1-3-15}$$  
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>v</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">设计速度（km/h），应按桥梁所在路线设计速度采用； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>R</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 曲线半径（m）。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.185"> [A1.185]</a><span id="idA1.185"> 计算多车道桥梁的汽车荷载离心力时，车辆荷载标准值应乘以<a href="#B1.3.5">表1-3-5</a>规定的多车道横向车道布载系数。离心力的着力点在桥面以上1.2 m处（为计算简便也可移至桥面上，不计由此引起的作用效应）。</span></p>
+
+ （4）汽车引起的土压力
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.186"> [A1.186]</a><span id="idA1.186"> 汽车荷载引起的土压力采用车辆荷载加载，并可按下列方法计算。</span></p>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.187"> [A1.187]</a><span id="idA1.187"> ①车辆荷载在桥台或挡土墙后填土的破坏棱体上引起的土侧压力，可按下式换算成等代均布土层厚度<i>h</i>（m）计算：</span></p>  
+
+$$h=\\frac{\\sum G}{B l_{0}\\gamma}\\tag{1-3-16}$$  
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>ΣG</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">布置在<i>B</i>×<i>l</i><sub>0</sub>面积内的车轮的总重力（kN）； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>l</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 桥台或挡土墙后填土的破坏棱体长度（m）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 土的重度（kN/m³）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>B</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 桥台横向全宽或挡土墙的计算长度（m），挡土墙可按式<i>B</i>=13+<i>H</i>tan 30°计算，但计算结果不应超过挡土墙分段长度，挡土墙分段长度小于13 m时， <i>B</i>取分段长度，并在该长度内按不利情况布置轮重。<i>H</i>为挡土墙高度（m），对墙顶以上有填土的挡土墙，为2倍墙顶填土厚度加墙高。</td>
+ </tr>  
+ </table>
+ <p>当土层特性无变化，<i>β</i>=0°时，汽车荷载引起的土侧压力：</p>
+
+$$E=\\frac{1}{2}B\\mu\\gamma H(H+2h)\\tag{1-3-17}$$  
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>h</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">汽车荷载的等代均布土层厚度（m）； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='left' colspan="3" id="eqzs" >其余符号意义同<a href="#ideq1-3-6">式(1-3-6)</a><span id="ideq1-3-6">。</td>
+  <!-- <th></th> -->
+  <!-- <th></th> -->
+ </tr>
+ </table>
+ <p>当土层特性有变化或受水位影响时，宜分层计算土的侧压力。</p>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.188"> [A1.188]</a><span id="idA1.188"> ②计算涵洞顶上车辆荷载引起的竖向土压力时，车轮按其着地面积的边缘向下作 角分布。当几个车轮的压力扩散线相重叠时，扩散面积以最外边的扩散线为准。</span></p>  
+
+
+ （5）汽车制动力
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.189"> [A1.189]</a><span id="idA1.189"> 制动力是汽车在桥上制动时为克服其惯性力而在车轮与路面之间发生的滑动摩擦力。车轮与路面间的摩擦系数可达0.5以上，但由于一行汽车不可能同时制动，所以制动力不等于摩擦系数乘以桥上全部车道荷载。</span></p>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.190"> [A1.190]</a><span id="idA1.190">①	制动力的计算</span></p>  
+ <p style="text-align:justify;font-family:times new roman">《通规》（JTG D60-2015）中规定：一个设计车道上由汽车荷载产生的制动力标准值为车道荷载标准值在加载长度上计算的总重力的10%计算，但公路-Ⅰ级汽车荷载的制动力标准值不得小于165kN；公路-Ⅱ级汽车荷载的制动力标准值不得小于90kN。同向行驶双车道的汽车荷载制动力标准值为一个设计车道制动力标准值的2倍；同向行驶三车道为一个设计车道的2.34倍；同向行驶四车道为一个设计车道的2.68倍。</p>  
+ <p style="text-align:justify;font-family:times new roman">制动力的作用方向与作用点：制动力的方向就是行车方向；其着力点在桥面以上1.2 m处。计算墩台时，可移至支座铰中心或支座底座面上；计算刚构桥、拱桥时，制动力的着力点可移至桥面上，但不计因此而产生的竖向力和力矩。</p>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.191"> [A1.191]</a><span id="idA1.191"> ②制动力的分配</span></p>  
+
+ <p style="text-align:justify;font-family:times new roman">设有板式橡胶支座的简支梁、连续桥面简支梁或连续梁排架式柔性墩台，应根据支座与墩台的抗推刚度的刚度集成情况分配和传递制动力。设有板式橡胶支座的简支梁刚性墩台，应按单跨两端板式橡胶支座的抗推刚度分配制动力。</p>  
+ <p style="text-align:justify;font-family:times new roman">根据支座与墩台的抗推刚度的刚度集成情况分配和传递制动力。</p>  
+ <p style="text-align:justify;font-family:times new roman">设有固定支座、活动支座（滚动或摆动支座、聚四氟乙烯板支座）的刚性墩台传递的制动力按<a href="#B1.3.8">表1-3-8</a>采用，每个活动支座传递的制动力，其值不应大于其摩阻力；当大于摩阻力时，按摩阻力计算。</p>  
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.8">表1-3-8 刚性墩台各种支座传递的制动力  </b></caption>	
+              
+		  <tr>
+		  <td colspan="2"   align="center" id="dhbg">桥梁墩台及支座类型</td>
+        <!-- <th></th> -->
+        <td width="330px" align="center" id="dhbg">应计的制动力</td>
+        <td width="220px" align="center" id="dhbg">备注</td>
+		  </tr>
+ 		  <tr>
+		  <td width="70px" rowspan="3" align="center" id="dhbg">简支梁桥台</td>
+        <td width="280px" align="center" id="dhbg">固定支座</td>
+        <td align="center"  id="dhbg"><i>T</i><sub>1</sub></td>
+        <td  rowspan="10" align="center" id="dhbg"><i>T</i><sub>1</sub>——加载长度为计算跨径时的制动力；<br><i>T</i><sub>2</sub>——加载长度为相邻两跨计算跨径之和时的制动力；<br><i>T</i><sub>3</sub>——加载长度为一联长度的制动力；<br><i>T</i><sub>4</sub>——单跨跨径固定支座的制动力；<br><i>T</i><sub>5</sub>——单跨跨径活动支座的制动力。</td>     
+		  </tr>  
+  		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">聚四氟乙烯板支座</td>
+        <td align="center"  id="dhbg">0.30<i>T</i><sub>1</sub></td>
+        <!-- <th></th> -->     
+		  </tr>  
+  		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">滚动（或摆动）支座</td>
+        <td align="center"  id="dhbg">0.25<i>T</i><sub>1</sub></td>
+        <!-- <th></th> -->     
+		  </tr>   
+  		  <tr>
+		  <td rowspan="4" align="center" id="dhbg">简支梁桥墩</td>
+        <td  align="center" id="dhbg">两个固定支座</td>
+        <td align="center"  id="dhbg"><i>T</i><sub>2</sub></td>
+        <!-- <th></th> -->     
+		  </tr>  
+  		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">一个固定支座，一个活动支座</td>
+        <td align="center"  id="dhbg"><i>T</i><sub>4</sub>+0.30<i>T</i><sub>5</sub>（聚四氟乙烯板支座）<br>或<i>T</i><sub>4</sub>+0.25<i>T</i><sub>5</sub>（滚动或摆动支座）</td>
+        <!-- <th></th> -->     
+		  </tr>  
+  		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">两个聚四氟乙烯板支座</td>
+        <td align="center"  id="dhbg">0.30<i>T</i><sub>2</sub></td>
+        <!-- <th></th> -->     
+		  </tr>   
+   		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">两个滚动（或摆动）支座</td>
+        <td align="center"  id="dhbg">0.25<i>T</i><sub>2</sub></td>
+        <!-- <th></th> -->     
+		  </tr>  
+   		  <tr>
+		  <td rowspan="3" align="center" id="dhbg">连续梁桥墩</td>
+        <td  align="center" id="dhbg">固定支座</td>
+        <td align="center"  id="dhbg"><i>T</i><sub>3</sub></td>
+        <!-- <th></th> -->     
+		  </tr>  
+  		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">聚四氟乙烯板支座</td>
+        <td align="center"  id="dhbg">0.30<i>T</i><sub>3</sub>（聚四氟乙烯板支座）<br>或<i>T</i><sub>4</sub>+0.25<i>T</i><sub>5</sub>（滚动或摆动支座）</td>
+        <!-- <th></th> -->     
+		  </tr>  
+  		  <tr>
+        <!-- <th></th> -->
+        <td align="center"  id="dhbg">滚动（或摆动）支座</td>
+        <td align="center"  id="dhbg">0.25<i>T</i><sub>3</sub></td>
+        <!-- <th></th> -->     
+		  </tr>                                     
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+  <ol style="font-family:times new roman"  start="2">
+  <li>人群荷载</li>
+  </ol>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.191"> [A1.191]</a><span id="idA1.191"> 设有人行道的桥梁，在以汽车荷载计算内力时，应同时考虑人行道上人群荷载所产生的内力，人群荷载标准值按<a href="#B1.3.9">表1-3-9</a>采用，对跨径不等的连续结构，以最大计算跨径为准。</span></p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.9">表1-3-9 人群荷载标准值</b></caption>	
+              
+		  <tr>
+		  <td width="300px" align="center" id="dhbg">计算跨径<i>L</i><sub>0</sub>（m）</td>
+        <td width="200px" align="center" id="dhbg"><i>L</i><sub>0</sub>≤50</td>
+        <td width="200px" align="center" id="dhbg">50＜<i>L</i><sub>0</sub>＜150</td>
+        <td width="200px" align="center" id="dhbg"><i>L</i><sub>0</sub>≥150</td>
+		  </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">人群荷载（kn/㎡）</td>
+        <td align="center" id="dhbg">3.0</td>
+        <td align="center" id="dhbg">3.25-0.005<i>L</i><sub>0</sub></td>
+        <td align="center" id="dhbg">2.5</td>
+		  </tr>  
+  		  </table>
+    <p style="font-family:times new roman"> </p>
+
+
+ <p style="text-align:justify;font-family:times new roman">（1）非机动车、行人密集的公路桥梁，人群荷载标准值取<a href="#B1.3.9">表1-3-9</a>中标准值的1.15倍</p>
+ <p style="text-align:justify;font-family:times new roman">（2）专用人行桥梁，人群荷载标准值为3.5 kN/㎡。</p>
+ <p style="text-align:justify;font-family:times new roman">（3）人群荷载在横向应布置在人行道的净宽度内，在纵向施加于使结构产生最不利荷载效应的区段内。</p>
+ <p style="text-align:justify;font-family:times new roman">（4）人行道板（局部构件）可以一块板为单元，按标准值4.0 kN/㎡的均布荷载计算。</p>
+ <p style="text-align:justify;font-family:times new roman">（5）计算人行道栏杆时，作用在栏杆立柱顶上的水平推力标准值取0.75 kN/m；作用在栏杆扶手上的竖向力标准值取1.0 kN/m。</p>
+ 
+   <ol style="font-family:times new roman"  start="3">
+  <li>风荷载</li>
+  </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.192"> [A1.192]</a><span id="idA1.192"> 风荷载标准值按现行《公路桥梁抗风设计规范》（JTG/T D60-01）的规定计算。 </span></p>
+   
+   <ol style="font-family:times new roman"  start="4">
+  <li>流水压力</li>
+  </ol>
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.193"> [A1.193]</a><span id="idA1.193">位于河流中的桥墩，应计算流水压力对桥墩受力影响。作用于桥墩上的流水压力标准值可按下式计算：</span></p>
+
+$$F_{w}=KA \\frac{\\gamma v^{2}}{2g}\\tag{1-3-18}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>F</i><sub>w</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">流水压力标准值（kN）； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>γ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">水的重度（kN/m³）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>v</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">设计流速(m/s)</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>g</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">重力加速度，<i>g</i>=9.81m/s²；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>A</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">桥墩阻水面积（㎡），计算至一般冲刷线处；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>K</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">桥墩形状系数，见<a href="#B1.3.10">表1-3-10</a>。</td>
+ </tr>
+ </table>
+
+ <p style="text-align:justify;font-family:times new roman">流水压力合力的着力点，假定在设计水位线以下0.3倍水深处。</p>
+ 
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.6">表1-3-6 纵向折减系数   </b></caption>	
+     
+       <tr>
+		  <td width="210px" align="center" id="dhbg">桥墩形状</td>
+        <td width="210x"  align="center" id="dhbg"><i>K</i></td>   
+		  <td width="60px" align="center" id="dhbg"> </td>
+        <td width="210x"  align="center" id="dhbg">桥墩形状</td>
+        <td width="210px" align="center" id="dhbg"><i>K</i></td>
+   	  </tr>
+ 		  <tr>
+		  <td align="center"  id="dhbg">方形桥墩</td>
+        <td align="center"  id="dhbg"> 1.5</td>
+         <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg">尖端形桥墩</td>
+        <td align="center"  id="dhbg">0.7</td>
+       </tr> 
+       <tr>
+        <td align="center"  id="dhbg">矩形桥墩（长边与水流平行）</td>
+        <td align="center"  id="dhbg"> 1.3</td>
+        <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg">圆端形桥墩</td>
+        <td align="center"  id="dhbg"> 0.6</td>   
+		  </tr>  
+        <tr>
+        <td align="center"  id="dhbg"> 圆形桥墩</td>
+        <td align="center"  id="dhbg"> 0.8</td>
+        <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg">  </td>
+        <td align="center"  id="dhbg">  </td>   
+		  </tr>         
+     </table>
+     <p></p>
+
+  <ol style="font-family:times new roman"  start="5">
+  <li>冰压力</li>
+  </ol>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.194"> [A1.194]</a><span id="idA1.194"> </span></p>
+
+$$F_{i}=m C_{t}b t R_{ik}\\tag{1-3-19}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>F</i><sub>i</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">冰压力标准值（kN）； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>m</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">柱（桩）或墩迎水面形状系数，可按<a href="#B1.3.11">表1-3-11</a>取用；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>C</i><sub>t</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">冰温系数，可按<a href="#B1.3.12">表1-3-12</a>取用；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>b</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">柱（桩）或墩迎水面投影宽度（m）；</td>
+ </tr> 
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>t</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">计算冰厚（m），可取实际调查的最大冰厚或开河期堆积冰厚；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>R</i><sub>ik</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">冰的抗压强度标准值（kN/㎡），可取当地冰温0℃时的冰抗压强度；当缺乏实测资料时，对海冰可取<i>R</i><sub>ik</sub>=750 kN/㎡；对河冰，流冰开始时<i>R</i><sub>ik</sub>=750 kN/㎡，最高流冰水位时可取<i>R</i><sub>ik</sub>=450 kN/㎡。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+
+    <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+   <table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.11">表1-3-11 柱（桩）或墩迎冰面形状系数 m</b></caption>	
+              
+		  <tr>
+		  <td width="200px" rowspan="2" align="center" id="dhbg">迎冰面形状</td>
+        <td width="100px" rowspan="2" align="center" id="dhbg">平面</td>
+        <td width="100px" rowspan="2" align="center" id="dhbg">圆弧形</td>
+        <td colspan="5" align="center" id="dhbg">尖角形的迎冰面角度</td>
+        <!-- <th></th> -->  
+        <!-- <th></th> -->  
+        <!-- <th></th> -->  
+		  </tr>
+        <tr>
+        <!-- <th></th> -->  
+        <!-- <th></th> -->  
+        <!-- <th></th> -->  
+       <td width="100px"  align="center" id="dhbg">45°</td>
+       <td width="100px"  align="center" id="dhbg">60°</td>
+       <td width="100px"  align="center" id="dhbg">75°</td>
+       <td width="100px"  align="center" id="dhbg">90°</td>
+       <td width="100px"  align="center" id="dhbg">120°</td>
+        </tr>
+        <tr>
+		  <td align="center" id="dhbg"><i>m</i></td>
+        <td align="center" id="dhbg">1.00</td>
+        <td align="center" id="dhbg">0.90</td>
+        <td align="center" id="dhbg">0.54</td>
+        <td align="center" id="dhbg">0.59</td>
+        <td align="center" id="dhbg">0.64</td>
+        <td align="center" id="dhbg">0.69</td> 
+        <td align="center" id="dhbg">0.77</td>  
+		  </tr>
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.12">表1-3-12 冰温系数<i>C</i><sub>t</sub></b></caption>	
+              
+		  <tr>
+		  <td width="300px" align="center" id="dhbg">冰温（℃）</td>
+        <td width="300px" align="center" id="dhbg">0</td>
+        <td width="300px" align="center" id="dhbg">-10以下</td>
+		  </tr>
+        <tr>
+		  <td align="center" id="dhbg"><i>C</i><sub>t</sub></td>
+        <td align="center" id="dhbg">1.0</td>
+        <td align="center" id="dhbg">2.0</td>
+		  </tr>
+     </table>
+   <p style="font-family:times new roman"><font size="1"> 表列冰温系数可直线内插。<br> 2. 对海冰，冰温取结冰期最低冰温；对河冰，取解冻期最低冰温。</font></p>
+
+ <p style="text-align:justify;font-family:times new roman">（1）当冰块流向桥轴线的角度<i>L</i>≤80°时，桥墩竖向边缘的冰荷载应乘以sin<i>α</i>予以折减。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）冰压力合力应作用在计算结冰水位以下0.3倍冰厚处。</p> 
+ <p style="text-align:justify;font-family:times new roman"> 其他可参照现行《通规》（JTG D60）的相关规定。</p> 
+
+  <ol style="font-family:times new roman"  start="6">
+  <li>温度作用</li>
+  </ol>
+
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.195"> [A1.195]</a><span id="idA1.195">当桥梁结构考虑温度作用时，应根据当地具体情况、结构物使用的材料和施工条件等因素计算由温度作用引起的结构效应。</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）线膨胀系数</p>
+ <p style="text-align:justify;font-family:times new roman">各种结构的线膨胀系数可按<a href="#B1.3.13">表1-3-13</a>取用。</p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.13">表1-3-13 线膨胀系数</b></caption>	
+              
+		  <tr>
+		  <td width="450px" align="center" id="dhbg">结构种类</td>
+        <td width="450px" align="center" id="dhbg">线膨胀系数（以摄氏温度计）</td>
+		  </tr>
+        <tr>
+		  <td align="center" id="dhbg">钢结构</td>
+        <td align="center" id="dhbg">0.000012</td>
+		  </tr>
+       <tr>
+		  <td align="center" id="dhbg"> 混凝土和钢筋混凝土及预应力混凝土结构</td>
+        <td align="center" id="dhbg">0.000010</td>
+		  </tr> 
+       <tr>
+		  <td align="center" id="dhbg">混凝土预制块砌体</td>
+        <td align="center" id="dhbg">0.000009</td>
+		  </tr>                  
+        <tr>
+		  <td align="center" id="dhbg">石砌体</td>
+        <td align="center" id="dhbg">0.000008</td>
+		  </tr> 
+        <tr>
+		  <td align="center" id="dhbg">钢结构</td>
+        <td align="center" id="dhbg">0.000012</td>
+		  </tr>                         
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+ <p style="text-align:justify;font-family:times new roman">（2）温度作用标准值</p>
+
+ <p style="text-align:justify;font-family:times new roman">①计算桥梁结构因均匀温度作用引起外加变形或约束变形时，应从受到约束时的结构温度开始，考虑最高和最低有效温度的作用效应。如缺乏实际调查资料，公路混凝土结构和钢结构的最高和最低有效温度标准值可按<a href="#B1.3.14">表1-3-14</a>取用。</p>
+ 
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.16">表1-3-14 公路桥梁结构的有效温度标准值（℃）   </b></caption>	
+              
+		  <tr>
+        <td width="120px" rowspan="2" align="center" id="dhbg">气温分区</td>
+        <!-- <th></th> --> 
+        <td colspan="2" align="center" id="dhbg">钢桥面板钢桥</td> 
+         <!-- <th></th> -->  
+        <td colspan="2" align="center" id="dhbg">混凝土桥面板钢桥</td> 
+         <!-- <th></th> --> 
+       <td colspan="2" align="center" id="dhbg">混凝土、石桥</td> 
+         <!-- <th></th> -->               
+		  </tr>
+		  <tr>
+        <!-- <th></th> --> 
+        <td width="120px" align="center" id="dhbg">最高</td>
+        <td width="120px" align="center" id="dhbg">最低</td>
+        <td width="120px" align="center" id="dhbg">最高</td>
+        <td width="120px" align="center" id="dhbg">最低</td>
+        <td width="120px" align="center" id="dhbg">最高</td>
+        <td width="120px" align="center" id="dhbg">最低</td>     
+		  </tr> 
+		  <tr>
+        <td  align="center" id="dhbg">严寒地区</td>
+        <td  align="center" id="dhbg">46</td>
+        <td  align="center" id="dhbg">-43</td>
+        <td  align="center" id="dhbg">39</td>
+        <td  align="center" id="dhbg">-32</td>
+        <td  align="center" id="dhbg">34</td>
+        <td  align="center" id="dhbg">-23</td>     
+		  </tr>  
+ 		  <tr>
+        <td  align="center" id="dhbg">寒冷地区</td>
+        <td  align="center" id="dhbg">46</td>
+        <td  align="center" id="dhbg">-21</td>
+        <td  align="center" id="dhbg">39</td>
+        <td  align="center" id="dhbg">-15</td>
+        <td  align="center" id="dhbg">34</td>
+        <td  align="center" id="dhbg">-10</td>     
+		  </tr> 
+		  <tr>
+        <td  align="center" id="dhbg">温热地区</td>
+        <td  align="center" id="dhbg">46</td>
+        <td  align="center" id="dhbg">-9（-3）</td>
+        <td  align="center" id="dhbg">39</td>
+        <td  align="center" id="dhbg">-6（-1）</td>
+        <td  align="center" id="dhbg">34</td>
+        <td  align="center" id="dhbg">-3（0）</td>     
+		  </tr>                            		 
+     </table>
+   <p style="font-family:times new roman"> </p>
+ 
+ <p style="text-align:justify;font-family:times new roman">②计算桥梁结构由于竖向温度梯度引起的效应（即太阳辐射使结构沿高度方向形成非线性的温度梯度导致结构产生次应力）时，可采用<a href="#image1.3.6">图1-3-6</a>所示的竖向温度梯度曲线，其桥面板表面的最高温度<i>T</i><sub>1</sub>规定见<a href="#B1.3.15">表1-3-15</a>。对混凝土结构，当梁高<i>H</i>小于40cm时，图中 <i>A=H</i>-10（cm）；梁高<i>H</i>等于或大于40 cm时， <i>A</i>=30 cm。对于带混凝土桥面板的钢结构， <i>A</i>=30 cm，<a href="#image1.3.6">图1-3-6</a>中的<i>t</i>为混凝土桥面板的厚度（cm）。混凝土上部结构和带混凝土桥面板的钢结构的竖向日照反温差为正温差乘以－0.5。</p>
+ 
+  <body>
+
+ <style type="text/css">
+      #image1.3.6{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image1.3.6" src="../_static/fig/1-3-6.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3-6  竖向温度梯度（单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3.6'));</script>
+
+  </body>
+ 
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.15">表1-3-15 竖向日照正温差计算的温度基数    </b></caption>	
+              
+		  <tr>
+        <td width="300px" align="center" id="dhbg">结构类型</td>   
+        <td width="300px" align="center" id="dhbg"><i>T</i><sub>1</sub>(℃)</td>   
+        <td width="300px" align="center" id="dhbg"><i>T</i><sub>2</sub>(℃)</td>     
+		  </tr>
+		  <tr>
+        <td align="center" id="dhbg">水泥混凝土铺装</td>
+        <td align="center" id="dhbg">25</td>
+        <td align="center" id="dhbg">6.7</td>     
+		  </tr> 
+ 		  <tr>
+        <td align="center" id="dhbg">5 cm沥青混凝土铺装层</td>
+        <td align="center" id="dhbg">20</td>  
+        <td align="center" id="dhbg">6.7</td>     
+		  </tr>
+  		  <tr>
+        <td align="center" id="dhbg">10 cm沥青混凝土铺装层</td>  
+        <td align="center" id="dhbg">14</td>
+        <td align="center" id="dhbg">5.5</td>       
+		  </tr>   
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+ <p style="text-align:justify;font-family:times new roman">③计算圬工拱桥考虑徐变影响引起的温差作用效应时，计算的温差效应应乘以0.7的折减系数。</p>
+ <p style="text-align:justify;font-family:times new roman">④对于无悬臂的宽幅箱梁，宜考虑横向温度梯度引起的效应。</p>
+ <p style="text-align:justify;font-family:times new roman">⑤采用沥青混凝土铺装的混凝土桥面板桥梁，必要时应考虑施工阶段沥青摊铺引起的温度影响，温度取值参照<a href="#B1.3.16">表1-3-16</a></p>
+
+
+ <ol style="font-family:times new roman"  start="7">
+  <li>支座摩阻力</li>
+  </ol>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.196"> [A1.196]</a><span id="idA1.196">支座摩阻力标准值可按下式计算：</span></p>
+
+$$F=\\mu W\\tag{1-3-20}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>W</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">作用于活动支座上由上部结构重力产生的效应； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>μ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 支座的摩擦系数，宜采用实测数据，无实测数据时可参照<a href="#B1.3.16">表1-3-16</a>取用。</td>
+ </tr>
+  </table>
+ <p> </p>
+
+   <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.16">表1-3-16 支座摩擦系数   </b></caption>	
+              
+		  <tr>
+        <td colspan="2" align="center" id="dhbg">支座种类</td>
+        <!-- <th></th> --> 
+        <td width="120px" align="center" id="dhbg">支座摩擦系数<i>μ</i></td>     
+		  </tr>
+		  <tr>
+        <td colspan="2" align="center" id="dhbg">滚动支座或摆动支座</td>
+        <!-- <th></th> --> 
+        <td width="120px" align="center" id="dhbg">0.05</td>     
+		  </tr> 
+ 		  <tr>
+        <td rowspan="4" width="200px" align="center" id="dhbg">板式橡胶支座</td>
+        <td width="200px" align="center" id="dhbg">支座与混凝土面接触</td>  
+        <td width="500px" align="center" id="dhbg">0.03</td>     
+		  </tr>
+  		  <tr>
+         <!-- <th></th> --> 
+        <td width="200px" align="center" id="dhbg">支座与钢板接触</td>  
+        <td width="500px" align="center" id="dhbg">0.02</td>     
+		  </tr>   
+         <tr>
+         <!-- <th></th> --> 
+        <td rowspan="2"  align="center" id="dhbg">聚四氟乙烯板与不锈钢板接触</td>  
+        <td width="500px" align="center" id="dhbg">0.06（加硅脂；温度低于-25 ℃时为0.078）</td>     
+		  </tr>  
+         <tr>
+         <!-- <th></th> --> 
+         <!-- <th></th> --> 
+        <td width="500px" align="center" id="dhbg">0.12（不加硅脂；温度低于-25 ℃时为0.156）</td>     
+		  </tr> 
+         <tr>
+         <td colspan="2" align="center" id="dhbg">盆式支座</td>
+         <!-- <th></th> --> 
+        <td width="500px" align="center" id="dhbg">加5201硅脂润滑后，常温型活动支座摩擦系数不大于0.03（支座适用温度为-25～+60℃）；耐寒型活动支座摩擦系数不大于0.06（支座适用温度为-40～+60℃）。</td>     
+		  </tr>  
+         <tr>
+         <td colspan="2" align="center" id="dhbg">球形支座</td>
+         <!-- <th></th> --> 
+        <td width="500px" align="center" id="dhbg">加5201硅脂润滑后，支座适用温度为-25～+60℃时，活动支座摩擦系数不大于0.03；支座适用温度为-40～+60℃时，活动支座摩擦系数不大于0.05。</td>     
+		  </tr>                          		 
+     </table>
+   <p style="font-family:times new roman"> </p>
+
+
+.. raw:: html
+
+ <p><a href="#id1.3.1.3"> 三、偶然作用</a> <span id="id1.3.1.3"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.197"> [A1.197]</a><span id="idA1.197"> 偶然作用是在设计基准期内不一定出现，而一旦出现其量值很大，且持续时间很短的作用。偶然作用包括船舶的撞击作用、漂流物的撞击作用和汽车撞击作用。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.198"> [A1.198]</a><span id="idA1.198">  1.船舶的撞击作用</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 通航水域中的桥梁墩台，设计时应考虑船舶的撞击作用。其撞击作用的设计值可按下列规定采用或计算：</p>
+ <p style="text-align:justify;font-family:times new roman"> （1）船舶的撞击作用设计值宜按专题研究确定。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）四至七级内河的航道船舶撞击作用设计值，当缺乏实际调查资料时，可按<a href="#B1.3.17">表1-3-17</a>取值。航道内的钢筋混凝土桩墩，顺桥向撞击作用可按<a href="#B1.3.17">表1-3-17</a>所列数值的50%取值。</p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.17">表1-3-17 内河船舶撞击作用设计值  </b></caption>	
+              
+		  <tr>
+		  <td width="225px" align="center" id="dhbg">内河航道等级</td>
+        <td width="225px" align="center" id="dhbg">船舶吨级DWT（t）</td>
+        <td width="225px" align="center" id="dhbg">横桥向撞击作用（kN）</td>
+        <td width="225px" align="center" id="dhbg">顺桥向撞击作用（kN）</td>
+  	    </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">四</td>
+        <td align="center" id="dhbg">500</td>
+        <td align="center" id="dhbg">550</td>
+        <td align="center" id="dhbg">450</td>   
+  		  </tr>  
+  		  <tr>
+		  <td align="center" id="dhbg">五</td>
+        <td align="center" id="dhbg">300</td>
+        <td align="center" id="dhbg">400</td>
+        <td align="center" id="dhbg">350</td>   
+  		  </tr> 
+  		  <tr>
+		  <td align="center" id="dhbg">六</td>
+        <td align="center" id="dhbg">100</td>
+        <td align="center" id="dhbg">250</td>
+        <td align="center" id="dhbg">200</td>   
+  		  </tr> 
+    		  <tr>
+		  <td align="center" id="dhbg">七</td>
+        <td align="center" id="dhbg">50</td>
+        <td align="center" id="dhbg">150</td>
+        <td align="center" id="dhbg">125</td>   
+  		  </tr>              		 
+     </table>
+     <p></p>
+
+ <p style="text-align:justify;font-family:times new roman"> （3）海轮撞击作用的设计值，当缺乏实际调查资料时，可按表1-3-18取值。</p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.18">表1-3-18 海轮撞击作用的标准值</b></caption>	
+              
+		  <tr>
+		  <td width="260px" align="center" id="dhbg">船舶吨级DWT（t）</td>
+        <td width="80px" align="center" id="dhbg">3000</td>
+        <td width="80px" align="center" id="dhbg">5000</td>
+        <td width="80px" align="center" id="dhbg">7500</td>
+        <td width="80px" align="center" id="dhbg">10000</td>
+        <td width="80px" align="center" id="dhbg">20000</td>
+        <td width="80px" align="center" id="dhbg">30000</td> 
+        <td width="80px" align="center" id="dhbg">40000</td>
+        <td width="80px" align="center" id="dhbg">50000</td>        
+  	    </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">横桥向撞击作用（kN）</td>
+        <td align="center" id="dhbg">19600</td>
+        <td align="center" id="dhbg">25400</td>
+        <td align="center" id="dhbg">31000</td>
+        <td align="center" id="dhbg">35800</td>
+        <td align="center" id="dhbg">50700</td>
+        <td align="center" id="dhbg">62100</td> 
+        <td align="center" id="dhbg">71700</td>
+        <td align="center" id="dhbg">80200</td>             
+  		  </tr>  
+  		  <tr>
+		  <td align="center" id="dhbg">顺桥向撞击作用（kN）</td>
+        <td align="center" id="dhbg">9800</td>
+        <td align="center" id="dhbg">12700</td>
+        <td align="center" id="dhbg">15500</td>  
+        <td align="center" id="dhbg">17900</td>
+        <td align="center" id="dhbg">25350</td>
+        <td align="center" id="dhbg">31050</td> 
+        <td align="center" id="dhbg">535850</td>
+        <td align="center" id="dhbg">40100</td>         
+  		  </tr> 
+     </table>
+     <p></p>
+
+ <p style="text-align:justify;font-family:times new roman"> （4）规划航道内可能遭受大型船舶撞击作用的桥墩，应根据桥墩的自身抗撞击能力、桥墩的位置和外形、水流流速、水位变化、通航船舶类型和碰撞速度等因素作桥墩防撞设施的设计。当设有与墩台分开的防撞击的防护结构时，桥墩可不计船舶的撞击作用。</p>
+ <p style="text-align:justify;font-family:times new roman"> （5）内河船舶的撞击作用点，假定为计算通航水位线以上2m的桥墩宽度或长度的中点。海轮船舶的撞击作用点需视实际情况而定。</p>   
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.199"> [A1.199]</a><span id="idA1.199">  2.漂流物的撞击作用</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> ①漂流物横桥向撞击力设计值可按下式计算：</p>
+
+$$F=\\frac{Wv}{gT}\\tag{1-3-21}$$  
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>W</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">漂流物重力（kN），应根据河流中漂流物情况，按实际调查确定； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>v</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">水流速度（m/s）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>T</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">撞击时间（s），应根据实际资料估计，在无实际资料时，可用1s；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>g</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">重力加速度（m/s²）， =9.81m/s²。</td>
+ </tr> 
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman"> ②漂流物的撞击作用点假定在计算通航水位线以上桥墩宽度的中点。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.200"> [A1.200]</a><span id="idA1.200">  3.汽车撞击作用</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> 桥梁结构必要时可考虑汽车的撞击作用。汽车撞击力设计值在车辆行驶方向取1000kN，在车辆行驶垂直方向取500kN，两个方向的撞击力不同时考虑。撞击力作用于行车道以上1.2m处，直接分布于撞击涉及的构件上。对于设有防撞设施的结构构件，可视防撞设施的防撞能力，对汽车撞击力设计值予以折减，但折减后的汽车撞击力设计值不应低于上述规定值的1／6。</p>
+ <p style="text-align:justify;font-family:times new roman"> 为防止或减少因撞击而产生的破坏，对宜受到汽车撞击的结构构件的相关部位应采取相应的构造措施，并增设钢筋或钢筋网。</p>
+
+ <p><a href="#id1.3.1.4"> 四、地震作用</a> <span id="id1.3.1.4"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.201"> [A1.201]</a><span id="idA1.201">在地震区建造桥梁，必须考虑地震作用。地震作用一旦出现，时间极为短促（经常是10 s以上），并且对结构安全会产生非常巨大的影响。所谓地震作用主要是指地震时强烈的地面运动引起的结构惯性力，因而地震作用不是静力荷载，而是动力荷载；不是固定值，而是随机变值；不完全决定于地震时地面运动的强烈程度，还决定于结构的动力特性（频率与振型）。公路桥梁地震作用的计算及结构设计，应符合现行《公路桥梁抗震设计细则》（JTG/T B02-01）的规定。对于抗震设防烈度≥6度地区的桥梁，必须进行抗震设计；抗震设防烈度＞9度地区的桥梁和有特殊要求的大跨径或特殊桥梁，应进行专门的抗震研究和设计。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.202"> [A1.202]</a><span id="idA1.202">在桥梁设计中，地震作用可采用所在地区抗震设防烈度相应的设计基本地震动加速度和反应谱特征周期以及抗震重要性系数来表征。抗震设防烈度与设计基本地震动加速度取值的对应关系见<a href="#B1.3.19">表1-3-19</a>。</span></p>
+ 
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.3.19">表1-3-19 抗震设防烈度与水平向设计基本地震动加速度峰值<i>A</i></b></caption>	
+              
+		  <tr>
+		  <td width="260px" align="center" id="dhbg">抗震设防烈度</td>
+        <td width="160px" align="center" id="dhbg">6</td>
+        <td width="160px" align="center" id="dhbg">7</td>
+        <td width="160px" align="center" id="dhbg">8</td>
+        <td width="160px" align="center" id="dhbg">9</td>
+  
+  	    </tr>
+ 		  <tr>
+		  <td align="center" id="dhbg">地震动加速度峰值<i>A</i></td>
+        <td align="center" id="dhbg">0.05 g</td>
+        <td align="center" id="dhbg">0.10 g(0.15 g)</td>
+        <td align="center" id="dhbg">0.20 g(0.30 g)</td>
+        <td align="center" id="dhbg">0.40 g</td>
+  		  </tr>  
+     </table>
+     <p></p>
 
 :math:`\ `
 
