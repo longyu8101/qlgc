@@ -22,7 +22,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="prev" title="第二篇 梁桥" href="2.html" /> 
+    <link rel="prev" title="第二节 主要施工方法" href="11/11.2.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -51,9 +51,15 @@
 <li class="toctree-l1"><a class="reference internal" href="03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04.html">第四章  桥梁通用构造</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">第二篇 总论</span></p>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="2.html">第二篇  梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10.html">第六章  连续体系梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11.html">第七章  梁桥施工</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
 <ul class="current">
@@ -109,177 +115,7 @@
 <p style="color: dimgray;text-align: center;font-family:times new roma">a）上承式拱桥；b）下承式拱桥；c）中承式拱桥<br>图3-1-1 拱桥结构组成示意</p>
 <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3-1-1'));</script>
 
- </body><html>
-                      <head>
-                        <meta charset="utf-8" />
-                        <title>My first three.js app</title>
-                        <style>
-                          body {
-                            margin: 0;
-                          }
-                        </style>
-                        <link
-                          rel="stylesheet"
-                          type="text/css"
-                          href="./_static/index.css"
-                        />
-                      </head>
-                      <body>
-                        <div class="model">
-                          <button class="openBtn">☩</button>
-                        </div>
-                        <div class="box">
-                          <div class="model1">
-                            <button class="closeBtn">
-                              <p>x</p>
-                            </button>
-                          </div>
-                        </div>
-                        <script type="importmap">
-                          {
-                            "imports": {
-                              "three": "https://unpkg.com/three/build/three.module.js",
-                              "three/controls/": "https://unpkg.com/three/examples/jsm/controls/",
-                              "three/loaders/": "https://unpkg.com/three/examples/jsm/loaders/"
-                            }
-                          }
-                        </script>
-                        <script type="module">
-                          import * as THREE from "three";
-                          // 导入控制器
-                          import { OrbitControls } from "three/controls/OrbitControls.js";
-                          // 导入gltf载入库
-                          import { GLTFLoader } from "three/loaders/GLTFLoader.js";
-
-                          // 尺寸设置
-                          const width = window.innerWidth * 0.4;
-                          const height = window.innerHeight * 0.6;
-
-                          // 初始化场景
-                          const scene = new THREE.Scene();
-
-                          // 初始化相机
-                          const camera = new THREE.PerspectiveCamera(
-                            80,
-                            width / height,
-                            0.1,
-                            2000
-                          );
-                          camera.position.set(-10, 30, 70); // 相机位置
-                          camera.aspect = width / height; // 更新摄像头宽高比例
-                          camera.updateProjectionMatrix(); // 更新摄像头投影矩阵
-
-                          scene.add(camera);
-
-                          // 初始化渲染器
-                          const renderer = new THREE.WebGLRenderer({
-                            // 设置抗锯齿
-                            antialias: true,
-                            //   对数深度缓冲区
-                            logarithmicDepthBuffer: true, // 防止渲染闪烁
-                          });
-                          renderer.outputEncoding = THREE.sRGBEncoding;
-                          renderer.setClearColor("rgba(240,255,255 ,1)", 1); // 渲染白色背景
-
-                          // 渲染器宽高
-                          renderer.setSize(width, height);
-
-                          // 监听屏幕大小修改配置
-                          let fullSize = false;
-                          window.addEventListener("resize", () => {
-                            if (fullSize) {
-                              camera.aspect = width / height;
-                              camera.updateProjectionMatrix();
-                              renderer.setSize(
-                                window.innerWidth,
-                                window.innerHeight
-                              );
-                            } else {
-                              camera.aspect = width / height;
-                              camera.updateProjectionMatrix();
-                              renderer.setSize(
-                                window.innerWidth * 0.4,
-                                window.innerHeight * 0.6
-                              );
-                            }
-                          });
-
-                          // 渲染器添加到页面
-                          // document.body.appendChild(renderer.domElement);
-                          const model =
-                            document.getElementsByClassName("model")[0];
-                          model.appendChild(renderer.domElement);
-
-                          // 初始化控制器
-                          const controls = new OrbitControls(
-                            camera,
-                            renderer.domElement
-                          );
-                          controls.autoRotate = true;
-
-                          // 渲染函数
-                          function render() {
-                            renderer.render(scene, camera);
-                            requestAnimationFrame(render);
-                            controls.update();
-                          }
-                          render();
-
-                          // 添加平行光
-                          const light = new THREE.DirectionalLight(0xffffff, 1);
-                          light.position.set(50, 100, 50);
-                          scene.add(light);
-
-                          // 添加环境光
-                          const envLight = new THREE.SpotLight(0xffffff, 1);
-                          envLight.position.set(-50, 100, -50);
-                          scene.add(envLight);
-
-                          // 添加桥梁模型
-                          const loader = new GLTFLoader();
-                          loader.load(
-                            "./_static/wujiang.glb",
-                            (gltf) => {
-                              gltf.scene.position.set(0, 20, 0);
-                              scene.add(gltf.scene);
-                            }
-                          );
-
-                          // 切换模型尺寸
-                          const model1 =
-                            document.getElementsByClassName("model1")[0];
-                          const openBtn =
-                            document.getElementsByClassName("openBtn")[0];
-
-                          openBtn.addEventListener("click", () => {
-                            renderer.setSize(
-                              window.innerWidth,
-                              window.innerHeight
-                            );
-                            camera.position.set(-10, 30, 100);
-                            model1.appendChild(renderer.domElement);
-                            box.style.display = "block";
-                            fullSize = true;
-                          });
-
-                          const closeBtn =
-                            document.getElementsByClassName("closeBtn")[0];
-                          const box = document.getElementsByClassName("box")[0];
-
-                          closeBtn.addEventListener("click", () => {
-                            renderer.setSize(
-                              window.innerWidth * 0.4,
-                              window.innerHeight * 0.6
-                            );
-                            model.appendChild(renderer.domElement);
-                            box.style.display = "none";
-                            fullSize = false;
-                          });
-                        </script>
-                      </body>
-</html>
-
-<ol>
+ </body><ol>
 <li> 受力特点</li>
 </ol>
 <p style="text-align:justify;font-family:times new roman"><a href="#idA3.2"> [A3.2]</a><span id="idA3.2"> 拱桥在竖向荷载P的作用下，两拱脚截面不仅会产生竖向反力R，还会产生水平推力H[图3-1-2b）]。由于水平推力H的存在，在拱圈内产生了反向弯矩，大大减小了截面原有的弯矩M，水平推力H所产生的截面压力N也会大大消减外荷载剪力V（相对于图3-1-2a的梁桥，弯矩M和剪力V都大幅度减小，因而材料利用率更高，跨越能力更大）。理想状态下，如果选择合适的矢跨比和拱轴线，将使拱轴线与压力线重合，从而实现拱圈处于纯受压状态。当然，由于活载的存在拱上总是存在着一定的弯矩，所以拱圈多为偏心受压构件，但拱上巨大轴压力的存在仍旧使得拱圈上的拉应力控制在较低的水平，建筑材料的抗压特性可以得到有效的发挥，从而实现了远超梁桥的跨越能力。</span></p>
@@ -313,7 +149,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="2.html" class="btn btn-neutral float-left" title="第二篇 梁桥" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="11/11.2.html" class="btn btn-neutral float-left" title="第二节 主要施工方法" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
     </div>
 
   <hr/>

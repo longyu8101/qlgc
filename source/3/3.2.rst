@@ -7,14 +7,14 @@
  <h3 id="test111"> 第二节  作用的表征、组合及效应设计值</h3>
 
  <p><a href="#id1.3.1.1"> 一、作用的代表值</a> <span id="id1.2.1.1"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.203"> [A1.203]</a><span id="idA1.203"> 作用具有变异性，但在结构设计时，不可能直接引用作用随机变量或随机过程的各类统计参数通过复杂的计算进行设计，作用代表值就是为结构设计而给定的量值。设计的要求不同，采用的作用代表值也不同，这样可以更确切、合理地反映作用对结构在不同设计要求下的特点。《通规》（JTG D60—2015）所确定的作用代表值是指极限状态设计所采用的作用值，可以是作用的标准值或可变作用的伴随值。作用的标准值是作用的主要代表值，可根据对观测数据的统计、作用的自然界限或工程经验确定。可变作用的伴随值是在作用组合中，伴随主导作用的可变作用值，可以是组合值、频遇值或准永久值。可通过可变作用的标准值分别乘以组合值系数<i>Ψ</i><sub>c</sub>，频遇值系数<i>Ψ</i><sub>f</sub> 和准永久值系数<i>Ψ</i><sub>q</sub> 来确定。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.204"> [A1.204]</a><span id="idA1.204"> 永久作用被近似地认为在设计基准期内（公路桥涵结构的设计基准期为100年）是不变的，其代表值只有一个，即标准值。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.205"> [A1.205]</a><span id="idA1.205"> 可变作用应根据不同状况下的计算项目分别采用不同的代表值，即，可取标准值、组合值、频遇值和准永久值作为其代表值。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.206"> [A1.206]</a><span id="idA1.206"> 偶然作用取其设计值作为代表值，可根据历史记载、现场观测和试验，并结合工程经验综合分析确定，也可根据有关标准的专门规定确定。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.207"> [A1.207]</a><span id="idA1.207"> 地震作用的代表值为其标准值。地震作用的标准值应根据现行《公路工程抗震规范》（JTG B02）的规定确定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.45"> [A1.3.45]</a><span id="idA1.3.45"> 作用具有变异性，但在结构设计时，不可能直接引用作用随机变量或随机过程的各类统计参数通过复杂的计算进行设计，作用代表值就是为结构设计而给定的量值。设计的要求不同，采用的作用代表值也不同，这样可以更确切、合理地反映作用对结构在不同设计要求下的特点。《通规》（JTG D60—2015）所确定的作用代表值是指极限状态设计所采用的作用值，可以是作用的标准值或可变作用的伴随值。作用的标准值是作用的主要代表值，可根据对观测数据的统计、作用的自然界限或工程经验确定。可变作用的伴随值是在作用组合中，伴随主导作用的可变作用值，可以是组合值、频遇值或准永久值。可通过可变作用的标准值分别乘以组合值系数<i>Ψ</i><sub>c</sub>，频遇值系数<i>Ψ</i><sub>f</sub> 和准永久值系数<i>Ψ</i><sub>q</sub> 来确定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.46"> [A1.3.46]</a><span id="idA1.3.46"> 永久作用被近似地认为在设计基准期内（公路桥涵结构的设计基准期为100年）是不变的，其代表值只有一个，即标准值。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.47"> [A1.3.47]</a><span id="idA1.3.47"> 可变作用应根据不同状况下的计算项目分别采用不同的代表值，即，可取标准值、组合值、频遇值和准永久值作为其代表值。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.48"> [A1.3.48]</a><span id="idA1.3.48"> 偶然作用取其设计值作为代表值，可根据历史记载、现场观测和试验，并结合工程经验综合分析确定，也可根据有关标准的专门规定确定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.49"> [A1.3.49]</a><span id="idA1.3.49">地震作用的代表值为其标准值。地震作用的标准值应根据现行《公路工程抗震规范》（JTG B02）的规定确定。</span></p>
 
  <p><a href="#id1.2.1.2"> 二、作用的设计值</a> <span id="id1.2.1.2"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.208"> [A1.208]</a><span id="idA1.208"> 作用的设计值为作用的代表值与作用分项系数的乘积。作用分项系数见<a href="#B1.3.20">表1-3-20</a>。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.50"> [A1.3.50]</a><span id="idA1.3.50"> 作用的设计值为作用的代表值与作用分项系数的乘积。作用分项系数见<a href="#B1.3.20">表1-3-20</a>。</span></p>
 
    <style>
       #biaoge {
@@ -236,7 +236,7 @@
    <p style="font-family:times new roman"> </p>
 
  <p><a href="#id1.2.1.3"> 三、作用的组合</a> <span id="id1.2.1.3"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.209"> [A1.209]</a><span id="idA1.209"> 桥梁结构通常同时承受多种作用。《通规》（JTG D60—2015）要求公路桥梁结构设计应考虑可能同时出现的多种作用，分别按承载能力极限状态和正常使用极限状态进行组合，具体组合原则为：</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.51"> [A1.3.51]</a><span id="idA1.3.51"> 桥梁结构通常同时承受多种作用。《通规》（JTG D60—2015）要求公路桥梁结构设计应考虑可能同时出现的多种作用，分别按承载能力极限状态和正常使用极限状态进行组合，具体组合原则为：</span></p>
  <p style="text-align:justify">（1）只有在结构上可能同时出现的作用，才能进行组合。</p>
  <p style="text-align:justify">（2）当某个可变作用对结构或构件产生有利影响时，该作用不应参与组合。实际不可能同时出现的作用或出现概率很小的作用，按<a href="#B1.3.21">表1-3-21</a>规定不参与组合。</p>
 
@@ -298,14 +298,14 @@
  <p style="text-align:justify;font-family:times new roman">（3）施工阶段的作用组合，应按计算需要及结构所处条件而定，结构上的施工人员和施工机具设备应作为可变作用加以考虑。对于组合式桥梁，当把底梁作为施工支撑时，作用组合效应宜分两个阶段计算，底梁受荷为第一个阶段，组合梁受荷为第二个阶段。</p>
  <p style="text-align:justify;font-family:times new roman">（4）多个偶然作用不同时参与组合。</p>
  <p style="text-align:justify;font-family:times new roman">（5）地震作用不与偶然作用同时参与组合。</p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.210"> [A1.210]</a><span id="idA1.210"> 需要特别说明，上述组合原则仅仅明确了作用的组合方式，很显然，组合结果是多种多样的。进行桥梁结构设计时，无论是承载能力极限状态还是正常使用极限状态，应在所有可能的作用组合中，取最不利作用组合的效应进行设计。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.211"> [A1.211]</a><span id="idA1.211"> 以下将根据《通规》（JTG D60—2015）规定给出具体的作用组合方式，尤其是与作用组合方式相匹配的效应设计值计算方法。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.52"> [A1.3.52]</a><span id="idA1.3.52"> 需要特别说明，上述组合原则仅仅明确了作用的组合方式，很显然，组合结果是多种多样的。进行桥梁结构设计时，无论是承载能力极限状态还是正常使用极限状态，应在所有可能的作用组合中，取最不利作用组合的效应进行设计。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.53"> [A1.3.53]</a><span id="idA1.3.53"> 以下将根据《通规》（JTG D60—2015）规定给出具体的作用组合方式，尤其是与作用组合方式相匹配的效应设计值计算方法。</span></p>
  
  <p><a href="#id1.2.1.4"> 四、作用组合的效应设计值</a> <span id="id1.2.1.4"> </span></p>
  <ol style="font-family:times new roman"  start="1">
   <li>承载能力极限状态</li>
   </ol>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.212"> [A1.212]</a><span id="idA1.212"> 公路桥涵结构按承载能力极限状态设计时，对于持久设计状况和短暂设计状况应采用作用的基本组合，对于偶然设计状况应采用作用的偶然组合，对于地震设计状况应采用作用的地震组合。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.54"> [A1.3.54]</a><span id="idA1.3.54"> 公路桥涵结构按承载能力极限状态设计时，对于持久设计状况和短暂设计状况应采用作用的基本组合，对于偶然设计状况应采用作用的偶然组合，对于地震设计状况应采用作用的地震组合。</span></p>
  <p style="text-align:justify;font-family:times new roman">（1） 作用的基本组合</p>
  <p style="text-align:justify;font-family:times new roman">①组合方式<br>组合方式为：永久作用设计值与可变作用设计值相组合。<br>这里特别强调，直接用于结构计算与验算的并非作用组合的结果，而是与该组合方式相匹配的效应设计值。</p>
  <p style="text-align:justify;font-family:times new roman">②作用基本组合的效应设计值<br>作用基本组合的效应设计值按下式计算：</p>
@@ -618,7 +618,7 @@ $$S_{\\mathrm{ad}}=S\(\\displaystyle\\sum_{i=1}^{m}G_{\\mathrm{ik}},A_{\\mathrm{
   <ol style="font-family:times new roman"  start="2">
   <li>正常使用极限状态</li>
   </ol>
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.213"> [A1.213]</a><span id="idA1.213"> 公路桥涵结构按正常使用极限状态设计时，应根据不同的设计要求，采用作用的频遇组合或准永久组合。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.55"> [A1.3.55]</a><span id="idA1.3.55"> 公路桥涵结构按正常使用极限状态设计时，应根据不同的设计要求，采用作用的频遇组合或准永久组合。</span></p>
   <p style="text-align:justify;font-family:times new roman">（1）作用的频遇组合</p>
   <p style="text-align:justify;font-family:times new roman">①组合方式<br>组合方式为：永久作用标准值与汽车荷载频遇值、其他可变作用准永久值相组合。</p>
   <p style="text-align:justify;font-family:times new roman">②作用频遇组合的效应设计值<br>作用频遇组合的效应设计值按下式计算：</p>
@@ -719,7 +719,7 @@ $$S_{\\mathrm{qd}}=S\(\\displaystyle\\sum_{i=1}^{m}G_{\\mathrm{ik}},\\displaysty
 
   <p style="text-align:justify;font-family:times new roman">当作用与作用效应可按线性关系时，作用准永久组合的效应设计值<i>S</i><sub>qd</sub>均可通过作用效应代数相加计算。</p>
 
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.214"> [A1.214]</a><span id="idA1.214"> [例题1-3-1]某1孔30 m预应力混凝土简支梁桥，<math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn>l</mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> </math>跨径截面的剪力<i>V</i><sub>Gk</sub>=187.01kN（结构重力）， <i>V</i><sub>Q1k</sub>=261.76kN（汽车荷载），冲击系数（1+μ）＝1.19，人群荷载 <i>V</i><sub>Q2k</sub>=57.20kN，温度梯度作用 <i>V</i><sub>Q3k</sub>=41.50kN。试进行承载能力极限状态和正常使用极限状态设计时的作用组合及组合效应设计值计算。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.56"> [A1.3.56][例题1-3-1]</a><span id="idA1.3.56"> 某1孔30 m预应力混凝土简支梁桥，<math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn>l</mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> </math>跨径截面的剪力<i>V</i><sub>Gk</sub>=187.01kN（结构重力）， <i>V</i><sub>Q1k</sub>=261.76kN（汽车荷载），冲击系数（1+μ）＝1.19，人群荷载 <i>V</i><sub>Q2k</sub>=57.20kN，温度梯度作用 <i>V</i><sub>Q3k</sub>=41.50kN。试进行承载能力极限状态和正常使用极限状态设计时的作用组合及组合效应设计值计算。</span></p>
 
   <p style="text-align:justify;font-family:times new roman">解：<br>（1）承载能力极限状态</p>
 
@@ -901,10 +901,10 @@ V_{\\mathrm{qd}} & =V_{\\mathrm{Gk}}+V_{\\mathrm{Q1qd}}+V_{\\mathrm{Q2qd}}+V_{\\
      </table>
    <p style="font-family:times new roman"><font size="1"><i>L</i><sub>0</sub>为桥梁计算跨径。计算剪力效应时，表中集中荷载标准值<i>P</i><sub>k</sub>应乘以系数1.2。</font></p>
 
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.215"> [A1.215]</a><span id="idA1.215"> [拓展小知识1-4] 桥梁设计荷载<br>公路桥梁与铁路桥梁的设计荷载是不同的。①名词术语不同。公路桥梁设计荷载分为永久作用、可变作用、偶然作用和地震作用；铁路桥梁设计荷载分为主力（包括恒载和活载）、附加力和特殊荷载。②设计方法不同。公路桥梁采用概率极限状态法设计；铁路桥梁目前仍采用容许应力法设计[已颁布了极限状态法设计规范（Q/CR）]。③荷载组合方式不同。公路桥梁按持久状况设计时，应分别计算承载能力极限状态下的基本组合、偶然组合，正常使用极限状态下的频遇组合、准永久组合；铁路桥梁按容许应力法设计时，则按主力（恒载+活载）、主力+附加力（仅考虑一个方向的）、主力+特殊荷载分别进行组合。④汽车活载与列车荷载不同。公路桥梁汽车荷载分车道荷载和车辆荷载，整体分析时采用车道荷载（<i>q</i><sub>k</sub>和<i>P</i><sub>k</sub> ）加载，局部分析时采用车辆荷载加载；铁路桥梁无论整体分析还是局部分析均采用列车荷载加载。可参见“参考文献[1]和[12]”。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.57"> [A1.3.57][拓展小知识1-4]</a><span id="idA1.3.57"> 桥梁设计荷载<br>公路桥梁与铁路桥梁的设计荷载是不同的。①名词术语不同。公路桥梁设计荷载分为永久作用、可变作用、偶然作用和地震作用；铁路桥梁设计荷载分为主力（包括恒载和活载）、附加力和特殊荷载。②设计方法不同。公路桥梁采用概率极限状态法设计；铁路桥梁目前仍采用容许应力法设计[已颁布了极限状态法设计规范（Q/CR）]。③荷载组合方式不同。公路桥梁按持久状况设计时，应分别计算承载能力极限状态下的基本组合、偶然组合，正常使用极限状态下的频遇组合、准永久组合；铁路桥梁按容许应力法设计时，则按主力（恒载+活载）、主力+附加力（仅考虑一个方向的）、主力+特殊荷载分别进行组合。④汽车活载与列车荷载不同。公路桥梁汽车荷载分车道荷载和车辆荷载，整体分析时采用车道荷载（<i>q</i><sub>k</sub>和<i>P</i><sub>k</sub> ）加载，局部分析时采用车辆荷载加载；铁路桥梁无论整体分析还是局部分析均采用列车荷载加载。可参见“参考文献[1]和[12]”。</span></p>
 
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.216"> [A1.216]</a><span id="idA1.216"> [学习提示]<br>“桥梁工程”课程的主要内容包括：依据经验（已建成桥梁）和现行公路桥涵设计规范构造结构体系，确定作用于桥跨结构上的作用类型，根据结构受力特点确定控制截面上的荷载（永久作用、可变作用、偶然作用等）及其作用组合的内力设计值，采用最不利组合进行截面设计。<br>“结构设计原理”课程讲授的是依据构件上最不利截面的作用效应设计值进行构件截面设计，而截面的作用效应设计值计算则是桥梁工程课程解决的问题。</span></p>
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.217"> [A1.217]</a><span id="idA1.217"> [思考与练习]<br>1. 说明永久作用、可变作用和偶然作用的具体含义。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.58"> [A1.3.58][学习提示]</a><span id="idA1.3.58"> <br>“桥梁工程”课程的主要内容包括：依据经验（已建成桥梁）和现行公路桥涵设计规范构造结构体系，确定作用于桥跨结构上的作用类型，根据结构受力特点确定控制截面上的荷载（永久作用、可变作用、偶然作用等）及其作用组合的内力设计值，采用最不利组合进行截面设计。<br>“结构设计原理”课程讲授的是依据构件上最不利截面的作用效应设计值进行构件截面设计，而截面的作用效应设计值计算则是桥梁工程课程解决的问题。</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.3.59"> [A1.3.59][思考与练习]</a><span id="idA1.3.59"> <br>1. 说明永久作用、可变作用和偶然作用的具体含义。</span></p>
  <br>2. 水浮力是永久作用还是可变作用？
  <br>3. 为什么桥梁结构整体分析计算时采用车道荷载加载，桥梁局部分析或涵洞、桥台计算时采用车辆荷载加载？
  <br>4. 为什么2车道以上或桥长大于150 m的桥梁，汽车荷载效应可予以折减？

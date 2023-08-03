@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第四节 连续体系梁桥计算 &mdash; 桥梁工程 第2版</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="第五节 连续弯梁桥简介" href="10.5.html" />
+    <link rel="prev" title="第三节 连续刚构桥构造与设计" href="10.3.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> 桥梁工程<br /><br />第2版
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qy.html">第二版前言</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第一篇 总论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02.html">第二章  桥梁总体规划和设计要点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04.html">第四章  桥梁通用构造</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../10.html">第六章  连续体系梁桥</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="10.1.html">第一节  连续体系梁桥的特点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10.2.html">第二节  连续梁桥构造与设计</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10.3.html">第三节  连续刚构桥构造与设计</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">第四节  连续体系梁桥计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10.5.html">第五节  连续弯梁桥简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10.6.html">第四节  桥梁设计方案比选</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../model.html">第一章  概论</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">桥梁工程<br /><br />第2版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../10.html">第六章  连续体系梁桥</a></li>
+      <li class="breadcrumb-item active">第四节  连续体系梁桥计算</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/10/10.4.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>第四节  连续体系梁桥计算<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h3 id="test111"> 第四节  连续体系梁桥计算</h3>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2.100"> [A2.100]</a><span id="idA2.100"> 连续体系梁桥是超静定结构，在结构内力计算时与简支梁桥最大的不同在于：预加力、混凝土收缩和徐变、温度变化以及基础不均匀沉降等因素将引起结构附加内力（又称附加内力），因此，除进行永久作用内力计算、可变作用内力计算外，还应进行附加内力的计算。设计实践表明：在结构内力计算中，永久作用内力和可变作用内力是主要的，一般占整个设计最大内力的80～90％以上。<br>预应力混凝土连续梁桥永久作用内力计算与施工方法密切相关，采用不同施工方法，主梁内力不同，导致主梁截面尺寸和配筋不同。连续刚构桥大多采用悬臂法施工，但与同样采用悬臂法施工的连续梁桥不同，在各跨主梁合龙前均不需要进行体系转换，故主梁受力略有区别。下文以连续梁桥为主线进行介绍。</span></p>
+
+<p><a href="#id2.6.4.1"> 一、永久作用内力计算</a> <span id="id2.6.4.1"> </span></p>
+<p><a href="#id2.6.4.2"> 二、可变作用内力计算</a> <span id="id2.6.4.2"> </span></p>
+<p><a href="#id2.6.4.3"> 三、超静定结构附加内力计算</a> <span id="id2.6.4.3"> </span></p>
+<p><a href="#id2.6.4.4"> 四、作用组合及包络图</a> <span id="id2.6.4.4"> </span></p></section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="10.3.html" class="btn btn-neutral float-left" title="第三节 连续刚构桥构造与设计" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="10.5.html" class="btn btn-neutral float-right" title="第五节 连续弯梁桥简介" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

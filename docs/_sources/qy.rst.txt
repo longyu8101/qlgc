@@ -30,11 +30,3 @@
   
 
   
-.. raw:: html
-  
- <div>
- <video width="720" height="400" controls>
-    <source src="./_static/aaa.mp4" type="video/mp4">
- </video>
- <p style="text-align:center;font-family:times new roman">视频1-1：检立得介绍</p>
- </div>

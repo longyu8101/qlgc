@@ -28,10 +28,6 @@
 
   </body>
 
-
-.. raw:: html
-   :file: ./_static/model.html
-
 .. raw:: html
 
  <ol>

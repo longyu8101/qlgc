@@ -4,23 +4,23 @@
 .. raw:: html
 
  <h3 id="test111">第二节  桥面防水及排水设施</h3>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.223"> [A1.223]</a><span id="idA1.223"> 混凝土结构不宜处在干燥和湿润反复交替的环境中，尤其在严寒的冬季，渗入混凝土细小裂纹中的水分结冰后，会使混凝土产生破坏而缩短使用寿命，另外水分还会使钢筋锈蚀。因此，为了防止桥面结构受雨水、雪水等侵蚀，应设置完善的桥面防水及排水设施。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.6"> [A1.4.6]</a><span id="idA1.4.6"> 混凝土结构不宜处在干燥和湿润反复交替的环境中，尤其在严寒的冬季，渗入混凝土细小裂纹中的水分结冰后，会使混凝土产生破坏而缩短使用寿命，另外水分还会使钢筋锈蚀。因此，为了防止桥面结构受雨水、雪水等侵蚀，应设置完善的桥面防水及排水设施。</span></p>
 
  <p><a href="#id1.4.2.1"> 一、桥面防水层</a> <span id="id1.4.2.1"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.224"> [A1.224]</a><span id="idA1.224"> 桥面防水层是防止桥面雨水、雪水等向主梁渗透的隔水设施。一般设在桥面铺装层与桥面板之间，将透过铺装层的渗入水隔绝。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.225"> [A1.225]</a><span id="idA1.225"> 钢筋混凝土桥面板与铺装层之间是否要设防水层，应视当地的气温、雨量、桥梁结构和桥面铺装形式等具体情况而定。防水层通过伸缩缝或变形缝时，应按设计规定铺设。防水层在横桥向应闭合铺设，底层表面应平顺、干燥、干净。如无需设置防水层，但考虑桥面铺装长期磨损，如果桥面排水不良仍可能漏水，故桥面在主梁受负弯矩作用处应设置柔性防水层。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.226"> [A1.226]</a><span id="idA1.226"> 防水层有三种类型：</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.7"> [A1.4.1]</a><span id="idA1.4.7"> 桥面防水层是防止桥面雨水、雪水等向主梁渗透的隔水设施。一般设在桥面铺装层与桥面板之间，将透过铺装层的渗入水隔绝。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.8"> [A1.4.1]</a><span id="idA1.4.8"> 钢筋混凝土桥面板与铺装层之间是否要设防水层，应视当地的气温、雨量、桥梁结构和桥面铺装形式等具体情况而定。防水层通过伸缩缝或变形缝时，应按设计规定铺设。防水层在横桥向应闭合铺设，底层表面应平顺、干燥、干净。如无需设置防水层，但考虑桥面铺装长期磨损，如果桥面排水不良仍可能漏水，故桥面在主梁受负弯矩作用处应设置柔性防水层。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.9"> [A1.4.1]</a><span id="idA1.4.9">防水层有三种类型：</span></p>
  <p style="text-align:justify;font-family:times new roman"> （1）沥青涂胶下封层，即洒布薄层沥青或改性沥青，在其上布一层砂，经碾压形成沥青涂胶下封层。</p>
  <p style="text-align:justify;font-family:times new roman"> （2）高分子聚合物涂胶，如聚氨酯胶泥、环氧树脂、阳离子乳化沥青、聚丁胶乳等。</p>
  <p style="text-align:justify;font-family:times new roman"> （3）铺装沥青或改性沥青防水卷材，以及浸渍沥青的无纺土工布等。</p>
  <p style="text-align:justify;font-family:times new roman"> 无防水层时，水泥混凝土铺装应采用防水混凝土。对于沥青混凝土则应加强排水和养护。</p>
  <p><a href="#id1.4.2.2"> 二、桥面排水设施</a> <span id="id1.4.2.2"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.227"> [A1.227]</a><span id="idA1.227"> 桥面排水设施主要为设置桥面纵坡、横坡（包括超高），并设置一定数量的泄（排）水管（口）外泄。桥面横向排水坡度宜与路面横坡一致，当设有人行道时，人行道应设置倾向行车道0.5%～1.5%的横坡。当桥面纵坡小于0.5%时，宜在桥面铺装较低侧边缘设置纵向渗沟排水系统。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.228"> [A1.228]</a><span id="idA1.228"> 为防止雨水积滞桥面，需设置泄水口，并在泄水口处设置泄水管。泄水口宜设置在桥面行车道边缘处，间距可依据设计径流量计算确定，最大间距不宜超过20m。在桥梁伸缩缝的上游方向应增设泄水口，有助于减少流向伸缩缝的水量。在桥面凹形竖曲线的最低点及其前后3～5m处应各设置一个泄水口，预防最低点处的泄水口被杂物堵塞而导致积水。泄水口可为圆形或矩形，圆形泄水口的直径宜为15～20cm；矩形泄水口的宽度宜为20～30cm，长度宜为30～40cm。泄水口顶部应采用格栅盖板，其顶面宜比周围桥面铺装低5～10mm，有利于桥面水向泄水口汇流并增加截流率。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.10"> [A1.4.10]</a><span id="idA1.4.10"> 桥面排水设施主要为设置桥面纵坡、横坡（包括超高），并设置一定数量的泄（排）水管（口）外泄。桥面横向排水坡度宜与路面横坡一致，当设有人行道时，人行道应设置倾向行车道0.5%～1.5%的横坡。当桥面纵坡小于0.5%时，宜在桥面铺装较低侧边缘设置纵向渗沟排水系统。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.11"> [A1.4.11]</a><span id="idA1.4.11"> 为防止雨水积滞桥面，需设置泄水口，并在泄水口处设置泄水管。泄水口宜设置在桥面行车道边缘处，间距可依据设计径流量计算确定，最大间距不宜超过20m。在桥梁伸缩缝的上游方向应增设泄水口，有助于减少流向伸缩缝的水量。在桥面凹形竖曲线的最低点及其前后3～5m处应各设置一个泄水口，预防最低点处的泄水口被杂物堵塞而导致积水。泄水口可为圆形或矩形，圆形泄水口的直径宜为15～20cm；矩形泄水口的宽度宜为20～30cm，长度宜为30～40cm。泄水口顶部应采用格栅盖板，其顶面宜比周围桥面铺装低5～10mm，有利于桥面水向泄水口汇流并增加截流率。</span></p>
  <ol style="text-align:justify;font-family:times new roman" start="1">
  <li>桥面纵横坡</li>
  </ol>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.229"> [A1.229]</a><span id="idA1.229"> 桥面设置纵横坡，以利雨水迅速排除，防止或减少雨水对铺装层的渗透，从而保护桥面扳，延长桥梁的使用寿命。<br>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.12"> [A1.4.12]</a><span id="idA1.4.12"> 桥面设置纵横坡，以利雨水迅速排除，防止或减少雨水对铺装层的渗透，从而保护桥面扳，延长桥梁的使用寿命。<br>
   桥面设置纵坡，首先是有利于排水，同时在平原地区，还可以在满足桥下设计净空要求的前提下，降低墩台高程，减少引桥长度或桥头引道土方量，从而节省工程费用。桥面纵坡的设置应与桥梁两端的道路相协调，《通规》（JTG D60—2015）规定：桥上纵坡不宜大于4%，桥头引道纵坡不宜大于5%，位于市镇混合交通繁忙处，桥上纵坡及桥头引道纵坡均不得大于3%。对宜结冰、积雪的桥梁，桥上纵坡不宜大于3%。</span></p>
  <p style="text-align:justify;font-family:times new roman"> 桥面横坡一般采用1.5%～2%，通常有三种设置形式：</p>
  <p style="text-align:justify;font-family:times new roman"> （1）在装配式肋板梁桥中，当桥面宽度不大时，为使主梁构造简单、架设与拼装方便，通常横坡直接设在行车道板上。在行车道板（全跨范围内）与等厚的混凝土桥面铺装层之间铺设一层厚度变化、形成双向倾斜的混凝土三角垫层[<a href="#image1.4.3">图1-4-3a）</a>]。</p>
@@ -47,7 +47,7 @@
  <li>泄水管</li>
  </ol>
  
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.230"> [A1.230]</a><span id="idA1.230"> 桥梁常用的泄水管道设置方式有竖向泄水管道、横向泄水管道和封闭式泄水管道等。泄水管可采用铸铁管、PVC管或复合材料管，内径不宜小于15cm。由于设置泄水口，部分桥面板钢筋网被切断，因此要求泄水口周围应配置补强钢筋，使之具有足够的强度承受车辆荷载的作用。为了不影响铺装结构内部水的排出，泄水管伸入铺装结构内部的部分应做成孔隙状。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.4.13"> [A1.4.13]</a><span id="idA1.4.13"> 桥梁常用的泄水管道设置方式有竖向泄水管道、横向泄水管道和封闭式泄水管道等。泄水管可采用铸铁管、PVC管或复合材料管，内径不宜小于15cm。由于设置泄水口，部分桥面板钢筋网被切断，因此要求泄水口周围应配置补强钢筋，使之具有足够的强度承受车辆荷载的作用。为了不影响铺装结构内部水的排出，泄水管伸入铺装结构内部的部分应做成孔隙状。</span></p>
 
  <p style="text-align:justify;font-family:times new roman"> （1）竖向泄水管道<br>竖向泄水管道（<a href="#image1.4.4">图1-4-4</a>）常用于肋板式梁桥、箱形梁桥、肋拱桥及刚架拱桥、桁架拱桥等。竖向泄水管道通过桥面板上预留的孔洞伸到桥面板下方，桥面积水可以通过竖向泄水管道直接泄到桥下。安装泄水管时应将其下端伸出桥面板底面以下15～20cm，以防止雨水浸润桥面板。如果桥面铺装层内设有防水层，则应让管道与防水层紧密结合，以便防水层上所积存的渗水能通过泄水管道排出桥外。</p>
 

@@ -6,25 +6,25 @@
 
  <h3 id="test111"> 第三节  桥梁平面、立面及横断面设计</h3>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.117"> [A1.117]</a><span id="idA1.117"> 桥梁设计首先要确定桥位，即桥梁平面设计；其次是在选定桥位上布设桥孔、确定桥长和桥高，即桥梁立面设计，最后确定桥面宽度和桥跨结构截面形式，即桥梁横断面设计。</span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.31"> [A1.2.31]</a><span id="idA1.2.31"> 桥梁设计首先要确定桥位，即桥梁平面设计；其次是在选定桥位上布设桥孔、确定桥长和桥高，即桥梁立面设计，最后确定桥面宽度和桥跨结构截面形式，即桥梁横断面设计。</span></p> 
  <p><a href="#id1.2.3.1">一、平面设计</a> <span id="id1.2.3.1"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.118"> [A1.118]</a><span id="idA1.118"> 桥梁平面设计是指在工程范围以内桥梁构筑物平面布置的设计。设计内容包括：确定工程范围起讫点、桥梁轴线方向和联结地名、桥梁轴线里程桩和平曲线要素数据、桥梁平面布置、墩台及基础平面、引道平面等内容。</span></p> 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.119"> [A1.119]</a><span id="idA1.119"> 特大桥及大、中桥的桥位与线形一般为直线，尽量选择在河道顺直、水流稳定、地质条件良好的河段上。当桥位受到两岸地形限制时，允许修建曲线桥，桥梁的平曲线半径、平曲线超高和加宽、缓和曲线、变速车道设置等，均应满足相应等级道路的规定；也允许修建斜桥，斜交角度一般不大于45°，通航河流上不宜大于5°（桥墩沿主流方向的轴线与通航水位主流方向的交角）。</span></p> 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.120"> [A1.120]</a><span id="idA1.120"> 小桥和涵洞的位置与线形一般应符合路线的总走向，为满足水文、道路弯道等要求，平面可设计成斜桥或弯桥。</span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.32"> [A1.2.32]</a><span id="idA1.2.32"> 桥梁平面设计是指在工程范围以内桥梁构筑物平面布置的设计。设计内容包括：确定工程范围起讫点、桥梁轴线方向和联结地名、桥梁轴线里程桩和平曲线要素数据、桥梁平面布置、墩台及基础平面、引道平面等内容。</span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.33"> [A1.2.33]</a><span id="idA1.2.33">特大桥及大、中桥的桥位与线形一般为直线，尽量选择在河道顺直、水流稳定、地质条件良好的河段上。当桥位受到两岸地形限制时，允许修建曲线桥，桥梁的平曲线半径、平曲线超高和加宽、缓和曲线、变速车道设置等，均应满足相应等级道路的规定；也允许修建斜桥，斜交角度一般不大于45°，通航河流上不宜大于5°（桥墩沿主流方向的轴线与通航水位主流方向的交角）。</span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.34"> [A1.2.34]</a><span id="idA1.2.34"> 小桥和涵洞的位置与线形一般应符合路线的总走向，为满足水文、道路弯道等要求，平面可设计成斜桥或弯桥。</span></p> 
  <p><a href="#id1.2.3.2">二、立面设计</a> <span id="id1.2.3.2"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.121"> [A1.121]</a><span id="idA1.121"> 桥梁立面设计是工程范围以内沿桥梁纵向中轴线断面布置的设计，包括：引道、引桥、主桥起讫点或分界点里程的确定；桥梁总长、桥梁分孔、墩台编号与中心线里程的确定；桥面高程与桥下净空、桥上和桥头引道纵坡以及基础的埋置深度的确定等。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.35"> [A1.2.35]</a><span id="idA1.2.315">桥梁立面设计是工程范围以内沿桥梁纵向中轴线断面布置的设计，包括：引道、引桥、主桥起讫点或分界点里程的确定；桥梁总长、桥梁分孔、墩台编号与中心线里程的确定；桥面高程与桥下净空、桥上和桥头引道纵坡以及基础的埋置深度的确定等。</span></p>
  <ol style="font-family:times new roman" >
  <li> 桥梁长度</li>
  </ol>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.122"> [A1.122]</a><span id="idA1.122"> 桥梁长度一般根据水文计算来确定。其基本原则是：应使桥梁在整个使用年限内，保证设计洪水能顺利宣泄；河流中可能出现的流冰和船只、排筏等能顺利通过；避免因过分压缩河床引起河道和河岸的不利变迁；避免因桥前壅水而淹没农田、房屋、村镇和其他公共设施等。对于桥梁结构本身来说，不能因桥梁长度缩短而引起河水对河床过度冲刷给浅埋基础带来不利的影响。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.123"> [A1.123]</a><span id="idA1.123"> 在某些情况下，为了降低工程造价，可以在不超过允许的桥前壅水和规范规定的允许最大冲刷系数条件下，可适当放宽冲刷限制，以适当缩短桥梁长度。例如，对于深埋基础，一般允许稍大一点的冲刷，使桥梁长度适当减小；对于平原区稳定的宽滩河段，河水流速较慢，漂流物也少，这时，可以对河滩浅水流区段作适当的压缩，即缩短桥梁长度，但必须慎重校核，压缩后的桥梁壅水不得危及河滩路堤以及附近农田和建筑物。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.36"> [A1.2.36]</a><span id="idA1.2.36"> 桥梁长度一般根据水文计算来确定。其基本原则是：应使桥梁在整个使用年限内，保证设计洪水能顺利宣泄；河流中可能出现的流冰和船只、排筏等能顺利通过；避免因过分压缩河床引起河道和河岸的不利变迁；避免因桥前壅水而淹没农田、房屋、村镇和其他公共设施等。对于桥梁结构本身来说，不能因桥梁长度缩短而引起河水对河床过度冲刷给浅埋基础带来不利的影响。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.37"> [A1.2.37]</a><span id="idA1.2.37"> 在某些情况下，为了降低工程造价，可以在不超过允许的桥前壅水和规范规定的允许最大冲刷系数条件下，可适当放宽冲刷限制，以适当缩短桥梁长度。例如，对于深埋基础，一般允许稍大一点的冲刷，使桥梁长度适当减小；对于平原区稳定的宽滩河段，河水流速较慢，漂流物也少，这时，可以对河滩浅水流区段作适当的压缩，即缩短桥梁长度，但必须慎重校核，压缩后的桥梁壅水不得危及河滩路堤以及附近农田和建筑物。</span></p>
 
  <ol style="font-family:times new roman"  start="2">
  <li> 桥跨（孔）布置</li>
  </ol>
 
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.124"> [A1.124]</a><span id="idA1.124"> 对于一座较长的桥梁，应当分成若干孔。跨径划分的大小，不仅影响过水断面、基础冲刷、使用效果和施工等，而且在很大程度上影响桥梁的总造价。例如，所采用的跨径愈大，固然可以降低墩台的造价，但却使上部结构的造价大大增高；反之，上部结构的造价虽然降低了，但墩台的造价却又有所增高。因此，在满足基础冲刷、使用和技术要求的前提下，通常采用最经济的分跨方式，使上、下部结构的总造价趋于最低，此时的跨径为经济跨径。桥跨布置原则是：</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.38"> [A1.2.38]</a><span id="idA1.2.38"> 对于一座较长的桥梁，应当分成若干孔。跨径划分的大小，不仅影响过水断面、基础冲刷、使用效果和施工等，而且在很大程度上影响桥梁的总造价。例如，所采用的跨径愈大，固然可以降低墩台的造价，但却使上部结构的造价大大增高；反之，上部结构的造价虽然降低了，但墩台的造价却又有所增高。因此，在满足基础冲刷、使用和技术要求的前提下，通常采用最经济的分跨方式，使上、下部结构的总造价趋于最低，此时的跨径为经济跨径。桥跨布置原则是：</span></p>
   
   
  （1）大型（独立）桥梁 
@@ -41,12 +41,12 @@
   <li> 对于跨越重要河流的公路桥梁，应按批准的河道及（或）航道整治规划，结合现状布孔；若无规划，则应根据现状按设计洪水流量满足泄洪要求和通航要求进行布孔，并适当考虑将来的发展；同时还应尽量减小对水流的天然状态与河床形态的影响。</li>                 
   </ul> 
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.125"> [A1.125]</a><span id="idA1.125"> 总之，对于大、中桥梁的分孔是一个相当复杂的问题，必须根据使用功能要求、桥位处的地形和环境、河床地质条件、水文条件、通航和防洪等具体情况和制约因素，通过技术、经济、环境、社会等各方面的综合分析比较，才能做出比较合理的设计方案。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.39"> [A1.2.39]</a><span id="idA1.2.39"> 总之，对于大、中桥梁的分孔是一个相当复杂的问题，必须根据使用功能要求、桥位处的地形和环境、河床地质条件、水文条件、通航和防洪等具体情况和制约因素，通过技术、经济、环境、社会等各方面的综合分析比较，才能做出比较合理的设计方案。</span></p>
 
  （2） 常规桥梁 
  
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.126"> [A1.126]</a><span id="idA1.126"> 常规大、中、小型桥梁立面设计除应参照上述大型(独立)桥梁的布置原则外，一般还需要遵守以下规定: </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.40"> [A1.2.40]</a><span id="idA1.2.40"> 常规大、中、小型桥梁立面设计除应参照上述大型(独立)桥梁的布置原则外，一般还需要遵守以下规定: </span></p>
  
  <ul  style="font-family:times new roman" >
  <li> 按照需跨越的道路、铁路、河道、管线等的规划线位及断面，结合现况条件合理布置桥孔，在满足交通功能的同时，还应满足所跨越构筑物的使用和维护等方面的要求。</li>
@@ -61,7 +61,7 @@
 
  （3）山区公路桥梁
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.127"> [A1.127]</a><span id="idA1.127"> 山区公路桥梁所处外部环境一般具有以下特点：</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.41"> [A1.2.41]</a><span id="idA1.2.41"> 山区公路桥梁所处外部环境一般具有以下特点：</span></p>
   
   <ul   style="font-family:times new roman" >
              <li> 地形、地质条件复杂，沟壑纵横、沟深谷幽，尤其在西部地区，活动断裂带广布，滑坡、泥石流等地质灾害突出。地形、地质条件复杂，沟壑纵横、沟深谷幽，尤其在西部地区，活动断裂带广布，滑坡、泥石流等地质灾害突出。</li>
@@ -74,7 +74,7 @@
              <li> 季节气候差异大，特点明显，施工组织要求高。</li>  
              <li> 西部山区经济不发达，建设成本高，交通量相对较小，投资回收期长，建设资金筹措压力非常大。</li>               
   </ul> 
-  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.128"> [A1.128]</a><span id="idA1.128">山区桥梁布设原则：</span></p>
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.42"> [A1.2.42]</a><span id="idA1.2.42"> 山区桥梁布设原则：</span></p>
   <ul   style="font-family:times new roman">
              <li> 尽可能采用技术成熟、标准化程度高的中小跨径桥梁；受路线及地形、地质条件影响，也可采用大跨径或特大跨径桥梁。</li>
              <li> 一般桥梁应以中小跨径为主。山区桥梁布孔应充分考虑在桥宽及坡脚范围内地形变化对布孔及基础的影响。山区施工场地狭窄，从占地、运输、安装等方而考虑，一般宜用中小跨径，与平原软土地区相比较，山区一般基岩浅，甚至出露，桥梁基础建设费用省，虽然有些桥墩较高，但仍适用中等跨径的梁式桥。由于许多桥梁处在陡斜坡地带，考虑坡面上墩台基础施工开挖及便道的影响，跨径也不宜太小。</li>
@@ -86,9 +86,9 @@
   <ol style="font-family:times new roman"  start="3">
  <li> 桥面高程</li>
  </ol>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.129"> [A1.129]</a><span id="idA1.129"> 合理的桥面高程必须根据设计水位、桥下通航（通车）净空的需要，并结合桥型、跨径以及与连接道路的匹配等综合考虑。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.43"> [A1.2.43]</a><span id="idA1.2.43">  合理的桥面高程必须根据设计水位、桥下通航（通车）净空的需要，并结合桥型、跨径以及与连接道路的匹配等综合考虑。</span></p>
  (1) 流水净空要求
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.130"> [A1.130]</a><span id="idA1.130"> 为了保证支座的安全和正常工作，对于设支座的桥梁，支座底面应高出计算水位（即设计洪水水位加壅水高、浪高等）不小于0.25 m，并高出最高流冰面不小于0.50 m，如<a href="#image1.2.3">图1-2-3</a>所示。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.44"> [A1.2.44]</a><span id="idA1.2.44"> 为了保证支座的安全和正常工作，对于设支座的桥梁，支座底面应高出计算水位（即设计洪水水位加壅水高、浪高等）不小于0.25 m，并高出最高流冰面不小于0.50 m，如<a href="#image1.2.3">图1-2-3</a>所示。</span></p>
   <body>
 
  <style type="text/css">
@@ -105,7 +105,7 @@
 
   </body>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.131"> [A1.131]</a><span id="idA1.131"> 对于无铰拱桥，拱脚允许被洪水淹没<a href="#image1.2.4">（图1-2-4）</a>但淹没深度不宜超过拱圈净矢高 <i>f</i><sub>0</sub> 的2/3，并且在任何情况下，拱顶底面应高出计算水位不小于1.0 m，拱脚的起拱线应高出最高流冰面不小于0.25 m。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.45"> [A1.2.45]</a><span id="idA1.2.45">  对于无铰拱桥，拱脚允许被洪水淹没<a href="#image1.2.4">（图1-2-4）</a>但淹没深度不宜超过拱圈净矢高 <i>f</i><sub>0</sub> 的2/3，并且在任何情况下，拱顶底面应高出计算水位不小于1.0 m，拱脚的起拱线应高出最高流冰面不小于0.25 m。</span></p>
  
   <body>
 
@@ -123,7 +123,7 @@
 
   </body>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.132"> [A1.132]</a><span id="idA1.132"> 《通规》（JTG D60—2015）规定：在不通航或无流放木筏河流上及通航河流的不通航桥孔内，桥下净空不应小于<a href="#B1.2.1">表1-2-1</a>的规定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.46"> [A1.2.46]</a><span id="idA1.2.46">  《通规》（JTG D60—2015）规定：在不通航或无流放木筏河流上及通航河流的不通航桥孔内，桥下净空不应小于<a href="#B1.2.1">表1-2-1</a>的规定。</span></p>
 
 
  <style>
@@ -191,10 +191,11 @@
 		        <td  align="center" id="dhbg">0.25</td>
 		    </tr>     
      </table>
-   
+     <p></p> 
+     
  (2) 通航净空要求
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.133"> [A1.133]</a><span id="idA1.133"> 为了保证桥下安全通航，通航孔桥跨结构下缘的高程应高出自设计通航水位算起的净空高度（<a href="#image1.2.4">图1-2-4</a>）。我国对于内河通航净空的尺寸规定如<a href="#image1.2.5">图1-2-5</a>及<a href="#B1.2.2">表1-2-2</a>。此外，交通运输部还颁布了《海轮航道通航标准》（JTS 180-3），适用于沿海及海湾区域内通航海轮航道的桥梁。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.47"> [A1.2.47]</a><span id="idA1.2.47">  为了保证桥下安全通航，通航孔桥跨结构下缘的高程应高出自设计通航水位算起的净空高度（<a href="#image1.2.4">图1-2-4</a>）。我国对于内河通航净空的尺寸规定如<a href="#image1.2.5">图1-2-5</a>及<a href="#B1.2.2">表1-2-2</a>。此外，交通运输部还颁布了《海轮航道通航标准》（JTS 180-3），适用于沿海及海湾区域内通航海轮航道的桥梁。</span></p>
   
   <body>
 
@@ -499,14 +500,14 @@
     &emsp;&emsp;&nbsp;&nbsp;3.黑龙江水系水上过河建筑物、珠江三角洲至港澳线内河水上过河建筑物以及限制性航道水上过河建筑物通航净空尺度参照现行《内河通航标准》（GB 50139）相关规定。</font></p>
 
  (3) 跨线桥桥下净空要求
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.134"> [A1.134]</a><span id="idA1.134"> 在设计跨越线路（铁路、公路、其他道路等）的立体交叉时，桥跨结构底缘的高程应高出被交叉线路（铁路、公路、其他道路等）建筑限界[<a href="https://qlgc.readthedocs.io/zh/latest/1/1.2.html#image12">图1-1-12a）</a>]的规定。对于公路所需的建筑限界，见以下“三、桥梁的横断面设计”部分，铁路的建筑限界可查阅国家标准“标准轨距铁路机车车辆限界和建筑限界”的规定，其他道路的建筑限界可查阅相应的规范及标准。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.135"> [A1.135]</a><span id="idA1.135"> 综上所述，全桥位于河流中的桥面高程应首先满足流水净空（泄洪）的要求；对于通航孔或桥下通车的立交孔还应满足通航或立交净空的要求；另外，还应考虑桥的两端能够与公路或城市道路的顺利衔接等，因此，桥面高程的确定必须综合考虑和规划。桥梁的桥面控制高程确定后，一般是将桥梁立面设计成具有单向或双向的桥面纵坡，既利于交通，美观效果好，又便于桥面排水（对于不太长的小桥，可以做成平坡桥）。但《桥规》规定：桥上纵坡不宜大于4%，桥头引道纵坡不宜大于5%；位于市镇混合交通繁忙处的桥梁，桥上纵坡和桥头引道纵坡均不得大于3%；对于宜结冰、积雪的桥梁，桥上纵坡不得大于3%。并应在纵坡变更处按规定设置竖曲线，使纵坡改变处不致出现转角。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.48"> [A1.2.48]</a><span id="idA1.2.48">  在设计跨越线路（铁路、公路、其他道路等）的立体交叉时，桥跨结构底缘的高程应高出被交叉线路（铁路、公路、其他道路等）建筑限界[<a href="https://qlgc.readthedocs.io/zh/latest/1/1.2.html#image12">图1-1-12a）</a>]的规定。对于公路所需的建筑限界，见以下“三、桥梁的横断面设计”部分，铁路的建筑限界可查阅国家标准“标准轨距铁路机车车辆限界和建筑限界”的规定，其他道路的建筑限界可查阅相应的规范及标准。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.49"> [A1.2.49]</a><span id="idA1.2.49">  综上所述，全桥位于河流中的桥面高程应首先满足流水净空（泄洪）的要求；对于通航孔或桥下通车的立交孔还应满足通航或立交净空的要求；另外，还应考虑桥的两端能够与公路或城市道路的顺利衔接等，因此，桥面高程的确定必须综合考虑和规划。桥梁的桥面控制高程确定后，一般是将桥梁立面设计成具有单向或双向的桥面纵坡，既利于交通，美观效果好，又便于桥面排水（对于不太长的小桥，可以做成平坡桥）。但《桥规》规定：桥上纵坡不宜大于4%，桥头引道纵坡不宜大于5%；位于市镇混合交通繁忙处的桥梁，桥上纵坡和桥头引道纵坡均不得大于3%；对于宜结冰、积雪的桥梁，桥上纵坡不得大于3%。并应在纵坡变更处按规定设置竖曲线，使纵坡改变处不致出现转角。</span></p>
  <p><a href="#id1.2.3.3">三、桥梁横断面设计</a> <span id="id1.2.3.3"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.136"> [A1.136]</a><span id="idA1.136"> 公路桥梁横断面的设计，主要确定桥面宽度和桥跨结构横截面的布置形式 。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.50"> [A1.2.50]</a><span id="idA1.2.50">  公路桥梁横断面的设计，主要确定桥面宽度和桥跨结构横截面的布置形式 。</span></p>
  <ol style="font-family:times new roman"  >
  <li> 桥面宽度</li>
  </ol>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.137"> [A1.137]</a><span id="idA1.137"> 桥面宽度取决于行车和行人的交通需要。我国交通运输部颁布的《公路工程技术标准》（JTG B01—2014）中，规定了各级公路桥面净空限界，如<a href="#image1.2.6">图1-2-6</a>所示，在公路建筑限界内，不得有任何部件侵入。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.51"> [A1.2.51]</a><span id="idA1.2.51">  桥面宽度取决于行车和行人的交通需要。我国交通运输部颁布的《公路工程技术标准》（JTG B01—2014）中，规定了各级公路桥面净空限界，如<a href="#image1.2.6">图1-2-6</a>所示，在公路建筑限界内，不得有任何部件侵入。</span></p>
   
   <body>
 
@@ -624,7 +625,7 @@
 
 
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.138"> [A1.138]</a><span id="idA1.138"> 公路桥面净空限界的边界线划定：桥面不设超高的双向横坡桥梁，上缘边界线应为水平，两侧边界线应与水平线垂直<a href="#image1.2.7">[图1-2-7a）]</a>；桥面设置超高或单向横坡时，上缘边界线应与桥面横坡平行，两侧边界线应与桥面横坡垂直<a href="#image1.2.7">[图 1-2-7b ）]</a>。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.52"> [A1.2.52]</a><span id="idA1.2.52">  公路桥面净空限界的边界线划定：桥面不设超高的双向横坡桥梁，上缘边界线应为水平，两侧边界线应与水平线垂直<a href="#image1.2.7">[图1-2-7a）]</a>；桥面设置超高或单向横坡时，上缘边界线应与桥面横坡平行，两侧边界线应与桥面横坡垂直<a href="#image1.2.7">[图 1-2-7b ）]</a>。</span></p>
 
   <body>
 
@@ -642,10 +643,10 @@
 
   </body>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.139"> [A1.139]</a><span id="idA1.139"> 高速公路、一级公路上的桥梁宜设计为上、下行两座分离的独立桥梁。各级公路上的涵洞和二、三、四级公路上跨径小于8 m的单孔小桥的桥面宽度，应与路基同宽。城市桥梁或城市交通的公路桥梁桥面宽度，应考虑到城市交通工程的规划要求予以适当加宽。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.140"> [A1.140]</a><span id="idA1.140"> 在弯道上的桥梁，应按路线要求予以加宽和设置超高。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.141"> [A1.141]</a><span id="idA1.141"> 高速公路上的桥梁应设检修道，不宜设人行道。漫水桥和过水路面可不设人行道。一、二、三、四级公路上桥梁的桥上人行道和自行车道的设置，应根据需要而定，并应与前后路线布置协调，人行道、自行车道与行车道之间，应设分隔设施。一个自行车道的宽度为1.0 m，当单独设置自行车道时，不宜小于两个自行车道的宽度。人行车道的宽度宜为0.75 m或1.0 m，大于1.0 m时，按0.5 m的级差增加。</span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.142"> [A1.142]</a><span id="idA1.142"> 高速公路、一级公路上的桥梁必须设置护栏；二、三、四级公路上特大桥、大桥、中桥应设护栏或栏杆和安全带，小桥和涵洞可仅设缘石或栏杆；不设人行道的漫水桥和过水路面应设标杆或护栏。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.53"> [A1.2.53]</a><span id="idA1.2.53">  高速公路、一级公路上的桥梁宜设计为上、下行两座分离的独立桥梁。各级公路上的涵洞和二、三、四级公路上跨径小于8 m的单孔小桥的桥面宽度，应与路基同宽。城市桥梁或城市交通的公路桥梁桥面宽度，应考虑到城市交通工程的规划要求予以适当加宽。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.54"> [A1.2.54]</a><span id="idA1.2.54">  在弯道上的桥梁，应按路线要求予以加宽和设置超高。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.55"> [A1.2.55]</a><span id="idA1.2.55">  高速公路上的桥梁应设检修道，不宜设人行道。漫水桥和过水路面可不设人行道。一、二、三、四级公路上桥梁的桥上人行道和自行车道的设置，应根据需要而定，并应与前后路线布置协调，人行道、自行车道与行车道之间，应设分隔设施。一个自行车道的宽度为1.0 m，当单独设置自行车道时，不宜小于两个自行车道的宽度。人行车道的宽度宜为0.75 m或1.0 m，大于1.0 m时，按0.5 m的级差增加。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.56"> [A1.2.56]</a><span id="idA1.2.56">  高速公路、一级公路上的桥梁必须设置护栏；二、三、四级公路上特大桥、大桥、中桥应设护栏或栏杆和安全带，小桥和涵洞可仅设缘石或栏杆；不设人行道的漫水桥和过水路面应设标杆或护栏。</span></p>
 
   <ol style="font-family:times new roman"  start="2">
  <li> 桥跨结构横截面设计</li>
@@ -678,7 +679,7 @@
 
 
  （2）截面类型
- <p style="text-align:justify;font-family:times new roman"><a href="#idA1.143"> [A1.143]</a><span id="idA1.143"> 桥跨结构的截面类型较多，根据施工方法不同，分为整体式（截面为一个整体）截面<a href="#image1.2.8">[图1-2-8a）]</a>与装配式（截面由若干部分集成）截面<a href="#image1.2.9">（图1-2-9）</a>；根据建筑材料不同，分为钢筋混凝土与预应力混凝土梁截面<a href="#image1.2.9">（图1-2-9）</a>、钢箱梁截面<a href="#image1.2.9">[图1-2-9a）]</a>、钢桁梁截面<a href="#image1.2.9">[图1-2-9b）]</a>、钢-混凝土组合梁截面<a href="#image1.2.9">[图1-2-9c）]</a>等，对于拱桥还有圬工截面。除了圬工截面应用于拱桥外，其他截面类型在各体系桥跨结构中均有应用。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1.2.57"> [A1.2.57]</a><span id="idA1.2.57"> 桥跨结构的截面类型较多，根据施工方法不同，分为整体式（截面为一个整体）截面<a href="#image1.2.8">[图1-2-8a）]</a>与装配式（截面由若干部分集成）截面<a href="#image1.2.9">（图1-2-9）</a>；根据建筑材料不同，分为钢筋混凝土与预应力混凝土梁截面<a href="#image1.2.9">（图1-2-9）</a>、钢箱梁截面<a href="#image1.2.9">[图1-2-9a）]</a>、钢桁梁截面<a href="#image1.2.9">[图1-2-9b）]</a>、钢-混凝土组合梁截面<a href="#image1.2.9">[图1-2-9c）]</a>等，对于拱桥还有圬工截面。除了圬工截面应用于拱桥外，其他截面类型在各体系桥跨结构中均有应用。</span></p>
 
  <body>
 
