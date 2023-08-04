@@ -8,8 +8,8 @@
 
  <p style="text-align:justify;font-family:times new roman"><a href="#idA2.100"> [A2.100]</a><span id="idA2.100"> 　随着高等级公路在路线线形方面的要求越来越高，要求桥梁设计完全符合路线线形，所以桥梁的平面布置，基本上应服从整体线形布置的要求，这就需要设置很多曲线桥，曲线连续梁桥被称作连续弯梁桥。为了抵抗主梁截面的弯矩和扭矩，在弯梁桥设计中主梁多采用箱形截面。由于桥面超高的需要和梁体受扭时主梁截面外侧受力较大的需要，可在桥梁横向将主梁各腹板设计成不同的高度（采用箱形截面时）；为了构造简单，方便施工，也可将主梁各腹板设计成等高度，桥面超高产生的横坡由墩台帽顶面形成。</span></p>
 
- <p><a href="#id2.6.5.1"> 一、受力特点</a> <span id="id2.6.5.1"> </span></p>
- <p><a href="#id2.6.5.2"> 二、结构设计</a> <span id="id2.6.5.2"> </span></p>
- <p><a href="#id2.6.5.3"> 三、匝道桥的特点</a> <span id="id2.6.5.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.5.1"> 一、受力特点</a> <span id="id2.6.5.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.5.2"> 二、结构设计</a> <span id="id2.6.5.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.5.3"> 三、匝道桥的特点</a> <span id="id2.6.5.3"> </span></p>
 
 

@@ -8,6 +8,6 @@
 
  <p style="text-align:justify;font-family:times new roman"><a href="#idA2.100"> [A2.100]</a><span id="idA2.100"> 为了保证各主梁共同受力和加强结构的整体性，横隔梁本身或其装配式接头应具有足够的强度。对于具有多根内横隔梁的桥梁，通常只计算受力最大的跨中横隔梁的内力，其他横隔梁可偏安全地仿此设计。对于纵、横向由主梁和横隔梁组成的梁格结构，要精确分析横隔梁的内力是十分冗繁而复杂的，为简化计算，可根据主梁计算采用的偏心压力法原理和比拟正交异性板法原理来计算横隔梁的内力。<br>下面将介绍按偏心压力法原理计算横隔梁内力的实用方法。</span></p>
   
- <p><a href="#id2.4.5.1"> 一、作用在横隔梁上的计算荷载</a> <span id="id2.4.5.1"> </span></p>
- <p><a href="#id2.4.5.2"> 二、横隔梁的内力影响线</a> <span id="id2.4.5.2"> </span></p>
- <p><a href="#id2.4.5.3"> 三、横隔梁内力计算</a> <span id="id2.4.5.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.1"> 一、作用在横隔梁上的计算荷载</a> <span id="id2.4.5.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.2"> 二、横隔梁的内力影响线</a> <span id="id2.4.5.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.3"> 三、横隔梁内力计算</a> <span id="id2.4.5.3"> </span></p>

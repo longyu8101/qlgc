@@ -6,7 +6,7 @@
 
  <h3 id="test111"> 第二节  桥梁设计与建设程序</h3>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.7"> [A2.2.7]</a><span id="idA2.2.7"> 装配式简支板桥按横截面形式分类，有实心板和空心板（<a href="#image2.2.3">图2-2-3</a>）两种形式。实心板桥的适用跨径不宜超过10m。空心板按配筋形式的不同，分为钢筋混凝土空心板和预应力混凝土空心板，钢筋混凝土空心板桥适用跨径不超过10 m，预应力混凝土空心板桥适用跨径不超过20 m。装配式板桥的构造分为一般构造、钢筋构造和连接构造。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.7"> [A2-2.7]</a><span id="idA2-2.7"> 装配式简支板桥按横截面形式分类，有实心板和空心板（<a href="#image2.2.3">图2-2-3</a>）两种形式。实心板桥的适用跨径不宜超过10m。空心板按配筋形式的不同，分为钢筋混凝土空心板和预应力混凝土空心板，钢筋混凝土空心板桥适用跨径不超过10 m，预应力混凝土空心板桥适用跨径不超过20 m。装配式板桥的构造分为一般构造、钢筋构造和连接构造。</span></p>
   
   <body>
 
@@ -41,14 +41,14 @@
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
- <div style="text-align:center;"><img id="image2.2.4" src="../_static/fig/2-2-4.jpg" alt="Picture"></div>
+ <div style="text-align:center;"><img id="image2.2.4" src="../_static/fig/2-2-4.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-4  企口式混凝土铰</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.4'));</script>
 
   </body>
 
  <p><a href="#id2.2.2.2"> 二、空心板桥</a> <span id="id2.2.2.2"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.8"> [A2.2.8]</a><span id="idA2.2.8"> 当跨径增大时，为减轻自重，并充分合理地利用材料，宜采用空心板截面。空心板是在板截面中开孔，挖空部分混凝土，主要开孔形式有矩形、圆形、圆端形、菱形等，如<a href="#image2.2.5">图2-2-5</a>所示。其中<a href="#image2.2.5">图2-2-5a）</a>和<a href="#image2.2.5">图2-2-5b）</a>为单孔，挖空率大，重量轻，但顶板需配置横向受力钢筋，以承担荷载的作用；<a href="#image2.2.5">图2-2-5c）</a>图为双圆孔，施工时可用无缝钢管（或充气囊）作芯模，但挖空率小，自重较大；<a href="#image2.2.5">图2-2-5d）</a>所示芯模则由两个半圆和两块侧模板组成，当板的厚度改变时，只需改变侧模板高度即可。空心板横截面的顶板和底板应有足够厚度，以保证施工质量和受力需要，《混规》（JTG 3362—2018）规定：空心板梁的顶板和底板厚度，均不应小于80 mm。空心板两端的空洞端部应予填封。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.8"> [A2-2.8]</a><span id="idA2-2.8"> 当跨径增大时，为减轻自重，并充分合理地利用材料，宜采用空心板截面。空心板是在板截面中开孔，挖空部分混凝土，主要开孔形式有矩形、圆形、圆端形、菱形等，如<a href="#image2.2.5">图2-2-5</a>所示。其中<a href="#image2.2.5">图2-2-5a）</a>和<a href="#image2.2.5">图2-2-5b）</a>为单孔，挖空率大，重量轻，但顶板需配置横向受力钢筋，以承担荷载的作用；<a href="#image2.2.5">图2-2-5c）</a>图为双圆孔，施工时可用无缝钢管（或充气囊）作芯模，但挖空率小，自重较大；<a href="#image2.2.5">图2-2-5d）</a>所示芯模则由两个半圆和两块侧模板组成，当板的厚度改变时，只需改变侧模板高度即可。空心板横截面的顶板和底板应有足够厚度，以保证施工质量和受力需要，《混规》（JTG 3362—2018）规定：空心板梁的顶板和底板厚度，均不应小于80 mm。空心板两端的空洞端部应予填封。</span></p>
  <body>
 
  <style type="text/css">
@@ -91,7 +91,7 @@
  <ol style="text-align:justify;font-family:times new roman" start="2"> 
  <li>预应力混凝土空心板</li>
  </ol>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.9"> [A2.2.9]</a><span id="idA2.2.9"> 预应力混凝土空心板适用跨径为10～20 m；厚度一般取跨径的1/17～1/23，随跨径增大取用较小值；板宽应根据桥面设计宽度要求确定，每块板宽一般多为99～124 cm。预应力混凝土空心板按预应力钢筋张拉方式不同，分为后张法装配式预应力混凝土板（简称后张板）和先张法装配式预应力混凝土板（简称先张板），在钢筋构造、预应力钢筋锚固方式上两者是有区别的，从而导致截面构造上的不同。《公路桥涵标准设计》编制了后张板标准图（跨径为10 m、13 m、16 m和20 m）和先张板标准图（跨径为10 m、13 m和1 6m），同样，在设计中，若设计跨径与标准图一致，可直接采用，无需专门设计。否则，需专门进行预应力混凝土空心板设计。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.9"> [A2-2.9]</a><span id="idA2-2.9"> 预应力混凝土空心板适用跨径为10～20 m；厚度一般取跨径的1/17～1/23，随跨径增大取用较小值；板宽应根据桥面设计宽度要求确定，每块板宽一般多为99～124 cm。预应力混凝土空心板按预应力钢筋张拉方式不同，分为后张法装配式预应力混凝土板（简称后张板）和先张法装配式预应力混凝土板（简称先张板），在钢筋构造、预应力钢筋锚固方式上两者是有区别的，从而导致截面构造上的不同。《公路桥涵标准设计》编制了后张板标准图（跨径为10 m、13 m、16 m和20 m）和先张板标准图（跨径为10 m、13 m和1 6m），同样，在设计中，若设计跨径与标准图一致，可直接采用，无需专门设计。否则，需专门进行预应力混凝土空心板设计。</span></p>
  
  <p style="text-align:justify;font-family:times new roman">（1）一般构造<br>后张板与先张板在构造上仍应满足现行《混规》（JTG 3362）规定的要求。由于后张板需预埋预应力束管道，先张板不需预埋，且预埋管道外混凝土必须满足最小保护层厚度要求，因此，后张板两侧腹板及底板厚度均比先张板厚。由于预应力钢筋张拉与锚固的需要，后张板与先张板的预应力传力锚固方式不同，所以板端截面构造也不相同，如<a href="#image2.2.7">图2-2-7</a>和<a href="#image2.2.8">图2-2-8</a>所示。后张板与先张板预应力传力锚固方式可参照装配式预应力混凝土简支T梁相关部分。</p>
  <p style="text-align:justify;font-family:times new roman">（2）钢筋构造<br>①主钢筋：后张板一般采用<i>φ</i><sup>s</sup>15.2钢绞线；先张板可以采用<i>φ</i><sup>s</sup>15.2钢绞线，也可以采用高强钢丝或预应力螺纹钢筋。考虑到浇注混凝土时，振捣器可以顺利插入，当预应力束（或钢筋）分开布置时，钢束（筋）间的横向、竖向最小净距仍应满足现行《混规》（JTG 3362）规定的要求。<br>后张板预应力钢筋布置，根据板的受力特点，跨中布置在截面下缘，在支点附近逐渐向上弯起（<a href="#image2.2.7">图2-2-7</a>），并锚固在梁端。弯起形状可参照“结构设计原理”课程中学过的“束界”概念和预应力钢筋布置原则的要求。<br>先张板的预应力钢筋通常是在张拉台座上同时进行张拉的，因此，预应力束（筋）一般都是直线形，并布置在截面下缘。由于预应力钢筋在梁端支点附近无法向上弯起或分段张拉并截断，因此，根据计算需在梁端附近部分预应力钢筋上设置套管（<a href="#image2.2.8">图2-2-8</a>），使得在设置套管范围内的预应力钢筋放张后预加力为零。这样，保证施加给板的预加力从跨中至支点是分段作用的。</p>
@@ -114,7 +114,7 @@
 
   </body>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.10"> [A2.2.10]</a><span id="idA2.2.10"> <a href="#image2.2.8">图2-2-8</a>为标准跨径16 m的先张预应力混凝土简支空心板的钢筋构造图。设计荷载等级为公路-Ⅰ级。板高为85 cm，采用C50混凝土预制，底板设置<i>N</i><sub>1</sub>～<i>N</i><sub>3</sub>钢铰线，共14根<i>φ</i><sup>s</sup>15.2。为施工张拉方便，<i>N</i><sub>1</sub>～<i>N</i><sub>3</sub>钢绞线均通长设置。根据简支梁的受力特点，主梁弯矩由跨中向支点逐渐减小，因此，在设计中<i>N</i><sub>2</sub>、<i>N</i><sub>3</sub>号钢绞线需分段设置。为了满足设计要求并便于施工张拉，在施工中通常采用在<i>N</i><sub>2</sub>、<i>N</i><sub>3</sub>号钢绞线的端部计算长度范围内设置套管的方法，使该长度范围内的钢绞线不与主梁混凝土黏结。当预应力放张后，<i>N</i><sub>2</sub>、<i>N</i><sub>3</sub>号钢绞线在该长度范围内不对主梁施加预应力，通常把这段预应力钢筋称作预应力失效段，如<a href="#image2.2.8">图2-2-8</a>所示。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.10"> [A2-2.10]</a><span id="idA2-2.10"> <a href="#image2.2.8">图2-2-8</a>为标准跨径16 m的先张预应力混凝土简支空心板的钢筋构造图。设计荷载等级为公路-Ⅰ级。板高为85 cm，采用C50混凝土预制，底板设置<i>N</i><sub>1</sub>～<i>N</i><sub>3</sub>钢铰线，共14根<i>φ</i><sup>s</sup>15.2。为施工张拉方便，<i>N</i><sub>1</sub>～<i>N</i><sub>3</sub>钢绞线均通长设置。根据简支梁的受力特点，主梁弯矩由跨中向支点逐渐减小，因此，在设计中<i>N</i><sub>2</sub>、<i>N</i><sub>3</sub>号钢绞线需分段设置。为了满足设计要求并便于施工张拉，在施工中通常采用在<i>N</i><sub>2</sub>、<i>N</i><sub>3</sub>号钢绞线的端部计算长度范围内设置套管的方法，使该长度范围内的钢绞线不与主梁混凝土黏结。当预应力放张后，<i>N</i><sub>2</sub>、<i>N</i><sub>3</sub>号钢绞线在该长度范围内不对主梁施加预应力，通常把这段预应力钢筋称作预应力失效段，如<a href="#image2.2.8">图2-2-8</a>所示。</span></p>
 
 
 
@@ -139,11 +139,11 @@
  
  
  <p><a href="#id2.2.2.3"> 三、漫水桥</a> <span id="id2.2.2.3"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.11"> [A2.2.11]</a><span id="idA2.2.11">在河床宽浅、洪水历时很短的季节性河流上，修建漫水桥是经济合理的。漫水桥除了要满足与高水位桥同等的承载能力外，还应尽量做到阻水面积小，结构的整体性和横向稳定性大,不致被水冲毁。因此，设计漫水桥应注意以下几点：</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.11"> [A2-2.11]</a><span id="idA2-2.11">在河床宽浅、洪水历时很短的季节性河流上，修建漫水桥是经济合理的。漫水桥除了要满足与高水位桥同等的承载能力外，还应尽量做到阻水面积小，结构的整体性和横向稳定性大,不致被水冲毁。因此，设计漫水桥应注意以下几点：</span></p>
 
  <p style="text-align:justify;font-family:times new roman">（1）板的上、下游边缘宜设计成圆端形，以利水流顺畅通过（<a href="#image2.2.9">图2-2-9</a>）。</p>
  <p style="text-align:justify;font-family:times new roman">（2）必须设置与主钢筋相同直径的栓钉与墩台锚固，以防桥梁被水流冲毁。</p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.12"> [A2.2.12]</a><span id="idA2.2.12"> 漫水桥不设抬高的人行道和缘石，而在桥面净宽以外设置目标柱或活动栏杆，目标柱的间距一般取8～15 m。为增加行车宽度，也可将目标柱埋置在桥墩顶部。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.12"> [A2-2.12]</a><span id="idA2-2.12"> 漫水桥不设抬高的人行道和缘石，而在桥面净宽以外设置目标柱或活动栏杆，目标柱的间距一般取8～15 m。为增加行车宽度，也可将目标柱埋置在桥墩顶部。</span></p>
  
   <body>
 
@@ -161,7 +161,7 @@
 
   </body>
  <p><a href="#id2.2.2.4"> 四、通用设计板桥</a> <span id="id2.2.2.4"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.2.13"> [A2.2.13]</a><span id="idA2.2.13"> 公路桥梁通用设计图共有《装配式钢筋混凝土简支板桥上部构造》《装配式先张法预应力混凝土简支空心板桥上部构造》《装配式后张法预应力混凝土简支空心板桥上部构造》三套，主要参数如<a href="#B2.2.1">表2-2-1</a>所示。在实际工程设计中，若设计跨径与通用设计图一致，则可直接采用。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.13"> [A2-2.13]</a><span id="idA2-2.13"> 公路桥梁通用设计图共有《装配式钢筋混凝土简支板桥上部构造》《装配式先张法预应力混凝土简支空心板桥上部构造》《装配式后张法预应力混凝土简支空心板桥上部构造》三套，主要参数如<a href="#B2.2.1">表2-2-1</a>所示。在实际工程设计中，若设计跨径与通用设计图一致，则可直接采用。</span></p>
 
      <style>
       #biaoge {

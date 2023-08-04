@@ -16,12 +16,386 @@
 
 .. raw:: html
  
- <p style="text-align:justify"><a href="#idA2.1"> [A2.1]</a><span id="idA2.1"> 简支梁桥构造包括一般构造、钢筋构造和横向连接构造，本章将按T梁、箱形梁和组合梁三种截面形式，介绍简支梁桥的构造类型、设计方法。一般构造设计是依据现行《混规》（JTG 3362）规定，并参考已建成桥梁，拟定结构各细部尺寸。钢筋构造设计是依据现行《混规》（JTG 3362）计算公式，结合“结构设计原理”课程介绍过的相关知识，对设计构件进行截面配筋设计。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.1"> [A2-3.1]</a><span id="idA2-3.1"> 简支梁桥构造包括一般构造、钢筋构造和横向连接构造，本章将按T梁、箱形梁和组合梁三种截面形式，介绍简支梁桥的构造类型、设计方法。一般构造设计是依据现行《混规》（JTG 3362）规定，并参考已建成桥梁，拟定结构各细部尺寸。钢筋构造设计是依据现行《混规》（JTG 3362）计算公式，结合“结构设计原理”课程介绍过的相关知识，对设计构件进行截面配筋设计。</span></p>
  
  <h3 id="test111">第一节   T梁桥</h3>
- <p style="text-align:justify"><a href="#idA2.1"> [A2.1]</a><span id="idA2.1"> T梁桥（图2-3-1）的上部结构由主梁、横隔梁（板）、桥面结构等部分组成。主梁是桥梁的主要承重结构，由梁肋和翼板组成。主梁的翼板既是主梁的一部分，又联合构成桥面板，承受汽车和人群荷载的作用。横隔梁分为中（跨间）横隔梁和端（跨端）横隔梁，作用是保证各根主梁相互联结成整体，共同承受荷载。桥面结构包括桥面铺装、防水层、人行道、栏杆等。</span></p>
- <p><a href="#id2.3.1.1"> 一、装配式梁桥的主梁块件划分</a> <span id="id2.3.1.1"> </span></p>
- <p><a href="#id2.3.1.2"> 二、钢筋混凝土T梁桥</a> <span id="id2.3.1.2"> </span></p>
- <p><a href="#id2.3.1.3"> 三、预应力混凝土T梁桥</a> <span id="id2.3.1.3"> </span></p> 
- <p><a href="#id2.3.1.4"> 四、通用设计T梁桥</a> <span id="id2.3.1.4"> </span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.2"> [A2-3.2]</a><span id="idA2-3.2"> T梁桥（<a href="#image2.3.1">图2-3-1</a>）的上部结构由主梁、横隔梁（板）、桥面结构等部分组成。主梁是桥梁的主要承重结构，由梁肋和翼板组成。主梁的翼板既是主梁的一部分，又联合构成桥面板，承受汽车和人群荷载的作用。横隔梁分为中（跨间）横隔梁和端（跨端）横隔梁，作用是保证各根主梁相互联结成整体，共同承受荷载。桥面结构包括桥面铺装、防水层、人行道、栏杆等。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.3"> [A2-3.3]</a><span id="idA2-3.3"> T梁受力明确，充分利用了混凝土抗压和钢筋抗拉的特征，施工较方便，是中、小跨径梁桥中应用最广泛的桥型。T梁桥按施工方法分为整体式和装配式。整体式T梁的桥跨结构整体性好，但模板使用较多，支架现浇施工时，工期长；预制架设施工时，起吊重量较大等。装配式T梁是将桥跨结构按照不同方式划分成若干条（或块）进行预制，架设安装时再将这些条（或块）架设拼装成整体的桥梁结构形式，可形成工厂化、标准化施工，施工质量易保障。目前在新建桥梁设计中装配式T梁已逐渐取代整体式，因此，本节将重点介绍装配式T梁桥。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.4"> [A2-3.4]</a><span id="idA2-3.4"> 装配式T梁桥按配筋形式的不同分为钢筋混凝土T梁[<a href="#image2.3.2">图2-3-2a)</a>]和预应力混凝土T梁[<a href="#image2.3.1">图2-3-2b)</a>]，钢筋混凝土T梁的常用跨径为10～16 m，预应力混凝土T梁的常用跨径为20～50 m。</span></p>
 
+  <body>
+
+ <style type="text/css">
+      #image2.3.1{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.1" src="./_static/fig/2-3-1.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-1  装配式简支T梁桥概貌</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.1'));</script>
+
+  </body>
+   <body>
+
+ <style type="text/css">
+      #image2.3.2{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.2" src="./_static/fig/2-3-2.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-2  装配式T梁桥横截面（仅示1/2）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.2'));</script>
+
+  </body>
+
+ <p><a href="#id2.3.1.1"> 一、装配式梁桥的主梁块件划分</a> <span id="id2.3.1.1"> </span></p>
+ <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>划分原则</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.5"> [A2-3.5]</a><span id="idA2-3.5"> 装配式梁桥的快件划分方式直接影响结构受力，构件预制、运输和安装以及拼装接头的施工等许多因素的问题，而且这些因素往往又彼此影响、相互矛盾。例如，加大安装构件的尺寸以减小接头数量和增强结构的整体性，就会要求很大的运输、起重能力；为了减小构件的重量，就会增加构件和接头的数目，或增加现浇混凝土的工序等。同时，构件的划分方式也与所选用的横截面形式紧密相关。因此，在设计装配式桥梁时，必须综合考虑施工中的各种具体条件，通过技术经济上的比较分析，才能获得完善的结果。通常在装配式桥梁设计中，块件划分应遵循以下原则：</span></p>
+ <p style="text-align:justify;font-family:times new roman"> ①根据建桥现场实际可能的预制、运输和起重条件，确定拼装单元的最大尺寸和重量；<br>②快件的划分应满足受力要求，拼装接头应尽量设置在内力较小处；<br>③拼装接头的数量少，接头形式牢固可靠，施工方便；<br>④构件便于预制、运输和安装；<br>⑤构件的形状和尺寸应力求标准化，增强互换性，构件的种类应尽量减少。</p>
+
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>划分方式</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.6"> [A2-3.6]</a><span id="idA2-3.6"> （1）钢筋混凝土梁<br>钢筋混凝土常用的划分方式有纵桥向竖缝划分和纵桥向水平缝划分。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> ①纵桥向竖缝划分<br> <a href="#image2.3.2">图2-3-2</a>所示均为纵向竖缝划分块件的横截面图式。这种划分方式在简支梁桥中应用最为普遍，我国编制的装配式钢筋混凝土和预应力混凝土T形简支梁桥的标准设计图都采用这种块件划分方式。在这种结构中，作为主要承重构件的各根主梁，包括相应行车道板都是整体预制的，接头和接缝仅布置在次要构件——横隔梁和行车道板内，或直接用螺栓连接。而且结构部分全为预制拼装，不需要现浇混凝土，故这种方法使主梁受力可靠，施工也方便。</p>
+ <p style="text-align:justify;font-family:times new roman"> ②纵桥向水平缝划分<br> 为了进一步减小拼装构件的起吊重量和尺寸，便于集中预制和运输吊装，还可以用纵向水平缝将桥梁的全部梁肋与桥面板分割开来，再借助纵横向的竖缝将桥面板划分成平面呈矩形的预制构件。施工时先架设梁肋，再安装预制板，最后在接缝内或连同在板上现浇一部分混凝土使结构连成整体。这样的装配式梁桥通常称为组合式梁桥，如<a href="#image2.3.3">图2-3-3</a>所示。</p>
+ 
+    <body>
+
+ <style type="text/css">
+      #image2.3.3{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.3" src="./_static/fig/2-3-3.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-3  装配式T梁桥横截面（仅示1/2）——改图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.3'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.7"> [A2-3.7]</a><span id="idA2-3.7"> （2）预应力混凝土梁桥<br>预应力混凝土常用的划分方式有纵桥向竖缝划分、纵桥向水平缝划分以及纵、横桥向竖缝划分。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> </p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.8"> [A2-3.8]</a><span id="idA2-3.8"> 如果使装配式梁的预制块件进一步减小尺寸和重量，尚可将用纵向竖缝划分的主梁再通过横向竖缝划分成较小的梁段。<a href="#image2.3.4">图2-3-4</a>所示为这种横向分段装配式T梁的纵、横截面图。显然，对于这样的预制梁段，由于没有钢筋穿过接缝，就必须在安装对位后串连以预应力钢筋施加预压力才能保证接缝具有足够的连接强度，使梁整体受力。因此，横向分段预制的装配式梁也称串连梁。这种梁的优点是块件尺寸小，重量小，可以工厂化成批预制后方便地运至远近工地，但施工精度要求较高。</span></p>
+
+   <body>
+
+ <style type="text/css">
+      #image2.3.4{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.4" src="./_static/fig/2-3-4.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-4  横向竖缝分段装配式梁</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.4'));</script>
+
+  </body>
+
+     <body>
+
+ <style type="text/css">
+      #image2.3.5{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.5" src="./_static/fig/2-3-5.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-5  横向竖缝分段装配式梁的截面形式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.5'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.3.1.2"> 二、钢筋混凝土T梁桥</a> <span id="id2.3.1.2"> </span></p>
+ 
+ <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>一般构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.9"> [A2-3.9]</a><span id="idA2-3.9"> 钢筋混凝土T梁的主梁是由梁肋和两侧翼板组成，每片T梁通过横隔梁连接成整体。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> （1）主梁梁肋<br>梁肋厚度：为满足抗剪要求不宜设计得太厚，同时又要满足屈曲稳定要求而不宜设计得太薄，一般为15～20 cm。<br>高跨比：H∶L=1/11～1/16 。<br>主梁间距：主梁间距由结构受力特性和施工吊装能力、集整精度而定，一般为1.5～2.2 m，标准设计图为1.6 m。根据T梁的受力特点，间距若太大，两翼板接缝处的下挠变形较大，宜导致纵向开裂，并且施工吊装重量亦随之加大；若间距太小，划分的块数就多，要求的施工精度就高，施工难度加大。当主梁间距较小时，梁肋一般设计成全长等厚度；主梁间距较大时，距主梁端部2.0～5.0 m范围内梁肋可逐渐加宽（<a href="#image2.3.6">图2-3-6</a>），以满足抗剪和安放支座要求。 </p>
+ <p style="text-align:justify;font-family:times new roman"> （2）翼板<br>宽度：按主梁横向连接方式的不同采用不同宽度。<br> 湿接缝连接：B（翼板宽）＝B<sub>0</sub>（主梁间距）－湿接缝宽度。目前大多采用这种形式。<br>非湿接缝连接：B（翼板宽）＝B<sub>0</sub>（主梁间距）－2 cm。减2 cm是为了调整施工制作误差，便于安装。<br>厚度：根据其受力特点，根部大，端部小。一般根部<i>h</i><sub>1</sub>≥H/12，端部<i>h</i><sub>2</sub>不小于10 cm。</p>
+ <p style="text-align:justify;font-family:times new roman"> （3）横隔梁<br>装配式T梁桥设置横隔梁的目的有两点：设置端横隔梁是为了有利于制造、运输、安装阶段构件的稳定性，加强全桥的整体性；设置中横隔梁是为了使荷载横向分布较均匀，减轻翼板接缝处的纵向开裂现象。<br>间距：端横隔梁必须设置，中横隔梁全跨内为1～3道，一般为5～6 m一道，设置在跨中、四分点等。<br>厚度：一般为15～20 cm。<br>高度：端横隔梁一般与主梁同高；中横隔梁一般为3H/4左右。</p>
+ 
+    <body>
+
+ <style type="text/css">
+      #image2.3.6{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.6" src="./_static/fig/2-3-6.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">a）立面；b）梁底平面；c）1/2跨中横截面<br>图2-3-6  装配式钢筋混凝土T梁桥一般构造示例（尺寸单位：cm）——删除尺寸</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.6'));</script>
+
+  </body>
+
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>钢筋构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.11"> [A2-3.11]</a><span id="idA2-3.11"> （1）主梁钢筋的种类<br>梁肋——纵向受力主筋、架立钢筋、斜钢筋、箍筋、分布钢筋等。<br>翼板——横向受力主筋、纵向分布筋等。<br>各类钢筋的作用与构造已在“结构设计原理”课程中详细介绍，具体设计应符合现行《混规》（JTG 3362）的规定，这里不再详述。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.12"> [A2-3.12]</a><span id="idA2-3.12"> （2）保护层厚度<br>为了防止钢筋受到大气影响而锈蚀，并保证钢筋与混凝土之间的黏结力，钢筋到混凝土边缘需要设置保护层。若保护层厚度太小，就不能起到上述作用；太大则混凝土表层因距钢筋太远容易破坏，且减小了钢筋混凝土截面的有效高度。因此，在Ⅰ类环境环境条件下，主筋与梁底面的净距应不小于3 cm，不大于5 cm。主筋与梁侧面的净距应不小于2.5 cm。混凝土表面至箍筋或防裂分布钢筋间的净距应不少于1.5 cm。<br>其他要求包括钢筋焊缝长度、锚固长度、局部承压钢筋等。</span></p>
+ 
+  <ol style="text-align:justify;font-family:times new roman" start="3">
+ <li>连接构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.13"> [A2-3.13]</a><span id="idA2-3.13"> （1）一般构造<br>在设有端横隔梁和中横隔梁的装配式T梁桥中，均借助横隔梁使桥跨结构的主梁通过连接构造形成整体，连接处应有足够的强度和刚度，以保证结构的整体性，并且在运营过程中不致因荷载反复作用和冲击作用而发生松动。主要连接方式有焊接钢板连接[<a href="#image2.3.7">图2-3-7a）</a>]、螺栓连接[<a href="#image2.3.7">图2-3-7b）</a>]、扣环连接[<a href="#image2.3.7">图2-3-7c）</a>]、现浇湿接缝连接[<a href="#image2.3.7">图2-3-7d）</a>]和企口铰接连接[<a href="#image2.3.7">图2-3-7d）</a>]。<br>在以往设计中，横隔梁大多采用焊接钢板连接或螺栓连接的方式，但在长期运营中发现，横隔梁连接处受拉应力和剪应力的共同作用而产生疲劳破坏，使横隔梁所起到的整体作用丧失，导致T梁单梁受力，从而使T梁梁肋在跨中附近产生竖向裂缝、支点附近产生斜向裂缝，T梁翼板破坏较严重，同时桥面铺装也出现较为严重的破损。因此，目前设计的装配式T梁已采用现浇混凝土湿接缝的连接方式。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.3.7{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.7" src="./_static/fig/2-3-7.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-7  接头形式（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.7'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.14"> [A2-3.14]</a><span id="idA2-3.14"> （2）钢筋构造<br>钢筋混凝土T梁采用现浇湿接缝连接翼板时的钢筋构造如<a href="#image2.3.8">图2-3-8</a>所示，采用<i>N</i><sub>3</sub>环形钢筋与相邻主梁翼板伸出的<i>N</i><sub>1</sub>、<i>N</i><sub>2</sub>钢筋绑扎，中间设置<i>N</i><sub>5</sub>纵筋，钢筋绑扎前完毕后，现浇湿接缝混凝土。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.3.8{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.8" src="./_static/fig/2-3-8.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-8  装配式钢筋混凝土T梁翼板连接钢筋构造示例<br>（尺寸单位：cm；钢筋直径：mm）——补图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.8'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.15"> [A2-3.15]</a><span id="idA2-3.15"> 钢筋混凝土T梁横隔梁需设置受力钢筋和构造钢筋。<a href="#image2.3.9">图2-3-9</a>为标准跨径13 m的钢筋混凝土T梁横隔梁钢筋构造图。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.3.9{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.9" src="./_static/fig/2-3-9.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-9  装配式钢筋混凝土T梁横隔梁钢筋构造示例（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.9'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.3.1.3"> 三、预应力混凝土T梁桥</a> <span id="id2.3.1.3"> </span></p> 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.16"> [A2-3.16]</a><span id="idA2-3.16"> 预应力混凝土T梁也是由梁肋和翼板组成，每片T梁通过横隔梁连接成整体。由“结构设计原理”课程可知，预应力混凝土T梁按预应力钢筋张拉方式不同，分为装配式后张法预应力混凝土T梁（简称后张梁）和装配式先张法预应力混凝土T梁（简称先张梁），在钢筋构造上两者是有区别的。由于预应力钢筋的设置与张拉，使得预应力混凝土T梁和钢筋混凝土T梁在外形上有差别。为了使预应力钢筋能布置得下和满足承受很大预压力的需要，预应力混凝土T梁梁肋下部需设置马蹄；为了配合预应力钢筋由跨中向梁端的弯起，在梁端附近，马蹄的高度需随预应力弯起钢筋的形状逐渐加高（<a href="#image2.3.10">图2-3-10</a>）或马蹄高度不变而逐渐加大梁肋宽度（<a href="#image2.3.11">图2-3-11</a>），以满足预应力钢筋保护层的需要；后张梁为了在梁端布置锚具和安放张拉千斤顶的需要，在梁端约一倍梁高范围内，梁肋需加宽至与马蹄同宽。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.3.10{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.10" src="./_static/fig/2-3-10.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-10  装配式预应力混凝土T梁桥马蹄加高示例（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.10'));</script>
+
+  </body>
+
+   <body>
+
+ <style type="text/css">
+      #image2.3.11{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.11" src="./_static/fig/2-3-11.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-11  装配式预应力混凝土T梁桥梁肋加宽示例（尺寸单位：mm）    尺寸单位cm</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.11'));</script>
+
+  </body>
+ 
+  <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>一般构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.17"> [A2-3.17]</a><span id="idA2-3.17"> （1）梁肋<br>梁肋厚度：跨径中部约16cm，且≥H/15，两端与马蹄同宽。<br>高跨比：H∶L=1/15～1/20。<br>主梁间距B<sub>0</sub>：对于跨径较大的预应力混凝土T梁，宜加大主梁间距，减少主梁片数更为经济合理，当吊装重量允许时，主梁间距采用1.80～2.50 m为宜。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.18"> [A2-3.18]</a><span id="idA2-3.18"> （2）翼板<br>宽度：按主梁横向连接方式的不同采用不同宽度。<br> 湿接缝连接：B（翼板宽）＝B<sub>0</sub>（主梁间距）－湿接缝宽度。目前大多采用这种形式。<br>非湿接缝连接：B（翼板宽）＝B<sub>0</sub>（主梁间距）－2 cm。减2 cm是为了调整施工制作误差，便于安装。<br>厚度：根据其受力特点，根部大，端部小。一般根部<i>h</i><sub>1</sub>≥H/12，端部<i>h</i><sub>2</sub>不小于10 cm。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.19"> [A2-3.19]</a><span id="idA2-3.19"> （3）横隔梁<br>间距：由于预应力混凝土简支T梁比钢筋混凝土简支T梁跨径大，从而使得梁高和梁间距增大，横隔梁的尺寸将随之增大。为了减小吊装重量，可将横隔梁中间挖空[<a href="#image2.3.2">图2-3-2b）</a>]；若采用现浇湿接缝形式，为便于现浇，则不需挖空[<a href="#image2.3.2">图2-3-2c）</a>]。端横隔梁必须设，中横隔梁一般为5～6m设一道。<br>厚度：一般为15～20cm，宜设计成上宽下窄，内宽外窄的楔形，以便于脱模。若采用湿接缝连接，则设计成等厚度。<br>高度：横隔梁底缘一般距梁底15cm左右，上端与翼板底面相接。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.20"> [A2-3.20]</a><span id="idA2-3.20"> （4）后张梁梁端构造<br>对于后张梁，为了保护锚固端不受外界的侵蚀，在梁端应设置封头混凝土（或称封锚混凝土），如<a href="#image2.3.12">图2-3-12</a>所示。</span></p>
+   <body>
+
+ <style type="text/css">
+      #image2.3.12{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.12" src="./_static/fig/2-3-12.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-12  后张法预应力混凝土T梁梁端构造示例（尺寸单位：cm） </p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.12'));</script>
+
+  </body>
+
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>钢筋构造</li>
+  </ol>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.21"> [A2-3.21]</a><span id="idA2-3.21"> （1）钢筋种类<br>梁肋——纵向预应力钢筋、架立钢筋、箍筋、分布钢筋、锚下局部承压钢筋等。<br>翼板——横向受力筋、纵向分布筋。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.22"> [A2-3.22]</a><span id="idA2-3.22"> （2）纵向预应力钢筋设置方式<br>简支梁纵向预应力的布置有直线布置、直线加曲线布置和曲线布置几种方式。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> ①直线布置多用于先张法预应力混凝土梁，预应力束全部锚固于梁端[<a href="#image2.3.13">图2-3-13a)</a>]。</p>
+ <p style="text-align:justify;font-family:times new roman"> ②直线加曲线布置中，有的梁采用将一部分直线通长预应力束锚固于梁端，另一部分分段预应力束锚固横隔梁 [<a href="#image2.3.13">图2-3-13b)</a>]；有的梁采用将直线和曲线通长预应力束全部锚固于梁端[<a href="#image2.3.13">图2-3-13c)</a>]；也有的梁将一部分直线和曲线通长预应力束锚固于梁端，另一部分分段预应力束锚固于梁顶 [<a href="#image2.3.13">图2-3-13d)</a>]。</p>
+ <p style="text-align:justify;font-family:times new roman"> ③曲线布置中，一部分曲线通长预应力束锚固于梁端，另一部分分段预应力束锚固于梁顶 [<a href="#image2.3.13">图2-3-13e)</a>]。</p>
+ <p style="text-align:justify;font-family:times new roman"> 预应力混凝土T梁预应力钢筋主要采用<a href="#image2.3.13">图2-3-13c)</a>所示的方式布置。</p>
+ 
+   <body>
+
+ <style type="text/css">
+      #image2.3.13{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.13" src="./_static/fig/2-3-13.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-13  简支梁纵向预应力钢筋设置方式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.13'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.23"> [A2-3.23]</a><span id="idA2-3.23"> （3）纵向预应力钢筋布置范围</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 参照“结构设计原理”课程的索界的概念，预应力混凝土简支梁中的纵向预应力钢筋应设置索界范围内，由跨中向梁端逐渐弯起，并应保证预应力钢筋的保护层厚度。</p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.24"> [A2-3.24]</a><span id="idA2-3.24"> （4）纵向预应力钢筋锚固</span></p>
+ <p style="text-align:justify;font-family:times new roman"> ①先张法锚固<br>先张梁是先张拉预应力钢筋，再浇筑梁体混凝土，待混凝土达到强度后，切断张紧的预应力钢筋。当张紧的预应力钢筋被切断时，梁体外端预应力钢筋恢复至原来直径而发生回缩，预应力钢筋内应力通过与混凝土之间的摩阻和黏结作用逐渐传递至混凝土，至传递长度<i>l</i><sub>e</sub>处，握裹力为零，混凝土承受全部预应力。所以，先张梁内预应力钢筋主要通过混凝土的握裹力锚固在梁体内。<br>为便于施工张拉纵向预应力钢筋，先张梁内纵向预应力钢筋通常采用<a href="#image2.3.12">图2-3-12a)</a>所示直线配束的方式设置，各根预应力钢筋等长并通长布置于梁截面下缘。根据简支梁的受力特点，跨中弯矩最大，并向支点截面逐渐减小，这样，预应力钢筋应分段设置，否则易导致支点附近截面上缘出现拉应力而开裂。为了满足受力要求并便于施工，在先张梁中仍然采用预应力失效段的方法，在预应力钢筋上加套管，参照预应力混凝土空心板钢筋构造<a href="https://qlgc.readthedocs.io/zh/latest/6/6.2.html#image2.2.8">图2-2-8</a>所示。</p> 
+ <p style="text-align:justify;font-family:times new roman"> ②后张法锚固<br>后张梁是先浇筑梁体混凝土，待混凝土达到强度后，再张拉预应力钢筋，并通过锚具锚固于梁端或梁顶。在后张法锚固构造中，锚具底部对混凝土作用着很大的压力<i>N</i>，而直接承压的面积不大，应力非常集中。所以，锚具在梁端应遵循“分散、均匀”的原则对称于横截面的竖轴布置，尽量减小局部应力，集中、过大的锚具不如分散、小型的有利。锚具之间应留有足够的净距，以保障张拉设备的安放，便于施工。为防止锚具附近混凝土裂缝，必须配置足够的钢筋予以加强。</p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.25"> [A2-3.25]</a><span id="idA2-3.25"> （5）后张梁梁端构造<br>对于后张梁，为了保护锚固端不受外界的侵蚀，在梁端应设置封头混凝土（或称封锚混凝土），如<a href="#image2.3.12">图2-3-12</a>所示。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> ①梁肋内的架立钢筋、箍筋、分布钢筋、锚下局部承压钢筋等的设计与钢筋混凝土T梁相同。</p> 
+ <p style="text-align:justify;font-family:times new roman"> ②翼板内横向受力筋和纵向分布筋的设计同钢筋混凝土T梁。</p> 
+ <p style="text-align:justify;font-family:times new roman"> ③在预应力混凝土简支梁中，为了补充局部梁段内强度的不足，或为了满足极限承载力的要求，或为了更好地分布裂缝和提高梁的韧性等，可配置一些普通钢筋。<a href="#image2.3.14">图2-3-14a）</a>表示预应力钢筋直线配束时，为了防止张拉阶段在梁端顶部可能开裂而布置的受拉钢筋。<a href="#image2.3.14">图2-3-14b）</a>表示预应力钢筋曲线配束时，对于自重所占总荷载比例较小的梁，为了防止张拉阶段在跨中部分梁的上翼缘可能开裂破坏而布置的纵向受力钢筋，这种钢筋在运营阶段还能加强混凝土的抗压能力，在破坏阶段则可提高梁的安全度。<a href="#image2.3.14">图2-3-14c）</a>表示预应力钢筋曲线配束，当全预应力混凝土梁预拉力较大时，为了加强混凝土承受预加力的能力而在跨中部分梁的下缘设置的受压钢筋。对于部分预应力混凝土梁往往利用通长布置在梁下缘的纵向钢筋来补充极限承载力的需要[<a href="#image2.3.14">图2-3-14d）</a>]。</p> 
+   <body>
+
+ <style type="text/css">
+      #image2.3.14{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.14" src="./_static/fig/2-3-14.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-14  预应力混凝土梁中普通钢筋设置方式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.14'));</script>
+
+  </body>
+
+ <ol style="text-align:justify;font-family:times new roman" start="3">
+ <li>连接构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.26"> [A2-3.26]</a><span id="idA2-3.26"> 装配式预应力混凝土T梁的横向连接构造与装配式钢筋混凝土T梁相同。但也可在横隔梁内预留孔道，采用横向预应力钢筋张拉可提升整体性[<a href="#image2.3.4">图2-3-4b）</a>]，这样的连接整体性好，但对梁的预制精度要求较高，施工稍复杂。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.3.1.4"> 四、通用设计T梁桥</a> <span id="id2.3.1.4"> </span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.27"> [A2-3.27]</a><span id="idA2-3.27"> 公路桥梁通用设计图《装配式预应力混凝土简支T梁桥上部构造》，共提供了20 m、25 m、30 m、35 m和40 m五个标准跨径，混凝土强度等级为C50；预应力主筋为<i>Φ</i><sup>s</sup>15.2钢绞线，均采用后张法施工；普通钢筋采用HRB400钢筋，其他构造参数见<a href="#B2.3.1">表2-3-1</a>。在进行桥梁结构设计时，尽量采用通用设计图，以提高设计工作效率。</span></p>
+ <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+              
+            }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+               
+            }
+      #eqzs {
+               border: 0px;
+            }
+      #dhbg {
+              vertical-align: middle;
+            }
+      </style>
+      
+      <table id="biaoge" style="font-family:times new roman">
+      
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.3.1">表2-3-1 装配式T梁主要截面尺寸   </b></caption>	
+                    
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">跨径(m)</td>
+      <td width="80px" align="center" id="dhbg" rowspan="2">结构体系</td>
+      <td align="center" id="dhbg" rowspan="2">梁高(cm)</td>
+      <td align="center" id="dhbg" colspan="3">翼板</td>
+      <td align="center" id="dhbg" colspan="2">梁肋</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">宽度(cm)</td>
+      <td align="center" id="dhbg">跨中根部厚度(cm)</td>
+      <td align="center" id="dhbg">端部厚度(cm)</td>
+      <td align="center" id="dhbg">宽度(cm)</td>
+      <td align="center" id="dhbg">马蹄底宽(cm)</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">20</td>
+      <td align="center" id="dhbg" rowspan="5">简支</td>
+      <td align="center" id="dhbg">150</td>
+      <td align="center" id="dhbg" rowspan="5">205~240</td>
+      <td align="center" id="dhbg" rowspan="5">25</td>
+      <td align="center" id="dhbg" rowspan="5">16</td>
+      <td align="center" id="dhbg" rowspan="5">20</td>
+      <td align="center" id="dhbg">44</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">25</td>
+      <td align="center" id="dhbg">170</td>
+      <td align="center" id="dhbg">48</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">30</td>
+      <td align="center" id="dhbg">200</td>
+      <td align="center" id="dhbg">50</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">35</td>
+      <td align="center" id="dhbg">230</td>
+      <td align="center" id="dhbg">60</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">40</td>
+      <td align="center" id="dhbg">250</td>
+      <td align="center" id="dhbg">60</td>
+      </tr>
+      </table>

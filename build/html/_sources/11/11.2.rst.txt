@@ -5,10 +5,10 @@
 
  <h3 id="test111"> 第二节  主要施工方法</h3>
  <p style="text-align:justify;font-family:times new roman"><a href="#idA2.100"> [A2.100]</a><span id="idA2.100">梁桥施工方法主要分为现浇法和预制安装法两大类。<br>现浇法又分为整体支架现浇法、移动模架逐孔浇筑法、悬臂浇筑法等。整体支架浇筑法适合于桥墩不髙且桥下地面情况适宜搭设支架的中小跨径混凝土梁桥，一般适用于整体式结构的施工；移动模架逐孔浇筑法适用于等截面连续梁桥施工；悬臂浇筑法适用于变截面连续梁桥施工。<br>预制安装法有预制装配法、简支转连续法、悬臂拼装法等。预制安装法适合于有预制梁场地（或工厂预制）、有运输和吊装设备的情况。预制装配法一般适用于装配式梁桥、先简支后连续梁桥，跨径不大、结构重量满足起吊条件的整跨中小桥施工也有采用预制架设施工方法；简支转连续法适用于先简支后连续梁桥；悬臂拼装法适用于等截面和变截面连续梁桥施工。<br>表2-7-1列出了连续梁桥常用施工方法及适用跨径，可供参考。</span></p>
- <p><a href="#id2.7.2.1">一、预制装配法</a> <span id="id2.7.2.1"> </span></p>
- <p><a href="#id2.7.2.2">二、简支转连续法</a> <span id="id2.7.2.2"> </span></p>
- <p><a href="#id2.7.2.3">三、整体支架浇筑法</a> <span id="id2.7.2.3"> </span></p>
- <p><a href="#id2.7.2.4">四、移动模架逐孔浇筑法</a> <span id="id2.7.2.4"> </span></p>
- <p><a href="#id2.7.2.4">五、悬臂施工法</a> <span id="id2.7.2.4"> </span></p> 
- <p><a href="#id2.7.2.4">六、顶推法</a> <span id="id2.7.2.4"> </span></p>  
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.7.2.1">一、预制装配法</a> <span id="id2.7.2.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.7.2.2">二、简支转连续法</a> <span id="id2.7.2.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.7.2.3">三、整体支架浇筑法</a> <span id="id2.7.2.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.7.2.4">四、移动模架逐孔浇筑法</a> <span id="id2.7.2.4"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.7.2.4">五、悬臂施工法</a> <span id="id2.7.2.4"> </span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.7.2.4">六、顶推法</a> <span id="id2.7.2.4"> </span></p>  
  

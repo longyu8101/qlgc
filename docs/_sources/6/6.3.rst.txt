@@ -6,4 +6,189 @@
  <h3 id="test111"> 第三节  斜交板桥</h3>
 
  <p><a href="#id2.2.3.1"> 一、整体式斜交板桥</a> <span id="id2.2.3.1"> </span></p>
+ <ol style="text-align:justify;font-family:times new roman" start="1"> 
+ <li>受力特点</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.14"> [A2-2.14]</a><span id="idA2-2.14"> 由于桥位处的地形限制，或由于路线线形的要求而将桥梁设计成斜交时，斜交板桥的桥轴线与支承线的垂线呈某一夹角，此角称作斜交角<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>（<a href="#image2.2.10">图2-2-10</a>）。斜板桥的受力状态是很复杂的，迄今尚无力学经典解答，多借助计算机以求得数值解。为了对斜板桥的受力性能有个定性的了解，以便从构造上予以保证，这里只作简单介绍。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.2.10{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.10" src="../_static/fig/2-2-10.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-10  主动土压力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.10'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.15"> [A2-2.15]</a><span id="idA2-2.15"> 斜板桥的受力与正交板桥相比，有其特别之处。理论与试验表明，斜板在垂直荷载作用下，一般具有下列特性：</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> （1）荷载有向两支承边之间最短距离方向传递的趋势。<br>如<a href="#image2.2.10">图2-2-10b)</a>所示，在较宽的斜板中部，其最大主弯矩方向（即在垂直于该方向的截面上没有扭矩）几乎接近与支承边正交。其次，无论对宽的或者窄的斜板[<a href="#image2.2.10">图2-2-10a)</a>]，其两侧的主弯矩方向虽接近平行于自由边，但仍有向支承边垂线方向偏转的趋势。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）各角点受力情况可以用比拟连续梁的工作来描述。<br>如<a href="#image2.2.11">图2-2-11</a>所示，在斜板的“Z”形条带<i>A</i>—<i>B</i>—<i>C</i>—<i>D</i>上各点的受力情况可以用三跨连续梁来比拟，在钝角<i>B</i>、<i>C</i>处产生较大的负弯矩，其方向垂直于钝角的二等分线；同时在<i>B</i>、<i>C</i>点的反力也较大，锐角<i>A</i>、<i>D</i>点的反力较小，当斜交角与斜的跨宽比都较大时，锐角便有向上翘起的趋势。此时若固定锐角角点，势必导致板内有较大的扭矩。</p>
+  <body>
+
+ <style type="text/css">
+      #image2.2.11{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.11" src="../_static/fig/2-2-11.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-11  比拟连续梁</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.11'));</script>
+
+  </body>
+
+
+ <p style="text-align:justify;font-family:times new roman"> （3）在均布荷载作用下，当桥轴线方向的跨长相同时，斜板桥的最大跨内弯矩比正板桥要小，跨内纵向最大弯矩或最大应力的位置，随斜交角<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>的变大而自中央向钝角方向移动。<a href="#image2.2.12">图2-2-12</a>表示在满布均布荷载时，跨内最大弯矩位置沿板宽的变化曲线，由<a href="#image2.2.12">图2-2-12</a>可知，当斜交角<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>在15°以内时，可以近似地按正交板桥计算，因此现行《混规》（JTG 3362）做了相关规定。</p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.2.12{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.12" src="../_static/fig/2-2-12.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-12  弯矩随斜角的变化</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.12'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> （4）在上述同样情况下，斜板桥的跨中横向弯矩比正桥的要大，可以认为横向弯矩增大的量，相当于跨径方向弯矩减小的量。</p>
+
+ <ol style="text-align:justify;font-family:times new roman" start="2"> 
+ <li>钢筋构造</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.16"> [A2-2.16]</a><span id="idA2-2.16"> 整体式斜板桥钢筋布置如<a href="#image2.2.13">图2-2-13</a>所示。当斜交角（板的支座轴线的垂直线与桥纵轴线的夹角）不大于15°时，主筋可平行于桥纵轴线方向布置。当斜交角大于15°时，主筋宜垂直于板的支承轴线方向布置，此时，在板的自由边上下应各设一条不少于三根主钢筋的平行于自由边的钢筋带，并用箍筋箍牢。在钝角部位靠近板顶的上层，应布置垂直于钝角平分线的加强钢筋，在钝角部位靠近板底的下层，应布置平行于钝角平分线的加强钢筋，加强钢筋直径不宜小于12 mm，间距100～150 mm，布置于以钝角两侧1.0～1.5 m边长的扇形面积内。斜板的分布钢筋宜垂直于主钢筋方向设置，其直径和间距的要求与正交板相同。在斜板的支座附近宜增设平行于支承轴线的分布钢筋，或将分布钢筋向支座方向呈扇形分布，过渡到平行于支承轴线。</span></p>
+   <body>
+
+ <style type="text/css">
+      #image2.2.13{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.13" src="../_static/fig/2-2-13.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">1-顺桥纵轴线钢筋；2-与支承轴线正交钢筋；3-自由边钢筋带；<br>4-垂直于钝角平分线的顶层钝角钢筋；5-平行于钝角平分线的底层钝角钢筋<br>图2-2-13  整体式斜板桥钢筋布置</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.13'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.17"> [A2-2.17]</a><span id="idA2-2.17"> 在工程实践中，当跨径不大、桥面不宽时，为了简化设计，也有采用斜交正做的方法进行设计，如<a href="#image2.2.14">图2-2-14</a>所示。此时，斜交板桥的桥轴线与支承线垂直，其受力与正交板桥类似，可按正交板桥进行设计。但是行车道宽度的利用在桥面两侧多余出非行车部分的三角形面积较浪费。</span></p>
+
+   <body>
+
+ <style type="text/css">
+      #image2.2.14{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.14" src="../_static/fig/2-2-14.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-14  整体式斜交板桥斜交正做示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.14'));</script>
+
+  </body>
+
  <p><a href="#id2.2.3.2"> 二、装配式斜交板桥</a> <span id="id2.2.3.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.18"> [A2-2.18]</a><span id="idA2-2.18"> 装配式斜交板钢筋布置与正交板有所不同。装配式斜板桥的跨宽比（<i>l</i>/<i>b</i>）一般均大于1.3，主钢筋沿斜跨径方向配置，分布钢筋在两钝角点之间的范围内与主钢筋垂直；在靠近支承边附近，布置方向则与支承边平行（<a href="#image2.2.15">图2-2-15</a>）。</span></p>
+ 
+   <body>
+
+ <style type="text/css">
+      #image2.2.15{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.15" src="../_static/fig/2-2-15.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-15  装配式斜板钢筋构造示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.15'));</script>
+
+  </body>
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.19"> [A2-2.19]</a><span id="idA2-2.19"> 我国编制的装配式钢筋混凝土斜板桥上部构造标准图中，斜跨跨径分为3 m、4 m、5 m、6 m等4种；斜交角度分为25º、30º、35º、40º、45º、50º、55º、60º等 8 种；预制板在垂直于行车方向的宽度为99 cm；板厚为20～48 cm，因跨径和斜交角不同而异。板内钢筋布置方案大体分为以下两种：<br>第一方案:当斜交<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>=25º～35º时，纵向主钢筋沿斜跨方向布置，分布钢筋按平行于支承边方向布置[<a href="#image2.2.16">图2-2-16a)</a>]。<br>第二方案:当斜交<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>=40º～60º时，纵向主钢筋及横向分布钢筋的布置，原则上与图<a href="#image2.2.14">图2-2-14</a>相同[<a href="#image2.2.13">图2-2-16b)</a>]。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.20"> [A2-2.20]</a><span id="idA2-2.20"> 此外，在各种块件的两端还要布置一些加强钢筋。当<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>=40º～50º时，要布置底层加强钢筋，其方向则与支承边相垂直[<a href="#image2.2.16">图2-2-16c)</a>]；当<math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> &#x03C6; <!-- greek small letter phi --> </mi> </math>=55º～60º时，除了底层要布置垂直于支承边的加强钢筋外，在顶层还要布置与钝角二等分线相垂直的加强钢筋[<a href="#image2.2.16">图2-2-16d)</a>]。为了使铰接斜板支承处不翘扭以及防止发生位移，在板端部中心处预留锚栓孔，待安装完毕后，用栓钉固定。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.2.16{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.16" src="../_static/fig/2-2-16.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-16  装配式钢筋混凝土实心斜板钢筋构造（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.16'));</script>
+
+  </body>
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.21"> [A2-2.21]</a><span id="idA2-2.21"> <a href="#image2.2.17">图2-2-17</a>为标准跨径8 m、斜交角30°时的装配式钢筋混凝土斜空心板的中板顶层、底层钢筋布置，其余钢筋布置与<a href="https://qlgc.readthedocs.io/zh/latest/6/6.2.html#image2.2.6">图2-2-6</a>所示的正交板相同。</span></p>
+  <body>ml
+
+ <style type="text/css">
+      #image2.2.17{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.17" src="../_static/fig/2-2-17.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-17  装配式钢筋混凝土空心斜板钢筋构造（<i>L</i><sub>k</sub>=8 m，<i>α</i>=30°，尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.17'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.22"> [A2-2.22]</a><span id="idA2-2.22"> 在工程实践中，当斜交角度不大时，为简化设计，可采用斜交正做方法设计，如<a href="#image2.2.18">图2-2-18</a>所示。此时，装配式板桥每块板仍设计成矩形，在安装时每块板错开一个距离以形成斜桥，每块板的受力与正交板相同，可按正交板桥进行设计。</span></p>
+   <body>
+
+ <style type="text/css">
+      #image2.2.18{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.2.18" src="../_static/fig/2-2-18.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-2-18  装配式斜交板桥斜交正做示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.2.18'));</script>
+
+  </body>
+ 
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.23"> [A2-2.23][拓展小知识2-1] </a><span id="idA2-2.23">斜桥<br>公路斜交桥梁可以采用斜交正做方式设计，也可以采用斜交斜做方式设计，当采用斜交正做方式设计使得桥长增加显得不经济合理时，才采用斜交斜做方式设计。铁路斜交桥梁均采用斜交正做方式设计，无论斜交角度如何，均不采用斜交斜做方式设计。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.24"> [A2-2.24][学习提示]</a><span id="idA2-2.24"><br>板桥按施工方法分为整体式板桥和装配式板桥。整体式板桥一般桥宽与跨径相当，为双向受力构件，一般构造与钢筋构造按双向受力设计。装配式板桥的每片板表现为梁的受力特性，并考虑荷载横向分布影响，一般构造与钢筋构造按梁进行设计，同时还应进行连接构造设计。<br>斜交板桥构造与设计有两种方式：第一种按斜交正做设计，设计方法同正交板桥；第二种按斜交斜做设计，斜交板的受力可近似比拟成连续梁的受力，钝角将产生负弯矩，需配置加强钢筋，锐角处将产生上拔力，需采取构造措施防止钝角翘起等。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.25"> [A2-2.25][思考与练习]</a><span id="idA2-2.25"> </span></p>
+ <ol style="text-align:justify;font-family:times new roman">
+ <li>简述简支斜交板桥在垂直荷载作用下具有哪些特性。</li>
+ <li>斜交板桥在钢筋构造设计方面与正交板桥有何不同？</li>
+ <li>斜交斜做设计与斜交正做设计有何不同？</li>
+ <li>整体式板桥的受力、配筋特点是什么？什么情况下采用单层配筋，什么情况下采用双层配筋？</li>
+ <li>装配式板桥横向联结方式有哪些？</li>
+ </ol>
