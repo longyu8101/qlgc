@@ -6,8 +6,479 @@
 
  <h3 id="test111"> 第三节  组合梁桥</h3>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.40"> [A2-3.40]</a><span id="idA2.1-3.40"> 组合梁桥也是一种装配式的桥跨结构，通过纵向水平缝将桥梁的梁肋部分与桥面板（翼板）分隔，使单梁的整体截面变成板与肋的组合截面。施工时先架设梁肋，再安装预制板（有时采用微弯板以节省钢筋），最后在接缝内或连同板现浇一部分混凝土使结构连成整体（图2-3-17）。所以，组合梁是分阶段受力的，在梁肋架设后，所有随后安装的预制板和现浇桥面混凝土（甚至现浇横隔梁）的重量，连同梁肋本身的自重，都要由预制梁肋来承受。这与装配式T梁由主梁全截面来承受全部恒载不同，不带翼板的肋部的抗弯惯性矩比整体的T梁小得多（肋高较矮，中性轴下移，内力偶臂小，且受压混凝土不足），这就必然大大增加了梁肋承受全部结构恒载的负担，因此不但要加大梁肋的截面，而且要增加配筋。梁肋混凝土用量的增加又导致了不利地加大恒载。图2-3-18示出了装配式T梁与组合梁跨中截面永久作用 和可变作用 两阶段受力的应力图形比较。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.35"> [A2-3.35]</a><span id="idA2.1-3.35"> 组合梁桥也是一种装配式的桥跨结构，通过纵向水平缝将桥梁的梁肋部分与桥面板（翼板）分隔，使单梁的整体截面变成板与肋的组合截面。施工时先架设梁肋，再安装预制板（有时采用微弯板以节省钢筋），最后在接缝内或连同板现浇一部分混凝土使结构连成整体（<a href="#image2.3.17">图2-3-17</a>）。所以，组合梁是分阶段受力的，在梁肋架设后，所有随后安装的预制板和现浇桥面混凝土（甚至现浇横隔梁）的重量，连同梁肋本身的自重，都要由预制梁肋来承受。这与装配式T梁由主梁全截面来承受全部恒载不同，不带翼板的肋部的抗弯惯性矩比整体的T梁小得多（肋高较矮，中性轴下移，内力偶臂小，且受压混凝土不足），这就必然大大增加了梁肋承受全部结构恒载的负担，因此不但要加大梁肋的截面，而且要增加配筋。梁肋混凝土用量的增加又导致了不利地加大恒载。<a href="#image2.3.18">图2-3-18</a>示出了装配式T梁与组合梁跨中截面永久作用<i>M</i><sub>g</sub>和可变作用<i>M</i><sub>p</sub>两阶段受力的应力图形比较。</span></p>
   
+   <body>
+
+ <style type="text/css">
+      #image2.3.17{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.17" src="../_static/fig/2-3-17.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-17  装配式混凝土组合梁桥构造示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.17'));</script>
+
+  </body>
+
+    <body>
+
+ <style type="text/css">
+      #image2.3.18{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.18" src="../_static/fig/2-3-18.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-18  装配式T梁与组合I形梁的应力分布图式比较</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.18'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.36"> [A2-3.36]</a><span id="idA2.1-3.36"> 根据组合梁截面的板与肋所用材料分为混凝土组合梁和钢-混凝土组合梁。混凝土组合梁通过在接缝内或连同桥面预制板一同现浇混凝土使结构连成整体（<a href="#image2.3.17">图2-3-17</a>）；钢-混凝土组合梁是梁肋采用钢梁、桥面板采用钢筋混凝土板，两者通过剪力键（也称为连接件）相互结合在一起，共同参与结构受力（<a href="#image2.3.19">图2-3-19</a>）。</span></p>
+
+    <body>
+
+ <style type="text/css">
+      #image2.3.19{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.19" src="../_static/fig/2-3-19.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-19  装配式钢-混凝土组合梁桥构造示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.19'));</script>
+
+  </body>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.3.3.1"> 一、混凝土组合梁桥</a> <span id="id2.3.3.1"> </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.37"> [A2-3.37]</a><span id="idA2.1-3.37"> 混凝土组合梁桥通常是在预制的混凝土主梁等构件上架设桥面板、再后浇一部分混凝土形成组合梁受力构件。优点在于可以显著减轻预制构件的重量，便于集中预制和运输吊装。预制的混凝土主梁截面形式主要有两种：Ⅰ形梁和槽形梁。Ⅰ形梁与桥面板结合成组合T梁，槽形梁与桥面板结合成组合箱梁。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.38"> [A2-3.38]</a><span id="idA2.1-3.38"> 1. 组合T梁桥<br>组合T梁的预制混凝土Ⅰ形梁构造要求参照前述T梁梁肋的构造，桥面板采用现浇钢筋混凝土板，构造要求参照前述板梁的构造。<br>我国公路桥涵设计标准图分别编制了跨径20 m、30 m、40 m的后张法预应力混凝土Ⅰ形组合梁正（斜）交桥的标准图，其斜交角有0°、15°、30°、45°等几种。桥宽有净-11.5+2×0.5 m、净-9.75+2×0.5 m、净-9+2×1.5 m、净-9+2×1.0 m和净-7+2×1.0 m共五种，除净-11.5的主梁间距为2.5 m外，其他均为2.15 m。<br><a href="#image2.3.20">图2-3-20）</a>为标准跨径30 m、桥宽净-9+2×1.0 m的预应力混凝土Ⅰ形组合梁桥的一般构造图。梁高2.00 m，预制Ⅰ形梁梁高为1.80 m，采用C50混凝土。图中所有预制Ⅰ形梁的肋宽为180 mm，下翼缘宽度为540 mm，端部肋宽加厚至与下翼缘同宽。主梁间用50 mm厚的预制板作为现浇桥面板的底模，采用C50混凝土。现浇桥面板和现浇横隔梁均采用C30混凝土。</span></p>
+ 
+   </body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.36"> [A2-3.36]</a><span id="idA2.1-3.36"> 根据组合梁截面的板与肋所用材料分为混凝土组合梁和钢-混凝土组合梁。混凝土组合梁通过在接缝内或连同桥面预制板一同现浇混凝土使结构连成整体（<a href="#image2.3.17">图2-3-17</a>）；钢-混凝土组合梁是梁肋采用钢梁、桥面板采用钢筋混凝土板，两者通过剪力键（也称为连接件）相互结合在一起，共同参与结构受力（<a href="#image2.3.19">图2-3-19</a>）。</span></p>
+
+    <body>
+
+ <style type="text/css">
+      #image2.3.20{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.20" src="../_static/fig/2-3-20.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-20  装配式预应力混凝土Ⅰ形组合梁桥一般构造示例（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.20'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> <a href="#image2.3.21">图2-3-21</a>为标准跨径30 m的Ⅰ形梁预应力钢筋构造图。中梁配置6束7-<i>Φ</i><sub>s</sub>15.2钢绞线作为主筋，边梁则为6束6-<i>Φ</i><sub>s</sub>15.2，<i>Φ</i><sub>s</sub>15.2钢铰线的标准强度为1860 MPa。 </p>
+
+    <body>
+
+ <style type="text/css">
+      #image2.3.21{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.21" src="../_static/fig/2-3-21.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-21  装配式预应力混凝土Ⅰ形梁预应力钢筋构造示例（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.21'));</script>
+
+  </body>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.39"> [A2-3.39]</a><span id="idA2.1-3.39"> 2. 组合箱梁桥<br>组合箱梁的预制混凝土槽形梁构造要求参照前述T梁梁肋的构造，桥面板采用现浇钢筋混凝土板，构造要求参照前述板梁的构造。</span></p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.3.22{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.22" src="../_static/fig/2-3-22.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-22  装配式预应力混凝土组合箱梁桥一般构造示例（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.22'));</script>
+
+  </body>
+   <body>
+
+ <style type="text/css">
+      #image2.3.23{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.23" src="../_static/fig/2-3-23.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-23  装配式预应力混凝土槽形梁横截面构造示例（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.23'));</script>
+
+  </body>
+  
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.3.3.2"> 二、钢-混凝土组合梁桥</a> <span id="id2.3.3.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.40"> [A2-3.40]</a><span id="idA2.1-3.40"> 钢-混凝土组合梁桥是在钢结构梁桥和混凝土结构梁桥基础上发展起来的一种新型桥梁结构形式，通常梁肋等主要构件采用钢结构，桥面板或翼缘板采用混凝土结构，钢与混凝土之间采用抗剪连接件连成整体，使两种结构共同受力。两种材料组合在一起，可以避免各自的缺点，充分发挥两种材料的优势，形成强度高、刚度大、延性好的结构形式。与单纯混凝土梁相比，可以减小构件截面尺寸，减少结构自重，减轻地震作用。与单纯钢梁相比，可以减少用钢量，节省钢结构的涂装费用，减小钢桥噪声污染，增加结构的刚度、稳定性和整体性。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.41"> [A2-3.41]</a><span id="idA2.1-3.41"> 钢梁在组合梁中主要承受拉力。对于中小跨径的钢-混凝土组合梁桥，一般采用钢板焊接成I形（工字形）钢梁[<a href="#image2.3.24">图2-3-24a）</a>]，为了充分发挥钢材的作用，I形钢梁常采用下翼缘宽的非对称截面。对于跨径大的钢-混凝土组合梁桥，多采用闭口或开口钢箱梁的截面形式 [<a href="#image2.3.24">图2-3-24b）</a>]，故又称为箱形组合梁。箱形组合梁的抗扭刚度大，特别适合于曲线桥梁，且在顺桥方向大多设计成连续结构。</span></p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.3.24{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.24" src="../_static/fig/2-3-24.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-24  装配式简支钢-混凝土组合梁截面构造</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.24'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.42"> [A2-3.42]</a><span id="idA2.1-3.42"> 钢梁支承的钢筋混凝土桥面板，除了作为组合梁的上翼缘与钢梁共同承担纵向弯矩外，同时作为桥面板还要承担局部荷载引起的横桥方向的内力。桥面板通常采用现浇混凝土板和预制混凝土板两种形式，桥面板的底面可以设计成直线形和曲线形，如<a href="#image2.3.25">图2-3-25</a>所示。</span></p>
+    <body>
+
+ <style type="text/css">
+      #image2.3.25{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.25" src="../_static/fig/2-3-25.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-25  桥面板横截面构造</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.25'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.43"> [A2-3.43]</a><span id="idA2.1-3.43"> 设在钢梁上翼缘板顶面的剪力键是钢梁与混凝土桥面板共同工作的基础。剪力键的作用主要是承受钢梁和混凝土桥面板之间界面上的纵向剪力，抵抗两者之间的相对滑移。组合梁中采用的剪力键种类很多，我国现行《公路钢结构桥梁设计规范》（JTG D64）中采用焊钉剪力键、槽钢剪力键和开孔板连接件，如<a href="#image2.3.26">图2-3-26</a>所示，其中以焊钉剪力键应用最为广泛。</span></p>
+   <body>
+
+ <style type="text/css">
+      #image2.3.26{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.3.26" src="../_static/fig/2-3-26.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-3-26  剪力键构造</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.3.26'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.44"> [A2-3.44]</a><span id="idA2.1-3.44"> 钢-混凝土组合梁桥的构造与设计内容，在“钢桥”课程中介绍，这里不再详述。</span></p>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.3.3.3"> 三、混凝土梁桥相关规范规定</a> <span id="id2.3.3.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.45"> [A2-3.45]</a><span id="idA2.1-3.45">《混规》（JTG 3362—2018）对钢筋混凝土梁桥和预应力混凝土梁桥的一般构造、钢筋构造和连接构造均有相关规定，分别见<a href="#B2.3.2">表2-3-2</a>～<a href="#B2.3.6">表2-3-6</a>，在桥梁设计中应遵照执行。</span></p>
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+                 
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                  
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+         
+      <table id="biaoge" style="font-family:times new roman">
+         
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.3.2">表2-3-2 腹板厚度<i>t</i><sub>f</sub>和高度<i>h</i><sub>f</sub>(mm)   </b></caption>	
+                       
+      <tr>
+      <td width="300px" align="center" id="dhbg">梁型</td>
+      <td width="200px" align="center" id="dhbg">竖向预应力钢筋</td>
+      <td width="200px" align="center" id="dhbg"><i>t</i><sub>f</sub></td>
+      <td width="200px" align="center" id="dhbg">承托之间的<i>h</i><sub>f</sub></td>   
+      </tr>
+      <tr>
+      <td align="center" rowspan="2" id="dhbg">T形、I形和箱形梁</td>
+      <td align="center" id="dhbg">有</td>
+      <td align="center" rowspan="2" id="dhbg">≮160</td>
+      <td align="center" id="dhbg">≯20 <i>t</i><sub>f</sub></td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">无</td>
+      <td align="center" id="dhbg">≯15<i>t</i><sub>f</sub></td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" colspan="2">腹板变厚过渡段长</td>
+      <td align="center" id="dhbg" colspan="2">≮12腹板厚度变差</td>
+      </tr>
+      </table>
+      <br>
+      <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                    
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                     
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+            
+      <table id="biaoge" style="font-family:times new roman">
+            
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.3.3">表2-3-3 翼缘悬臂端厚度t<sub>0</sub>(mm)   </b></caption>	
+                          
+      <tr>
+      <td width="300px" align="center" id="dhbg">梁型</td>
+      <td width="200px" align="center" id="dhbg">预制连接</td>
+      <td width="200px" align="center" id="dhbg">整体现浇连接</td>
+      <td width="200px" align="center" id="dhbg">设有桥面横向预应力钢筋</td>   
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">T形梁</td>
+      <td align="center" id="dhbg">≮100</td>
+      <td align="center" id="dhbg">≮140</td>
+      <td align="center" id="dhbg"></td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">箱型梁</td>
+      <td align="center" id="dhbg">≮100</td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg">≮140</td>
+      </tr>
+      </table>
+      <br>
+      <style>
+      #biaoge {
+          border: 2px solid black;
+          border-collapse: collapse;
+          margin-bottom:1px;
+                       
+              }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                        
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+               
+      <table id="biaoge" style="font-family:times new roman">
+               
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.3.4">表2-3-4 翼缘根部厚度t<sub>1</sub>(mm)   </b></caption>	
+                             
+      <tr>
+      <td width="300px" align="center" id="dhbg">梁型</td>
+      <td width="300px" align="center" id="dhbg">t<sub>1</sub></td>
+      <td width="300px" align="center" id="dhbg">计入承托厚度</td>   
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">T形梁、I形梁</td>
+      <td align="center" id="dhbg">≮梁高的1/10</td>
+      <td align="center" id="dhbg">计入坡度≯1/3</td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">箱形梁顶板与腹板连接处</td>
+      <td align="center" id="dhbg" colspan="2">应设承托</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" >箱形梁底板与腹板连接处</td>
+      <td align="center" id="dhbg" colspan="2">应设倒角或承托</td>
+      </tr>
+      </table>
+      <br>
+      <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+                          
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                           
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                  
+      <table id="biaoge" style="font-family:times new roman">
+                  
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.3.5">表2-3-5 简支梁桥刚性连接横梁间距   </b></caption>	
+                                
+      <tr>
+      <td width="300px" align="center" id="dhbg">桥型</td>
+      <td width="300px" align="center" id="dhbg">端横隔梁</td>
+      <td width="300px" align="center" id="dhbg">跨间横隔梁</td>   
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">装配式T形梁桥、I形梁桥</td>
+      <td align="center" id="dhbg" rowspan="2">应设置</td>
+      <td align="center" id="dhbg">梁间横向为刚性连接时，间距≯10m</td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">装配式组合箱梁桥</td>
+      <td align="center" id="dhbg" colspan="2">更具结构的具体情况设置</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" >箱形截面梁桥</td>
+      <td align="center" id="dhbg" >应设置箱内端横隔板。<br>条件许可时，应设检查孔。</td>
+      <td align="center" id="dhbg" >弯桥内侧半径&lt;240m时<br>(1)钢筋混凝土梁:间距≯10m;<br>(2)预应力梁:经结果分析确定</td>
+      </tr>
+      </table>
+      <br>
+  
+      <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+                             
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                              
+             }
+      #eqzs {
+               border: 0px;
+                           }
+      #dhbg {
+               vertical-align: middle;
+            }
+      </style>
+                     
+      <table id="biaoge" style="font-family:times new roman">
+                     
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.3.6">表2-3-6 预应力混凝土梁构造钢筋规定(mm)   </b></caption>	
+                                   
+      <tr>
+      <td  align="center" id="dhbg" colspan="2">钢筋类别</td>
+      <td width="100px" align="center" id="dhbg">种类</td>
+      <td width="100px" align="center" id="dhbg">形式</td> 
+      <td width="200px" align="center" id="dhbg">直径</td>  
+      <td width="100px" align="center" id="dhbg">间距</td>
+      <td width="200px" align="center" id="dhbg">备注</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" colspan="2">竖向预应力钢筋</td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg">500~1000</td>
+      <td align="center" id="dhbg">若设置时</td>
+      </tr>  
+      <tr>
+      <td align="center" width="100px" id="dhbg" rowspan="2">腹板箍筋</td>
+      <td align="center" width="100px"id="dhbg">中部</td>
+      <td align="center" id="dhbg" rowspan="2">带肋钢筋</td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg">T形梁、I形梁:≮10;<br>箱型梁:≮12</td>
+      <td align="center" id="dhbg">≯200</td>
+      <td align="center" id="dhbg"></td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" >端部</td>
+      <td align="center" id="dhbg" rowspan="2">闭合式箍筋</td>
+      <td align="center" id="dhbg" ></td>
+      <td align="center" id="dhbg">≯120</td>
+      <td align="center" id="dhbg">自支座中心起长度<br>不小于梁高范围内</td>
+      </tr>
+      <tr><td align="center" id="dhbg" rowspan="2">马蹄钢筋</td>
+      <td align="center" id="dhbg">箍筋</td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg">≮8</td>
+      <td align="center" id="dhbg">≯200</td>
+      <td align="center" id="dhbg" rowspan="2">T形梁、I形梁下部马蹄</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">定位筋</td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg"></td>
+      <td align="center" id="dhbg">≮12</td>
+      <td align="center" id="dhbg"></td>
+      </tr>
+      </table>
+      <p></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.46"> [A2-3.46][拓展小知识2-1] 装配式T梁</a><span id="idA2.1-3.46"></span></p>
+ <p style="text-align:justify;font-family:times new roman"> 公路桥梁设计车道数除匝道桥外，一般都大于等于2车道，因此，桥面设计宽度大于等于7 m，桥跨结构采用装配式T梁时，一般为4～5片梁，当设计车道数增加时，桥面设计宽度增大，T梁的片数相应增多，即，由于桥面宽度的不同，公路装配式T梁片数为4～<i>n</i>片梁不等。<br>铁路桥梁将“一条行车道”称作“一条线路（2条钢轨）”，每条线路下设置2片T梁，如果是单线铁路，桥跨结构为2片T梁，如果是双线铁路，桥跨结构为4片T梁，如果是多线铁路（<i>n</i>条线路），桥跨结构为2<i>n</i>片T梁。<br>由于列车行驶在钢轨上，所以每条线路下的2片T梁翼板并不连接（公路T梁采用企口连接、现浇湿接缝连接等），但为了防止列车横向摇摆力导致T梁发生横移，采用粗钢筋连接T梁梁肋上相对应的加劲肋。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.47"> [A2-3.47][学习提示]</a><span id="idA2.1-3.47"> </span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）钢筋混凝土梁和预应力混凝土梁<br>钢筋混凝土梁构造：钢筋构造除满足受力要求外，还应满足构造要求，例如，钢筋最小间距要求，钢筋保护层要求等，这些构造要求规定可参阅现行《混规》（JTG 3362）条文说明。<br>预应力混凝土梁构造：简支梁跨中产生最大正弯矩、支点弯矩为零，为适应梁的弯矩变化需分段配置预应力束。先张梁是在张拉台座上张拉预应力筋和预制梁，因此，采用预应力筋失效段的方法实现分段配筋要求；后张梁是先预制梁再穿束张拉预应力筋，因此，采用预应力束由跨中向梁端逐渐弯起的方法实现分段配筋要求。</span></p>
+ <p style="text-align:justify;font-family:times new roman">（2）整体式梁和装配式梁<br>由于施工方法的不同，简支梁分为整体式的（大多采用现浇施工）和装配式的（采用预制装配施工）。整体式梁的构造包括一般构造和钢筋构造；装配式梁除了一般构造和钢筋构造外，还有连接构造，连接构造方式的不同，将导致梁间荷载传递的大小不同。<br>装配式梁的快件划分原则与方式除了考虑预制、运输和安装等因素外，更重要的是应满足受力要求，拼装接头应尽量设置在内力较小处。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-3.48"> [A2-3.48][思考与练习]</a><span id="idA2.1-3.48"></span></p>
+
+1. 混凝土梁桥如何分类？
+2. 装配式简支梁桥主要有哪几种截面形式？各有什么特点？
+3. 为什么装配式简支梁桥大跨径多采用T梁，小跨径采用实心（或空心）板梁，中等跨径采用小箱梁？
+4. 装配式简支梁桥常用的块件划分方式有哪几种？划分原则是什么？
+5. 装配式钢筋混凝土简支T梁为什么要设置横隔梁？
+6. 为什么装配式T梁的主梁间距不宜太大，也不宜太小？主梁梁肋不宜太厚，也不宜太薄？
+7. 在组合梁中，工字形梁肋为什么上部带宽头、下部设置马蹄？
+8. 绘制装配式组合T形梁与装配式T形梁的应力图，比较两者受力特点有何不同？
+9. 装配式梁桥横向联结有哪些方法？为什么《混规》（JTG 3362—2018）规定：宜采用现浇混凝土整体连接（现浇湿接缝连接）？
+10. 观察公路装配式T梁与铁路T梁在构造上（一般构造，钢筋构造，横向连接构造等）的区别，分析导致这些区别的原因。

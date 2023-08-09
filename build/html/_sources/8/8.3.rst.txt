@@ -7,8 +7,1469 @@
  <h3 id="test111"> 第三节  荷载横向分布计算</h3>
 
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.1"> 一、概述</a> <span id="id2.4.3.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.25"> [A2-4.25]</a><span id="idA2-4.25"> 对于一座由多片主梁组成，并通过横隔梁、桥面板等横向连接构成一个整体的梁桥[<a href="#image2.4.13">图2-4-13a）</a>]来说，当桥上有荷载<i>P</i>作用时，由于结构的横向刚性必然会使所有主梁不同程度地分担荷载<i>P</i>，而且，荷载作用的纵、横位置不同，各梁分担的荷载及其内力、变形亦发生变化，因此，桥中的各片梁组成的上部结构是一个空间受力结构。</span></p>
+
+
+
+  <body>
+
+ <style type="text/css">
+      #image2.4.13{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.13" src="../_static/fig/2-4-13.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-13  主梁荷载分布</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.13'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.26"> [A2-4.26]</a><span id="idA2-4.26"> 为了便于实用计算，设计中把空间受力简化成平面受力来分析：首先从横桥向确定出某根主梁所分担的荷载，然后再沿桥纵向确定该梁某一截面的内力，即</span></p>
+ 
+ 
+$$S=P\\cdot \\eta (x,y)\\approx P\\cdot  \\eta_{2}(y) \\cdot\\eta_{1}(x) \\tag{2-4-24}$$
+ 
+.. raw:: html
+ 
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>S</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">某根主梁某一截面的内力值； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>η(x,y)</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 该主梁某一截面的内力影响面；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>η</i><sub>1</sub><i>(x)</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">该单梁在桥纵向（x轴方向）某一截面的内力影响线；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>η</i><sub>1</sub><i>(x)</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">单位荷载沿桥面横向（y轴方向）作用在不同位置时，该单梁所分配的荷载比值变化曲线，也称作对于某梁的荷载横向分布影响线。</td>
+ </tr> 
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman"> 式（2-4-24）又可写作</p>
+ 
+
+$$S=P\\cdot \\eta (x,y)\\approx P^{'} \\cdot\\eta_{1}(x)$$
+
+$$即令\\qquad \\qquad P^{'} =P \\cdot \\eta_{2}(y)\\tag{2-4-25}$$
+
+
+.. raw:: html
+ 
+ <p style="text-align:justify;font-family:times new roman"> 表示当<i>P</i>作用于<i>A(X,Y)</i>点时沿横向分布给某梁的荷载[<a href="#image2.4.13">图2-4-13b）</a>]。单梁的内力影响线<i>η</i><sub>1</sub><i>(x)</i>不难利用《结构力学》的方法求得。本节所要解决的问题是怎样求得荷载横向分布影响线。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.27"> [A2-4.27]</a><span id="idA2-4.27"> 什么是荷载横向分布系数？<a href="#image2.4.14">图2-4-14a）</a>表示桥上作用着一辆前后轮各重<i>P</i><sub>1</sub>和<i>P</i><sub>2</sub>的汽车荷载，相应的轮重为<i>P</i><sub>1</sub>/2和<i>P</i><sub>2</sub>/2。如欲求3号梁<i>k</i>点的截面内力，则可先用对于3号梁的荷载横向分布影响线求出桥上横向各排轮重对该梁分布的总荷载（按横向最不利荷载位置求最大值），然后再利用这些荷载通过单梁<i>k</i>点的截面内力影响线来计算3号梁该截面的最大内力值。显然，如果桥梁的结构一定，轮重在桥上的位置也确定，则分布至3号梁的荷载也是一个定值。在桥梁设计中，通常用一个表征荷载分布程度的系数<i>m</i>与轴重的乘积来表示这个定值，因此前后轮轴的两排轮重分布至3号梁的荷载可分别表示为<i>mP<sub>1</sub></i>和<i>mP<sub>2</sub></i>（<a href="#image2.4.14">图2-4-14b）</a>）。这个<i>m</i>就称为荷载横向分布系数，表示某根主梁（这里指3号梁）所承担的最大荷载对各个轴重的倍数（通常小于1）。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.14{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.14" src="../_static/fig/2-4-14.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-14  车轮荷载在桥上的横向分布</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.14'));</script>
+
+ </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.28"> [A2-4.28]</a><span id="idA2-4.28"> 显然，同一座桥梁内各根梁的荷载横向分布系数<i>m</i>是不相同的，不同类型的荷载（如汽车荷载、人群荷载）其<i>m</i>值也各异，而且荷载在梁上沿纵向的位置对<i>m</i>也有影响。这些问题将在以后的各节中加以阐明。现在再来分析桥梁结构具有不同横向连接刚度时，对于荷载横向分布的影响。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.29"> [A2-4.29]</a><span id="idA2-4.29"> 设想<a href="#image2.4.15">图2-4-15</a>表示五根主梁所组成的桥梁在跨径内承受荷载 的跨中横截面。<a href="#image2.4.15">图2-4-15a）</a>表示主梁与主梁间没有任何联系的结构，此时如中梁的跨中有集中力<i>P</i>的作用，则全桥中只有直接承载的中梁受力，也就是说，该梁的横向分布系数<i>m</i>＝1，显然这种结构形式整体性差，而且是很不经济的。</span></p>
+
+   <body>
+ <style type="text/css">
+      #image2.4.15{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.15" src="../_static/fig/2-4-15.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-15  不同横向刚度时主梁的变形和受力情况</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.15'));</script>
+
+ </body>
+
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.30"> [A2-4.30]</a><span id="idA2-4.30"> 再看<a href="#image2.4.15">图2-4-15c）</a>的情况，如果将各主梁相互间借横隔梁和桥面刚性连接起来，并且设想横隔梁的刚度接近无穷大（<i>EI</i><sub>H</sub>≈ ∞），则在同样的荷载<i>P</i>作用下，由于横隔梁无弯曲变形，因此所有五根梁将共同参与受力。此时五根梁的挠度均相等，荷载<i>P</i>由五根梁均匀分担，每梁只承受1/5<i>P</i>，也就是说，各梁的横向分布系数<i>m</i>＝0.2。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.31"> [A2-4.31]</a><span id="idA2-4.31"> 然而，一般钢筋混凝土或预应力混凝土梁桥实际结构情况是：各根主梁虽通过横向结构联成整体，但是横向结构的刚度并非无穷大。因此，在相同的荷载<i>P</i>作用下，各根主梁将按照某种复杂的规律变形[<a href="#image2.4.15">图2-4-15b）</a>]，此时中梁的挠度<i>w</i><sub>b</sub>必然小于<i>w</i><sub>a</sub>而大于<i>w</i><sub>c</sub>，设中梁所受的荷载为<i>mP</i>，则其横向分布系数<i>m</i>也必然小于1而大于0.2。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.32"> [A2-4.32]</a><span id="idA2-4.32"> 由此可见，桥上荷载横向分布的规律与结构的横向连接刚度有着密切关系，横向连接刚度越大，荷载横向分布作用越显著，各主梁的负担也越趋均匀。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.33"> [A2-4.33]</a><span id="idA2-4.33"> 在实践中，由于施工特点、构造设计等的不同，钢筋混凝土和预应力混凝土梁桥上可能采用不同类型的横向结构。因此，为使荷载横向分布的计算能更好地适应各种类型的结构特性，就需要按不同的横向结构简化计算模型拟定出相应的计算方法。根据各种梁桥不同的横向联结构造建立计算模型，有以下几种荷载横向分布计算方法：</span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"> （1）杠杆原理法，为把横向结构（桥面板和横隔梁）视作在主梁上断开而简支在其上的简支梁。<br>（2）偏心压力法（又称作“刚性横梁法”），为把横隔梁视作刚性极大的梁，当计及主梁抗扭刚度影响时，此法又称为修正偏心压力法。<br>（3）横向铰接板（梁）法，为把相邻板（梁）之间视作铰接，只传递剪力。<br>（4）横向刚接梁法，为把相邻主梁之间视作刚性连接，即传递剪力和弯矩。<br>（5）比拟正交异性板法，为将主梁和横隔梁的刚度换算成正交两个方向刚度不同的比拟弹性平板来求解。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.34"> [A2-4.34]</a><span id="idA2-4.34"> 上列各种实用的计算方法所具有的共同特点是：从分析荷载在桥上的横向分布出发，求得各梁的荷载横向分布影响线，从而通过荷载横向最不利布置来计算荷载横向分布系数<i>m</i>。有了作用于单梁上的最大荷载，就能按熟知的方法求得主梁的可变作用内力值。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.35"> [A2-4.35]</a><span id="idA2-4.35"> 下面分别介绍各种计算荷载横向分布系数方法的基本原理和举例。</span></p>
+ 
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.2"> 二、杠杆原理法</a> <span id="id2.4.3.2"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.36"> [A2-4.36]</a><span id="idA2-4.36"> 按杠杆原理法进行荷载横向分布计算的基本假定是忽略主梁之间横向结构的联系作用，即假设桥面板在主梁梁肋处断开，而当作沿横向支承在主梁上的简支梁或悬臂梁来考虑，如<a href="#image2.4.1">图2-4-16b）</a>所示。</span></p>
+ 
+  <body>
+
+ <style type="text/css">
+      #image2.4.16{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.16" src="../_static/fig/2-4-16.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-16  杠杆原理法</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.16'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.37"> [A2-4.37]</a><span id="idA2-4.37"> 杠杆原理法适用于荷载位于靠近主梁支点时的荷载横向分布计算。此时，主梁的支承刚度远大于主梁间横向联系的刚度，荷载作用于某处时，基本上由相邻的两片梁分担，并传递给支座，其受力特性与杠杆接近。另外，该法也可用于双主梁桥（<a href="#image2.4.17">图2-4-17</a>），或横向联系很弱的无中间横隔梁的桥梁。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.4.17{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.17" src="../_static/fig/2-4-17.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-17  杠杆原理法计算双主梁桥的横向分布系数</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.17'));</script>
+
+ </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.38"> [A2-4.38]</a><span id="idA2-4.38"> 为了求主梁所受的最大荷载，通常可利用反力影响线来进行计算，在此情况下，也就是计算荷载横向分布系数的横向影响线。利用上述假定作出主梁的荷载横向分布影响线，即当移动的单位荷载P=1作用于计算梁上时，该梁承担的荷载为1；当P作用于相邻或其他梁上时，该梁承担的荷载为零，该梁与相邻梁之间荷载按线性变化，如<a href="#image2.4.16">图2-4-16c）</a>所示。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.39"> [A2-4.39]</a><span id="idA2-4.39"> 有了各根主梁的荷载横向影响线，就可根据车辆荷载、人群荷载等各种可变作用的最不利荷载位置求得相应的横向分布系数<i>M</i><sub>0q</sub>、<i>M</i><sub>0r</sub>，这里<i>M</i><sub>0</sub>表示按杠杆原理法计算的荷载横向分布系数，脚标<i>q、r</i>相应表示车辆荷载和人群荷载。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.40"> [A2-4.40]</a><span id="idA2-4.40"> 尚需注意，采用杠杆原理法计算时，应当分别计算几根主梁各自的横向分布系数，以便得到受载最大的主梁的最大内力作为设计依据。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.41"> [A2-4.41]</a><span id="idA2-4.41"> 对于一般多梁桥，不论跨径内有无中间横隔梁，当桥上荷载作用在靠近支点处时，例如计算支点剪力时的情形，荷载的绝大部分通过相邻的主梁直接传至墩台。再从集中荷载直接作用在端横隔梁上的情形来看，虽然端横隔梁是连续于几根主梁之间的，但由于不考虑支座的弹性压缩和主梁本身的微小压缩变形，荷载将主要传至两个相邻的主梁支座，即连续端横隔梁的支点反力与多跨简支梁的反力相差不多。因此，在实际工程中人们习惯偏于安全地用杠杆原理法来计算荷载位于靠近主梁支点时的横向分布系数。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.42"> [A2-4.42]</a><span id="idA2-4.42"> 杠杆原理法用于横向联系很弱的无横隔梁桥梁的荷载横向分布系数计算时，通常对于中间主梁会偏大些，而对于边梁则会偏小。对于无横隔梁的装配式箱形梁桥的初步设计，在绘制主梁荷载横向影响线时可以假设箱形截面是不变形的，故箱梁内的竖标值为等于1的常数，如<a href="#image2.4.18">图2-4-18</a>所示。</span></p>
+
+   <body>
+ <style type="text/css">
+      #image2.4.18{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.18" src="../_static/fig/2-4-18.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-18  无横隔梁的装配式箱形梁桥的主梁横向影响线</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.18'));</script>
+
+ </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.43"> [A2-4.43][例2-4-2] </a><span id="idA2-4.43">  <a href="#image2.4.19">图2-4-19a）</a>所示为一桥面净空为净-7+2×0.75m人行道的钢筋混凝土T梁桥，共设五根主梁。试求荷载位于支点处时1号梁和2号梁相应于汽车荷载和人群荷载的横向分布系数。<br>【解】当荷载位于支点处时，应按杠杆原理法计算荷载横向分布系数。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> （1）绘制1号梁和2号梁的荷载横向分布影响线，如<a href="#image2.4.19">图2-4-19b）</a>和<a href="#image2.4.19">图2-4-19c）</a>所示。<br>（2）在横向影响线上确定荷载沿横向最不利的布置位置。并求出相应于荷载位置的影响线竖标值。<br>例如，对于汽车荷载，规定的汽车横向轮距为1.80 m，两列汽车车轮的横向最小间距为1.30 m，车轮距离人行道缘石的最小距离为0.50 m。人群荷载应在人行道宽度范围内满布。<br>例如，对于汽车荷载，规定的汽车横向轮距为1.80 m，两列汽车车轮的横向最小间距为1.30 m，车轮距离人行道缘石的最小距离为0.50 m。人群荷载应在人行道宽度范围内满布。<br>（3）求荷载横向分布系数<br>求出相应于荷载位置的横向影响线竖标值后，就可得到横向所有荷载分布给1号梁的最大荷载值为：</p>
+
+$$汽车荷载 \\mathrm{max} A_{1q}=\\sum (\\dfrac{P_{q}}{2} \\cdot \\eta_{q}) =\\dfrac{1}{2} \\sum\\eta_{q}P_{q}=\\dfrac{1}{2}\\cdot 0.875 \\cdot P_{q}=0.438 P_{q}$$  
+$$人群荷载 \\mathrm{max} A_{1r}=\\eta_{r}\\cdot P_{r} \\cdot 0.75=1.422\\times P_{r}\\times 0.75=1.422 P_{0r}\\qquad  \\qquad $$ 
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>P</i><sub>q</sub>、<i>P</i><sub>0r</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">相应为汽车荷载轴重和每沿米跨长的人群荷载集度； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>η</i><sub>q</sub>、<i>η</i><sub>r</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 对应于汽车车轮和人群荷载集度的横向影响线竖标。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman">由此可得，1号梁在汽车荷载和人群荷载作用下的最不利荷载横向分布系数分别为：</p>
+ <p style="text-align:justify;font-family:times new roman">同理，按<a href="#image2.4.19">图2-4-19c）</a>可计算得2号梁的最不利荷载横向分布系数分别为：</p>
+ <p style="text-align:justify;font-family:times new roman"> 这里，在人行道上没有布载，因为人行道荷载引起的负反力在考虑荷载组合时反而会减小2号梁的受力。<br>当各根主梁的荷载横向分布系数<i>m</i><sub>0</sub>求得后，通常就取<i>m</i><sub>0</sub>最大的这根梁按常规方法来计算截面内力，这在以后还要详细阐明。</p>
+
+   <body>
+ <style type="text/css">
+      #image2.4.19{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.19" src="../_static/fig/2-4-19.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-19  按杠杆法计算横向分布系数（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.19'));</script>
+
+ </body>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.3"> 三、偏心压力法和修正偏心压力法</a> <span id="id2.4.3.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.44"> [A2-4.44]</a><span id="idA2-4.44"> 1、偏心压力法<br>偏心压力法的基本前提是：第一，在车辆荷载作用下，中间横隔梁可近似地看作一根刚度无穷大的刚性梁，横隔梁全长呈直线变形；第二，忽略主梁的抗扭刚度，即不计入主梁对横隔梁的抵抗扭矩。<br>如<a href="#image2.4.20">图2-4-20a）</a>所示，图中<i>ω</i><sub>i</sub>表示桥跨中央各主梁的竖向挠度。基于横隔梁无限刚性的假定，此法也称“刚性横梁法”。</span></p>
+ 
+  <body>
+
+ <style type="text/css">
+      #image2.4.20{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.20" src="../_static/fig/2-4-20.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-20  偏心压力法</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.20'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 用偏心压力法计算荷载横向分布适用于桥上具有可靠的横向联结，且桥的宽跨比<i>B</i>/<i>l</i>小于或接近0.5的情况时（一般称为窄桥）的跨中区域的荷载横向分布影响线。<br>根据在弹性范围内，某根主梁所承受的荷载<i>R</i><sub>i</sub>与该荷载所产生的跨中弹性挠度<i>ω</i><sub>i</sub>成正比的原则，可以得出：在中间横隔梁刚度相当大的窄桥上，沿横桥向偏心布置可变作用，总是靠近可变作用一侧的边主梁受载最大。<br>如<a href="#image2.4.20">图2-4-20b）</a>中的i）所示，对于具有近似刚性中间横隔梁的结构，坐标原点取桥面中心。偏心荷载<i>P</i>＝1可以用作用于桥轴线的中心荷载<i>P</i>＝1和偏心力矩<i>m</i>=1·<i>e</i>替代，分别求出这两种情况下1号主梁所承担的力，然后进行叠加，如<a href="#image2.4.20">图2-4-20b）</a>中的ii）所示。</p>
+
+ <p style="text-align:justify;font-family:times new roman"> （1）中心荷载<i>P</i>=1的作用[见<a href="#image2.4.20">图2-4-20b）</a>中iii）]。<br>由于中心荷载作用下，刚性中横梁整体向下平移，则各主梁的跨中挠度相等，即</p>
+
+$$\\omega _{1}^{'} =\\omega _{2}^{'} =\\dots =\\omega _{n}^{'}\\tag{2-4-26}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 根据材料力学，作用于简支梁跨中的荷载（即主梁所分担的荷载）与挠度的关系为：</p>
+
+$$\\omega _{i}^{'} =\\dfrac{R\\mathrm{i}^{'}l^{3}}{48EI_{i}} 或 R_{i}^{'} =aI_{i}\\omega _{i}^{'}\\tag{2-4-27}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="60px" align='right'  id="eqzs" >式中：</td>
+ <td width="60px" align='right'  id="eqzs" ><i>I</i><sub>i</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="500px" align='left'  id="eqzs">桥梁横截面内各主梁的惯性矩； </td>
+ </tr>
+ </table>
+ <p tyle="font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>48</mn><mi>E</mi></mrow><msup><mi>l</mi><mrow><mn>3</mn></mrow></msup></mfrac><mo>=常数（</mo><mi>E</mi><mo>为梁体材料的弹性模量）。</mo></math> </p>
+
+ <p style="text-align:justify;font-family:times new roman"> 由静力平衡条件可得</p>
+
+$$\\displaystyle \\sum_{i=1}^{n}R_{i}^{'}=a\\omega _{i}^{'}\\displaystyle \\sum_{i=1}^{n} I_{i}=1$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 故</p>
+
+$$a\\omega _{i}^{'} =\\dfrac{1}{\\displaystyle \\sum_{i=1}^{n} I_{i}} \\tag{2-4-28}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 将上式代入<a href="#ideq2-4-47">式(2-4-47)</a><span id="ideq2-4-47">，即得中心荷载<i>P</i>=1在各梁间的荷载分布为</p>
+
+$$R_{i}^{'}=\\dfrac{I_{i}}{\\displaystyle \\sum_{i=1}^{n}I_{i}}\\tag{2-4-29}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 当各主梁截面相同时，即<i>I</i><sub>1</sub>=<i>I</i><sub>2</sub>=···<i>I</i><sub>n</sub>=<i>I</i>，则</p>
+
+
+$$R_{i}^{'}=\\dfrac{1}{n}\\tag{2-4-30}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">（2）偏心力矩<i>M</i>=1·<i>e</i>的作用[见<a href="#image2.4.20">图2-4-20b）</a>中的iv）]。<br>在偏心力矩<i>M</i>=1·<i>e</i>作用下，桥的横截面产生绕中心点<i>O</i>的转角<i>φ</i>，因此各主梁的跨中挠度为</p>
+
+$$ \\omega_{i}^{''}=a_{i} \\tan \\varphi\\tag{2-4-31}$$
+
+.. raw:: html
+
+  <p style="text-align:justify;font-family:times new roman"> 式中:<i>a</i><sub>i</sub>——各片主梁梁轴到横截面形心的距离。<br>根据力矩平衡条件，有</p>
+
+$$\\displaystyle \\sum_{i=1}^{n} R_{i}^{''}\\cdot a_{i}=1\\cdot e\\tag{2-4-32}$$
+
+.. raw:: html
+
+  <p style="text-align:justify;font-family:times new roman"> 再根据反力与挠度成正比的关系，有</p>
+
+$$R_{ie}^{''}=a I_{i}\\omega_{i}^{''}\\tag{2-4-33}$$
+
+.. raw:: html
+
+  <p style="text-align:justify;font-family:times new roman"> 即</p>
+
+$$ R_{ie}^{''}=a I_{i}\\cdot a_{i} \\tan \\varphi = \\beta a_{i} I_{i} (\\beta=a \\tan\\varphi)\\tag{2-4-34}$$
+
+.. raw:: html
+
+  <p style="text-align:justify;font-family:times new roman"> 将式（2-4-34）代入式（2-4-32）则得</p>
+
+$$\\beta=\\dfrac{e}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}I_{i}}\\tag{2-4-35}$$
+
+.. raw:: html
+
+  <p style="text-align:justify;font-family:times new roman"> 将式（2-4-35）代入式（2-4-34）后，得</p>
+
+$$ R_{ie}^{''}=\\dfrac{a_{i}e I_{i}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}I_{i}}\\tag{2-4-36}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 注意，当上式中的荷载位置<i>e</i>和梁位<i>a</i><sub>i</sub>位于形心轴同侧时，取正号，反之应取负号。<br>当各主梁截面相同时，即<i>I</i><sub>1</sub>=<i>I</i><sub>2</sub>=···=<i>I</i><sub>n</sub>=<i>I</i>，则</p>
+
+$$ R_{ie}^{''}=\\dfrac{a_{i}e}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}}\\tag{2-4-37}$$
+
+.. raw:: html
+    
+ <p style="text-align:justify;font-family:times new roman"> （3）偏心距离为<i>e</i>的单位荷载<i>P</i>=1对各主梁的总作用[见<a href="#image2.4.20">图2-4-20b）</a>中的v）]。<br>将式（2-4-29）和式（2-4-36）相叠加得：</p>
+
+$$ R_{ie}=\\dfrac{I_{i}}{\\displaystyle \\sum_{i=1}^{n}I_{i}}+\\dfrac{ea_{i}I_{i}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}I_{i}}\\tag{2-4-38}$$
+
+.. raw:: html
+    
+ <p style="text-align:justify;font-family:times new roman"> 这就是<i>i</i>号主梁的荷载横向影响线在荷载<i>P</i>作用位置处的竖标值<i>η</i><sub>ie</sub>。<br>同理，当<i>P</i>=1位于<i>k</i>号梁轴上（<i>e</i>=<i>a</i><sub>k</sub>）时，对<i>i</i>号主梁的总作用的一般公式为：</p> 
+ 
+$$ \\eta _{ik} =R_{ik}=\\dfrac{I_{i}}{\\displaystyle \\sum_{i=1}^{n}I_{i}}+\\dfrac{a_{i}a_{k}I_{i}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}I_{i}}\\tag{2-4-39}$$
+
+.. raw:: html
+    
+ <p style="text-align:justify;font-family:times new roman"> 从式（2-4-39）可以看出，当桥跨的横截面尺寸确定后，<i>i</i>号主梁的荷载横向影响线在各处的竖标值<i>η</i><sub>ie</sub>只与荷载偏心距<i>e</i>相关，即<i>η</i><sub>ie</sub>呈直线变化。因此，实际上只要计算荷载<i>P</i>作用在两根边梁上的竖标值，就可得到<i>i</i>号梁的荷载横向分布影响线。<br>比如，<a href="#image2.4.20">图2-4-20</a>中1号梁的荷载横向分布影响线，即可通过求<i>η</i><sub>11</sub>和<i>η</i><sub>51</sub>得到</p> 
+
+$$
+\\left.\\begin{matrix}\\eta _{11} =R_{11}=\\dfrac{I_{1}}{\\displaystyle \\sum_{i=1}^{n}I_{i}}+\\dfrac{a_{1}^{2}I_{1}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}I_{i}} \\\\ 
+\\eta _{51} =R_{51}=\\dfrac{I_{1}}{\\displaystyle \\sum_{i=1}^{n}I_{i}}-\\dfrac{a_{1}^{2}I_{1}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}I_{i}}
+\\tag{2-4-40} \\end{matrix}\\right\\}
+$$
+
+.. raw:: html
+    
+ <p style="text-align:justify;font-family:times new roman"> 当各主梁截面均相同时，则上式可简化成</p> 
+ 
+
+$$
+\\left.\\begin{matrix}\\eta _{11} =\\dfrac{1}{n}+\\dfrac{a_{1}^{2}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}} \\\\ 
+\\eta _{51} =\\dfrac{1}{n}-\\dfrac{a_{1}^{2}}{\\displaystyle \\sum_{i=1}^{n}a_{i}^{2}}
+\\tag{2-4-41} \\end{matrix}\\right\\}
+$$
+
+.. raw:: html
+    
+ <p style="text-align:justify;font-family:times new roman"> 有了荷载横向影响线，就可以根据荷载沿横向的最不利位置来计算相应的横向分布系数，从而求得所受的最大荷载。</p> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.45"> [A2-4.45]</a><span id="idA2-4.45"> 【例2-4-3】 标准跨径<i>L</i><sub>k</sub>=20 m，计算跨径<i>l</i>=19.50 m的桥梁横截面如<a href="#image2.4.21">图2-4-21a）</a>所示，试按偏心压力法求荷载位于跨中时1号边梁的荷载横向分布系数<i>m</i><sub>cq</sub>（汽车荷载）和<i>m</i><sub>cr</sub>（人群荷载）。</span></p>
+
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.21{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.21" src="../_static/fig/2-4-21.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-21  按偏心压力法计算横向分布系数（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.21'));</script>
+
+ </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"> 【解】此桥在跨径内设有横隔梁，具有强大的横向连接刚性，且承重结构的长宽比为：</p>
+
+ <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mfrac><mi>l</mi><mi>B</mi></mfrac><mo>=</mo><mfrac><mn>19.50</mn><mrow><mn>5</mn><mo>×</mo><mn>1.60</mn></mrow></mfrac><mo>=</mo><mn>2.4</mn><mo>&gt;</mo><mn>2</mn></math>
+
+ <p style="text-align:justify;font-family:times new roman"> 故可按偏心压力法来绘制横向影响线并计算横向分布系数<i>m</i><sub>c</sub>。<br>本桥各根主梁的横截面均相等，<in</i>=5，主梁间距为1.6 m，则</p>
+
+$$
+\\begin{aligned}
+\\sum_{\\mathrm{i}=1}^5 a_{\\mathrm{i}}^2 & =a_1^2+a_2^2+a_3^2+a_4^2+a_5^2 \\\\
+& =(2 \\times 1.60)^2+1.60^2+0+(-1.60)^2+[2 \\times(-1.60)]^2=25.60 \\mathrm{m}^2
+\\end{aligned}
+$$
+
+$$
+\\begin{aligned}
+&\\eta_{11}=\\frac{1}{n}+\\frac{a_1^2}{\\displaystyle\\sum_{\\mathrm{i}=1}^5 a_i^2}=\\frac{1}{5}+\\frac{(2 \\times 1.60)^2}{25.60}=0.60\\\\
+&\\eta_{15}=\\frac{1}{33}-\\frac{a_1^2}{\\displaystyle\\sum_{i=1}^5 a_i^2}=\\frac{1}{5}-\\frac{(2 \\times 1.60)^2}{25.60}=-0.20
+\\end{aligned}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 由<i>η</i><sub>11</sub>和<i>η</i><sub>15</sub>绘制1号梁横向影响线，如<a href="#image2.4.21">图2-4-21b）</a>所示，图中按《桥规》规定确定了汽车荷载的最不利荷载位置，再由<i>η</i><sub>11</sub>和<i>η</i><sub>15</sub>计算横向影响线的零点位置。设零点至1号梁位的距离为<i>x</i>，则</p>
+
+$$
+\\dfrac{x}{0.60}=\\dfrac{4 \\times 1.60-x}{0.20}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 解得<i>x</i>=4.80 m，正好在4号梁位处。零点位置已知后，就可求出相应于各个荷载位置的横向影响线竖标值<i>η</i><sub>q</sub>、<i>η</i><sub>r</sub>。<br>设人行道缘石至1号梁轴线的距离为△，则：<br>△=(7.00-4×1.60)/2=0.30 m</p>
+ <p style="text-align:justify;font-family:times new roman"> 于是，1号梁的可变作用横向分布系数可计算如下（以<i>x</i><sub>qi</sub>和<i>x</i><sub>r</sub>分别表示影响线零点至汽车车轮和人群荷载集度的横坐标距离）：<br>汽车荷载</p>
+
+$$
+\\begin{aligned}
+m_{\\mathrm{cq}} & =\\dfrac{1}{2} \\sum \\eta_{\\mathrm{q}}=\\dfrac{1}{2}\\left(\\eta_{\\mathrm{q} 1}+\\eta_{\\mathrm{q} 2}+\\eta_{\\mathrm{q} 3}+\\eta_{\\mathrm{q} 4}\\right) \\\\
+& =\\dfrac{1}{2} \\cdot \\frac{\\eta_{11}}{x}\\left(x_{\\mathrm{q} 1}+x_{\\mathrm{q} 2}+x_{\\mathrm{q} 3}+x_{\\mathrm{q} 4}\\right) \\\\
+& =\\frac{1}{2} \\cdot \\frac{0.60}{4.80}(4.60+2.80+1.50-0.30)=0.538
+\\end{aligned}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 人群荷载</p>
+
+
+$$
+m_{\\mathrm{cr}}=\\eta_{\\mathrm{r}}=\\dfrac{\\eta_{11}}{x} \\cdot x_{\\mathrm{r}}=\\frac{0.60}{4.80} \\cdot\\left(4.80+0.3+\\frac{0.75}{2}\\right)=0.684
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 求得1号梁的可变作用横向分布系数后，就可得到可变作用分布至该梁的最大荷载值。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.46"> [A2-4.46]</a><span id="idA2-4.46"> 2、考虑主梁抗扭刚度的修正偏心压力法</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 偏心压力法具有概念清楚、公式简明和计算方便等优点。然而其在推演中由于作了横隔梁近似绝对刚性和忽略主梁抗扭刚度的两项假定，这就导致了边梁受力偏大的计算结果。因此往往在实用计算中也有将按偏心压力法求得的变梁最大横向分布系数乘以0.9加以约略折减的方法。<br>为了弥补偏心压力法的不足，国内外也广泛地采用考虑主梁抗扭刚度的修正偏心压力法。这一方法既不失偏心压力法的优点，又避免了结构偏大的缺陷，因此修正偏心压力法是一个具有较高实用价值的近似方法。<br>由前述的偏心压力法知，荷载横向影响线坐标的公式为：</p>
+
+$$
+R_{\\mathrm{ie}}=\\dfrac{I_{\\mathrm{i}}}{\\displaystyle\\sum_{\\mathrm{i}=1}^{\\mathrm{n}} I_{\\mathrm{i}}}+\\dfrac{e a_{\\mathrm{i}} I_{\\mathrm{i}}}{\\displaystyle\\sum_{\\mathrm{i}=1}^{\\mathrm{n}} a_{\\mathrm{i}}^2 I_{\\mathrm{i}}}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 上式中等号右边第一项是由中心荷载<i>P</i>=1引起的，此时各主梁只发生挠曲而无转动，显然与主梁的抗扭无关。等号右边第二项是由偏心力矩<i>M</i>=1·<i>e</i>的作用所引起，此时由于截面的转动，各主梁不仅发生竖向挠度，而且还必然同时引起扭转，但在计算式中没有计入主梁的抗扭作用。因此，要计入主梁的抗扭影响，只需对等式第二项给予修正。<br>现在来研究跨中垂直于桥轴平面内有外力矩<i>M</i>=1·<i>e</i>作用时桥梁的变形和受力情况。如图2-4-22a）所示，此时每根主梁除产生不同的挠度<i>ω</i>=<sub>i</sub><sup>''</sup>外尚转动一个相同的<i>φ</i>角[<a href="#image2.4.22">图2-4-22b）</a>]。如设荷载通过跨中的刚性横梁传递，截出此横隔梁作为脱离体来分析，可得各根主梁对横隔梁的反作用为竖向力 和抗扭矩 [<a href="#image2.4.22">图2-4-22c）</a>]。</p>
+  
+   <body>
+ <style type="text/css">
+      #image2.4.22{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.22" src="../_static/fig/2-4-22.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-22  考虑主梁抗扭的计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.22'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 根据平衡条件：</p>
+
+
+$$
+\\displaystyle\\sum_{=1}^{\\mathrm{D}} R_1^{\\prime \\prime} a_1+\\displaystyle\\sum_{=1}^{\\mathrm{D}} M_{11}=1 \\cdot e \\tag{2-4-22}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 由材料力学知，简支梁考虑自由扭转时跨中截面扭矩与扭角以及竖向力与挠度的关系为：</p>
+
+$$\\varphi=\\frac{l M_{\\mathrm{T}}}{4 G I_{\\mathrm{H}}} \\tag{2-4-23a}$$
+
+$$\\omega_{i}^{\\prime \\prime}=\\dfrac{R_{i}^{\\prime} l^{3}}{48 E I_{\\mathrm{i}}}\\tag{2-4-23b}$$
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>l</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">为简支梁的跨径； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>I</i><sub>Ti</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">梁的抗扭惯性矩；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>G</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">材料的剪切模量；</td>
+ </tr>
+ </table>
+ <p style="text-align:justify;font-family:times new roman">其余符号意义同前。<br>由<a href="#image2.4.22">图2-4-22b）</a>几何关系]可知：</p>
+
+$$\\varphi \\approx \\tan \\varphi=\\dfrac{\\omega_i^{\\prime}}{a_{i}}\\tag{2-4-44}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 将式（2-4-43b）代入，则：</p>
+
+$$\\varphi=\\dfrac{R_{i}^{''}l^{3}}{48 a_i E I_i}\\tag{2-4-45}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 将上式代入式（2-4-43a），就得：</p>
+
+
+$$M_{\\mathrm{Ti}}=R_{\\mathrm{i}}^{\\prime} \\cdot \\dfrac{l^{2} G I_{\\mathrm{Ti}}}{12 a_{\\mathrm{i}} E I_{\\mathrm{i}}}\\tag{2-4-46}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 为了计算任意<i>k</i>号梁的荷载，利用几何关系和式（2-4-43b），则：</p>
+
+
+$$\\dfrac{\\omega_i^{\\prime \\prime}}{\\omega_{\\mathrm{k}}^{\\prime \\prime}}=\\frac{a_1}{a_{\\mathrm{k}}}=\frac{R_{\\mathrm{i}}^{\\prime} / I_{\\mathrm{i}}}{R_{\\mathrm{k}}^{\\prime} / I_{\\mathrm{k}}} $$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 即得 </p>
+
+
+$$R_{\\mathrm{i}}^{\\prime}=R_{\\mathrm{k}}^{\\prime} \\cdot \\dfrac{a_i I_{\\mathrm{i}}}{a_{\\mathrm{k}} I_{\\mathrm{k}}}\\tag{2-4-47}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 再将式（2-4-46）和式（2-4-47）代入平衡条件式（2-4-42），则得：</p>
+
+
+$$
+R_{\\mathrm{k}}^{\\prime} \\cdot \\dfrac{1}{a_{\\mathrm{k}} I_{\\mathrm{k}}}\\left(\\displaystyle\\sum_{\\mathrm{i}=1}^n a_{\\mathrm{i}}^2 I_{\\mathrm{i}}+\\frac{G l^2}{12 E} \\sum_{\\mathrm{i}=1}^n I_{\\mathrm{T}}\\right)=e
+$$
+
+$$
+\\displaystyle\\sum_{=1}^n R_{\\mathrm{k}}^n \\cdot \\dfrac{a_{\\mathrm{i}}^2 I_{\\mathrm{i}}}{a_{\\mathrm{k}} I_{\\mathrm{k}}}+\\sum_{\\mathrm{i}=1}^n R_{\\mathrm{k}}^{\\prime} \\cdot \\dfrac{a_{\\mathrm{i}} I_{\\mathrm{i}}}{a_{\\mathrm{k}} I_{\\mathrm{k}}} \\cdot \\dfrac{l^2 G I_{\\mathrm{Ni}}}{12 a_{\\mathrm{i}} E I_{\\mathrm{i}}}=e 
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">于是： </p>
+
+$$
+\\begin{aligned}
+R_{\\mathrm{k}}^{\\prime} & =\\dfrac{e a_{\\mathrm{k}} I_{\\mathrm{k}}}{\\displaystyle\\sum_{\\mathrm{i}=1}^{\\mathrm{n}} a_{\\mathrm{i}}^2 I_{\\mathrm{i}}+\\dfrac{G l^2}{12 E} \\displaystyle\\sum_{\\mathrm{i}=1}^n I_{\\mathrm{ij}}}=\\dfrac{e a_{\\mathrm{k}} I_{\\mathrm{k}}}{\\sum_{\\mathrm{i}=1}^n a_i^2 I_{\\mathrm{i}}}\\left(\\dfrac{1}{1+\\dfrac{G l^2}{12 E} \\cdot \\dfrac{\\sum I_{\\displaystyle\\mathrm{ii}}}{\\displaystyle\\sum a_{\\mathrm{i}}^2 I_{\\mathrm{i}}}}\\right) \\\\
+& =\\beta \\dfrac{e a_{\\mathrm{k}} I_{\\mathrm{k}}}{\\sum_{\\mathrm{i}=1}^n a_{\\mathrm{i}}^2 I_{\\mathrm{i}}}
+\\end{aligned}\\tag{2-4-48}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 最后可得考虑主梁抗扭刚度后任意<i>k</i>号梁的横向影响线竖标为：</p>
+
+$$
+\\eta_{\\mathrm{ki}}=\\dfrac{I_{\\mathrm{k}}}{\\displaystyle\\sum_{i=1}^n I_i} \\pm \\beta \\dfrac{\\overline{e a} I_{\\mathrm{k}}}{\\displaystyle\\sum_{i=1}^n a_i^2 I_i}\\tag{2-4-49}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中： </p>
+
+$$\\beta =\\dfrac{1}{1+\\dfrac{G l_{2}}{12E}\\cdot \\dfrac{\\displaystyle\\sum I_{Ti}}{\\displaystyle\\sum a_{i}^{2}} I_{i} } \\tag{2-4-50}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> <i>β</i> 称为抗扭修正系数，与梁号无关，纯粹取决于结构的几何尺寸和材料特性。</p>
+ <p style="text-align:justify;font-family:times new roman"> 由此可见，与偏心压力法公式不同点仅在于第二项上乘了小于1的抗扭修正系数<i>β</i> ，所以此法称为“修正偏心压力法”。<br>以上为了简明起见，针对等截面简支梁的跨中截面进行分析，对于其他体系梁桥以及荷载不在跨中的情况，只要根据相应的扭角与扭矩以及竖向力与挠度的关系式出发[参见式（2-4-43）]，同样也可求出各该情况的<i>β</i>值。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于简支梁桥，如果主梁的截面均相同，即<i>I</i><sub>i</sub>=<i>I</i>，<i>I</i><sub>Ti</sub>=<i>I</i><sub>T</sub>，并且跨中荷载<i>P</i>=1作用在1号梁上，即 ，则得1号梁横向影响线的两个坐标值为：</p>
+
+
+
+$$
+\\left.\\begin{array}{l}
+\\eta_{11}=\\dfrac{1}{n}+\\beta \\dfrac{a_1^2}{\\displaystyle\\sum_{i=1}^n a_1^2} \\\\
+\\eta_{15}=\\dfrac{1}{n}-\\beta \\dfrac{a_1^2}{\\displaystyle\\sum_{i=1}^n a_i^2}
+\\end{array}\\right\\}\\tag{2-4-51}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 此时</p>
+
+$$\\beta=\\frac{1}{1+\\frac{n l^2 G I_1}{12 E I \\displaystyle\\sum a_i^2}}\\tag{2-4-52}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 当主梁的间距相同时：</p>
+
+$$\\frac{n}{12 \\sum a_{\\mathrm{i}}^2}=\\frac{\\xi}{B^2}$$
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>n</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">主梁根数；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>B</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">桥宽[<a href="#image2.4.22">图2-4-22a）</a>]；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>ζ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">与主梁根数有关的系数，如<a href="#B2.4.2">表2-4-2</a>所示。</td>
+ </tr>
+ </table>
+
+ <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                 
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                        
+      <table id="biaoge" style="font-family:times new roman">
+                        
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.2">表2-4-2 系数ξ   </b></caption>	
+                                      
+      <tr>
+      <td width="180px" align="center" id="dhbg">n</td>
+      <td width="180px" align="center" id="dhbg">4</td>
+      <td width="180px" align="center" id="dhbg">5</td>
+      <td width="180px" align="center" id="dhbg">6</td>
+      <td width="180px" align="center" id="dhbg">7</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">ξ</td>
+      <td align="center" id="dhbg">1.067</td>
+      <td align="center" id="dhbg">1.042</td>
+      <td align="center" id="dhbg">1.028</td>
+      <td align="center" id="dhbg">1.021</td>
+      </tr>
+      </table>
+      <p > </p>
+
+ <p style="text-align:justify;font-family:times new roman"> 在此情况下 </p>
+
+$$\\beta=\\dfrac{1}{1+\\xi \\dfrac{G I_{\\mathrm{I}}}{E I}\\left(\\frac{l}{B}\\right)^2}\\tag{2-4-53}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 从式（2-4-53）可以看出，<i>l/B</i>越大的桥，抗扭刚度对横向分布系数的影响也越大。<br>在计算时，混凝土的剪切模量<i>G</i>可取等于0.4<i>E</i>；对于由矩形组合而成的梁截面，如<i>T</i>形梁或<i>I</i>形梁，其抗扭惯性矩<i>I</i><sub>T</sub>近似等于各个矩形截面的抗扭惯性矩之和：</p>
+
+$$I_1=\\displaystyle\\sum_{i=1}^m c_i b_i t_1^3\\tag{2-4-54}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>b</i><sub>i</sub>、<i>t</i><sub>i</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">相应为单个矩形截面的宽度和厚度（<a href="#image2.4.23">图2-4-23</a>）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>c</i><sub>i</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">矩形截面的抗扭刚度系数，根据<i>t/b</i>比值按<a href="#B2.4.3">表2-4-3</a>计算；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>m</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">梁截面划分成单个矩形截面的块数。</td>
+ </tr>
+ </table>
+
+ <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                   
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                    
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                           
+      <table id="biaoge" style="font-family:times new roman">
+                           
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.3">表2-4-3 矩形截面的抗扭系数   </b></caption>	
+                                         
+      <tr>
+      <td align="center" width="90px" id="dhbg">1.0</td>
+      <td align="center" width="80px" id="dhbg">0.9</td>
+      <td align="center" width="80px" id="dhbg">0.8</td>
+      <td align="center" width="80px" id="dhbg">0.7</td>
+      <td align="center" width="80px" id="dhbg">0.6</td>
+      <td align="center" width="80px" id="dhbg">0.5</td>
+      <td align="center" width="80px" id="dhbg">0.4</td>
+      <td align="center" width="80px" id="dhbg">0.3</td>
+      <td align="center" width="80px" id="dhbg">0.2</td>
+      <td align="center" width="80px" id="dhbg">0.1</td>
+      <td align="center" width="90px" id="dhbg">&lt;0.1</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.141</td>
+      <td align="center" id="dhbg">0.155</td>
+      <td align="center" id="dhbg">0.171</td>
+      <td align="center" id="dhbg">0.189</td>
+      <td align="center" id="dhbg">0.209</td>
+      <td align="center" id="dhbg">0.229</td>
+      <td align="center" id="dhbg">0.250</td>
+      <td align="center" id="dhbg">0.270</td>
+      <td align="center" id="dhbg">0.291</td>
+      <td align="center" id="dhbg">0.312</td>
+      <td align="center" id="dhbg">1/3</td>
+      </tr>
+      </table>
+      <p></p>
+
+   <body>
+ <style type="text/css">
+      #image2.4.23{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.23" src="../_static/fig/2-4-23.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-23 <i>I</i><sub>T</sub>计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.23'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.47"> [A2-4.47]【例2-4-4】 </a><span id="idA2-4.47"> 为了进行比较，仍取[例2-4-3]所采用的截面尺寸来计算考虑抗扭刚度修正后的荷载横向影响线竖标值。T形主梁的细部尺寸如<a href="#image2.4.24">图2-4-24</a>所示。</span></p>
+ 
+
+  <body>
+ <style type="text/css">
+      #image2.4.24{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.24" src="../_static/fig/2-4-24.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-24  主梁截面尺寸（尺寸单位：mm）/p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.24'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 【解】<br>1.计算 <i>I</i> 和 <i>I</i><sub>T</sub> </p>
+
+ <p style="text-align:justify;font-family:times new roman"> 翼板的换算平均高度：</p>
+
+$$h=\\dfrac{80+140}{2}=110(\\mathrm{~mm})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 求主梁截面重心位置：</p>
+
+$$a_{\\mathrm{x}}=\\dfrac{(1600-180) \\times 110 \\times \\dfrac{110}{2}+1300 \\times 180 \\times \\dfrac{1300}{2}}{(1600-180) \\times 110+1300 \\times 180}=412(\\mathrm{~mm})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 主梁抗弯惯性矩：</p>
+
+$$I=\\dfrac{1}{12}(1600-180) \\times 110^3+(1600-180) \\times 110 \\times\\left(412-\\frac{110}{2}\\right)^2$$
+
+$$
+\\begin{aligned}
+& +\\dfrac{1}{12} \\times 180 \\times 1300^3+180 \\times 1300 \\times\\left(\\dfrac{1300}{2}-412\\right)^2 \\\\
+= & 1.575 \\times 10^8+1.991 \\times 10^{10}+3.296 \\times 10^{10}+1.325 \\times 10^{10} \\\\
+= & 6.628 \\times 10^{10}\\left(\\mathrm{~mm}^4\\right)
+\\end{aligned}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 主梁抗扭惯性矩按式（2-4-54）查表2-4-3计算：</p>
+
+
+ <p style="text-align:justify;font-family:times new roman"> 对于翼板<i>t</i><sub>1</sub>/<i>b</i><sub>1</sub>=110/1600=0.06875 < 0.1,查表得<i>c</i><sub>1</sub>=<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>3</mn></mfrac></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 对于梁肋<i>t</i><sub>2</sub>/<i>b</i><sub>2</sub>=180/(1300-110)=0.15126 < 0.1, 查表并内揷得<i>c</i><sub>2</sub>=0.301, 由式 (2-4-54) 得:
+
+$$
+\\begin{aligned}
+I_{\\mathrm{I}} & =\\dfrac{1}{3} \\times 1600 \\times 110^3+0.301 \\times 1190 \\times 180^3 \\\\
+& =7.099 \\times 10^8+2.089 \\times 10^9=2.799 \\times 10^9\\left(\\mathrm{~mm}^4\\right)
+\\end{aligned}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 2. 计䈯抗扭修正系数<i>β</i><br>由表 2-4-2 知, <i>n</i>=5 时, <i>ζ</i>=1.042, 并取 <i>G</i>=0.4<i>E</i>, 代入式（2-4-53）得：</p>
+
+$$\\beta=\\dfrac{1}{1+1.402 \\times \\dfrac{0.4 E \\times 2.799 \\times 10^9}{E \\times 6.628 \\times 10^{10}}\\left( \\dfrac{19.50}{5 \\times 1.60}\\right)^2}=0.877$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 3. 计算橫向影响线坚标值<br>对于 1 号边梁考虚㧍扭倍正后的横向影响线竖标值为:</p>
+
+$$\\eta_{11}^{\\prime}=\\dfrac{1}{n}+\\beta \\dfrac{a_1^2}{\\displaystyle\\sum_{i=1}^5 a_1^2}=0.20+0.877 \\times 0.40=0.551 $$
+$$\\eta_{15}^{\\prime}=\\dfrac{1}{n}-\\beta \\dfrac{a_1^2}{\\displaystyle\\sum_{i=1}^5 a_i^2}=0.20-0.877 \\times 0.40=-0.151 $$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 在本例中，计入主梁抗扭影响时，边梁的荷载横向影响线竖标值最多降低了8.2%。设影响线零点离1号梁轴线的距离为<i>x</i><sup>'</sup>，则：</p>
+
+$$\\dfrac{x^{'}}{0.551}=\\dfrac{4\\times1.60-x^{'} }{0.151} $$
+
+.. raw:: html
+
+
+  <p style="text-align:justify;font-family:times new roman"> 解得: &emsp;   &emsp;   &emsp;   &emsp;   &emsp;   &emsp;   &emsp;   &emsp; <math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>x</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo>=</mo><mn>5.02</mn></math> m
+ <p style="text-align:justify;font-family:times new roman"> 4.计算荷载横向分布系数<br>1号边梁的横向影响线和布载图式如<a href="#image2.4.25">图2-4-25</a>所示。</p>
+
+  <body>
+ <style type="text/css">
+      #image2.4.25{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.25" src="../_static/fig/2-4-25.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-25  修正偏压法 计算图式（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.25'));</script>
+
+ </body>
+ 
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 汽车荷载</p>
+
+$$m_{cq}^{'}=\\dfrac{1}{2}  \\sum \\eta _{q}^{'}=\\dfrac{1}{2}\\times(0.529+0.331+0.189-0.009)=0.520(0.538) $$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 人群荷载</p>
+ 
+$$m_{cr}^{'}=\\eta _{r}=0.625(0.684) $$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中括弧内表示不计抗扭作用的值。本例计算结果表明，计及抗扭影响的<i>m</i><sub>cq</sub><sup>'</sup>和<i>m</i><sub>cr</sub><sup>'</sup>相应降低3.35%、8.63%。</p>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.4"> 四、铰接板（梁）法和刚接梁法</a> <span id="id2.4.3.4"> </span></p>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.48"> [A2-4.48]</a><span id="idA2-4.48"> 对于用现浇混凝土纵向企口缝联结的装配式板桥以及仅在翼板间用焊接钢板或伸出交叉钢筋联结的无中间横隔梁的装配式桥，由于块件间横向具有一定的连结构造，但其连结刚性又很薄弱。这类结构的受力状态实际接近于数根并列而相互间横向铰接的狭长板（梁），对此情况专门拟定了横向铰接板（梁）理论来计算荷载的横向分布。本节将着重阐明铰接板（梁）法的计算，刚接梁法可以看作是铰接板（梁）理论的一种推广，本节只介绍其相异的计算特点。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.49"> [A2-4.49]</a><span id="idA2-4.49"> 1.铰接板（梁）法 <br>（1）基本假定：<br>①在竖向荷载作用下，接缝内只传递竖向剪力。<br>②采用半波正弦荷载来分析跨中荷载横向分布的规律。</span></p>
+
+  <body>
+ <style type="text/css">
+      #image2.4.26{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.26" src="../_static/fig/2-4-26.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-26  铰接板受力示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.26'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.50"> [A2-4.50]</a><span id="idA2-4.50"> 如<a href="#image2.4.26">图2-4-26b）</a>所示，在P力作用下，板的接合缝处将产生：竖向剪力<i>g</i>(<i>x</i>)、纵向剪力<i>t</i>(<i>x</i>)、法向力<i>n</i>(<i>x</i>)、横向弯矩<i>m</i>(<i>x</i>)，<i>t</i>(<i>x</i>)、<i>n</i>(<i>x</i>)与<i>g</i>(<i>x</i>)>相比对板的影响极小，可忽略。由于接合缝的高度不大，刚性很小，所以传递的<i>m</i>(<i>x</i>)很小，可忽略。所以，结合缝处可视作铰接，仅传递竖向剪力<i>g</i>(<i>x</i>)。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.51"> [A2-4.51]</a><span id="idA2-4.51"> 如<a href="#image2.4.26">图2-4-26c）</a>所示，桥跨结构是由几片梁组成的空间结构，由于空间结构的分析计算较复杂，为简化计算，需将空间计算问题借助横向挠度分布规律来确定荷载横向分布的原理，简化为一个平面问题来处理。 <br>严格来讲，在P作用下，任意两根板梁所分配到的荷载<i>P</i>(<i>x</i>)比值与挠度<i>W</i>(<i>x</i>)比值、截面内力<i>M</i>(<i>x</i>)、<i>V</i>(<i>x</i>)比值都相同。<br>即</span></p>
+
+$$\\dfrac{w_{1}(x)}{w_{2}(x)} =\\dfrac{M_{1}(x)}{M_{2}(x)} =\\dfrac{V_{1}(x)}{V_{2}(x)} =\\dfrac{P_{1}(x)}{P_{2}(x)} =常数$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 由材料力学的挠曲微分方程，对每片板梁均有关系式</p>
+
+$$M(x)=-EIw^{''}(x),V(x)=\frac{dM(x)}{dx} -EIw^{''}(x)$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 则</p>
+
+$$\\dfrac{w_{1}(x)}{w_{2}(x)} =\\dfrac{w_{1}^{''}(x)}{w_{2}^{''}(x)} =\\dfrac{w_{1}^{'''}(x)}{w_{2}^{'''}(x)} =\\dfrac{P_{1}(x)}{P_{2}(x)} =常数 \\tag{2-4-55}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 实际上，在P作用下的②号梁和在<i>g</i>(<i>x</i>)作用下的①号梁是在不同性质的荷载[P和<i>g</i>(<i>x</i>)]作用下的两片梁，所以（2-4-55）式的比例关系是不成立的。<br>如果引入一种半波正弦荷载<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.20em"><mi>p</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>p</mi><mrow><mn>0</mn></mrow></msub><mi>sin</mi></mstyle><mstyle mathsize="1.44em"><mo data-mjx-texclass="NONE">⁡</mo><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></math>，来代替P进行分析计算，那么式（2-4-55）成立、计算误差较小。各根板梁的挠曲线将是半波正弦曲线，他们所分配到的荷载是具有不同峰值的半波正弦荷载<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.20em"><msub><mi>p</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>p</mi><mrow><mi>i</mi></mrow></msub><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo></mstyle><mstyle mathsize="1.44em"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></math>，这样能很好地模拟板间荷载的传递关系。<br>（2）铰接板桥的荷载横向分布</p>   
+
+
+
+   <body>
+ <style type="text/css">
+      #image2.4.27{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.27" src="../_static/fig/2-4-27.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-27  铰接板桥受力图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.27'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 在半波正弦荷载<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.20em"><mi>p</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>p</mi><mi>sin</mi></mstyle><mstyle mathsize="1.44em"><mo data-mjx-texclass="NONE">⁡</mo><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></math>作用下，各铰缝内也产生正弦分布的铰接力<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.20em"><msub><mi>g</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>g</mi><mrow><mi>i</mi></mrow></msub><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo></mstyle><mstyle mathsize="1.44em"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></math>。鉴于荷载、铰接力和挠度三者的协调性，可取单位长度板宽研究。<br>对于<i>n</i>条板梁组成的桥梁，必然有（n－1）条铰缝。若在板梁间沿铰缝切开，则每一铰缝内作用着一对大小相等、方向相反的正弦分布铰接力<i>g</i><sub>i</sub>(<i>x</i>)。因此，n条板梁，有（n－1）个未知铰接力峰值<i>g</i><sub>i</sub>。</p>   
+
+   <body>
+ <style type="text/css">
+      #image2.4.28{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.28" src="../_static/fig/2-4-28.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-28  铰接板桥计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.28'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 单位正弦荷载<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.20em"><mi>p</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>p</mi><mi>sin</mi></mstyle><mstyle mathsize="1.44em"><mo data-mjx-texclass="NONE">⁡</mo><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></math>(<i>p</i>=1)作用于①号板时，分配到各板的竖向荷载的峰值<i>p</i><sub>i1</sub></p>   
+
+$$
+\\left.\\begin{array}{l}
+\\text {1号板:}\\quad  p_{11}=1-g_1 \\\\
+\\text {2号板:}\\quad  p_{21}=g_1-g_2 \\\\
+\\text {3号板:}\\quad  p_{31}=g_2-g_3 \\\\
+\\text {3号板:}\\quad  p_{41}=g_3-g_4 \\\\
+\\text {5号板:}\\quad  p_{51}=g_4
+\\end{array}\\right\\}\\tag{2-4-56}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 用结构力学的“力法”原理来求<i>g</i><sub>i</sub>。求得<i>g</i><sub>i</sub>后，由以上各式可求出<i>p</i><sub>i1</sub>。<br>根据变形协调条件：两相邻板块在铰接缝处的竖向相对位移为零。建立正则方程如下： </p>
+
+$$
+\\left.\\begin{array}{l}
+\\delta_{11} g_1+\\delta_{12} g_2+\\delta_{13} g_3+\\delta_{14} g_4+\\delta_{1 \\mathrm{p}}=0 \\\\
+\\delta_{21} g_1+\\delta_{22} g_2+\\delta_{23} g_3+\\delta_{24} g_4+\\delta_{2 \\mathrm{p}}=0 \\\\
+\\delta_{31} g_1+\\delta_{32} g_2+\\delta_{33} g_3+\\delta_{34} g_4+\\delta_{3 \\mathrm{p}}=0 \\\\
+\\delta_{41} g_1+\\delta_{42} g_2+\\delta_{43} g_3+\\delta_{44} g_4+\\delta_{4 \\mathrm{p}}=0
+\\end{array}\\right\\}\\tag{2-4-57}
+$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>δ</i><sub>ik</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">铰缝k内作用单位正弦铰接力，在铰接缝i处引起的竖向相对位移。</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>δ</i><sub>ip</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">外荷载p在铰接缝i处引起的竖向位移。</td>
+ </tr>
+ </table>
+ <p style="text-align:justify;font-family:times new roman"> 如果求出了<i>δ</i><sub>ik</sub>和<i>δ</i><sub>ip</sub>，则<i>g</i><sub>i</sub>即可解得，从而计算<i>p</i><sub>i1</sub>。<br><i>δ</i><sub>ik</sub>和<i>δ</i><sub>ip</sub>的求解：<br>将铰接缝i截开，并在板的跨中取单位长度进行分析，如<a href="#image2.4.29">图2-4-29</a>所示。</p>
+
+   <body>
+ <style type="text/css">
+      #image2.4.29{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.29" src="../_static/fig/2-4-29.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-29  板梁的典型受力图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.29'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.30{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.30" src="../_static/fig/2-4-25.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-30  箱形截面</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.30'));</script>
+
+ </body>
+
+    <body>
+ <style type="text/css">
+      #image2.4.31{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.31" src="../_static/fig/2-4-31.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-31  跨中荷载横向影响线（尺寸单位：m）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.31'));</script>
+
+ </body>
+
+    <body>
+ <style type="text/css">
+      #image2.4.32{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.32" src="../_static/fig/2-4-32.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-32  铰接T梁桥计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.32'));</script>
+
+ </body>
+
+    <body>
+ <style type="text/css">
+      #image2.4.33{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.33" src="../_static/fig/2-4-33.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-33  空心板桥横截面（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.33'));</script>
+
+ </body>
+
+    <body>
+ <style type="text/css">
+      #image2.4.34{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.34" src="../_static/fig/2-4-34.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-34  1、3和5号板的荷载横向分布影响线（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.34'));</script>
+
+ </body>
+
+    <body>
+ <style type="text/css">
+      #image2.4.35{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.35" src="../_static/fig/2-4-35.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-35  刚性连接的主梁之间的内力</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.35'));</script>
+
+ </body>
+
+     <body>
+ <style type="text/css">
+      #image2.4.36{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.36" src="../_static/fig/2-4-36.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-36  刚接梁法计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.36'));</script>
+
+ </body>
+
+  <body>
+ <style type="text/css">
+      #image2.4.37{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.37" src="../_static/fig/2-4-37.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-37</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.37'));</script>
+
+ </body>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.5"> 五、比拟正交异性板法（G—M法）</a> <span id="id2.4.3.5"> </span></p>
+
+  <body>
+ <style type="text/css">
+      #image2.4.38{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.38" src="../_static/fig/2-4-38.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-38  实际结构换算成比拟板的图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.38'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.39{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.39" src="../_static/fig/2-4-39.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-39  比拟正交各向异性板的受力与变位</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.39'));</script>
+
+ </body>
+
+  <body>
+ <style type="text/css">
+      #image2.4.40{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.40" src="../_static/fig/2-4-40.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-40  沿桥横向翼板内的应力分布<br>（注：此处<i>a</i>为横隔梁间距，与桥面板计算时的有效分布宽度<i>a</i>不同）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.40'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.41{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.41" src="../_static/fig/2-4-41.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-41  翼板抗扭惯性矩计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.41'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.42{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.42" src="../_static/fig/2-4-42.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图图2-4-42  梁位<i>f=ξB</i>的<i>K</i> 值计算</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.42'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.43{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.43" src="../_static/fig/2-4-43.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-43  计算举例的主梁和横隔梁简图（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.43'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.44{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.44" src="../_static/fig/2-4-44.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-44  横隔梁截面图（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.44'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.45{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.45" src="../_static/fig/2-4-45.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-45  梁位关系图（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.45'));</script>
+
+ </body>
+
+   <body>
+ <style type="text/css">
+      #image2.4.46{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.46" src="../_static/fig/2-4-46.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-46  荷载横向分布系数的计算（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.46'));</script>
+
+ </body>
+
+
+
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.6"> 六、荷载横向分布系数沿桥跨的变化</a> <span id="id2.4.3.6"> </span></p>
+
+
+
+    <body>
+ <style type="text/css">
+      #image2.4.47{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.47" src="../_static/fig/2-4-47.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-47  荷载横向分布系数沿跨长的变化</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.47'));</script>
+
+ </body>
+
+
+
+:math:`\ `

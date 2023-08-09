@@ -7,7 +7,802 @@
  <h3 id="test111"> 第二节  行车道板内力计算</h3>
 
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.2.1">一、计算方法</a> <span id="id2.4.2.1"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.11"> [A2-4.11]</a><span id="idA2-4.11"> 混凝土肋梁桥的翼板（桥面板）是直接承受车辆轮压的混凝土板，与主梁梁肋和横隔梁联结在一起，既保证了梁的整体作用，又将可变作用传递给主梁。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.12"> [A2-4.12]</a><span id="idA2-4.12"> 对于整体现浇的T梁桥，梁肋和横（隔）梁之间的矩形桥面板，属于周边支承板，如<a href="#image2.4.1">图2-4-1a）</a>所示。通常对于这种矩形的四边支承板，当边长比或长宽比（<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub>）≥2时，荷载的绝大部分会沿短跨（<i>l</i><sub>b</sub>）方向传递（<a href="#image2.4.2">图2-4-2</a>），便可近似地按仅由短跨承受荷载的单向受力板（简称单向板）来设计，而长跨方向只要配置适当的构造钢筋即可。对于长宽比（<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub> ）＜2的板，则称为双向板，需按两个方向的内力分别配置受力钢筋。本节重点介绍单向板的计算。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.1{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.1" src="../_static/fig/2-4-1.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-1  梁格构造和桥面板支承方式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.1'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.13"> [A2-4.13]</a><span id="idA2-4.13"> 对于<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub>≥2 的装配式T梁桥，如果在两片主梁的翼板之间：采用现浇湿接缝连接[<a href="#image2.4.2">图2-4-1c）</a>]时，两块翼板连接成整体，桥面板按两块翼板组成，属于周边支承板，按单向板设计；采用钢板联结[<a href="#image2.4.2">图2-4-1c）</a>]时，两块翼板的连接边认为是自由边，桥面板按一块三边支承一边自由的翼板受力计算，简化为悬臂板；采用企口连接 [<a href="#image2.4.2">图2-4-1d）</a>]时，两块翼板的连接边认为是不承担弯矩的铰接缝联结，桥面板按一块三边支承一边铰接的翼板受力计算，简化为铰接悬臂板。</span></p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.4.2{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.2" src="../_static/fig/2-4-2.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-2  荷载的传递示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.2'));</script>
+
+  </body>
+
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.2.2">二、车辆荷载在板上的分布</a> <span id="id2.4.2.2"> </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.14"> [A2-4.14]</a><span id="idA2-4.14"> 作用在桥面上的车辆荷载的车轮压力，通过桥面铺装层扩散分布在钢筋混凝土板面上，由于板的计算跨径相对于轮压的分布宽度来说不是很大，故在计算中应将轮压作为分布荷载来处理，以免造成较大的计算误差，徒然增加桥面板的材料用量。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.15"> [A2-4.15]</a><span id="idA2-4.15"> 车辆荷载的车轮着地面实际接近于椭圆，为简化计算亦假定为<i>a</i><sub>2</sub>×<i>b</i><sub>2</sub>的矩形，以<i>a</i><sub>2</sub>记作车轮沿行车方向的着地长度，以<i>b</i><sub>2</sub>记作车轮的宽度。车辆荷载的<i>a</i><sub>2</sub>和<i>b</i><sub>2</sub>值可以从现行《公路桥涵设计通用规范》（JTG D60）中查得。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.16"> [A2-4.16]</a><span id="idA2-4.16"> 作用在混凝土或沥青混凝土铺装面层上的车轮荷载，偏安全地假定以呈45°角扩散分布于混凝土板面上，如<a href="#image2.4.3">图2-4-3</a>所示。则最后作用于混凝土桥面板顶面的矩形荷载压力的边长为</span></p>
+ 
+$$
+\\left.\\begin{array}{l}
+沿行车方向\\qquad a_1=a_2+2 H \\\\
+沿㣴向\\qquad \\qquad b_1=b_2+2 H
+\\tag{2-4-1}\\end{array}\\right\\}
+$$
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>H</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">铺装层的厚度。 </td>
+ </tr>
+ </table>
+ <p>据此，当车辆荷载作用于桥面板上时，作用于板面上的局部分布荷载为</p>
+ 
+$$
+p=\\dfrac{P_{\\text {轮}}}{a_1 b_1}\\tag{2-4-2a}
+$$
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>P</i><sub>轮</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">车轮重力，为汽车车轴重力<i>P</i><sub>轴</sub>的1/2。 </td>
+ </tr>
+ </table>
+ <p style="text-align:justify;font-family:times new roman">式（2-4-2a）也可写成</p>
+
+$$
+p=\\dfrac{P_{\\text {轴}}}{2a_1 b_1}\\tag{2-4-2b}
+$$
+ 
+.. raw:: html
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.3{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.3" src="../_static/fig/2-4-3.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-3 车辆荷载在板上的分布</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.3'));</script>
+
+  </body>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.2.3">三、有效工作宽度</a> <span id="id2.4.2.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.17"> [A2-4.17]</a><span id="idA2-4.17"> 当荷载以<i>a</i><sub>1</sub>×<i>b</i><sub>1</sub>的分布面积作用于桥面板时，除了沿计算跨径<i>x</i>方向产生挠曲变形<i>w</i><sub>x</sub>外，沿垂直于计算跨径的<i>y</i>方向也必然发生挠曲变形<i>w</i><sub>y</sub>[<a href="#image2.4.4">图2-4-4a）</a>]。这说明在车辆荷载作用下不仅使直接承压宽度为 的板条受力，其邻近的板也参与工作，共同承受车轮荷载所产生的弯矩。<br>为了计算方便，设想以宽度为<i>a</i>的板均匀承受车轮荷载产生的总弯矩[<a href="#image2.4.4">图2-4-4b）</a>]，即</span></p>
+ 
+$$
+M=\\int m_x d y=a \\times m_{r, \\max } \\tag{2-4-3}
+$$
+ 
+则得弯矩图形的换算宽度为
+
+$$ \\alpha =\\dfrac{M}{m_{x,\\max}} \\tag{2-4-4}$$
+ 
+.. raw:: html
+
+
+     <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>a</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">板的有效工作宽度，或称为荷载有效分布宽度。 </td>
+ </tr>
+ <tr>
+ <td width="70px" align='right'  id="eqzs" > </td>
+ <td width="50px" align='right'  id="eqzs" ><i>M</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">车轮荷载产生的跨中总弯矩，可直接由结构力学方法计算得到； </td>
+ </tr>
+ <tr>
+ <td width="70px" align='right'  id="eqzs" > </td>
+ <td width="50px" align='right'  id="eqzs" ><i>m</i><sub>x,max</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">荷载中心处的最大单位宽度弯矩值，精确解需由板的空间计算得到。 </td>
+ </tr>
+ </table>
+ <p></p>
+ <body>
+
+ <style type="text/css">
+      #image2.4.4{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.4" src="../_static/fig/2-4-4.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-4  行车道板的受力状态</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.4'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.18"> [A2-4.18]</a><span id="idA2-4.18"> 基于大量的理论研究，板的有效工作宽度规定如下：</span></p>
+ 
+ <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>单向板的荷载有效分布宽度</li>
+ </ol>
+ 
+ <p style="text-align:justify;font-family:times new roman"> （1）荷载作用于跨径中间<br>对于单独一个车轮荷载[<a href="#image2.4.5">图2-4-5a）</a>]为</p>
+
+$$a=a_{1}+\\frac{l}{3}=a_{2}+2H+\\frac{l}{3},但不小于\\frac{2}{3}l\\tag{2-4-5}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>l</i>为两梁肋之间板的计算跨径，其余符号意义同前。<br>计算弯矩时，<i>l</i>=<i>l</i><sub>0</sub>+<i>t</i>≤<i>l</i><sub>0</sub>+<i>b</i>；计算剪力时，<i>l</i>=<i>l</i><sub>0</sub>。其中：<i>l</i><sub>0</sub>为板的净跨径，<i>t</i>为板的厚度，<i>b</i>为梁肋宽度。<br>对于几个靠近的相同车轮荷载，如按<a href="#ideq2-4-5">式(2-4-5)</a><span id="ideq2-4-5">计算所得各相邻荷载的有效分布宽度发生重叠时[<a href="#image2.4.5">图2-4-5b）</a>]，则</p>
+
+$$a=a_{1}+d+\\frac{l}{3}=a_{2}+2H+d+\\frac{l}{3},但不小于\\frac{2}{3}l+d\\tag{2-4-6}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>d</i>为最外两个荷载的中心距离。</p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.5{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.5" src="../_static/fig/2-4-5.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-5  单向板的荷载有效分布宽度</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.5'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"> （2）荷载作用于板的支承处</p>
+
+$$a=a_{1}+t=a_{2}+2H+t,但不小于\\frac{2}{3}l\\tag{2-4-7}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> （3）荷载作用于靠近板的支承处</p>
+
+$$a=a_{2}+2H+t+2x\\tag{2-4-8}$$
+
+.. raw:: html
+
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>x</i>——荷载离支承边缘的距离。<br>这就是说，荷载由支点处向跨中移动时，相应的有效分布宽度可近似地按45°线过渡。不同荷载位置单向板的有效分布宽度如<a href="#image2.4.5">图2-4-5c）</a>所示。</p>
+
+
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>悬臂板的荷载有效分布宽度</li>
+ </ol>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.19"> [A2-4.19]</a><span id="idA2-4.19"> 悬臂板在荷载作用下除了直接受载的板条（宽度为<i>a</i><sub>1</sub>）外，相邻板条也发生挠曲变形[<a href="#image2.4.1">图2-4-6b）</a>中<i>w</i><sub>y</sub>]而承受部分弯矩。沿悬臂根部在宽度（<i>y</i>）方向各板条的弯矩分布如<a href="#image2.4.1">图2-4-6a）</a>中<i>m</i><sub>x</sub>所示。根据弹性板理论分析，当板端作用集中力<i>P</i>时，受载板条的最大负弯矩 ，而荷载引起的总弯矩为<i>M</i><sub>0</sub>=-<i>Pl</i><sub>0</sub>。因此，按最大负弯矩值换算的有效工作宽度为：</span></p>
+
+$$a=\\dfrac{M_{0}}{m_{xmax}}=\\dfrac{-Pl_{0}}{-0.465P}=2.15l_{0}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 可见，悬臂板的有效工作宽度接近于2倍悬臂长度，荷载可近似地按45°角向悬臂板支承处分布[<a href="#image2.4.6">图2-4-6a）</a>]。</p>   
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.6{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.6" src="../_static/fig/2-4-6.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-6  悬臂板受力状态</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.6'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 《混规》（JTG 3362—2018）对悬臂板规定的荷载有效分布宽度为（<a href="#image2.4.7">图2-4-7</a>）：</p>   
+
+$$a=a_{1}+2b^{'}=a_{2}+2H+2b^{'}\\tag{2-4-9}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 对于分布荷载靠近板边的最不利情况，<i>b</i><sup>'</sup>就等于悬臂板的净跨径<i>l</i><sub>0</sub>，于是</p>   
+
+$$a=a_{1}+2l_{0}\\tag{2-4-10}$$
+
+.. raw:: html
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.7{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.7" src="../_static/fig/2-4-7.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">其中：<i>b</i><sub>1</sub>=<i>b</i><sub>2</sub>+<i>H</i><br>图2-4-7  悬臂板的荷载有效分布宽度</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.7'));</script>
+
+  </body>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.2.4">四、内力计算</a> <span id="id2.4.2.4"> </span></p>
+  <ol style="text-align:justify;font-family:times new roman" start="1">
+ <li>多跨连续单向板的内力</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.20"> [A2-4.20]</a><span id="idA2-4.20">（1）弯矩计算<br>从构造上看，行车道板与主梁梁肋是整体连接在一起的，因此当板上有荷载作用时会促使主梁也发生相应的变形，而这种变形又影响到板的内力。如果主梁的抗扭刚度极大，板的工作就接近于固端梁[<a href="#image2.4.8">图2-4-8a）</a>]，反之，如果主梁的抗扭刚度极小，板在梁肋支承处为接近自由转动的铰支座，则板的受力就如多跨连续梁体系[<a href="#image2.4.8">图2-4-8c）</a>]。实际上行车道板和主梁梁肋的支承条件，既不是固端，也不是铰支，而应该考虑是弹性固结的，如<a href="#image2.4.8">图2-4-8b）</a>所示。</span></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.8{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.8" src="../_static/fig/2-4-8.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-8  主梁扭转对行车道板受力的影响</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.8'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.21"> [A2-4.21]</a><span id="idA2-4.21"> 鉴于行车道板的受力情况比较复杂，影响的因素比较多，因此要精确计算般的内力有一定困难。通常可采用简便的近似方法进行计算。对于弯矩，先计算出一个跨径相同的简支板的跨中弯矩<i>M</i><sub>0</sub>，然后再根据经验及理论分析的数据加以修正。弯矩修正系数可视板厚<i>t</i>与梁肋高度<i>h</i>的比值来选用。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 当<i>t</i>/<i>h</i>1/4时（即主梁抗扭能力大者），有</p>
+
+$$
+\\left.\\begin{array}{l}
+M_{\\mathtt{中}}\\qquad  =+0.5 M_{0}\\\\
+M_{\\mathtt{支}}\\qquad  =-0.7 M_{0}
+\\tag{2-4-11}\\end{array}\\right\\}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 当<i>t</i>/<i>h</i>≥1/4时（即主梁抗扭能力小者），有</p>
+
+$$
+\\left.\\begin{array}{l}
+M_{\\mathtt{中}}\\qquad  =+0.7 M_{0}\\\\
+M_{\\mathtt{支}}\\qquad  =-0.7 M_{0}
+\\tag{2-4-12}\\end{array}\\right\\}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 此处，<i>M</i><sub>0</sub>为把板当作简支板时，由使用荷载引起的1m宽板跨中最大设计弯矩<i>M</i><sub>0</sub>，是<i>M</i><sub>0p</sub>和<i>M</i><sub>0g</sub>两部分的作用组合，见“作用组合的效应设计值计算”。<br><i>M</i><sub>0p</sub>为1 m宽简支板条的跨中可变作用弯矩[<a href="#image2.4.9">图2-4-9a）</a>]。对于车辆荷载，有</p>
+
+
+$$M_{\\mathrm{0p}}={1+\\mu }\\cdot \\dfrac{P_{轴}}{8a}\\left ( l-\\dfrac{b_{1}}{2}  \\right )  \\tag{2-4-13}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>P</i><sub>轴</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">轴重，对于车辆荷载应取用加载车后轴的轴重计算； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>a</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 板的有效工作宽度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>l</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">板的计算跨径；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>μ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">冲击系数，对于桥面板通常取为0.3。</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>M</i><sub>0g</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">跨中恒载弯矩，可由下式计算：</td>
+ </tr> 
+ </table>
+ <p> </p>
+
+$$M_{0g}=\\dfrac{1}{8}g l^{2}\\tag{2-4-14}$$
+
+其中，g——1m宽板条每延米的恒载重量。
+
+.. raw:: html
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.9{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.9" src="../_static/fig/2-4-9.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-9  单向板内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.9'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.23"> [A2-4.23]</a><span id="idA2-4.23"> （2）支点剪力计算<br>对于跨径内只有一个汽车车轮荷载的情况，考虑了相应的有效工作宽度后，每米板宽承受的分布荷载如<a href="#image2.4.9">图2-4-9b）</a>所示。则汽车引起的支点剪力为</span></p>
+
+ 
+$$M_{0g}=\\dfrac{1}{8}g l^{2}\\tag{2-4-15}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">其中：矩形部分荷载的合力为<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mo>以</mo><mi>p</mi><mo>=</mo><mfrac><msub><mi>P</mi><mrow><mo>轴</mo></mrow></msub><mrow><mn>2</mn><mi>a</mi><msub><mi>b</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac><mo>代入</mo><mo data-mjx-texclass="CLOSE">)</mo></mrow></math></p>
+
+$$A_{1}=pb_{1}=\\dfrac{P_{轴}}{2a}\\tag{2-4-16}$$
+
+.. raw:: html
+    
+ <p style="text-align:justify;font-family:times new roman">三角形部分荷载的合力为 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mo>以</mo><msup><mi>p</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo>=</mo><mfrac><msub><mi>P</mi><mrow><mo>轴</mo></mrow></msub><mrow><mn>2</mn><msup><mi>a</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><msub><mi>b</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac><mo>代入</mo><mo data-mjx-texclass="CLOSE">)</mo></mrow></math></p>
+
+
+$$A_{2}=\\frac{1}{2}  (p^{'}-p )\\times (a-a^{'} )=\\frac{P_{轴} }{8aa^{'} b_{1} } (a-a^{'} )^{2} \\tag{2-4-17}$$
+
+.. raw:: html
+   
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>p</i>和<i>p</i><sup>'</sup></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="650px" align='left'  id="eqzs">对应于有效工作宽度<i>a</i>和<i>a</i><sup>'</sup>处的荷载强度； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>y</i><sub>1</sub>和<i>y</i><sub>2</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">对应于荷载合力<i>A</i><sub>1</sub>和<i>A</i><sub>2</sub>的支点剪力影响线竖标值。</td>
+ </tr>
+  </tr> 
+ </table>
+  <p style="text-align:justify;font-family:times new roman"> 如跨径内不止一个车轮进入时，还应计及其他车轮的影响。<br><i>V</i><sub>支g</sub>为支点恒载剪力，可由下式计算：</p>
+
+
+$$V_{支g}=\\dfrac{1}{2}gl_{0}\\tag{2-4-18}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 支点剪力<i>V</i><sub>支</sub>是<i>V</i><sub>支g</sub>和<i>V</i><sub>支p</sub>两部分的作用组合，见“作用组合的效应设计值计算”。</p>
+ 
+ <ol style="text-align:justify;font-family:times new roman" start="2">
+ <li>铰接悬臂板的内力</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.22"> [A2-4.22]</a><span id="idA2-4.22"> 用铰接方式连接的T梁翼板其最大弯矩在悬臂根部。计算可变作用弯矩<i>M</i><sub>min,p</sub>时，最不利荷载位置是把车轮荷载对中布置在铰接处，这时铰内（也即T梁翼板端部）的剪力<i>V</i>=0、弯矩<i>M</i>=0，该受力状态与单独受力的静定T梁翼板的受力状态相同，故铰接悬臂板可按静定的T梁翼板进行受力计算，此时两相邻悬臂板各承受半个车轮荷载，即<i>P</i><sub>轴</sub>/4，如<a href="#image2.4.10">图2-4-10a）</a>所示。因此，每米宽悬臂板在根部的可变作用弯矩为：</span></p>
+
+$$M_{\\mathrm{ min,p}}=-(1+\\mu )\\dfrac{P_{轴}}{4a}\\left ( l_{0}-\\dfrac{b_{1}}{4}  \\right )  \\tag{2-4-19}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 每米板宽的恒载弯矩为</p>
+
+$$M_{\\mathrm{ min,g}}=-\\frac{1}{2}gl_{0}^{2}  \\tag{2-4-20}$$
+
+.. raw:: html
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.10{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.10" src="../_static/fig/2-4-10.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman"><i>b</i><sub>1</sub>=<i>b</i><sub>2</sub>+<i>H</i><br>图2-4-10  铰接悬臂板和悬臂板内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.10'));</script>
+
+  </body>
+
+  <p style="text-align:justify;font-family:times new roman"> 式中<i>l</i><sub>0</sub>为铰接双悬臂板的净跨径；<i>g</i>为1 m宽板条每延米的恒载重量。<br>悬臂根部1 m板宽的总弯矩是<i>M</i><sub>min,p</sub>和<i>M</i><sub>min,g</sub>两部分的作用组合。<br>悬臂根部的剪力可以偏安全地按一般悬臂板的图式计算，这里从略。</p>
+
+ <ol style="text-align:justify;font-family:times new roman" start="3">
+ <li>悬臂板的内力</li>
+ </ol>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.23"> [A2-4.23]</a><span id="idA2-4.23"> 对于沿纵缝不相连接的悬臂板，在计算根部最大弯矩时，应将车轮荷载靠板的边缘布置，此时<i>b</i><sub>1</sub>=<i>b</i><sub>2</sub>+<i>H</i>，如<a href="#image2.4.10">图2-4-10b）</a>所示。则永久作用和可变作用的弯矩值可由结构力学方法求得。<br>可变作用弯矩为：</span></p>
+
+$$M_{\\mathrm{ min,p}}=-(1+\\mu)\\cdot \\dfrac{1}{2}pl_{0}^{2}=(1+\\mu)\\cdot \\dfrac{P}{4ab_{1}}\\cdot l_{0}^{2}(b_{1}\\ge l_{0}时) \\tag{2-4-21}$$ 
+
+或
+
+$$M_{\\mathrm{ min,p}}=-(1+\\mu)\\cdot p b_{1}\\left( l_{0}-\\dfrac{b_{1}}{2}\\right)=-(1+\\mu)\\cdot \\dfrac{p}{2a} \\left( l_{0}-\\dfrac{b_{1}}{2}\\right)(b_{1} < l_{0}时) \\tag{2-4-22}$$ 
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='left'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>p=</mi><mfrac><mi>P</mi><mrow><mn>2</mn><mi>a</mi><msub><mi>b</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac></math></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="650px" align='left'  id="eqzs">汽车荷载作用在每米宽板条上的每延米荷载强度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>l</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">悬臂板的长度。</td>
+ </tr>
+  </tr> 
+ </table>
+  <p style="text-align:justify;font-family:times new roman"> 恒载弯矩（近似值）为：</p>
+
+$$M_{\\mathrm{ min,g}}=- \\dfrac{1}{2}gl_{0}^{2} \\tag{2-4-23}$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中<i>g</i>为1 m宽板条每延米的恒载重量。<br>同理，最后可得1m宽板条的最大设计弯矩是<i>M</i><sub>min,p</sub>和<i>M</i><sub>min,g</sub>两部分的作用组合。<br>剪力计算从略。</p>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.2.5">五、作用组合的效应设计值计算</a> <span id="id2.4.2.5"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.24"> [A2-4.24]</a><span id="idA2-4.24"> 计算出永久作用和可变作用内力后，进行板的承载能力验算时，按作用的基本组合求得作用效应设计值；进行正常使用验算（开裂）时，按作用的频遇组合和准永久组合求作用效应设计值。<br>[例2-4-1] 计算<a href="#image2.4.11">图2-4-11</a>所示T梁翼板所构成铰接悬臂板的设计内力。桥面铺装为5 cm的沥青混凝土面层（重度为23 kN/m³）和平均7 cm厚防水混凝土垫层（重度为24 kN/m³），T梁翼板的重度为25kN/m³。汽车荷载采用车辆荷载。</span></p>
+
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.11{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.11" src="../_static/fig/2-4-11.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-11  T梁横断面图（尺寸单位：mm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.11'));</script>
+
+ </body>
+
+
+ <p style="text-align:justify;font-family:times new roman"> 解：<br>1. 永久作用（按纵向1m宽的板条计算）<br>（1）每延米板条上恒载 的计算（<a href="#B2.4.1">表2-4-1</a>）</p>
+
+ <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                   
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                    
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                           
+      <table id="biaoge" style="font-family:times new roman">
+                           
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.1">表2-4-1 每延米板条上的恒载   </b></caption>	
+                                         
+      <tr>
+      <td width="400px" align="center" id="dhbg">沥青混凝土层面<i>g</i><sub>1</sub></td>
+      <td width="500px" align="center" id="dhbg">0.03×1.0×23kN/m=0.69kN/m</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">C25混凝土垫层<i>g</i><sub>2</sub></td>
+      <td align="center" id="dhbg">0.09×1.0×24kN/m=2.16kN/m</td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">T梁翼板自重<i>g</i><sub>3</sub></td>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mn> 0.08 </mn> <mo> + </mo> <mn> 0.14 </mn> </mrow> <mrow> <mn> 2 </mn> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mn> 1.0 </mn> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mn> 25 </mn> <mi> k </mi> <mi> N </mi> <mo> / </mo> <mi> m </mi> <mo> = </mo> <mn> 2.75 </mn> <mi> k </mi> <mi> N </mi> <mo> / </mo> <mi> m </mi> </math></td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">合计</td>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mi> g </mi> <mo> = </mo> <mo> &#x2211; <!-- n-ary summation --> </mo> <msub> <mrow> <mi> g </mi> </mrow> <mrow> <mi> i </mi> </mrow> </msub> <mo> = </mo> <mn> 5.60 </mn> <mi> k </mi> <mi> N </mi> <mo> / </mo> <mi> m </mi> </math></td>
+      </tr>
+      </table>
+ <p></p>
+ <p style="text-align:justify;font-family:times new roman"> （2）每米宽板条的恒载弯矩<i>M</i><sub>min,gk</sub>和剪力<i>V</i><sub>Agk</sub></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"> ①永久作用标准值</p>
+
+$$M_{\\mathrm{min,gk}}=- \\dfrac{1}{2}gl_{0}^{2}=-\\dfrac{1}{2}\\times5.60\\times0.71^{2}=-1.411(\\mathrm{kN\\cdot m})$$  
+$$V_{\\mathrm{Agk}}=g\\cdot l_{0}=5.60\\times0.71=3.976(\\mathrm{kN})$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ②永久作用设计值</p>
+
+$$M_{\\mathrm{ min,gk}}=\\gamma G_{1}\\cdot M_{\\mathrm{ min,gk}}=-1.693(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{Agd}}=\\gamma G_{1}\\cdot V_{\\mathrm{Agk}}=1.2\\times3.976=4.771(\\mathrm{kN})$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 2. 汽车荷载（可变作用）</p>
+ <p style="text-align:justify;font-family:times new roman"> 汽车荷载选用车辆荷载进行加载计算。将车辆的后轮作用于铰缝轴线上（参见<a href="#image2.4.11">图2-4-11</a>），后轴作用力标准值为P=140 kN，轮压分布宽度如<a href="#image2.4.12">图2-4-12</a>所示，后轮着地宽度为 <i>b</i><sub>2</sub>=0.60 m，着地长度为<i>a</i><sub>2</sub>=0.20 m，则</p>
+
+$$a_{1}=a_{2}+2H=0.20+2\\times 0.12=0.44(\\mathrm{m})$$ 
+$$b_{1}=b_{2}+2H=0.60+2\\times 0.12=0.84(\\mathrm{m})$$ 
+
+.. raw:: html
+
+ <body>
+
+ <style type="text/css">
+      #image2.4.12{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.4.12" src="../_static/fig/2-4-12.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-12  车辆荷载的计算图式（尺寸单位：m）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.12'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 荷载对于悬臂根部的有效分布宽度为</p>
+
+$$a=a_{1}+d+2l_{0}=0.44+1.4+2\\times 0.71=3.26(\\mathrm{m})$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 由规范：汽车荷载的局部加载及在T梁、箱梁悬臂板上的冲击系数采用1.3。<br>①汽车荷载标准值<br>作用于每米宽板条上的弯矩（未考虑冲击力时）为</p>
+
+$$M_{\\mathrm{min,pk}}=-\\dfrac{P\\times2}{4a}\\left ( l_{0}-\\dfrac{b_{1}}{4} \\right ) =-\\dfrac{140\\times2}{4\\times3.26}\\times\\left ( 0.71-\\dfrac{0.84}{4}  \\right )=-10.736 (\\mathrm{kN\\cdot m})$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 作用于每米宽板条上的剪力（未考虑冲击力时）为</p>
+
+$$V_{\\mathrm{Apk}}=-\\dfrac{P\times2}{4a} =\\dfrac{140\\times2}{4\\times3.26}=21.472(\\mathrm{kN})$$ 
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ②汽车荷载设计值</p>
+
+$$M_{\\mathrm{min,pd}}=\\gamma Q_{1}\\cdot \\gamma _{L}\\cdot M_{\\mathrm{min,pk}}=1.8 \\times 1.0\\times (-10.736)=-19.325(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{Apd}}=\\gamma Q_{1}\\cdot \\gamma _{L}\\cdot V_{\\mathrm{Apk}}  =1.8\\times 1.0 \\times 21.472=38.650(\\mathrm{kN})$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ③汽车荷载频遇值</p>
+
+$$M_{\\mathrm{min,pfd}}=\\psi_{f1}\\cdot  M_{\\mathrm{min,pk}}=0.7\\times (-10.736)=-7.515(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{Apfd}}=\\psi_{f1}\\cdot  V_{\\mathrm{Apk}}  =0.7\\times 21.472=15.030(\\mathrm{kN})$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ④汽车荷载准永久值</p>
+
+$$M_{\\mathrm{min,pqd}}=\\psi_{q1}\\cdot  M_{\\mathrm{min,pk}}=0.4\\times (-10.736)=-4.294(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{Apqd}}=\\psi_{q1}\\cdot  V_{\\mathrm{Apk}}  =0.4\\times 21.472=8.589(\\mathrm{kN})$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 3. 作用组合的效应设计值</p>
+
+ <p style="text-align:justify;font-family:times new roman">（1）基本组合（永久作用设计值与可变作用设计值相组合）</p>
+
+$$M_{\\mathrm{ud}}=\\gamma_{0}\\cdot [M_{\\mathrm{min,gd}}+(1+\\mu)\\cdot M_{\\mathrm{min,pd}}]=1.1\\times [(-1.693)+1.3\\times(-19.325)]=-29.497(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{ud}}=\\gamma_{0}\\cdot [V_{\\mathrm{Agd}}+(1+\\mu)\\cdot V_{\\mathrm{Apd}}]=1.1\\times(4.771+1.3\\times38.650)=60.518(\\mathrm{kN}) $$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">（2）频遇组合（永久作用标准值与汽车荷载频遇值相组合）</p>
+
+$$M_{\\mathrm{fd}}=M_{\\mathrm{min,gk}}+M_{\\mathrm{min,pfd}}=(-1.411)+(-7.515)=-8.926(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{fd}}=V_{\\mathrm{Agk}}+V_{\\mathrm{Apfd}}=3.976+15.030=19.006(\\mathrm{kN}) $$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> （3）准永久组合（永久作用标准值与汽车荷载准永久值相组合）
+
+$$M_{\\mathrm{qd}}= M_{\\mathrm{min,gk}}+M_{\\mathrm{min,pqd}}=(-1.411)+（-4.294）=-5.705(\\mathrm{kN\\cdot m})$$ 
+$$V_{\\mathrm{qd}}=V_{\\mathrm{Agk}} +V_{\\mathrm{Apqd}} =3.976+8.589=12.565(\\mathrm{kN}) $$ 
+
+
+
+
+:math:`\ `
