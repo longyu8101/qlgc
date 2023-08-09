@@ -542,16 +542,16 @@ $$
 
 
 $$
-\\displaystyle\\sum_{=1}^{\\mathrm{D}} R_1^{\\prime \\prime} a_1+\\displaystyle\\sum_{=1}^{\\mathrm{D}} M_{11}=1 \\cdot e \\tag{2-4-22}
+\\displaystyle\\sum_{i=1}^{\\mathrm{D}} R_1^{\\prime \\prime} a_1+\\displaystyle\\sum_{i=1}^{\\mathrm{D}} M_{11}=1 \\cdot e \\tag{2-4-42}
 $$
 
 .. raw:: html
 
  <p style="text-align:justify;font-family:times new roman"> 由材料力学知，简支梁考虑自由扭转时跨中截面扭矩与扭角以及竖向力与挠度的关系为：</p>
 
-$$\\varphi=\\frac{l M_{\\mathrm{T}}}{4 G I_{\\mathrm{H}}} \\tag{2-4-23a}$$
+$$\\varphi=\\frac{l M_{\\mathrm{T}}}{4 G I_{\\mathrm{H}}} \\tag{2-4-43a}$$
 
-$$\\omega_{i}^{\\prime \\prime}=\\dfrac{R_{i}^{\\prime} l^{3}}{48 E I_{\\mathrm{i}}}\\tag{2-4-23b}$$
+$$\\omega_{i}^{\\prime \\prime}=\\dfrac{R_{i}^{\\prime} l^{3}}{48 E I_{\\mathrm{i}}}\\tag{2-4-43b}$$
 
 .. raw:: html
    
@@ -1063,7 +1063,7 @@ $$\\dfrac{w_{1}(x)}{w_{2}(x)} =\\dfrac{M_{1}(x)}{M_{2}(x)} =\\dfrac{V_{1}(x)}{V_
 
  <p style="text-align:justify;font-family:times new roman"> 由材料力学的挠曲微分方程，对每片板梁均有关系式</p>
 
-$$M(x)=-EIw^{''}(x),V(x)=\frac{dM(x)}{dx} -EIw^{''}(x)$$
+$$M(x)=-EIw^{''}(x),V(x)=\\frac{dM(x)}{dx} -EIw^{''}(x)$$
 
 .. raw:: html
 

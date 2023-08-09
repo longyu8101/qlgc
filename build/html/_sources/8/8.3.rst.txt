@@ -1063,7 +1063,7 @@ $$\\dfrac{w_{1}(x)}{w_{2}(x)} =\\dfrac{M_{1}(x)}{M_{2}(x)} =\\dfrac{V_{1}(x)}{V_
 
  <p style="text-align:justify;font-family:times new roman"> 由材料力学的挠曲微分方程，对每片板梁均有关系式</p>
 
-$$M(x)=-EIw^{''}(x),V(x)=\frac{dM(x)}{dx} -EIw^{''}(x)$$
+$$M(x)=-EIw^{''}(x),V(x)=\\frac{dM(x)}{dx} -EIw^{''}(x)$$
 
 .. raw:: html
 
@@ -1174,6 +1174,7 @@ $$
  <td  align='left'  id="eqzs">外荷载p在铰接缝i处引起的竖向位移。</td>
  </tr>
  </table>
+ <p></p>
  <p style="text-align:justify;font-family:times new roman"> 如果求出了<i>δ</i><sub>ik</sub>和<i>δ</i><sub>ip</sub>，则<i>g</i><sub>i</sub>即可解得，从而计算<i>p</i><sub>i1</sub>。<br><i>δ</i><sub>ik</sub>和<i>δ</i><sub>ip</sub>的求解：<br>将铰接缝i截开，并在板的跨中取单位长度进行分析，如<a href="#image2.4.29">图2-4-29</a>所示。</p>
 
    <body>
