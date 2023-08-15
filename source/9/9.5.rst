@@ -7,5 +7,889 @@
  <h3 id="test111"> 第五节  刚架桥计算</h3>
 
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.5.5.1"> 一、门式刚架桥内力计算</a> <span id="id2.5.5.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.24"> [A2-5.24]</a><span id="idA2-5.24"> 门式刚架桥可以采用杆系单元、梁单元的有限元程序进行计算，并可以模拟实际施工顺序计算。内力计算包括结构自重计算（一期恒载＋二期恒载）；设计可变作用内力计算；混凝土收缩、徐变引起的内力计算；温度引起的内力计算以及地基不均匀沉降引起的内力计算等。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.25"> [A2-5.25]</a><span id="idA2-5.25"> 在刚构桥分析中，一般要考虑基础的柔性约束对结构的影响，通常处理的方法是首先计算基础的柔度系数（弹性约束系数），将基础约束假定为弹簧约束，计算时输入相应的弹性约束系数来模拟基础对结构的影响。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.26"> [A2-5.26]</a><span id="idA2-5.26"> 1. 计算轴线的确定<br>对于等截面梁和等厚度柱，柱的计算轴线取桥墩厚度的中分线，梁的计算轴线取平分主梁跨中截面高度的水平线。对于梁截面高度和柱的厚度变化很大的刚架桥，则以各截面高度中分点的连线作为计算图式的理论轴线。门式刚架桥的梁跨径应计算到柱轴线，柱的高度从梁轴线计算到铰支点或基础顶面，如<a href="#image2.5.30">图2-5-30</a>所示。</span></p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.5.29{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.29" src="../_static/fig/2-5-29.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-29 计算轴线示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.29'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.28"> [A2-5.28]</a><span id="idA2-5.28"> 一般情况下，确定计算轴线时不计梗肋（长度小于跨径，沿跨径方向分段设置）的作用。当梗腋较大时，可按图2-5-35所示方法确定。</span></p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.5.30{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.30" src="../_static/fig/2-5-30.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-30 梗腋轴线确定方法</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.30'));</script>
+
+  </body>
+
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.29"> [A2-5.29]</a><span id="idA2-5.29">计入梗腋时，梁的计算轴线可按等面积原则向下平移，如<a href="#image2.5.31">图2-5-31</a>所示。加大梗腋有利于增加刚架的总体刚度，减小梁的应力或截面积，考虑与不考虑梗腋作用的弯矩比较如<a href="#image2.5.32">图2-5-32</a>所示。当梗腋长度小于跨径的1/10或小于梁高的1/2时，一般不考虑梗腋的作用。</span></p>
+  <body>
+
+ <style type="text/css">
+      #image2.5.31{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.31" src="../_static/fig/2-5-31.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-31 考虑梗腋时的计算轴线</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.31'));</script>
+
+  </body> 
+
+    <body>
+
+ <style type="text/css">
+      #image2.5.32{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.32" src="../_static/fig/2-5-32.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-32  考虑与不考虑梗腋作用时的弯矩比较</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.32'));</script>
+
+  </body> 
+ 
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.30"> [A2-5.30]</a><span id="idA2-5.30"> 2. 梁柱刚度比和支承的选择<br>刚架桥弯矩与梁柱刚度比及支承构造有很大关系，选择适当的刚度比及支承方式尤为重要。当门式刚架桥水平梁的高度较小时，如果加大柱的刚度，则跨中正弯矩减小，如<a href="#image2.5.33">图2-5-33</a>所示。当梁高度较小，同时又承受较大的水平荷载作用时，固结支承构造比铰接支承构造的节点弯矩要小，如<a href="#image2.5.34">图2-5-34</a>所示。而温度变化及混凝土收缩对节点弯矩的影响，铰接支承比固结支承要小。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.5.33{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.33" src="../_static/fig/2-5-33.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-33 门式刚架桥不同梁柱刚度比的弯矩图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.33'));</script>
+
+  </body> 
+
+    <body>
+
+ <style type="text/css">
+      #image2.5.34{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.34" src="../_static/fig/2-5-34.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-34  门式刚架桥不同支承条件下的弯矩图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.34'));</script>
+
+  </body> 
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.31"> [A2-5.31]</a><span id="idA2-5.31"> 3. 截面应力计算<br>考虑梗腋作用的影响计算出内力后，可按<a href="#image2.5.35">图2-5-35a）</a>所示计算截面应力；不考虑梗腋作用的影响计算出内力后，可按<a href="#image2.5.35">图2-5-35b）</a>将弯矩图向内侧平移，计算截面应力。</span></p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.5.35{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.35" src="../_static/fig/2-5-35.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">a）考虑梗腋影响；b）不考虑梗腋影响<br>图2-5-35 节点计算弯矩</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.35'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> 梗腋起点处截面即为梁截面，根部截面不是按照实际高度计算，而是按1:3的倾角计入其“计算高度”。</p>
+ <p style="text-align:justify;font-family:times new roman"> <a href="#idA2-5.32"> [A2-5.32]</a><span id="idA2-5.32">4. 附加内力计算<br>刚架桥为超静定结构，在预加力、混凝土收缩与徐变、温度变化等因素作用下，结构将产生附加内力，可采用有限元程序进行计算，也可建立力法求解模型进行计算。以下简要介绍力法求解方法。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> <a href="#idA2-5.33"> [A2-5.33]</a><span id="idA2-5.33"> （1）预加力引起的附加内力</p>
+ <p style="text-align:justify;font-family:times new roman">对于超静定刚架桥，预加力的作用将引起二次反力，产生附加内力。例如铰接门式刚架桥，预加力的合力线如<a href="#image2.5.36">图2-5-36b）</a>所示，<a href="#image2.5.36">图2-5-36a）</a>所示为预加力的偏心弯矩。当主梁承受轴心预加力时，变形如<a href="#image2.5.37">图2-5-37a）</a>所示；当主梁承受预加力偏心弯矩时，变形如<a href="#image2.5.37">图2-5-37b）</a>所示。可见，预加力均引起向外的水平次反力，起着抵消预加力的作用。<a href="#image2.5.37">图2-5-37c）</a>表示当桥墩承受预加力偏心弯矩作用时的变形情况，此时在支承处引起向内的水水平反力。一般来说，主梁所受的张拉力较大，构件较长，因此产生的附加内力也较大，而对桥墩（柔性墩），预加力的影响较小。因此预加力的附加内力主要对主梁产生影响。</p>
+  <body>
+
+ <style type="text/css">
+      #image2.5.36{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.36" src="../_static/fig/2-5-36.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-36 门式刚架桥承受预加力作用</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.36'));</script>
+
+  </body> 
+
+    <body>
+
+ <style type="text/css">
+      #image2.5.37{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.37" src="../_static/fig/2-5-37.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-37 预加力作用下的刚架变形</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.37'));</script>
+
+  </body> 
+ <p style="text-align:justify;font-family:times new roman"> 此时，由于预加力作用所引起的二次反力为：</p>
+
+$$R=-\\Delta_{\\mathrm{Ry}}/\\delta_{\\mathrm{RR}}\\tag{2-5-1}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>Δ</i><sub>Ry</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">预加力作用时，刚构基本体系沿水平反力<i>R</i>方向的变位；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>δ</i><sub>RR</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 单位力<i>R</i>=1作用时，刚构基本体系沿水平反力<i>R</i>方向的变位。
+ </td>
+ </table>
+ <p> </p>
+ <p style="text-align:justify;font-family:times new roman">  忽略剪力对变形的影响，其计算公式为：</p>
+
+$$\\left.\\begin{array}{l}\\Delta _{\\mathrm{Ry}}=\\int\\dfrac {\\bar{M}_{\\mathrm{R}}M_{\\mathrm{y}}}{EI} ds+\\int\\dfrac {\\bar{N}_{\\mathrm{R}}N_{\\mathrm{y}}}{EA} ds\\\\
+\\delta_{\\mathrm{RR}}=\\int\\dfrac{\\bar{M}_{\\mathrm{R}}^2}{EI}ds+\\int\\dfrac{\\bar{N}_{\\mathrm{R}}^2}{EA}ds
+\\end{array}\\right\\}\\tag{2-5-2}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>M</i><sub>y</sub>,<i>N</i><sub>y</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">预加力作用时，刚构基本体系所产生的弯矩和轴力；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mrow><mrow><mi mathvariant="normal">R</mi></mrow></mrow></msub><mo>,</mo><msub><mrow><mover><mi>N</mi><mo stretchy="false">¯</mo></mover></mrow><mrow><mrow><mi mathvariant="normal">R</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 单位力<i>R</i>=1作用时，刚构基本体系所产生的弯矩和轴力。</td>
+ </tr>
+
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman"> 在实际计算中，分段数值积分是一个普遍适用的方法。假设将主梁分成<i>n</i>段，每段长度为<i>Δx</i>；将桥墩分成<i>m</i>段，每段长度为<i>Δy</i>。将<i>Δ</i><sub>Rx</sub>，<i>Δ</i><sub>Ry</sub>沿构件全长分段求和，得：</p>
+
+
+$$\\left.\\begin{array}{l}\\delta _{\\mathrm{RR}}=\\displaystyle \\sum_{i=1}^{n}\\dfrac{y_{\\mathrm{bi}}^2}{EI_{\\mathrm{bi}}}\\Delta x＋2\\displaystyle \\sum_{i=1}^{n}\\dfrac{y_{\\mathrm{ci}}^2}{EI_{\\mathrm{ci}}}\\Delta y\\\\
+\\Delta _{\\mathrm{Ry}}=-\\displaystyle \\sum_{i=1}^{n}\\dfrac{N_{\\mathrm{byi}}^2}{EA_{\\mathrm{bi}}}\\Delta x +\\displaystyle \\sum_{i=1}^{n}\\dfrac{y_{\\mathrm{bi}}M_{\\mathrm{byi}}}{EI_{\\mathrm{bi}}}\\Delta x+2\\displaystyle \\sum_{i=1}^{n}\\dfrac{y_{ci}M_{\\mathrm{cyi}}}{EI_{\\mathrm{ci}}}\\Delta y
+\\end{array}\\right\\}\\tag{2-5-3}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>N</i><sub>byi</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">主梁<i>i</i>截面所受预加力的轴向分力； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>M</i><sub>byi</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">主梁<i>i</i>截面所受预加力的偏心弯矩；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>M</i><sub>cyi</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">桥墩<i>i</i>截面所受预加力的偏心弯矩。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+$$N_{\\mathrm{byi}}=A_{\\mathrm{yi}}\\sigma_{\\mathrm{yi}}\\cos a_{\\mathrm{i}}\\tag{2-5-4}$$
+
+$$M_{\\mathrm{byi}}=e_{\\mathrm{i}}A_{\\mathrm{yi}}\\sigma_{\\mathrm{yi}}\\cos a_{\\mathrm{i}} \\tag{2-5-5}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>A</i><sub>yi</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">截面<i>i</i>的预加力钢筋面积； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>σ</i><sub>yi</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 预应力钢筋的预加力大小；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>e</i><sub>i</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">预加力的偏心距；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>a</i><sub>i</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">预应力钢筋与截面<i>i</i>相交点切线的倾角。</td>
+ </tr> 
+ </table>
+ <p> </p>
+ <p style="text-align:justify;font-family:times new roman">在实际桥梁结构设计中，可以通过调整预应力钢筋的位置，或者通过调整支点反力来消减预加力所产生的附加内力。</p>
+ <p style="text-align:justify;font-family:times new roman"> <a href="#idA2-5.34"> [A2-5.34]</a><span id="idA2-5.34"> （2）混凝土收缩引起的附加内力<br>混凝土收缩变形的变化规律为：</p>
+
+$$ \\varepsilon_{\\mathrm{st}}= \\varepsilon_{\\mathrm{sk}}(1-e^{-\\beta t})\\tag{2-5-6}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>ε</i><sub>sk</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">混凝土收缩变形的终极值（一般按温度降低15～20℃来考虑）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>β</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">表示混凝土收缩随时间增长的系数；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>t</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">从混凝土硬化时到计算收缩变形时的时间，习惯上称为龄期。</td>
+ </tr>
+ </table>
+ <p> </p>
+  <p style="text-align:justify;font-family:times new roman"> 对于拼装式的桥梁，拼装构件往往在硬化后很久才拼装、合龙成桥梁，有一部分收缩变形在合龙前已发生，这一部分收缩变形可以扣除。设桥梁合龙时混凝土的龄期为<i>τ</i>，则此时已发生的收缩变形为：</p>
+
+$$\\varepsilon _{s\\tau }=\\varepsilon _{sk}(1-e^{\\beta \\tau})\\tag{2-5-7}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 因此在合龙后混凝土的龄期为t时所长生的收缩变形为：</p>
+
+$$\\varepsilon _{s}=\\varepsilon _{st}-\\varepsilon _{s\\tau }=\\varepsilon _{sk}e^{-p\\tau}[1-e^{-p(t-\\tau)}]\\tag{2-5-8}$$
+
+.. raw:: html   
+
+ <p style="text-align:justify;font-family:times new roman"> 如果在桥梁中，各组成构件在合龙时的龄期不同，则应分别计算，或近似用平均值计算。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于钢筋混凝土桥，按温度降低15～20℃来计算收缩徐变产生的附加内力，也就是说，计算的收缩率的终极值为：</p>
+ <p style="text-align:justify;font-family:times new roman">  <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>ε</mi><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mi>a</mi><mi>t</mi><mo>=</mo><mn>15</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>∼</mo><mn>20</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 对于超静定刚架桥，混凝土的收缩将在其中产生附加内力，对于铰支门式刚架桥，由于混凝土收缩引起的水平次反力为：</p>
+
+$$R=-\\Delta _{\\mathrm{Rs}}/\\delta_{\\mathrm{RR}}\\tag{2-5-9}$$
+
+.. raw:: html
+ 
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>Δ</i><sub>Rs</sub>——由于混凝土收缩在基本体系活动支承端水平反力<i>R</i>方向所产生的位移：</p>
+
+$$\\Delta _{\\mathrm{Rs}}^{b}=\\int_{0}^{s}\\varepsilon _{s}^{b}dx \\tag{2-5-10}$$
+
+.. raw:: html
+ 
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >其中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>l</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">表示主梁长度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>b</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">表示主梁。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+
+ <p style="text-align:justify;font-family:times new roman"> 对于斜腿刚架，尚应计算斜腿收缩所引起的位移。每一斜腿收缩所产生的水平位移为：</p>
+
+$$\\Delta _{\\mathrm{Rs}}^{c}=\\int_{0}^{s}\\varepsilon _{s}^{c}\\cos \\theta ds \\tag{2-5-11}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 总位移为：</p>
+
+$$\\Delta _{\\mathrm{Rs}}=\\Delta _{\\mathrm{Rs}}^{b}+2\\Delta _{\\mathrm{Rs}}^c=\\int_{0}^{l}\\varepsilon _{s}^{b}dx+2\\int_{0}^{s}\\varepsilon _{s}^{c}\\cos \\theta ds \\tag{2-5-12}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >其中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>s</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">斜腿长度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>θ</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">斜腿倾角；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>c</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">表示斜腿。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman"> <a href="#idA2-5.35"> [A2-5.35]</a><span id="idA2-5.35"> （3）混凝土徐变引起的附加内力</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> 当体系发生转换时，混凝土的徐变才引起内力的变化并由徐变产生附加内力。<br>若主梁为整体预制，架设到桥墩上，然后再把梁柱接头整体化，体系因而发生了转换，由自重应力所产生的徐变将引起刚架桥内力重新分布，其徐变附加内力计算如下：</p>
+
+$$ M_{A}=-\\dfrac{\\theta _0^e}{\\bar{\\theta }_{AB}^e +{\\bar{\\theta }_{AC}^e }}\\left [1-e^{-(\\phi _{t}-\\phi_{\\tau})}\\right ] \\tag{2-5-13}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>θ</i><sub>0</sub><sup>e</sup></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">刚架主梁安装就位后的梁端弹性转角；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mrow><mover><mi>θ</mi><mo stretchy="false">¯</mo></mover></mrow><mrow><mi>A</mi><mi>B</mi></mrow><mrow><mi>e</mi></mrow></msubsup></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">主梁梁端作用单位力矩时所产生的梁端转角；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mrow><mover><mi>θ</mi><mo stretchy="false">¯</mo></mover></mrow><mrow><mi>A</mi><mi>C</mi></mrow><mrow><mi>e</mi></mrow></msubsup></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">柱顶作用单位力矩时所产生的柱顶端转角；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>φ</mi><mrow><mi>t</mi></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">混凝土龄期为<i>t</i>时的徐变系数；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>φ</mi><mrow><mi>τ</mi></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">将简支梁两端固结时，混凝土龄期为<i>τ</i>时的徐变系数。</td>
+ </tr>
+ </table>
+ <p> </p>
+ <p style="text-align:justify;font-family:times new roman">若主梁和桥墩为预应力构件，在梁柱整体化之前，已经张拉一部分钢筋，预应力产生的梁端和柱顶端弹性转角分别为<i>θ</i><sub>yAB</sub><sup>e</sup>和<i>θ</i><sub>yAC</sub><sup>e</sup>，则对应于徐变所产生的主梁梁端弯矩为：</p>  
+
+$$  M_{A}=(M_{A}^{0}+HR^0)[1-e^{-（\\phi_{t}-\\phi_{\\tau} ）}]\\tag{2-5-14}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>M</i><sub>A</sub><sup>0</sup></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">梁柱整体化之前施加的持久荷载作用到体系转换后的刚架（梁柱整体化之后）上，在节点处所产生的弯矩；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>R</i><sup>0</sup></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">刚构整体化（合龙）之前的预加力作用到合龙之后的结构中，在刚构支承处所引起的反力：</td>
+ </tr>
+ </table>
+ <p> </p>
+
+$$ R^0=\\dfrac{\\Delta _0^e}{\\delta_{AB}^e \\delta_{RR}^e} \\tag{2-5-15}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >其中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>Δ</i><sub>0</sub><sup>e</sup></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">简支主梁在预应力作用下产生的弹性压缩；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>δ</i><sub>AB</sub><sup>e</sup></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">简支主梁在单位轴向压力作用下的弹性压缩；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>δ</i><sub>RR</sub><sup>e</sup></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">基本体系（简支刚构）的活动支承作用一单位水平力时，由刚构主梁和墩柱弯曲所产生的支承处的水平弹性位移。</td>
+ </tr>
+  </table>
+ <p> </p> 
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.36"> [A2-5.36]</a><span id="idA2-5.36"> （4）温度变化引起的附加内力</span></p>  
+ <p style="text-align:justify;font-family:times new roman">温度变化对结构的影响是复杂的。首先，温度变化本身呈某种周期性变化，不同的材料、不同尺寸的构件、不同部位的构件对温度变化的反应不同；其次温度变化的影响往往伴随着混凝土的收缩和徐变，两者相互关联。目前，超静定混凝土桥在设计时，一般还是采用近似简化的计算方法来考虑温度变化的影响。</p>
+ <p style="text-align:justify;font-family:times new roman">温度变化对结构内力的影响可分为两种情况：一是均匀的温度变化，即全结构温度变化相同，这种温度变化会使超静定刚架产生变形而造成温度内力（附加内力），如<a href="#image2.5.38">图2-5-38</a>所示；二是不均匀的温度变化，即结构不同部位或不同构件的温度变化不同，在结构内产生了温度差，因而使结构产生变形，例如梁顶与梁底的温差使梁受弯，箱形截面内外温差使板受弯等，这种结构变形在超静定结构中会产生附加内力</p>
+ 
+     <body>
+
+ <style type="text/css">
+      #image2.5.38{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.38" src="../_static/fig/2-5-38.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-38 温度变化所产生的变形</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.38'));</script>
+
+  </body> 
+ 
+ <p style="text-align:justify;font-family:times new roman"> 对于钢筋混凝土构件，外界气温一般取一月份的平均气温作为最低温度，取七月份的平均气温作为最高温度。</p>
+ <p style="text-align:justify;font-family:times new roman"> 均匀的温度变化幅度应以结构合龙时的温度作为初始值，计算分最高计算温度和最低计算温度两种，即温度变化有升温和降温两种情况。</p>
+ <p style="text-align:justify;font-family:times new roman"> 当合龙温度较高时，降温引起的附加内力较大，其影响与混凝土收缩的影响相同，两者叠加，将产生较大的附加内力。因此，一般不宜在高温和温度变化较大时进行合龙，这是超静定结构施工的一般原则。温度变化在超静定刚架桥中引起的内力，其计算方法与混凝土收缩所产生的内力计算方法相同，只需将收缩变形代之以温度变化引起的变形。如上述门式刚架，温度变化引起的变形为：</p>   
+
+$$ \\Delta_{Rt}=(t-t_{0})a\\int\\bar{N}_{R}dx=(t-t_{0}) aL\\tag{2-5-16}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>a</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">混凝土和钢筋混凝土的线膨胀系数，可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>a</mi><mo>=</mo><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mrow><mo>/</mo></mrow><mrow><mo>℃</mo></mrow></math>；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>L</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">主梁长度；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>t</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">合龙时的计算温度；</td>
+ </tr>
+   <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>t</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">最高计算温度或最低计算温度。</td>
+ </tr>
+  </table>
+ <p> </p> 
+ <p style="text-align:justify;font-family:times new roman"> 按升温和降温分别计算后，根据最不利情况分别予以组合。<br>非均匀的温度变化主要受日照和寒流的影响，因此计算温度不能以月平均温度为准，而主要是气温剧烈变化在结构内部造成的温差。<br>在混凝土桥梁设计中，对梁顶和梁底的温差、桥墩处阴阳面的温差，在缺乏实测资料时可根据当地的实际情况，取用5～15℃的温差，并假定温度按线性分布，近似地计算非均匀温度变化所产生的附加内力。<br>例如上述门式刚架，主梁顶面和底面的温差在结构基本体系支点所产生的水平位移为：</p>
+
+$$ \\Delta _{Rt}^{'}=\\Delta ta\\int\\dfrac{\\bar{M}_{R}}{h_{bi}}dx=\\Delta tHaL\\displaystyle \\sum_{i=1}^{n}\\dfrac{1}{h_{bi}}\\tag{2-5-17}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>H</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">桥墩高度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>h</i><sub>bi</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">主梁各分段的中点高度。</td>
+ </tr>
+  </table>
+ <p> </p> 
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.5.5.2"> 二、斜腿刚架桥内力计算</a> <span id="id2.5.5.2"> </span></p>
 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.37"> [A2-5.37]</a><span id="idA2-5.37"> 1. 计算模型<br>固支斜腿刚架桥属五次超静定结构，梁、腿截面均为变高度的，一般采用有限元程序完成结构内力分析。计算模型除斜腿为斜置单元外，其他均与三跨连续刚构桥相同，即对隅节点处，采用刚臂单元，如图2-5-44所示。单元的划分一般要结合所采用的施工方案统筹考虑，例如设备起吊能力、保证斜腿左右侧悬臂梁的受力基本平衡等。</span></p>  
+
+ <body>
+
+ <style type="text/css">
+      #image2.5.39{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.39" src="../_static/fig/2-5-39.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-39  斜腿刚架桥的单元划分示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.39'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.38"> [A2-5.38]</a><span id="idA2-5.38"> 2. 永久作用内力计算<br>永久作用内力计算与所采用的施工方法密切相关，以<a href="#image2.5.40">表2-5-1</a>所示的悬臂拼装法概述其计算要点。</span></p>  
+ <p style="text-align:justify;font-family:times new roman"> （1）阶段1：在支架上现浇斜腿及角隅节点单元<br>首先修建临时桥墩和搭设临时支架，并要求这些临时设施在整个施工过程中具有侧向稳定性，使临时墩墩顶上的临时支座承受主竖向力。该阶段斜腿结构接近于无应力状态。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）阶段2：平衡悬臂拼装<br>首先拆除临时支架及模板，保证临时墩的稳定性，应用悬臂吊机将预制的主梁节段从刚臂两端逐段地、对称悬臂拼装，并在接缝中灌注砂浆，待混凝土达到设计强度后，张拉预应力钢筋。该阶段属于静定结构体系，预加力不会使结构产生附加内力。</p>
+ <p style="text-align:justify;font-family:times new roman"> （3）阶段3：合龙阶段<br>所有悬臂拼装梁段结束后，吊装合龙梁段，在接缝中灌注砂浆，待混凝土达到设计强度后，张拉预应力钢筋，使结构由静定体系转换为三次超静定体系，此时应计入以下荷载：</p>
+ <p style="text-align:justify;font-family:times new roman"> ①使刚架形成三次超静定结构时所施加的预加力；<br>②合龙梁段的自重；<br>③吊机退出后的卸载重力；<br>④拆除临时墩时，从临时支点转加到梁上的反力；<br>⑤其他临时施工设备重力等。</p>
+ <p style="text-align:justify;font-family:times new roman"> （4）阶段4：二期恒载施工<br>如果斜腿下支点不进行封固处理，则按三次超静定结构体系分析二期恒载产生的内力。</p>
+ <p style="text-align:justify;font-family:times new roman"> （5）阶段5：斜腿下支点固结处理<br>按照设计设置补充构造钢筋，然后立模浇筑混凝土，使结构由三次超静定转换到五次超静定，以承担后期各种汽车荷载产生的内力。</p>    
+
+ <body>
+
+ <style type="text/css">
+      #image2.5.40{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.40" src="../_static/fig/2-5-40.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman"> </p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.40'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.39"> [A2-5.39]</a><span id="idA2-5.39">斜腿刚架桥采用其他施工方法，如满堂支架法、悬臂浇筑法等，其计算步骤基本类似，结合具体情况进行拟定。由于结构受力类似于连续梁桥和连续刚构桥，结构内力、附加内力及其应力计算与验算可参考连续梁桥和连续刚构桥相关内容。</span></p>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.40"> [A2-5.40]</a><span id="idA2-5.40"> 斜腿固结的刚架桥温度应力不容忽视，在主孔、副孔中部和腿趾等截面上尤其明显。通常，计入温度内力的组合弯矩（M<sub>恒+活+温度</sub>）是不计温度内力的组合弯矩（M<sub>恒+活</sub>）的1.5～4倍，而成为控制内力。在温度均匀变化的情况下，主孔与斜腿组合类似于拱圈，温度下降使得跨中轴向力为负、弯矩为正，腿趾处弯矩为负等，但数值要大于拱结构内力数值。均匀升温时，副孔产生正弯矩，均匀降温时，副孔产生负弯矩，但基本上无异号弯矩截面。在桥面上缘升温、下缘降温时的温差内力作用下，轴向力不大，弯矩表现为：副孔与斜腿部分与均匀升温时的弯矩同号，主孔与均匀降温的弯矩同号；与均匀升温内力叠加后，使副孔和腿趾出现最大温度内力；与均匀降温内力叠加后，又使主孔出现最大温度内力。因此，在进行结构内力计算或荷载组合时，尤其注意温度内力的影响。部分截面配筋往往受温度引起的内力影响而成为控制截面。同时，考虑混凝土后期收缩与桥面存在水平位移引起的内力，通常预应力张拉引起的二次矩产生反向有利影响，综合考虑，预应力钢筋的配置需要多次调整才能最后确定。</span></p>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.41"> [A2-5.41][拓展小知识2-4] </a><span id="idA2-5.41">  跨线立交桥</span></p>  
+ <p style="text-align:justify;font-family:times new roman"> 对于中、小跨径的跨线立交桥，公路跨线桥常采用门式刚架桥，铁路跨线桥常采用框架桥，在相同跨径、相同均布荷载作用下进行分析，两者的角隅节点、基顶截面、侧墙等受力是不同的，因此导致相应截面尺寸和配筋不同。门式刚架桥不设底板，节省材料，但对地基承载力要求较高；框架桥整体性好，抗地基变形能力强，造价较门式刚架桥高。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.42"> [A2-5.42][学习提示]</a><span id="idA2-5.42"> </span></p>  
+ <p style="text-align:justify;font-family:times new roman"> 刚架桥的设计可参照相应梁桥的设计方法，不同的是：角隅节点设计、减小墩底水平推力所采取的措施。<br>刚架桥为超静定结构（除T形刚构外，T形刚构目前已少采用），预加力、混凝土收缩和徐变、温度变化以及基础不均匀沉降等因素将引起结构附加内力，因此，除进行永久作用内力计算、可变作用内力计算外，还应进行附加内力的计算。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.43"> [A2-5.43][思考与练习] </a><span id="idA2-5.43">  </span></p>  
+ <p style="text-align:justify;font-family:times new roman"> 1. 门式刚架桥柱（或竖墙）的支承方式不同将导致结构受力发生怎样变化？<br>2. 绘制受力示意图分析门式刚架桥角隅节点受力。<br>3. 目前在新设计的桥梁中，为什么较少采用T形刚构桥？</p>
+
+
+:math:`\ `

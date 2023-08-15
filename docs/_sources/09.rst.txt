@@ -19,8 +19,82 @@
  
  
  <h3 id="test111">第一节  刚架桥与刚构桥的特点</h3>
- <p style="text-align:justify;font-family:times new roman"><a href="#id2.5.1.1">1.刚架桥特点</a> <span id="id2.5.1.1"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#id2.5.1.2"> 2. 刚构桥特点</a> <span id="id2.5.1.2"> </span></p>
 
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.5.1.1">1.刚架桥特点</a> <span id="id2.5.1.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.1"> [A2-5.1]</a><span id="idA2-5.1"> 刚架桥是上部结构（主梁及桥面系）与下部结构（立柱或立墙）固接成整体，状如框架的桥梁。主梁直接承受荷载，并将荷载传至立柱（或立墙）；立柱代替了桥墩（台）将荷载传递到基础上，再传至地基（<a href="#image2.5.1">图2-5-1</a>）。主梁与立柱除承受弯矩、剪力外，还要承受轴向力（<a href="#image2.5.2">图2-5-2</a>），多采用钢筋混凝土或预应力混凝土建造。刚架桥的角隅节点（梁与立柱结合部）会产生负弯矩[<a href="#image2.5.2">图2-5-2b）</a>]，可减小主梁的跨中正弯矩，降低建筑高度，用料省，很适用于立交跨线桥等。在竖向荷载作用下，刚架桥柱脚处将产生水平推力，对地基要求高。钢筋混凝土刚架桥的主梁与立柱一般要求就地浇筑成整体，装配化程度不高。刚架桥按柱脚与基础的联结方式分为固结支承刚架桥[<a href="#image2.5.2">图2-5-2c）</a>]、铰接支承刚架桥[<a href="#image2.5.2">图2-5-2d）</a>]等。</span></p>
+ 
+    <body>
+
+ <style type="text/css">
+      #image2.5.1{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.1" src="./_static/fig/2-5-1.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-1  门式刚架桥荷载传递路径（固结支承）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.1'));</script>
+
+  </body>
+
+     <body>
+
+ <style type="text/css">
+      #image2.5.2{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.2" src="./_static/fig/2-5-2.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-2  门式刚架桥构件受力</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.2'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.2"> [A2-5.2]</a><span id="idA2-5.2"> 将传统刚架桥中的直腿改为斜腿即成为斜腿刚架桥（<a href="#image2.5.3">图2-5-3</a>）。斜腿不仅分担梁部弯矩，而且对中跨主梁提供压力，使主梁从纯弯构件变成偏心受压构件，故斜腿刚架桥力学性能比传统梁桥优越。从梁的形态和力学角度看，两斜腿与中跨主梁近似构成“折线拱结构”，力学行为呈现拱的偏心受压特点。但斜腿刚架桥构件中的压力线（特别是恒载压力线）偏离构件形心线较大，截面会产生较大弯矩，更趋近梁的受力特点。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.3"> [A2-5.3]</a><span id="idA2-5.3"> 相同跨径（柱脚至柱脚）时，斜腿刚架桥比门式刚架桥的主梁短、梁高低；相同主梁长度时，斜腿刚架桥比门式刚架桥跨径更大。所以，门式刚架桥适用于桥高较低的小跨径跨线桥，混凝土结构斜腿刚架桥适用于中等跨径跨线、跨谷桥，钢结构斜腿刚架桥适用于大跨径跨线、跨河、跨谷桥等。</span></p>
+ 
+    <body>
+
+ <style type="text/css">
+      #image2.5.3{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.3" src="./_static/fig/2-5-3.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-3  斜腿刚架桥</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.3'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.5.1.2"> 2. 刚构桥特点</a> <span id="id2.5.1.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.4"> [A2-5.4]</a><span id="idA2-5.4"> 刚构桥是墩梁固结，桥墩均是桥跨结构的有机组成部分。设计荷载作用下，桥跨结构均产生不同程度的水平推力（带挂梁T形刚构桥除外）。刚构桥类型分为T形刚构桥和连续刚构桥。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.5"> [A2-5.5]</a><span id="idA2-5.5"> T形刚构桥是一种具有悬臂受力特点的梁桥，带剪力铰的T形刚构桥[<a href="#image2.5.4">图2-5-4a）</a>]采用悬臂施工时是一种在一期恒载作用下为静定结构、二期恒载和可变作用下为超静定结构，剪力铰是一种只传递竖向剪力而不传递纵向水平力和弯矩的连接构造；当在一个T构结构单元上作用有竖向荷载时，相邻的T构单元通过剪力铰共同参与受力。从结构整体受力和牵制悬臂端的变形分析，剪力铰对T形刚构桥的内力起到有利作用。带剪力铰的T形刚构桥由于温度变化、混凝土收缩徐变和基础不均匀沉降等因素的作用会使结构内产生附加内力。带挂梁的T形刚构桥[<a href="#image2.5.4">图2-5-4b）</a>]是一种静定结构，充分发挥了结构在营运和施工中受力一致的独特优点，与带剪力铰的T形刚构相比，受力明确，在温度变化、混凝土收缩徐变和基础不均匀沉降等因素作用下不会产生附加内力。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.6"> [A2-5.6]</a><span id="idA2-5.6"> 钢筋混凝土T形刚构桥在负弯矩作用下，梁顶截面容易开裂；预应力混凝土T形刚构桥很好地克服了梁顶截面开裂问题。带剪力铰的T形刚构桥，剪力铰结构复杂、用钢量多，铰和梁的刚度差异引起结构变形不协调，并且悬臂端因塑性变形产生的挠度不易调整，致使桥面不平顺，导致行车不舒适。带挂梁的T形刚构桥，构造简单，当挂梁与多孔引桥简支跨的尺寸相同时，能加快全桥施工进度，从而获得更高的经济效益，但需设置受力复杂的牛腿构造，桥面伸缩缝多，牛腿疲劳剪切破坏的风险也很高。挂梁跨中处挠度为T形刚构悬臂端挠度再叠加上简支挂梁的挠度，变形较大，对高速行车不利。</span></p>
+
+   <body>
+
+ <style type="text/css">
+      #image2.5.4{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.5.4" src="./_static/fig/2-5-4.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-5-4  T形刚构桥</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.5.4'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-5.7"> [A2-5.7]</a><span id="idA2-5.7"> 为了克服T形刚构悬臂端下挠、减少桥面伸缩缝，改善行车舒适度，将多跨T形刚构设计成连续结构，则形成连续刚构桥。连续刚构桥一般应用于高墩大跨度桥梁，由于连续刚构桥在设计、施工等方面与连续梁桥有许多相似之处，故将连续刚构桥与连续梁桥共同纳入本篇“第六章 连续体系梁桥”进行详细介绍。</span></p>
  
 

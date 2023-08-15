@@ -19,6 +19,7 @@
         <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
@@ -103,11 +104,320 @@
 <h1>第五节  横隔梁内力计算<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
 <h3 id="test111"> 第三节  组合梁桥</h3>
 
-<p style="text-align:justify;font-family:times new roman"><a href="#idA2.100"> [A2.100]</a><span id="idA2.100"> 为了保证各主梁共同受力和加强结构的整体性，横隔梁本身或其装配式接头应具有足够的强度。对于具有多根内横隔梁的桥梁，通常只计算受力最大的跨中横隔梁的内力，其他横隔梁可偏安全地仿此设计。对于纵、横向由主梁和横隔梁组成的梁格结构，要精确分析横隔梁的内力是十分冗繁而复杂的，为简化计算，可根据主梁计算采用的偏心压力法原理和比拟正交异性板法原理来计算横隔梁的内力。<br>下面将介绍按偏心压力法原理计算横隔梁内力的实用方法。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.71"> [A2-4.71]</a><span id="idA2-4.71"> 为了保证各主梁共同受力和加强结构的整体性，横隔梁本身或其装配式接头应具有足够的强度。对于具有多根内横隔梁的桥梁，通常只计算受力最大的跨中横隔梁的内力，其他横隔梁可偏安全地仿此设计。对于纵、横向由主梁和横隔梁组成的梁格结构，要精确分析横隔梁的内力是十分冗繁而复杂的，为简化计算，可根据主梁计算采用的偏心压力法原理和比拟正交异性板法原理来计算横隔梁的内力。<br>下面将介绍按偏心压力法原理计算横隔梁内力的实用方法。</span></p>
 
 <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.1"> 一、作用在横隔梁上的计算荷载</a> <span id="id2.4.5.1"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.72"> [A2-4.72]</a><span id="idA2-4.72"> 对于跨中一根横隔梁来说，除了直接作用在其上的轮重外，前后的轮重对横隔梁也有影响。在计算中可假设荷载在相邻横隔梁之间按杠杆原理法传递，如<a href="#image2.4.54">图2-4-54</a>所示。计算时可按布置车辆荷载进行计算[<a href="#image2.4.54">图2-4-54a）</a>]，或按布置车道荷载进行计算[<a href="#image2.4.54">图2-4-54b）</a>]，取两者中控制者进行结构计算。</span></p><p>$$\hspace{-10cm}布置车辆荷载时： P_{\mathrm{oq}}=\dfrac{1}{2}\sum P_{\mathrm{i}}cdot y_{\mathrm{i}}\tag{2-4-88}$$
+$$\hspace{-5cm}布置车道荷载时： P_{\mathrm{oq}}=\dfrac{1}{2}(P_{\mathrm{K}}\cdot 1+q_{\mathrm{K}}\cdot\Omega )=\dfrac{1}{2}(P_{\mathrm{K}}\cdot 1+q_{\mathrm{K}}l_{\mathrm{a}})\tag{2-4-89}$$</p>
+ <body>
+<style type="text/css">
+     #image2.4.54{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.4.54" src="../_static/fig/2-4-54.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-54  作用在中横隔梁上的计算荷载</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.54'));</script>
+
+</body>
+
+<p style="text-align:justify;font-family:times new roman"> 同理：</p><p>$$\hspace{-7cm} 人群：P_{\mathrm{or}}=P_{\mathrm{or}}\cdot \Omega_{\mathrm{r}}=P_{\mathrm{or}}l_{\mathrm{a}}\tag{2-4-90}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>P</i><sub>or</sub></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">相应一侧人行道每延米的人群荷载； </td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>Ω</i><sub>r</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">相应人群荷载范围的影响线面积；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>l</i><sub>a</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">横隔梁的间距；</td>
+</tr>
+ </table>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;其余符号意义同前。</p>
+
 <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.2"> 二、横隔梁的内力影响线</a> <span id="id2.4.5.2"> </span></p>
-<p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.3"> 三、横隔梁内力计算</a> <span id="id2.4.5.3"> </span></p></section>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.73"> [A2-4.73]</a><span id="idA2-4.73"> 将桥梁的中横隔梁近似地视作竖向支承在多根弹性主梁上的多跨弹性支承连续梁，如<a href="#image2.4.55">图2-4-55</a>所示。当桥梁在跨中有单位荷载<i>P</i>=1作用时，各主梁所受的荷载将为<i>R</i><sub>1</sub>、<i>R</i><sub>2</sub>、<i>R</i><sub>3</sub>……、<i>R</i><sub>n</sub>，这也就是横隔梁的弹性支承反力。因此，取<i>r</i>截面左侧为隔离体，如<a href="#image2.4.55">图2-4-55c）</a>）所示，由力的平衡条件就可写出横隔梁任意截面<i>r</i>的内力计算公式。</span></p>
+
+  <body>
+<style type="text/css">
+     #image2.4.55{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.4.55" src="../_static/fig/2-4-55.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-55  横隔梁计算图式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.55'));</script>
+
+</body>
+
+
+<p style="text-align:justify;font-family:times new roman"> （1）荷载<i>P</i>=1位于截面<i>r</i>的左侧时：</p><p>$$\left.\begin{align}&amp;M_{\mathrm{r}}=R_1 \cdot b_1 +R_2 \cdot b_2-1 \cdot e=\sum^{左}R_{\mathrm{i}}b_{\mathrm{i}}-e\\
+&amp;\Omega_{\mathrm{r}}=R_1+R_2-1=\displaystyle \sum^{左}R_{\mathrm{i}}-1\end{align}\right\}\tag{2-4-91}$$</p>
+<p style="text-align:justify;font-family:times new roman"> （2）荷载<i>P</i>=1位于截面<i>r</i>的右侧时：</p><p>$$\left.\begin{align}&amp;M_{\mathrm{r}}=R_1 \cdot b_1 +R_2 \cdot b_2=\sum^{左}R_{\mathrm{i}}b_{\mathrm{i}}\\
+&amp;V_{\mathrm{r}}=R_1+R_2=\displaystyle \sum^{左}R_{\mathrm{i}}\end{align}\right\}\tag{2-4-92}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="100px" align='right'  id="eqzs" ><i>M</i><sub>r</sub>和<i>V</i><sub>r</sub></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">横隔梁任意截面的弯矩和剪力； </td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>e</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">荷载P=1至所求截面的距离；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>b</i><sub>i</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">支承反力<i>R</i><sub>i</sub>至所求截面的距离；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><mo data-mjx-texclass="OP">∑</mo><mrow><mo>左</mo></mrow></mover><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow></msub></math></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">表示涉及所求截面以左的全部支承反力的总和。</td>
+</tr>
+ </table>
+<p> </p>
+
+
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.74"> [A2-4.74]</a><span id="idA2-4.74"> 由此，可以直接利用已经求得的<i>R</i><sub>i</sub>的横向影响线来绘制横隔梁上某个截面的内力影响线。<a href="#image2.4.56">图2-4-56</a>示出了按偏心压力法计算的横隔梁支承反力<i>R</i>、弯矩<i>M</i>和剪力<i>V</i>的影响线。鉴于<i>R</i><sub>i</sub>影响线呈直线规律变化，故绘制内力影响线时只需要标出几个控制点的竖坐标值。对于非直接作用于横隔梁上的荷载，在计算内力时实际上应考虑间接传力的影响，例如<a href="#image2.4.56">图2-4-56</a>中<i>M</i><sub>3-4</sub>影响线在3号梁和4号梁之间区段应取虚线之值。但鉴于计算中主要荷载作用于横隔梁上，为了简化起见，仍可偏安全地忽略间接传力的影响。</span></p>
+
+   <body>
+<style type="text/css">
+     #image2.4.56{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.4.56" src="../_static/fig/2-4-56.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-56  按偏心压力法计算的横隔梁的R、M、V影响线</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.56'));</script>
+
+</body>
+
+
+
+
+<p style="text-align:justify;font-family:times new roman"><a href="#id2.4.5.3"> 三、横隔梁内力计算</a> <span id="id2.4.5.3"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.75"> [A2-4.75]</a><span id="idA2-4.75"> 用上述的计算荷载在横隔梁某截面的内力影响线上按最不利位置加载，就可求得横隔梁在该截面上的最大（或最小）内力值，即</span></p><p>$$S=(1+\mu)\cdot \xi \cdot P_{\mathrm{0q}}\sum \eta\tag{2-4-93}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>η</i></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">横隔梁内力影响线竖标；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" >1+<i>μ</i>和<i>ξ</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">近似地取用主梁的冲击系数1+<i>μ</i>和<i>ξ</i>值；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>P</i><sub>0q</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">作用于横隔梁上的汽道荷载，采用式（2-4-88）或式（2-4-89）计算。</td>
+</tr>
+ </table>
+<p> </p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.76"> [A2-4.76]【例2-4-9】</a><span id="idA2-4.76"> 用偏心压力法计算[例2-4-3]中所示装配式钢筋混凝土简支梁桥跨中横隔梁在汽车荷载作用下的弯矩<i>M</i><sub>2-3</sub>和剪力<i>V</i><sub>1</sub><sup>右</sup>。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 已知：公路—Ⅰ级，均布荷载<i>q</i><sub>k</sub>=10.5 kN/m ；集中荷载<i>p</i><sub>k</sub> ：计算弯矩效应时<i>p</i><sub>k</sub>=2（<i>L</i><sub>0</sub>+130）=299（kN），计算剪力效应时<i>p</i><sub>k</sub>=1.2×299=358.80（kN）。</p>
+ <p style="text-align:justify;font-family:times new roman"> [解]<br>1. 确定作用在中横隔梁上的计算荷载<b>对于跨中横隔梁的最不利荷载布置如<a href="#image2.4.57">图2-4-57</a>所示。</p>
+
+   <body>
+<style type="text/css">
+     #image2.4.57{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.4.57" src="../_static/fig/2-4-57.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-57  跨中横隔梁的受载图式（尺寸单位：mm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.57'));</script>
+
+</body>
+
+<p style="text-align:justify;font-family:times new roman"> 纵向一行车轮对横隔梁的计算荷载为：</p><p>$$P_{\mathrm{od}}=\dfrac{1}{2}(P_{\mathrm{k}}\cdot 1 +q_{\mathrm{k}}\cdot \Omega )=\dfrac{1}{2}(P_{\mathrm{k}}\cdot 1 +q_{\mathrm{k}}l_{\mathrm{a}})$$</p>
+<p style="text-align:justify;font-family:times new roman"> 计算弯矩效应时：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>P</mi><mrow><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>299</mn><mo>×</mo><mn>1</mn><mo>+</mo><mn>10.5</mn><mo>×</mo><mn>4.85</mn><mo stretchy="false">)</mo><mo>=</mo><mn>174.96</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi></mrow></math></p>
+<p style="text-align:justify;font-family:times new roman"> 计算剪力效应时：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>P</mi><mrow><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>358.80</mn><mo>×</mo><mn>1</mn><mo>+</mo><mn>10.5</mn><mo>×</mo><mn>4.85</mn><mo stretchy="false">)</mo><mo>=</mo><mn>204.86</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi></mrow></math></p>
+<p style="text-align:justify;font-family:times new roman">  2. 绘制中横隔梁的内力影响线<br>在例2-4-3中已经算得1号梁的横向影响线坐标值为：</p><p>$$\eta_{11}=0.60,\eta_{15}=0.20$$</p>
+<p style="text-align:justify;font-family:times new roman"> 同理可算得2号梁和3号梁的横向影响线坐标值为：</p><p>$$\eta_{21}=0.40,\eta_{25}=0$$
+$$\eta_{31}=0.20,\eta_{35}=0.20$$</p>
+<p style="text-align:justify;font-family:times new roman"> （1）绘制弯矩影响线<br>对于2号梁和3号梁之间截面的弯矩<i>M</i><sub>2-3</sub>影响线可计算如下：<br> <i>P</i>=1作用在1号梁轴上时：</p><p>$$\begin{array}{l}\eta_{(2-3)1}^{\mathrm{M}}&amp;=\eta_{11}\times 1.5d+\eta_{21}\times 0.5d-1\times 1.5d\\
+&amp;=0.60\times 1.5\times 1.60+0.40\times 0.5\times 1.60-1.5 \times 1.60\\
+&amp;=-0.64
+\end{array}$$</p>
+<p style="text-align:justify;font-family:times new roman"> <i>P</i>=1作用在5号梁轴上时：</p><p>$$\begin{array}{l}\eta_{(2-3)5}^{\mathrm{M}}&amp;=\eta_{15}\times 1.5d+\eta_{25}\times 0.5d\\
+&amp;=(-0.20)\times 1.5\times 1.60+0\times 0.5\times 1.60\\
+&amp;=-0.48
+\end{array}$$</p>
+<p style="text-align:justify;font-family:times new roman"> <i>P</i>=1作用在3号梁轴上时：</p><p>$$\begin{array}{l}\eta_{(2-3)3}^{\mathrm{M}}&amp;=\eta_{13}\times 1.5d+eta_{23}\times 0.5d\\
+&amp;=0.20\times 1.5\times 1.60+0.20\times 0.5\times 1.60\\
+&amp;=0.64
+\end{array}$$</p>
+<p style="text-align:justify;font-family:times new roman">  有了此三个竖标值和已知影响线折点位置（即所计算截面的位置），就可绘出<i>M</i><sub>2-3</sub>影响线如<a href="#image2.4.58">图2-4-58a）</a>所示。</p>
+<p style="text-align:justify;font-family:times new roman">  （2）绘制剪力影响线<br>对于1号主梁处截面的<i>V</i><sub>1</sub><sup>右</sup>影响线可计算如下：</p>
+<p style="text-align:justify;font-family:times new roman"> <i>P</i>=作用在计算截面以右时：</p>
+<p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><msubsup><mi>V</mi><mrow><mn>1</mn></mrow><mrow><mo>右</mo></mrow></msubsup><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mo>,</mo><mo>即</mo><msubsup><mi>η</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">i</mi></mrow></mrow><mrow><msup><mi>V</mi><mrow><mo>右</mo></mrow></msup></mrow></msubsup><mo>=</mo><msub><mi>η</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">i</mi></mrow></mrow></msub><mo>（就是</mo><mn>1</mn><mo>号梁荷载横向影响线）</mo></math> </p>
+<p style="text-align:justify;font-family:times new roman"> <i>P</i>=作用在计算截面以右时：</p>
+<p style="text-align:justify;font-family:times new roman">  <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>V</mi><mrow><mn>1</mn></mrow><mrow><mo>右</mo></mrow></msubsup><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mo>,</mo><mo>即</mo><msubsup><mi>η</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">i</mi></mrow></mrow><mrow><msup><mi>V</mi><mrow><mo>右</mo></mrow></msup></mrow></msubsup><mo>=</mo><msub><mi>η</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">i</mi></mrow></mrow></msub><mo>−</mo><mn>1</mn></math></p>
+<p style="text-align:justify;font-family:times new roman"> 绘成的<i>V</i><sub>1</sub><sup>右</sup>影响线如<a href="#image2.4.58">图2-4-58b）</a>所示。</p>
+
+    <body>
+<style type="text/css">
+     #image2.4.58{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.4.58" src="../_static/fig/2-4-58.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-58  中横隔梁内力影响线（尺寸单位：mm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.58'));</script>
+
+</body>
+
+<p style="text-align:justify;font-family:times new roman"> 3、截面内力计算</p>
+<p style="text-align:justify;font-family:times new roman"> 将求得的计算荷载<i>P</i><sub>oq</sub>在相应的影响线上按最不利荷载位置加载，并计入汽车冲击力影响（近似地取用主梁的冲击系数，本例中（1+μ）=1.30），则得：</p><p>$$\hspace{-6cm}\begin{array}{l}弯矩标准值：M_{\mathrm{(2-3)k}}&amp;=(1+\mu)\cdot \xi \cdot P_{\mathrm{0q}}\sum\eta\\
+&amp;=1.30 \times 1.0 \times 174.96\times(0.92+0.29)\\
+&amp;=275.212(\mathrm{kN\cdot m})
+\end{array}$$</p>
+<p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>弯矩设计值：</mo><msub><mi>M</mi><mrow><mrow><mo>（</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo>））</mo><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>γ</mi><mrow><mrow><msub><mi mathvariant="normal">Q</mi><mn>1</mn></msub></mrow></mrow></msub><mo>⋅</mo><msub><mi>γ</mi><mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow></msub><mo>⋅</mo><msub><mi>M</mi><mrow><mrow><mo>（</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo>）</mo><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>1.4</mn><mo>×</mo><mn>1.0</mn><mo>×</mo><mn>275.212</mn><mo>=</mo><mn>385.297</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mo>⋅</mo><mi mathvariant="normal">m</mi></mrow><mo stretchy="false">)</mo></math></p><p>$$
+\hspace{-3cm}\begin{array}{l}弯矩标准值: V_{\mathrm{1k}}^右&amp;=(1+\mu)\cdot \xi \cdot P_{\mathrm{0q}}\sum\eta\\
+&amp;=1.30 \times 1.0 \times 204.86\times(0.575+0.350+0.188-0.038)\\
+&amp;=286.292(\mathrm{kN\cdot m})
+\end{array}
+$$</p>
+<p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>剪力设计值：</mo><msubsup><mi>V</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">d</mi></mrow></mrow><mo>右</mo></msubsup><mo>=</mo><msub><mi>γ</mi><mrow><mrow><msub><mi mathvariant="normal">Q</mi><mn>1</mn></msub></mrow></mrow></msub><mo>⋅</mo><msub><mi>γ</mi><mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow></msub><mo>⋅</mo><msubsup><mi>V</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">k</mi></mrow></mrow><mo>右</mo></msubsup><mo>=</mo><mn>1.4</mn><mo>×</mo><mn>1.0</mn><mo>×</mo><mn>286.292</mn><mo>=</mo><mn>400.809</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi></mrow><mo stretchy="false">)</mo></math></p>
+<p style="text-align:justify;font-family:times new roman"> 鉴于横隔梁的恒载内力甚小，计算中可略去不计，则按承载能力极限状态设计时，基本组合的荷载效应设计值为：</p>
+<p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>弯矩效应设计值：</mo><msub><mi>V</mi><mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">x</mi><mo>,</mo><mo stretchy="false">(</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo stretchy="false">)</mo><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo>=</mo><msub><mi>γ</mi><mn>0</mn></msub><mo>⋅</mo><mo stretchy="false">(</mo><mn>0</mn><mo>+</mo><msub><mi>V</mi><mrow><mrow><mo stretchy="false">(</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo stretchy="false">)</mo><mi mathvariant="normal">d</mi></mrow></mrow></msub><mo stretchy="false">)</mo><mo>=</mo><mn>1.1</mn><mo>×</mo><mo stretchy="false">(</mo><mn>0</mn><mo>+</mo><mn>385.297</mn><mo stretchy="false">)</mo><mo>=</mo><mn>423.826</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">kN·m</mi></mrow><mo stretchy="false">)</mo></math></p>
+<p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>剪力效应设计值：</mo><msubsup><mi>V</mi><mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">x</mi><mo>,</mo><mn>1</mn><mi mathvariant="normal">d</mi></mrow></mrow><mrow><mo>右</mo></mrow></msubsup><mo>=</mo><msub><mi>γ</mi><mn>0</mn></msub><mo>⋅</mo><mo stretchy="false">(</mo><mn>0</mn><mo>+</mo><msubsup><mi>V</mi><mrow><mrow><mn>1</mn><mi mathvariant="normal">d</mi></mrow></mrow><mrow><mo>右</mo></mrow></msubsup><mo stretchy="false">)</mo><mo>=</mo><mn>1.1</mn><mo>×</mo><mo stretchy="false">(</mo><mn>0</mn><mo>+</mo><mn>400.809</mn><mo stretchy="false">)</mo><mo>=</mo><mn>440.890</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi></mrow><mo stretchy="false">)</mo></math></p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.77"> [A2-4.77][拓展小知识2-3] </a><span id="idA2-4.77"> 横向分布计算<br>公路桥梁除匝道外，一般至少设计为两车道，汽车在桥面上不一定按固定路线行驶，因此需进行汽车荷载横向分布计算；铁路桥梁的列车是在固定轨道上运行的，不需要考虑列车荷载横向分布计算问题。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.78"> [A2-4.78][学习提示]</a><span id="idA2-4.78"> <br>装配式简支梁桥的计算均为简化计算方法，计算中应注意以下几点：</span></p>
+<p style="text-align:justify;font-family:times new roman"> （1）装配式T梁翼板、装配式小箱梁顶板和翼板的受力与T梁梁肋、小箱梁腹板的是不同的，应分别进行计算，翼板或顶板的受力符合板的受力特性，梁肋或腹板的受力符合梁的受力特性。装配式实心板、空心板的内力计算，按梁的受力进行计算。</p>
+<p style="text-align:justify;font-family:times new roman"> （2）桥面板内力计算：装配式梁间翼板连接构造不同，传力方式不同，简化计算模型不同。翼板间采用企口连接时，简化为铰接悬臂板；翼板间采用现浇湿接缝连接时，简化为弹性固结板，并由主梁间距与横隔梁间距之比判定为单向板或双向板；边梁边翼板简化为悬臂板。在计算中注意，汽车荷载采用车辆荷载加载，车轮荷载作用于桥面时采用的是有效工作宽度进行计算。（2）桥面板内力计算：装配式梁间翼板连接构造不同，传力方式不同，简化计算模型不同。翼板间采用企口连接时，简化为铰接悬臂板；翼板间采用现浇湿接缝连接时，简化为弹性固结板，并由主梁间距与横隔梁间距之比判定为单向板或双向板；边梁边翼板简化为悬臂板。在计算中注意，汽车荷载采用车辆荷载加载，车轮荷载作用于桥面时采用的是有效工作宽度进行计算。</p>
+<p style="text-align:justify;font-family:times new roman"> （3）主梁内力计算：装配式简支梁桥截面内力计算，除按结构力学方法找出最大弯矩截面和最大剪力截面外，还应找出最大受力截面上哪片梁受力最大，以便进行单片梁设计，即，应进行荷载横向分布计算。由于支点截面支承在支座上，各片梁的竖向变形可忽略，因此，采用杠杆原理法计算各片梁的横向分布系数<i>m</i><sub>0</sub>。跨中截面由于横隔梁道数及连接构造不同，相邻梁之间的传力方式不同，相应地荷载横向分布计算方法不同。当横隔梁道数较多时，窄桥（<i>B</i>/<i>L</i>≤0.5）采用刚性横梁法，宽桥（<i>B</i>/<i>L</i>＞0.5）采用比拟正交异性板法。当跨间无横隔梁或仅有一道中横隔梁时，梁间为企口连接，采用铰接板（梁）法；梁间为现浇湿接缝连接，采用刚接板（梁）法。</p>
+<p style="text-align:justify;font-family:times new roman"> 值得注意的是，一孔装配式简支梁桥是由<i>n</i>片梁组成的，其设计是按边梁与中梁分别设计，即两片边梁是同一张设计图（同一尺寸和截面配筋），（<i>n</i>–2）片中梁是同一张设计图（同一尺寸和截面配筋）。两片边梁在一孔梁中是对称的，只需计算其中一片边梁即可，然后进行截面设计。而中梁是由（<i>n</i>–2）组成的，每一片中梁由于施工架设的随机性导致其所处位置不同而受力不同，因此，需对每一片中梁的<i>m</i><sub>0</sub>和<i>m</i><sub>c</sub>进行计算，取各梁中最大<i>m</i><sub>0</sub>和最大<i>m</i><sub>c</sub>构成“设计中梁”的<i>m</i><sub>0</sub>和<i>m</i><sub>c</sub>进行内力计算与截面设计。可以这样理解，每一片中梁都有可能被随机地架设在支点剪力最大位置，或跨中弯矩最大位置，只要每片中梁设计均满足横向分布的最大弯矩和剪力受力要求，无论施工怎样架设，每片中梁的受力均满足设计要求。</p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.79"> [A2-4.79][思考与练习]</a><span id="idA2-4.79"> </span></p>
+<ol style="text-align:justify;font-family:times new roman">
+<li>名词解释：单向板；板的有效工作（分布）宽度；荷载横向分布；预拱度。</li>
+<li>装配式T梁桥横向联结方式的不同，桥面板的受力有何不同？分别按什么力学模型计算？</li>
+<li>如何确定行车道板的有效分布宽度？</li>
+<li>根据图2-4-2所示双向支承板的计算图式，当其边长比（<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub>）分别等于1、2、3、…、n（n≥1）时，试分析荷载<i>P</i>传递给短跨（<i>h</i><sub>0</sub>）和长跨（<i>l</i><sub>a</sub>）的大小，并说明为什么当（<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub>）≥2时可近似地按仅由短跨承受荷载的单向受力板计算。</li>
+<li>本文给出了双向支承板（<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub>）≥2时按单向板计算的计算方法，当（<i>l</i><sub>a</sub>/<i>l</i><sub>b</sub>）＜2时该如何计算？</li>
+<li>装配式简支T梁桥主梁内力计算时，为什么要考虑荷载横向分布的作用？荷载横向分布系数的计算方法有哪些，分别适用于什么情况？</li>
+<li>杠杆法计算荷载横向分布系数的基本假定是什么？为什么可以这样假定？</li>
+<li>偏心压力法计算荷载横向分布系数的基本假定是什么？修正偏心压力法主要修正用哪些项目？</li>
+<li>偏心压力法和比拟正交异性板法的适用范围各是什么？计算步骤分别是什么？</li>
+<li>4车道装配式空心板梁桥，空心板梁片数超过10片，无法直接利用附录Ⅲ-1进行查表计算，应如何解决此类问题？</li>
+<li>荷载横向分布系数沿主梁跨径是如何分布的？</li>
+<li>装配式简支梁桥，主梁截面形式主要有T梁、小箱梁等，为什么进行主梁内力计算时不是计算全截面，而是将T梁的梁肋、小箱梁的腹板按主梁计算，T梁的翼板、小箱梁的翼板和顶板按行车道板计算？</li>
+<li>什么叫作挠度？如何计算？</li>
+<li>什么叫作预拱度？如何设置？</li>
+</ol>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.80"> [A2-4.80][课程设计Ⅰ]</a><span id="idA2-4.80"> 依据“附录Ⅱ  课程设计任务书”资料，选取适当跨径，设计一座装配式简支T梁桥。</span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
 
 
            </div>

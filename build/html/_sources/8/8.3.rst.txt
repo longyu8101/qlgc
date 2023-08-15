@@ -542,16 +542,16 @@ $$
 
 
 $$
-\\displaystyle\\sum_{=1}^{\\mathrm{D}} R_1^{\\prime \\prime} a_1+\\displaystyle\\sum_{=1}^{\\mathrm{D}} M_{11}=1 \\cdot e \\tag{2-4-22}
+\\displaystyle\\sum_{i=1}^{\\mathrm{D}} R_1^{\\prime \\prime} a_1+\\displaystyle\\sum_{i=1}^{\\mathrm{D}} M_{11}=1 \\cdot e \\tag{2-4-42}
 $$
 
 .. raw:: html
 
  <p style="text-align:justify;font-family:times new roman"> 由材料力学知，简支梁考虑自由扭转时跨中截面扭矩与扭角以及竖向力与挠度的关系为：</p>
 
-$$\\varphi=\\frac{l M_{\\mathrm{T}}}{4 G I_{\\mathrm{H}}} \\tag{2-4-23a}$$
+$$\\varphi=\\frac{l M_{\\mathrm{T}}}{4 G I_{\\mathrm{H}}} \\tag{2-4-43a}$$
 
-$$\\omega_{i}^{\\prime \\prime}=\\dfrac{R_{i}^{\\prime} l^{3}}{48 E I_{\\mathrm{i}}}\\tag{2-4-23b}$$
+$$\\omega_{i}^{\\prime \\prime}=\\dfrac{R_{i}^{\\prime} l^{3}}{48 E I_{\\mathrm{i}}}\\tag{2-4-43b}$$
 
 .. raw:: html
    
@@ -929,7 +929,7 @@ $$I_1=\\displaystyle\\sum_{i=1}^m c_i b_i t_1^3\\tag{2-4-54}$$
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
  <div style="text-align:center;"><img id="image2.4.24" src="../_static/fig/2-4-24.png" alt="Picture"></div>
- <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-24  主梁截面尺寸（尺寸单位：mm）/p>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-4-24  主梁截面尺寸（尺寸单位：mm）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.24'));</script>
 
  </body>
@@ -1192,6 +1192,104 @@ $$
 
  </body>
 
+ <p style="text-align:justify;font-family:times new roman"> 规定：<i>δ</i><sub>ik</sub>与<i>g</i><sub>i</sub>方向一致取正号，反之取负号。</p>
+
+$$在铰缝\\mathrm{i}处：\\delta _{ii}=2(\\omega +\\phi \\cdot\\dfrac{b}{2} ) ——\\delta _{ii}与g_{i}同向$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 在铰缝（i－1）和铰缝（i＋1）处：</p>
+
+
+$$\\delta _{(i-1)i}=\delta _{i(i+1)}=-(\\omega -\\phi \\cdot\\dfrac{b}{2} ) ——\\delta _{(i-1)i}和\\delta _{i(i+1)}与 g_{i}反向$$
+
+$$且\\delta _{(i-1)i}=\\delta _{i(i-1)},\\delta _{(i+1)i}=\\delta _{i(i+1)}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 在铰缝（i－2）和铰缝（i＋2）处：</p>
+
+$$\\delta _{(i-2)i}=\\delta _{i(i+2)}=0,且\\delta _{(i-2)i}=\\delta _{i(i-2)},\\delta _{i(i+2)}=\\delta _{(i+2)i}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 外荷载p在铰接缝i处引起的竖向位移<i>δ</i><sub>ip</sub>：</p>
+
+$$\\delta _{\\mathrm{1p}}=-\\omega $$
+
+$$\\delta _{\\mathrm{2p}}=\\delta _{\\mathrm{3p}}=\\delta _{\\mathrm{4p}}=0 $$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 将上述求得的<i>δ</i><sub>ik</sub>和<i>δ</i><sub>ip</sub>代入式（2-5-57），并设刚度系数<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>γ</mi><mo>=</mo><mstyle mathsize="1.40em"><mfrac><mrow><mi>ϕ</mi><mo>⋅</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></mrow><mi>ω</mi></mfrac></mstyle></math>，并代入式（2-5-57），得：</p>
+
+$$\\left.\\begin{array}{l}
+2\\left(1+\\gamma\\right)g_{1}-\\left(1-\\gamma\\right)g_{2}=1\\\\
+-\\left(1-\\gamma\\right)g_{1}+2\\left(1+\\gamma\\right)g_{2}-\\left(1-\\gamma\\right)g_{2}=0\\\\
+-\\left(1-\\gamma\\right)g_{2}+2\\left(1+\\gamma\\right)g_{1}-\\left(1-\\gamma\\right)g_{4}=0\\\\
+-\\left(1-\\gamma\\right)g_{3}+2\\left(1+\\gamma\\right)g_{4}=0
+\\end{array}\\right\\}\\tag{2-4-58}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 只要解得式（2-4-58）中的<i>γ</i>，<i>g</i><sub>i</sub>则可求得。求解<i>γ</i>的关键是求跨中扭角<i>φ</i>和跨中挠度<i>ω</i>。</p>
+ <p style="text-align:justify;font-family:times new roman"> ①跨中挠度<i>ω</i>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 跨中挠度<i>ω</i>是对简支的挠曲线微分方程<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mi>I</mi><msup><mi>w</mi><msup><mrow></mrow><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup></msup><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>p</mi><mi>sin</mi><mo>⁡</mo><mstyle mathsize="1.40em"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></mrow><annotation encoding="application/x-tex">EI w^{&#x27;&#x27;&#x27;&#x27;}(x)=p\sin\frac{\pi x}{l}</annotation></semantics></math>逐次积分，通过边界条件求解。解得挠度方程为：</p>
+ <p style="text-align:justify;font-family:times new roman"> 解得挠度方程为：</p>
+
+
+$$\\omega(x)=\\dfrac{pl^{4}}{\\pi ^{4}EI}\\sin\\dfrac{\\pi x}{l}\\tag{2-4-59}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 当<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathsize="1.40em"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow><annotation encoding="application/x-tex">x=\frac{1}{2}</annotation></semantics></math>时，跨中挠度为：</p>
+
+$$\\omega=\\dfrac{pl^{4}}{\\pi ^{4}EI}\\tag{2-4-60}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ②跨中扭角 <i>φ</i>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对简支的扭转微分方程<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>I</mi><msup><mi>ϕ</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow><mo>=</mo><mo>−</mo><mstyle mathsize="1.40em"><mfrac><mi>b</mi><mn>2</mn></mfrac></mstyle><mo>⋅</mo><mi>p</mi><mi>sin</mi><mo>⁡</mo><mstyle mathsize="1.40em"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></mrow><annotation encoding="application/x-tex">G I\phi^{\prime}\left(x\right)=-\frac{b}{2}\cdot p\sin\frac{\pi x}{l}</annotation></semantics></math>逐次积分，通过边界条件求解。解得扭角方程为：</p>
+
+$$\\phi(x)=\\dfrac{pbl^{2}}{2\\pi ^{2}GI_{T}} \\sin=\\dfrac{\\pi x}{l}\\tag{2-4-61}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 当<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathsize="1.40em"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mstyle><annotation encoding="application/x-tex">x=\frac{1}{2}</annotation></semantics></math>时，跨中扭角为：</p>
+
+$$\\phi=\\dfrac{pbl^{2}}{2\\pi ^{2}GI_{T}} \\tag{2-4-62}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> ③刚度系数 <i>γ</i>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 利用式（2-4-60）和式（2-4-62）即得：</p>
+
+$$\\gamma=\\dfrac{\\phi\\cdot\\dfrac{b}{2}}{\\omega}=\\dfrac{b}{2}\\cdot(\\dfrac{pbl^2}{2\\pi^{2}GI_{\\mathrm{T}}} )/(\\dfrac{pl^4}{2\pi^{4}EI})=\\dfrac{\\pi^{2}EI}{4GI_{\\mathrm{T}}}(\\dfrac{b}{l})^{2}\\approx 5.8\\dfrac{I}{I_{\\mathrm{T}}}(\\dfrac{b}{l})^{2}\\tag{2-4-63}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">④抗扭惯性矩<i>I</i><sub>T</sub>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于矩形截面或多个矩形组成的开口截面，可利用式（2-4-54）并查表2-4-3进行计算。<br>对于封闭的薄壁截面或箱形截面，由于截面内抗扭剪应力的分布规律与开口式截面的本质上不同，应按以下各式进行计算。<br>不带“翼翅”的封闭截面</p>
+
+
+$$I_{\\mathrm{T}}=\\dfrac{4\\Omega ^{2}}{\\oint\\dfrac{ds}{t}}\\tag{2-4-64}$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 带“翼翅”的封闭截面</p>
+
+
+$$I_{\\mathrm{T}}=\\dfrac{4\\Omega  ^{2}}{\\oint\\dfrac{ds}{t}}+\\displaystyle \\sum_{i=1}^{m}c_{\\mathrm{i}}b_{\\mathrm{i}}t_{\\mathrm{i}}^{3}\\tag{2-4-65}$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 现以<a href="#image2.4.30">图2-4-30</a>所示的箱形截面为例来说明式（2-4-65）的应用。</p>
+
+   
    <body>
  <style type="text/css">
       #image2.4.30{
@@ -1206,6 +1304,27 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.30'));</script>
 
  </body>
+
+
+$$\\Omega=b\\cdot h$$
+$$\\oint \\dfrac{ds}{t} =\\dfrac{b}{\\mathrm{t_{1}}} +\\dfrac{b}{\\mathrm{t_{2}}} +\\dfrac{2h}{\\mathrm{t_{3}}} $$
+$$\\begin{align}\\therefore I_{\\mathrm{T}}&=\\dfrac{4\\Omega ^{2}}{\\oint \\dfrac{ds}{t} } +\\displaystyle \\sum_{i=1}^{m}c_{\\mathrm{i}}b_{\\mathrm{i}}t_{\\mathrm{i}}^{3}\\\\
+& =\\dfrac{4b^{2}h^{2}}{b(\\dfrac{1}{t_{1}}+\\dfrac{1}{t_{2})+\\dfrac{2h}{t_{3}}}} +2c\\cdot at_{3}^{4}
+\\end{align}\\tag{2-4-66}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中<i>c</i>由<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>t</mi><mn>4</mn></msub><mi>a</mi></mfrac></mstyle></math>之值查<a href="#B2.4.3">表2-4-3</a>求得。</p>
+ <p style="text-align:justify;font-family:times new roman"> ⑤铰接板桥的荷载横向影响线和横向分布系数</p>
+ <p style="text-align:justify;font-family:times new roman"> 前面讲的是<i>p</i>=1作用在①号板中轴线上时，各板的受力变形情况，对于弹性板梁来讲，荷载与挠度成正比关系，即<i>p</i><sub>i1</sub>=<i>a</i><sub>1</sub>·<i>ω</i><sub>i1</sub></p>
+ <p style="text-align:justify;font-family:times new roman"> 同理 <i>p</i><sub>1i</sub>=<i>a</i><sub>a</sub>·<i>ω</i><sub>1i</sub></p>
+ <p style="text-align:justify;font-family:times new roman"> 由变位互等定理：<i>ω</i><sub>il</sub>=<i>ω</i><sub>1i</sub></p>
+ <p style="text-align:justify;font-family:times new roman"> 由于每块板的截面相同，则比例常数<i>a</i><sub>1</sub>=<i>a</i><sub>2</sub>，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mo stretchy="false">⇒</mo><msub><mi>p</mi><mrow><mi>i</mi><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>p</mi><mrow><mn>1</mn><mi>i</mi></mrow></msub></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 由此可见，<i>p</i>=1作用在①号板中轴线上时，任一板所分配到的荷载就等于<i>p</i>=1作用在任一板中轴线上时①号板所分配到的荷载。那么用<i>p</i>=1作用在①号板中轴线上求得的各板的荷载值<i>p</i><sub>i1</sub>就是①号板的荷载横向影响线竖标值<i>η</i><sub>i1</sub>。把各个<i>η</i><sub>1i</sub>按比例描绘在相应板梁的轴线位置，用光滑的曲线（或近似地用折线）连接这些竖标点，就是①号板的横向影响线，如<a href="#image2.4.31">图2-4-31b）</a>所示。同理如将单位荷载作用在②号板梁轴线上，就可求得<i>p</i><sub>i2</sub>，从而可得<i>η</i><sub>2i</sub>，如<a href="#image2.4.31">图2-4-31c）</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"> 在①号板的横向影响线上布载，即可求得①号板的横向分布系数<i>m</i><sub>c1</sub>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 其他各板方法相同。</p> 
+
 
     <body>
  <style type="text/css">
@@ -1222,6 +1341,9 @@ $$
 
  </body>
 
+ <p style="text-align:justify;font-family:times new roman">（3）铰接T梁桥的计算特点</p>
+ <p style="text-align:justify;font-family:times new roman"> 铰接T梁与铰接板的区别：由于T梁翼板的刚度较板梁的小，T梁的悬臂端将产生弹性挠度<i>f</i>，<i>f</i>的分布接近于正弦分布，即<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo>⋅</mo><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></math>，其他与板梁完全相同，所以在分析中<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mi>i</mi><mi>i</mi></mrow></msub><mo>=</mo><mn>2</mn><mo stretchy="false">(</mo><mi>ω</mi><mi>ϕ</mi><mo>⋅</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>b</mi><mn>2</mn></mfrac></mstyle><mo>+</mo><mi>f</mi><mo stretchy="false">)</mo></math>，其他<i>δ</i><sub>ik</sub>均与板梁相同，分析方法亦与板梁相同。</p>
+
     <body>
  <style type="text/css">
       #image2.4.32{
@@ -1237,7 +1359,10 @@ $$
 
  </body>
 
-    <body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.52"> [A2-4.52]【例2-4-5】</a><span id="idA2-4.52"> 如<a href="#image2.4.33">图2-4-33</a>所示为跨径<i>l</i>=12.60 m的铰接空心板桥的横截面布置，桥面净空为净-7＋2×0.75 m人行道。全桥跨由9块预应力混凝土空心板组成，试按铰接板法求1、3和5号板的汽车荷载和人群荷载的跨中荷载横向分布系数。</span></p>
+ 
+ 
+ <body>
  <style type="text/css">
       #image2.4.33{
          margin-left:50px;
@@ -1251,6 +1376,196 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.33'));</script>
 
  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 【解】<br>（1）计算空心板截面的抗弯惯性矩<i>I</i> </p>
+
+$$\\begin{align} I &=\\dfrac{990 \\times 600^3}{12}-2\\times \\dfrac{380 \\times 80^3}{12}-4 \\times \\left[ 0.00686\\times 380^4 +\\dfrac{1}{2}\\cdot \\dfrac{\\pi \\times 380^2}{4}(\\dfrac{80}{2}+0.2122 \\times 380)^2\\right]\\\\
+& =1.391 \\times 10^10 (\\mathrm{mm}^4)\\end{align}
+$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> （2）计算空心板截面的抗扭惯性矩<i>I</i><sub>T</sub><br>本例空心板截面可近似简化成<a href="#image2.4.33">图2-4-33b）</a>中虚线所示的薄壁箱形截面来计算<i>I</i><sub>T</sub>，按式（2-4-66）计算得：</p>
+
+$$I_{\\mathrm{T}}=\\dfrac{4\\times (990-80)^2 \\times (600-70)^2}{(990-80)(\\dfrac{1}{70}+\\dfrac{1}{70})}+\\dfrac{2\\times(600-70)}{80}$$
+
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> （3）计算刚度参数<i>γ</i></p>
+
+$$\\gamma = 5.8 \\dfrac{I}{I_{\\mathrm{T}}}(\\dfrac{b}{l})^2=5.8\\times \\dfrac{1.391\\times 10^{10}}{2.371 \\times 10^{10}}\\times (\\dfrac{1000}{12600})^2$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> （4）计算跨中荷载横向分布影响线<br>从铰接板荷载横向分布影响线计算用表（附录Ⅲ—1）中所属9-1、9-3和9-5的分表，在<i>γ</i>=0.02～0.04之间按直线内插法求得<i>γ</i>=0.0214的影响线竖标值<i>η</i><sub>1i</sub>、<i>η</i><sub>3i</sub>和<i>η</i><sub>5i</sub>。计算见<a href="#B2.4.4">表2-4-4</a>（表中的数值为实际<i>η</i><sub>ki</sub>的小数点后三位数字）。</p>
+
+  <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                      
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                       
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                              
+      <table id="biaoge" style="font-family:times new roman">
+                              
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.4">表2-4-4 影响线竖标值   </b></caption>	
+                                            
+      <tr>
+      <td align="center" width="90px" id="dhbg" rowspan="2">板号</td>
+      <td align="center" width="90px" id="dhbg" rowspan="2">γ</td>
+      <td align="center" id="dhbg" colspan="9">单位荷载作用位置(<i>i</i>号板截面中心)</td>
+      <td align="center"  width="90px"id="dhbg" rowspan="2">&sum;<i>n</i><sub>ki</sub></td>
+      </tr>
+      <tr>
+      <td align="center" width="70px" id="dhbg">1</td>
+      <td align="center" width="70px" id="dhbg">2</td>
+      <td align="center" width="70px" id="dhbg">3</td>
+      <td align="center" width="70px" id="dhbg">4</td>
+      <td align="center" width="70px" id="dhbg">5</td>
+      <td align="center" width="70px" id="dhbg">6</td>
+      <td align="center" width="70px" id="dhbg">7</td>
+      <td align="center" width="70px" id="dhbg">8</td>
+      <td align="center" width="70px" id="dhbg">9</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="3">1</td>
+      <td align="center" id="dhbg">0.02</td>
+      <td align="center" id="dhbg">236</td>
+      <td align="center" id="dhbg">194</td>
+      <td align="center" id="dhbg">147</td>
+      <td align="center" id="dhbg">113</td>
+      <td align="center" id="dhbg">088</td>
+      <td align="center" id="dhbg">070</td>
+      <td align="center" id="dhbg">057</td>
+      <td align="center" id="dhbg">049</td>
+      <td align="center" id="dhbg">046</td>
+      <td align="center" id="dhbg" rowspan="3">&asymp;1000</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.04</td>
+      <td align="center" id="dhbg">306</td>
+      <td align="center" id="dhbg">232</td>
+      <td align="center" id="dhbg">155</td>
+      <td align="center" id="dhbg">104</td>
+      <td align="center" id="dhbg">070</td>
+      <td align="center" id="dhbg">048</td>
+      <td align="center" id="dhbg">035</td>
+      <td align="center" id="dhbg">026</td>
+      <td align="center" id="dhbg">023</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.0214</td>
+      <td align="center" id="dhbg">241</td>
+      <td align="center" id="dhbg">197</td>
+      <td align="center" id="dhbg">148</td>
+      <td align="center" id="dhbg">112</td>
+      <td align="center" id="dhbg">087</td>
+      <td align="center" id="dhbg">068</td>
+      <td align="center" id="dhbg">055</td>
+      <td align="center" id="dhbg">047</td>
+      <td align="center" id="dhbg">044</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="3">3</td>
+      <td align="center" id="dhbg">0.02</td>
+      <td align="center" id="dhbg">147</td>
+      <td align="center" id="dhbg">160</td>
+      <td align="center" id="dhbg">164</td>
+      <td align="center" id="dhbg">141</td>
+      <td align="center" id="dhbg">110</td>
+      <td align="center" id="dhbg">087</td>
+      <td align="center" id="dhbg">072</td>
+      <td align="center" id="dhbg">062</td>
+      <td align="center" id="dhbg">057</td>
+      <td align="center" id="dhbg" rowspan="3">&asymp;1000</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.04</td>
+      <td align="center" id="dhbg">115</td>
+      <td align="center" id="dhbg">181</td>
+      <td align="center" id="dhbg">195</td>
+      <td align="center" id="dhbg">159</td>
+      <td align="center" id="dhbg">108</td>
+      <td align="center" id="dhbg">074</td>
+      <td align="center" id="dhbg">053</td>
+      <td align="center" id="dhbg">040</td>
+      <td align="center" id="dhbg">035</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.0214</td>
+      <td align="center" id="dhbg">148</td>
+      <td align="center" id="dhbg">161</td>
+      <td align="center" id="dhbg">166</td>
+      <td align="center" id="dhbg">142</td>
+      <td align="center" id="dhbg">110</td>
+      <td align="center" id="dhbg">086</td>
+      <td align="center" id="dhbg">071</td>
+      <td align="center" id="dhbg">060</td>
+      <td align="center" id="dhbg">055</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="3">5</td>
+      <td align="center" id="dhbg">0.02</td>
+      <td align="center" id="dhbg">088</td>
+      <td align="center" id="dhbg">095</td>
+      <td align="center" id="dhbg">110</td>
+      <td align="center" id="dhbg">134</td>
+      <td align="center" id="dhbg">148</td>
+      <td align="center" id="dhbg">134</td>
+      <td align="center" id="dhbg">110</td>
+      <td align="center" id="dhbg">095</td>
+      <td align="center" id="dhbg">088</td>
+      <td align="center" id="dhbg" rowspan="3">&asymp;1000</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.04</td>
+      <td align="center" id="dhbg">070</td>
+      <td align="center" id="dhbg">082</td>
+      <td align="center" id="dhbg">108</td>
+      <td align="center" id="dhbg">151</td>
+      <td align="center" id="dhbg">178</td>
+      <td align="center" id="dhbg">151</td>
+      <td align="center" id="dhbg">108</td>
+      <td align="center" id="dhbg">082</td>
+      <td align="center" id="dhbg">070</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.0214</td>
+      <td align="center" id="dhbg">087</td>
+      <td align="center" id="dhbg">094</td>
+      <td align="center" id="dhbg">110</td>
+      <td align="center" id="dhbg">135</td>
+      <td align="center" id="dhbg">150</td>
+      <td align="center" id="dhbg">135</td>
+      <td align="center" id="dhbg">110</td>
+      <td align="center" id="dhbg">094</td>
+      <td align="center" id="dhbg">087</td>
+      </tr>                                                                                                         
+      </table>
+      <p></p>
+
+
+  <p style="text-align:justify;font-family:times new roman"> 将表中<i>η</i><sub>1i</sub>\<i>η</i><sub>13i</sub>和<i>η</i><sub>5i</sub>之值按一定比例尺绘于各号板的轴线下方，连接成光滑曲线后，就得1、3和5号板的荷载横向分布影响线，如<a href="#image2.4.34">图2-4-34b）、c）和d）</a>所示。</p>
 
     <body>
  <style type="text/css">
@@ -1267,7 +1582,29 @@ $$
 
  </body>
 
-    <body>
+ <p style="text-align:justify;font-family:times new roman"> （5）计算荷载横向分布系数<br>按《通规》（JTG D60—2015）规定沿横向确定最不利荷载位置后，就可计算跨中荷载横向分布系数如下，</p>
+
+ <p style="text-align:justify;font-family:times new roman">对于1号板：</p>
+ <p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mi>c</mi><mi>q</mi></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>0.197</mn><mo>+</mo><mn>0.119</mn><mo>+</mo><mn>0.086</mn><mo>+</mo><mn>0.056</mn><mo stretchy="false">)</mo><mo>=</mo><mn>0.229</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>人群</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mi>c</mi><mi>r</mi></mrow></msub><mo>=</mo><mn>0.235</mn><mo>+</mo><mn>0.044</mn><mo>=</mo><mn>0.279</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman">对于3号板：</p>
+ <p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mi>c</mi><mi>q</mi></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>0.161</mn><mo>+</mo><mn>0.147</mn><mo>+</mo><mn>108</mn><mo>+</mo><mn>0.073</mn><mo stretchy="false">)</mo><mo>=</mo><mn>0.245</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>人群</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mi>c</mi><mi>r</mi></mrow></msub><mo>=</mo><mn>0.150</mn><mo>+</mo><mn>0.055</mn><mo>=</mo><mn>0.205</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman">对于5号板：</p>
+ <p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mi>c</mi><mi>q</mi></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><mn>0.103</mn><mo>+</mo><mn>0.140</mn><mo>+</mo><mn>0.140</mn><mo>+</mo><mn>0.103</mn><mo stretchy="false">)</mo><mo>=</mo><mn>0.243</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>人群</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mi>c</mi><mi>r</mi></mrow></msub><mo>=</mo><mn>0.088</mn><mo>+</mo><mn>0.088</mn><mo>=</mo><mn>0.176</mn></math></p>
+
+ <p style="text-align:justify;font-family:times new roman">综上所得，汽车荷载横向分布系数的最大值为<i>m</i><sub>cq</sub>= 0.245，人群荷载的最大值为 <i>m</i><sub>cr</sub>=0.279。在设计中通常偏安全地取这些最大值来计算内力。</p>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.53"> [A2-4.53]</a><span id="idA2-4.53"> 2.刚接梁法</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> （1）计算原理及适用范围</p>
+ <p style="text-align:justify;font-family:times new roman"> 在铰接板（梁）桥计算理论的基础上，在铰接处补充引入赘余弯矩<i>m</i><sub>i</sub>，可建立计及横向刚性连接特点的赘余力正则方程。用这一方法来求解各梁荷载横向分布的问题，就称为刚接梁法。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于相邻二片主梁的接合处可以承受弯矩的，或虽然桥面系没有经过构造处理，但设有多片内横隔梁的，或桥面浇筑成一块整体板的桥跨结构，都可以看作是刚接梁系。荷载横向分布计算都可以采用刚接梁法</p>
+ <p style="text-align:justify;font-family:times new roman"> 刚性连接的桥面板在半波正弦分布荷载（峰值为<i>P</i>）作用下，在纵向切口处的赘余力呈正弦分布。这些赘余力应该有五个：竖向剪力（峰值<i>g</i>）、弯矩（峰值<i>m</i>）、桥面板内纵向剪力流（峰值<i>t</i>）、由于相邻主梁弯曲后不同曲率引起的横向扭矩（峰值<i>m</i><sub>T</sub>）以及由于扭转中心不在桥面上而引起邻梁对切口缝的阻力（峰值<i>n</i>），见<a href="#image2.4.35">图2-4-35</a>。通过精确分析，发现在竖向荷载作用下，<i>t</i>、<i>m</i><sub>T</sub>和<i>n</i>对荷载横向分布的影响很小，可以忽略不计，因此，只考虑赘余力<i>g</i><sub>i</sub>的影响。</p>
+
+ <body>
  <style type="text/css">
       #image2.4.35{
          margin-left:50px;
@@ -1282,7 +1619,67 @@ $$
 
  </body>
 
-     <body>
+ <p style="text-align:justify;font-family:times new roman"> 求解赘余力素的一般正则力法方程式，可用矩阵形式表示为：</p>
+
+$$[{\\delta _\\mathrm{ij}}]\\left \\{{x_{\\mathrm{j}}} \\right \\} +\\left \\{ {\\delta _\\mathrm{ip}} \\right \\} =\\left \\{ {0} \\right \\}\\qquad (i或j=1,2,3,\\dots \\mathrm{n}) \\tag{2-4-67}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>δ</i><sub>ij</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">正则方程中位于赞余力素前的计算系数，它表示赘余力素峰值<i>x</i><sub>j</sub>=1时在i处引起的相对变位； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>δ</i><sub>ip</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 外荷载在i处引起的相对变位；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs" ><i>x</i><sub>i</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">处赘余力素的峰值。</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>n</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">柱数。</td>
+ </tr> 
+ </table>
+ <p> </p>  
+
+ <p style="text-align:justify;font-family:times new roman"> 以四梁式的简支梁桥为例，如<a href="#image2.4.36">图2-4-36</a>所示，各主梁的截面、刚度都相等，主梁翼板之间为刚接，用力法求解。</p>
+
+ <body>
  <style type="text/css">
       #image2.4.36{
          margin-left:50px;
@@ -1296,6 +1693,128 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.36'));</script>
 
  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 把翼板的连接处切开，在单位正弦荷载作用下，切缝处有超静定内力<i>g</i>和<i>m</i>，<a href="#image2.4.36">图2-4-36</a>上示出六个超静定内力的峰值，相应地有六个变形协调条件，从而就有六个力法方程，用矩阵方程式表示为：</p>
+
+
+$$\\begin{array}{l}
+\\left [ \\begin{matrix}  
+\\delta_{\\mathrm{g}} &  \\gamma -1 & 0 & 0 & \\gamma & 0   \\\\ 
+\\gamma -1  & \\delta_{\\mathrm{g}} &  \\gamma -1 & -\\gamma & 0 & \\gamma \\\\
+0&\\gamma -1 & \\delta_{\\mathrm{g}} & 0 &-\\gamma  & 0    \\\\ 
+0 & -\\gamma &0  & \\delta_{\\mathrm{m}} & -\\gamma & 0   \\\\
+\\gamma& 0 & -\\gamma & -\\gamma &   \\delta_{\\mathrm{m}} &-\\gamma  \\\\
+0 & \\gamma &  0& 0 & -\\gamma & \\delta_{\\mathrm{m}} \\end{matrix} \\right ] 
+\\left \\{ \\begin{matrix}  g_1\\\\
+g_2\\\\
+g_3\\\\
+x_4\\\\
+x_5\\\\
+x_6\\end{matrix} \\right \\} =
+\\left \\{ \\begin{matrix}  
+1\\\\ 
+0 \\\\  
+0 \\\\  
+0\\\\  
+0 \\\\  
+0
+\\end{matrix} \\right \\}\\end{array}\\tag{2-4-68}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：</p>
+
+$$
+\\left.\\begin{array}{l}
+\\delta_{g}=2(1+\\gamma+\\beta)\\\\
+\\delta_{m}=2(\\gamma+3\\beta^{'}) \\\\
+\\beta^{'}=(\\dfrac{b_1}{2d_1})^2\\cdot \\beta
+\\end{array}\\right\\}\\tag{2-4-69}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"><i>γ</i>为扭转位移与主梁挠度之比，即</p>
+
+$$ \\gamma =\\dfrac{\\varphi \\dfrac{b_1}{2}}{\\omega } =\\dfrac{\\pi^2EI}{4GI_{\\mathrm{T}}}\\left ( \\dfrac{b_1}{l} \\right )^2 =5.8\\dfrac{I}{I_{\\mathrm{T}}}\\left ( \\dfrac{b_1}{l} \\right )^2 \\tag{2-4-70}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"><i>β</i>为悬臂板挠度与主梁挠度之比，即</p>
+
+$$\\beta=\\dfrac{f}{\\omega }=\\dfrac{\\dfrac{4d^3}{12EI_1} }{l^4}=\\dfrac{\\pi^4}{3}\\cdot\\dfrac{Id_1^3}{i_{1}l^{4}}\\approx 390\\dfrac{Id_{1}^{3}}{l^{4}h_1^{3}} \\tag{2-4-71}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>I</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">主梁抗弯惯性矩； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>I</i><sub>T</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">主梁抗扭惯性矩；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs" ><i>I</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">单位板宽（顺桥向）的抗弯惯性矩；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs" ><i>b</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">主梁翼板全宽；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs" ><i>d</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">相邻两主梁梁肋的净距之半；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs" ><i>h</i><sub>1</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">计算单位板宽抗弯惯性矩时所取的板厚，如果板厚从梁肋至悬臂端按直线变化时，可取靠梁肋<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle><msub><mi>d</mi><mn>1</mn></msub></math>处的厚度（<a href="#image2.4.37">图2-4-37</a>）；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right' id="eqzs" ><i>E、G</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">混凝土的弹性模量、剪切模量。</td>
+ </tr>
+ </table>
+ <p> </p>  
 
   <body>
  <style type="text/css">
@@ -1312,7 +1831,41 @@ $$
 
  </body>
 
+ <p style="text-align:justify;font-family:times new roman"> 只要求出参数<i>γ</i>、<i>β</i>，代入公式中就可以求出剪力<i>g</i><sub>1</sub>、<i>g</i><sub>2</sub>、<i>g</i><sub>3</sub> 和<i>x</i><sub>4</sub>、<i>x</i><sub>5</sub>、<i>x</i><sub>6</sub>，利用<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>m</mi><mn>4</mn></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>b</mi><mn>1</mn></msub><mn>2</mn></mfrac></mstyle><msub><mi>x</mi><mn>4</mn></msub><mo>、</mo><msub><mi>m</mi><mn>5</mn></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>b</mi><mn>1</mn></msub><mn>2</mn></mfrac></mstyle><msub><mi>x</mi><mn>5</mn></msub><mo>、</mo><msub><mi>m</mi><mn>6</mn></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>b</mi><mn>1</mn></msub><mn>2</mn></mfrac></mstyle><msub><mi>x</mi><mn>6</mn></msub><mo>、</mo></math>就可以求出弯矩。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><i>g</i><sub>1</sub>、<i>g</i><sub>2</sub>、<i>g</i><sub>3</sub>，</p>
+
+$$
+\\left.\\begin{array}{l}
+\\eta_{11}=1-g_1 \\\\
+\\eta_{21}=g_1-g_2 \\\\
+\\eta_{31}=g_2-g_3 \\\\
+\\eta_{41}=g_3
+\\end{array}\\right\\}\\tag{2-4-72}
+$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 式中<i>η</i><sub>ki</sub>的下标k为欲求影响线的梁号，i为荷载作用位置的梁号。</p>
+ <p style="text-align:justify;font-family:times new roman"> 在实用计算中，已经按参数<i>γ</i>和<i>β</i>编制了荷载横向分布影响线的计算用表（可查《公路桥涵设计手册——梁桥（上）》之“刚接板、梁桥荷载横向分布影响线表”），只要求出<i>γ</i>和<i>β</i>就可以查表计算。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）计算步骤</p>
+ <p style="text-align:justify;font-family:times new roman"> ①求主梁截面竖向抗弯惯性矩<i>I</i><br>②求主梁截面抗扭惯性矩<i>I</i><sub>T</sub>；<br>③求内横隔梁截面和等刚度桥面板的抗弯惯性矩<i>I</i><sub>1</sub>；<br>④求主梁的抗弯与抗扭刚度比例参数<i>γ</i>和主梁与桥面板抗弯刚度比例参数 <i>β</i><br>⑤根据<i>γ</i>和<i>β</i>从荷载横向分布影响线的计算用表中查出并绘制各主梁的跨中荷载横向分布影响线<i>η</i>;<br>⑥在影响线上沿桥宽排列最不利车辆荷载，从而算出跨中荷载横向分布系数<i>m</i><sub>c</sub>。</p>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.5"> 五、比拟正交异性板法（G—M法）</a> <span id="id2.4.3.5"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"> 1、计算原理</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.54"> [A2-4.54]</a><span id="idA2-4.54"> 对于由主梁、连续的桥面板和多横隔梁所组成的梁桥，当其宽度与其跨径之比值较大时，可将其简化比拟为一块矩形的平板作为弹性薄板，按古典弹性理论来进行分析，即所谓“比拟正交异性板法”或称“G-M法”。 </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.55"> [A2-4.55]</a><span id="idA2-4.55">  <a href="#image2.4.38">图2-4-38a）</a>表示具有多根纵向主梁和横向横隔梁的梁桥，纵向主梁的中心距离为<i>b</i>，每片主梁的截面抗弯惯性矩和抗扭惯性矩分别为<i>I</i><sub>x</sub>和<i>I</i><sub>Tx</sub> ，横隔梁的中心距离为<i>a</i>，其截面抗弯惯性矩和抗扭惯性矩为<i>I</i><sub>y</sub>和<i>I</i><sub>Ty</sub>。将其比拟成如<a href="#image2.4.38">图2-4-38b）</a>所示的弹性薄板，比拟板在纵向和横向每米宽度的截面抗弯惯性矩和抗扭惯性矩为：</span></p>
+
+$$
+\\left.\\begin{array}{l}
+J_{x}=\\dfrac{I_{x}}{b}和 J_{Tx}=\\dfrac{I_{Tx}}{b}\\\\
+J_{Y}=\\dfrac{I_{Y}}{b}和 J_{TY}=\\dfrac{I_{TY}}{b}
+\\end{array}\\right\\}\\tag{2-4-73}
+$$
+
+.. raw:: html
 
   <body>
  <style type="text/css">
@@ -1329,6 +1882,46 @@ $$
 
  </body>
 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.56"> [A2-4.56]</a><span id="idA2-4.56"> 对于钢筋混凝土或预应力混凝土肋梁式结构，为了简化理论分析，可近似地忽略混凝土泊松比<i>v</i>的影响。这样便得到一块在<i>x</i>和<i>y</i>两个正交方向截面单宽刚度为<i>EJ</i><sub>x</sub>、<i>GJ</i><sub>Tx</sub>和<i>EJ</i><sub>Y</sub>、<i>EJ</i><sub>Ty</sub>的比拟正交异性板。比拟正交(构造)异性板的挠曲微分方程：</span></p>
+
+$$EJ_X\\dfrac{\\partial ^4\\omega }{\\partial x^4}+G(J_{\\mathrm {Tx}}+J_{\\mathrm {Ty}})\\dfrac{\\partial ^4\\omega }{\\partial x^2 \\partial y^2} +EJ_\\mathrm {y}\\dfrac{\\partial ^4\\omega }{\\partial y^4}=p(x,y)\\tag{2-4-74}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 上式可改写成如下形式：</p>
+
+$$EJ_X\\dfrac{\\partial ^4\\omega }{\\partial x^4}+2aE\\sqrt{J_{\\mathrm{x}}J_{\\mathrm{y}}}\dfrac{\\partial ^4\\omega }{\\partial x^2 \\partial y^2} +EJ_\\mathrm {y}\\dfrac{\\partial ^4\\omega }{\\partial y^4}=p(x,y)\\tag{2-4-75}$$
+
+.. raw:: html
+
+  <p style="text-align:justify;font-family:times new roman"> 其中</p>
+
+$$a=\\dfrac{G (J_{\\mathrm {Tx}}+J_{\\mathrm {Ty}})}{2E\\sqrt{J_{\\mathrm{x}}J_{\\mathrm{y}}}}\\tag{2-4-76}$$
+
+.. raw:: html  
+
+ <p style="text-align:justify;font-family:times new roman"> <i>a</i>称为扭弯参数，表示比拟板两个方向的单宽抗扭刚度代数平均值与单宽抗弯刚度几何平均值之比。对于常用的T梁或I形梁，<i>a</i>一般在0～1之间变化。上式是一个四阶非齐次的偏微分方程，解得荷载作用下任意点的挠度值<i>ω</i>后，就可得到相应的内力值。</p>
+ <p style="text-align:justify;font-family:times new roman"> 为了求荷载横向分布，设一个代表多主梁梁桥的两端简支、两边自由的正交异性板在<i>y</i>=<i>y</i><sub>1</sub>处承受一个单位正弦荷载 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>p</mi><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo><mo>=</mo><mn>1</mn><mo>⋅</mo><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><mrow><mstyle mathsize="1.44em"><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></mstyle></mrow></math>（<a href="#image2.4.38">图2-4-38</a>）。在正弦荷载作用下，其沿桥跨方向（<i>x</i>）的挠曲线，和简支梁一样，也是正弦曲线<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><mrow><mstyle mathsize="1.44em"><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>π</mi><mi>x</mi></mrow><mi>l</mi></mfrac></mstyle></mstyle></mrow></math>。但在沿桥宽方向(<i>y</i> )的挠曲线则随板的结构特性和荷载在桥宽上的位置而不同，设以<i>Y</i>(<i>y</i> )表示。因此，板的挠度<i>ω</i>(<i>x,y</i> )可以写成如下的形式：</p>
+
+$$\\omega (x,y)=\\sin\\dfrac{\\pi x^2}{l}Y(y)$$
+
+.. raw:: html  
+
+ <p style="text-align:justify;font-family:times new roman"> 把上列的<i>ω</i>(<i>x</i>,<i>y</i>)引入微分方程式（2-4-75），注意除在<i>y</i>=<i>y</i><sub>1</sub>有单位正弦荷载外，在其左边（－<i>B</i>＜<i>Y</i> ＜<i>y</i><sub>1</sub>）和右边（<i>y</i><sub>1</sub>＜ <i>y</i>＜<i>B</i>）的板区①和②内荷载都等于零，因此，得到这两个板区关于<i>y</i>(<i>y</i>)的常微分方程如下：</p>
+
+$$ \\dfrac{d^{4}Y}{d_{y}^{-4}}-2\\pi^{2}\\theta^{2}\\dfrac{d^{2}Y}{d_{y}^{2}}+\\pi ^{4}\\theta ^{4}Y=0\\tag{2-4-77}$$
+
+.. raw:: html  
+
+ <p style="text-align:justify;font-family:times new roman"> 其中</p>
+
+$$ \\theta =\\dfrac{B}{l}\\sqrt[4]{{\\dfrac{J_{\\mathrm{x}}}{J_{\\mathrm{Y}}}}} \\qquad ,\\bar{y}=\\dfrac{y}{b} \\tag{2-4-78}$$
+
+.. raw:: html  
+
+ <p style="text-align:justify;font-family:times new roman"> <i>θ</i>参数表示桥的纵横方向抗弯刚度的比例。式（2-4-77）是<i>Y</i>(<i>y</i>)的四阶微分方程，利用板区①和②的边界条件就可以确定板在跨中央沿板宽的挠曲线<i>Y</i>(<i>y</i>)。</p>
+ <p style="text-align:justify;font-family:times new roman"> 从以上方程及其求解可见，<i>Y</i>(<i>y</i>)是和两个结构参数<i>a</i><i>θ</i>及荷载位置<i>y</i><sub>1</sub>关的。<i>Y</i>(<i>y</i>)已知后，挠度<i>ω</i>(<i>x,y</i>)就可以得到，于是荷载横向分布问题就可以迎刃而解了。</p>
+
    <body>
  <style type="text/css">
       #image2.4.39{
@@ -1343,6 +1936,14 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.39'));</script>
 
  </body>
+
+
+ <p style="text-align:justify;font-family:times new roman"> 2、用“G-M法”曲线图表计算荷载横向分布系数</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.57"> [A2-4.57]</a><span id="idA2-4.57"> 在具体设计中如果直接利用弹性挠曲面方程求解简支梁的各点内力值，将是繁复而费时的。Guyon和Massonnet已根据理论分析编制了“G-M法”曲线图表。下面介绍应用“G-M法”计算图表的计算步骤。</span></p>
+ <p style="text-align:justify;font-family:times new roman"> （1）计算几何特性<br>①求主梁、横隔梁的抗弯惯性矩<i>I</i><sub>x</sub>、<i>I</i><sub>y</sub>及比拟单宽抗弯惯性矩<i>J</i><sub>x</sub>、<i>J</i><sub>y</sub>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于主梁的抗弯惯性矩<i>I</i><sub>x</sub>，就按翼板宽为<i>b</i>的T形截面用一般方法计算。</p>
+ <p style="text-align:justify;font-family:times new roman">对于横隔梁的抗弯惯性矩<i>I</i><sub>y</sub>，由于肋的间距较大，受弯时翼板宽度为的T梁不再符合平截面假设，即翼板内的压应力沿宽度<i>a</i>的分布是很不均匀的，如<a href="#image2.4.40">图2-4-40</a>所示。为了较精确地考虑这一因素，通常就引入所谓受压翼板有效宽度的概念。每侧翼板有效宽度值就相当于把实际应力图形换算成以最大应力<i>σ</i><sub>max</sub>为基准的矩形图形的长度<i>λ</i>。根据理论分析结果，<i>λ</i>值可按<i>c</i><i>l</i>之比值由<a href="#B2.4.5">表2-4-5</a>计算，其中为横梁的长度<i>l</i>，可取两根边主梁的中心距计算。</p>
+ <p style="text-align:justify;font-family:times new roman"> 知道<i>γ</i>值后，就可按翼板宽度为（<i>2γ+δ</i>）的T形截面来计算<i>I</i><sub>y</sub>。</p>
 
   <body>
  <style type="text/css">
@@ -1359,6 +1960,67 @@ $$
 
  </body>
 
+  <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                         
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                          
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                                 
+      <table id="biaoge" style="font-family:times new roman">
+                                 
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.5">表2-4-5 系数λ   </b></caption>	
+                                               
+      <tr>
+      <td align="center" width="100" id="dhbg"><i>c</i>/<i>l</i></td>
+      <td align="center" width="80" id="dhbg">0.05</td>
+      <td align="center" width="80" id="dhbg">0.10</td>
+      <td align="center" width="80" id="dhbg">0.15</td>
+      <td align="center" width="80" id="dhbg">0.20</td>
+      <td align="center" width="80" id="dhbg">0.25</td>
+      <td align="center" width="80" id="dhbg">0.30</td>
+      <td align="center" width="80" id="dhbg">0.35</td>
+      <td align="center" width="80" id="dhbg">0.40</td>
+      <td align="center" width="80" id="dhbg">0.45</td>
+      <td align="center" width="80" id="dhbg">0.50</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>λ</i>/<i>c</i></td>
+      <td align="center" id="dhbg">0.983</td>
+      <td align="center" id="dhbg">0.936</td>
+      <td align="center" id="dhbg">0.867</td>
+      <td align="center" id="dhbg">0.789</td>
+      <td align="center" id="dhbg">0.710</td>
+      <td align="center" id="dhbg">0.635</td>
+      <td align="center" id="dhbg">0.568</td>
+      <td align="center" id="dhbg">0.509</td>
+      <td align="center" id="dhbg">0.459</td>
+      <td align="center" id="dhbg">0.416</td>
+      </tr>
+      </table>
+      <p></p>
+
+ <p style="text-align:justify;font-family:times new roman"> ②求主梁、横隔梁的抗扭惯性矩和<i>I</i><sup>'</sup><sub>Tx</sub>和<i>I</i><sup>'</sup><sub>Ty</sub>。</p>
+ <p style="text-align:justify;font-family:times new roman"> 纵向和横向单宽惯性矩<i>J</i><sub>Tx</sub>和<i>J</i><sub>Ty</sub>，可分成梁肋和翼板两部分来计算。梁肋部分的抗扭惯性矩按前面式（2-4-54）和<a href="#B2.4.3">表2-4-3</a>来计算。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于翼板部分，应分清<a href="#image2.4.41">图2-4-41 </a>所示的两种情况。</p>
+
    <body>
  <style type="text/css">
       #image2.4.41{
@@ -1373,6 +2035,26 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.41'));</script>
 
  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> <a href="#image2.4.41">图2-4-41a） </a>表示独立的宽扁矩形截面（<i>b</i>比<i>h</i>大得多），按一般公式可知其抗扭惯性矩为：</p>
+ <p style="text-align:center;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msubsup><mi>J</mi><mrow><mrow><mi mathvariant="normal">T</mi></mrow></mrow><mrow><msup><mi></mi><mo>″</mo></msup></mrow></msubsup><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msubsup><mi>I</mi><mrow><mrow><mi mathvariant="normal">T</mi></mrow></mrow><mrow><msup><mi></mi><mo>″</mo></msup></mrow></msubsup><mi>b</mi></mfrac></mstyle><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mi>b</mi></mfrac></mstyle><mo>⋅</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle><msup><mi>b</mi><mrow><mn>3</mn></mrow></msup><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msup><mi>h</mi><mn>3</mn></msup><mn>3</mn></mfrac></mstyle></math></p>
+ <p style="text-align:justify;font-family:times new roman"> <a href="#image2.4.41">图2-4-41b） </a>所示连续的桥面板来说，情况就不同。根据弹性薄板的分析，则有：</p>
+ <p style="text-align:center;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>J</mi><mrow><mrow><mi mathvariant="normal">T</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msup><mi>h</mi><mn>3</mn></msup><mn>6</mn></mfrac></mstyle></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 由此可见，连续桥面板的单宽抗扭惯性矩只有独立宽变板者的一半。这一点可以这样来解释：独立板沿短边的剪力<i>τ</i><sub>xz</sub>也参与抗扭作用，而连续板的单宽部分则不出现此种剪应力（<a href="#image2.4.41">图2-4-41 </a>）。</p>
+ <p style="text-align:justify;font-family:times new roman"> 这样，对于连续桥面板的整体式梁桥以及对于翼板刚性连接的装配式梁桥，在应用“G-M法”时，为计算抗弯参数所需的纵横向截面单宽抗扭惯性矩之和可由下式求得：</p>
+ 
+
+$$ J_{\\mathrm{Tx}}+J_{\\mathrm{Ty}}=\\dfrac{1}{3}h^{3}+\\dfrac{1}{b}I^{'}_{\\mathrm{Tx}}+\\dfrac{1}{a}I^{'}_{\\mathrm{Ty}}\\tag{2-4-79}$$ 
+ 
+
+.. raw:: html 
+ 
+ <p style="text-align:justify;font-family:times new roman"> 式中<i>h</i>为桥面板的厚度，<i>J</i><sub>Tx</sub><sup>'</sup>和<i>J</i><sub>Ty</sub><sup>'</sup>分别表示主梁肋和内横梁肋的截面抗扭惯性矩。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）按式（2-4-78）和式（2-4-76）计算<i>θ</i>和<i>a</i><br>（3）计算各主梁横向影响线坐标</p>
+ <p style="text-align:justify;font-family:times new roman"> ①用已求得的值从G-M法计算图表上查影响系数<i>K</i><sub>1</sub>和<i>K</i><sub>0</sub>值；<br>在系数<i>K</i><sub>1</sub>和<i>K</i><sub>0</sub>值的图表中是将桥的全宽分为八等分共九个点的位置来计算的，以桥宽中间点为0，向左（或向右）依次为正的<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>4</mn></mfrac></mstyle><mi>B</mi><mo>、</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mi>B</mi><mo>、</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>3</mn><mn>4</mn></mfrac></mstyle><mi>B</mi><mo>、</mo><mi>B</mi></math>（或负的<math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>−</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>4</mn></mfrac></mstyle><mi>B</mi><mo>、</mo><mo>−</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mi>B</mi><mo>、</mo><mo>−</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>3</mn><mn>4</mn></mfrac></mstyle><mi>B</mi><mo>、</mo><mo>−</mo><mi>B</mi></math>）（如<a href="#image2.4.42">图2-4-42 </a>所示）。如果需求的主梁位置不是正好在这九个点上，例如欲求<a href="#image2.4.42">图2-4-42 </a>中①号梁（梁位<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>f</mi><mo>=</mo><mi>ξ</mi><mi>B</mi></math>）处的<i>K</i>值时，则要根据相邻两个点的<i>K</i><><sub>Bi</sub>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>K</mi><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mrow><mrow><mi mathvariant="normal">B</mi><mi mathvariant="normal">i</mi></mrow></mrow></mrow></msub></math>值（由图表查得）进行内插，最后求得的<i>K</i><sub>ξBi</sub>如<a href="#image2.4.42">图2-4-42 </a>中虚线所示。</p>
+ <p style="text-align:justify;font-family:times new roman"> ②用内插法求实际梁位处的<i>K</i><sub>1</sub><sup>'</sup>和<i>K</i><sub>0</sub><sup>'</sup>值；<br>③用<i>a</i>值和公式<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>K</mi><mrow><mi>a</mi></mrow></msub><mo>=</mo><msubsup><mi>K</mi><mrow><mn>0</mn></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>+</mo><mo stretchy="false">(</mo><msubsup><mi>K</mi><mrow><mn>1</mn></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>−</mo><msubsup><mi>K</mi><mrow><mn>0</mn></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo stretchy="false">)</mo><msqrt><mi>a</mi></msqrt></math>求<i>K</i><sub>a</sub>值；<br>④用主梁数<i>n</i>除<i>K</i><sub>a</sub>即得影响线坐标<i>η</i><sub>ki</sub>。</p>
+ <p style="text-align:justify;font-family:times new roman">（4）计算各主梁的横向分布系数<br>在影响线上按横向最不利位置布置荷载，从而算出跨中荷载横向分布系数<i>m</i><sub>c</sub>。 </p>
+
 
    <body>
  <style type="text/css">
@@ -1389,6 +2071,8 @@ $$
 
  </body>
 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.58"> [A2-4.58]【例2-4-6】</a><span id="idA2-4.58"> 一座五梁式装配式钢筋混凝土简支梁桥的主梁和横隔梁截面如<a href="#image2.4.3">图2-4-43a） </a>和<a href="#image2.4.3">图2-4-43b） </a>所示，计算跨径<i>l</i>=19.50 m，主梁翼板刚性连接。试按比拟正交异性板法求各主梁对于汽车荷载和人群荷载的横向分布系数。 </span></p>
+
    <body>
  <style type="text/css">
       #image2.4.43{
@@ -1403,6 +2087,30 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.43'));</script>
 
  </body>
+ <p style="text-align:justify;font-family:times new roman"> 【解】</p>
+ <p style="text-align:justify;font-family:times new roman"> 1.计算几何特性<br>（1）主梁抗弯惯性矩</p>
+
+
+
+$$\\begin{array}{l}
+I&=&\\dfrac{1}{12}\\times(1600-180)\\times100^3+(1600-180)\\times 110\\times(412-\\dfrac{110}{2})^2\\\\
+& &+\\dfrac{1}{12}\\times 18\\times 1300^3+180\\times 1300\\times (\\dfrac{1300}{2}-412)^2\\\\
+&=& 1.575\\times10^8+1.991\\times 10^{10}+3.296\\times\\times 10^{10}+1.325\\times\\times 10^{10}=6.628 \\times 10^{10}(\\mathrm{mm^4})
+\\end{array}$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 主梁的比拟单宽抗弯惯性矩：</p>
+
+
+$$J_{\\mathrm{x}}=\\dfrac{I_{\\mathrm{x}}}{b}=\\dfrac{6.628 \\times 10^{10}}{1600}=4.142 \\times 10^{7}(\\mathrm{mm^4/mm})$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> （2）横隔梁抗弯惯性矩<br>每根中横隔梁的尺寸如<a href="#image2.4.4">图2-4-44 </a>所示。</p>
+
 
    <body>
  <style type="text/css">
@@ -1419,6 +2127,258 @@ $$
 
  </body>
 
+
+ <p style="text-align:justify;font-family:times new roman"> 按<a href="#B2.4.5">表2-4-5</a>确定翼板的有效作用宽度<i>γ</i>。<br>横隔梁的长度取为两根边主梁的轴线距离，即：</p>
+
+
+$$l^{'}=4\\times b=4\\times 1600=6400(\\mathrm{mm})$$
+$$c/l^{'}=\\dfrac{2350}{6400}=0.367$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 查<a href="#B2.4.5">表2-4-5</a>得：<i>λ</i>/<i>c</i>=0.548</p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo>∴</mo><mi>λ</mi><mo>=</mo><mn>0.548</mn><mo>×</mo><mn>2350</mn><mo>=</mo><mn>1290</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mo stretchy="false">)</mo></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 求横隔梁截面重心位置<i>a</i><sub>y</sub>：</p>
+
+$$ a_{\\mathrm{y}}=\\dfrac{2\\times 1290 \\times 110\\times \\dfrac{110}{2}+150\\times 1000 \\times \\dfrac{1000}{2}}{2\\times 1280 \\times 110+150 \\times 1000}=210(\\mathrm{mm})$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 故横隔梁抗弯惯性矩为：</p>
+
+$$\\begin{array}{l}
+I_{\\mathrm{y}}&=&\\dfrac{1}{12}\\times1280\\times110^3\\times 2+1280\\times 110\\times(210-\\dfrac{110}{2})^{2}\\times 2\\\\
+& &+\\dfrac{1}{12}\\times 150\\times 1000^{3}+150\\times 1000\\times(\\dfrac{1000}{2}-210)^2\\\\
+&=& 3.127\\times 10^{10}(\\mathrm{mm^4})
+\\end{array}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 横隔梁比拟单宽抗弯惯性矩为：</p>
+
+$$J_{\\mathrm{y}}=\\dfrac{I_{\\mathrm{y}}}{a}=\\dfrac{3.217\\times 10^{10}}{4850}=6.632 \\times 10^{6}(\\mathrm{mm^{4}/mm})$$
+
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman"> （3）主梁和横隔梁的抗扭惯性矩</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于T梁翼板刚性连接的情况，应由式（2-4-54）来计算抗扭惯性矩。</p>
+ <p style="text-align:justify;font-family:times new roman"> 对于主梁梁肋：</p>
+ <p style="text-align:justify;font-family:times new roman"> 主梁翼板的平均厚度<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>h</mi><mrow><mn>1</mn></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>80</mn><mo>+</mo><mn>140</mn></mrow><mn>2</mn></mfrac></mstyle><mo>=</mo><mn>110</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mo stretchy="false">)</mo></math></p>
+ <p style="text-align:justify;font-family:times new roman">  <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>t</mi><mrow><mo>/</mo></mrow><mi>b</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>180</mn><mrow><mn>1300</mn><mo>−</mo><mn>110</mn></mrow></mfrac></mstyle><mo>=</mo><mn>0.151</mn></mrow></math>,由<a href="#B2.4.3">表2-4-3</a>查得<i>c</i>=0.301</p>
+ <p style="text-align:justify;font-family:times new roman"> 则  <math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><msubsup><mi>I</mi><mrow><mrow><mi mathvariant="normal">T</mi><mi mathvariant="normal">x</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mi>c</mi><mi>b</mi><msup><mi>t</mi><mrow><mn>3</mn></mrow></msup><mo>=</mo><mn>0.301</mn><mo>×</mo><mo stretchy="false">(</mo><mn>1300</mn><mo>−</mo><mn>110</mn><mo stretchy="false">)</mo><mo>×</mo><msup><mn>180</mn><mrow><mn>3</mn></mrow></msup><mo>=</mo><mn>2.089</mn><mo>×</mo><msup><mn>10</mn><mrow><mn>9</mn></mrow></msup><mo stretchy="false">(</mo><msup><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mn>4</mn></msup><mo stretchy="false">)</mo></mrow></math></p>
+ <p style="text-align:justify;font-family:times new roman">  对于横隔梁梁肋：<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>t</mi><mrow><mo>/</mo></mrow><mi>b</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>150</mn><mrow><mn>1000</mn><mo>−</mo><mn>110</mn></mrow></mfrac></mstyle><mo>=</mo><mn>0.169</mn></mrow></math>,查表得<i>c</i>=0.298</p>
+ <p style="text-align:justify;font-family:times new roman"> 则  <math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><msubsup><mi>I</mi><mrow><mrow><mi mathvariant="normal">T</mi><mi mathvariant="normal">y</mi></mrow></mrow><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msubsup><mo>=</mo><mn>0.298</mn><mo>×</mo><mo stretchy="false">(</mo><mn>1000</mn><mo>−</mo><mn>110</mn><mo stretchy="false">)</mo><mo>×</mo><msup><mn>150</mn><mrow><mn>3</mn></mrow></msup><mo>=</mo><mn>8.951</mn><mo>×</mo><msup><mn>10</mn><mrow><mn>8</mn></mrow></msup><mo stretchy="false">(</mo><msup><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mn>4</mn></msup><mo stretchy="false">)</mo></mrow></math></p>
+
+$$
+\\begin{array}{l}
+\\therefore J_{\\mathrm{Tx}}+J_{\\mathrm{Ty}}&=\\dfrac{1}{3}h_{1}^{3}+\\dfrac{1}{b}I_{\\mathrm{Tx}}^{'}+\\dfrac{1}{a}I_{\\mathrm{Ty}}^{'}\\\\
+&=\\dfrac{1}{3}\\times 110^{3}+\\dfrac{2.089\\times 10^{9}}{1600}+\\dfrac{8.951\\times 10^{8}}{4580}\\\\
+&=1.934\\times 10^{6}(\\mathrm{mm^{4}/mm})
+\\end{array}
+$$
+
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman"> 2. 计算参数<i>θ</i>和<i>a</i> </p>
+
+$$\\theta =\\dfrac{B}{l}\\sqrt[4]{\\dfrac{J_{\\mathrm{x}}}{J_{\\mathrm{y}}}}=\\dfrac{4000}{19500}\\sqrt[4]{\\dfrac{4.142 \\times 10^{7}}{6.632 \\times 10 ^{6}}}=0.324$$
+
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman">式中<i>B</i>为桥梁承重结构的半宽，即<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.2em"><mi>B</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>5</mn><mo>×</mo><mn>1600</mn></mrow><mn>2</mn></mfrac></mstyle><mo>=</mo><mn>4000</mn><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi></mrow><mo stretchy="false">)</mo></mstyle></math> </p>
+
+$$a=\\dfrac{G(J_{\\mathrm{Tx}}+J_{\\mathrm{Ty}})}{2E\\sqrt{J_{\\mathrm{x}}\\cdot J_{\\mathrm{y}}}}=\\dfrac{0.4E\\times 1.934 \\times 10 ^{6}}{2E \\sqrt{4.142 \\cdot 10^{7} \\times 6.632 \\times 10^{6}}}=0.02334$$
+
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman"> 则<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle mathsize="1.2em"><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>0.02334</mn></msqrt><mo>=</mo><mn>0.1528</mn></mstyle></math></p>
+
+ <p style="text-align:justify;font-family:times new roman"> 3.计算各主梁横向影响线坐标<br>由<i>θ</i>=0.324，查附录Ⅲ—2“G-M法”<i>K</i><sub>1</sub>和<i>K</i><sub>0</sub>值计算用表，得到<a href="#B2.4.6">表2-4-6</a>。</p>
+
+      <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                            
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                             
+               }
+      #eqzs {
+               order: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+
+      <table id="biaoge" style="font-family:times new roman">
+                                    
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.6">表2-4-6 比拟板梁位处<i>K</i><sub>1</sub>和<i>K</i><sub>0</sub>值   </b></caption>	
+                                                  
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">系数</td>
+      <td align="center" id="dhbg" rowspan="2">梁位</td>
+      <td align="center" id="dhbg" colspan="9">荷 载 位 置</td>
+      <td align="center" id="dhbg" rowspan="2">校核*</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i></td>
+      <td align="center" id="dhbg">3/4<i>B</i></td>
+      <td align="center" id="dhbg"><i>B</i>/2</td>
+      <td align="center" id="dhbg"><i>B</i>/4</td>
+      <td align="center" id="dhbg">0</td>
+      <td align="center" id="dhbg">-<i>B</i>/4</td>
+      <td align="center" id="dhbg">-<i>B</i>/2</td>
+      <td align="center" id="dhbg">-3/4<i>B</i></td>
+      <td align="center" id="dhbg">-<i>B</i></td>
+      </tr>
+      <tr>
+      <td align="center" width="75" id="dhbg" rowspan="5"><i>K</i><sub>1</sub></td>
+      <td align="center" width="75"  id="dhbg">0</td>
+      <td align="center" width="75"  id="dhbg">0.94</td>
+      <td align="center" width="75"  id="dhbg">0.97</td>
+      <td align="center" width="75"  id="dhbg">1.00</td>
+      <td align="center" width="75"  id="dhbg">1.03</td>
+      <td align="center" width="75"  id="dhbg">1.05</td>
+      <td align="center" width="75"  id="dhbg">1.03</td>
+      <td align="center" width="75"  id="dhbg">1.00</td>
+      <td align="center" width="75"  id="dhbg">0.97</td>
+      <td align="center" width="75"  id="dhbg">0.94</td>
+      <td align="center" width="75"  id="dhbg">7.99</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i>/4</td>
+      <td align="center" id="dhbg">1.05</td>
+      <td align="center" id="dhbg">1.06</td>
+      <td align="center" id="dhbg">1.07</td>
+      <td align="center" id="dhbg">1.07</td>
+      <td align="center" id="dhbg">1.02</td>
+      <td align="center" id="dhbg">0.97</td>
+      <td align="center" id="dhbg">0.93</td>
+      <td align="center" id="dhbg">0.87</td>
+      <td align="center" id="dhbg">0.83</td>
+      <td align="center" id="dhbg">7.93</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i>/2</td>
+      <td align="center" id="dhbg">1.22</td>
+      <td align="center" id="dhbg">1.18</td>
+      <td align="center" id="dhbg">1.14</td>
+      <td align="center" id="dhbg">1.07</td>
+      <td align="center" id="dhbg">1.00</td>
+      <td align="center" id="dhbg">0.93</td>
+      <td align="center" id="dhbg">0.87</td>
+      <td align="center" id="dhbg">0.80</td>
+      <td align="center" id="dhbg">0.75</td>
+      <td align="center" id="dhbg">7.98</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">3/4<i>B</i></td>
+      <td align="center" id="dhbg">1.41</td>
+      <td align="center" id="dhbg">1.31</td>
+      <td align="center" id="dhbg">1.20</td>
+      <td align="center" id="dhbg">1.07</td>
+      <td align="center" id="dhbg">0.97</td>
+      <td align="center" id="dhbg">0.87</td>
+      <td align="center" id="dhbg">0.79</td>
+      <td align="center" id="dhbg">0.72</td>
+      <td align="center" id="dhbg">0.67</td>
+      <td align="center" id="dhbg">7.97</td>                                          
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i></td>
+      <td align="center" id="dhbg">1.65</td>
+      <td align="center" id="dhbg">1.42</td>
+      <td align="center" id="dhbg">1.24</td>
+      <td align="center" id="dhbg">1.07</td>
+      <td align="center" id="dhbg">0.93</td>
+      <td align="center" id="dhbg">0.84</td>
+      <td align="center" id="dhbg">0.74</td>
+      <td align="center" id="dhbg">0.68</td>
+      <td align="center" id="dhbg">0.60</td>
+      <td align="center" id="dhbg">8.04</td>
+      </tr>                                          
+      <tr>
+      <td align="center" id="dhbg" rowspan="5"><i>K</i><sub>0</sub></td>
+      <td align="center" id="dhbg">0</td>
+      <td align="center" id="dhbg">0.83</td>
+      <td align="center" id="dhbg">0.91</td>
+      <td align="center" id="dhbg">0.99</td>
+      <td align="center" id="dhbg">1.08</td>
+      <td align="center" id="dhbg">1.13</td>
+      <td align="center" id="dhbg">1.08</td>                                          
+      <td align="center" id="dhbg">0.99</td>
+      <td align="center" id="dhbg">0.91</td>
+      <td align="center" id="dhbg">0.83</td>
+      <td align="center" id="dhbg">7.92</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i>/4</td>
+      <td align="center" id="dhbg">1.66</td>
+      <td align="center" id="dhbg">1.51</td>
+      <td align="center" id="dhbg">1.35</td>
+      <td align="center" id="dhbg">1.23</td>
+      <td align="center" id="dhbg">1.06</td>
+      <td align="center" id="dhbg">0.88</td>
+      <td align="center" id="dhbg">0.63</td>
+      <td align="center" id="dhbg">0.39</td>
+      <td align="center" id="dhbg">0.18</td>
+      <td align="center" id="dhbg">7.97</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i>/2</td>
+      <td align="center" id="dhbg">2.46</td>
+      <td align="center" id="dhbg">2.10</td>
+      <td align="center" id="dhbg">1.73</td>
+      <td align="center" id="dhbg">1.38</td>
+      <td align="center" id="dhbg">0.98</td>
+      <td align="center" id="dhbg">0.64</td>
+      <td align="center" id="dhbg">0.23</td>
+      <td align="center" id="dhbg">-0.17</td>
+      <td align="center" id="dhbg">-0.55</td>
+      <td align="center" id="dhbg">7.85</td>
+      </tr> 
+      <tr>
+      <td align="center" id="dhbg">3/4<i>B</i></td>
+      <td align="center" id="dhbg">3.32</td>
+      <td align="center" id="dhbg">2.73</td>
+      <td align="center" id="dhbg">2.10</td>
+      <td align="center" id="dhbg">1.51</td>
+      <td align="center" id="dhbg">0.94</td>
+      <td align="center" id="dhbg">0.40</td>
+      <td align="center" id="dhbg">-0.16</td>
+      <td align="center" id="dhbg">-0.62</td>
+      <td align="center" id="dhbg">-1.13</td>
+      <td align="center" id="dhbg">8.00</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><i>B</i></td>
+      <td align="center" id="dhbg">4.10</td>
+      <td align="center" id="dhbg">3.40</td>
+      <td align="center" id="dhbg">2.44</td>
+      <td align="center" id="dhbg">1.64</td>
+      <td align="center" id="dhbg">0.83</td>
+      <td align="center" id="dhbg">0.18</td>
+      <td align="center" id="dhbg">-0.54</td>
+      <td align="center" id="dhbg">-1.14</td>
+      <td align="center" id="dhbg">-1.77</td>
+      <td align="center" id="dhbg">7.98</td>
+      </tr>                                                                                                        
+      </table>
+      <p style="font-family:times new roman"><font size="2">注：“校核*”栏按公式<math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><munderover><mo data-mjx-texclass="OP">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>2</mn></mrow><mrow><mn>8</mn></mrow></munderover><msub><mi>K</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow></msub><mo>+</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo stretchy="false">(</mo><msub><mi>K</mi><mrow><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>K</mi><mrow><mn>9</mn></mrow></msub><mo stretchy="false">)</mo><mo>=</mo><mn>8</mn></mstyle></math>进行</font></p>
+
+ <p style="text-align:justify;font-family:times new roman"> 用内插法求实际梁位处的<i>K</i><sub>1</sub>和<i>K</i><sub>0</sub>值，实际梁位与表列梁位的关系见<a href="#image2.4.45">图2-4-45 </a>。</p>
+
    <body>
  <style type="text/css">
       #image2.4.45{
@@ -1433,6 +2393,295 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.45'));</script>
 
  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 对于①号梁：</p>
+
+
+$$K^{'}=K_{\\frac{3}{4}\\mathrm{B}}+( K_{\\mathrm{B}}-K_{\\frac{3}{4}\\mathrm{B}})\times \\dfrac{20}{100}=0.2 K_{\\mathrm{B}}+0.8 K_{\\frac{3}{4}\\mathrm{B}}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 对于②号梁：</p>
+
+
+$$K^{'}=K_{\\frac{1}{4}\\mathrm{B}}+( K_{\\frac{1}{2}\\mathrm{B}}- K_{\\frac{1}{4}\\mathrm{B}})\\times \\dfrac{60}{100}=0.6 K_{\\frac{1}{2}\\mathrm{B}}+0.4 K_{\\frac{1}{4}\\mathrm{B}}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">对于③号梁：</p>
+
+$$k^{'}=k_{0}(这里 K_{0}是指表列梁位在0点的K值)$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 现将①、②和③号梁的横向影响线坐标值列表计算见<a href="#B2.4.7">表2-4-7</a>。</p>
+
+
+ <style>
+      #biaoge {
+               border: 2px solid black;
+               border-collapse: collapse;
+               margin-bottom:1px;
+                                         
+               }
+      th, td {
+               padding-top: 5px;
+               padding-bottom:5px;
+               padding-left:5px;
+               padding-right:5px;
+               border: 1px solid black;
+               vertical-align: middle;
+                                          
+               }
+      #eqzs {
+               border: 0px;
+               }
+      #dhbg {
+               vertical-align: middle;
+               }
+      </style>
+                                 
+      <table id="biaoge" style="font-family:times new roman">
+                                 
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.7">表2-4-7 ①、②、③号梁的横向影响线坐标值   </b></caption>	
+                                               
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">梁<br>号</td>
+      <td align="center" id="dhbg" rowspan="2">算  式</td>
+      <td align="center" id="dhbg" colspan="9">荷 载 位 置</td>
+      </tr>
+      <tr>
+      <td align="center" width="100px" id="dhbg"><i>B</i></td>
+      <td align="center" width="100px"  id="dhbg">3/4<i>B</i></td>
+      <td align="center" width="100px"  id="dhbg"><i>B</i>/2</td>
+      <td align="center" width="100px" id="dhbg"><i>B</i>/4</td>
+      <td align="center" width="100px" id="dhbg">0</td>
+      <td align="center" width="100px"  id="dhbg">-<i>B</i>/4</td>
+      <td align="center" width="100px"  id="dhbg">-<i>B</i>/2</td>
+      <td align="center" width="100px"  id="dhbg">-3/4<i>B</i></td>
+      <td align="center" width="100px" id="dhbg">-<i>B</i></td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="6">1</td>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> = </mo> <mn> 0.2 </mn> <mo> &#x00B7; <!-- middle dot --> </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> <mi> B </mi> </mrow> </msub> <mo> + </mo> <mn> 0.8 </mn> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> <mfrac> <mrow> <mn> 3 </mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> <mi> B </mi> </mrow> </msub> </math></td>
+      <td align="center" id="dhbg">1.458</td>
+      <td align="center" id="dhbg">1.332</td>
+      <td align="center" id="dhbg">1.208</td>
+      <td align="center" id="dhbg">1.070</td>
+      <td align="center" id="dhbg">0.962</td>
+      <td align="center" id="dhbg">0.864</td>
+      <td align="center" id="dhbg">0.780</td>
+      <td align="center" id="dhbg">0.712</td>
+      <td align="center" id="dhbg">0.656</td>         
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> = </mo> <mn> 0.2 </mn> <mo> &#x00B7; <!-- middle dot --> </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> <mi> B </mi> </mrow> </msub> <mo> + </mo> <mn> 0.8 </mn> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> <mfrac> <mrow> <mn> 3 </mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> <mi> B </mi> </mrow> </msub> </math></td>
+      <td align="center" id="dhbg">3.476</td>
+      <td align="center" id="dhbg">2.864</td>
+      <td align="center" id="dhbg">2.168</td>
+      <td align="center" id="dhbg">1.536</td>
+      <td align="center" id="dhbg">0.918</td>
+      <td align="center" id="dhbg">0.356</td>
+      <td align="center" id="dhbg">-0.236</td>
+      <td align="center" id="dhbg">-0.724</td>
+      <td align="center" id="dhbg">-1.258</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> </math></td>
+      <td align="center" id="dhbg">-2.018</td>
+      <td align="center" id="dhbg">-1.532</td>
+      <td align="center" id="dhbg">-0.960</td>
+      <td align="center" id="dhbg">-0.466</td>
+      <td align="center" id="dhbg">0.044</td>
+      <td align="center" id="dhbg">0.508</td>
+      <td align="center" id="dhbg">1.016</td>
+      <td align="center" id="dhbg">1.436</td>
+      <td align="center" id="dhbg">1.914</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mrow> <mo> ( </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> ) </mo> </mrow> <mo> &#x00D7; <!-- multiplication sign --> </mo> <msqrt> <mi> a </mi> </msqrt> </math></td>
+      <td align="center" id="dhbg">-0.318</td>
+      <td align="center" id="dhbg">-0.242</td>
+      <td align="center" id="dhbg">-0.152</td>
+      <td align="center" id="dhbg">-0.074</td>
+      <td align="center" id="dhbg">0.007</td>
+      <td align="center" id="dhbg">0.080</td>
+      <td align="center" id="dhbg">0.161</td>
+      <td align="center" id="dhbg">0.227</td>
+      <td align="center" id="dhbg">0.302</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mi> a </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> + </mo> <mrow> <mo> ( </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> ) </mo> </mrow> <mo> &#x00D7; <!-- multiplication sign --> </mo> <msqrt> <mi> a </mi> </msqrt> </math></td>
+      <td align="center" id="dhbg">3.158</td>
+      <td align="center" id="dhbg">2.622</td>
+      <td align="center" id="dhbg">2.016</td>
+      <td align="center" id="dhbg">1.462</td>
+      <td align="center" id="dhbg">0.925</td>
+      <td align="center" id="dhbg">0.436</td>
+      <td align="center" id="dhbg">-0.075</td>
+      <td align="center" id="dhbg">-0.497</td>
+      <td align="center" id="dhbg">-0.956</td>
+      </tr> 
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> &#x03B7; <!-- greek small letter eta --> </mi> </mrow> <mrow> <mn> 1 </mn> <mi> i </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mi> a </mi> </mrow> </msub> <mo> / </mo> <mn> 5 </mn> </math></td>
+      <td align="center" id="dhbg">0.632</td>
+      <td align="center" id="dhbg">0.524</td>
+      <td align="center" id="dhbg">0.403</td>
+      <td align="center" id="dhbg">0.292</td>
+      <td align="center" id="dhbg">0.185</td>
+      <td align="center" id="dhbg">0.087</td>
+      <td align="center" id="dhbg">-0.015</td>
+      <td align="center" id="dhbg">-0.099</td>
+      <td align="center" id="dhbg">-0.191</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="6">2</td>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> = </mo> <mn> 0.6 </mn> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> <mfrac> <mrow> <mn> 1 </mn> </mrow> <mrow> <mn> 2 </mn> </mrow> </mfrac> <mi> B </mi> </mrow> </msub> <mo> + </mo> <mn> 0.4 </mn> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> <mfrac> <mrow> <mn> 3 </mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> <mi> B </mi> </mrow> </msub> </math></td>
+      <td align="center" id="dhbg">1.152</td>
+      <td align="center" id="dhbg">1.132</td>
+      <td align="center" id="dhbg">1.112</td>
+      <td align="center" id="dhbg">1.070</td>
+      <td align="center" id="dhbg">1.008</td>
+      <td align="center" id="dhbg">0.946</td>
+      <td align="center" id="dhbg">0.894</td>
+      <td align="center" id="dhbg">0.828</td>
+      <td align="center" id="dhbg">0.782</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> = </mo> <mn> 0.6 </mn> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> <mfrac> <mrow> <mn> 1 </mn> </mrow> <mrow> <mn> 2 </mn> </mrow> </mfrac> <mi> B </mi> </mrow> </msub> <mo> + </mo> <mn> 0.4 </mn> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> <mfrac> <mrow> <mn> 1 </mn> </mrow> <mrow> <mn> 4 </mn> </mrow> </mfrac> <mi> B </mi> </mrow> </msub> </math></td>
+      <td align="center" id="dhbg">2.140</td>
+      <td align="center" id="dhbg">1.864</td>
+      <td align="center" id="dhbg">1.578</td>
+      <td align="center" id="dhbg">1.320</td>
+      <td align="center" id="dhbg">1.012</td>
+      <td align="center" id="dhbg">0.736</td>
+      <td align="center" id="dhbg">0.390</td>
+      <td align="center" id="dhbg">0.054</td>
+      <td align="center" id="dhbg">-0.258</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> </math></td>
+      <td align="center" id="dhbg">-0.988</td>
+      <td align="center" id="dhbg">-0.732</td>
+      <td align="center" id="dhbg">-0.466</td>
+      <td align="center" id="dhbg">-0.250</td>
+      <td align="center" id="dhbg">-0.004</td>
+      <td align="center" id="dhbg">0.210</td>
+      <td align="center" id="dhbg">0.504</td>
+      <td align="center" id="dhbg">0.774</td>
+      <td align="center" id="dhbg">1.040</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mrow> <mo> ( </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> ) </mo> </mrow> <mo> &#x00D7; <!-- multiplication sign --> </mo> <msqrt> <mi> a </mi> </msqrt> </math></td>
+      <td align="center" id="dhbg">-0.156</td>
+      <td align="center" id="dhbg">-0.115</td>
+      <td align="center" id="dhbg">-0.074</td>
+      <td align="center" id="dhbg">-0.040</td>
+      <td align="center" id="dhbg">-0.001</td>
+      <td align="center" id="dhbg">0.033</td>
+      <td align="center" id="dhbg">0.080</td>
+      <td align="center" id="dhbg">0.122</td>
+      <td align="center" id="dhbg">0.164</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mi> a </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> + </mo> <mrow> <mo> ( </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> ) </mo> </mrow> <mo> &#x00D7; <!-- multiplication sign --> </mo> <msqrt> <mi> a </mi> </msqrt> </math></td>
+      <td align="center" id="dhbg">1.984</td>
+      <td align="center" id="dhbg">1.749</td>
+      <td align="center" id="dhbg">1.504</td>
+      <td align="center" id="dhbg">1.280</td>
+      <td align="center" id="dhbg">1.011</td>
+      <td align="center" id="dhbg">0.769</td>
+      <td align="center" id="dhbg">0.470</td>
+      <td align="center" id="dhbg">0.176</td>
+      <td align="center" id="dhbg">-0.094</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> &#x03B7; <!-- greek small letter eta --> </mi> </mrow> <mrow> <mn> 2 </mn> <mi> i </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mi> a </mi> </mrow> </msub> <mo> / </mo> <mn> 5 </mn> </math></td>
+      <td align="center" id="dhbg">0.397</td>
+      <td align="center" id="dhbg">0.350</td>
+      <td align="center" id="dhbg">0.301</td>
+      <td align="center" id="dhbg">0.256</td>
+      <td align="center" id="dhbg">0.202</td>
+      <td align="center" id="dhbg">0.154</td>
+      <td align="center" id="dhbg">0.094</td>
+      <td align="center" id="dhbg">0.035</td>
+      <td align="center" id="dhbg">-0.019</td>
+      </tr>         
+      <tr>
+      <td align="center" id="dhbg" rowspan="6">3</td>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 10 </mn> </mrow> </msub> </math></td>
+      <td align="center" id="dhbg">0.940</td>
+      <td align="center" id="dhbg">0.970</td>
+      <td align="center" id="dhbg">1.000</td>
+      <td align="center" id="dhbg">1.030</td>
+      <td align="center" id="dhbg">1.050</td>
+      <td align="center" id="dhbg">1.030</td>
+      <td align="center" id="dhbg">1.000</td>
+      <td align="center" id="dhbg">0.970</td>
+      <td align="center" id="dhbg">0.940</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 00 </mn> </mrow> </msub> </math></td>
+      <td align="center" id="dhbg">0.830</td>
+      <td align="center" id="dhbg">0.910</td>
+      <td align="center" id="dhbg">0.990</td>
+      <td align="center" id="dhbg">1.080</td>
+      <td align="center" id="dhbg">1.130</td>
+      <td align="center" id="dhbg">1.080</td>
+      <td align="center" id="dhbg">1.990</td>
+      <td align="center" id="dhbg">0.910</td>
+      <td align="center" id="dhbg">0.830</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> </math></td>
+      <td align="center" id="dhbg">0.110</td>
+      <td align="center" id="dhbg">0.060</td>
+      <td align="center" id="dhbg">0.010</td>
+      <td align="center" id="dhbg">-0.050</td>
+      <td align="center" id="dhbg">-0.080</td>
+      <td align="center" id="dhbg">-0.050</td>
+      <td align="center" id="dhbg">0.010</td>
+      <td align="center" id="dhbg">0.060</td>
+      <td align="center" id="dhbg">0.110</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mrow> <mo> ( </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> ' </mo> <mo> - </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mn> 0 </mn> </mrow> </msub> <mo> ' </mo> <mo> ) </mo> </mrow> <mo> &#x00D7; <!-- multiplication sign --> </mo> <msqrt> <mi> a </mi> </msqrt> </math></td>
+      <td align="center" id="dhbg">0.847</td>
+      <td align="center" id="dhbg">0.920</td>
+      <td align="center" id="dhbg">0.992</td>
+      <td align="center" id="dhbg">1.072</td>
+      <td align="center" id="dhbg">1.117</td>
+      <td align="center" id="dhbg">1.072</td>
+      <td align="center" id="dhbg">0.992</td>
+      <td align="center" id="dhbg">0.920</td>
+      <td align="center" id="dhbg">0.847</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> &#x03B7; <!-- greek small letter eta --> </mi> </mrow> <mrow> <mn> 2 </mn> <mi> i </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> K </mi> </mrow> <mrow> <mi> a </mi> </mrow> </msub> <mo> / </mo> <mn> 5 </mn> </math></td>
+      <td align="center" id="dhbg">0.170</td>
+      <td align="center" id="dhbg">0.184</td>
+      <td align="center" id="dhbg">0.198</td>
+      <td align="center" id="dhbg">0.214</td>
+      <td align="center" id="dhbg">0.223</td>
+      <td align="center" id="dhbg">0.214</td>
+      <td align="center" id="dhbg">0.198</td>
+      <td align="center" id="dhbg">0.184</td>
+      <td align="center" id="dhbg">0.170</td>                                                                                  
+      </table>
+      <P></P>
+
+ <p style="text-align:justify;font-family:times new roman"> 在影响线上按横向最不利位置布载，就可按相对应的影响线坐标值求得主梁的荷载横向分布系数：</p>
+
+ <p style="text-align:justify;font-family:times new roman"> 对于①号梁：</p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车荷载</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">q</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo data-mjx-texclass="OP">∑</mo><mi>η</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>×</mo><mo stretchy="false">(</mo><mn>0.524</mn><mo>+</mo><mn>0.313</mn><mo>+</mo><mn>0.177</mn><mo>−</mo><mn>0.005</mn><mo stretchy="false">)</mo><mo>=</mo><mn>0.505</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车荷载</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><msub><mi>η</mi><mrow><mi>r</mi></mrow></msub><mo>=</mo><mn>0.602</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 对于②号梁：</p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车荷载</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">q</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo data-mjx-texclass="OP">∑</mo><mi>η</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>×</mo><mo stretchy="false">(</mo><mn>0.350</mn><mo>+</mo><mn>0.266</mn><mo>+</mo><mn>0.200</mn><mo>+</mo><mn>0.095</mn><mo stretchy="false">)</mo><mo>=</mo><mn>0.456</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车荷载</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><msub><mi>η</mi><mrow><mi>r</mi></mrow></msub><mo>=</mo><mn>0.391</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"> 对于③号梁：</p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车荷载</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">q</mi></mrow></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo data-mjx-texclass="OP">∑</mo><mi>η</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>×</mo><mo stretchy="false">(</mo><mn>0.184</mn><mo>+</mo><mn>0.212</mn><mo>+</mo><mn>0.222</mn><mo>+</mo><mn>0.200</mn><mo stretchy="false">)</mo><mo>=</mo><mn>0.409</mn></math></p>
+ <p style="text-align:justify;font-family:times new roman"> <math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>汽车荷载</mo><mstyle scriptlevel="0"><mspace width="2em"></mspace></mstyle><msub><mi>m</mi><mrow><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><msub><mi>η</mi><mrow><mi>r</mi></mrow></msub><mo>=</mo><mn>0.342</mn></math></p>
 
    <body>
  <style type="text/css">
@@ -1449,12 +2698,9 @@ $$
 
  </body>
 
-
-
-
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.4.3.6"> 六、荷载横向分布系数沿桥跨的变化</a> <span id="id2.4.3.6"> </span></p>
-
-
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.59"> [A2-4.59]</a><span id="idA2-4.59"> 当用“杠杆原理法”确定出位于支点处的荷载横向分布系数<i>m</i><sub>0</sub>和用其他方法确定出位于跨中的荷载横向分布系数<i>m</i><sub>c</sub>以后，便可用<a href="#image2.4.47">图2-4-47 </a>所示的近似处理方法来确定其他位置的荷载横向分布系数<i>m</i><sub>x</sub>。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.60"> [A2-4.60]</a><span id="idA2-4.60"> 对于中间无横隔梁或仅有一根横隔梁的情况，跨中部分须用不变的<i>m</i><sub>c</sub>，从离支点<i>l</i>/4处起至支点的区段内<i>m</i><sub>x</sub>呈直线形过渡至<i>m</i><sub>0</sub>[<a href="#image2.4.47">图2-4-47a） </a>]；对于有多根内横隔梁的情况，<i>m</i><sub>c</sub>从第一根内横隔梁起向支点<i>m</i><sub>0</sub>直线形过渡[<a href="#image2.4.47">图2-4-47b） </a>]。</span></p>
 
     <body>
  <style type="text/css">
@@ -1470,7 +2716,8 @@ $$
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.4.47'));</script>
 
  </body>
-
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.61"> [A2-4.61]</a><span id="idA2-4.61"> 这样，对于主梁上计算截面的纵向位置不同，就应有不同的横向分布系数。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.62"> [A2-4.62]</a><span id="idA2-4.62"> 在实际应用中，当求简支梁跨中最大弯矩时，为了简化起见，通常均可按不变化的<i>m</i><sub>c</sub>来计算。只有在计算主梁梁端截面的最大剪力时，才考虑荷载横向分布系数变化的影响[<a href="#image2.4.47">图2-4-47a） </a>]。对于跨内其他截面的主梁剪力时，也可视具体情况计及<i>m</i>沿桥跨变化的影响。</span></p>
 
 
 :math:`\ `
