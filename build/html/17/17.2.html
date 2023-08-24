@@ -130,9 +130,110 @@
   <section id="id1">
 <h1>第二节  连拱简化计算方法<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
 <h3 id="test111"> 第二节  连拱简化计算方法</h3>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.8"> [A3-6.8]</a><span id="idA3-6.8"> 计算连拱的方法可分为精确法和简化法（近似法）两大类。《结构力学》教材中介绍的“直接刚度法”属于精确法，采用这类方法分析无铰连拱时，每个拱墩结点有两个变位未知数（水平位移和转角）。当连拱的计算跨数在3跨以上时，由于未知数较多，若采用手算，计算工作繁复。在计算机不够普及的时代，为简化连拱计算工作，便于手算，产生了多种连拱简化计算方法，主要运用于工程实践的有三种：基于墩拱抗推刚度比的简化计算法、同时考虑墩顶结点位移和转角影响的总和法（简称∑法）及换算刚度法。以下仅介绍简化计算方法，其他两种方法，读者若有兴趣，可阅读相关文献。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.9"> [A3-6.9]</a><span id="idA3-6.9"> 需要指出的是，连拱简化计算方法虽为手算带来了较大方便，但随着结构有限元计算方法的普及，手算方法的用途已逐渐减弱。因此，介绍简化计算方法的目的，主要在于使读者认识、了解连拱作用的基本概念、连拱结构的受力特点与性能。</span></p>
 
-<p style="text-align:justify;font-family:times new roman"><a href="#id3.5.2.1"> 一、计算图式</a> <span id="id3.5.2.1"> </span></p>
-<p style="text-align:justify;font-family:times new roman"><a href="#id3.5.2.2"> 二、内力计算</a> <span id="id3.5.2.2"> </span></p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#id3.6.2.1"> 一、计算图式</a> <span id="id3.6.2.1"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.10"> [A3-6.10]</a><span id="idA3-6.10"> 简化计算方法是根据桥墩的抗推刚度<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msup><mi>K</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo accent="false">¯</mo></mover></math>（按下端固结、上端铰接计算）与拱的抗推刚度K的不同比值，采用不同的简化计算图式。经过计算对比分析，根据<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msup><mi>K</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo accent="false">¯</mo></mover><mrow><mo>/</mo></mrow><mi>K</mi></math>的不同比值，采用三种不同的简化计算图式，如<a href="#imageB3.6.1">表3-6-1</a>所示。</span></p>
+
+    <body>
+
+ <style type="text/css">
+     #imageB3.6.1{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="imageB3.6.1" src="../_static/fig/B3-6-1.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman"> </p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('imageB3.6.1'));</script>
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">（1）当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msup><mi>K</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo accent="false">¯</mo></mover><mrow><mo>/</mo></mrow><mi>K</mi></math>≤2/3时，无铰连拱可按<a href="#imageB3.6.1">表3-6-1</a>第一种连拱简化图式计算。此时，由于拱的抗推刚度较大而墩的抗推刚度较小，在拱墩结点变位中，拱对墩有较大的约束作用，阻碍了墩顶的转动。在这种情况下，拱墩结点采用固结的图式，并假定结点的转角为零。</p>
+<p style="text-align:justify;font-family:times new roman">（2）当2/3<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msup><mi>K</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo accent="false">¯</mo></mover><mrow><mo>/</mo></mrow><mi>K</mi></math>≤7时，无铰连拱可按表3-6-1中第二种连拱简化图式计算。即将墩顶视为铰接，并假定拱脚的转角为零。</p>
+<p style="text-align:justify;font-family:times new roman">（3）当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msup><mi>K</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo accent="false">¯</mo></mover><mrow><mo>/</mo></mrow><mi>K</mi></math>>7时，无铰连拱可按<a href="#imageB3.6.1">表3-6-1</a>中第三种连拱简化图式计算。此时，由于墩的抗推刚度<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msup><mi>K</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup><mo accent="false">¯</mo></mover></math>比拱的抗推刚度<i>K</i>大了许多倍，拱圈已不能制止墩顶转动，略去墩顶约束作用，则墩顶呈铰接状态。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.11"> [A3-6.11]</a><span id="idA3-6.11"> <a href="#imageB3.6.1">表3-6-1</a>中的三种连拱简化计算图式，从结构力学角度讲，有着明显的共性，即在位移法的基本未知数中，只有水平位移一个未知数。因而，可用位移法建立统一的计算公式，计算结点变位和拱、墩内力。</span></p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#id3.6.2.2"> 二、内力计算</a> <span id="id3.6.2.2"> </span></p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.12"> [A3-6.12]</a><span id="idA3-6.12"> 根据上述简化计算图式，连拱计算的内力可视为按固定拱计算的内力加上连拱作用影响产生的内力。由于简化计算方法只考虑了结点水平位移的影响，故连拱作用的附加力，系由拱脚产生的水平位移所引起。对于荷载跨而言，两拱脚所产生的水平位移都是向外的，由此引起的附加力将在拱的弹性中心产生一对水平拉力<i>△H</i>（<a href="#image3.6.3">图3-6-3</a>）。</span></p>
+
+    <body>
+
+ <style type="text/css">
+     #image3.6.3{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.6.3" src="../_static/fig/3-6-3.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-6-3  连拱作用引起的附加内力</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.6.3'));</script>
+
+ </body>
+<p style="text-align:justify;font-family:times new roman">连拱作用（加载跨）引起的附加内力为：</p>
+<p style="text-align:justify;font-family:times new roman">轴向力 <math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><mi>N</mi><mo>=</mo><mi mathvariant="normal">Δ</mi><mi>H</mi><mi>cos</mi><mo data-mjx-texclass="NONE">⁡</mo><mi>φ</mi></math></p>
+<p style="text-align:justify;font-family:times new roman">弯  矩 <math xmlns="http://www.w3.org/1998/Math/MathML" ><mi mathvariant="normal">Δ</mi><mi>M</mi><mo>=</mo><mi mathvariant="normal">Δ</mi><mi>H</mi><mo>⋅</mo><mrow><mi mathvariant="normal">y</mi></mrow></math></p>
+<p style="text-align:justify;font-family:times new roman">式中：<i>ΔH</i>——连拱作用引起的水平力。对荷载跨而言，<i>ΔH</i>为拉力，故<i>ΔH</i>又称为连拱作用引起的水平力损失。</p>
+<p style="text-align:justify;font-family:times new roman">连拱内力＝固定拱内力＋附加内力</p><p>$$\left. \begin{array}{l}
+水平力 H=H^{\mathrm{F}}-\Delta H\\
+轴向力 N=N^{\mathrm{F}}-\Delta H_{\mathrm{C}}\cos \varphi\\
+弯\,\,矩 M=M^{F\mathrm{F}}-\Delta H\cdot \mathrm{y}
+\end{array}\right\}\tag{3-6-2}$$</p>
+<p style="text-align:justify;font-family:times new roman">式中：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>H</mi><mrow><mrow><mi mathvariant="normal">F</mi></mrow></mrow></msup></math>、<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>N</mi><mrow><mrow><mi mathvariant="normal">F</mi></mrow></mrow></msup></math>、<math xmlns="http://www.w3.org/1998/Math/MathML" ><msup><mi>M</mi><mrow><mrow><mi mathvariant="normal">F</mi></mrow></mrow></msup></math>——按固定拱计算的水平力、轴向力、弯矩。</p>
+<p style="text-align:justify;font-family:times new roman">考虑连拱作用后，桥墩承受的水平力<math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><mover><mi>H</mi><mo stretchy="false">¯</mo></mover></mrow></math>为：</p><p>$$\bar{H}=\bar{\xi}H^{\mathrm{F} }_{\mathrm{max} } &lt; H^{\mathrm{F} }_{\mathrm{max}}\tag{3-6-3}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>H</i><sub>max</sub><sup>F</sup></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">按固定拱计算的活载最大水平力；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><mover><mi>ξ</mi><mo stretchy="false">¯</mo></mover></mrow></math></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">小于1的系数。</td>
+</tr>
+ </table>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.13"> [A3-6.13]</a><span id="idA3-6.13"> 上述连拱简化计算方法的优点是未知数少，计算比较简单。但是，这种简化计算方法由于忽略了结点转角的影响，拱、墩内力特别是墩顶与拱脚的截面内力，常与精确解相差较多。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.14"> [A3-6.14][拓展小知识3-2] </a><span id="idA3-6.14"> 拱桥的横向稳定性</span></p>
+<p style="text-align:justify;font-family:times new roman"> 拱桥宽跨比小于1/20时，应验算拱的横向稳定性，横向稳定安全系数<i>K</i>≥4~5。采用双肋式主拱圈设计时，为满足横向稳定性需要，根据不同的宽跨比主拱圈可布置成提篮式、平行式或蝴蝶式的。公路拱桥由于设计车道数不同，宽跨比不同，这三种布置形式都有。铁路拱桥由于桥宽较窄（双线铁路桥桥宽大约10 m左右，四线铁路桥桥宽大约20 m左右），很少设计成蝴蝶式的，平行式的也采用较多肋间横撑，大跨径拱桥大多设计为提篮式的。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.15"> [A3-6.15][学习提示]</a><span id="idA3-6.15">  </span></p>
+<p style="text-align:justify;font-family:times new roman"> 拱桥计算主要包括截面内力计算、截面承载力计算、稳定性计算、连拱计算等。<br>简单体系拱桥截面内力计算，三铰拱桥采用静力平衡条件求解；两铰拱桥采用力法方程求解；无铰拱桥采用结构力学的弹性中心法求解，恒载内力和附加内力计算采用悬臂曲梁计算模型，活载内力计算利用影响线进行加载计算，因此采用简支曲梁计算模型。<br>组合体系拱桥中的有推力拱桥超静定次数较多，可以采用简化计算方法，此时为近似解，也可利用大型结构分析软件采用有限元方法计算，此时为数值解；无推力拱桥一般利用大型结构分析软件采用有限元方法计算。本文重点介绍中、小跨径简单体系拱桥的计算方法，大跨径组合体系拱桥计算在“桥梁结构分析与计算”课程中介绍。<br>附加内力计算包括预加力、温度变化、基础变位、混凝土材料的收缩和徐变等引起结构附加内力，重点掌握产生附加内力的原因，可采用有限元计算分析。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.16"> [A3-6.16][思考与练习]</a><span id="idA3-6.16">  </span></p>
+<p style="text-align:justify;font-family:times new roman"> 1. 解释名词：恒载压力线，拱轴线，合理拱轴线，起拱线，拱轴系数，矢跨比，拱上联合作用，连拱作用。<br>2. 拱桥的拱上建筑联合作用与连拱作用一样吗？<br>3．拱桥计算中，什么情况下可以近似地不计荷载横向分布的影响，什么情况下必须考虑？<br>4. 拱轴线型有哪几种？分别对应于何种荷载？<br>5. 简述拱圈内力调整方法有哪些？分别说明应怎样调整？<br>6. 实腹式悬链线无铰拱桥的拱轴系数 m 采用什么方法计算？如何确定？<br>7. 空腹式悬链线无铰拱桥的拱轴系数 m 采用什么方法计算？如何确定？<br>8. 什么是“五点重合法”？如何用“五点重合法”确定空腹式悬链线拱的拱轴系数 m ？<br>9. 空腹式拱轴系数的确定为什么不能用<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>m</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>g</mi><mrow><mrow><mi mathvariant="normal">j</mi></mrow></mrow></msub><msub><mi>g</mi><mrow><mrow><mi mathvariant="normal">d</mi></mrow></mrow></msub></mfrac></mstyle></math>式进行？<br>10. 求无铰拱桥拱圈内力之前，为什么必须先求弹性中心的内力？<br>11．无支架和少支架施工的简单体系无铰拱桥，为什么拱轴系数一般不宜大于2.814？<br>12. 拱圈除进行截面承载力验算外，为什么还要进行截面偏心距验算？<br>13. 为什么进行裸拱计算？<br>14．什么情况下应考虑连拱影响？如何进行计算？<br>15. 结合结构力学知识绘简图说明无铰拱桥在恒载（自重）、活载（汽车荷载）作用下拱圈截面内力计算方法。<br>16. 为什么说空腹式无铰拱的拱轴线，采用悬链线比用恒载压力线更合理？一般采用什么方法确定空腹式悬链线无铰拱拱轴线的 m 值？<br>17. 简述中下承式拱桥中，短吊杆与长吊杆的受力差异,并说明易破环吊杆的损伤的原因，并分析斜拉桥和悬索桥有无类似问题。<br>18. 某单跨下承式抛物线无铰拱桥，矢跨比1/5，计算跨径80 m，拱脚处设有等截面空心墩，墩高20 m，拱上恒载可视为均布荷载，恒载集度为40 kN/m, 请问该拱桥恒载水平推力为多少？若桥墩截面刚度为EI，请问该水平推力产生的拱脚水平位移为多少？在此位移影响下拱顶、拱脚截面受力会如何变化？<br>19. 空腹式钢筋混凝土无铰拱桥，在温度变化（整体升温，整体降温）下会产生怎样的内力变化？（绘简图分析说明）</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-6.17"> [A3-6.17][课程设计Ⅲ]</a><span id="idA3-6.17"> </span></p>
+<p style="text-align:justify;font-family:times new roman">依据“附录Ⅱ  课程设计任务书”资料，选取20～60 m跨径，设计一座简单体系无铰拱桥。<br>内容包括：设计参数选定、结构尺寸拟定、主拱圈控制截面内力计算（恒载内力计算、活载内力计算、作用组合及作用效应设计值计算，内力包络图），绘制结构一般构造图。</p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
 </section>
 
 

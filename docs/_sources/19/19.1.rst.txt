@@ -5,9 +5,145 @@
 
  <h3 id="test111">第一节  有支架施工法</h3>
 
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.8.1.1"> 一、施工方法</a> <span id="id3.8.1.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.2"> [A3-8.2]</a><span id="idA3-8.2"> 1、施工工序<br>有支架施工拱桥的施工工序为：材料准备、拱圈放样（石拱桥包括拱石的放样）；拱架制作与安装；拱圈浇（砌）筑；施工拱上建筑等。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.3"> [A3-8.3]</a><span id="idA3-8.3"> 2、拱架类型<br>采用有支架施工法时，拱架结构主要有木拱架和钢拱架。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.4"> [A3-8.4]</a><span id="idA3-8.4"> （1）木拱架<br>木拱架常用于修建中、小跨径的圬工拱桥，按其构造形式可分为满布式拱架、拱式拱架（<a href="#image3.8.1">图3-8-1</a>）等。满布式拱架通常由拱架上部（拱盔）、卸架设备、拱架下部（支架）等三个部分组成，常用的形式有立柱式[<a href="#image3.8.1">图3-8-1a）</a>]和撑架式[<a href="#image3.8.1">图3-8-1b）</a>]，在受洪水威胁、水深流急、漂流物较多及要求通航的河流上，不能采用这种拱架施工。拱式拱架不受洪水、漂流物的影响，在施工期间能维持通航，适用于墩高、水深、流急或要求通航的河流。三铰桁架式拱架[<a href="#image3.8.1">图3-8-1c）</a>]是拱式木拱架中常用的一种形式，其材料消耗率低，但要求有较高的制作水平和架设能力。</span></p>
+ 
+ <body>
+
+  <style type="text/css">
+      #image3.8.1{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.1" src="../_static/fig/3-8-1.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-1  木拱架</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.1'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.5"> [A3-8.5]</a><span id="idA3-8.5"> （2）钢拱架<br>钢拱架多为常备式构件组拼而成的桁架式拱架，并由几个单片拱形桁架组成整体。桁架片的数量视桥宽与荷载的大小而定。根据拱圈跨径大小，钢拱架可组拼成三铰、两铰或无铰的拱式结构。拱圈跨径小于80m时一般用三铰拱架；跨径在80 m～100 m之间时常用两铰拱架；跨径大于100 m时多用无铰拱架。<a href="#image3.8.2">图3-8-2</a>为一种钢拱架的构造示意图。当桥址河床平坦、施工期水位很低时，也可采用着地可移动式（横桥向移动）钢拱架(<a href="#image3.8.3">图3-8-3</a>)。</span></p>
+ 
+ <body>
+
+  <style type="text/css">
+      #image3.8.2{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.2" src="../_static/fig/3-8-2.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-2  钢拱架</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.2'));</script>
+
+  </body>
+    <body>
+
+  <style type="text/css">
+      #image3.8.3{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.3" src="../_static/fig/3-8-3.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-3  可移动式钢拱架</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.3'));</script>
+
+  </body>
+ 
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.8.1.2"> 二、有支架施工结构计算要点</a> <span id="id3.8.1.2"> </span></p>
  
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.6"> [A3-8.6]</a><span id="idA3-8.6"> 有支架施工过程中支架的变形计算，拱圈砌筑顺序设计和支架的卸落顺序等环节是决定施工过程安全的主要控制要素，因而有支架施工计算主要进行这三个方面的计算。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.7"> [A3-8.7]</a><span id="idA3-8.7"> 1. 拱架变形计算</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）计算内容<br>拱架系临时性结构，拱架变形过大将导致拱轴线偏离设计拱轴线，使结构受力严重偏离设计，进而产生不良后果。为了保证拱圈的线形符合设计要求，拱架必须具有足够的刚度；为了抵消拱架变形和拱圈在卸落拱架后产生弹性垂直变形，拱架必须预留施工预拱度。因此，需对拱架进行变形计算，并以此作为预拱度设置的依据，具体计算内容主要包括以下各项：</p>
+ <p style="text-align:justify;font-family:times new roman">①拱圈自重产生的弹性下沉，拱架在拱架与拱圈自重作用下的弹性变形；<br>②拱架在承重后的非弹性变形，即各种接头局部间隙或压陷产生的非弹性变形，以及砂筒受压后产生的非弹性压缩；<br>③支架基础在受载后的非弹性下沉。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）预拱度设置<br>预拱度设置除了考虑上述拱架变形外还需考虑下列变形：</p>
+ <p style="text-align:justify;font-family:times new roman">①拱圈自重产生的弹性下沉，拱架在拱架与拱圈自重作用下的弹性变形即拱架卸落后拱圈在自重作用下的弹性下沉；<br>②拱圈温度变化产生的弹性变形，即拱圈合龙温度与年平均温度差异而引起的变形；<br>③墩、台水平位移产生的拱顶下沉，即拱架卸落后拱圈因墩、台水平位移而产生的弹性下沉。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.8"> [A3-8.8]</a><span id="idA3-8.8"> 拱架在拱顶处的预拱度，可根据上述下沉与拱架变形量，按可能产生的各项数值相加后得到，具体计算方法可参照桥规相关内容。由于影响预拱度的因素很多，而且不可能算得很准确，施工时应结合实践经验对计算值进行适当调整。当无可靠资料时，拱顶预留拱度也可按<i>l</i>/400～<i>l</i>/800估算（<i>l</i>为拱圈的跨径，矢跨比较小时预拱度取较大值）。拱圈其他点的预拱度一般可近似地按二次抛物线规律设置[<a href="#image3.8.4">图3-8-a）4</a>]。对于悬链线拱，裸拱圈的挠度曲线呈“<i>M</i>”形，即拱顶下挠而两边<i>l</i>/8处上升。若采用二次抛物线分配预拱度，将会使<i>l</i>/8处的拱轴线偏离设计拱轴线更远。因此，可采用降低拱轴系数<i>m</i>方法设置预拱度，即将原设计矢高<i>f</i>加高至（<i>f</i>＋<i>δ</i>），再将原设计的悬链线拱轴系数<i>m</i>降低一级（或半级），然后以新的矢高（<i>f</i>＋<i>δ</i>）和新的拱轴系数<i>m</i>，计算施工放样的坐标。这种方法的效果，实际上是在拱顶预加正值，在<i>l</i>/8处预留负值（或者是较小的正值）[图3-8-4b）]。待拱圈产生“<i>M</i>”形变形后，刚好符合（或接近）设计拱轴线。</span></p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.8.4{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.4" src="../_static/fig/3-8-4.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-4  拱架预拱度的设置示意图</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.4'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.9"> [A3-8.9]</a><span id="idA3-8.9"> 2. 拱架卸落对结构的影响</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）落架时间<br>①圬工拱桥施工，应在拱圈达到设计强度后方可进行拱架卸落工作，否则将导致拱圈下挠变形，甚至桥毁人亡的事故。<br>②卸架时间宜在白天气温较高时进行，这样能够便于卸落拱架。</p> 
+ <p style="text-align:justify;font-family:times new roman">（2）落架程序<br>①单跨拱桥<br>为了保证拱圈(或已完成拱上建筑的上部结构)逐渐均匀地降落，使拱架所支承的桥跨结构重量逐渐转移至由拱圈自身承担，拱架不能突然卸除，而应按一定的卸架程序进行。卸架的程序一般是：对于中小跨径拱桥，可从拱顶开始逐次向拱脚对称卸落；对于大跨径的悬链线拱圈，为了避免拱圈发生“<i>M</i>”形的变形，也有从两边<i>l</i>/4 处逐次对称地向拱脚和拱顶均衡地卸落。<br>②多跨连续拱桥<br>多跨连续拱桥施工时，应考虑相邻孔间的影响。若桥墩设计允许承受单孔施工荷载，就可以单孔卸架。否则应多孔同时卸落拱架，以避免桥墩不能承受单向推力而产生过大的位移，甚至引起严重的施工事故。</p> 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-8.10"> [A3-8.10]</a><span id="idA3-8.10"> 3. 拱圈施工程序对结构的影响</span></p>
+ <p style="text-align:justify;font-family:times new roman"> （1）连续砌筑（浇筑）<br>①跨径10 m以内的拱圈混凝土，可按拱的全宽和全厚，自两侧拱脚起同时按顺序对称、均衡地向拱顶连续浇（砌）筑，并在拱脚处混凝土初凝以前完成。<br>②跨径在10～15 m的拱圈最好在拱脚预留空隙，由拱脚向拱顶按全宽、全厚进行浇（砌）筑，为了防止拱架的拱顶部分上翘，可在拱顶区段预先压重。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）分段砌（浇）筑<br>大、中跨径拱桥一般采用分段施工或分环（分层）与分段相结合的施工方法。分段施工可使拱架变形比较均匀，并可避免拱圈的反复变形。分段位置与拱架受力和结构形式有关，一般应设置在拱架挠曲线有转折及拱圈弯矩比较大的地方，如拱顶、拱脚及拱架的节点处。拱圈分段砌（浇）筑程序一般为：<br>①跨径在10～15 m的拱圈，不论采用何种拱架，每半跨均应分成三段砌筑（<a href="#image3.8.5">图3-8-5</a>）先砌筑拱脚段（Ⅰ）和拱顶段（Ⅱ）、后砌筑<i>l</i>/4 跨径（Ⅲ），最后砌拱顶石合龙。<br>②跨径大于25 m的拱圈，为减少混凝土收缩应力和避免因拱架变形而产生裂缝，应采取分段浇筑的方法，分段施工程序如<a href="#image3.8.6">图3-8-6</a>所示，拱段长度一般不超过8 m。</p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.8.5{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.5" src="../_static/fig/3-8-5.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-5  <i></i> ＜25 m拱圈分段砌筑程序</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.5'));</script>
+
+  </body>
+
+  <body>
+
+  <style type="text/css">
+      #image3.8.6{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.6" src="../_static/fig/3-8-6.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-6  拱圈分段施工程序</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.6'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> ③采用组合截面施工的主拱圈，在拱肋或拱箱安装成拱后，为了减轻拱肋（箱）的负担，并使后施工的截面能尽早协助已建部分截面一同受力，可采用分环施工的方法。为了避免拱肋（箱）产生过大的不均匀变形，也可采用增加工作面的方法。对于大、中跨径的拱桥，在分环的同时，还应采取分段及均衡对称加载的方法。即在拱的两个半跨上，按需要分成若干段，并在相应部分同时进行相等数量的施工加载，如<a href="#image3.8.7">图3-8-7</a>所示。对于坡拱桥，必须注意其结构受力不对称的特点，一般应使低拱脚半跨的加载量稍大于高拱脚半跨的加载量。</p> 
+
+ <body>
+
+  <style type="text/css">
+      #image3.8.7{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.8.7" src="../_static/fig/3-8-7.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-8-7  拱圈分环、分段施工程序</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.8.7'));</script>
+
+  </body>
+
 
 :math:`\ `
 
