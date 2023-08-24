@@ -260,7 +260,8 @@
   </ol>
 
   <p style="text-align:justify;font-family:times new roman"> 本篇学习内容概要如<a href="#image1.z.2">图1-Z-2</a>所示。 </p>
-    <body>
+ 
+ <body>
 
  <style type="text/css">
       #image1.z.2{

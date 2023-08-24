@@ -289,7 +289,7 @@ $$a=a_{2}+2H+t+2x\\tag{2-4-8}$$
 
  <p style="text-align:justify;font-family:times new roman"><a href="#idA2-4.19"> [A2-4.19]</a><span id="idA2-4.19"> 悬臂板在荷载作用下除了直接受载的板条（宽度为<i>a</i><sub>1</sub>）外，相邻板条也发生挠曲变形[<a href="#image2.4.1">图2-4-6b）</a>中<i>w</i><sub>y</sub>]而承受部分弯矩。沿悬臂根部在宽度（<i>y</i>）方向各板条的弯矩分布如<a href="#image2.4.1">图2-4-6a）</a>中<i>m</i><sub>x</sub>所示。根据弹性板理论分析，当板端作用集中力<i>P</i>时，受载板条的最大负弯矩 ，而荷载引起的总弯矩为<i>M</i><sub>0</sub>=-<i>Pl</i><sub>0</sub>。因此，按最大负弯矩值换算的有效工作宽度为：</span></p>
 
-$$a=\\dfrac{M_{0}}{m_{xmax}}=\\dfrac{-Pl_{0}}{-0.465P}=2.15l_{0}$$
+$$a=\\dfrac{M_{0}}{m_{\\mathrm{xmax}}}=\\dfrac{-Pl_{0}}{-0.465P}=2.15l_{0}$$
 
 .. raw:: html
 

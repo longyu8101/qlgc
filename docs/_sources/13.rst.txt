@@ -1,0 +1,456 @@
+第二章  简单体系拱桥构造
+============================
+
+.. raw:: html
+
+ <h2 id="test111">第二章  简单体系拱桥构造</h2>
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+
+    13/13.1
+    13/13.2
+    13/13.3
+   
+ 
+
+.. raw:: html
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.1"> [A3-2.1]</a><span id="idA3-2.1"> 简单体系拱桥是由主拱圈与拱上结构（或拱下悬吊结构）组成的，因构造简单、受力明确、计算分析方便，施工方法成熟而被广泛使用。按主拱圈截面形式可分为板拱桥、箱形拱桥、肋拱桥和双曲拱桥等，除了肋拱桥可采用上承式、中承式和下承式外，其余均为上承式拱桥。本节将重点介绍上承式简单体系拱桥的构造，同时也简要说明中承式与下承式简单体系拱桥（肋拱）的构造。</span></p>
+
+ <h3 id="test111">第一节  主拱圈</h3>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.2.1.1"> 一、板拱</a> <span id="id3.2.1.1"> <br>主拱圈横截面宽度大于高度呈矩形板状实体截面的拱桥。拱圈宽度和桥宽大体相当，截面高度由受力计算确定，中、小跨径板拱通常为实心截面。根据拱轴线形，板拱可以设计成等截面圆弧拱，等截面或变截面悬链线拱以及其他拱轴形式；按照静力图式，可设计成无铰拱、双铰拱、三铰拱以及平铰拱，目前已建成桥梁绝大多数为无铰拱；按照主拱所用的建筑材料，板拱又可设计成石板拱、混凝土板拱和钢筋混凝土板拱等。板拱构造简单、施工方便。但由于在相同的条件下，实体矩形截面比其他形式的截面抗弯惯性矩小，在有弯矩作用时，材料的强度不能得到充分发挥，因此，主要用于中、小跨径上承式拱桥。</span> 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.2"> [A3-2.2]</a><span id="idA3-2.2"> 1. 石板拱<br>由于石拱桥构造简单，施工方便，造价低，是盛产石料地区中、小跨径桥梁的主要桥型。用于拱圈砌筑的石料应石质均匀，不易风化，无裂纹。石料强度等级不得低于MU50，拱石形状根据跨径大小和当地石料供应情况选用。<br>砌筑石板拱桥主拱圈的石料主要有料石、块石、片石和砖石等。用粗料石砌筑拱圈时，拱石需要根据拱轴线和截面形式不同而分别进行编号，以便加工。等截面圆弧拱的拱石规格少，编号比较简单（<a href="#image3.2.1">图3-2-1</a>）；变截面拱圈的拱石类型较多，编号较复杂（<a href="#image3.2.2">图3-2-2</a>），施工不便。有的石拱桥也采用等截面或变截面的悬链线作为拱轴线，此时拱石的类型更多，编号更为复杂，因此，目前大多采用等截面石拱桥。</span></p>
+ 
+   <body>
+
+  <style type="text/css">
+      #image3.2.1{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.1" src="./_static/fig/3-2-1.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-1  等截面圆弧拱的拱石编号（注：图中数字为拱石编号）</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.1'));</script>
+
+  </body>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.2{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.2" src="./_static/fig/3-2-2.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-2  变截面拱圈的拱石编号（注：图中数字为拱石编号）</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.2'));</script>
+
+  </body> 
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.3"> [A3-2.3]</a><span id="idA3-2.3"> 砌筑料石拱圈时，根据受力需要，构造上应满足以下几点要求：<br>（1）拱石受压面的砌缝应与拱轴线相垂直。这种砌缝一般可做成通缝，不必错缝。<br>（2）当拱圈厚度不大时，可采用单层拱石砌筑[<a href="#image3.2.1">图3-2-1a）</a>]，当拱厚较大时可采用多层拱石砌筑[<a href="#image3.2.1">图3-2-1b）</a>及<a href="#image3.2.2">图3-2-2</a>]，对此要求垂直于受压面的顺桥向砌缝错开，错缝间距不小于100 mm（<a href="#image3.2.3">图3-2-3</a>）。<br>（3）在拱圈的横截面，拱石的竖向砌缝应当错开，错开宽度至少100 mm，见<a href="#image3.2.3">图3-2-3</a>的Ⅰ-Ⅰ截面及Ⅱ-Ⅱ截面。这样，在纵向或横向剪力作用下，可以避免剪力单纯由砌缝内的砂浆承担，从而可以增大砌体的抗剪强度和整体性。<br>（4）砌缝的缝宽不应大于20 mm。<br>（5）拱圈与墩台、空腹式拱上建筑的腹孔墩与拱圈相连接处，应采用特制的五角石[<a href="#image3.2.4">图3-2-4a）</a>]，以改善连接处的受力状况。五角石不得带有锐角，以免施工时易破坏和被压碎。为了简化施工，也常采用现浇混凝土拱座及腹孔墩底梁[<a href="#image3.2.4">图3-2-4b）</a>]来代替制作复杂的五角石。</span></p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.2.3{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.3" src="./_static/fig/3-2-3.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-3  拱石的砌缝 </p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.3'));</script>
+
+  </body> 
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.2.4{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.4" src="./_static/fig/3-2-4.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">   图3-2-4  五角石及混凝土拱座、底梁</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.4'));</script>
+
+  </body> 
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.4"> [A3-2.4]</a><span id="idA3-2.4"> 2. 混凝土板拱<br>（1）素混凝土板拱<br>这类拱圈主要用于缺乏合格天然石料的地区，可以采用整体现浇，也可以预制砌筑。整体现浇混凝土拱圈，拱圈收缩应力大，受力不利；同时，拱架、模板用量大，工期长，质量不易控制，故较少采用。预制砌筑混凝土拱圈，就是将混凝土板拱圈划分成若干块件，然后预制混凝土块件，最后将预制块件砌筑成拱圈。预制砌块在砌筑前应有足够的养护期，以消除或减少混凝土收缩。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.5"> [A3-2.5]</a><span id="idA3-2.5"> （2）钢筋混凝土板拱<br>钢筋混凝土板拱根据桥宽需要可设计成单条整体拱圈或多条平行板（肋）拱圈（拱圈之间可不设横向联系），反复利用一套较窄的拱架与模板完成施工，可节省材料，如<a href="#image3.2.5">图3-2-5</a>所示</span></p>
+
+   <body>
+
+  <style type="text/css">
+      #image3.2.5{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.5" src="./_static/fig/3-2-5.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-5  钢筋混凝土板拱的横截面</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.5'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.6"> [A3-2.6]</a><span id="idA3-2.6"> 钢筋混凝土板拱的配筋按照计算需要与构造要求进行。拱圈纵向配置拱形的受力钢筋（主筋），最小配筋率为0.5％，且上、下缘对称通长布置，以适应沿拱圈各截面弯矩的变化；拱圈横向配置与受力钢筋相垂直的分布钢筋及箍筋，分布钢筋设在纵向主筋的内侧，箍筋应将上、下缘主筋联系起来，以防止主筋在受压时发生屈曲和在拱腹受拉时发生外崩。无铰拱桥的纵向主筋应锚固在墩台帽中，锚入深度不应小于拱脚截面高度的1.5倍。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.2.1.2"> 二、箱形拱</a> <span id="id3.2.1.2"> </span> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.7"> [A3-2.7]</a><span id="idA3-2.7"> 主拱圈截面由单室箱或多室箱构成的拱称为箱形拱（<a href="#image3.2.6">图3-2-6</a>），由于箱形拱主拱截面外观如同板拱，所以也称箱板拱。箱形拱的截面挖空率较大，可达全截面的50%～70%，较实体板拱桥可减少圬工用料与自重，适用于大跨径上承式拱桥，是国内外大跨径钢筋混凝土拱桥主拱圈截面的基本形式。由于箱形拱是闭合箱形截面，截面抗弯和抗扭刚度均较大，拱圈的整体性好，应力分布比较均匀；裸拱施工时稳定性较好，适用于无支架施工法。但制作精度要求高，施工安装设备多，一般情况下，跨径在50 m以上的拱桥采用箱形截面才是合适的。</span></p>
+   
+   <body>
+
+  <style type="text/css">
+      #image3.2.6{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.6" src="./_static/fig/3-2-6.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-6  箱形拱拱圈截面示意图</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.6'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.8"> [A3-2.8]</a><span id="idA3-2.8"> 箱形拱的拱圈，可以由一个闭合箱（单室箱）或几个闭合箱（多室箱）组成，每一个闭合箱又由顶板（盖板）、底板、腹板板（箱壁）及横隔板组成，如<a href="#image3.2.7">图3-2-7</a>所示。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.7{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.7" src="./_static/fig/3-2-7.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-7  箱形拱闭合箱的构造</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.7'));</script>
+
+  </body> 
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.9"> [A3-2.9]</a><span id="idA3-2.9"> 箱形拱的构造与施工方法有密切的联系。修建箱形拱时，可以采用预制拱箱无支架吊装或有支架现场浇筑等施工方法。采用无支架施工时，根据吊装能力，将拱箱沿拱轴分段预制拼装，如<a href="#image3.2.8">图3-2-8a）</a>所示。<a href="#image3.2.8">图3-2-8b）</a>所示为湖北省恩施州鹤峰县南渡江特大桥，全长272.26米，净跨190米，高196米，宽10米，拱圈采用劲性骨架外包钢筋混凝土箱形拱桥，先施工好劲性骨架作为支承，再分段现浇混凝土，这种方法用于特大跨径拱桥。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.8{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.8" src="./_static/fig/3-2-8.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-8  箱形拱桥示例</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.8'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.2.1.3"> 三、肋拱</a> <span id="id3.2.1.3"> </span> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.10"> [A3-2.10]</a><span id="idA3-2.10"> 拱圈由两条或多条分离拱肋组成承重结构的的拱桥称为肋拱桥，拱肋之间靠横向联系连接成整体而共同受力。肋拱桥的拱圈横截面面积较板拱小得多，从而节省较多的材料，大大减轻了自重，提高了跨越能力，因此多用于中、大跨径上承式、中承式、下承式拱桥。上承式肋拱桥包括横系梁、立柱和有横梁支撑的行车道部分（<a href="#image3.2.9">图3-2-9</a>）；下承式肋拱桥则将吊杆锚固在肋拱背上[<a href="#image3.2.10">图3-2-10b）</a>]，吊杆下端与横梁连接，横梁支承行车道部分；中承式肋拱桥介于上承式和下承式之间[<a href="#image3.2.10">图3-2-10a）、c）</a>]。肋拱质量轻，恒载内力减小，相应活载内力的比重增大，可充分发挥钢筋等材料的性能，具有较好的经济性，现已在大、中型拱桥中广泛使用。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.9{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.9" src="./_static/fig/3-2-9.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-9  上承式肋拱桥一般构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.9'));</script>
+
+  </body> 
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.10{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.10" src="./_static/fig/3-2-10.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-10  中承式、下承式肋拱桥</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.10'));</script>
+
+  </body> 
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.11"> [A3-2.11]</a><span id="idA3-2.11"> 在两个拱肋之间通常设置横向风撑，以提高分离拱肋横向整体性和稳定性。横向风撑可采用简单的一字横撑、K形撑、X形撑、米字撑等。中承式拱桥桥面结构以下的拱肋间常设X形撑。桥面以上设置横向风撑对行车视觉与景观都有一定影响，当桥面较宽、拱肋横向稳定性足够时可以取消横向风撑，形成桥面敞开式构造[<a href="#image3.2.11">图3-2-11a）</a>]。在这种构造方式中若采用刚性吊杆，将吊杆与拱肋连接形成弹性框架，则有利于提髙拱肋横向稳定性[<a href="#image3.2.11">图3-2-11b）</a>]。</span></p>
+
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.11{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.11" src="./_static/fig/3-2-11.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-11  无风撑肋拱桥</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.11'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.12"> [A3-2.12]</a><span id="idA3-2.12"> 1. 拱肋<br>拱肋是肋拱桥的主要承重结构，可采用混凝土、钢筋混凝土、钢管混凝土、劲型骨架混凝土、钢材建造。拱肋的肋数与间距以及截面形式主要根据桥面宽度、主拱制作材料、施工方法和经济性等方面综合考虑决定。一般在满足横向稳定要求的情况下，宜采用少肋，以简化构造，同时在外观上给人以清晰的感觉。通常，桥宽在20m以内时可采用双肋式，桥宽超过20m时，可采用分离的双幅双肋拱，以避免由于拱肋中距增大而使肋间横梁、拱上结构横向跨径和尺寸增大过多。上、下游拱肋最外缘的间距一般不宜小于跨径的l/20，以保证拱肋的横向整体稳定性。<br>拱肋的截面形式，根据跨径的大小，综合考虑施工和截面的受力特点等因素，拱肋的截面可采用矩形、I形、箱形、管形和劲性骨架混凝土箱形等（<a href="#image3.2.12">图3-2-12</a>）。矩形截面构造简单、施工方便，但经济性差，一般仅用于中、小跨径的肋拱（L≤40 m）。当肋拱桥的跨径大、桥面宽时，拱肋还可采用I形（40 m＜L≤90 m）、箱形（L＞100 m）截面，这样可减少更多的材料工程数量。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.12{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.12" src="./_static/fig/3-2-12.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman"> 图3-2-12  肋拱拱肋截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.12'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> （1）钢筋混凝土肋拱<br>中、小跨径的钢筋混凝土矩形拱肋的高度约为跨径的1/40〜1/60，桥宽在20 m以内时，拱肋宽度为拱肋高度的0.5〜2.0倍，当不设置横向风撑时，肋宽应取大值；大、中跨径钢筋混凝土拱肋常用工形截面，拱肋高度一般为跨径的1/25〜1/35，肋宽约为肋高的0.4〜0.5倍，腹板厚度常为30〜50 cm；当肋拱桥的跨径大、桥面宽时，拱肋可采用箱形截面（<a href="#image3.2.13">图3-2-13</a>），以减少更多的圬工体积，箱肋高度一般为跨径的1/40〜1/50。<br>钢筋混凝土矩形拱肋和工形拱肋的配筋应综合考虑受力和施工的需要。当采用支架现浇时，按素混凝土计算承载力和稳定性通过后，可仅按构造要求配筋，否则应按钢筋混凝土结构进行计算和配筋。当采用无支架吊装时，仍按素混凝土计算，如满足承载力和稳定性要求，则纵向受力钢筋根据吊装受力确定，否则应同时考虑吊装和使用阶段的需要。纵向钢筋一般在截面上、下缘对称通长布置，并弯成拱形。对无铰拱，纵向钢筋应嵌入墩台拱座内，使其与墩台牢固地固结。嵌入深度应满足：矩形肋不小于拱脚截面高度的1.5倍，工字形拱肋不小于拱脚截面高度的一半。其余钢筋按构造要求设置，同时，拱肋纵向箍筋间距不得大于纵向主筋直径的15倍。</p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.13{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.13" src="./_static/fig/3-2-13.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-13  钢筋混凝土肋拱示例（广东流溪桥）</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.13'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> （2）钢管混凝土拱肋<br>钢管混凝土拱肋是在薄壁圆形钢管内填充混凝土而形成的构件，一方面借助内填混凝土增强钢管壁的稳定性，同时又利用钢管对核心混凝土的套箍作用，使核心混凝土处于三向受压状态，从而具有更高的抗压强度和抗变形能力。钢管混凝土拱肋具有以下几方面的独特优点：</p>
+ <p style="text-align:justify;font-family:times new roman"> ①钢管本身就是耐侧压的模板，因而浇注混凝土时，可省去支模、拆模等工序，并可适应先进的泵送混凝土工艺。<br>②钢管本身起钢筋的作用，兼有纵向钢筋和横向箍筋的作用，既能受压，又能受拉。<br> ③钢管本身又是劲性承重骨架，在施工阶段可起劲性钢骨架的作用，在使用阶段又是主要的承重结构，因此可以节省脚手架，缩短工期，减少施工用地，降低工程造价。<br>④在受压构件中采用钢管混凝土，可大幅度节省材料。理论分析和工程实践都表明，钢管混凝土与钢结构相比在保持结构重力相近和承载力相同的条件下，可节省钢材约50％，焊接工作量显著减少；与普通钢筋混凝土相比，在保持钢材用量相当和承载力相同的条件下，可减少构件横截面积50％，混凝土和水泥用量以及构件自重也相应减少一半。因此，结构轻盈，恒载集度比较均衡。拱轴线常采用悬链线或二次抛物线，采用悬链线拱轴时，拱轴系数一般在1.167～2.240之间，跨径小者取较大值，跨径大者取小值。矢跨比在1/4～1/8之间。</p>
+ <p style="text-align:justify;font-family:times new roman"> 钢管混凝土具有刚度大、承载力大、质量轻等优点，这些优点与桥梁转体施工工艺相结合可以解决转体质量大和转体结构的强度、刚度的矛盾。<br>钢管混凝土拱拱肋横截面形式，按钢管的根数及布置方式，通常分为：单肢型、双肢哑铃型、四肢格构型和三角形格构型，如<a href="#image3.2.14">图3-2-14</a>所示。</p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.14{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.14" src="./_static/fig/3-2-14.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-14  钢管混凝土拱拱肋横截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.14'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> ①单肢型断面[<a href="#image3.2.14">图3-2-14a）</a>]构造简单，受力明确，但跨径过大，相应地要求增大钢管直径和壁厚，对钢管制作和混凝土浇注不太方便，适用于跨径80 m以内的小跨径拱桥。<br>②双肢哑铃型断面<a href="#image3.2.14">图3-2-14b）</a>，由上下两个钢管通过缀板连接而成，缀板内混凝土可根据计算确定，既可以填充，也可以不填充，一般应予填充，以增大承压面积。双肢哑铃型断面抗压刚度大，由于承压面距中心轴较远，因此纵向抗弯刚度大，占用桥面空间少，是一种理想的断面形式。缺点是侧向刚度相对较小，因此桥面以上必须设置风撑，以确保拱肋横向稳定，适用于跨径80～120 m的拱桥。<br>③四肢格构型断面根据钢管的布置方式，又分为四肢矩形格构型[<a href="#image3.2.14">图3-2-14c</a>）]和四肢梯形格构型[<a href="#image3.2.14">图3-2-14d）</a>]，由钢管（又称弦杆）、腹杆（多为空钢管）和横联组成，是大跨径钢管拱桥常用的一种形式。<br>④三角形格构型断面[<a href="#image3.2.14">图3-2-14e）</a>]纵向刚度大，横向刚度也大，适合于无风撑钢管混凝土拱桥上。黑龙江牡丹江大桥净跨100 m，由3根直径600 mm钢管混凝土弦杆和直径180 mm的竖杆及直径500 mm的水平横杆组成，确保了拱肋截面的整体刚度。</p>
+ <p style="text-align:justify;font-family:times new roman"> 钢管混凝土拱肋截面形式选定后，拱肋的高度一般为跨径的1/45〜1/65，钢管直径及壁厚尺寸将直接影响结构的强度，考虑到防腐等要求，壁厚不宜小于12 mm。钢管与混凝土面积之比称之为含钢率<i>a</i><sub>s</sub> ， <i>a</i><sub>s</sub> 不宜小于5％，否则不能发挥钢管混凝土弦杆的套箍作用，但也不宜大于10％，以免耗用过多的钢材，造成浪费。</p>
+ <p style="text-align:justify;font-family:times new roman"> 钢管可采用Q235、Q345、Q390钢材，宜采用卷制焊接直缝管。当钢管径厚比不满足卷制要求时，钢管可采用符合国家和行业现行相关标准的螺旋焊接管或无缝钢管。卷制焊接直缝管制造精度高，质量可靠，成本较低。</p>
+ <p style="text-align:justify;font-family:times new roman"> 钢管内灌注的混凝土应采用自密实补偿混凝土，其强度等级宜为C30～C80。钢管内混凝土一般采用泵送顶升灌注，依靠混凝土的自重而密实（自密实补偿混凝土具有流动性高、不离析、均匀性和稳定性），有利于施工控制和桥梁结构的稳定。混凝土选用高强度等级，与钢管钢号和含钢率匹配，以充分发挥钢管混凝土构件的套箍作用。钢管混凝土应采用泵送，为了保证混凝土能填满钢管，应采用减水剂和膨胀剂，同时掺人适量的粉煤灰，以降低混凝土的水化热，减少水泥用量，提高混凝土的和易性和可泵性，减少收缩。</p>
+ <p style="text-align:justify;font-family:times new roman"> 通常把 <i>A</i><sub>a</sub><i>f</i><sub>a</sub>/  <i>A</i><sub>c</sub><i>f</i><sub>c</sub>称之为套箍指标，是钢管混凝土结构的一个重要参数，宜控制在0.3～3之间，以确保钢管混凝土构件在使用荷载作用下处于弹性工作阶段，且在破坏前具有足够的延性。若套箍指标小于0.3，当混凝土强度等级较高时，会因钢管的套箍能力不足而引起脆性破坏；相反，若套箍指标大于3，当混凝土强度等级过低时，结构会在使用荷载下产生塑性变形。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.13"> [A3-2.13]</a><span id="idA3-2.13"> 2. 吊杆<br>中承式和下承式拱桥有刚性吊杆、半刚性吊杆和柔性吊杆三种构造方式，如<a href="#image3.2.15">图3-2-15</a>所示。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.15{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.15" src="./_static/fig/3-2-15.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-15  吊杆截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.15'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> 刚性吊杆一般采用预应力混凝土矩形截面[<a href="#image3.2.15">图3-2-15a）</a>]，过去也采用钢筋混凝土材料，但因耐久性等问题已很少采用；半刚性吊杆则为钢管混凝土圆形截面[<a href="#image3.2.15">图3-2-15b）</a>]，管内预应力钢筋可采用镦头锚的高强碳素钢丝、精轧螺纹钢筋、夹片锚的高强低松弛钢绞线。刚性、半刚性吊杆两端与拱肋和横梁均采用刚性联结构造，吊杆内的预应力钢筋通常穿透拱肋与横梁，锚具一般嵌入拱肋与横梁，故吊杆除承担轴向拉力还受到结点弯矩的作用。但半刚性吊杆的钢管外径小，主要起预应力钢筋的外护套作用，结点弯矩相对较小。需要注意，若钢管混凝土吊杆采用髙强低松弛钢绞线，预应力须在混凝土浇筑之后施加，以免低应力下夹片锚失效。一般情况下,钢管混凝土吊杆宜设计成钢管基本不受拉、焊缝处于受压的状态。</p>
+ <p style="text-align:justify;font-family:times new roman"> 柔性吊杆常用高强钢丝束制成[<a href="#image3.2.15">图3-2-15c）</a>]，钢丝束外采取防护措施，两端用镦头锚具。目前，高强钢丝束吊杆已成品化生产，为了钢丝束的防腐、保证其耐久性，钢丝束外采用热挤高密度聚乙烯（HDPE）工艺形成的护套（<a href="#image3.2.16">图3-2-16</a>）。柔性吊杆的锚具可嵌入拱肋与横梁，或外露于拱肋与横梁、设置防护罩。</p>
+ 
+ <body>
+
+  <style type="text/css">
+      #image3.2.16{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.16" src="./_static/fig/3-2-16.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-16  柔性吊杆构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.16'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.14"> [A3-2.14]</a><span id="idA3-2.14"> 3. 横（系）梁 </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"> （1）上承式肋拱桥<br>上承式肋拱桥的拱肋间需设置横系梁，以增强肋拱横向整体稳定性，同时还可起到横向分布荷载的作用，因此要求横系梁具有足够的强度和刚度，并与拱肋牢固联结。横系梁一般可采用矩形、I形、桁片式梁或箱形，如<a href="#image3.2.17">图3-2-17</a>所示为箱形肋拱三种常用的横系梁截面形式。I形和桁片式横系梁，重量轻，预制安装方便，但在拱轴切平面内的刚度都较小；箱形横系梁在拱轴切平面、法平面内的刚度均较大，对提高肋拱横向稳定有利。横系梁的断面尺寸应根据构造和对拱的横向稳定要求确定。一般横系梁高度与拱肋高相同，截面的短边应不小于其长度的1/15。对箱形断面的横系梁的壁厚常为80～10 0mm。横系梁按构造要求配筋，横系梁与拱肋间的联结，可采用干接头或湿接头。干接头主要采用预埋钢板焊接联结，湿接头则分别在拱肋侧面与横系梁端留出联结钢筋，待横系梁安装就位后焊接钢筋并现浇接缝混凝土。对I形横系梁，其腹板与拱肋横隔板相对应，上下翼板分别与拱肋顶底板对应，两者应在对应位置留出联结钢筋；对箱形横系梁，要求其顶底板与拱肋顶底板对应，由于具有两个腹板，为使其具有对应的联结位置，要求拱肋在横系梁腹板对应位置设置双横隔板，同时在两者对应位置留出联结钢筋。对桁片式系梁，则需在系梁上、下弦与拱肋顶底板对应位置留出联结钢筋。肋间横系梁平面位置应与拱上的立柱对应。</p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.2.17{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.17" src="./_static/fig/3-2-17.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-17  箱形肋拱横系梁构造形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.17'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> （2）中承式和下承式肋拱桥<br>中承式和下承式肋拱桥面结构吊杆处设置横梁，其决定着桥面结构的建筑高度，采用钢筋混凝土或预应力混凝土材料。常用矩形或凸字形截面、工字形或带凸形工字形截面（<a href="#image3.2.18">图3-2-18</a>），对于桥宽与吊杆间距较大的大型横梁也可采用箱形截面。横梁的受力截面高度约取为吊点间距的1/10〜1/15。</p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.2.18{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.18" src="./_static/fig/3-2-18.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-18  肋拱横梁截面构造形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.18'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"> 对于中承式拱桥，在桥面结构与拱肋相交处，桥面结构由拱肋间刚性联结的固定横梁支承。由于肋间横梁受力较复杂，截面通常比吊杆处横梁强大，根据构造要求可做成对称或不对称工字形、三角形等（<a href="#image3.2.19">图3-2-19</a>）。</p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.2.19{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.19" src="./_static/fig/3-2-19.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-19  拱肋与桥面结构相交处的横梁截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.19'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.15"> [A3-2.15]</a><span id="idA3-2.15"> 4. 桥面结构<br>上承式肋拱桥的桥面结构构造见<a href="#image3.2.9">图3-2-9</a>(I-I)截面所示。中承式和下承式肋拱桥的桥面结构若设置边纵梁，可将边纵梁与横梁联结成平面框架，然后再铺设桥面板（实心或空心板）形成整体桥面结构[<a href="#image3.2.20">图3-2-20a）</a>]；或者采用多根肋板式的纵梁与横梁联结组合成桥面结构[<a href="#image3.2.20">图3-2-20b）</a>]；也可采用将桥面板（实心或空心板）或肋板梁支承在横梁上[<a href="#image3.2.20">图3-2-20c）</a>]组成桥面结构。</span></p>
+ <p style="text-align:justify;font-family:times new roman">上承式肋拱桥的桥面结构构造见<a href="#image3.2.9">图3-2-9</a>(I-I)截面所示。中承式和下承式肋拱桥的桥面结构若设置边纵梁，可将边纵梁与横梁联结成平面框架，然后再铺设桥面板（实心或空心板）形成整体桥面结构[<a href="#image3.2.20">图3-2-20a）</a>]；或者采用多根肋板式的纵梁与横梁联结组合成桥面结构[<a href="#image3.2.20">图3-2-20b）</a>]；也可采用将桥面板（实心或空心板）或肋板梁支承在横梁上[<a href="#image3.2.20">图3-2-20c）</a>]组成桥面结构。</p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.2.20{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.20" src="./_static/fig/3-2-20.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-20  中、下承式肋拱桥桥面构造</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.20'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.2.1.4"> 四、双曲拱</a> <span id="id3.2.1.4"> </span> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.16"> [A3-2.16]</a><span id="idA3-2.16">双曲拱桥主拱圈通常由拱肋、拱波、拱板和横向联系等几部分组成，如<a href="#image3.2.21">图3-2-21</a>所示。由于拱圈的纵向（拱肋）和横向（拱波）均呈曲线形，故称之为双曲拱桥。由于拱圈截面的抗弯惯距比板拱大，因此可节省材料，减轻自重。双曲拱桥的特点是将拱圈化整为零预制，构件重量小，施工时可以不要拱架，施工进度快而便捷。施工时，分别预制拱肋、拱波和横向联系；然后吊装钢筋混凝土拱肋，并与横向联系构件组成拱形框架，在拱肋间安装横向拱波，随后在拱波上浇筑拱板混凝土，形成主拱圈；最后在拱板上修建拱上建筑。由于施工工序多，构件接头多，整体性差，容易产生裂缝。所以，双曲拱桥仅适用于中、小跨径，且拱圈易开裂，目前新建桥梁已较少修建，既有桥梁中应用较多。</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.2.21{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.21" src="./_static/fig/3-2-21.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-21  双曲拱横截面</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.21'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.17"> [A3-2.17]</a><span id="idA3-2.17"> 拱肋截面形式分为倒T形、L形、I形、槽形以及开口箱等，如<a href="#image3.2.22">图3-2-22</a>所示。拱波一般为预制圆弧板，厚60～80 mm，跨径由拱肋间距而定。横向联系有系梁式和横隔板式两种。拱板采用混凝土现浇，使拱肋、拱波结合成整体。拱板有填平式和波形两种。由于拱圈是由几部分按一定顺序组合而成，截面受力复杂，整体性较差。</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.2.22{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.22" src="./_static/fig/3-2-22.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-22  双曲拱主拱圈的截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.22'));</script>
+
+  </body> 
+
+    <body>
+
+  <style type="text/css">
+      #image3.2.23{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
+  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.23" src="./_static/fig/3-2-23.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-23  双肋单波双曲拱桥示例（无锡卫东桥）</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.23'));</script>
+
+  </body> 

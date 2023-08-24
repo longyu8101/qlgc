@@ -5,6 +5,38 @@
 .. raw:: html
 
  <h3 id="test111">第一节  连续体系梁桥的特点</h3>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.1"> [A2-6.1]</a><span id="idA2-6.1"> 连续体系梁桥均为超静定结构，在结构内力计算时与简支梁桥最大的不同在于：预加力、混凝土收缩和徐变、温度变化以及基础不均匀沉降等因素将引起结构附加内力（又称次内力），因此，除进行永久作用、可变作用内力计算外，还应进行附加内力的计算。设计实践表明：在结构内力计算中，永久作用内力和可变作用内力是主要的，一般占整个设计最大内力的80～90％以上。</span></p>
+ 
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.1.1">1. 材料特点</a> <span id="id2.6.1.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.2"> [A2-6.2]</a><span id="idA2-6.2">  连续体系梁桥按建筑材料分为混凝土连续体系梁桥、钢-混凝土组合梁连续体系梁桥、波形钢腹板预应力混凝土连续梁桥等。混凝土连续体系梁桥按预应力度<i>λ</i>不同可分为普通钢筋混凝土连续梁桥（简称钢筋混凝土连续梁桥，<i>λ</i>=0）、预应力混凝土连续梁（或连续刚构）桥（包含部分预应力混凝土连续梁桥（ 0＜<i>λ</i>＜1）和全预应力混凝土连续梁（或连续刚构）桥（<i>λ</i>≥1 ）。钢筋混凝土连续梁桥的设计跨径不超过25 m，否则主梁跨中截面下缘和支点截面上缘开裂严重，影响结构正常使用和耐久性。跨径超过25 m将采用预应力混凝土连续梁桥，预应力混凝土连续梁桥跨径超过150 m后，由于自重大，材料用量多，导致结构设计不经济，且存在梁体开裂、跨中下挠等问题；可采用预应力混凝土连续刚构桥，但超过一定跨径后，仍存在梁体开裂、跨中下挠等问题。为改善结构受力，大跨径连续梁桥可采用钢-混凝土组合梁连续体系梁桥，跨径可达200 m。</span></p>
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.1.2">2. 施工特点</a> <span id="id2.6.1.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.3"> [A2-6.3]</a><span id="idA2-6.3">  连续梁桥设计与施工方法密切相关，施工方法不同将导致结构受力不同（<a href="https://qlgc.readthedocs.io/zh/latest/05.html#image2.1.5b">图2-1-5</a>），从而使结构构造不尽相同。例如：</span></p>
+ <p style="text-align:justify;font-family:times new roman"> （1）采用满堂支架法施工时，连续箱梁桥可以设计成等截面（等高度）梁，也可以设计成变截面梁。而采用顶推法施工时一般采用等截面梁，有利于顶推作业；采用悬臂法施工时一般采用变截面梁，可减小结构自重，有利于结构受力。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）采用满堂支架施工的连续箱梁，既可以设计成直腹式箱梁，也可以设计成斜腹式箱梁。而采用悬臂法施工时尽量不采用斜腹式箱梁。</p>
+ <p style="text-align:justify;font-family:times new roman"> （3）对于中等跨径的等跨连续梁桥，采用满堂支架施工时，连续梁一般设计成整体式箱梁，结构自重按一次落架的成桥状态进行计算。而采用预制装配施工时，设计成先简支后连续梁，梁截面形式有空心板梁、T梁和小箱梁，截面构造与简支梁桥相同，在各跨主梁之间需现浇湿接缝、张拉负弯矩束（图2-6-1）；主梁自重（一期恒载）作用时按简支梁桥受力计算，桥面系构造（二期恒载）和汽车荷载等作用时按连续梁桥受力计算（<a href="https://qlgc.readthedocs.io/zh/latest/05.html#image2.1.2">图2-1-2</a>）。</p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.6.1{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.1" src="../_static/fig/2-6-1.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-1  先简支后连续梁桥示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.1'));</script>
+
+  </body>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.1.3">3. 平面布置</a> <span id="id2.6.1.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.4"> [A2-6.4]</a><span id="idA2-6.4">  连续梁桥按平面布置形式，可分为直线桥（通常称的连续梁桥）和曲线桥（通常称的连续弯梁桥）。连续梁桥主要承受“弯、剪”作用，横向扭转较小；而连续弯梁桥处于“弯、剪、扭”的复合受力状态，这也是连续弯梁桥区别于连续直梁桥的最主要受力特性。故在连续弯梁桥设计中，必须采取措施保障上、下部结构有利于抵抗“弯、剪、扭”的组合效应。</span></p>
+ 
+
+:math:`\ ` 
+
+
+
+

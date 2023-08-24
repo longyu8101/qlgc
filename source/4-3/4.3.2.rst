@@ -1,0 +1,344 @@
+第二节  计算方法
+---------------------------------
+
+.. raw:: html
+
+ <h3 id="test111">第二节  计算方法</h3>
+ 
+ <p><a href="#id4.3.2.1">一、静力计算</a> <span id="id4.3.2.1"></span></p>
+ <p><a href="#id4.3.2.1.1">1. 计算步骤</a> <span id="id4.3.2.1.1"></span></p>
+
+ <p style="text-align:justify"><a href="#idA4-3.5"> [A4-3.5]</a><span id="idA4-3.5"></span>斜拉桥结构静力计算总体上包括以下步骤（<a href="#image431">图4-3-1</a>）：</p>
+ 
+ <p style="text-align:justify;" id="aaa">（1）建立结构计算图式及数值分析模型，确定计算参数和计算荷载（组合）。</p>
+ <p style="text-align:justify;" id="aaa">（2）确定斜拉桥的合理成桥状态，通过正装或倒拆分析确定斜拉索初始拉力。</p>
+ <p style="text-align:justify;" id="aaa">（3）进行施工全过程分析，计算结构在各种作用组合情况下的作用效应设计值和变形。</p>
+ <p style="text-align:justify;" id="aaa">（4）进行成桥状态下受力分析，计算结构在各种作用组合情况下的作用效应设计值和变形。</p>
+ <p style="text-align:justify;">（5）验算结构在各种作用组合情况下的承载力、应力、变形和稳定性等。</p>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+
+ <div style="text-align:center;"><img id="image431" src="../_static/fig/4-3-1.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-1  斜拉桥静力计算流程</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image431'));</script>
+ 
+ <p><a href="#id4.3.2.1.2">2. 计算方法</a> <span id="id4.3.2.1.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.6"> [A4-3.6]</a><span id="idA4-3.6"></span>由于斜拉桥结构变形大、斜拉索长，计算中应考虑材料非线性和几何非线性影响；混凝土收缩、徐变对结构内力及变形的影响随时间的推移而不断变化，应对结构进行时效分析；当主梁采用箱形截面时，箱梁变形对结构的影响是不可忽略的；斜拉索的更换因素对结构受力影响在设计阶段应充分考虑等。</p>
+ <p style="text-align:justify" id="aaa"><b>（1）非线性影响</b></p>
+
+ <p style="text-align:justify"><a href="#idA4-3.7"> [A4-3.7]</a><span id="idA4-3.7"></span>对于跨径不大的斜拉桥，可按经典结构力学或线弹性有限元方法计算。对于跨径较大的斜拉桥（如钢梁斜拉桥、钢-混组合梁斜拉桥），由于主梁刚度相对较小，应力计算应计入结构的几何非线性影响，必要时还应计入材料非线性对结构的影响。斜拉桥非线性包括几何非线性和材料非线性。</p>
+ <p style="text-align:justify"><a href="#idA4-3.8"> [A4-3.8]</a><span id="idA4-3.8"></span>几何非线性影响主要包括结构的大位移效应、主梁或索塔在巨大的轴压力作用下的P-Λ效应（也称梁柱效应、弯矩轴力组合效应）和斜拉索垂度效应，对于混凝土主梁斜拉桥，跨径小于200m时，一般可以不计几何非线性的影响，当采用极柔的主梁（如板梁）时，则要酌情考虑；跨径大于200m及采用轻型截面（如高度很小的肋板式桥面）时，则要考虑几何非线性的影响。</p>
+ <p style="text-align:justify"><a href="#idA4-3.9"> [A4-3.9]</a><span id="idA4-3.9"></span>材料非线性影响，主要是指混凝土材料的σ、ε并非直线关系，一般在新桥设计时不必考虑。</p>
+ <p style="text-align:justify"><a href="#idA4-3.10"> [A4-3.10]</a><span id="idA4-3.10"></span>目前斜拉桥非线性仿真分析中，大位移效应通过CR或UR列式分析；P-Λ效应一般通过稳定函数考虑；斜拉索垂度效应的非线性计算方法主要有等效弹性模量法、多链杆单元法、等参数曲线有限元法和悬链线索单元法等，等效弹性模量法计算换算（或修正）弹性模量：</p>
+ 
+ <span id="idgs431"></span>
+
+$$E_e=\\frac{E_0}{1+\\frac{(\\gamma s\\cos\\alpha)^2}{12\\sigma^3}E_0}\\tag{4-3-1}$$
+
+.. raw:: html
+  
+  <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>E</i><sub>e</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">计算工况下，斜拉索的换算弹性模量（kPa）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>E</i><sub>0</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">不考虑斜拉索垂度影响的弹性模量，即斜拉索钢材的弹性模量，（kPa）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">γ</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">斜拉索的单位体积重量（kN/m³）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">s</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">斜拉索长度（m）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">α</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">斜拉索与水平线的夹角（°）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">σ</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">计算工况下的斜拉索应力（kPa）。</td>
+  </tr>
+  </table>
+  <p></p>
+ 
+ <p style="text-align:justify"><a href="#idA4-3.11"> [A4-3.11]</a><span id="idA4-3.11"></span>由式（4-3-1）可见，换算弹性模量<i>E</i><sub>e</sub>与斜拉索初应力σ有关，σ越小，<i>E</i><sub>e</sub>就越小。该方法的优势在于计算简便，但对于大跨度斜拉桥，考虑采用等效弹性模量法往往在拉索应力水平较低的状态下存在过大误差，且对斜拉索分次张拉模拟存在困难。其余方法将在“桥梁结构分析与设计”课程中介绍，这里不再赘述。</p>
+ 
+
+ <p style="text-align:justify" id="aaa"><b>（2）时效分析</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.12"> [A4-3.12]</a><span id="idA4-3.12"></span>时效指结构在一定时期内发生的效应。混凝土斜拉桥从施工到成桥过程中，结构的几何特性、材料特性、承受的荷载等均随时间的推移而不断的变化，混凝土的收缩徐变必将影响到结构的内力和变形，因此，应对混凝土斜拉桥进行时效分析。</p>
+ <p style="text-align:justify"><a href="#idA4-3.13"> [A4-3.13]</a><span id="idA4-3.13"></span>对于钢-混组合梁斜拉桥，由于混凝土收缩、徐变的影响，在承受活载、温度作用以及预应力时，会产生内力重分布；因此结构计算中必须考虑主梁上、下两种材料的不一致而引起的结构内力重分布。</p>
+ 
+ <p style="text-align:justify" id="aaa"><b>（3）箱梁变形</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.14"> [A4-3.14]</a><span id="idA4-3.14"></span>主梁采用箱形截面时，应考虑箱梁约束扭转变形的影响，计算箱梁扭转、翘曲和畸变影响。</p>
+
+ <p style="text-align:justify" id="aaa"><b>（4）换索或断索容余度</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.15"> [A4-3.15]</a><span id="idA4-3.15"></span>在斜拉桥结构计算中，应考虑至少确保一根斜拉索脱落、或断索、或换索情况下，主梁最大应力增加不超过相应设计应力的10%，并避免主梁应力的过大波动。</p>
+
+ <p><a href="#id4.3.2.1.3">3. 计算内容</a> <span id="id4.2.2.1.3"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.16"> [A4-3.16]</a><span id="idA4-3.16"></span>斜拉桥计算内容主要包括整体分析、局部分析、承载力验算、主梁变形计算与验算等。</p>
+ <p style="text-align:justify" id="aaa"><b>（1）整体分析</b></p>
+ <p style="text-align:justify" id="aaa">①结构离散化</p>
+ <p style="text-align:justify" id="aaa"><a href="#idA4-3.17"> [A4-3.17]</a><span id="idA4-3.17"></span>斜拉桥整体分析利用有限元分析软件进行数值仿真分析时，各构件可采用以下空间离散方法（<a href="#image432">图4-3-2</a>）：</p>
+ <ul>
+ <li>主梁采用单梁或梁格模型（梁格模型多用于宽幅斜拉桥的分析），主梁与斜拉索下锚固点通过刚臂连接；</li>
+ <li>索塔采用梁单元，索塔与斜拉索上锚点通过刚臂连接；</li>
+ <li>斜拉索采用杆单元或索单元模拟。</li>
+ </ul>
+ <p style="text-align:justify"><a href="#idA4-3.18"> [A4-3.18]</a><span id="idA4-3.18"></span>索塔一般采用小变形理论，在塔纵向变位较大时，才需计入附加内力。计算风荷载等横向荷载对索塔的作用时，可将索塔作为平面框架来进行分析。</p>
+ <p style="text-align:justify"><a href="#idA4-3.19"> [A4-3.19]</a><span id="idA4-3.19"></span>对于300米跨径以上斜拉桥，由于主梁多采用扁平钢箱梁结构，薄壁钢箱梁受力和变形呈现空间分布特性，钢箱梁的空间受力行为包括约束扭转、畸变、横向弯曲和剪力滞效应等。</p>
+ 
+ <div style="text-align:center;"><img id="image432" src="../_static/fig/4-3-2.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-2  某双塔斜拉桥全桥整体分析模型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image432'));</script>
+ 
+ <p style="text-align:justify" id="aaa">②合理成桥状态</p>
+ <ul>
+ <li>首先确定在成桥状态下，梁、塔的线形符合设计，索力相对均匀，梁、塔受力合理；</li>
+ <li>合理成桥状态的确定方法，目前已有较多实用方法，例如刚性支承连续梁法、最小弯曲能量法、影响弯矩法、考虑活载效应的分步计算法、内力平衡法、最小弯矩法、零支反力法和用索量最少法等，其中前两种不能考虑活载效应，须与其他方法结合采用。这些方法将在“桥梁结构分析与设计”课程中介绍，这里不再赘述。</li>
+ <li>合理成桥状态必须与合理施工状态相结合，通过合理施工状态来实现和逼近。</li>
+ <li>确定合理成桥状态时，除恒载外，还应考虑汽车荷载效应；而混凝土梁斜拉桥和钢-混组合梁斜拉桥，还须计入收缩徐变影响及预应力效应。</li>
+ </ul>
+ <p style="text-align:justify" id="aaa">③斜拉索初张力和调整力</p>
+ <p style="text-align:justify"><a href="#idA4-3.20"> [A4-3.20]</a><span id="idA4-3.20"></span>以合理成桥状态为基础，结合合理施工状态，确定施工阶段斜拉索的初张力，使合理成桥状态和合理施工状态耦合。确定方法有正装法、倒拆法、正装-倒拆迭代法、无应力状态控制法等（这些方法将在“桥梁结构分析与设计”课程中介绍，这里不再赘述），一般要经过多次试算才能得到满意结果。</p>
+ <p style="text-align:justify"><a href="#idA4-3.21"> [A4-3.21]</a><span id="idA4-3.21"></span>初张力指斜拉索安装时的拉力，可以一次施加，也可分次施加到位。例如，有些悬臂浇筑的混凝土主梁在挂篮安装后、浇筑梁段混凝土一半、梁段混凝土浇筑完成各张拉一次，这是初张力分三次实施，最终张拉的力即是初张力。</p>
+ <p style="text-align:justify"><a href="#idA4-3.22"> [A4-3.22]</a><span id="idA4-3.22"></span>为了有效控制线形，控制主梁、索塔合理受力，以及索力符合合理成桥状态要求，有时需对索力进行调整。索力的调整尽可能控制在一次解决，避免过多地调整，以缩短工期、减少施工工艺的复杂程度。</p>
+ 
+ <p style="text-align:justify" id="aaa"><b>（2）局部分析</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.23"> [A4-3.23]</a><span id="idA4-3.23"></span>对结构除了进行整体分析外，尚应对一些特殊部位进行局部分析，尤其是锚下应力区、钢-混组合梁剪力键、钢-混组合梁的钢-混结合部及塔墩梁固接等部位的分析。在局部分析中应计入结构整体荷载效应的非线性影响。</p>
+ <p style="text-align:justify"><a href="#idA4-3.24"> [A4-3.24]</a><span id="idA4-3.24"></span>斜拉桥的拉索锚固区、塔墩梁固结部位、钢锚箱等部位局部构造复杂，应进行结构局部分析和应力计算，一般通过空间有限元法进行局部应力分析，结合节段模型试验以获得结构的真实应力状态。可采用有限元分析程序中实体单元模型进行局部数值仿真分析（<a href="#image433">图4-3-3</a>），所取计算区域应能确保分析点的应力与实际相符。局部应力分析时，边界条件施加位置需要尽量远离计算分析所关心的部位以避免边界对计算结果产生较大的影响，需计入结构总体荷载效应的非线性影响。钢箱梁、组合梁锚固部位，除计算应力外，还应进行局部稳定和疲劳分析。对于混凝土结构，可通过主拉应力、主压应力等指标进行评价；对于钢结构，还需通过米塞斯应力进行评价。分析时也可按现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）的规定，采用拉杆-压杆模型进行局部构造的结构验算。</p>
+ 
+ <div style="text-align:center;"><img id="image433" src="../_static/fig/4-3-3.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-3  斜拉桥锚固区局部分析模型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image433'));</script>
+ 
+ <p style="text-align:justify" id="aaa"><b>（3）承载力及疲劳计算与验算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.25"> [A4-3.25]</a><span id="idA4-3.25"></span>斜拉桥的基础、索塔、主梁等构件的承载能力计算，根据各构件控制截面作用组合效应设计值按“结构设计原理”课程中介绍的钢筋混凝土及预应力混凝土构件（或钢构件）进行计算和验算，计算结果应符合现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）、《公路桥涵地基与基础设计规范》（JTG 3363）及《公路钢结构桥梁设计规范》（JTG D64）的规定，这里不再赘述。斜拉索的承载力计算，应按《公路斜拉桥设计规范》（JTG/T 3365-01）推荐方法进行计算；斜拉索的疲劳计算，应符合现行《公路钢结构桥梁设计规范》（JTG D64）的规定。</p>
+
+ <p style="text-align:justify" id="aaa"><b>（4）应力与变形计算与验算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.26"> [A4-3.26]</a><span id="idA4-3.26"></span>由结构有限元分析计算得到各控制截面应力，按“结构设计原理”课程中介绍的钢筋混凝土及预应力混凝土构件（或钢构件）进行验算，计算结果应符合现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）、《公路钢结构桥梁设计规范》（JTG D64）的相关规定和要求，这里不再赘述。</p>
+ <p style="text-align:justify"><a href="#idA4-3.27"> [A4-3.27]</a><span id="idA4-3.27"></span>由结构有限元分析计算得到各构件变形值，应进行以下校核：</p>
+ <p style="text-align:justify" id="aaa"><a href="#idA4-3.28"> [A4-3.28]</a><span id="idA4-3.28"></span>①斜拉桥主梁在汽车荷载作用下的最大竖向挠度：</p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">混凝土梁                  f ≤ L / 500</p>
+ <p style="text-indent:2em;text-align:justify;" id="aaa">混凝土梁                  f ≤ L / 500</p>
+ <p style="text-indent:2em;text-align:justify;">混凝土梁                  f ≤ L / 500</p>
+
+ <p style="text-align:justify"><a href="#idA4-3.29"> [A4-3.29]</a><span id="idA4-3.29"></span>式中：f 为汽车荷载（不计冲击力）引起的竖向挠度，当汽车荷载作用于一个跨径内引起该跨径正负挠度时，f 取正负挠度绝对值之和。L为主跨跨径。</p>
+ <p style="text-align:justify"><a href="#idA4-3.30"> [A4-3.30]</a><span id="idA4-3.30"></span>②混凝土行车道板在车辆荷载作用下的最大竖向挠度：f ≤ <i>L</i><sub>j</sub> / 600。式中：<i>L</i><sub>j</sub>为板的行车方向计算跨径。</p>
+ 
+ <p><a href="#id4.3.2.2">二、稳定性计算</a> <span id="id4.3.2.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.31"> [A4-3.31]</a><span id="idA4-3.31"></span>斜拉桥墩、塔、梁承受巨大的轴向压力和弯矩，在施工阶段或营运阶段可能会出现失稳现象。这里所指的稳定是指静力稳定（包括恒、活载作用），而并非指风和地震的稳定性。</p>
+ 
+ <p><a href="#id4.3.2.2.1">1. 稳定系数</a> <span id="id4.3.2.2.1"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.32"> [A4-3.32]</a><span id="idA4-3.32"></span>斜拉桥稳定分析一般分为第一类稳定问题和第二类稳定问题，第一类稳定问题为非线性弹性屈曲稳定（面外稳定），第二类稳定问题为计入材料非线性影响的稳定（面内稳定），两类稳定的安全系数K表示如下：</p>
+ <span id="idgs432"></span>
+
+$$K=\\frac{N_1}{N_0}\\tag{4-3-2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>N</i><sub>0</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">设计荷载；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>N</i><sub>1</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">在第一类稳定即弹性屈曲稳定中，<i>N</i><sub>1</sub>为弹性屈曲荷载，稳定安全系数K不小于4。在第二类稳定即计入材料非线性影响的弹塑性强度稳定中，<i>N</i><sub>1</sub>为极限强度，稳定安全系数K：混凝土主梁不小于2.5，钢主梁不小于1.75。</td>
+  </tr>
+ </table>
+ <p></p> 
+
+ <p><a href="#id4.3.2.2.2">2. 稳定分析的基本规定</a> <span id="id4.3.2.2.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.33"> [A4-3.33]</a><span id="idA4-3.33"></span>在方案设计和初步设计阶段，可用常规的稳定分析方法估算索塔和主梁的面内稳定和面外稳定；在施工图设计阶段，应根据不同的工况状态，详细计算整体稳定和局部稳定。</p>
+ <p style="text-align:justify"><a href="#idA4-3.34"> [A4-3.34]</a><span id="idA4-3.34"></span>（1）斜拉桥稳定分析中，应计入斜拉索垂度影响。</p>
+ <p style="text-align:justify"><a href="#idA4-3.35"> [A4-3.35]</a><span id="idA4-3.35"></span>（2）对钢梁、钢索塔的受压板件进行局部稳定分析时，屈曲应力验算应符合现行公路桥涵设计规范的相关规定。</p>
+ <p style="text-align:justify"><a href="#idA4-3.36"> [A4-3.36]</a><span id="idA4-3.36"></span>（3）钢-混组合梁斜拉桥稳定分析中，主梁混凝土桥面板稳定应力验算时，应计入桥面板局部荷载引起的应力。</p>
+
+ <p><a href="#id4.3.2.3">三、动力计算</a> <span id="id4.3.2.3"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.37"> [A4-3.37]</a><span id="idA4-3.37"></span>斜拉桥的跨径大，结构刚度小，自振频率低，在抗震、抗风以及车辆荷载的冲击振动等方面的动力学问题尤为突出，斜拉桥的动力学分析，是斜拉桥计算中的重要内容。结构计算模式应正确反映斜拉桥质量、刚度的实际分布，并计入几何非线性影响。</p>
+ 
+ <p><a href="#id4.3.2.3.1">1. 动力特性计算</a> <span id="id4.3.2.3.1"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.38"> [A4-3.38]</a><span id="idA4-3.38"></span>动力特性计算即进行动力模态分析，计算振型及振动频率。这既是确定桥梁冲击系数的依据，也是进行抗风、抗震计算的基础数据。动力特性计算应符合现行《公路桥梁抗风设计规范》（JTG/T 3360-01）的规定，自振频率及相应的振型宜采用有限元方法计算。动力特性分析时需要考虑初始应力引起的刚度、几何变形引起的刚度以及结构刚度总体效应，并在此基础之上通过振型模态分析获取结构的动力特性。</p>
+ 
+ <p><a href="#id4.3.2.3.2">2. 空气动力稳定计算</a> <span id="id4.3.2.3.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.39"> [A4-3.39]</a><span id="idA4-3.39"></span>在斜拉桥设计计算中，应进行空气动力稳定性分析，包括进行颤振和驰振稳定性分析、风致振动幅度计算、斜拉索风振、风雨振计算等，具体分析方法和计算内容详见现行《公路桥梁抗风设计规范》（JTG/T 3360-01）。必要时还需进行风洞模型试验。当结构的抗风性能不满足承载能力极限状态或正常使用极限状态设计要求时，应通过优化构件气动外形（如调整腹板倾角、风嘴形状以及改变基本断面等）、增设气功措施（如附加导流板、抑流板、中央稳定板等）、附加阻尼装置（如设置调谐式和非调谐式阻尼器）、改变结构体系或刚度（如塔梁连接方式、索面布置、支撑条件等）等措施予以满足。</p>
+ 
+ <p><a href="#id4.3.2.3.3">3. 抗震计算</a> <span id="id4.3.2.3.3"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.40"> [A4-3.40]</a><span id="idA4-3.40"></span>斜拉桥的抗震设防性能目标均应按 A 类桥梁要求执行，即在 E1 地震作用下，结构应基本不发生损伤，保持在弹性范围内；在E2地震作用下，斜拉索应基本不发生损伤，主塔、基础和主梁等重要受力构件可发生局部轻微损伤，震后不需修复或经简单修复可继续使用。</p>
+ <p style="text-align:justify"><a href="#idA4-3.41"> [A4-3.41]</a><span id="idA4-3.41"></span>斜拉桥的地震反应分析可采用时程分析法、多振型反应谱法或功率谱法，按现行《公路桥梁抗震设计细则》（JTG/T 2231-01）的相关规定进行计算。在E2地震作用下，索塔截面由地震组合产生的弯矩设计值应小于截面等效抗弯屈服弯矩（考虑轴力）。</p>
+ <p style="text-align:justify"><a href="#idA4-3.42"> [A4-3.42]</a><span id="idA4-3.42"></span>斜拉桥的抗震性能主要取决于结构体系，在烈度较高的地区要避免采用塔梁固结体系，应优先考虑飘浮体系；为了避免梁端位移反应过大，可能引起碰撞等问题，应在塔与梁之间增设适当的减震装置（如阻尼器），形成塔、梁弹性约束体系或阻尼约束体系，以有效降低地震反应。同时，塔、梁相交位置处，宜在横桥向梁体两侧设置缓冲装置。</p>
+ 
+ <p><a href="#id4.3.2.4">四、施工阶段计算</a> <span id="id4.3.2.4"></span></p>
+ 
+ <p><a href="#id4.3.2.4.1">1. 计算方法</a> <span id="id4.3.2.4.1"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.43"> [A4-3.43]</a><span id="idA4-3.43"></span>大中跨径斜拉桥一般多采用悬臂施工方法，施工过程中结构体系随着施工进展不断改变，采用混凝土主梁、钢-混组合梁时，由于混凝土收缩、徐变等时间效应也将导致结构内力发生改变；因此，为了获得成桥状态的结构内力及变形，需进行施工过程的结构计算分析，通过各施工步骤的应力累计以及与施工期间的混凝土收缩、徐变效应组合，最终得到成桥状态的应力和变形。同时，施工阶段结构计算也是预测桥梁结构线形变化的主要手段。</p>
+ <p style="text-align:justify"><a href="#idA4-3.44"> [A4-3.44]</a><span id="idA4-3.44"></span>斜拉桥施工过程的结构分析包括正装计算和倒拆计算，各施工阶段的划分应与施工流程一致。</p>
+
+ <p style="text-align:justify" id="aaa"><b>（1）正装计算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.45"> [A4-3.45]</a><span id="idA4-3.45"></span>正装计算方法是根据施工确定的工艺计算每个阶段的变形和应力，如<a href="#image434">图4-3-4</a>所示。</p>
+
+ <div style="text-align:center;"><img id="image434" src="../_static/fig/4-3-4.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-4  斜拉桥正装分析流程</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image434'));</script>
+
+ <p style="text-align:justify" id="aaa"><b>（2）倒拆计算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.46"> [A4-3.46]</a><span id="idA4-3.46"></span>倒拆计算方法是逆施工过程，从成桥状态开始逐个倒拆各施工过程中安装的构件，根据拆除后的结构平衡状态确定髙程（预拱度），并确定相应的索力，如<a href="#image435">图4-3-5</a>所示。</p>
+ 
+ <div style="text-align:center;"><img id="image435" src="../_static/fig/4-3-5.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-5  斜拉桥倒拆分析流程</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image435'));</script>
+ 
+ <p><a href="#id4.3.2.4.2">2. 计算内容</a> <span id="id4.3.2.4.2"></span></p>
+ <p style="text-align:justify" id="aaa"><b>（1）施工阶段计算内容</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.47"> [A4-3.47]</a><span id="idA4-3.47"></span>斜拉索索力、塔梁索等结构内力和截面应力、支座反力、索塔和主梁变位。施工阶段截面验算应遵照现行公路桥涵设计规范相关条文的规定执行。</p>
+ <p style="text-align:justify" id="aaa"><b>（2）体系转换计算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.48"> [A4-3.48]</a><span id="idA4-3.48"></span>包括临时支架的拆除，临时支座（墩）的拆除，悬臂施工挂篮（桥面吊机）的安装及拆除，合龙施工悬臂施工挂篮（桥面吊机）的安装及拆除；计算边跨合龙及主跨合龙工况。</p>
+ <p style="text-align:justify" id="aaa"><b>（3）不平衡荷载计算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.49"> [A4-3.49]</a><span id="idA4-3.49"></span>斜拉桥悬臂施工过程中应考虑以下一些不平衡荷载：主梁悬臂两端不平衡自重、临时施工荷载、不平衡模板、不平衡索力等，如果必要可考虑一端挂篮脱落对结构内力的影晌。</p>
+ <p style="text-align:justify" id="aaa"><b>（4）施工抗风验算</b></p>
+ <p style="text-align:justify"><a href="#idA4-3.50"> [A4-3.50]</a><span id="idA4-3.50"></span>①索塔浇筑完成但还未拆模板，在纵、横向风力作用下的静力验算。</p>
+ <p style="text-align:justify"><a href="#idA4-3.51"> [A4-3.51]</a><span id="idA4-3.51"></span>②裸塔静风稳定分析，必要时进行风洞模型试验。</p>
+ <p style="text-align:justify"><a href="#idA4-3.52"> [A4-3.52]</a><span id="idA4-3.52"></span>③主梁最大悬臂（单悬臂或双悬臂）时，计算索塔两侧主梁横向风力或底面产生不同升力，当最大悬臂施工状态的颤振稳定性指数<i>I</i><sub>f</sub>≥4.0时，宜通过适当模型风洞试验作抗风稳定性检验。</p>
+ 
+ <p><a href="#id4.3.2.4.3">3. 主梁预拱度</a> <span id="id4.3.2.4.3"></span></p>
+ 
+ <p style="text-align:justify"><a href="#idA4-3.53"> [A4-3.53]</a><span id="idA4-3.53"></span>主梁预拱度是指成桥高程与理论设计高程之差。斜拉桥的主梁成桥预拱度不宜小于主梁由于混凝土收缩徐变、斜拉索松弛产生的竖向挠度和1/2汽车荷载产生的竖向挠度之和，并拟合成平顺曲线。拟合曲线可选用高次抛物线或余弦曲线。</p>
+ <p style="text-align:justify"><a href="#idA4-3.54"> [A4-3.54]</a><span id="idA4-3.54"></span>混凝土梁斜拉桥主要考虑主梁混凝土收缩徐变、斜拉索松弛对竖向挠度产生的影响；钢主梁斜拉桥，主要考虑斜拉索松弛对竖向挠度产生的影响；对组合梁斜拉桥，主要考虑混凝土收缩徐变、斜拉索松弛对竖向挠度产生的影响；混合梁的边跨混凝土梁和中跨钢主梁的预拱度计算，分别按上述混凝土梁斜拉桥和钢主梁斜拉桥的相关规定计算。</p>
+
+ <p><a href="#id4.3.2.4.4">4. 合理成桥状态和施工过程分析</a> <span id="id4.3.2.4.4"></span></p>
+ <p style="text-align:justify"><a href="#idA4-3.55"> [A4-3.55]</a><span id="idA4-3.55"></span>斜拉桥在分析时需根据结构受力行为（包括主梁、索塔弯矩、索力分布与支座反力）等确定合理成桥状态，该状态是指斜拉桥成桥状态下，梁、塔的线形符合设计要求，索力相对均匀，梁塔受力合理，这是设计中首先应当确定的。“受力合理”需依赖设计者的经验和水平，斜拉桥设计时应综合考虑结构体系的受力特征，即使在完全相同的结构构造特征下，也可通过主动索力设置，得到更优的成桥状态。</p>
+ <p style="text-align:justify"><a href="#idA4-3.56"> [A4-3.56]</a><span id="idA4-3.56"></span>大跨径混凝土斜拉桥多采用悬臂拼装或悬臂浇筑施工，施工以成桥后达到设计理想成桥状态为目的，分析时还需提前对施工过程中的斜拉索控制张力、主梁线形（制造线形和安装线形）等进行精确分析和计算，在计算分析时应充分考虑斜拉桥的几何非线性与混凝土材料的时变效应。</p>
+ <p style="text-align:justify"><a href="#idA4-3.57"> [A4-3.57]</a><span id="idA4-3.57"></span>广义上的合理成桥状态应包括合理成桥线形和合理成桥内力状态两个方面。由于前者一般通过设置施工预拱度来满足成桥设计线形的要求，后者通过斜拉索的索力调整、跨中合龙前的顶推、临时约束的解除时机等手段实现。</p>
+ <p style="text-align:justify"><a href="#idA4-3.58"> [A4-3.58]</a><span id="idA4-3.58"></span>确定斜拉桥合理内力状态的核心是确定合理的恒载索力。比较有代表性的确定合理恒载索力的方法，有基于应力平衡的分步算法、影响矩阵法、零位移法、相对刚对变化法和刚性支承连续梁法等（这些方法将在“桥梁结构分析与设计”课程中介绍，这里不再赘述），确定斜拉桥合理成桥状态的原则如<a href="#image436">图4-3-6</a>所示，确定合理成桥状态的方法如<a href="#image437">图4-3-7</a>所示。值得注意的是，即使采用零位移法等高阶算法，合理成桥状态的确定结果只能作为参考，实际应用中采用某一单一方法得到的斜拉桥成桥状态，往往是“不合理”的，例如，采用“用索量最小法”得到了一组索力最小条件下的斜拉桥成桥状态，索力最小可能意味着主梁内力较大，节约了索的用量，但可能导致主梁内力的增加；采用“零位移”法使得主梁在恒载作用下位移处处为零，此时往往得到了一组非常不合理的斜拉索索力。因此，应综合分析各构件的合理受力状态。</p>
+
+ <style type="text/css">
+      #image436{
+         margin-left:85px;
+         }
+ </style>
+
+ <div style="text-align:center;"><img id="image436" src="../_static/fig/4-3-6.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-6  斜拉桥合理成桥状态确定原则</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image436'));</script>
+
+ <div style="text-align:center;"><img id="image437" src="../_static/fig/4-3-7.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-7  斜拉桥合理成桥状态确定方法</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image437'));</script>
+
+ <p style="text-align:justify"><a href="#idA4-3.59"> [A4-3.59]</a><span id="idA4-3.59"></span>每种确定斜拉桥合理成桥状态的确定方法都有优点和局限性，弯曲能量最小法人为地加大塔梁索的轴向刚度或减小其抗弯刚度，有限元模型中计算截面刚度时就会产生偏差，故模型计算与实际结构的变形不符，计算得到的应力状态不准确，只能通过内力状态初步衡量受力状况是否合理；应力平衡法在预应力布置确定时虽然可以直接计入预应力的影响，并且兼顾结构各构件的受力状态，但由于这种方法计算的繁琐性，对于密索结构计算量过大，且计算结构也易出现不均匀现象；而影响矩阵法往往难以合理确定综合考虑恒、活载综合作用下的主梁、索塔和斜拉索受力要求的受调向量，但影响矩阵法可以使索力准确达到设计者所期望的索力值以及成桥状态。</p>
+ <p style="text-align:justify"><a href="#idA4-3.60"> [A4-3.60]</a><span id="idA4-3.60"></span>随着斜拉桥结构不断向大跨度密索体系发展，部分过于繁琐的设计方法己经逐渐被淘汰，单纯地采用某一种理论方法很难得到较符合实际的精确解析结果，也难以通过一次计算确定一组能为工程使用的成桥索力。更合理的做法是采用两种或以上方法综合确定斜拉桥合理成桥索力，避免单一使用某一种方法引起的局部应力超限等问题，或者在一种计算方法的基础上，采用其他方法进行验算与调整，使得结果满足规范要求。只有通过多种方法综合确定的合理成桥索力才可最终使用于实际结构。</p>
+ <p style="text-align:justify"><a href="#idA4-3.61"> [A4-3.61]</a><span id="idA4-3.61"></span>确定合理成桥受力状态后，斜拉桥的实际建造，是通过漫长而又复杂的施工阶段和结构体系转化，最终达到或逼近合理成桥状态。需在考虑施工阶段几何非线性和混凝土时变效应的基础上，基于合理的分析理论确定合理施工状态。</p>
+ <p style="text-align:justify"><a href="#idA4-3.62"> [A4-3.62]</a><span id="idA4-3.62"></span>目前，斜拉桥施工全过程仿真分析方法主要有以下三种：倒退分析法（Back Analysis）、正装分析法（Forward Analysis）和无应力状态分析法（Non-stress State Analysis）。倒退分析法早期主要用于确定斜拉索的初拉力，目前，随着计算机非线性求解能力的增强，在斜拉桥施工控制全过程仿真分析中，常采用正装分析法，利用成桥斜拉桥斜拉索索力作为合理施工状态控制张拉索力的迭代初值，通过正装分析反复迭代确定终张索力，分批次张拉索力则根据中间施工阶段临时荷载、结构受力安全性确定。</p>
+ 
+ <p><a href="#id4.3.2.5">五、施工控制</a> <span id="id4.3.2.5"></span></p>
+ 
+ <p style="text-align:justify"><a href="#idA4-3.63"> [A4-3.63]</a><span id="idA4-3.63"></span>斜拉桥的施工方法和安装程序与成桥后的主梁线形及结构恒载内力有着密切的联系，在施工阶段随着斜拉桥结构和荷载状态的不断变化，结构内力和变形也随之不断变化。因此，对每一施工阶段需要进行详细的分析，对施工工序作出明确规定，对施工过程加以有效的控制，才能确保施工过程中结构受力状态和变形始终处于安全的范围，成桥后线性符合设计预期，结构处于最优受力状态。首先应对原设计文件的约定施工过程进行验算分析；其次应根据施工组织设计进行模拟分析，施工控制流程如<a href="#image438">图4-3-8</a>所示。</p>
+ <p style="text-align:justify"><a href="#idA4-3.64"> [A4-3.64]</a><span id="idA4-3.64"></span>另外，对斜拉桥索塔承台、索塔和主梁实心段等大体积混凝土应采取温度控制。通过优化混凝土的配合比，辅以温控设计与工艺等技术措施，确保混凝土在凝结硬化过程中的应力应变被控制在合理的范围，混凝土不因温度应力而发生开裂。</p>
+ 
+ <div style="text-align:center;"><img id="image438" src="../_static/fig/4-3-8.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-8  斜拉桥的施工控制主要流程</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image438'));</script>
+ 
+ <p style="text-align:justify"><a href="#idA4-3.65"> [A4-3.65]</a><span id="idA4-3.65"></span>索力测试是斜拉桥施工控制过程重要测试内容之一，现场常采用振动法进行测试，用振动法测试索力计算时，应通过信号处理分析获得索的至少五阶自振频率值，按每一阶自振频率计算索力，取其均值作为最终索力。对于长索按下述公式计算索力T值：</p>
+ <span id="idgs433"></span>
+ <span id="idgs434"></span>
+ 
+$$T_n=\\frac{4WL^2f_n^2}{n^2g}-\\frac{n^2EI\\pi^2}{L^2}\\tag{4-3-3}$$
+$$T=\\frac{1}{5}\\sum\\limits_{n=1}^5T_n\\tag{4-3-4}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>T</i><sub>n</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">对应于第n阶自振频率计算的索力；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>f</i><sub>n</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">索的第n阶自振频率；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">L</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">索的计算长度；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">n</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">索的振动阶数；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">W</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">每米索长的重量；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">g</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">重力加速度；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">EI</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">索的抗弯刚度，对于柔性索，索的抗弯刚度可以忽略，EI = 0。</td>
+  </tr>
+ </table>
+ <p></p> 
+ 
+ <p><a href="#id4.3.2.6">六、部分斜拉桥计算简介</a> <span id="id4.3.2.6"></span></p>
+ <p style="text-align:justify" id="aaa"><a href="#idA4-3.66"> [A4-3.66]</a><span id="idA4-3.66"></span>部分斜拉桥的力学性能是介于连续体系梁桥与常规斜拉桥之间，因此部分斜拉桥可被认为是上述两种结构体系的一种组合结构形式。索梁活载比是界定部分斜拉桥与常规斜拉桥的常用参数之一。由于部分斜拉桥的主梁刚度大，采用弹性地基梁的简化计算方法，可用于部分斜拉桥的理论计算。部分斜拉桥在设计计算时，与常规斜拉桥的区别主要有以下几点：</p>
+ <p style="text-align:justify" id="aaa">（1）部分斜拉桥由于“塔矮、梁刚”的特点，在合理成桥状态分析时，一般以部分斜拉桥的斜拉索竖向荷载分配比例或索力应力幅为控制条件，也可采用综合能量法或最小用索量法确定合理成桥状态。</p>
+ <p style="text-align:justify" id="aaa">（2）部分斜拉桥主梁无索区长度较长，分析计算时还需关注施工过程中无索区的受力状态。</p>
+ <p style="text-align:justify">（3）部分斜拉桥设计计算时，由于斜拉索倾角小、水平分力大且主梁预应力钢束多，分析时应考虑结构的P-Δ效应。</p>
+ 
+ 
+:math:`\ `
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第二节 拱圈内力计算 &mdash; 桥梁工程 第2版</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="第三节 拱圈内力调整" href="15.3.html" />
+    <link rel="prev" title="第一节 拱桥的特点" href="15.1.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> 桥梁工程<br /><br />第2版
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qy.html">第二版前言</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第一篇 总论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02.html">第二章  桥梁总体规划和设计要点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04.html">第四章  桥梁通用构造</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10.html">第六章  连续体系梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../15.html">第四章  简单体系拱桥计算</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="15.1.html">第一节  拱桥的特点</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">第二节  拱圈内力计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15.3.html">第三节  拱圈内力调整</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15.4.html">第四节  有限元分析要点</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../4-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-2.html">第二章 斜拉桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../5-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-2.html">第二章 悬索桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-2.html">第二章  桥墩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-z.html">总结</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">桥梁工程<br /><br />第2版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../15.html">第四章  简单体系拱桥计算</a></li>
+      <li class="breadcrumb-item active">第二节  拱圈内力计算</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/15/15.2.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>第二节  拱圈内力计算<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h3 id="test111"> 第二节  拱圈内力计算</h3>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#id3.4.2.1"> 一、恒载作用下拱圈内力计算</a> <span id="id3.4.2.1"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.12"> [A3-4.12]</a><span id="idA3-4.12">当采用恒载压力线作为拱轴线时，在不考虑拱圈弹性变形的影响时（即认为拱是刚体），拱圈各截面只有轴向力而无弯矩和剪力（即拱圈处于纯压状态）。事实上，拱圈材料有弹性，不可能是刚体，在恒载和活载产生的轴向压力作用下都会产生弹性变形，使拱轴长度缩短，由此会在无铰拱中产生弯矩和剪力，这就是所谓的弹性压缩。为便于计算，将恒载和活载内力均分为两部分，即不考虑弹性压缩影响的内力和计入弹性压缩引起的内力，然后将两者叠加起来。如果拱轴线对恒载压力线有偏离，还要计算拱轴偏离引起的内力。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.13"> [A3-4.13]</a><span id="idA3-4.13"> 1. 不考虑弹性压缩影响</span></p>
+<p style="text-align:justify;font-family:times new roman">（1）实腹式拱<br>实腹式悬链线拱的拱轴线与恒载压力线完全吻合，所以在恒载作用下，主拱各截面上仅有轴向压力，此时，拱截面上的内力，可按纯压拱的公式计算。<br>恒载作用下的水平推力，由公式（3-4-13）推得：</p><p>$$H_{\mathrm{g}}=\dfrac{m-1}{4k^2}\cdot\dfrac{g_{\mathrm{d}}l^2}{f}=K_{\mathrm{g}}\cdot\dfrac{g_{\mathrm{d}}l^2}{f}\tag{3-4-35}$$</p>
+<p style="text-align:justify;font-family:times new roman">恒载作用下拱脚的竖向反力为半拱的恒载重力，即：</p><p>$$R_{\mathrm{g}}=\int_0^{l_1}g_{\mathrm{x}}dx=\int_0^1g_{\mathrm{x}}l_1d\xi$$</p>
+<p style="text-align:justify;font-family:times new roman">将式（3-4-12）、（3-4-15）代入上式并积分得：</p><p>$$R_{\mathrm{g}}=\dfrac{\sqrt{m^2-1}}{2[\mathrm{ln(m+\sqrt{m^2-1})}]}\cdot g_{\mathrm{d}}l=K_{\mathrm{g}}^{'}g_{\mathrm{d}}l\tag{3-4-36}$$</p>
+<p style="text-align:justify;font-family:times new roman">主拱圈各截面内力</p><p>$$\begin{array}{l}
+N=\dfrac{H_{\mathrm{g}}}{\cos\varphi}\\
+M=0\\
+V=0
+\end{array}\tag{3-4-37}$$</p>
+<p style="text-align:justify;font-family:times new roman">系数<i>k</i><sub>g</sub>、<i>k</i><sub>g</sub><sup>'</sup>可由<i>m</i>或<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mrow><mi mathvariant="normal">y</mi></mrow><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></msub><mi>f</mi></mfrac></mstyle></math>查附录Ⅳ，附表Ⅳ-0-4“不考虑弹性压缩时由于恒载产生的水平推力及垂直反力”。</p>
+
+<p style="text-align:justify;font-family:times new roman"> cos<i>φ</i>由<i></i>和主拱<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>f</mi><mn>0</mn></msub><msub><mi>L</mi><mn>0</mn></msub></mfrac></mstyle></math>查附录Ⅳ，附表Ⅳ-0-11“悬链线拱各点倾角的正弦及余弦函数表”。</p>
+
+<p style="text-align:justify;font-family:times new roman">（2）空腹式拱<br>空腹式悬链线无铰拱，由于拱轴线与恒载压力线有偏离，拱顶、拱脚和<i>l</i>/4拱跨点都有恒载弯矩。在设计中，为方便计算，将空腹式无铰拱桥的恒载内力又分为两部分：①不考虑偏离的影响，将拱轴线视为与恒载压力线完全吻合；②考虑偏离的影响，按式（3-4-26）～式（3-4-28）计算由偏离引起的恒载内力。两者相加（①+②），即得空腹式无铰拱不考虑弹性压缩时的恒载内力。</p>
+<p style="text-align:justify;font-family:times new roman"> 不考虑拱轴偏离影响，拱的恒载推力<i>H</i><sub>g</sub>和拱脚竖向反力<i>R</i><sub>g</sub>，可直接由力的平衡条件求得：</p><p>$$\begin{array}{l}
+H_{\mathrm{g}}=\dfrac{\displaystyle\sum M_{\mathrm{g}}}{f}\\
+R_{\mathrm{g}}=\displaystyle\sum P
+\end{array}\tag{3-4-38}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>ΣM</i><sub>j</sub></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">半跨恒载对拱脚的力矩；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>ΣP</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">半跨恒载重。</td>
+</tr>
+ </table>
+<p> </p>
+<p style="text-align:justify;font-family:times new roman">算出<i>H</i><sub>g</sub>之后，利用公式（3-4-37），即可求出主拱各截面的内力。</p>
+<p style="text-align:justify;font-family:times new roman">如上所述，拱轴线与恒载压力线偏离对主拱受力是有利的。在设计小跨径的空腹式拱桥时，可偏安全地不考虑偏离弯矩的影响。对大跨径拱桥，恒载偏离弯矩是一种可供利用的有利因素，此时，应当计入偏离弯矩的影响。计算恒载偏离弯矩时，除了计算偏离弯矩对拱顶、拱脚的有利影响之外，还应计入偏离弯矩对<i>l</i>/8和3<i>l</i>/8截面的不利影响，尤其是3<i>l</i>/8截面，其往往成为正弯矩的控制截面。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.14"> [A3-4.14]</a><span id="idA3-4.14"> 2. 弹性压缩引起的内力<br>在恒载产生的轴向压力作用下，拱圈的弹性压缩引起拱轴沿跨径方向缩短<i>△l</i> ，为了平衡这一弹性压缩，就必须有一个作用于弹性中心而方向向外的水平力<i>△H</i><sub>g</sub> （<a href="#image3.4.7">图3-4-7</a>）。</span></p>
+
+<body>
+
+ <style type="text/css">
+     #image3.4.7{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.7" src="../_static/fig/3-4-7.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-7  弹性压缩引起的拱轴缩短</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.7'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">根据变形协调条件可得</p><p>$$\Delta H_{\mathrm{g}}\delta_{22}^{'}-\Delta l=0$$</p>
+<p>$$\Delta H_{\mathrm{g}}=\dfrac{Delta l}{\delta_{22}^{'}}=H_{\mathrm{g}}\dfrac{\mu _1}{1+\mu}\tag{3-4-39}$$</p>
+<p style="text-align:justify;font-family:times new roman"><i>Δl</i>为由于恒载轴向压力作用引起的拱轴沿跨径方向压缩（即水平方向的变位），其值为</p><p>$$\Delta l=\int_0^{\mathrm{l}}\Delta dx=\int_{\mathrm{s}}\Delta ds\cos\varphi=\int_{\mathrm{s}}\dfrac{Nds}{EA}\cos\varphi\tag{3-4-40}$$</p>
+<p style="text-align:justify;font-family:times new roman">将式（3-4-37）代入式（3-4-40）得：</p><p>$$\Delta l=\int_{\mathrm{s}}\dfrac{H_{\mathrm{g}}ds}{EA}=H_{\mathrm{g}}\int_{\mathrm{s}}\dfrac{\mathrm{ds}}{EA}\tag{3-4-41}$$</p>
+<p style="text-align:justify;font-family:times new roman">由于单位水平力作用在弹性中心，考虑轴向力影响所产生的水平位移为</p><p>$${\small\delta_{22}^{'}=\int_{\mathrm{s}}\dfrac{\bar{M}_2^2ds}{EI}+\int_{\mathrm{s}}\dfrac{\bar{N}_2^2ds}{EA}=\int_{\mathrm{s}}\dfrac{\mathrm{y}^2ds}{EI}+\int_{\mathrm{s}}\dfrac{\cos ^2\varphi ds}{EA}=(1+mu)\int_{\mathrm{s}}\dfrac{\mathrm{y}^2ds}{EI}}\tag{3-4-42}$$</p>
+<p style="text-align:justify;font-family:times new roman">式中：<i>y</i>=<i>y</i><sub>s</sub> -<i>y</i><sub>1</sub></p><p>$$\mu=\dfrac{\int_{\mathrm{s}}\dfrac{\cos^2\varphi}{EA}ds}{\int_{\mathrm{s}}\dfrac{\mathrm{y}^2ds}{EI}}=\dfrac{l}{EvA\int_{\mathrm{s}}\dfrac{\mathrm{y}^2ds}{EI}}\tag{3-4-43}$$</p>
+<p>$$\mu_1=\dfrac{\int_{\mathrm{s}}\dfrac{ds}{EA}}{\int_{\mathrm{s}}\dfrac{\mathrm{y}^2 ds}{EI}}=\dfrac{l}{Ev_1 A\int_{\mathrm{s}}\dfrac{\mathrm{y}^2ds}{EI}}\tag{3-4-44}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>E</i></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">拱圈材料的弹性模量；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>A</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱圈截面面积；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>I</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱圈截面抗弯惯性矩；</td>
+</tr>
+ </table>
+<p style="text-align:justify;font-family:times new roman"> 其余符号意义同前，或见<a href="#image3.4.5">图3-4-5</a>所示。</p>
+<p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>μ</mi><mo>和</mo><msub><mi>μ</mi><mn>1</mn></msub><mo>、</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mi>v</mi></mfrac></mstyle><mo>和</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><msub><mi>v</mi><mn>1</mn></msub></mfrac></mstyle><mo>可由</mo><mi>m</mi><mo>和主拱</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>f</mi><mn>0</mn></msub><msub><mi>L</mi><mn>0</mn></msub></mfrac></mstyle></math>查附录Ⅳ，附表Ⅳ-0-7～10。</p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.15"> [A3-4.15]</a><span id="idA3-4.15"> 3. 恒载作用下拱圈截面总内力<br>在拱桥计算中，拱内力符号习惯上采用下述规定：弯矩<i>M</i>以使拱圈内缘受拉为正；剪力<i>V</i>以绕与脱离体逆时针转为正；轴向力<i>N</i>以使拱圈受压为正。<a href="#image3.4.8">图3-4-8</a>所示<i>M</i>、<i>V</i>、<i>N</i>均为正。</span></p>
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.8{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.8" src="../_static/fig/3-4-8.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-8  弹性压缩产生的内力</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.8'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 当空腹式拱不考虑恒载压力线偏离拱轴线的影响时，拱圈各截面的恒载内力为不考虑弹性压缩的恒载内力加上弹性压缩产生的内力。</P><p>$$\left.\begin{array}{l}N=\dfrac{H_{\mathrm{g}}}{\cos\varphi}-\dfrac{\mu_1}{1+\mu}H_{\mathrm{g}}\cos\varphi\\
+M=\dfrac{\mu_1}{1+\mu}H_{\mathrm{g}}(\mathrm{y_s}-\mathrm{y_1})\\
+V=\mp \dfrac{\mu_1}{1+\mu}H_{\mathrm{g}}\sin\varphi
+\end{array}\right\}\tag{3-4-45}$$</p>
+<p style="text-align:justify;font-family:times new roman"> 式中，“－”适用于左半拱，“＋”适用于右半拱，以后出现时均同。<br>从式（3-4-45）不难看出，考虑了弹性压缩后，即使不计入偏离弯矩的影响，拱圈内仍有恒载弯矩。在拱顶产生正弯矩，该处压力线上移；在拱脚产生负弯矩，压力线下移，即考虑弹性压缩后，不论是实腹式拱还是空腹式拱，恒载压力线与拱轴线将不可能重合。<br>当考虑偏离影响时，按式（3-4-26）～式（3-4-28）计算由偏离引起的恒载内力，并与式（3-4-45）叠加，这样各截面的内力公式为：</p><p>$$\left.\begin{array}{l}N=\dfrac{H_{\mathrm{g}}}{\cos\varphi}+\Delta X_2\cos\varphi-\dfrac{\mu_1}{1+\mu}(H_{\mathrm{g}}+\Delta x_2)\cos\varphi\\
+M=\dfrac{\mu_1}{1+\mu}(H_{\mathrm{g}}+\Delta X_2)(\mathrm{y_s}-\mathrm{y_1})+\Delta M\\
+V=\mp \dfrac{\mu_1}{1+\mu}(H_{\mathrm{g}}+\Delta X_2)\sin\varphi\pm\Delta X_2\sin\varphi
+\end{array}\right\}\tag{3-4-46}$$</p>
+<p style="text-align:justify;font-family:times new roman"> 偏离附加内力的大小与荷载的具体布置有关，一般地，拱上腹孔跨径越大，偏离影响也越大，对于大跨径空腹式拱桥，应该计入偏离影响。</p>
+
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.16"> [A3-4.16]</a><span id="idA3-4.16"> 4. 裸拱自重内力<br>采用支架法施工的拱圈[<a href="#image3.4.9">图3-4-9a）</a>]在支架卸落时，采用无支架施工的拱桥[<a href="#image3.4.9">图3-4-9b）</a>]在拱圈合龙时，须计算裸拱自重产生的内力，以便进行裸拱承载力和稳定性验算。</span></p>
+
+<body>
+
+ <style type="text/css">
+     #image3.4.9{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.9" src="../_static/fig/3-4-9.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-9  裸拱施工示例</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.9'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#id3.4.2.2">取悬臂曲梁为基本结构[<a href="#image3.4.10">图3-4-10a）</a>]。对于等截面拱，任意截面<i>i</i>的恒载集度<i>g</i><sub>i</sub>为：</p><p>$$g_{\mathrm{i}}=\dfrac{_{\mathrm{d}}}{\cos\varphi}\tag{3-4-47}$$</p>
+<body>
+
+ <style type="text/css">
+     #image3.12.10{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.10" src="../_static/fig/3-4-10.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-10  拱圈自重作用下内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.10'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">由于结构和荷载均为正对称，故在弹性中心处仅有两个正对称的赘余力：弯矩<i>M</i><sub>s</sub>和水平力<i>H</i><sub>s</sub>。由典型方程得：</p><p>$$M_{\mathrm{s}}=-\dfrac{\Delta _{\mathrm{1p}}}{\delta _{11}}=-\dfrac{\int_{\mathrm{s}}\dfrac{\bar{M}_1M_{\mathrm{p}}ds}{EI}ds}{\int_{\mathrm{s}}\dfrac{\bar{M}_1^2}{EI}ds}=-\dfrac{\int_{\mathrm{s}}\dfrac{M_{\mathrm{p}}}{EI}ds}{\int_{\mathrm{s}}\dfrac{ds}{EI}}$$</p>
+<p>$$H_{\mathrm{s}}=-\dfrac{\Delta _{\mathrm{2p}}}{\delta _{22}^{'}}=-dfrac{\int_{\mathrm{s}}\dfrac{\bar{M}_2M_{\mathrm{p}}}{EI}ds}{\int_{\mathrm{s}}\dfrac{\bar{M}_2^2}{EI}ds+\int_{\mathrm{s}}\dfrac{\bar{N}_2^2}{EI}ds}=-\dfrac{\int_{\mathrm{s}}\dfrac{M_{\mathrm{p}}\mathrm{y}}{EI}ds}{(1+\mu)\int_{\mathrm{s}}\dfrac{\mathrm{y^2}}{EI}ds}$$</p>
+<p style="text-align:justify;font-family:times new roman">积分后可得：</p><p>$$\left.\begin{array}{l}
+M_{\mathrm{s} }=\dfrac{A\gamma l^2}{4}V_1\\
+H_{\mathrm{s} }=\dfrac{A\gamma l^2}{4(1+\mu)f}V^2
+\end{array}\right\}\tag{3-4-48}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>γ</i></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">拱圈材料的重度；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>A</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱圈截面积（净面积或实际面积）；</td>
+</tr>
+  <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>V</i><sub>1</sub>,<i>V</i><sub>2</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">系数，由<i>m</i>和主拱<i>F/L</i>查附录Ⅳ，附表Ⅳ-0-12、13。</td>
+</tr>
+ </table>
+<p> </p>
+
+
+
+
+<p style="text-align:justify;font-family:times new roman">为了简化计算，可将整个积分过程简化为计算表，通过查表得到<i>V</i><sub>1</sub>,<i>V</i><sub>2</sub>，代入公式（3-4-48）计算出弯矩<i>M</i><sub>s</sub>和水平力<i>H</i><sub>s</sub>。</p>
+<p style="text-align:justify;font-family:times new roman">由静力平衡条件得任一截面弯矩和轴力为：</p><p>$$\left.\begin{array}{l}M_{\mathrm{i} }=M_{\mathrm{s} }-H_{\mathrm{s}\mathrm{y} -\displaystyle \sum_n^i M}\\
+N_{\mathrm{i} }=H_{\mathrm{s}}\cos\varphi_{\mathrm{i} }+\displaystyle {\sum_n^i P\cdot \sin \varphi_{\mathrm{i} }}
+\end{array}\right\}\tag{3-4-49}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><munderover><mo data-mjx-texclass="OP">∑</mo><mi>n</mi><mi>i</mi></munderover><mi>M</mi></mstyle></math></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">拱顶至i截面间裸拱自重对该截面的弯矩；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><munderover><mo data-mjx-texclass="OP">∑</mo><mi>n</mi><mi>i</mi></munderover><mi>P</mi></mstyle></math></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱顶至i截面间裸拱自重的总和；</td>
+</tr>
+  <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>n</i></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱顶截面编号。</td>
+</tr>
+ </table>
+<p> </p>
+
+
+
+
+
+<p style="text-align:justify;font-family:times new roman"> 当拱的矢跨比为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>10</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>5</mn></mfrac></mstyle></math>时，悬链线裸拱恒载压力线的拱轴系数<i>m</i><sub>0</sub>=1.079~1.305，通常比拱轴线采用的<i>m</i>值小。计算表明，在裸拱的自重作用下，拱顶、拱脚一般都产生正弯矩。拱轴线的<i>m</i>与裸拱的<i>m</i><sub>0</sub>差得越多，拱顶、拱脚的正弯矩就越大。因此，采用无支架施工的拱桥，宜适当降低拱轴系数。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#id3.4.2.2"> 二、活载作用下拱圈内力计算</a> <span id="id3.4.2.2"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.17"> [A3-4.17]</a><span id="idA3-4.17"> 在桥梁结构计算中，活载内力计算往往需要先计算截面内力影响线，然后在影响线上进行加载求解。无铰拱是超静定结构，通过弹性中心法将无铰拱简化为静定的、带刚臂的简支曲梁，从而在刚臂端点产生赘余力<i>X</i><sub>1</sub>、<i>X</i><sub>2</sub>和<i>X</i><sub>3</sub>，因此，需先求出赘余力影响线，再利用静力平衡条件和叠加方法求出计算截面的活载内力影响线，最后在内力影响线上布载，算出计算截面最不利内力。为简化计算，活载内力仍由不考虑弹性压缩影响和考虑弹性压缩影响两部分活载内力叠加而成。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.18"> [A3-4.18]</a><span id="idA3-4.18"> 1. 不考虑弹性压缩影响的活载内力</span></p>
+<p style="text-align:justify;font-family:times new roman">（1）赘余力影响线<br>为使积分连续，便于制表，在求活载内力影响线时，采用简支曲梁作为基本结构，如<a href="#image3.4.11">图3-4-11</a>所示，赘余力<i>X</i><sub>2</sub>、<i>X</i><sub>3</sub>作用在刚臂端点，并通过弹性中心。根据《结构力学》和弹性中心的特性，<a href="#image3.4.11">图3-4-11a）</a>中所有副变位均为零。设<a href="#image3.4.11">图3-4-11b）</a>所示内、外力方向及与内力同向之变位均为正值，作用在弹性中心的赘余力，可按下式求解：</p><p>$$ \left.\begin{array}{l}X_1\delta_{11}+\Delta _{\mathrm{1p} }=0,X_1=-\dfrac{\Delta _{\mathrm{1p} }}{\delta_{11}}\\
+X_2\delta_{22}+\Delta _{\mathrm{2p} }=0,X_2=-\dfrac{\Delta _{\mathrm{2p} }}{\delta_{22}}\\
+X_3\delta_{33}+\Delta _{\mathrm{3p} }=0,X_3=-\dfrac{\Delta _{\mathrm{3p} }}{\delta_{33}}\end{array}\right\}
+\tag{3-4-50}$$</p>
+<blockquote>
+<div><p style="text-align:justify;font-family:times new roman">式中，分母部分为弹性中心的常变位值，<i>δ</i><sub>ii</sub>表示<i>i</i>点作用单位荷载在<i>i</i>点产生的位移；分子部分为载变位值，<i>δ</i><sub>ip</sub>表示移动荷载<i>P</i>在<i>i</i>点产生的位移，其中 <i>i</i>=1，2，3。</p>
+
+<body>
+
+<style type="text/css">
+    #image3.4.11{
+       margin-left:50px;
+    }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image3.4.11" src="../_static/fig/3-4-11.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-11  活载内力计算基本结构</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.11'));</script>
+
+</body>
+
+
+<p style="text-align:justify;font-family:times new roman">如暂不考虑轴向力对变位的影响，也不计剪力和曲率对变位的影响，则有</p></div></blockquote>
+<p>$$ \left.\begin{array}{l}\delta_{11}=\int_{\mathrm{s} }\dfrac{\bar{M}_1^2}{EI}ds\\
+\delta_{22}=\int_{\mathrm{s} }\dfrac{\bar{M}_2^2}{EI}ds\\
+\delta_{33}=\int_{\mathrm{s} }\dfrac{\bar{M}_3^2}{EI}ds
+\end{array}\right\} \tag{3-4-51}$$</p>
+<p>$$ \left.\begin{array}{l}\Delta_{\mathrm{1p} }=\int_{\mathrm{s} }\dfrac{\bar{M}_1M_{\mathrm{p} }}{EI}ds\\
+\Delta_{\mathrm{2p} }=\int_{\mathrm{s} }\dfrac{\bar{M}_2M_{\mathrm{p} }}{EI}ds\\
+\Delta_{\mathrm{3p} }=\int_{\mathrm{s} }\dfrac{\bar{M}_3M_{\mathrm{p} }}{EI}ds
+\end{array}\right\} \tag{3-4-52}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>1</mn></msub></math></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">当<i>X</i><sub>1</sub>=1时，在基本结构任意截面上产生的弯矩，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>1</mn></msub><mo>=</mo><mn>1</mn></math>；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>2</mn></msub></math></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">当<i>X</i><sub>2</sub>=1时，在基本结构任意截面上产生的弯矩， <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>2</mn></msub><mo>=</mo><mrow><msub><mi mathvariant="normal">y</mi><mn>1</mn></msub><mo>−</mo><msub><mi mathvariant="normal">y</mi><mn>2</mn></msub></mrow></math>；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>3</mn></msub></math></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">当<i>X</i><sub>3</sub>=1时，在基本结构任意截面上产生的弯矩， <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>3</mn></msub><mo>=</mo><mo>±</mo><mi>x</mi></math>；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>M</i><sub>p</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">单位荷载作用在基本结构上，任意截面所产生的弯矩。</td>
+</tr>
+ </table>
+<p> </p>
+
+<p style="text-align:justify;font-family:times new roman">为简化<i>Δ</i><sub>1p</sub>、<i>Δ</i><sub>2p</sub>、<i>Δ</i><sub>3p</sub>的计算，将距拱顶相对位移为<i>a</i>的单位荷载分解为正对称和反对称两组荷载，如<a href="#image3.4.12">图3-4-12b）、c）</a>所示，并设荷载作用在右半拱[<a href="#image3.4.12">图3-4-12a）</a>]。</p>
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.12{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.12" src="../_static/fig/3-4-12.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-12  将荷载分解为正、反对称</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.12'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">利用结构的对称性，在计算载变位<i>Δ</i><sub>1p</sub>、 <i>Δ</i><sub>2p</sub>时，只需考虑正对称荷载作用的情况（反对称为零）；而计算<i>Δ</i><sub>3p</sub>则只考虑反对称荷载的情况（正对称为零）。</p>
+<p style="text-align:justify;font-family:times new roman">正对称时： </p><p>$$AB段：M_{\mathrm{p} }=\dfrac{1}{2}(l_1-x)$$</p>
+<p>$$BC段：M_{\mathrm{p} }=\dfrac{l_1}{2}(1-a)$$</p>
+<p style="text-align:justify;font-family:times new roman">反对称时： </p><p>$$AB段：M_{\mathrm{p} }=\mp\dfrac{a}{2}(l_1-x)$$</p>
+<p>$$BC段：M_{\mathrm{p} }=\mp\dfrac{x}{2}(1-a)$$</p>
+<p style="text-align:justify;font-family:times new roman">将<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>、</mo><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>2</mn></msub><mo>=</mo><mrow><msub><mi mathvariant="normal">y</mi><mn>1</mn></msub><mo>−</mo><msub><mi mathvariant="normal">y</mi><mi mathvariant="normal">s</mi></msub></mrow><mo>、</mo><msub><mrow><mover><mi>M</mi><mo stretchy="false">¯</mo></mover></mrow><mn>3</mn></msub><mo>=</mo><mo>±</mo><mi>x</mi></math>及<i>M</i><sub>p</sub>带入常变位公式（3-3-47）及载变位公式（3-3-48），可得</p><p>$$\begin{array}{l}\delta_{11}=\dfrac{l}{EI}\int_{0}^{1}\sqrt{1+\eta^2sh^2k\xi}d\xi=\dfrac{l}{EIv_1}\\
+\delta_{22}=\dfrac{l}{EI}\int_{0}^{1}[\dfrac{f}{m-1}(chk\xi-1)-\mathrm{y_s}](\dfrac{f}{m-1}chk\xi)\sqrt{1+\eta^2sh^2k\xi}d\xi=\theta \dfrac{lf^2}{EI}\\
+\delta_{33}=\dfrac{l}{EI}\int_{0}^{1}\xi^2\sqrt{1+\eta^2sh^2k\xi}d\xi=\gamma\dfrac{l^3}{EI}
+\end{array}$$</p>
+<p>$$\hspace{-3cm}{\small\Delta_{\mathrm{1p}}=\dfrac{(1-a)l^2}{4EI}\int_{0}^{a}\xi^2\sqrt{1+\eta^2sh^2k\xi}d\xi+\dfrac{l^2}{4EI}\int_{a}^{1}\xi^2\sqrt{1+\eta^2sh^2k\xi}d\xi}$$</p>
+<p>$$\hspace{-2cm}\begin{align}\Delta _{\mathrm{2p} }=&amp;\dfrac{l^2}{4EI}\{(1-a)\int_0^{a}[\dfrac{f}{m-1}(\mathrm{ch} k\xi-1)-{\mathrm{y_s}}]\sqrt{1+\eta^2{\mathrm{sh}}^2k\xi}d\xi \\
+&amp;+\int_a^{1}[\dfrac{f}{m-1}(\mathrm{ch} k\xi-1)-{\mathrm{y_s}}](1-\xi)\sqrt{1+\eta^2{\mathrm{sh}}^2k\xi}d\xi \}\end{align}$$</p>
+<p>$$\hspace{-1.8cm}{\small\Delta_{\mathrm{3p}}=-\dfrac{(1-a)l^3}{8EI}\int_{0}^{a}\sqrt{1+\eta^2sh^2k\xi}d\xi-\dfrac{l^3a}{8EI}\int_{a}^{1}\xi(1-\xi)\sqrt{1+\eta^2sh^2k\xi}d\xi}$$</p>
+<p style="text-align:justify;font-family:times new roman"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><msub><mi>v</mi><mn>1</mn></msub></mfrac></mstyle><mo>、</mo><mi>θ</mi><mo>、</mo><mi>γ</mi><mo>可由</mo><mi>m</mi><mo>和主拱</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>f</mi><mn>0</mn></msub><msub><mi>L</mi><mn>0</mn></msub></mfrac></mstyle></math>查附录Ⅳ，附表Ⅳ-0-7、5、6。</p>
+
+<p style="text-align:justify;font-family:times new roman">当荷载 <i>P</i>=1作用于不同位置时，可利用上述表达式求得<i>δ</i><sub>ii</sub>和<i>Δ</i><sub>ip</sub>，代入式（3-3-46）分别求出赘余力各点的影响线，如<a href="#image3.4.13">图3-4-13</a>所示。</p>
+
+
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.13{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.13" src="../_static/fig/3-4-13.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-13  赘余力影响线</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.13'));</script>
+
+ </body>
+
+
+<p style="text-align:justify;font-family:times new roman">（2）支点反力和内力影响线<br>有了赘余力影响线后，拱脚截面支点反力以及任意截面的内力影响线，可利用静力平衡条件和叠加方法求得。</p>
+<p style="text-align:justify;font-family:times new roman">①水平推力影响线<br>由<i>Σx</i>=0，得水平推力<i>H</i><sub>1</sub>=<i>X</i><sub>2</sub>，即 <i>H</i><sub>1</sub>的影响线为赘余力<i>X</i><sub>2</sub>的影响线。</p>
+<p style="text-align:justify;font-family:times new roman">②拱脚竖向反力影响线<br>由<i>Σy</i>=0，得竖直反力<i>R</i>=<i>R</i><sub>0</sub><math xmlns="http://www.w3.org/1998/Math/MathML" ><mo>∓</mo></math><i>X</i><sub>3</sub>。其中，<i>R</i><sub>0</sub>为简支梁反力。故竖向反力<i>R</i>的影响线由<i>R</i><sub>0</sub>与赘余力<i>X</i><sub>3</sub>两条影响线叠加而成，如图3-4-13e）所示（左拱脚的竖向反力影响线）。显然，拱脚竖向反力的影响线总面积<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>ω</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></math>。</p>
+<p style="text-align:justify;font-family:times new roman">③任意截面的内力影响线<br>由<a href="#image3.4.13">图3-4-13a）</a>可得任意截面的内力为</p><p>$$  \left.\begin{array}{l}M=M_0-H_1{\mathrm{y}}\pm X_3 x+X_1 \\
+N=V_{\mathrm{b}}\sin \varphi+H_1\cos\varphi\\
+V=\pm H_1\sin \varphi-V_{\mathrm{b}}\cos \varphi\end{array}\right\}\tag{3-4-53}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>M</i><sub>0</sub></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">简支梁弯矩；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>V</i><sub>b</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">作用于截面以左的竖向反力总和，称为梁式剪力，正值表示向上，负值表示向下，当单位荷载在截面以左时，<i>V</i><sub>b</sub>=<i>R</i><sub>左</sub>-1，当在截面以右时，<i>V</i><sub>b</sub>=<i>R</i><sub>左</sub> ；</td>
+</tr>
+<tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>R</i><sub>左</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱的左支承竖向反力。</td>
+</tr>
+ </table>
+<p> </p>
+
+
+<p style="text-align:justify;font-family:times new roman">根据式（3-4-53）可叠加求得拱圈任意截面的内力影响线，其形状如图3-4-14所示。</p>
+<p style="text-align:justify;font-family:times new roman">任意截面<i>i</i>的轴向力<i>N</i><sub>i</sub>和剪力<i>V</i><sub>i</sub>的影响线，因在截面<i>i</i>处有突变，当集中荷载<i>P</i>作用在<i>i</i>截面的左、右两边时，轴向力<i>N</i>和剪力<i>V</i>均有较大的差异，因此，在实际计算时，一般不直接利用影响线，而是先求该截面的水平力<i>H</i><sub>1</sub>和拱脚的竖向反力<i>R</i>，再按下式计算轴向力<i>N</i>和剪力<i>V</i>：</p><p>$$ 轴向力\left\{\begin{array}{l}
+拱顶 ：N=H_1\\
+拱脚：N=H_1\cos \varphi_{\mathrm{j} }+R\sin\varphi_{\mathrm{j}}\\
+其他截面：N\approx H_1\cos\varphi\end{array}\right. \tag{3-4-54a}$$</p>
+<p>$$ 剪力\left\{\begin{array}{l}
+拱顶 ：数值很小，一般不计算\\
+拱脚：N=H_1\sin \varphi_{\mathrm{j} }-R\cos\varphi_{\mathrm{j}}\\
+其他截面：数值很小，一般不计算\end{array}\right. \tag{3-4-54b}$$</p>
+ <body>
+
+ <style type="text/css">
+     #image3.4.14{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.14" src="../_static/fig/3-4-14.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-14  拱的内力影响线</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.14'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">拱桥属空间结构。《公路圬工桥涵设计规范》（JTG D61）规定，拱桥应考虑活载的横向不均匀分布，但实腹式拱桥和拱上建筑为拱式结构的空腹式拱桥或拱上建筑采用墙式墩且活载横桥向布置不超过拱圈以外的拱桥，可考虑活载均匀分布于拱圈全宽。通常，石拱桥取1 m拱宽作为计算单元，双曲拱取一个横波单元宽度来计算，肋拱桥以一条拱肋为计算单元，同时计入荷载横向分布系数。</p>
+<p style="text-align:justify;font-family:times new roman">拱圈是以受压为主的结构，在承载过程中，压力线与拱轴线会产生偏离，导致拱圈截面产生弯矩。为控制受弯截面开裂（或开裂宽度过大）影响拱桥正常使用，应计算拱圈截面最大正（负）弯矩。一般可在弯矩影响线上按最不利情况布载（<a href="#image3.4.15">图3-4-15</a>），求得最大正（负）弯矩，然后求出与这种加载情况相应的<i>H</i><sub>1</sub>和<i>R</i>的数值，以求得与最大正（负）弯矩相对应的轴向力 ，以便对该截面进行验算。</p>
+
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.15{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.15" src="../_static/fig/3-4-15.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-15  求拱脚Mjmax及相应H1的布载方式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.15'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">拱桥属空间结构，现行《公路圬工桥涵设计规范》（JTG D61）规定，拱桥应考虑活载的横向不均匀分布，即用计算荷载横向分布系数的方法将拱桥空间问题转化为平面问题，拱桥具体横向分布系数的求解方法在本章第一节内容中已有阐述，这里就不再赘述。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.19"> [A3-4.19]</a><span id="idA3-4.19"> 2. 活载作用下弹性压缩引起的内力<br>活载弹性压缩与恒载弹性压缩相似，是由活载的轴向力对变位的影响，在弹性中心产生赘余水平力 <i>ΔH</i>。由典型方程得</span></p><p>$$ \Delta H=-\dfrac{\Delta l}{\delta _{22}^{'}}=-\dfrac{\int _{\mathrm{s} }\dfrac{Nds}{EA}\cos \varphi}{\delta _{22}^{'}} \tag{3-4-55}$$</p>
+ <body>
+
+ <style type="text/css">
+     #image3.4.16{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.16" src="../_static/fig/3-4-16.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-16  活载弹性压缩引起的内力计算简图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.16'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">取脱离体如<a href="#image3.4.16">图3-4-16</a>所示，轴力N可表示为：</P><p>$$N=\dfrac{H_1-V\sin\varphi}{\cos \varphi}=\dfrac{H_1}{\cos\varphi}(1-\dfrac{V}{H_1}\sin\varphi)$$</p>
+<p style="text-align:justify;font-family:times new roman">式中的第二项<i>V</i>sin<i>φ</i>/<i>H</i><sub>1</sub>常可近似略去，则得：<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>N</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>H</mi><mn>1</mn></msub><mrow><mi>cos</mi><mo data-mjx-texclass="NONE">⁡</mo><mi>φ</mi></mrow></mfrac></mstyle></math>，代入式（3-4-55）得：</P><p>$$  \Delta H=-\dfrac{H_1 \int_{\mathrm{s}}\dfrac{ds}{EA}}{(1+\mu) \int_{\mathrm{s}}\dfrac{\mathrm{y} ^2ds}{EI}}=-H_1\dfrac{\mu_1}{1+\mu} \tag{3-4-56}$$</p>
+<p style="text-align:justify;font-family:times new roman">式中，<i>μ</i>和<i>μ</i><sub>1</sub>可由附录Ⅳ之附表Ⅳ-0-10和附表Ⅳ-0-8查得。</P>
+<p style="text-align:justify;font-family:times new roman">由弹性压缩引起的内力为</P><p>$$  \left.\begin{array}{l}
+弯矩 ：\Delta M=-\Delta H\mathrm{y} =\dfrac{\mu}{1+\mu}H_1\mathrm{y} \\
+轴向力：\Delta N=\Delta H\cos \varphi=\dfrac{\mu}{1+\mu}H_1\cos \varphi \\
+剪力：\Delta V=\mp \Delta H\sin \varphi=\mp \dfrac{\mu}{1+\mu}H_1\sin \varphi
+\end{array}\right\}\tag{3-4-57}$$</p>
+<p style="text-align:justify;font-family:times new roman">将不考虑弹性压缩的活载内力与考虑弹性压缩产生的内力叠加，即可得活载作用下的总内力。不考虑弹性压缩的活载内力可通过内力影响线加载计算，活载弹性压缩产生的内力可根据<i>μ</i>和<i>μ</i><sub>1</sub> ，由式（3-4-57）直接求出。</P>
+
+
+<p style="text-align:justify;font-family:times new roman"><a href="#id3.4.2.3"> 三、温度变化、混凝土收缩和拱脚变位引起的附加内力计算</a> <span id="id3.4.2.3"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.20"> [A3-4.20]</a><span id="idA3-4.20"> 作为超静定结构的无铰拱，温度变化、混凝土收缩及拱脚变位均会产生附加内力。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.21"> [A3-4.21]</a><span id="idA3-4.21"> 1. 温度变化<br>温度变化对拱桥内力分布影响很大，而温度变化一般按照年平均温差的方式进行计算，即以年平均最高温度高于拱圈合龙温度的数值视为升温温差，年平均最低温度低于拱圈合龙温度的数值视为降温温差。将此温度变化值视之为骤变温差，计算其在超静定拱圈上产生的附加内力（这样计算结果更不利）。温度变化引起的内力计算与弹性压缩计算的概念一样。设温度变化引起跨径方向的变位为 <i>Δl</i><sub>t</sub>，根据变形协调条件，必然在弹性中心产生一个水平赘余推力 <i>H</i><sub>t</sub>，如<a href="#image3.4.17">图3-4-17</a>所示。</span></p>
+
+  <body>
+
+ <style type="text/css">
+     #image3.4.17{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.17" src="../_static/fig/3-4-17.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-17  温差内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.17'));</script>
+
+ </body>
+ <p style="text-align:justify;font-family:times new roman">典型方程为</p><p>$$H_\mathrm{t} =\dfrac{\Delta l_{\mathrm{t} }}{\delta _{22}^{'}}=\dfrac{al(t_2-t_1)}{(1+\mu)\int_{\mathrm{s} }\dfrac{\mathrm{y^2}} {EI}ds}\tag{3-4-58}$$</p>
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+        vertical-align: middle;
+
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+    </style>
+
+<table border="0" style="font-family:times new roman" id="gongshi">
+<tr>
+<td width="70px" align='right'  id="eqzs" >式中：</td>
+<td width="70px" align='right'  id="eqzs" ><i>a</i></td>
+<td width="50px" align='left'   id="eqzs">——</td>
+<td width="750px" align='left'  id="eqzs">材料的线膨胀系数，混凝土或钢筋混凝土为1.0×10<sup>-5</sup>/℃，混凝土预制块砌体为0.9×10<sup>-5</sup>/℃，石砌体为0.8×10<sup>-5</sup>/℃；</td>
+</tr>
+ <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>t</i><sub>1</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">拱合龙时的温度；</td>
+</tr>
+  <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><i>t</i><sub>1</sub></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">当地最高或最低月平均温度；</td>
+</tr>
+  <tr>
+<td  align='left' id="eqzs"> </td>
+<td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mo data-mjx-texclass="OP">∫</mo><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msup><mi mathvariant="normal">y</mi><mn>2</mn></msup></mrow><mrow><mi>E</mi><mi>I</mi></mrow></mfrac></mstyle><mi>d</mi><mi>s</mi></math></td>
+<td  align='left' id="eqzs">——</td>
+<td  align='left'  id="eqzs">可查附录Ⅳ，附表Ⅳ-0-5。</td>
+</tr>
+ </table>
+<p> </p>
+
+<p style="text-align:justify;font-family:times new roman">显然，温度上升时，<i>H</i><sub>t</sub>为正（向内作用）；温度下降时， <i>H</i><sub>t</sub>为负（向外作用）。</p>
+<p style="text-align:justify;font-family:times new roman">由温度变化引起拱中任意截面的附加内力为</p><p>$$\left.\begin{array}{l}
+弯矩:M_{\mathrm{t} }=-H_{\mathrm{t}} \mathrm{y} =-H_{\mathrm{t}}(\mathrm{y_s-y_t} )\\
+轴向力:N_{\mathrm{t} }=H_{\mathrm{t}}\cos\varphi\\
+剪力:V_{\mathrm{t} }=\pm H_{\mathrm{t}}\sin\varphi
+\end{array}\right\}\tag{3-4-59}$$</p>
+<p style="text-align:justify;font-family:times new roman">对于箱形拱桥，温度计算内容尚应包括箱室内外温差效应。当无可靠资料时，箱室内外温差可按10℃计算。箱室内外温差效应计算方法与箱梁桥相似。</p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.22"> [A3-4.22]</a><span id="idA3-4.22"> 2. 混凝土收缩<br>混凝土在硬化过程中的收缩变形作用与混凝土降温相似。通常混凝土收缩的影响可折算为温度的额外降低。根据结构施工方法，混凝土收缩的影响可按建议计算：</span></p>
+<p style="text-align:justify;font-family:times new roman">（1）整体浇筑混凝土，一般地区相当于降低温度20℃，干燥地区为30℃；整体浇筑的钢筋混凝土，相当于降低温度15℃～20℃。</p>
+<p style="text-align:justify;font-family:times new roman">（2）分段浇筑的混凝土或钢筋混凝土，相当于降低温度10℃～15℃。</p>
+<p style="text-align:justify;font-family:times new roman">（3）装配式钢筋混凝土，相当于降低温度5℃～10℃。</p>
+<p style="text-align:justify;font-family:times new roman">计算拱圈的温度变化和混凝土收缩影响时，可根据实际资料考虑混凝土徐变的影响。如缺乏实际资料，计算内力可乘以下列系数：温度变化影响力取0.7；混凝土收缩影响力取0.45。但考虑到目前已完全有能力将混凝土徐变效应在结构分析中计入，故此不建议折减混凝土徐变的影响。因为，这种简化方法可能不利于对混凝土的徐变及其他效应的认识与判断。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.23"> [A3-4.23]</a><span id="idA3-4.23"> 3. 拱脚位移<br>建造在软土地基上的拱桥，墩台常发生水平位移、不均匀沉降或转动，这些变位在超静定拱中均会产生附加内力。</span></p>
+
+<p style="text-align:justify;font-family:times new roman">（1）拱脚相对水平位移引起的内力<br>在<a href="#image3.4.18">图3-4-18</a>中，设左拱脚发生水平位移<i>Δ</i><sub>HA</sub>，右拱脚发生水平位移<i>Δ</i><sub>HB</sub>，两拱脚相对水平位移<i>Δ</i><sub>H</sub>为</p><p>$$\Delta_{\mathrm{H}}=\Delta_{\mathrm{HB}}-\Delta_{\mathrm{HA}}$$</p>
+<p style="text-align:justify;font-family:times new roman"> 其中，<i>Δ</i><sub>HA</sub>、<i>Δ</i><sub>HB</sub>的正负规定为：自原位置右移为正，左移为负。</P>
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.18{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.18" src="../_static/fig/3-4-18.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-18  拱脚水平位移引起内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.18'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman"> 在弹性中心处也将产生<i>Δ</i><sub>H</sub>的相对水平位移，但相对转角和垂直位移均为零。由变形协调条件可得弹性中心处的赘余力<i>X</i><sub>2</sub>为</P><p>$$ X_2=-\dfrac{\Delta _{\mathrm{H} }}{\delta _{22}}=-\dfrac{\Delta _{\mathrm{H}}}{\int_{\mathrm{s}\dfrac{\mathrm{y^2}  ds}{EI} }}\tag{3-4-60}$$</p>
+<p style="text-align:justify;font-family:times new roman"> 拱中任意截面的内力为</P><p>$$\left.\begin{array}{l}
+M=- X_2 (\mathrm{y_s -y_1})=\dfrac{\Delta_{\mathrm{H}}}{\delta_{22}}(\mathrm{y_s -y_1})\\
+N=X_2 \cos \varphi=-\dfrac{\Delta_{\mathrm{H}}}{\delta_{22}}\cos\varphi \\
+V= \mp X_2 \sin\varphi=\mp\dfrac{\Delta_{\mathrm{H}}}{\delta_{22}}\sin\varphi
+\end{array}\right\}\tag{3-4-61}$$</p>
+<p style="text-align:justify;font-family:times new roman">（2）拱脚相对垂直位移引起的内力<br>在<a href="#image3.4.19">图3-4-19</a>中，设左拱脚发生垂直位移<i>Δ</i><sub>VA</sub>，右拱脚发生垂直位移<i>Δ</i><sub>VB</sub>，拱脚相对垂直位移<i>Δ</i><sub>V</sub>为</p><p>$$\Delta_{\mathrm{V}}=\Delta_{\mathrm{VB}}-\Delta_{\mathrm{VA}}\tag{3-4-62}$$</p>
+<p style="text-align:justify;font-family:times new roman"> 其中，<i>Δ</i><sub>VA</sub>、<i>Δ</i><sub>VB</sub>的正负规定为：自原位置向下位移为正，上移为负。</p>
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.19{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.19" src="../_static/fig/3-4-19.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-19  拱脚垂直位移引起内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.19'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">在弹性中心处也将产生<i>Δ</i><sub>V</sub>的相对垂直位移，但相对转角和水平位移均为零。由变形协调条件可得弹性中心处的赘余力<i>X</i><sub>3</sub>为</p><p>$$X_3=-\dfrac{\Delta _{\mathrm{V} }}{\delta_{33}}=\dfrac{\Delta _{\mathrm{V}}}{\int_{\mathrm{s} }\dfrac{x^2 ds}{EI}}\tag{3-4-63}$$</p>
+<p style="text-align:justify;font-family:times new roman">式中：<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mo data-mjx-texclass="OP">∫</mo><mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></msub><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>s</mi></mrow><mrow><mi>E</mi><mi>I</mi></mrow></mfrac></mstyle></math>——可查附录Ⅳ，附表Ⅳ-0-6。</p>
+<p style="text-align:justify;font-family:times new roman">拱中任意截面的内力为</p><p>$$\left.\begin{array}{l}
+M=\pm X_3 x=\mp \dfrac{\Delta_{\mathrm{V}}}{\delta_{33}}x\\
+N=\mp X_3 \sin \varphi=\pm \dfrac{\Delta_{\mathrm{V}}}{\delta_{33}}\sin\varphi \\
+V= X_3 \cos\varphi=-\dfrac{\Delta_{\mathrm{V}}}{\delta_{33}}\cos\varphi
+\end{array}\right\}\tag{3-4-64}$$</p>
+<p style="text-align:justify;font-family:times new roman">（3）拱脚相对转角位移引起的内力</p>
+
+<p style="text-align:justify;font-family:times new roman"> 在<a href="#image3.4.20">图3-4-20</a>中，拱脚<i>B</i>发生转角<i>θ</i><sub>B</sub>（<i>θ</i><sub>B</sub>顺时针为正），此时，在弹性中心处除了产生相同的转角<i>θ</i><sub>B</sub>外，还引起相对的水平位移<i>Δ</i><sub>H</sub>和垂直位移<i>Δ</i><sub>V</sub> ，由变形协调条件可得弹性中心处的3个赘余力<i>X</i><sub>1</sub>、<i>X</i><sub>2</sub> 、<i>X</i><sub>3</sub> 为</P><p>$$\left.\begin{array}{l}
+X_1=\dfrac{\theta _\mathrm{B} }{\delta _{11}}\\
+X_2=\dfrac{\Delta _\mathrm{H} }{\delta _{22}}\\
+X_3=\dfrac{\Delta _\mathrm{V} }{\delta _{33}}
+\end{array}\right\}\tag{3-4-65}$$</p>
+<p style="text-align:justify;font-family:times new roman">式中，<i>θ</i><sub>B</sub>是已知的，而水平位移<i>Δ</i><sub>H</sub>和垂直位移<i>Δ</i><sub>V</sub>可由图<a href="#image3.4.20">图3-4-20b）</a>几何关系确定，即 </P><p>$$\Delta =\theta_{\mathrm{B} }\dfrac{l}{2}\cos a^{'},\tan a^{'}=\dfrac{(f-\mathrm{y_s)} }{l/2}$$</p>
+<p>$$\Delta _{\mathrm{H} }=\Delta\sin a^{'}=\theta_{\mathrm{B} }(f-\mathrm{y_s} ),\Delta _{\mathrm{V} }=\Delta\cos a^{'}=\theta_{\mathrm{B} }l/2$$</p>
+<p style="text-align:justify;font-family:times new roman"> 将<i>Δ</i><sub>H</sub>、<i>Δ</i><sub>V</sub>代入式（3-4-65），得</P><p>$$\left.\begin{array}{l}
+X_1=\dfrac{\theta _\mathrm{B} }{\delta _{11}}\\
+X_2=\dfrac{\theta _\mathrm{B}(f-\mathrm{y_s} ) }{\int_{\mathrm{s} }\dfrac{\mathrm{y} ^2ds}{EI}}\\
+X_3=\dfrac{\theta _\mathrm{B} l}{2\int_{\mathrm{s} }\dfrac{\mathrm{x} ^2 ds}{EI}}
+\end{array}\right\}\tag{3-4-66}$$</p>
+ <body>
+
+ <style type="text/css">
+     #image3.4.20{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.20" src="../_static/fig/3-4-20.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-20  拱脚转角位移引起内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.20'));</script>
+
+ </body>
+
+
+<p style="text-align:justify;font-family:times new roman">拱脚相对转角位移引起任意截面的内力为（图3-4-21）：</p><p>$$\left.\begin{array}{l}
+M=X_1-X_2(\mathrm{y_2-y_1} )\pm X_3x\\
+N=\mp X_3 \sin\varphi +X_2\cos \varphi\\
+V=X_3\cos \varphi\pm X_2\sin \varphi
+\end{array}\right\}\tag{3-4-67}$$</p>
+ <body>
+
+ <style type="text/css">
+     #image3.4.21{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.21" src="../_static/fig/3-4-21.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-21  拱脚相对角变位引起各截面的内力</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.21'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman">上述公式是假定右半拱顺时针转动推导出来的，若反时针转动<i>θ</i><sub>B</sub>，则式（3-4-66）中的<i>θ</i><sub>B</sub>以负值代入。如左拱脚顺时针转动<i>θ</i><sub>A</sub>，则式（3-4-66）应改为：</p><p>$$\left.\begin{array}{l}
+X_1=\dfrac{\theta _\mathrm{A} }{\delta _{11}}\\
+X_2=\dfrac{\theta _\mathrm{A}(f-\mathrm{y_s} ) }{\int_{\mathrm{s} }\dfrac{\mathrm{y} ^2ds}{EI}}\\
+X_3=\dfrac{\theta _\mathrm{A} l}{2\int_{\mathrm{s} }\dfrac{\mathrm{x} ^2ds}{EI}}
+\end{array}\right\}\tag{3-4-68}$$</p>
+<p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="15.1.html" class="btn btn-neutral float-left" title="第一节 拱桥的特点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="15.3.html" class="btn btn-neutral float-right" title="第三节 拱圈内力调整" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

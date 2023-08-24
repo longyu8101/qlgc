@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第三节 索塔构造与设计 &mdash; 桥梁工程 第2版</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="第四节 主梁构造与设计" href="4.2.4.html" />
+    <link rel="prev" title="第二节 斜拉索构造与设计" href="4.2.2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> 桥梁工程<br /><br />第2版
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qy.html">第二版前言</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第一篇 总论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02.html">第二章  桥梁总体规划和设计要点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04.html">第四章  桥梁通用构造</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10.html">第六章  连续体系梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../15.html">第四章  简单体系拱桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../4-1.html">第一章  概论</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../4-2.html">第二章 斜拉桥构造与设计</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="4.2.1.html">第一节  总体设计</a></li>
+<li class="toctree-l2"><a class="reference internal" href="4.2.2.html">第二节  斜拉索构造与设计</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">第三节  索塔构造与设计</a></li>
+<li class="toctree-l2"><a class="reference internal" href="4.2.4.html">第四节  主梁构造与设计</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../5-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-2.html">第二章 悬索桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-2.html">第二章  桥墩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-z.html">总结</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">桥梁工程<br /><br />第2版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../4-2.html">第二章 斜拉桥构造与设计</a></li>
+      <li class="breadcrumb-item active">第三节  索塔构造与设计</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/4-2/4.2.3.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>第三节  索塔构造与设计<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h3 id="test111">第三节  索塔构造与设计</h3>
+<p style="text-align:justify"><a href="#idA4-2.65"> [A4-2.65]</a><span id="idA4-2.65"></span>索塔通过斜拉索与主梁相连，索塔自身承担主梁的恒载与活载，同时索塔与斜拉索及主梁共同形成高次超静定结构，因此还承担温度变化、支座沉降、混凝士收缩和徐变等因素引起的次内力。此外，作用在主梁的风力、地震力也通过索塔传至地基。斜拉索传递到塔柱的力主要是垂直力和水平分力，通常在自重作用下塔柱两侧水平力基本平衡，塔柱主要承担轴向压力，但是在活载和次内力作用下塔柱将承担不平衡水平力，从而处于偏心受压状态。因此，塔柱必须具有足够的强度和刚度来保证体系的稳定，同时塔柱的刚度以及与主梁连接形式又影响体系的受力性能。</p>
+<p style="text-align:justify"><a href="#idA4-2.66"> [A4-2.66]</a><span id="idA4-2.66"></span>索塔设计包括索塔造型设计、索塔构造设计、索塔锚固点设计等。索塔的顶部通常有一些附属建筑，如观光厅等旅游设施、避雷针、航空与航道用的标志灯等，设计时也应予考虑。在设计中根据不同需要，索塔可布置为独塔、双塔或多塔形式，可采用混凝土索塔、钢索塔或钢—混凝土组合索塔。</p>
+
+<p><a href="#id4.2.3.1">一、索塔造型</a> <span id="id4.2.3.1"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.67"> [A4-2.67]</a><span id="idA4-2.67"></span>索塔造型形式较多，分为顺桥向与横桥向不同形式。不仅与拉索索面数有关，还与结构体系、斜拉桥跨径、桥面宽度、索塔高度、塔底支承形式等有关，同时还应考虑美观。</p>
+
+<p><a href="#id4.2.3.1.1"> 1. 顺桥向结构形式</a> <span id="id4.2.3.1.1"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.68"> [A4-2.68]</a><span id="idA4-2.68"></span>索塔顺桥向造型和相应的受力条件必须同时满足足够的纵向稳定性和在运营条件下发挥正常功能的要求。索塔顺桥向形式选择与结构体系、索塔高度、塔底支承形式等有关，常用的有单柱式、A形（或倒V形）及倒Y形等，如<a href="#image4218">图4-2-18</a>所示。单柱式索塔造型简单，一般设计成竖直式，也可根据需要设计成倾斜式（如无背索斜拉桥的索塔）；A形、倒V形、倒Y形在顺桥向索塔刚度大，有利于抵抗索塔两侧拉索的不平衡拉力，能承受较大的顺桥向弯矩，并有更良好的抗震能力，但由于施工较复杂，这类索塔采用不多，主要用于多塔斜拉桥。</p>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+
+<div style="text-align:center;"><img id="image4218" src="../_static/fig/4-2-18.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）单柱式；b）倒V形；c）倒Y形<br>图4-2-18  索塔顺桥向结构形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4218'));</script>
+
+<p><a href="#id4.2.3.1.2">2. 横桥向结构形式</a> <span id="id4.2.3.1.2"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.69"> [A4-2.69]</a><span id="idA4-2.69"></span>索塔的横桥向形式选择与斜拉索索面数、斜拉桥结构体系、桥面宽度、索塔高度、塔底支承形式等有关。</p>
+
+<p style="text-align:justify" id="aaa"><b>（1）单索面</b></p>
+<p style="text-align:justify"><a href="#idA4-2.70"> [A4-2.70]</a><span id="idA4-2.70"></span>单索面斜拉桥索塔横桥向结构形式，通常可设计成单柱式、倒V形和倒Y形，如<a href="#image4219">图4-2-19</a>所示。单柱式通常用于主梁抗扭刚度较大的单索面斜拉桥，塔、梁固结体系或刚构体系斜拉桥。倒V形和倒Y形索塔的特点是结构横向刚度大，常用于抗风、抗震要求较高的大跨径斜拉桥。</p>
+
+<div style="text-align:center;"><img id="image4219" src="../_static/fig/4-2-19.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）单柱式；b）倒V形；c）倒Y形<br>图4-2-19  单索面索塔横桥向结构形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4219'));</script>
+
+<p style="text-align:justify" id="aaa"><b>（2）双索面</b></p>
+<p style="text-align:justify"><a href="#idA4-2.71"> [A4-2.71]</a><span id="idA4-2.71"></span>双索面斜拉桥索塔横桥向结构形式，通常可设计成双柱式、门形、H形（斜腿H形）、倒V形和倒Y形，如<a href="#image4220">图4-2-20</a>所示。门形和H形索塔抵抗横向水平荷载的能力较强，横梁起到提高横向刚度的作用，适用于桥面宽度不大的双索面斜拉桥；斜腿H形的塔柱一般在折点处设置横梁，横梁除承担自重弯矩外还将承担水平压力或拉力，用于塔高较高、桥面较宽的平行双索面斜拉桥；倒V形和倒Y形常用于抗风、抗震要求较高的大跨径非平行双索面斜拉桥。</p>
+
+<div style="text-align:center;"><img id="image4220" src="../_static/fig/4-2-20.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）双柱式；b）门式；c）H形；d）倒V形；e）倒Y形<br>图4-2-20  双索面索塔横桥向结构形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4220'));</script>
+
+<p style="text-align:justify"><a href="#idA4-2.72"> [A4-2.72]</a><span id="idA4-2.72"></span><b>（3）</b>在梁体高出塔基较多时，斜拉桥索塔所采用的横桥向形式可设计成<a href="#image4221">图4-2-21</a>的形式。为了减小基础的横向宽度，可以在桥面以下将两墩柱靠拢形成宝石形[<a href="#image4221">图4-2-21c）</a>]。采用半漂浮体系主梁时，主梁一部分重量支承在下横梁上。</p>
+
+<div style="text-align:center;"><img id="image4221" src="../_static/fig/4-2-21.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）单柱式；b）A形；c）宝石形；d）门形；e）H形<br>图4-2-21  高出塔基较多的索塔横桥向结构形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4221'));</script>
+
+<p><a href="#id4.2.3.2">二、索塔构造</a> <span id="id4.2.3.2"></span></p>
+<p><a href="#id4.2.3.2.1"> 1. 索塔高度</a> <span id="id4.2.3.2.1"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.73"> [A4-2.73]</a><span id="idA4-2.73"></span>索塔高度H是指从主梁与索塔交界处以上的有效高度，与斜拉索的倾角有关。索塔的有效高度越高，斜拉索的倾角越大，索力垂直分力对主梁的弹性支承效果也越大，但索塔与斜拉索的长度也要增加，因此，索塔的适宜高度H要通过技术经济比较来决定。根据已有统计资料，最外侧斜拉索的倾角，无论是双塔三跨式或独塔两跨式斜拉桥，宜控制在25°～45°左右，竖琴形布置较多取26°～30°，放射形或扇形布置，倾角在21°～30°范围内，以25°最为普遍。</p>
+<p style="text-align:justify"><a href="#idA4-2.74"> [A4-2.74]</a><span id="idA4-2.74"></span>索塔高度H的确定，应根据索塔形状、拉索布置、主梁断面形式，从结构分析、施工方法、降低材料用量及造价、结合景观要求等综合考虑。双塔、多塔斜拉桥桥面以上索塔的高度H与主跨跨径<i>L</i><sub>2</sub>之比H/<i>L</i><sub>2</sub>宜为1/4〜1/7；独塔斜拉桥塔高通过外索控制，H/<i>L</i><sub>2</sub>宜为1/2.7〜1/4.7，外索水平倾角不宜小于22°，如<a href="#image4222">图4-2-22</a>所示。</p>
+<p style="text-align:justify"><a href="#idA4-2.75"> [A4-2.75]</a><span id="idA4-2.75"></span>景观要求是决定塔高的另一主要因素，一般在城市或宽阔的水面上较高的塔高可以使全桥显得更加雄伟，相比之下我国斜拉索塔高的取值比国外略高。</p>
+
+<div style="text-align:center;"><img id="image4222" src="../_static/fig/4-2-22.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）双塔三跨式；b）独塔双跨式<br>图4-2-22  索塔在桥面上的高度</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4222'));</script>
+
+<p style="text-align:justify"><a href="#idA4-2.76"> [A4-2.76]</a><span id="idA4-2.76"></span>对于部分斜拉桥，塔高与跨径之比在1/7. 4～1/14之间，多数在1/8～1/12之间。</p>
+
+<p><a href="#id4.2.3.2.2"> 2. 索塔截面形式</a> <span id="id4.2.3.2.2"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.77"> [A4-2.77]</a><span id="idA4-2.77"></span>组成索塔的塔柱及横梁的截面形状和截面尺寸应根据结构强度、刚度、稳定性要求，并结合拉索在索塔上的锚固构造要求和桥梁美学要求来确定。索塔可采用不同的材料建造，有混凝土索塔、钢索塔或钢—混组合索塔。混凝土索塔塔柱可采用实心或空心截面，截面形式有矩形、工字形或箱形，沿塔高又可采用等截面或变截面布置。塔柱截面基本形状采用矩形，纵桥向（桥轴方向）采用长边L，横桥向（塔轴方向）采用短边B，如<a href="#image4223">图4-2-23</a>所示。</p>
+<p style="text-align:justify"><a href="#idA4-2.78"> [A4-2.78]</a><span id="idA4-2.78"></span>采用实体塔柱时，斜拉索在塔柱中作交错锚固，因此，塔柱上部的斜拉索锚固区可在塔轴线两侧布置斜拉索锚头的部位各挖一槽口，使截面成为[<a href="#image4223">图4-2-23b）</a>]所示的H形。实体塔柱一般适用于中、小跨度的斜拉桥，小跨度时可采用等截面，中等跨度时可采用变截面。一般情况下仅变化长边尺寸L，而将短边尺寸B维持等值。</p>
+<p style="text-align:justify"><a href="#idA4-2.79"> [A4-2.79]</a><span id="idA4-2.79"></span>采用空心塔柱时，斜拉索在塔柱的箱室中锚固，故一般在塔轴线的两侧可以不挖槽口，而是改在箱室内壁增设锚固斜索用的锯齿形凸块（也称锚固齿块），为了改善外观，常在箱形柱体外面的四周增设一些线条。空心箱形塔柱一般用于较大跨度的斜拉桥，故一般采用变截面，并且较多的是只变化长边尺寸L，如[<a href="#image4223">图4-2-23c）</a>]所示。</p>
+<p style="text-align:justify"><a href="#idA4-2.80"> [A4-2.80]</a><span id="idA4-2.80"></span>为了增加线条以改善外观，且有利于抗风，塔柱矩形截面的四个角应设计成倒角或圆角[<a href="#image4223">图4-2-23d）</a>]。具有两根塔柱时，每根在横桥向可做成非矩形的五角形、六角形或八角形截面，如[<a href="#image4223">图4-2-23e）</a>]所示。</p>
+<p style="text-align:justify"><a href="#idA4-2.81"> [A4-2.81]</a><span id="idA4-2.81"></span>塔柱之间的横梁以及塔柱之间的其他连接构件，截面形式由塔柱截面形式决定，一般采用矩形、T形、工字形等实体截面，受力较大时采用矩形空心截面。</p>
+<p style="text-align:justify"><a href="#idA4-2.82"> [A4-2.82]</a><span id="idA4-2.82"></span><a href="#B4.2.6">表 4-2-6</a>列出了国内外已建成的混凝土斜拉桥索塔塔柱截面资料，供参考。</p>
+
+<div style="text-align:center;"><img id="image4223" src="../_static/fig/4-2-23.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）矩形；b）工字型；c）箱型；d）荆州长江大索塔柱截面；e）南京长江二索塔柱截面<br>图4-2-23  混凝土索塔截面构造示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4223'));</script>
+
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+</style>
+
+<table id="biaoge" style="font-family:times new roman">
+<caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.6">表4-2-6 国内外混凝土斜拉桥索塔截面资料</b></caption>
+       <tr>
+       <td width="20px" align="center" id="bgcz" rowspan="2">索面</td>
+       <td width="130px" align="center" id="bgcz" rowspan="2">桥名</td>
+   <td width="80px" align="center" id="bgcz" rowspan="2">主跨跨径（m）</td>
+   <td width="100px" align="center" id="bgcz" rowspan="2">索塔形式（桥面以上）</td>
+       <td width="50px" align="center" id="bgcz" rowspan="2">索塔截面形式</td>
+   <td width="50px" align="center" id="bgcz" rowspan="2">索塔高度H（m）</td>
+   <td width="100px" align="center" id="bgcz" colspan="2">截面尺寸（m）</td>
+       <td width="100px" align="center" id="bgcz" colspan="2">壁厚（m）</td>
+   <td width="70px" align="center" id="bgcz" rowspan="2">高跨比H/<i>L</i><sub>max</sub></td>
+       </tr>
+   <tr>
+       <td width="50px" align="center" id="bgcz">L</td>
+       <td width="50px" align="center" id="bgcz">B</td>
+   <td width="50px" align="center" id="bgcz"><i>δ</i><sub>1</sub></td>
+   <td width="50px" align="center" id="bgcz"><i>δ</i><sub>2</sub></td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz" rowspan="9">双索面</td>
+       <td align="center" id="bgcz">荆州长江大桥</td>
+       <td align="center" id="bgcz">500</td>
+       <td align="center" id="bgcz">斜腿H形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">150.2</td>
+       <td align="center" id="bgcz">7.0</td>
+       <td align="center" id="bgcz">4.0</td>
+       <td align="center" id="bgcz">80</td>
+       <td align="center" id="bgcz">120</td>
+       <td align="center" id="bgcz">0.30</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">上海南浦大桥</td>
+       <td align="center" id="bgcz">423</td>
+       <td align="center" id="bgcz">斜腿H形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">150</td>
+       <td align="center" id="bgcz">8~10</td>
+       <td align="center" id="bgcz">4.0</td>
+       <td align="center" id="bgcz">70</td>
+       <td align="center" id="bgcz">70</td>
+       <td align="center" id="bgcz">0.35</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">武汉长江公路大桥</td>
+       <td align="center" id="bgcz">400</td>
+       <td align="center" id="bgcz">斜腿H形</td>
+       <td align="center" id="bgcz">H形</td>
+       <td align="center" id="bgcz">94</td>
+       <td align="center" id="bgcz">6～7</td>
+       <td align="center" id="bgcz">4.0</td>
+       <td align="center" id="bgcz">80～100</td>
+       <td align="center" id="bgcz">100～150</td>
+       <td align="center" id="bgcz">0.24</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">鄂黄长江大桥</td>
+       <td align="center" id="bgcz">480</td>
+       <td align="center" id="bgcz">斜腿梯形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">172.3</td>
+       <td align="center" id="bgcz">7.0</td>
+       <td align="center" id="bgcz">4.8</td>
+       <td align="center" id="bgcz">100<br>100</td>
+       <td align="center" id="bgcz">150<br>100</td>
+       <td align="center" id="bgcz">0.36</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">天津永和桥</td>
+       <td align="center" id="bgcz">260</td>
+       <td align="center" id="bgcz">斜腿梯形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">55.6</td>
+       <td align="center" id="bgcz">3.0</td>
+       <td align="center" id="bgcz">3.0</td>
+       <td align="center" id="bgcz">60</td>
+       <td align="center" id="bgcz">60</td>
+       <td align="center" id="bgcz">0.21</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">番禺大桥</td>
+       <td align="center" id="bgcz">380</td>
+       <td align="center" id="bgcz">倒Y形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">140.3</td>
+       <td align="center" id="bgcz">7.0</td>
+       <td align="center" id="bgcz">7.0～7.4</td>
+       <td align="center" id="bgcz">70～80</td>
+       <td align="center" id="bgcz">100～150</td>
+       <td align="center" id="bgcz">0.37</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">海口世纪大桥</td>
+       <td align="center" id="bgcz">340</td>
+       <td align="center" id="bgcz">倒V形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">106.9</td>
+       <td align="center" id="bgcz">7.0</td>
+       <td align="center" id="bgcz">4.0</td>
+       <td align="center" id="bgcz">70</td>
+       <td align="center" id="bgcz">70</td>
+       <td align="center" id="bgcz">0.31</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">美国P-K桥</td>
+       <td align="center" id="bgcz">299</td>
+       <td align="center" id="bgcz">门形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">69</td>
+       <td align="center" id="bgcz">3.35</td>
+       <td align="center" id="bgcz">3.05～4.57</td>
+       <td align="center" id="bgcz">41</td>
+       <td align="center" id="bgcz">81</td>
+       <td align="center" id="bgcz">0.23</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">东营黄河桥</td>
+       <td align="center" id="bgcz">288</td>
+       <td align="center" id="bgcz">门形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">69.7</td>
+       <td align="center" id="bgcz">3.4</td>
+       <td align="center" id="bgcz">2.8</td>
+       <td align="center" id="bgcz">45</td>
+       <td align="center" id="bgcz">160</td>
+       <td align="center" id="bgcz">0.24</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz" rowspan="3">单索面</td>
+       <td align="center" id="bgcz">法国伯劳东纳桥</td>
+       <td align="center" id="bgcz">320</td>
+       <td align="center" id="bgcz">单柱形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">70.5</td>
+       <td align="center" id="bgcz">4.8（最大）</td>
+       <td align="center" id="bgcz">2.6</td>
+       <td align="center" id="bgcz">40</td>
+       <td align="center" id="bgcz">123</td>
+       <td align="center" id="bgcz">0.22</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">重庆石门大桥</td>
+       <td align="center" id="bgcz">230</td>
+       <td align="center" id="bgcz">单柱形</td>
+       <td align="center" id="bgcz">箱形</td>
+       <td align="center" id="bgcz">113.0</td>
+       <td align="center" id="bgcz">9.5</td>
+       <td align="center" id="bgcz">4～4.5</td>
+       <td align="center" id="bgcz">—</td>
+       <td align="center" id="bgcz">—</td>
+       <td align="center" id="bgcz">0.49</td>
+       </tr>
+   <tr>
+       <td align="center" id="bgcz">长沙湘江北桥</td>
+       <td align="center" id="bgcz">210</td>
+       <td align="center" id="bgcz">倒Y形</td>
+       <td align="center" id="bgcz">H形</td>
+       <td align="center" id="bgcz">53.7</td>
+       <td align="center" id="bgcz">2.6</td>
+       <td align="center" id="bgcz">3.5</td>
+       <td align="center" id="bgcz">60</td>
+       <td align="center" id="bgcz">270</td>
+       <td align="center" id="bgcz">0.26</td>
+       </tr>
+</table>
+<p></p>
+
+<p><a href="#id4.2.3.3">三、索塔锚固构造</a> <span id="id4.2.3.3"></span></p>
+<p><a href="#id4.2.3.3.1">1. 常规斜拉桥</a> <span id="id4.2.3.3.1"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.83"> [A4-2.83]</a><span id="idA4-2.83"></span>斜拉索与混凝土索塔锚固的主要形式有：侧壁锚固、钢锚梁锚固、交错锚固、钢锚箱锚固等，如<a href="#image4224">图4-2-24</a>所示。</p>
+
+<p style="text-align:justify;" id="aaa">（1）交错锚固，一般用于实心断面塔柱，应在塔柱中埋设钢管、设置锚垫板，但不需要在混凝土塔壁上配置预应力钢筋。如<a href="#image4224">图4-2-24a）</a>所示。</p>
+<p style="text-align:justify;" id="aaa">（2）侧壁锚固，一般用于空心断面塔柱，要在混凝土塔壁上配置环向预应力钢筋，防止混凝土拉裂。如<a href="#image4224">图4-2-24b）</a>所示。</p>
+<p style="text-align:justify;" id="aaa">（3）钢锚梁锚固，要在混凝土塔柱壁板内侧设置牛腿，放置钢锚梁。如<a href="#image4224">图4-2-24c）</a>所示。</p>
+<p style="text-align:justify;">（4）钢锚箱锚固，斜拉索锚固在钢箱上，钢箱间焊接，并用剪力钉与混凝土塔柱连成整体，实际上是钢一混凝土组合塔。如<a href="#image4224">图4-2-24d）</a>所示。</p>
+
+<div style="text-align:center;"><img id="image4224" src="../_static/fig/4-2-24.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）交错锚固（实心截面）；b）侧壁锚固（箱形截面）；c）钢锚梁锚固；d）钢锚箱锚固<br>图4-2-24  混凝土索塔斜拉索锚固形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4224'));</script>
+
+<p><a href="#id4.2.3.3.2">2. 部分斜拉桥</a> <span id="id4.2.3.3.2"></span></p>
+<p style="text-align:justify"><a href="#idA4-2.84"> [A4-2.84]</a><span id="idA4-2.84"></span>部分斜拉桥采用鞍孔式索塔锚固区结构形式，如<a href="#image4225">图4-2-25</a>所示。由于部分斜拉桥索塔较矮，为了最大限度地利用塔高使拉索水平倾角变大，拉索通过塔顶的位置尽可能密集地布置在塔柱上部区段；同时，由于部分斜拉桥拉索倾角一般较小，使得拉索连续通过索塔时可以采用较大的弯曲半径。因此，索塔上一般不设置锚固端，而是在混凝土塔柱上设置鞍孔，使斜拉索连续穿过索塔。</p>
+
+<div style="text-align:center;"><img id="image4225" src="../_static/fig/4-2-25.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图4-2-25  部分斜拉桥索塔鞍孔构造示意</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image4225'));</script>
+
+<p style="text-align:justify"><a href="#idA4-2.85"> [A4-2.85]</a><span id="idA4-2.85"></span>部分斜拉桥索塔一般采用混凝土实心截面，塔柱内埋设钢管构成鞍孔。鞍孔构造简单，占用空间较小，弯曲形状相似，因而可以将塔上索距设置的很小，最大限度地提高拉索使用效率。</p></section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="4.2.2.html" class="btn btn-neutral float-left" title="第二节 斜拉索构造与设计" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="4.2.4.html" class="btn btn-neutral float-right" title="第四节 主梁构造与设计" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

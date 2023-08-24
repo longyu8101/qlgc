@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box628{
+                width: 700px;
+                height: 250px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box62151{
+                width: 340px;
+                height: 200px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box62152{
+                width: 340px;
+                height: 200px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title628{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:210px;
+                margin-left:38%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box628">
+           <p class="box62151" style="text-align:center;font-family:times new roman"><img id="image6213a" src="./_static/fig/6-2-13a.png" alt="Picture">a）</p>
+           <p class="box62152" style="text-align:center;font-family:times new roman"><img id="image6213b" src="./_static/fig/6-2-13b.png" alt="Picture">b）</p>
+           <p id="title628" style="font-family:times new roman">图6-2-13  门式框架墩示例</p>
+            </div>
+         </div>
+         <div>
+            <div class="box628">
+           <p class="box62151" style="text-align:center;font-family:times new roman"><img id="image6214a" src="./_static/fig/6-2-14a.png" alt="Picture">a）</p>
+           <p class="box62152" style="text-align:center;font-family:times new roman"><img id="image6214b" src="./_static/fig/6-2-14b.png" alt="Picture">b）</p>
+           <p id="title628" style="font-family:times new roman">图6-2-14 大悬臂框架墩示例</p>
+            </div>
+         </div>
+         <div>
+            <div class="box628">
+           <p class="box62151" style="text-align:center;font-family:times new roman"><img id="image6215a" src="./_static/fig/6-2-15a.png" alt="Picture">a）</p>
+           <p class="box62152" style="text-align:center;font-family:times new roman"><img id="image6215b" src="./_static/fig/6-2-15b.png" alt="Picture">b）</p>
+           <p id="title628" style="font-family:times new roman">图6-2-15  异形框架墩示例</p>
+            </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6213a'));
+             var viewer = new Viewer(document.getElementById('image6213b'));
+             var viewer = new Viewer(document.getElementById('image6214a'));
+             var viewer = new Viewer(document.getElementById('image6214b'));
+             var viewer = new Viewer(document.getElementById('image6215a'));
+             var viewer = new Viewer(document.getElementById('image6215b'));
+         </script>
+     </body>
+</html>

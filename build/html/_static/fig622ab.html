@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box622{
+                width: 700px;
+                height: 260px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box1{
+                width: 310px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box2{
+                width: 380px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title622{
+                height:150px;
+                width:100%;
+                position: absolute;
+                margin-top:220px;
+                margin-left:40%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box622">
+           <p class="box1" style="text-align:center;font-family:times new roman"><img id="image622a" src="./_static/fig/6-2-2a.png" alt="Picture">a）奥地利维也纳普拉特高架桥(X形、v形)</p>
+           <p class="box2" style="text-align:center;font-family:times new roman"><img id="image622b" src="./_static/fig/6-2-2b.png" alt="Picture">b）澳大利亚芒特亨瑞桥（v形）</p>
+           <p id="title622" style="font-family:times new roman">图6-2-2  桥墩造型示例</p>
+            </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image622a'));
+             var viewer = new Viewer(document.getElementById('image622b'));
+         </script>
+     </body>
+</html>

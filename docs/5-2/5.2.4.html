@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第四节 桥塔设计 &mdash; 桥梁工程 第2版</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="第五节 锚碇设计" href="5.2.5.html" />
+    <link rel="prev" title="第三节 加劲梁设计" href="5.2.3.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> 桥梁工程<br /><br />第2版
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qy.html">第二版前言</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第一篇 总论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02.html">第二章  桥梁总体规划和设计要点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04.html">第四章  桥梁通用构造</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10.html">第六章  连续体系梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../15.html">第四章  简单体系拱桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../4-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-2.html">第二章 斜拉桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../5-1.html">第一章  概论</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../5-2.html">第二章 悬索桥构造与设计</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="5.2.1.html">第一节  总体设计</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5.2.2.html">第二节  缆索系统设计</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5.2.3.html">第三节  加劲梁设计</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">第四节  桥塔设计</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5.2.5.html">第五节  锚碇设计</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-2.html">第二章  桥墩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-z.html">总结</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">桥梁工程<br /><br />第2版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../5-2.html">第二章 悬索桥构造与设计</a></li>
+      <li class="breadcrumb-item active">第四节  桥塔设计</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/5-2/5.2.4.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>第四节  桥塔设计<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h3 id="test111">第四节  桥塔设计</h3>
+<p><a href="#id5.2.4.1">一、结构形式</a> <span id="id5.2.4.1"></span></p>
+<p><a href="#id5.2.4.1.1">1. 顺挢向形式</a> <span id="id5.2.4.1.1"></span></p>
+<p style="text-align:justify"><a href="#idA5-2.90"> [A5-2.90]</a><span id="idA5-2.90"></span>按力学性质可分为刚性塔 、柔性塔和摇柱塔三种结构形式。如<a href="#image5213a">图5-2-13</a>所示。</p><!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box5213{
+                width: 700px;
+                height: 350px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box3{
+                width: 230px;
+                height: 300px;
+                box-sizing: border-box;
+                z-index: 9999;   
+             }
+             .box4{
+                width: 230px;
+                height: 300px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             .box5{
+                width: 230px;
+                height: 300px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             #title5213{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:320px;
+                margin-left:35%;   
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box5213">
+               <p class="box3" style="text-align:center;font-family:times new roman"><img id="image5213a" src="../_static/fig/5-2-13a.png" alt="Picture">a）刚性塔</p>
+               <p class="box4" style="text-align:center;font-family:times new roman"><img id="image5213b" src="../_static/fig/5-2-13b.png" alt="Picture">b）柔性塔</p>
+               <p class="box5" style="text-align:center;font-family:times new roman"><img id="image5213c" src="../_static/fig/5-2-13c.png" alt="Picture">c）摇柱塔</p>
+               <p id="title5213" style="font-family:times new roman">图5-2-13  桥塔的顺桥向结构形式</p>   
+               </div>
+         </div>
+         <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image5213a'));
+             var viewer = new Viewer(document.getElementById('image5213b'));
+             var viewer = new Viewer(document.getElementById('image5213c'));
+         </script>
+     </body>
+</html><p style="text-align:justify"><a href="#idA5-2.91"> [A5-2.91]</a><span id="idA5-2.91"></span>刚性塔。是指塔顶水平变位量相对较小的桥塔。刚性塔可以作成单柱形状，也可以作成A字形状，多用于早期较小跨径的悬索桥和现代多跨悬索桥中，为提高结构刚度时采用。</p>
+<p style="text-align:justify"><a href="#idA5-2.92"> [A5-2.92]</a><span id="idA5-2.92"></span>柔性塔。是指塔顶水平变位量相对较大的桥塔。柔性塔则是大跨径现代悬索桥最常用的结构，为下端固接的单柱形式。</p>
+<p style="text-align:justify"><a href="#idA5-2.93"> [A5-2.93]</a><span id="idA5-2.93"></span>摇柱塔。仅用于跨径较小的悬索桥，下端为铰接式单柱结构。</p>
+<p><a href="#id5.2.4.1.2">2. 横桥向形式</a> <span id="id5.2.4.1.2"></span></p>
+<p style="text-align:justify"><a href="#idA5-2.94"> [A5-2.94]</a><span id="idA5-2.94"></span>横桥向桥塔采用的形式，有桁架式、刚架式、混合式结构三种形式，如<a href="#image5214">图5-2-14</a>所示。这些形式都为了抵抗横桥向的风荷载或地震作用。</p>
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+
+<div style="text-align:center;"><img id="image5214" src="../_static/fig/5-2-14.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）桁架式；b）刚架式；c）混合式<br>图5-2-14  桥塔的横向结构形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image5214'));</script>
+
+<p><a href="#id5.2.4.2">二、材料</a> <span id="id5.2.4.2"></span></p>
+<p style="text-align:justify"><a href="#idA5-2.95"> [A5-2.95]</a><span id="idA5-2.95"></span>现代悬索桥塔柱一般采用混凝土或钢材建造。美国悬索桥的桥塔一般采用钢结构，欧洲各国及中国悬索桥的桥塔多采用混凝土结构。</p>
+<p style="text-align:justify"><a href="#idA5-2.96"> [A5-2.96]</a><span id="idA5-2.96"></span>混凝土桥塔塔柱一般采用空心矩形截面形式，混凝土强度等级不应低于C40，多采用C50。钢桥塔塔柱可采用单室箱形（<a href="#image5215">图5-2-15</a>）或多室箱形、十字形和T形截面等形式。钢材应采用国标规定的《桥梁用结构钢》、《碳素结构钢》、《低合金高强度结构钢》或其他适用于桥梁结构的碳素钢和低合金钢。</p>
+
+<div style="text-align:center;"><img id="image5215" src="../_static/fig/5-2-15.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图5-2-15  桥塔单室箱形截面示意</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image5215'));</script>
+
+<p><a href="#id5.2.4.3">三、主要设计参数</a> <span id="id5.2.4.3"></span></p>
+<p style="text-align:justify"><a href="#idA5-2.97"> [A5-2.97]</a><span id="idA5-2.97"></span>影响桥塔设计的参数主要有：材料参数、环境参数、结构尺寸参数。</p>
+<p><a href="#id5.2.4.3.1">1.材料参数</a> <span id="id5.2.4.3.1"></span></p>
+<p style="text-align:justify" id="aaa"><b>（1）混凝土桥塔</b></p>
+<p style="text-align:justify"><a href="#idA5-2.98"> [A5-2.98]</a><span id="idA5-2.98"></span>混凝土桥塔在材料选择时，除了应满足受力及耐久性要求外，还应考虑混凝土施工泵送的流动性、和易性，以满足混凝土的泵送高度，同时不会发生离析现象。塔柱一般采用滑模、翻模或爬模施工，要求混凝土应具有一定的早强性，确定混凝土收缩徐变设计参数时应考虑这些因素。混凝土桥塔一般采用不低于C50级的混凝土。主要设计参数有：弹性模量、线膨胀系数、密度、泊松比、轴心抗压设计强度、抗拉设计强度、标准抗压强度、标准抗拉强度以及收缩徐变参数等。这些参数在设计阶段可根据规范规定取值，在施工控制阶段根据实际施工的混凝土配合比，经试验确定。</p>
+<p style="text-align:justify"><a href="#idA5-2.99"> [A5-2.99]</a><span id="idA5-2.99"></span>钢筋材料的选用一般应考虑塔柱强度需要，以及施工时为确保塔柱线形所需的刚度要求。桥塔主筋一般应选择强度不小于HRB400等级的钢筋，并且钢筋直径不宜小于28mm。设计参数有：抗拉设计强度、抗压设计强度及标准强度。这些参数根据规范规定取值。</p>
+<p style="text-align:justify"><a href="#idA5-2.100"> [A5-2.100]</a><span id="idA5-2.100"></span>预应力材料一般采用符合现行《预应力混凝土用钢绞线》(GB/T 5224)、公称直径为15.2mm 的钢绞线。预应力材料设计参数有：标准强度、抗拉设计强度、弹性模量、松弛率、实际线径等。设计阶段根据规范规定取值，施工阶段参照工厂及监理检测试验结果取值。</p>
+<p style="text-align:justify" id="aaa"><b>（2）钢桥塔</b></p>
+<p style="text-align:justify"><a href="#idA5-2.101"> [A5-2.101]</a><span id="idA5-2.101"></span>钢桥塔材料的选择应考虑强度、刚度及可焊性，一般选择现行《低合金高强度结构钢》(GB/T 1591)规定的钢材。钢桥塔钢材的设计参数有：弹性模量、线膨胀系数、密度、泊松比、屈服强度、抗拉强度、板厚等，可采用规范规定的值。</p>
+<p><a href="#id5.2.4.3.2">2.环境参数</a> <span id="id5.2.4.3.2"></span></p>
+<p style="text-align:justify" id="aaa"><b>（1）温度参数</b></p>
+<p style="text-align:justify"><a href="#idA5-2.102"> [A5-2.102]</a><span id="idA5-2.102"></span>设计需要的桥位区域温度参数应通过专题研究确定。不同的桥塔材料采用不同的温度参数，如：混凝土桥塔采用最大、最小月平均气温作为体系升降温的计算参数，钢桥塔则采用极端最高、最低气温作为体系升降温的计算参数。设计计算需要的温度参数有：极端最高温度、极端最低温度、月平均最高温度、月平均最低温度、施工合龙温度、塔柱截面内外温差等。</p>
+<p style="text-align:justify" id="aaa"><b>（2）风参数</b></p>
+<p style="text-align:justify"><a href="#idA5-2.103"> [A5-2.103]</a><span id="idA5-2.103"></span>通过桥位区域风速梯度观测以及与附近具有长期风速资料的气象风速观测站进行同步观测，经专题研究后确定各设计风参数。风参数往往是桥塔设计计算的控制性参数，必须认真研究确定。设计风参数有：设计基本风速、风速随高度变化规律、阵风系数、塔柱断面形状系数、与活载组合的桥面风速等。根据现行《公路桥梁抗风设计规范》（JTG/T 3360-01），设计基本风速采用10m高度100年一遇10min平均最大风速值。施工阶段的设计风速一般采用10～30年一遇10min平均最大风速值。与活载组合的桥面风速一般采用25m/s。</p>
+<p style="text-align:justify" id="aaa"><b>（3）地震动参数</b></p>
+<p style="text-align:justify"><a href="#idA5-2.104"> [A5-2.104]</a><span id="idA5-2.104"></span>地震动参数是高耸桥塔设计十分重要的计算参数，应通过专门的地震安全性评价，取得桥塔位置处的各项地震动参数。地震动参数有：抗震设防标准、基岩及各土层峰值加速度、加速度反应谱等。根据桥梁重要性等级，一般采用二级设防水准，采用100年超越概率10%作为强度设计标准，100年超越概率2%或3%作为结构延性校核计算标准。</p>
+<p><a href="#id5.2.4.3.3">3.结构尺寸参数</a> <span id="id5.2.4.3.3"></span></p>
+<p style="text-align:justify"><a href="#idA5-2.105"> [A5-2.105]</a><span id="idA5-2.105"></span>桥塔整体结构尺寸参数主要由主跨跨径、垂跨比、桥下通航净空、通航水位、桥面净宽、两根主缆的横桥向间距、主索鞍及鞍罩构造等因素决定。主要的尺寸参数有：塔高、桥面处塔柱横桥向净距、塔顶横桥向间距、塔柱在塔顶的平面尺寸、塔柱底截面的尺寸、横梁或斜腹杆的高度和宽度、混凝土桥塔的塔柱、横梁壁厚、钢桥塔的钢板厚度等。国内外一些已建成悬索桥结构尺寸参数见<a href="#B5.2.8">表 5-2-8</a>～<a href="#B5.2.10">表 5-2-10</a>。</p>
+
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+</style>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.8">表5-2-8   国内外悬索桥混凝土索塔构造   </b></caption>
+
+     <tr>
+     <td align="center" width="50px" id="dhbg">序号</td>
+     <td align="center" width="200px" id="dhbg">桥名</td>
+     <td align="center" width="80px" id="dhbg">建成年份(年)</td>
+     <td align="center" width="80px" id="dhbg">主跨跨径(m)</td>
+     <td align="center" width="80px" id="dhbg">垂跨比</td>
+     <td align="center" width="100px" id="dhbg">塔高<br>(m)</td>
+     <td align="center" width="80px" id="dhbg">塔柱底中距(m)</td>
+     <td align="center" width="80px" id="dhbg">塔柱顶中距(m)</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">1</td>
+     <td align="center" id="dhbg">坦克维尔桥(法国)</td>
+     <td align="center" id="dhbg">1959</td>
+     <td align="center" id="dhbg">608</td>
+     <td align="center" id="dhbg">1/9</td>
+     <td align="center" id="dhbg">123</td>
+     <td align="center" id="dhbg">24.7</td>
+     <td align="center" id="dhbg">—</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">2</td>
+     <td align="center" id="dhbg">小贝尔桥(丹麦)</td>
+     <td align="center" id="dhbg">1970</td>
+     <td align="center" id="dhbg">600</td>
+     <td align="center" id="dhbg">1/9</td>
+     <td align="center" id="dhbg">112.7</td>
+     <td align="center" id="dhbg">36.02</td>
+     <td align="center" id="dhbg">28.1</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">3</td>
+     <td align="center" id="dhbg">亨伯尔桥(英国)</td>
+     <td align="center" id="dhbg">1981</td>
+     <td align="center" id="dhbg">1410</td>
+     <td align="center" id="dhbg">1/10.6</td>
+     <td align="center" id="dhbg">155.5</td>
+     <td align="center" id="dhbg">24.4</td>
+     <td align="center" id="dhbg">22.9</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">4</td>
+     <td align="center" id="dhbg">香港青马大桥</td>
+     <td align="center" id="dhbg">1997</td>
+     <td align="center" id="dhbg">1377</td>
+     <td align="center" id="dhbg">1/11</td>
+     <td align="center" id="dhbg">195.9</td>
+     <td align="center" id="dhbg">40.0</td>
+     <td align="center" id="dhbg">36.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">5</td>
+     <td align="center" id="dhbg">汕头海湾大桥</td>
+     <td align="center" id="dhbg">1996</td>
+     <td align="center" id="dhbg">452</td>
+     <td align="center" id="dhbg">1/10</td>
+     <td align="center" id="dhbg">95.1</td>
+     <td align="center" id="dhbg">27.7</td>
+     <td align="center" id="dhbg">28.2</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">6</td>
+     <td align="center" id="dhbg">湖北西陵长江大桥</td>
+     <td align="center" id="dhbg">1996</td>
+     <td align="center" id="dhbg">900</td>
+     <td align="center" id="dhbg">1/10</td>
+     <td align="center" id="dhbg">128</td>
+     <td align="center" id="dhbg">26.92</td>
+     <td align="center" id="dhbg">—</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">7</td>
+     <td align="center" id="dhbg">广东虎门大桥</td>
+     <td align="center" id="dhbg">1997</td>
+     <td align="center" id="dhbg">888</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">147.55</td>
+     <td align="center" id="dhbg">40.6</td>
+     <td align="center" id="dhbg">33.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">8</td>
+     <td align="center" id="dhbg">江苏江阴长江大桥</td>
+     <td align="center" id="dhbg">1998</td>
+     <td align="center" id="dhbg">1385</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">183.8</td>
+     <td align="center" id="dhbg">39.3</td>
+     <td align="center" id="dhbg">32.5</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">9</td>
+     <td align="center" id="dhbg">湖北宜昌长江大桥</td>
+     <td align="center" id="dhbg">2000</td>
+     <td align="center" id="dhbg">900</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">112.415/142.77</td>
+     <td align="center" id="dhbg">—</td>
+     <td align="center" id="dhbg">24.4</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">10</td>
+     <td align="center" id="dhbg">江苏润扬长江大桥</td>
+     <td align="center" id="dhbg">2005</td>
+     <td align="center" id="dhbg">1490</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">207.58</td>
+     <td align="center" id="dhbg">41.437</td>
+     <td align="center" id="dhbg">34.3</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">11</td>
+     <td align="center" id="dhbg">武汉阳逻长江大桥</td>
+     <td align="center" id="dhbg">2007</td>
+     <td align="center" id="dhbg">1280</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">164.215/167.215</td>
+     <td align="center" id="dhbg">43.0/43.1</td>
+     <td align="center" id="dhbg">35</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">12</td>
+     <td align="center" id="dhbg">舟山西堠门大桥</td>
+     <td align="center" id="dhbg">2008</td>
+     <td align="center" id="dhbg">1650</td>
+     <td align="center" id="dhbg">1/9.5</td>
+     <td align="center" id="dhbg">211.286</td>
+     <td align="center" id="dhbg">42.05</td>
+     <td align="center" id="dhbg">31.4</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">13</td>
+     <td align="center" id="dhbg">广州珠江黄埔大桥</td>
+     <td align="center" id="dhbg">2008</td>
+     <td align="center" id="dhbg">1108</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">190.476</td>
+     <td align="center" id="dhbg">47.694/47.74</td>
+     <td align="center" id="dhbg">36.397</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">14</td>
+     <td align="center" id="dhbg">贵州坝陵河大桥</td>
+     <td align="center" id="dhbg">2008</td>
+     <td align="center" id="dhbg">1080</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">191.488/207.016</td>
+     <td align="center" id="dhbg">40.56</td>
+     <td align="center" id="dhbg">28</td>
+     </tr>
+     </table>
+     <br>
+
+     <table id="biaoge" style="font-family:times new roman">
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.9">表5-2-9   国内外悬索桥混凝土索塔塔柱截面尺寸   </b></caption>
+     <tr>
+     <td align="center" id="dhbg" width="50px" rowspan="2">序号</td>
+     <td align="center" id="dhbg" width="200px" rowspan="2">桥名</td>
+     <td align="center" id="dhbg" width="80px" rowspan="2">建成<br>年份</td>
+     <td align="center" id="dhbg" width="80px" rowspan="2">主跨跨径(m)</td>
+     <td align="center" id="dhbg" width="80px" rowspan="2">矢跨比</td>
+     <td align="center" id="dhbg" width="160px" colspan="2">塔顶截面宽（m）</td>
+     <td align="center" id="dhbg" width="160px" colspan="2">塔底截面宽（m）</td>
+     </tr>
+     <tr>
+     <td align="center" width="80px" id="dhbg">顺桥向</td>
+     <td align="center" width="80px" id="dhbg">横桥向</td>
+     <td align="center" width="80px" id="dhbg">顺桥向</td>
+     <td align="center" width="80px" id="dhbg">横桥向</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">1</td>
+     <td align="center" id="dhbg">坦克维尔桥(法国)</td>
+     <td align="center" id="dhbg">1959</td>
+     <td align="center" id="dhbg">608</td>
+     <td align="center" id="dhbg">1/9</td>
+     <td align="center" id="dhbg">4.65</td>
+     <td align="center" id="dhbg">3.05</td>
+     <td align="center" id="dhbg">4.65</td>
+     <td align="center" id="dhbg">6.55</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">2</td>
+     <td align="center" id="dhbg">小贝尔桥(丹麦)</td>
+     <td align="center" id="dhbg">1970</td>
+     <td align="center" id="dhbg">600</td>
+     <td align="center" id="dhbg">1/9</td>
+     <td align="center" id="dhbg">4.5</td>
+     <td align="center" id="dhbg">4.0</td>
+     <td align="center" id="dhbg">4.5</td>
+     <td align="center" id="dhbg">6.55</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">3</td>
+     <td align="center" id="dhbg">亨伯尔桥(英国)</td>
+     <td align="center" id="dhbg">1981</td>
+     <td align="center" id="dhbg">1410</td>
+     <td align="center" id="dhbg">1/10.6</td>
+     <td align="center" id="dhbg">4.75</td>
+     <td align="center" id="dhbg">4.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">6.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">4</td>
+     <td align="center" id="dhbg">香港青马大桥</td>
+     <td align="center" id="dhbg">1998</td>
+     <td align="center" id="dhbg">1377</td>
+     <td align="center" id="dhbg">1/11</td>
+     <td align="center" id="dhbg">9.0</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">18.0</td>
+     <td align="center" id="dhbg">6.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">5</td>
+     <td align="center" id="dhbg">汕头海湾大桥</td>
+     <td align="center" id="dhbg">1996</td>
+     <td align="center" id="dhbg">452</td>
+     <td align="center" id="dhbg">1/10</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">3.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">3.5</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">6</td>
+     <td align="center" id="dhbg">湖北西陵长江大桥</td>
+     <td align="center" id="dhbg">1996</td>
+     <td align="center" id="dhbg">900</td>
+     <td align="center" id="dhbg">1/10</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">4.0</td>
+     <td align="center" id="dhbg">8.46</td>
+     <td align="center" id="dhbg">4.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">7</td>
+     <td align="center" id="dhbg">广东虎门大桥</td>
+     <td align="center" id="dhbg">1997</td>
+     <td align="center" id="dhbg">888</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">5.6</td>
+     <td align="center" id="dhbg">5.6</td>
+     <td align="center" id="dhbg">8.46</td>
+     <td align="center" id="dhbg">5.6</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">8</td>
+     <td align="center" id="dhbg">江苏江阴长江大桥</td>
+     <td align="center" id="dhbg">1999</td>
+     <td align="center" id="dhbg">185</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">8.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">14.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">9</td>
+     <td align="center" id="dhbg">湖北宜昌长江大桥</td>
+     <td align="center" id="dhbg">2000</td>
+     <td align="center" id="dhbg">900</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">5.0</td>
+     <td align="center" id="dhbg">8.84</td>
+     <td align="center" id="dhbg">5.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">10</td>
+     <td align="center" id="dhbg">江苏润扬长江大桥</td>
+     <td align="center" id="dhbg">2005</td>
+     <td align="center" id="dhbg">1490</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">12.54</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">9.5</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">11</td>
+     <td align="center" id="dhbg">武汉阳逻长江大桥</td>
+     <td align="center" id="dhbg">2007</td>
+     <td align="center" id="dhbg">1280</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">8.7</td>
+     <td align="center" id="dhbg">6.3</td>
+     <td align="center" id="dhbg">11.0</td>
+     <td align="center" id="dhbg">8.3</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">12</td>
+     <td align="center" id="dhbg">舟山西堠门大桥</td>
+     <td align="center" id="dhbg">2009</td>
+     <td align="center" id="dhbg">1650</td>
+     <td align="center" id="dhbg">1/9.5</td>
+     <td align="center" id="dhbg">8.5</td>
+     <td align="center" id="dhbg">6.5</td>
+     <td align="center" id="dhbg">12</td>
+     <td align="center" id="dhbg">11</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">13</td>
+     <td align="center" id="dhbg">广州珠江黄埔大桥</td>
+     <td align="center" id="dhbg">2008</td>
+     <td align="center" id="dhbg">1108</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">8.5</td>
+     <td align="center" id="dhbg">5.5</td>
+     <td align="center" id="dhbg">11.5</td>
+     <td align="center" id="dhbg">9.0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">14</td>
+     <td align="center" id="dhbg">贵州坝陵河大桥</td>
+     <td align="center" id="dhbg">2009</td>
+     <td align="center" id="dhbg">1080</td>
+     <td align="center" id="dhbg">1/10.5</td>
+     <td align="center" id="dhbg">8.5</td>
+     <td align="center" id="dhbg">6.0</td>
+     <td align="center" id="dhbg">12</td>
+     <td align="center" id="dhbg">9</td>
+     </tr>
+     </table>
+     <br>
+
+     <table id="biaoge" style="font-family:times new roman">
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.2.10">表5-2-10   国外悬索桥钢索塔塔柱截面尺寸   </b></caption>
+     <tr>
+     <td align="center" id="dhbg" width="50px" rowspan="2">序号</td>
+     <td align="center" id="dhbg" width="200px" rowspan="2">桥名</td>
+     <td align="center" id="dhbg" width="80px" rowspan="2">建成<br>年份</td>
+     <td align="center" id="dhbg" width="80px" rowspan="2">国家</td>
+     <td align="center" id="dhbg" width="80px" rowspan="2">主跨跨径(m)</td>
+     <td align="center" id="dhbg" width="80px" colspan="2">塔顶截面宽（m）</td>
+     <td align="center" id="dhbg" width="80px" colspan="2">塔底截面宽（m）</td>
+     </tr>
+     <tr>
+     <td align="center" width="80px" id="dhbg">顺桥向</td>
+     <td align="center" width="80px" id="dhbg">横桥向</td>
+     <td align="center" width="80px" id="dhbg">顺桥向</td>
+     <td align="center" width="80px" id="dhbg">横桥向</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">1</td>
+     <td align="center" id="dhbg">乔治·华盛顿桥</td>
+     <td align="center" id="dhbg">1931</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">1067</td>
+     <td align="center" id="dhbg">11.43</td>
+     <td align="center" id="dhbg">11.05</td>
+     <td align="center" id="dhbg">17.07</td>
+     <td align="center" id="dhbg">14.48</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">2</td>
+     <td align="center" id="dhbg">金门桥</td>
+     <td align="center" id="dhbg">1937</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">1280</td>
+     <td align="center" id="dhbg">7.49</td>
+     <td align="center" id="dhbg">3.23</td>
+     <td align="center" id="dhbg">13.89</td>
+     <td align="center" id="dhbg">7.49</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">3</td>
+     <td align="center" id="dhbg">旧金山奥克兰海湾桥</td>
+     <td align="center" id="dhbg">1936</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">705</td>
+     <td align="center" id="dhbg">4.57</td>
+     <td align="center" id="dhbg">3.66</td>
+     <td align="center" id="dhbg">9.57</td>
+     <td align="center" id="dhbg">5.79</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">4</td>
+     <td align="center" id="dhbg">布朗克斯怀特通桥</td>
+     <td align="center" id="dhbg">1939</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">701</td>
+     <td align="center" id="dhbg">3.66</td>
+     <td align="center" id="dhbg">4.88</td>
+     <td align="center" id="dhbg">5.49</td>
+     <td align="center" id="dhbg">4.88</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">5</td>
+     <td align="center" id="dhbg">塔科玛旧桥</td>
+     <td align="center" id="dhbg">1940</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">852</td>
+     <td align="center" id="dhbg">3.96</td>
+     <td align="center" id="dhbg">3.96</td>
+     <td align="center" id="dhbg">5.79</td>
+     <td align="center" id="dhbg">3.96</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">6</td>
+     <td align="center" id="dhbg">塔科玛新桥</td>
+     <td align="center" id="dhbg">1950</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">852</td>
+     <td align="center" id="dhbg">3.58</td>
+     <td align="center" id="dhbg">3.58</td>
+     <td align="center" id="dhbg">5.69</td>
+     <td align="center" id="dhbg">5.33</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">7</td>
+     <td align="center" id="dhbg">特拉华纪今二桥</td>
+     <td align="center" id="dhbg">1951</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">655</td>
+     <td align="center" id="dhbg">4.11</td>
+     <td align="center" id="dhbg">4.57</td>
+     <td align="center" id="dhbg">6.10</td>
+     <td align="center" id="dhbg">4.57</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">8</td>
+     <td align="center" id="dhbg">瓦尔特惠特曼桥</td>
+     <td align="center" id="dhbg">1957</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">610</td>
+     <td align="center" id="dhbg">4.27</td>
+     <td align="center" id="dhbg">3.66</td>
+     <td align="center" id="dhbg">6.71</td>
+     <td align="center" id="dhbg">4.88</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">9</td>
+     <td align="center" id="dhbg">麦基诺水道桥</td>
+     <td align="center" id="dhbg">1957</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">1158</td>
+     <td align="center" id="dhbg">4.57</td>
+     <td align="center" id="dhbg">4.42</td>
+     <td align="center" id="dhbg">9.30</td>
+     <td align="center" id="dhbg">7.62</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">10</td>
+     <td align="center" id="dhbg">福斯湾桥</td>
+     <td align="center" id="dhbg">1964</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">1006</td>
+     <td align="center" id="dhbg">5.49</td>
+     <td align="center" id="dhbg">2.90</td>
+     <td align="center" id="dhbg">7.32</td>
+     <td align="center" id="dhbg">2.90</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">11</td>
+     <td align="center" id="dhbg">维拉扎诺海峡桥</td>
+     <td align="center" id="dhbg">1961</td>
+     <td align="center" id="dhbg">美国</td>
+     <td align="center" id="dhbg">1298</td>
+     <td align="center" id="dhbg">10.67</td>
+     <td align="center" id="dhbg">8.71</td>
+     <td align="center" id="dhbg">14.94</td>
+     <td align="center" id="dhbg">10.84</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">12</td>
+     <td align="center" id="dhbg">塞文桥</td>
+     <td align="center" id="dhbg">1966</td>
+     <td align="center" id="dhbg">英国</td>
+     <td align="center" id="dhbg">988</td>
+     <td align="center" id="dhbg">5.18</td>
+     <td align="center" id="dhbg">2.90</td>
+     <td align="center" id="dhbg">5.18</td>
+     <td align="center" id="dhbg">3.66</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">13</td>
+     <td align="center" id="dhbg">4月25日桥</td>
+     <td align="center" id="dhbg">1966</td>
+     <td align="center" id="dhbg">1966</td>
+     <td align="center" id="dhbg">1013</td>
+     <td align="center" id="dhbg">5.49</td>
+     <td align="center" id="dhbg">3.82</td>
+     <td align="center" id="dhbg">9.14</td>
+     <td align="center" id="dhbg">3.82</td>
+     </tr>
+     </table>
+     <br></section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="5.2.3.html" class="btn btn-neutral float-left" title="第三节 加劲梁设计" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="5.2.5.html" class="btn btn-neutral float-right" title="第五节 锚碇设计" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

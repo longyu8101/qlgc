@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box6249{
+                width: 700px;
+                height: 350px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box3{
+                width: 230px;
+                height: 390px;
+                box-sizing: border-box;
+                z-index: 9999;   
+             }
+             .box4{
+                width: 230px;
+                height: 390px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             .box5{
+                width: 230px;
+                height: 390px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             #title6249{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:300px;
+                margin-left:38%;   
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box6249">
+               <p class="box3" style="text-align:center;font-family:times new roman"><img id="image6249a" src="../_static/fig/6-2-49a.png" alt="Picture">a）滑模施工 </p>
+               <p class="box4" style="text-align:center;font-family:times new roman"><img id="image6249b" src="../_static/fig/6-2-49b.png" alt="Picture">b）爬模施工 </p>
+               <p class="box5" style="text-align:center;font-family:times new roman"><img id="image6249c" src="../_static/fig/6-2-49c.png" alt="Picture">c）翻模施工</p>
+               <p id="title6249" style="font-family:times new roman">图6-2-49  高墩桥梁施工方法</p>
+               </div>
+         </div>
+         <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6249a'));
+             var viewer = new Viewer(document.getElementById('image6249b'));
+             var viewer = new Viewer(document.getElementById('image6249c'));
+         </script>
+     </body>
+</html>

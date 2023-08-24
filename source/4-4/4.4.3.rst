@@ -1,0 +1,87 @@
+第三节  斜拉索施工
+--------------------------------
+
+.. raw:: html
+
+ <h3 id="test111">第三节  斜拉索施工</h3>
+ <p style="text-align:justify"><a href="#idA4-4.20"> [A4-4.20]</a><span id="idA4-4.20"></span>斜拉索施工工序为：斜拉索安装、张拉（索力调整）、锚固。</p>
+ <p><a href="#id4.4.3.1">一、斜拉索安装</a> <span id="id4.4.3.1"></span></p>
+ <p style="text-align:justify"><a href="#idA4-4.21"> [A4-4.21]</a><span id="idA4-4.21"></span>斜拉索的安装可采用卷扬机组安装或吊机安装。根据斜拉索安装位置，分为索塔部位安装和主梁部位安装。</p>
+ <p><a href="#id4.4.3.1.1">1. 索塔部位安装</a> <span id="id4.4.3.1.1"></span></p>
+
+ <p style="text-align:justify"><a href="#idA4-4.22"> [A4-4.22]</a><span id="idA4-4.22"></span>斜拉索在索塔部位安装一般采用吊点法、吊机安装法及分步牵引法，如<a href="#image448">图4-4-8</a>、<a href="#image449">图4-4-9</a>所示。单吊点法施工简便、安装迅速，缺点是起重索所需的拉力大，斜拉索在吊点处弯折角度较大，故一般适应较柔软的拉索。采用吊机安装法，拉索前端由索塔孔道内伸出的牵引索引入索塔拉索锚孔内，下端用移动式吊机提升，操作简单快速，不易损坏拉索，但要求吊机有较大的起重能力。</p>
+ 
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+
+ <div style="text-align:center;"><img id="image448" src="../_static/fig/4-4-8.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">a）吊点法；b）吊机安装法；c）分布牵引法<br>图4-4-8  斜拉索塔端安装方法示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image448'));</script>
+
+ <div style="text-align:center;"><img id="image449" src="../_static/fig/4-4-9.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-4-9  斜拉索塔端吊机安装法示例</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image449'));</script>
+ 
+ <style type="text/css">
+      #image449{
+         margin-left:52px;
+         }
+      #image443{
+         margin-left:88px;
+         }
+      #image444{
+         margin-left:68px;
+         }
+ </style>
+
+ <p><a href="#id4.4.3.1.2">2. 主梁部位安装</a> <span id="id4.4.3.1.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-4.23"> [A4-4.23]</a><span id="idA4-4.23"></span>斜拉索在主梁部位的安装大多采用吊点法和拉杆接长法，如<a href="#image4410">图4-4-10</a>、<a href="#image4411">图4-4-11</a>所示。</p>
+ 
+ <div style="text-align:center;"><img id="image4410" src="../_static/fig/4-4-10.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">a）吊点法；b）拉杆接长法<br>图4-4-10  斜拉索梁部安装示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4410'));</script>
+
+ <div style="text-align:center;"><img id="image4411" src="../_static/fig/4-4-11.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-4-11  斜拉索梁部安装示例</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4411'));</script>
+ 
+ <p><a href="#id4.4.3.2">二、斜拉索张拉</a> <span id="id4.4.3.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-4.24"> [A4-4.24]</a><span id="idA4-4.24"></span>斜拉索的张拉一般可分为拉丝式（钢绞线夹片群锚）锚具张拉和拉锚式锚具（冷铸锚）张拉。其中拉锚式锚具张拉因施工操作方便及现场工作量较少等优点被更多工程采用。根据设计要求及现场实际情况，有采用塔部一端张拉的，也有采用梁部一端张拉的，还有采用塔、梁部两端张拉的，其中以塔部一端张拉使用最为广泛。</p>
+ 
+ <p><a href="#id4.4.3.3">三、受力特点</a> <span id="id4.4.3.3"></span></p>
+ <p style="text-align:justify"><a href="#idA4-4.25"> [A4-4.25]</a><span id="idA4-4.25"></span>斜拉索为受拉构件，斜拉索的成桥索力一般由合理成桥状态决定，初始张拉力可通过倒拆分析模型结合施工过程结构受力状态综合确定。在调整索力时应严格控制拉力大小，防止张拉断丝现象发生。</p>
+ 
+ <p><a href="#id4.4.3.3.1">1. 支架法施工</a> <span id="id4.4.3.3.1"></span></p>
+ <p style="text-align:justify"><a href="#idA4-4.26"> [A4-4.26]</a><span id="idA4-4.26"></span>主梁采用支架法施工的斜拉桥，斜拉索张拉可采用一次张拉到位或多次分批张拉。张拉时机一般选择在主梁梁体预应力施工完成后，一般为由塔身向外依次对称张拉斜拉索，上、下游侧斜拉索应同步张拉。斜拉索张拉完成后，可拆除满堂支架。主梁落架后必要时可对局部拉索的索力进行二次调整。</p>
+
+ <p><a href="#id4.4.3.3.2">2. 悬臂法施工</a> <span id="id4.4.3.3.2"></span></p>
+ <p style="text-align:justify"><a href="#idA4-4.27"> [A4-4.27]</a><span id="idA4-4.27"></span>主梁采用悬臂法施工的斜拉桥，斜拉索安装完成，张拉时多为单个悬臂节段施工完成后，通过斜拉索的张拉，确保悬臂施工过程中主梁及索塔受力合理（主梁上、下缘不开裂，索塔偏位小）。对于大跨径预应力混凝土斜拉桥，当单个悬臂节段较长时，可采用前支点挂篮施工，斜拉索初次张拉采用三阶段张拉法，即空挂篮状态斜拉索一次张拉、节段混凝土浇筑过程中斜拉索二次张拉、节段混凝土强度形成后斜拉索三次张拉，如<a href="#image4412">图4-4-12</a>所示。</p>
+ 
+ <div style="text-align:center;"><img id="image4412" src="../_static/fig/4-4-12.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-4-12  三次张拉PC斜拉桥节段施工流程示意图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4412'));</script>
+ 
+ <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify"><a href="#idA4-4.28"> [A4-4.28]</a><span id="idA4-4.28"></span>斜拉桥施工方法可参照梁桥施工，所不同的是斜拉索的挂索和索力调整，索力调整过程与施工方法有关，需计算确定。</p>
+ <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <ol>
+ <li>采用悬臂法施工时?</li>
+ <li>斜拉桥设计与建造综合练习，见[二维码XLQLX]。</li>
+ </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

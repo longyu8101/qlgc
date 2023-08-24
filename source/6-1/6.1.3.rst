@@ -1,0 +1,623 @@
+第三节  支座设计与计算
+--------------------------------
+
+.. raw:: html
+
+ <h3 id="test111">第三节  支座设计与计算</h3>
+ <p style="text-align:justify"><a href="#idA6-1.66"> [A6-1.66]</a><span id="idA6-1.66"></span>在桥梁设计中，通常根据支座处的设计最大支承反力和变形量选定成品支座型号，无需对支座进行专门设计计算，尤其是中、小跨径桥梁。对于大桥、特大桥和特殊结构桥梁，当无成品支座可选或需要特殊设计支座时，根据支座处的设计最大支承反力和变形量进行支座设计。</p>
+ <p><a href="#id6.1.3.1">一、支座形式选择</a> <span id="id6.1.3.1"></span></p>
+ <p style="text-align:justify"><a href="#idA6-1.67"> [A6-1.67]</a><span id="idA6-1.67"></span>从桥梁支座适应变形的功能来讲，有固定支座、单向活动支座和双向活动支座三大类。支座的选择形式与桥梁结构形式有关，支座选择不当会使支座过早破坏，因此，对一座桥梁上的各个位置所选用的支座形式，应考虑以下因素：</p>
+ <p style="text-align:justify" id="aaa">（1）竖向作用（或荷载）；</p>
+ <p style="text-align:justify" id="aaa">（2）水平作用（或荷载）；</p>
+ <p style="text-align:justify" id="aaa">（3）位移要求；</p>
+ <p style="text-align:justify" id="aaa">（4）转动要求；</p>
+ <p style="text-align:justify" id="aaa">（5）桥墩（或桥台）和上部结构的宽度；</p>
+ <p style="text-align:justify" id="aaa">（6）各支承点所需要支座的数量；</p>
+ <p style="text-align:justify" id="aaa">（7）地基条件和沉降的可能性；</p>
+ <p style="text-align:justify" id="aaa">（8）桥梁的长度</p>
+ <p style="text-align:justify">（9）桥梁的结构形式。</p>
+ <p style="text-align:justify"><a href="#idA6-1.68"> [A6-1.68]</a><span id="idA6-1.68"></span>综合上述因素后，应使选用的支座除了能可靠地传递垂直力和水平力外，还能适应顺桥向和横桥向的变形。同时，选用的支座应使由于梁体变形所产生的纵向和横向位移及转角尽可能地不受约束等。</p>
+ <p><a href="#id6.1.3.1.1">1.支座类型选择</a> <span id="id6.1.3.1.1"></span></p>
+ <p style="text-align:justify"><a href="#idA6-1.69"> [A6-1.69]</a><span id="idA6-1.69"></span>对于具体桥型，应根据桥跨结构特点合理选择支座形式。</p>
+ <p style="text-align:justify" id="aaa"><b>（1）简支梁桥或连续梁桥直桥</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.70"> [A6-1.70]</a><span id="idA6-1.70"></span>对于简支梁桥或中等跨径的连续梁桥，由于跨径不太大，通常选用板式橡胶支座或盆式橡胶支座。不论从经济上还是施工方便程度上都要考虑使用的支座形式，特别是由于支座高度相对较低，稳定性好，支座弹性对地震力的分散、吸收具有一定作用。因此，除有特殊考虑外，一般都采用板式橡胶支座或盆式橡胶支座。</p>
+ <p style="text-align:justify" id="aaa"><b>（2）弯桥</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.71"> [A6-1.71]</a><span id="idA6-1.71"></span>由于弯桥的移动方向与转动方向不一致，因此，一般希望采用可以全方位移动和转动的支座形式。作为适应这种情况的支座形式，目前可以考虑橡胶支座（如圆形板式橡胶支座等）、球冠支座等。</p>
+ <p style="text-align:justify" id="aaa"><b>（3）斜桥</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.72"> [A6-1.72]</a><span id="idA6-1.72"></span>斜桥活动部位的伸缩和转动都可能出现在不同方向上，因此，在活动支座处可考虑与弯桥一样采用全方位移动和转动支座形式。</p>
+
+ <p><a href="#id6.1.3.1.2">2.成品支座选择</a> <span id="id6.1.3.1.2"></span></p>
+ <p style="text-align:justify"><a href="#idA6-1.73"> [A6-1.73]</a><span id="idA6-1.73"></span>目前，国内有多家支座生产企业专门从事支座的研发、设计与生产工作，制作出不同规格、型号的桥梁支座，能够满足一般桥梁的设计使用需要。在桥梁设计中，根据支座处的设计最大支承反力和变形量，选定成品支座型号。在选择成品支座时应注意以下几点：</p>
+ <p style="text-align:justify" id="aaa">①支座平面尺寸的大小尽量不要大于梁底的平面尺寸，例如装配式T梁梁底宽度较窄，若支座平面尺寸大于梁底宽度，会导致支座局部承压，影响支座的使用寿命；</p>
+ <p style="text-align:justify" id="aaa">②支座的最大承压力要大于结构的设计最大支承反力，并留一定的安全储备值，避免支座超负荷承压，降低使用寿命；</p>
+ <p style="text-align:justify">③一座桥梁相同功能的支座，当承载力相近时，规格应一致，以便维修更换。</p>
+ 
+ <p style="text-align:justify"><a href="#idA6-1.74"> [A6-1.74]</a><span id="idA6-1.74"></span>[例6-1-1]某装配式预应力混凝土T形梁桥，位于寒冷地区，下翼缘（马蹄）宽450mm，支座处的设计最大支承反力为1384kN，确定板式橡胶支座型号。</p>
+ <p style="text-align:justify"><a href="#idA6-1.75"> [A6-1.75]</a><span id="idA6-1.75"></span>成品支座选择方法：</p>
+ <p style="text-align:justify" id="aaa">（1）根据梁底截面形式，采用矩形板式橡胶支座；</p>
+ <p style="text-align:justify" id="aaa">（2）根据T形梁下翼缘（马蹄）宽度450mm，确定所选用的支座宽度应≤450mm；</p>
+ <p style="text-align:justify" id="aaa">（3）成品支座的最大承压力应＞1384kN；</p>
+ <p style="text-align:justify">（4）查成品支座目录，如<a href="#B6.1.1">表 6-1-1</a>所示，确定选用型号为“400×400”。</p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+ </style>
+ <table id="biaoge" style="font-family:times new roman">
+                                                                                                                                                                     
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.1.1">表6-1-1   矩形板式橡胶支座规格系列选用参数   </b></caption>	
+                                                                                                                                                                                   
+      <tr>
+      <td align="center" id="dhbg" width="20px" rowspan="2">序<br>号</td>
+      <td align="center" id="dhbg" width="80px" rowspan="2">平面尺寸<br><i>l</i><sub>a</sub>&times;<i>l</i><sub>b</sub>(mm)</td>
+      <td align="center" id="dhbg" width="100px" rowspan="2">最大承压力R<sub>ck</sub>(kN)</td>
+      <td align="center" id="dhbg" width="80px" rowspan="2">支座总厚度t(mm)</td>
+      <td align="center" id="dhbg" width="200px" colspan="2">最大位移量(mm)</td>
+      <td align="center" id="dhbg" width="240px" colspan="3">允许转角正切值tanθ(θ为rad)</td>
+      </tr>
+      <tr>
+      <td align="center" width="100px" id="dhbg">不计制动力Δt<sub>1</sub></td>
+      <td align="center" width="100px" id="dhbg">计制动力Δt<sub>2</sub></td>
+      <td align="center" width="80px" id="dhbg">温热地区</td>
+      <td align="center" width="80px" id="dhbg">寒冷地区</td>
+      <td align="center" width="80px" id="dhbg">严寒地区</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">350&times;400</td>
+      <td align="center" id="dhbg">1326</td>
+      <td align="center" id="dhbg">69</td>
+      <td align="center" id="dhbg">22.0</td>
+      <td align="center" id="dhbg">30.8</td>
+      <td align="center" id="dhbg">0.0081</td>
+      <td align="center" id="dhbg">0.0069</td>
+      <td align="center" id="dhbg">0.0058</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">350&times;450</td>
+      <td align="center" id="dhbg">1496</td>
+      <td align="center" id="dhbg">69</td>
+      <td align="center" id="dhbg">22.0</td>
+      <td align="center" id="dhbg">30.8</td>
+      <td align="center" id="dhbg">0.0074</td>
+      <td align="center" id="dhbg">0.0064</td>
+      <td align="center" id="dhbg">0.0053</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">3</td>
+      <td align="center" id="dhbg"><math><semantics><mrow><munder accentunder="true"><mn>400×400</mn><mo stretchy="true">‾‾‾‾‾‾‾‾‾‾‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{400×400}</annotation></semantics></math></td>
+      <td align="center" id="dhbg"><math><semantics><mrow><munder accentunder="true"><mn>1251</mn><mo stretchy="true">‾‾‾‾‾‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{1251}</annotation></semantics></math></td>
+      <td align="center" id="dhbg"><math><semantics><mrow><munder accentunder="true"><mn>69</mn><mo stretchy="true">‾‾‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{69}</annotation></semantics></math></td>
+      <td align="center" id="dhbg"><math><semantics><mrow><munder accentunder="true"><mn>22.0</mn><mo stretchy="true">‾‾‾‾‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{22.0}</annotation></semantics></math></td>
+      <td align="center" id="dhbg"><math><semantics><mrow><munder accentunder="true"><mn>30.8</mn><mo stretchy="true">‾‾‾‾‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{30.8}</annotation></semantics></math></td>
+      <td align="center" id="dhbg">0.0063</td>
+      <td align="center" id="dhbg"><math><semantics><mrow><munder accentunder="true"><mn>0.0054</mn><mo stretchy="true">‾‾‾‾‾‾‾‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{0.0054}</annotation></semantics></math></td>
+      <td align="center" id="dhbg">0.0050</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">4</td>
+      <td align="center" id="dhbg">400&times;450</td>
+      <td align="center" id="dhbg">1716</td>
+      <td align="center" id="dhbg">69</td>
+      <td align="center" id="dhbg">22.0</td>
+      <td align="center" id="dhbg">30.8</td>
+      <td align="center" id="dhbg">0.0057</td>
+      <td align="center" id="dhbg">0.0050</td>
+      <td align="center" id="dhbg">-</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">5</td>
+      <td align="center" id="dhbg">450&times;450</td>
+      <td align="center" id="dhbg">1936</td>
+      <td align="center" id="dhbg">69</td>
+      <td align="center" id="dhbg">22.0</td>
+      <td align="center" id="dhbg">30.8</td>
+      <td align="center" id="dhbg">0.0050</td>
+      <td align="center" id="dhbg">-</td>
+      <td align="center" id="dhbg">-</td>
+      </tr>
+      </table>
+      <br>
+ <p style="text-align:justify"><a href="#idA6-1.76"> [A6-1.76]</a><span id="idA6-1.76"></span>在实际工程中，连续梁桥大多采用盆式橡胶支座，选用方法与上述例题相似，根据连续梁桥的支座反力、支座类型（固定支座、单向活动支座、双向活动支座等）选择成品支座型号。值得注意的是，盆式橡胶支座有固定支座与活动支座之分，一般连续梁桥中应该有固定支座、单向活动支座、双向活动支座等规格，在型号及数量确定时要正确。</p>
+ <p><a href="#id6.1.3.2">二、支座设计与计算</a> <span id="id6.1.3.2"></span></p>
+ <p style="text-align:justify"><a href="#idA6-1.77"> [A6-1.77]</a><span id="idA6-1.77"></span>在无成品支座可选，或需专门设计特殊需要的支座时，应根据支座受力及变形等因素进行支座设计。以下着重介绍公路桥梁常用的板式橡胶支座和盆式橡胶支座的设计计算方法。</p>
+ 
+ <p><a href="#id6.1.3.2.1">1.支座类型选择</a> <span id="id6.1.3.2.1"></span></p>
+ 
+ <p style="text-align:justify"><a href="#idA6-1.78"> [A6-1.78]</a><span id="idA6-1.78"></span>板式橡胶支座的设计与计算包括确定支座尺寸、验算支座受压偏转情况以及验算支座的抗滑稳定性。</p>
+ <p style="text-align:justify" id="aaa"><b>（1）确定支座的几何尺寸</b></p>
+ <p style="text-align:justify" id="aaa">①支座的平面尺寸</p>
+ <p style="text-align:justify"><a href="#idA6-1.79"> [A6-1.79]</a><span id="idA6-1.79"></span>板式橡胶支座的平面尺寸由橡胶板的抗压强度和梁底部或墩台顶混凝土的局部承压强度来确定，一般由橡胶支座的抗压强度控制设计。其有效承压面积按<a href="#idgs613">[公式6-1-3]</a>计算：</p>
+ <span id="idgs613"></span>
+
+$$A_\\epsilon=\\frac{R_{ek}}{\\sigma_e}\\tag{6-1-3}$$
+ 
+
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>A</i><sub>e</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">支座有效承压面积（承压加劲钢板面积）（mm²）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>R</i><sub>ek</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">支座压力标准值（N），为使用阶段桥上全部恒载与活载（包括冲击力）所产生的最大支座反力；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>σ</i><sub>e</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">支座使用阶段的平均压应力限值（N/mm²），<i>σ</i><sub>e</sub>＝10.0 N/mm² 。</td>
+  </tr>
+ </table>
+ <p></p>
+ <p style="text-align:justify" id="aaa">②支座的厚度</p>
+ <p style="text-align:justify"><a href="#idA6-1.80"> [A6-1.80]</a><span id="idA6-1.80"></span>梁的水平位移是通过全部橡胶片的剪切变形来实现的，见<a href="#image6127">图6-1-27</a>。因此要确定支座的厚度，首先要知道主梁由于温度变化等因素预计将产生的纵向最大水平位移Δ。显然，橡胶片的总厚度<i>t</i><sub>e</sub>与水平位移Δ之间满足下列关系：</p>
+ <span id="idgs614"></span>
+
+$$\\frac{\\Delta}{t_e}\\leqslant\\tan\\alpha$$
+$$t_e\\geqslant\\frac{\\Delta}{\\tan\\alpha}\\tag{6-1-4}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>t</i><sub>e</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">橡胶片的总厚度（mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">tanα</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">橡胶支座剪切角正切值的限值，应按规范规定取用，根据是否计入活载制动力而取不同值。</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">Δ</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">荷载、温度变化等所引起的支座顶、底面的相对水平位移（mm）。</td>
+  </tr>
+ </table>
+ <p></p>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+
+ <div style="text-align:center;"><img id="image6127" src="../_static/fig/6-1-27.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图6-1-27  支座厚度的计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6127'));</script>
+
+ <p style="text-align:justify"><a href="#idA6-1.81"> [A6-1.81]</a><span id="idA6-1.81"></span>橡胶片的总厚度<i>t</i><sub>e</sub>确定后，再加上加劲薄钢板的总厚，即为所需的橡胶支座的厚度t。</p>
+
+ <p style="text-align:justify" id="aaa"><b>（2）验算支座的偏转情况</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.82"> [A6-1.82]</a><span id="idA6-1.82"></span>主梁受荷挠曲时，梁端将出现转动，但不允许与支座产生脱空现象。挠曲时梁端转角为θ（<a href="#image6128">图6-1-28</a>），此时支座表面将产生不均匀的压缩变形，一端为Δ<i>S</i><sub>1</sub>，另一端为Δ<i>S</i><sub>2</sub>，其平均压缩变形为：</p>
+ <span id="idgs615"></span>
+ <span id="idgs615a"></span>
+ <span id="idgs615b"></span>
+
+$$\\Delta S=\\frac{1}{2}(\\Delta S_1+\\Delta S_2)\\tag{6-1-5}$$
+$$\\Delta S_1=l_a\\cdot\\text{tg}\\theta+\\Delta S_2\\tag{6-1-5a}$$
+$$\\Delta S_2=\\frac{R_{max}t_e}{E_eA}\\tag{6-1-5b}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>R</i><sub>max</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">支座的最大设计反力（N）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>E</i><sub>e</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">橡胶支座的弹性模量（N/mm²）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">A</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">橡胶支座的毛面积（mm²），A=<i>l</i><sub>a</sub>×<i>l</i><sub>b</sub>，<i>l</i><sub>a</sub>和<i>l</i><sub>b</sub>分别表示橡胶支座的顺桥向长度和横桥向宽度；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">θ</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">橡胶支座的偏转角（゜）。</td>
+  </tr>
+ </table>
+ <p></p>
+ 
+ <div style="text-align:center;"><img id="image6128" src="../_static/fig/6-1-28.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图6-1-28  支座偏转图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6128'));</script>
+ 
+ <p style="text-align:justify" id="aaa"><b>（3）验算支座的抗滑性能</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.83"> [A6-1.83]</a><span id="idA6-1.83"></span>板式橡胶支座一般直接搁置在墩台与梁底之间，在受到梁体传来的水平力后，应保证支座不致滑动，即支座与混凝土间要有足够大的摩阻力来抵抗水平力，故应满足下式要求：</p>
+ <span id="idgs616"></span>
+ <span id="idgs617"></span>
+
+$$\\mu R_{Gx}\\geq1.4G_e A\\frac{\\Delta_l}{t_e}\\tag{6-1-6}$$
+$$\\mu R_{\\mathrm{ck}}\\geq1.4G_e A\\frac{\\Delta_l}{t_e}+T_{\\mathrm{bk}}\\tag{6-1-7}$$
+ 
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs"><i>R</i><sub>Gk</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">由结构自重引起的支座反力标准值（N）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>R</i><sub>ck</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">由结构自重标准值和0.5倍汽车荷载标准值（计入冲击系数）引起的支座反力（N）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>Δ</i><sub>l</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs" style="text-align:justify">由上部结构温度变化、混凝土收缩和徐变等作用标准值引起的剪切变形和纵向力标准值（不包括汽车制动力）产生的支座剪切变形，以及支座直接设置于不大于1%纵坡的梁底面下，在支座顶面由支座承压力标准值顺纵坡方向分力产生的剪切变形（mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>G</i><sub>e</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">支座剪变模量（N/mm²）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs"><i>T</i><sub>bk</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">由汽车荷载引起的制动力标准值（N）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">μ</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs" style="text-align:justify">支座与不同接触面的摩擦系数，支座与混凝土接触时μ＝0.3；支座与钢板接触时μ＝0.2；聚四氟乙烯扳与不锈钢板接触时<i>μ</i><sub>f</sub>＝0.06，当温度低于-25℃时，<i>μ</i><sub>f</sub>值增大30%，当不加硅脂时，<i>μ</i><sub>f</sub>值应加倍，当有实测资料时，也可按实测资料采用。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+ 
+ <p><a href="#id6.1.3.2.2">2. 盆式橡胶支座</a> <span id="id6.1.3.2.2"></span></p>
+ <p style="text-align:justify"><a href="#idA6-1.84"> [A6-1.84]</a><span id="idA6-1.84"></span>盆式橡胶支座的设计计算内容和其构造形式有关。通常需要进行以下内容的设计计算：确定聚四氟乙烯板和氯丁橡胶的尺寸，计算中间衬板，验算上下支座板、梁底和支座支承垫石、钢盆顶板偏转的控制、紧箍圈和防水圈的设计，以及螺栓连接和焊接计算等。</p>
+ <p style="text-align:justify"><a href="#idA6-1.85"> [A6-1.85]</a><span id="idA6-1.85"></span>在实际工程中，设计人员主要根据盆式橡胶支座产品目录选配适合具体桥梁的支座，极少情况下需要进行支座设计。因此，下面仅介绍底盆式构造的盆式橡胶支座计算方法。</p>
+ 
+ <p style="text-align:justify" id="aaa"><b>（1）基本尺寸的确定方法</b></p>
+ <p style="text-align:justify" id="aaa">①聚四氟乙烯板尺寸</p>
+ <p style="text-align:justify"><a href="#idA6-1.86"> [A6-1.86]</a><span id="idA6-1.86"></span>聚四氟乙烯板的最小直径由下式确定：</p>
+ <span id="idgs618"></span>
+
+$$D_1=\\sqrt{\\frac{4R_{\\max}}{\\pi[\\sigma_1]}}\\tag{6-1-8}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">[σ]<sub>1</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">聚四氟乙烯板的容许承压应力（N/mm²）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+
+ <p style="text-align:justify"><a href="#idA6-1.87"> [A6-1.87]</a><span id="idA6-1.87"></span>聚四氟乙烯板的厚度h<sub>1</sub>（<a href="#image6129">图6-1-29</a>），一般可取h<sub>1</sub>=(1/40~1/80)D<sub>1</sub>，直径愈大取值愈小，对于大直径板选取的比值还可再小些。</p>
+ 
+ <p style="text-align:justify" id="aaa">②氯丁橡胶板尺寸</p>
+ <p style="text-align:justify"><a href="#idA6-1.88"> [A6-1.88]</a><span id="idA6-1.88"></span>氯丁橡胶圆板的最小直径由下式确定：</p>
+ <span id="idgs619"></span>
+
+$$D_2=\\sqrt{\\frac{4R_{\\max}}{\\pi[\\sigma_2]}}\\tag{6-1-9}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">[σ]<sub>2</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">钢盆内橡胶板的容许承压应力（N/mm²）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+ <p style="text-align:justify"><a href="#idA6-1.89"> [A6-1.89]</a><span id="idA6-1.89"></span>橡胶板厚度h<sub>2</sub>（<a href="#image6129">图6-1-29</a>），一般可取h<sub>2</sub>=(1/10~1/18)D<sub>2</sub> 。</p>
+ 
+ <p style="text-align:justify" id="aaa">③下支座板尺寸</p>
+ <p style="text-align:justify"><a href="#idA6-1.90"> [A6-1.90]</a><span id="idA6-1.90"></span>由于下支座板钢盆内放置橡胶板，因此，下支座板钢盆的内径D<sub>3</sub>由橡胶板的直径确定。为使橡胶板置入钢盆内紧贴密合，一般取等于橡胶板直径或比橡胶板直径小0.5～1 mm。下支座板的计算图式如<a href="#image6129">图6-1-29</a>所示。</p>
+ 
+ <div style="text-align:center;"><img id="image6129" src="../_static/fig/6-1-29.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图6-1-29  下支座板的计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6129'));</script>
+
+ <p style="text-align:justify"><a href="#idA6-1.91"> [A6-1.91]</a><span id="idA6-1.91"></span>下支座板钢盆壁厚度应保证盆壁在橡胶板的环向应力下不致产生裂缝。可以按厚壁圆筒应力公式估算壁厚。中间衬板受到并传给橡胶板的应力q<sub>1</sub>为：</p>
+ <span id="idgs6110"></span>
+
+$$q_1=\\frac{R_{\\max}}{A}\\tag{6-1-10}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">A</td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">橡胶板的受压面积（mm²）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+ <p style="text-align:justify"><a href="#idA6-1.92"> [A6-1.92]</a><span id="idA6-1.92"></span>下支座板所受的环向拉力P为：</p>
+ <span id="idgs6111"></span>
+
+$$P=\\frac{q_1 D h_2}{2}\\tag{6-1-11}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">D</td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">下支座板钢盆初估内、外直径的平均值（mm）；</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+
+ <p style="text-align:justify"><a href="#idA6-1.93"> [A6-1.93]</a><span id="idA6-1.93"></span>于是，可求得下支座板钢盆壁的最小厚度h<sub>3</sub>为:</p>
+ <span id="idgs6112"></span>
+
+$$h_s=\\frac{P}{h[\\sigma]}\\tag{6-1-12}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">h</td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">钢盆壁高度（mm），h=h<sub>1</sub>+h<sub>2</sub>，预估时可取h=1.5h<sub>2</sub>；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">[σ]</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">钢盆材料的容许应力（N/mm²）。</td>
+  </tr>
+ </table>
+
+ <p style="text-align:justify"><a href="#idA6-1.94"> [A6-1.94]</a><span id="idA6-1.94"></span>在忽略橡胶板对钢盆壁内侧压力及盆壁环向拉力作用的条件下，假定盆底反力均匀分布，近似以钢盆底受弯的要求作为计算依据确定钢盆底厚度h<sub>4</sub>。</p>
+ <p style="text-align:justify"><a href="#idA6-1.95"> [A6-1.95]</a><span id="idA6-1.95"></span>在初估盆壁厚度时，同时按厚壁圆筒公式验算下支座板钢盆壁顶面的切向应力σ<sub>τ</sub>为:</p>
+ <span id="idgs6113"></span>
+
+$$\\sigma_\\tau=\\frac{q_1}{\\frac{b^2}{a^2}-1}\\bigg(1+\\frac{b^2}{r^2}\\bigg)\\frac{h_2}{h}\\leq[\\sigma]\\tag{6-1-13}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">a</td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">下支座板钢盆内半径（mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">b</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">下支座板钢盆外半径（mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">r</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">应力计算点至钢盆圆心的距离（mm）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+ <p style="text-align:justify"><a href="#idA6-1.96"> [A6-1.96]</a><span id="idA6-1.96"></span>下支座板盆底中央截面的弯矩按下式计算：</p>
+ <span id="idgs6114"></span>
+
+$$M_1=\\frac{R_{\\max}}{2}\\cdot\\frac{2}{3\\pi}\\left(D_4-D_3\\right)\\tag{6-1-14}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">M<sub>1</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">下支座板盆底中央截面的弯矩（N-mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">D<sub>3</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">下支座钢盆内径（mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">D<sub>4</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">下支座钢盆外沿直径（mm）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+
+ <p style="text-align:justify"><a href="#idA6-1.97"> [A6-1.97]</a><span id="idA6-1.97"></span>通过计算底部应力确定厚度，也可先假定厚度，再进行应力验算。</p>
+ <span id="idgs6115"></span>
+
+$$\\sigma=\\frac{6M_1}{D_4h_4^2}\\leq[\\sigma]\\tag{6-1-15}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">σ</td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">下支座板底部应力（N/mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">h<sub>4</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">下支座板的底厚（mm）（<a href="#image6129">图6-1-29</a>）。</td>
+  </tr>
+ </table>
+
+ <p style="text-align:justify"><a href="#idA6-1.98"> [A6-1.98]</a><span id="idA6-1.98"></span>当钢盆两个主轴方向的弯矩不同时，可按顺桥向和横桥向两个主轴方向分别计算，选取其中较不利值计算h<sub>4</sub>。</p>
+ <p style="text-align:justify"><a href="#idA6-1.99"> [A6-1.99]</a><span id="idA6-1.99"></span>实际上，按照悬臂板计算底板弯曲应力的方法是过于保守的，使得下支座板比较笨重，往往很不经济。因此，对于承载能力大的盆式橡胶支座的设计计算，往往采用有限元等分析计算法，更符合实际受力状态。</p>
+ 
+ <p style="text-align:justify" id="aaa">④中间衬板厚度</p>
+ <p style="text-align:justify"><a href="#idA6-1.100"> [A6-1.100]</a><span id="idA6-1.100"></span>中间衬板的顶部嵌入聚四氟乙烯板，下面为橡胶板，中间衬板的计算图式如<a href="#image6130">图6-1-30</a>所示。同样，圆形的中间衬板的计算可按悬臂板的受力状态考虑。</p>
+ 
+ <div style="text-align:center;"><img id="image6130" src="../_static/fig/6-1-30.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图6-1-30  中间衬板的计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6130'));</script>
+
+ <p style="text-align:justify"><a href="#idA6-1.101"> [A6-1.101]</a><span id="idA6-1.101"></span>中间衬板的顶面中央截面的弯矩计算式为：</p>
+ <span id="idgs6116"></span>
+
+$$M_2=\\frac{R_{\\max}}{2}\\cdot\\frac{2}{3\\pi}(D_2-D_1)\\tag{6-1-16}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">M<sub>2</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">中间衬板的顶面中央截面的弯矩（N-mm）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">D<sub>2</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">橡胶圆板直径（mm）（<a href="#image6130">图6-1-30</a>）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">D<sub>1</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">中间衬板直径（mm）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify"><a href="#idA6-1.102"> [A6-1.102]</a><span id="idA6-1.102"></span>先假设中间衬板的厚度，再进行应力计算，则</p>
+ <span id="idgs6117"></span>
+
+$$\\sigma=\\frac{6M_2}{D_2S_1^2}\\leq\\begin{bmatrix}\\sigma\\end{bmatrix}\\tag{6-1-17}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">S<sub>1</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">中间衬板的厚度（mm）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+ <p style="text-align:justify"><a href="#idA6-1.103"> [A6-1.103]</a><span id="idA6-1.103"></span>计算中间衬板顶面的弯矩时应考虑两个主轴方向分别求算，并考虑桥梁上部结构纵向移动时的弯矩组合。</p>
+
+ <p style="text-align:justify" id="aaa">⑤上支座板尺寸</p>
+ <p style="text-align:justify"><a href="#idA6-1.104"> [A6-1.104]</a><span id="idA6-1.104"></span>盆式橡胶支座的上支座板往往直接与梁底或梁底楔形调平块接触，其平面尺寸主要取决于支座的最大位移量、下支座板盆环的直径和螺栓连接位置所需要的尺寸总和。直线桥梁的上、下支座板顺桥向长度主要取决于前两项，横桥向宽度需要考虑连接螺栓的位置。</p>
+ <p style="text-align:justify"><a href="#idA6-1.105"> [A6-1.105]</a><span id="idA6-1.105"></span>上支座板的厚度可采用与下支座板类似的方法。对于盆式橡胶滑动支座，其水平位移要通过上支座板与聚四氟乙烯板发生相对位移来实现。因此，应考虑上支座板与聚四氟乙烯板对中和发生位移两种情况进行应力验算。发生位移时，要考虑滑动摩擦力产生的弯矩。</p>
+ <p style="text-align:justify"><a href="#idA6-1.106"> [A6-1.106]</a><span id="idA6-1.106"></span>以上的计算方法是比较粗略的，但是偏安全。从试验和有限元分析的结论可知，支座板的受力为中间大，边缘小。在板上除产生支承压力外，还有环向应力和径向应力。</p>
+ 
+ <p style="text-align:justify" id="aaa"><b>（2）中间衬板偏转控制</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.107"> [A6-1.107]</a><span id="idA6-1.107"></span>盆式橡胶支座中，要求在梁偏转时中间衬板与橡胶板的接触面不能出现脱空现象，即不允许出现局部承压的状态，则要求：</p>
+ <span id="idgs6118"></span>
+
+$$\\sigma=\\frac{R_{\\max}}{A}-\\frac{M_1}{W}\\geq0\\tag{6-1-18}$$
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#idA6-1.108"> [A6-1.108]</a><span id="idA6-1.108"></span>与板式橡胶支座的偏转验算一样，要求ΔS<sub>2</sub>≥0。即</p>
+ <span id="idgs6119"></span>
+
+$$\\Delta S_2=\\frac{N h_2}{AE_2}-\\frac{D_2\\theta}{2}\\geq0\\tag{6-1-19}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+  <tr>
+  <td width="50px" align='center' id="eqzs">式中</td>
+  <td width="30px" align='left' id="eqzs">σ</td>
+  <td width="40px" align='left' id="eqzs">——</td>
+  <td id="eqzs">橡胶板接触面的正应力（N/mm²）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">W</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">橡胶板截面受拉边缘的截面抵抗矩（mm³）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">A</td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">与下支座板钢盆或中间衬板接触的橡胶板面积（mm²）；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">E<sub>2</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">有侧向约束的橡胶板弹性模量（N/mm2），可取530N/mm²；</td>
+  </tr>
+  <tr>
+  <td id="eqzs"></td>
+  <td id="eqzs">ΔS<sub>2</sub></td>
+  <td id="eqzs">——</td>
+  <td id="eqzs">盆式橡胶支座产生转角时，橡胶板的最小压缩量（mm）。</td>
+  </tr>
+ </table>
+ <p style="text-align:justify">其余符号意义同前。</p>
+
+ <p style="text-align:justify" id="aaa"><b>（3）梁底与支座垫石的局部承压验算</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.109"> [A6-1.109]</a><span id="idA6-1.109"></span>盆式橡胶支座反力大，支承垫石内需设置钢筋，应按配置间接钢筋的局部承压构件进行验算。可参照“结构设计原理”课程中“局部承压区的计算”相关内容进行计算，计算结果应满足现行规范《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）要求，这里不再详述。</p>
+ 
+ <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify"><a href="#idA6-1.110"> [A6-1.110]</a><span id="idA6-1.110"></span>一般情况下一座桥梁的支座无需设计与计算，而是根据桥跨结构支承反力大小和变形量要求，按照成品支座目录选择支座型号。只有在所设计桥梁采用的支座无成品可选时，才单独设计专用支座。</p>
+ <p style="text-align:justify"><a href="#idA6-1.111"> [A6-1.111]</a><span id="idA6-1.111"></span>支座设计首先应满足承载力要求，其次是变形要求，最后还应考虑耐久性问题，频繁更换支座不仅要投入大量人力和物力，而且正常交通也受影响，支座失效对桥跨结构也将产生影响。</p>
+ <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <ol>
+ <li>简述板式橡胶支座的计算要点。</li>
+ <li>简述盆式橡胶支座的计算要点。</li>
+ <li>试对算例[例2-5-8]主梁选择合适的板式橡胶支座。</li>
+ </ol>
+ 
+
+
+:math:`\ `

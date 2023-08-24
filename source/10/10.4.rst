@@ -6,10 +6,1411 @@
 
  <h3 id="test111"> 第四节  连续体系梁桥计算</h3>
 
- <p style="text-align:justify;font-family:times new roman"><a href="#idA2.100"> [A2.100]</a><span id="idA2.100"> 连续体系梁桥是超静定结构，在结构内力计算时与简支梁桥最大的不同在于：预加力、混凝土收缩和徐变、温度变化以及基础不均匀沉降等因素将引起结构附加内力（又称附加内力），因此，除进行永久作用内力计算、可变作用内力计算外，还应进行附加内力的计算。设计实践表明：在结构内力计算中，永久作用内力和可变作用内力是主要的，一般占整个设计最大内力的80～90％以上。<br>预应力混凝土连续梁桥永久作用内力计算与施工方法密切相关，采用不同施工方法，主梁内力不同，导致主梁截面尺寸和配筋不同。连续刚构桥大多采用悬臂法施工，但与同样采用悬臂法施工的连续梁桥不同，在各跨主梁合龙前均不需要进行体系转换，故主梁受力略有区别。下文以连续梁桥为主线进行介绍。</span></p>
-  
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.43"> [A2-6.43]</a><span id="idA2-6.43"> 连续体系梁桥是超静定结构，在结构内力计算时与简支梁桥最大的不同在于：预加力、混凝土收缩和徐变、温度变化以及基础不均匀沉降等因素将引起结构附加内力（又称附加内力），因此，除进行永久作用内力计算、可变作用内力计算外，还应进行附加内力的计算。设计实践表明：在结构内力计算中，永久作用内力和可变作用内力是主要的，一般占整个设计最大内力的80～90％以上。</span></p>  
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.44"> [A2-6.44]</a><span id="idA2-6.44">  预应力混凝土连续梁桥永久作用内力计算与施工方法密切相关，采用不同施工方法，主梁内力不同，导致主梁截面尺寸和配筋不同。连续刚构桥大多采用悬臂法施工，但与同样采用悬臂法施工的连续梁桥不同，在各跨主梁合龙前均不需要进行体系转换，故主梁受力略有区别。下文以连续梁桥为主线进行介绍。</span></p>
  <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.1"> 一、永久作用内力计算</a> <span id="id2.6.4.1"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.2"> 二、可变作用内力计算</a> <span id="id2.6.4.2"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.3"> 三、超静定结构附加内力计算</a> <span id="id2.6.4.3"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.4"> 四、作用组合及包络图</a> <span id="id2.6.4.4"> </span></p>
+  
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.45"> [A2-6.45]</a><span id="idA2-6.45"> （一）结构重力<br>连续梁桥主梁的永久作用内力，包主梁自重(也称一期恒载)引起的主梁自重内力<i>S</i><sub>g1</sub>和桥面铺装、人行道、栏杆、灯柱等引起的主梁后期恒载(也称二期恒载)内力<i>S</i><sub>g2</sub>，总称为主梁永久作用内力<i>S</i><sub>g</sub>。主梁自重是在结构逐步形成的过程中作用于桥跨结构，因此，一期恒载内力计算与施工方法有密切关系。预应力混凝土连续梁桥在施工过程中不断有体系转换过程，计算一期恒载内力时必须分阶段进行。二期恒载作用于桥跨结构时，主梁己形成最终连续梁体系，二期恒载内力的计算就可直接应用结构内力影响线。随着预应力工艺、悬臂施工方法等的发展，预应力混凝土梁桥的施工方法得到不断创新和发展，一期恒载内力计算可归纳为两大类进行计算：一类是在施工过程中结构不发生体系转换（即一次落架内力）；另一类是在施工中发生体系转换（即分阶段施工内力）。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.46"> [A2-6.46]</a><span id="idA2-6.46"> 1.在施工过程中结构不发生体系转换<br>当连续梁桥采用整体支架浇筑施工时，在预应力钢筋张拉并锚固后，拆除支架。在建造过程中没有发生体系转换，而是一次性整体完成，故永久作用内力按成桥状态计算即可。以三跨等截面连续梁桥为例，主梁自重内力集度<i>g</i>沿跨长均匀分布，可按均布荷载乘以主梁内力影响线总面积计算，如<a href="#image2.6.25">图2-6-25</a>所示。对于超静定连续梁桥，通常可利用力学公式和相关图表绘制内力影响线；如主梁为变截面，自重集度<i>g</i>(<i>x</i>)沿跨长是变化的，可按下式计算：</span></p>
 
+$$S_{g1}=\\int_{L}g(x)\\cdot y(x)dx\\tag{2-6-1}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>S</i><sub>g1</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">主梁截面自重内力(一期恒载产生的弯矩或剪力)；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>g</i>(<i>x</i>)</td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 主梁自重集度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>y</i>(<i>x</i>)</td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">相应的主梁内力影响线坐标。</td>
+ </tr>
+ </table>
+ <p> </p>
+ <p style="text-align:justify;font-family:times new roman">如果变截面连续梁的最大和最小截面惯性矩比不大于2.5时，可利用等截面的内力影响线图表来计算。</p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.25{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.25" src="../_static/fig/2-6-25.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-25  整体浇筑施工法（一次落架）弯矩图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.25'));</script>
+
+  </body> 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.47"> [A2-6.47]</a><span id="idA2-6.47"> 2、在施工过程中发生体系转换<br>在施工中发生体系转换的施工方法有：逐孔浇筑法、悬臂灌注（拼装）法、顶推法等。采用不同的施工方法，引起各个施工阶段结构内力的变化不同，因此，主梁自重内力计算必须根据不同的施工方法顺序和体系转换的具体情况分阶段累计进行计算。</span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman">（1）逐孔浇筑法<br>逐孔架设法分三种施工情况：</p>
+ 
+ <p style="text-align:justify;font-family:times new roman">①简支梁转换为少跨连续梁，逐孔施工转换为所要求的连续梁。此时，主梁的自重内力即为简支梁内力(<math xmlns="http://www.w3.org/1998/Math/MathML"  ><msub><mi>M</mi><mrow><mi>g</mi><mn>1</mn></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>8</mn></mfrac></mstyle><msub><mi>q</mi><mn>1</mn></msub><msup><mi>l</mi><mn>2</mn></msup></math>)，当全部结构连成连续梁后，再施工桥面铺装等，则<i>M</i><sub>g2</sub>按最终的连续梁体系计算。如在逐孔架设的同时，在已架好的主梁上进行桥面铺装等施工，那么计算主梁永久作用内力<i>M</i><sub>g2</sub>时，应按实际施工过程中的结构体系进行分析，见<a href="#image2.6.26">图2-6-26</a>。</p>
+
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.26{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.26" src="../_static/fig/2-6-26.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-26  简支梁转换为连续梁时结构自重内力计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.26'));</script>
+
+  </body>
+   
+ <p style="text-align:justify;font-family:times new roman">②单悬臂梁转换为连续梁的逐孔架设法（<a href="#image2.6.27">图2-6-27</a>）。每架设一孔就形成一带悬臂的连续梁体系。因而每次架设上去的主梁自重内力（弯矩）应按实际的结构体系计算。</p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.27{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.27" src="../_static/fig/2-6-27.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-27  单悬臂梁逐跨架设成连续梁时主梁内力（弯矩）计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.27'));</script>
+
+  </body>
+   
+ <p style="text-align:justify;font-family:times new roman">为了改善施工接缝断面处受力，一般将施工接缝设在按一次落架计算的弯矩较小的截面，最好选择在弯矩为零的截面。由此得到的最终成桥状态截面弯矩与一次落架弯矩（<a href="#image2.6.25">图2-6-25</a>）完全相同。如果该施工接缝偏离弯矩为零截面，最终成桥状态的截面弯矩会有别于一次落架弯矩，但是这一差别较小，仍可近似采用一次落架法计算成桥状态截面内力。</p>
+ <p style="text-align:justify;font-family:times new roman">③简支转连续的逐孔加架设法。起初，主梁的自重内力为简支梁内力(<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>M</mi><mrow><mi>g</mi><mn>1</mn></mrow></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>8</mn></mfrac></mstyle><msub><mi>q</mi><mn>1</mn></msub><msup><mi>l</mi><mn>2</mn></msup></math>)，在张拉墩顶负弯矩预应力束后，将在结构内产生附加内力（具体计算可参考本章第三节相关内容），则最终一期恒载内力Sg1为这二部分的内力之和。</p>
+
+ <p style="text-align:justify;font-family:times new roman">（2）悬臂施工法<br>当按对称悬臂施工形成结构时，成桥状态的截面弯矩是通过逐个梁段的悬臂逐步形成的，边中跨合龙前主梁弯矩图如<a href="#image2.6.28">图2-6-28</a>和<a href="#image2.6.29">图2-6-29b）</a>所示。在边中跨合龙过程中，主梁截面内力随着施工阶段而发生变化，如<a href="#image2.6.29">图2-6-29c）～f）</a>所示。</p> 
+ 
+  <body>
+
+ <style type="text/css">
+      #image2.6.28{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.28" src="../_static/fig/2-6-28.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-28  悬臂施工法弯矩图（合龙前）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.28'));</script>
+
+  </body>
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman">①边跨合龙，拆除边跨现浇段支架，如<a href="#image2.6.29">图2-6-29c）</a>所示；<br>②1号墩处主梁体系转换，如<a href="#image2.6.29">图2-6-29d）</a>所示；<br>③中跨合龙，拆除边跨现浇段支架，如<a href="#image2.6.29">图2-6-29e）</a>所示；<br>④拆除中跨合龙段挂篮，如<a href="#image2.6.29">图2-6-29f）</a>所示。<br>主梁一期恒载内力图应由<a href="#image2.6.29">图2-6-29b）</a>～f）这五个阶段的内力图叠加而成。</p>
+ 
+  <body>
+
+ <style type="text/css">
+      #image2.6.29{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.29" src="../_static/fig/2-6-29.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-29  平衡悬臂施工的连续梁桥主梁自重内力（弯矩）计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.29'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman">需要指出的是，连续刚构桥大多采用悬臂法施工，施工过程没有“②1号墩处主梁体系转换”，所以，内力计算略有差别。</p>
+
+ <p style="text-align:justify;font-family:times new roman">（3）顶推法<br>顶推法施工的连续梁，当全桥结构顶推就位后，安放与调整各支点的支座位置。此时，主梁自重（一期恒载）内力计算与一次落架的计算方法相同，都是按成桥状态计算。但是，在主梁顶推过程中，梁体内力不断发生变化，梁段各截面在经过支点时要承受负弯矩，在经过跨中区段时产生正弯矩，即主梁截面的弯矩和剪力都要承受不断地正负交替变化。<br>在顶推阶段，连续梁的受力情况，受施工导梁的长度与被顶推梁的跨度之比、刚度之比、自重之比以及有无临时中间墩，或有无临时缆索等因素影响。必须从顶推开始位置到最后落梁就位的整个区间，划分为若干个区段，计算出每向前顶推一段，主梁各截面的弯矩和剪力，然后汇总，得出最大、最小弯矩图和剪力图。<br>顶推过程中主梁内力状态与初估方法，可以编制电算程序计算。一般取每顶出5m长度进行一次主梁自重内力分析。把整个顶推过程分成多个阶段，求出每阶段的自重内力图，把这些内力图叠置在同一基准线上，可以得到最不利的内力包络图，如图2-6-31所示。可见，不利位置在顶推连续梁的首部靠近支座处，而其余梁段上近似接近在自重作用下固端梁的最大正、负弯矩值。</p> 
+ 
+   <body>
+
+ <style type="text/css">
+      #image2.6.30{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.30" src="../_static/fig/2-6-30.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-30  顶推法施工连续梁的自重内力包络图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.30'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman">顶推过程中主梁的内力计算，一般采用以下方法来估算梁内最大正、负弯矩值。</p>
+ <p style="text-align:justify;font-family:times new roman">（1）主梁最大正弯矩<br>顶推时，主梁最大正弯矩发生在前伸导梁刚推移过墩顶支点外时，如<a href="#image2.6.31">图2-6-31</a>所示。最大正弯矩截面位置约在第一跨的0.4L处。则<i>M</i><sub>max</sub><sup>+</sup>的近似计算公式为：</p>
+
+$$M_{\\mathrm{max}}^{+}=(0.933-2.96\\gamma\\beta^2)\\cdot\\dfrac{gL^2}{12}\\tag{2-6-2}$$  
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="50px" align='right'  id="eqzs" ><i>γ</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">导梁与混凝土的自重比； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>β</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 导梁长度与跨径之比（一般<i>β</i>在0.6左右）。</td>
+ </tr>
+  </table>
+ <p> </p>
+
+  <body>
+
+ <style type="text/css">
+      #image2.6.31{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.31" src="../_static/fig/2-6-31.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-31  鼻梁刚过支点时的一期恒载内力示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.31'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> （2）主梁最大负弯矩<br>顶推时，产生最大负弯矩的情况可能有两种。</p>
+
+ <p style="text-align:justify;font-family:times new roman"> ①前伸导梁刚到达前方墩顶前<br>如<a href="#image2.6.32">图2-6-32</a>所示，前伸导梁刚到达前方墩顶前接近支点时，主梁伸出悬臂最长，此时可能产生最大负弯矩<i>M</i><sub>min</sub><sup>-</sup>的近似计算公式为</p>
+
+$$M_{\\mathrm{min}}^{-}=-[6a^2+6y(1-a^2)]\\cdot \\dfrac{gL^2}{12}\\tag{2-6-3}$$
+
+.. raw:: html
+
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>a</i>——主梁伸出部分长度的比值，<i>a</i>=1-<i>β</i> 。</p>
+
+
+
+  <body>
+
+ <style type="text/css">
+      #image2.6.32{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.32" src="../_static/fig/2-6-32.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-32  鼻梁接近前方支点时的一期恒载内力示意</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.32'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"> ②前伸导梁刚搁上墩顶支点<br>此时，梁内亦可能再出现最大负弯矩值<i>M</i><sub>min</sub><sup>-</sup>，<i>M</i><sub>min</sub><sup>-</sup>值与导梁和混凝土梁的刚度比<i>k</i>有关。</p>
+
+$$M_{\\mathrm{min}}^{-}=-\\mu\\cdot \\dfrac{gL^2}{12}\\tag{2-6-4}$$
+
+.. raw:: html
+
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>μ</i>——计算系数，由<i>k</i> 与<i>a</i>查<a href="#image2.6.33">图2-6-33</a>可得。</p>
+ <p style="text-align:justify;font-family:times new roman"> 导梁与混凝土主梁的刚度比：</p>
+
+$$k=\\dfrac{E_s I_s}{E_c I_c}\\tag{2-6-5}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>E</i><sub>s</sub>、<i>I</i><sub>s</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">钢导梁的弹性模量与截面惯性矩； </td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>E</i><sub>c</sub>、<i>I</i><sub>c</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 混凝土主梁的弹性模量与截面惯性矩。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.33{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.33" src="../_static/fig/2-6-33.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-33 <i>μ</i>与<i>k</i>、<i>a</i>的关系</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.33'));</script>
+
+  </body>
+
+
+ <p style="text-align:justify;font-family:times new roman">需要说明的是，采用顶推法施工时，尽管在顶推过程中结构体系发生了多次变化，但如果忽略混凝土徐变影响，则最终成桥状态截面弯矩与一次落架时的弯矩完全相同。<br>二期恒载内力的计算比较简单，此时结构已成为最终体系，按成桥状态计算。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.48"> [A2-6.48]</a><span id="idA2-6.48"> （二）支座不均匀沉降位移<br>纵向计算的不均匀沉降位移，初步设计阶段若无准确数据，小跨径桥梁一般取0.5 cm，中等跨径桥梁一般取1.0 cm，大跨径桥梁一般取2.0 cm。一般横向计算可忽略不均匀沉降位移。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.49"> [A2-6.49]</a><span id="idA2-6.49"> （三）施工临时荷载<br>若没有具体数值时，悬臂施工的挂篮、模板、机具等荷载可按最重悬臂施工节段自重的0.5倍左右估算，取值在400～1000 kN以内。<br>桥面堆载仅在施工稳定性验算时考虑，一般按照2.5 kN/m计算。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.50"> [A2-6.50]</a><span id="idA2-6.50"> （四）预应力径向力<br>在横向计算、锚固齿板或预应力钢束弯曲处局部计算时，需要考虑由于预应力钢筋弯曲产生的径向分力对结构的影响。</span></p>
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.2"> 二、可变作用内力计算</a> <span id="id2.6.4.2"> </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.51"> [A2-6.51]</a><span id="idA2-6.51"> （一）计算要点</span></p>
+ <p style="text-align:justify;font-family:times new roman">可变作用施加于桥跨结构时，不管采用何种施工方法，主梁结构己形成最终体系——连续梁桥，因此内力计算图式十分明确。可变作用内力计算是确定汽车荷载、人群荷载等在桥梁使用阶段产生的结构内力。<br>在计算各主梁可变作用内力时，与简支梁中一样，也要分析荷载的横向分布，即确定主梁的荷载横向分布系数。鉴于悬臂梁和连续梁与简支梁的力学体系不同，因而不能直接应用前面基于简支梁分析的结果。下面按装配式截面和整体箱形截面两类情况分别介绍横向分布系数和截面内力的计算方法。<br>当采用T梁或箱形梁且肋数较多时，利用平面杆系电算程序，配合荷载横向分布子程序来计算可变作用内力。单箱单室截面，仅需利用桥梁结构专用分析程序，在横向布置中载和偏载两种工况来计算可变作用下的主梁截面内力。</p>
+ <p style="text-align:justify;font-family:times new roman">1. 连续梁桥按平面杆系结构计算可变作用内力的方法<br>  （1）绘制主梁内力影响线；<br>（2）在纵桥向进行影响线加载。在内力影响线上按最不利荷载位置布置可变作用，即可求得主梁截面的内力。当内力影响线有正、负两种区段时，就应分别对正、负区段加载，以求出正、负两个内力最大值。</p>
+ <p style="text-align:justify;font-family:times new roman">2. 连续梁桥按空间结构计算可变作用内力的方法<br>计算方法与杆系结构类似，只需计算主梁的横向分布系数，用横向分布系数乘以荷载，即<i>m</i><sub>i</sub><i>P</i><sub>i</sub>，然后在纵桥向进行影响线加载。计算主梁弯矩可用跨中荷载横向分布系数<i>m</i><sub>c</sub>代替全跨各点上的<i>m</i><sub>i</sub>；计算支点主梁剪力时，应考虑<i>m</i><sub>i</sub>沿跨内的变化。</p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.52"> [A2-6.52]</a><span id="idA2-6.52"> （二）横向分布系数计算方法</span></p>
+ <p style="text-align:justify;font-family:times new roman">1. 装配式截面主梁<br>对各种桥梁（装配式T梁、小箱梁等）位于支点处的荷载，均可比照简支梁桥，按“杠杆原理法”来计算荷载横向分布系数<i>m</i><sub>0</sub>。<br>对于装配式连续梁桥跨，则与简支梁桥有所不同。鉴于跨中荷载横向分布规律主要取决于结构纵向刚度与横向刚度之间的关系（见简支梁部分的分析），因此，可以引用一个非简支体系的纵向刚度修正系数<i>C</i><sub>w</sub>来近似考虑因体系不同对荷载横向分布带来的影响。按非简支体系梁与简支梁的挠度相等原理，采用共轭梁法计算等代简支梁的抗弯刚度。</p>
+ 
+$$I_{i}^{*}=C_{\\mathrm{w}}I_{\\mathrm{p}}\\tag{2-6-6}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>I</i><sub>i</sub><sup>*</sup></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">等代简支梁刚度；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>I</i><sub>p</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 等截面非简支体系梁的抗弯刚度；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>C</i><sub>w</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 纵向刚度修正系数，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>C</mi><mi>w</mi></msub><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>w</mi><msup><mi>w</mi><mrow><msup><mi></mi><mo>′</mo></msup></mrow></msup></mfrac></mstyle></math>,其中<i>w</i>为单位荷载<i>p</i>=1作用于简支主梁跨中时的跨中挠度（<a href="#image2.6.34">图2-6-34a）</a>；<i>w</i><sup>'</sup> 为单位荷载<i>p</i>=1作用于非简支主梁跨中时的跨中挠度。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.34{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.34" src="../_static/fig/2-6-34.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">a）简支梁；b）固端梁；c）两跨连续梁；d）三跨连续梁中跨；e）三跨连续梁边跨<br>图2-6-34 各种体系<i>C</i><sub>w</sub>的计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.34'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#B2.6.4">表2-6-4</a>列出了<a href="#image2.6.34">图2-6-34b）</a>～<a href="#image2.6.34">图2-6-34e）</a>所示常用非简支梁体系等截面梁的纵向刚度修正系数<i>C</i><sub>w</sub>值。</p>
+ 
+   <style>
+      #biaoge {
+                  border: 2px solid black;
+                  border-collapse: collapse;
+                  margin-bottom:1px;
+                                               
+                  }
+      th, td {
+                  padding-top: 5px;
+                  padding-bottom:5px;
+                  padding-left:5px;
+                  padding-right:5px;
+                  border: 1px solid black;
+                  vertical-align: middle;
+                                                
+                  }
+      #eqzs {
+                  border: 0px;
+                  }
+      #dhbg {
+                  vertical-align: middle;
+                  }
+      </style>
+                                       
+      <table id="biaoge" style="font-family:times new roman">
+                                       
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.6.4">表2-6-4 <i>C</i><sub>W</sub>值   </b></caption>	
+                                                     
+      <tr>
+      <td align="center" id="dhbg" rowspan="3">结构<br>体系</td>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">2</td> 
+      <td align="center" id="dhbg" colspan="3">3</td>
+      <td align="center" id="dhbg" colspan="3">4</td>  
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">固端<br>悬臂梁</td>
+      <td align="center" id="dhbg" rowspan="2">两跨<br>等跨<br>连续梁</td>
+      <td align="center" id="dhbg" colspan="3">三跨连续梁中跨<br><i>l</i><sub>边</sub><i>l</i><sub>中</sub></td>
+      <td align="center" id="dhbg" colspan="3">三跨连续梁边跨<br><i>l</i><sub>边</sub><i>l</i><sub>中</sub></td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">1:1</td>
+      <td align="center" id="dhbg">1:1.2</td>
+      <td align="center" id="dhbg">1:1.4</td>
+      <td align="center" id="dhbg">1:1</td>
+      <td align="center" id="dhbg">1:1.2</td>
+      <td align="center" id="dhbg">1:1.4</td>
+      </tr>
+      <tr>
+      <td align="center" width="160px" id="dhbg">纵向刚度<br>修正系数<br><i>C</i><sub>W</sub></td>
+      <td align="center" width="100px" id="dhbg">1</td>
+      <td align="center" width="100px" id="dhbg">1.391</td>
+      <td align="center" width="90px" id="dhbg">1.818</td>
+      <td align="center" width="90px" id="dhbg">1.931</td>
+      <td align="center" width="90px" id="dhbg">2.034</td>
+      <td align="center" width="90px" id="dhbg">1.429</td>
+      <td align="center" width="90px" id="dhbg">1.382</td>
+      <td align="center" width="90px" id="dhbg">1.344</td>
+      </tr>
+      </table>
+      <p></p>
+ <p style="text-align:justify;font-family:times new roman">由已知纵向刚度修正系数<i>C</i><sub>W</sub>，来确定连续体系窄桥、宽桥的划分标准。<br>根据理论分析可知，按<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>θ</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>B</mi><mn>21</mn></mfrac></mstyle><mroot><mstyle displaystyle="true" scriptlevel="0"><mfrac><msub><mi>J</mi><mi>x</mi></msub><msub><mi>J</mi><mi>y</mi></msub></mfrac></mstyle><mn>4</mn></mroot><mo>≤</mo><mn>0.3</mn></math>来定名“窄桥”比粗略的<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>B</mi><mi>l</mi></mfrac></mstyle><mo>≤</mo><mn>0.5</mn></math>来定名更为合适（参见简支梁计算中“偏心压力法”）。在上式中引入纵向刚度修正系数<i>C</i><sub>W</sub>，可得窄桥的条件为：</p>
+
+$$\\dfrac{l}{B}=1.66\\sqrt[4]{\\dfrac{C_w J_x}{J_y}}\\tag{2-6-7}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>l</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">与简支梁相对应的跨径，对于悬臂部分取<i>l</i>=2<i>l</i><sub>x</sub>，对于连续梁取<i>l</i>=<i>l</i><sub>1</sub> （或 <i>l</i><sub>2</sub>）；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>B</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 桥梁承重结构的宽度； </td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>J</i><sub>x</sub>、<i>J</i><sub>y</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs"> 桥梁纵向和横向的比拟单宽刚度（详见简支梁桥的计算部分）。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman">由此可见，当荷载位于悬臂端部和连续梁跨中时，如结构满足式（2-6-7）的条件，则可按“偏心压力法”来计算相应的荷载横向分布系数<i>m</i><sub>c</sub>。</p>
+ <p style="text-align:justify;font-family:times new roman">对于<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>B</mi><mi>l</mi></mfrac></mstyle><mo>&lt;</mo><mn>1.66</mn><mroot><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><msub><mi>C</mi><mi>w</mi></msub><msub><mi>J</mi><mi>x</mi></msub></mrow><msub><mi>J</mi><mi>y</mi></msub></mfrac></mstyle><mn>4</mn></mroot></math>的情况，宜采用“G-M法”来计算。此时，应根据用 系数修正后的刚度参数θ'和α'进行查表计算，并绘制荷载横向分布影响线。θ'和α'的修正式为：</p>
+ 
+$$\\theta^{'} =\\dfrac{B}{2l}\\sqrt[4]{\\dfrac{C_w J_x}{J_y}}=\\sqrt[4]{C_w}\\cdot \\theta \\tag{2-6-8}$$ 
+
+$$ a^{'}=\\dfrac{G(J_{Tx}+J_{Ty})}{2E\\sqrt{C_w J_xJ_y}}=\\dfrac{1}{\\sqrt{C_w} }\\cdot a\\tag{2-6-9}$$  
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>θ</i>、<i>a</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">同跨径简支体系的刚度参数，必须注意，对于长度为<i>l</i><sub>x</sub>的悬臂梁在计算<i>θ</i>时应取对应的跨径<i>l</i>=2<i>l</i><sub>x</sub>。</td>
+ </tr>
+  </table>
+ <p> </p>
+ <p style="text-align:justify;font-family:times new roman">荷载横向分布系数沿梁长的变化，也可参照简支梁桥中的方法同样处理。</p>
+ <p style="text-align:justify;font-family:times new roman">2. 整体式箱形截面主梁<br>闭口薄壁箱形截面梁的受力特点与一般T梁不同，其精确计算必须用薄壁构件结构力学的方法求解。如<a href="#image2.6.35">图2-6-35</a>所示，当桥上有<i>K</i>行车辆荷载对桥中线呈偏心作用时，横向一排车辆的总重<i>KP</i>将具有偏心距<i>e</i>，此时整体箱形梁的受力可分作两种情况来计算：对称荷载<i>KP</i>作用下的平面弯曲计算和扭矩<i>M</i><sub>T</sub>=<i>KP</i>·<i>e</i>KP作用下的扭矩计算。</p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.35{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.35" src="../_static/fig/2-6-35.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-35 箱形截面梁的受力图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.35'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman">对于平面弯曲计算，通常可用熟知的材料力学公式计算各横截面上的弯曲正应力<i>σ</i><sub>M</sub>和弯曲剪应力<i>τ</i><sub>M</sub>。对于扭转计算，一般来说，箱形薄壁杆件受扭后横截面将产生自由扭转剪应力<i>τ</i><sub>k</sub>、约束扭转正应力<i>σ</i><sub>w</sub>与剪应力 <i>τ</i><sub>w</sub>以及截面发生歪扭引起的畸变正应力<i>σ</i><sub>dw</sub>与剪应力<i>τ</i><sub>dw</sub> ，具体计算方法参见“桥梁结构分析与设计”教材。<br>在实际设计中，可以避免繁复的扭转应力计算而采用一些近似方法来估算，对计算结果不会导致很大的误差。国内对整体式直线箱形截面的桥梁常采用下列近似方法计算荷载内力。</p>
+ <p style="text-align:justify;font-family:times new roman">（1）经验估值法<br>对于具有一定厚度且有横隔板加劲的箱梁，忽略歪扭变形的畸变应力；将可变作用偏心作用引起的约束扭转正应力和剪应力分别估计为可变作用对称作用下平面弯曲正应力的15%和剪应力的5%。因此当永久作用对称作用时箱形梁任意截面计及扭转影响的总荷载内力近似估计为：</p>
+ 
+$$M=M_{\\mathrm{g}}+1.15 M_{\\mathrm{p}} \\tag{2-6-10}$$ 
+
+$$V=V_{\\mathrm{g}}+1.05 V_{\\mathrm{p}} \\tag{2-6-11}$$  
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="100px" align='right'  id="eqzs" ><i>M</i><sub>g</sub>、<i>V</i><sub>g</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">永久作用引起的弯矩和剪力；</td>
+ </tr>
+  <tr>
+ <td width="70px" align='right'  id="eqzs" > </td>
+ <td width="100px" align='right'  id="eqzs" ><i>M</i><sub>P</sub>、<i>P</i><sub>g</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">全部可变作用对称于桥梁中心线作用时引起的弯矩和剪力。</td>
+ </tr>
+  </table>
+ <p> </p>
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman">（2）修正偏心压力法<br>鉴于整体式箱形截面主梁横向刚度和扭转刚度大，荷载作用下主梁发生变形时可以认为横截面保持原来形状不变，即箱梁各个腹板的挠度也呈直线变化。因此，通常可以将箱梁腹板近似看作等截面的梁肋，先按修正偏心压力法求出可变作用偏心作用下边腹板的荷载横向分布系数,再乘以腹板总数,这样就得到箱梁截面可变作用内力的增大系数。例如，对于图2-6-37所示的单箱三室截面，边腹板的可变作用分配系数为：</p>
+
+$$ \\eta_{\\mathrm{max}}=\\dfrac{1}{n}+\\beta \\dfrac{e_{\\mathrm{max}}a_1}{\\displaystyle \\sum_{i=1}^{n}a_{i}^2}\\tag{2-6-12}$$ 
+
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>n</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">箱梁的腹板总数；</td>
+ </tr>
+  <tr>
+ <td width="70px" align='right'  id="eqzs" > </td>
+ <td width="70px" align='right'  id="eqzs" ><i>β</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">抗扭修正系数。</td>
+ </tr>
+  </table>
+ <p> </p>
+
+$$\\beta=\\dfrac{1}{1+n\\gamma\\dfrac{G}{E}\\cdot\\dfrac{I_T}{I}\\cdot \\dfrac{1}{\\sum a_i^2}}\\tag{2-6-13}$$
+
+.. raw:: html
+
+  <body>
+
+ <style type="text/css">
+      #image2.6.36{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.36" src="../_static/fig/2-6-36.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-36 内力增大系数计算图式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.36'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">对于简支跨的跨中截面<i>γ</i>=<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>γ</mi><mo>=</mo><msup><mi>l</mi><mn>2</mn></msup><mrow><mo>/</mo></mrow><mn>12</mn></math>，对于悬臂梁的端部截面<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>γ</mi><mo>=</mo><msubsup><mi>l</mi><mi>x</mi><mn>2</mn></msubsup><mrow><mo>/</mo></mrow><mn>3</mn></math>；对于带锚固孔（跨径为<i>l</i><sub>1</sub>）的外伸梁的端部截面<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>γ</mi><mo>=</mo><mo stretchy="false">[</mo><msub><mi>l</mi><mi>x</mi></msub><mo stretchy="false">(</mo><msub><mi>l</mi><mn>1</mn></msub><mo>+</mo><msub><mi>l</mi><mi>x</mi></msub><mo stretchy="false">)</mo><mo stretchy="false">]</mo><mrow><mo>/</mo></mrow><mn>3</mn></math>；对于各种跨径比的连续梁的跨中截面，也可按简支梁计算中横向分布系数计算部分所述的原理求得<i>γ</i>值。<i>I</i><sub>T</sub>/<i>I</i>之比值在这里可用整个箱梁截面的抗扭惯性矩与抗弯惯性矩之比来代替。在计算抗扭惯性矩时可近似地忽略中间腹板的影响。</p>
+ <p style="text-align:justify;font-family:times new roman">式(2-6-13)中的系数<i>γ</i>值，是按等截面杆自由旋转推出的，对于变截面杆约束扭转来说，修正系数<i>β</i>将更小，因此按式（2-6-13）来计算是偏于安全的。</p>
+ <p style="text-align:justify;font-family:times new roman">求得边腹板的荷载分配系数<i>η</i><sub>max</sub>之后，即得可变作用内力增大系数<i>ξ</i>：</p>
+
+$$ \\xi=n\\eta_{\\mathrm{max}}\\tag{2-6-14}$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">因此，计及可变作用偏心扭转作用的箱形截面总内力为：</p>
+
+$$ 弯矩 \\hspace{1cm} M=M_{\\mathrm{g}}+\\xi M_{\\mathrm{p}}\\tag{2-6-15}$$
+
+$$ 剪力 \\hspace{1.5cm} V=V_{\\mathrm{g}}+\\xi V_{\\mathrm{p}}\\tag{2-6-16}$$ 
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">式中符号意义同前。<br>在设计时应计算可变作用（汽车及人群荷载）产生的最大和最小内力值，并与永久作用内力值组合，经比较后确定各截面的控制内力设计值。据此就可绘制最大和最小内力设计值包络图，以提供钢筋布置和承载力校核之用。<br>按修正偏心压力法计算整体式箱梁荷载横向分布系数的关键是主梁的划分及其刚度的计算。主梁的划分是指将整体式箱形截面划分成以每个腹板作为一根主梁，划分的原则是：尽量使各主梁的形心仍在原箱形截面的形心主轴上。<br>这样划分可取得较好的计算精度，如图2-6-38所示。如果各主梁形心位置不完全相同，则最好按整体箱形截面的形心轴计算Ixi。具体划分时，可将各主梁的面积划分的差不多，这样各主梁的抗弯惯性矩就接近相等。划分后每根主梁的抗弯惯性矩Ixi按实际分成的 形、 形、 形截面计算。</p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.37{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.37" src="../_static/fig/2-6-37.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-37 箱形截面梁桥的主梁划分方式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.37'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">整体式箱梁为闭口构件，抗扭刚度较大。当划分成若干个子梁后，每片子梁都变成了开口构件，将大大减小箱梁的抗扭刚度，会导致计算误差较大，但对于设计来讲，是一种偏安全的处理方式。<br>各主梁的抗扭惯性矩<i>I</i><sub>di</sub>可按下式计算：</p>
+
+$$I_{di}=b_1 \\cdot c_1 +b_2 \\cdot c_2$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>b</i><sub>1</sub>、<i>c</i><sub>1</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">分别表示主梁i所代表的左侧部分顶板、底板平均宽和单宽抗扭惯性矩；</td>
+ </tr>
+  <tr>
+ <td width="70px" align='right'  id="eqzs" > </td>
+ <td width="70px" align='right'  id="eqzs" ><i>b</i><sub>2</sub>、<i>c</i><sub>2</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">分别表示主梁i所代表的右侧部分顶板、底板平均宽和单宽抗扭惯性矩。</td>
+ </tr>
+  </table>
+ <p> </p>
+ <p style="text-align:justify;font-family:times new roman">箱形截面单位宽度顶板、底板的抗扭惯性矩可按下式计算：</p>
+
+$$C=\\dfrac{2h^2 t_1 t_2}{t_1 +t_2}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>t</i><sub>1</sub>、<i>t</i><sub>2</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">分别表示顶板和底板的板厚；</td>
+ </tr>
+  <tr>
+ <td width="70px" align='right'  id="eqzs" > </td>
+ <td width="70px" align='right'  id="eqzs" ><i>h</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">表示顶板至底板中线间的距离。</td>
+ </tr>
+  </table>
+ <p> </p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.53"> [A2-6.53]【例2-6-1】</a><span id="idA2-6.53"> 某四跨(4×30m)装配式预应力混凝土梁桥，主梁采用等高度箱形截面。采用先简支后连续施工方法，主梁先预制、运输、吊装就位，再浇注湿接缝形成整体结构。跨中横断面详细布置如<a href="#image2.6.38">图2-6-38</a>所示。按修正偏心压力法计算荷载横向分布系数。</span></p>
+ 
+  <body>
+
+ <style type="text/css">
+      #image2.6.38{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.38" src="../_static/fig/2-6-38.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-38 装配式箱形梁横截面布置示例（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.38'));</script>
+
+  </body>
+ 
+ 
+ 
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.54"> [A2-6.54]</a><span id="idA2-6.54"> （1）截面特性计算<br>①抗弯惯性矩计算<br>计算单片梁纵向抗弯惯性矩，尺寸如<a href="#image2.6.39">图2-6-39</a>所示，边梁及中梁尺寸近似，取相同抗弯惯性矩(连续梁的截面惯性矩局部变化不超过20%时，截面惯性矩所引起赘余力变化不会超过5%）。</span></p>
+ <p style="text-align:justify;font-family:times new roman">抗弯惯性矩<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>I</mi><mrow><mi>y</mi></mrow></msub><mo>=</mo><mn>0.367</mn><mtext>&nbsp;</mtext><msup><mrow><mi mathvariant="normal">m</mi></mrow><mn>4</mn></msup></math>。</p>
+ 
+ <body>
+
+ <style type="text/css">
+      #image2.6.39{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.39" src="../_static/fig/2-6-39.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-39 边、中梁横截面布置（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.39'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">②计算抗扭惯性矩<br>在计算连续箱梁跨中截面抗扭惯性矩时，闭合截面以外的翼板可以忽略不计，计算误差在1%左右，这样主梁截面简化成为一个对称梯形，如<a href="#image2.6.40">图2-6-40</a>所示。</p>
+
+    <body>
+
+ <style type="text/css">
+      #image2.6.40{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.40" src="../_static/fig/2-6-40.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-40 箱梁跨中截面抗扭惯性矩计算简化示意（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.40'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">抗扭惯性矩一般按下式计算：</p>
+
+$$I_{T}=(S_1 +S_2)^2h^2\\dfrac{1}{2\\dfrac{S}{t}+\\dfrac{S_1}{t_1}+\\dfrac{S_2}{t_2}}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">其中，<i>S</i><sub>1</sub>=156.49 cm，<i>S</i><sub>2</sub>=86.44 cm，<i>S</i>=146.26 cm，<i>h</i>=1142 cm，<i>t</i>=<i>t</i><sub>1</sub>=<i>t</i><sub>2</sub>=18 cm 。<br>将各值代入上式可得：</p>
+
+$$I_{T}=(156.49 +86.44)^2\\times 142^2 \\times\\dfrac{1}{2\\dfrac{146.26}{18}+\\dfrac{156.49}{18}+\\dfrac{86.44}{18}}=4\\times 10^7 \\mathrm{cm}^{4}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"> 则抗扭惯性矩<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>I</mi><mrow><mi>T</mi></mrow></msub><mo>=</mo><mn>0.4</mn><msup><mrow><mi mathvariant="normal">m</mi></mrow><mn>4</mn></msup></math>。</p>
+ 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.55"> [A2-6.55]</a><span id="idA2-6.55"> （2）将连续梁桥等代为简支梁桥<br>因每片箱梁仅在支点附近很小区域内腹板、底板尺寸有所改变，但仍可近似按等截面箱梁来考虑，这样带来的计算误差是很小的。所以，可将其简化为四等跨等截面连续箱梁桥。<br>按照连续梁与简支梁的挠度相等原理，将四等跨等截面连续箱梁桥通过刚度换算转化为四等跨等截面简支梁桥。査<a href="#B2.6.4">表2-6-4</a>，边跨<i>C</i><sub>w边</sub>=1.432，中跨<i>C</i><sub>w中</sub>=1.860。对扭转惯性矩不进行修正。<br>则边跨的等刚度等截面简支梁的抗弯惯性矩和抗扭惯性矩按式（2-6-6）计算分别为：</span></p>
+
+$$\\begin{array}{l}
+I_{边}^{\\phi }=C_w{边}I_{y}=1.432 \\times 1.367=0.526 \\mathrm{m}^4\\\\
+I_{中}^{\\phi }=C_w{中}I_{y}=1.860\\times 0.367=0.683 \\mathrm{m}^4\\\\
+I_{T中}^{\\phi }=I_{T边}^{\\phi }=I_{T}=0.4 \\mathrm{m}^4
+\\end{array}$$
+
+.. raw:: html
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.56"> [A2-6.56]</a><span id="idA2-6.56"> （3）计算边跨荷载横向分布系数<br>①计算比例参数<i>γ</i>和<i>β</i></span></p>
+ 
+$$\\gamma_{边}=5.8\\dfrac{I_{边}^*}{I_T}\\left ( \\dfrac{b_1}{l} \\right ) ^2=5.8\\times \\dfrac{0.526}{0.4}\\times\\left ( \\dfrac{2.81}{30} \\right )^2 =0.067$$
+
+$$\\beta_{边}=390\\dfrac{I_{边}^*d_1^3}{l^4h_1^3}=390\\times \\dfrac{0.526}{30^4}\\times\\left ( \\dfrac{0.572}{0.18} \\right )^3 =0.008$$
+
+.. raw:: html
+ 
+ 
+ 
+ <p style="text-align:justify;font-family:times new roman">②计算主梁荷载横向分布影响线<i>η</i></p>
+ <p style="text-align:justify;font-family:times new roman">査参考文献[33]所列刚接板、梁桥横向分布影响线表中四梁式的<i>G</i><sub>η</sub>表，在<i>β</i>=0.006， <i>β</i>=0.010和<i>γ</i>=0.06，<i>γ</i>=0.08之间按内插法得到<a href="#B2.6.5">表2-6-5</a>所列的<i>η</i>值，并由此可绘出<a href="#image2.6.41">图2-6-41</a>和<a href="#image2.6.42">图2-6-42</a>所示边跨1号、2号梁荷载横向分布影响线。</p>
+
+ <style>
+      #biaoge {
+                  border: 2px solid black;
+                  border-collapse: collapse;
+                  margin-bottom:1px;
+                                                  
+               }
+      th, td {
+                  padding-top: 5px;
+                  padding-bottom:5px;
+                  padding-left:5px;
+                  padding-right:5px;
+                  border: 1px solid black;
+                  vertical-align: middle;
+                                                   
+               }
+      #eqzs {
+                  border: 0px;
+               }
+      #dhbg {
+                  vertical-align: middle;
+               }
+      </style>
+                                          
+      <table id="biaoge" style="font-family:times new roman">
+                                          
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.6.5">表2-6-5 边跨的等刚度简支梁主梁荷载横向分布影响线   </b></caption>	
+                                                        
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">梁&nbsp;&nbsp;&nbsp;号</td>
+      <td align="center" id="dhbg" rowspan="2">β</td>
+      <td align="center" id="dhbg" rowspan="2">γ</td> 
+      <td align="center" id="dhbg" colspan="4"><i>P</i>=1位置(主梁轴线)</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">1号梁</td>
+      <td align="center" id="dhbg">2号梁</td>
+      <td align="center" id="dhbg">3号梁</td>
+      <td align="center" id="dhbg">4号梁</td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">0.008</td>
+      <td align="center" id="dhbg">0.067</td>
+      <td align="center" id="dhbg">0.385</td>
+      <td align="center" id="dhbg">0.283</td>
+      <td align="center" id="dhbg">0.197</td>
+      <td align="center" id="dhbg">0.135</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">0.008</td>
+      <td align="center" id="dhbg">0.067</td>
+      <td align="center" id="dhbg">0.283</td>
+      <td align="center" id="dhbg">0.279</td>
+      <td align="center" id="dhbg">0.240</td>
+      <td align="center" id="dhbg">0.197</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">3</td>
+      <td align="center" id="dhbg">0.008</td>
+      <td align="center" id="dhbg">0.067</td>
+      <td align="center" id="dhbg">0.197</td>
+      <td align="center" id="dhbg">0.240</td>
+      <td align="center" id="dhbg">0.279</td>
+      <td align="center" id="dhbg">0.283</td>
+      </tr>
+      <tr>
+      <td align="center" width="120px" id="dhbg">4</td>
+      <td align="center" width="130px" id="dhbg">0.008</td>
+      <td align="center" width="130px" id="dhbg">0.067</td>
+      <td align="center" width="130px" id="dhbg">0.135</td>
+      <td align="center" width="130px" id="dhbg">0.197</td>
+      <td align="center" width="130px" id="dhbg">0.283</td>
+      <td align="center" width="130px" id="dhbg">0.385</td>
+      </tr>
+      </table>
+ <p style="text-align:justify;font-family:times new roman">③计算荷载横向分布系数<i>m</i></p>
+
+ <body>
+
+ <style type="text/css">
+      #image2.6.41{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.41" src="../_static/fig/2-6-41.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-41 边跨1号梁荷载横向分布影响线（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.41'));</script>
+
+  </body>
+
+   <body>
+
+ <style type="text/css">
+      #image2.6.42{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.42" src="../_static/fig/2-6-42.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-42 边跨2号梁荷载横向分布影响线（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.42'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">距离桥面边缘布置0.5 m宽度的护栏，距护栏0.5 m（为路缘带宽）布置车辆荷载，分别按两列车、三列车加载计算。</p>
+
+ <p style="text-align:justify;font-family:times new roman">两列车布载：</p>
+
+$$m_1=\\dfrac{0.407+0.242+0.296+0.239}{2}=0.643$$
+$$m_2=\\dfrac{0.284+0.281+0.280+0.259}{2}=0.552$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">三列车布载：</p>
+
+$$m_1=\\dfrac{0.407+0.343+0.296+0.239+0.200+0.159}{2}=0.822$$
+$$m_2=\\dfrac{0.284+0.281+0.280+0.259+0.241+0.214}{2}=0.780$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.57"> [A2-6.57]</a><span id="idA2-6.57"> （4）计算中跨荷载横向分布系数</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">①计算比例参数<i>γ</i>和<i>β</i></p>
+
+$$\\gamma_{中}=5.8\\dfrac{I_{中}^*}{I_T}\\left ( \\dfrac{b_1}{l} \\right ) ^2=5.8\\times \\dfrac{0.683}{0.4}\\times\\left ( \\dfrac{2.81}{30} \\right )^2 =0.087$$
+
+$$\\beta_{中}=390\\dfrac{I_{中}^*d_1^3}{l^4h_1^3}=390\\times \\dfrac{0.683}{30^4}\\times\\left ( \\dfrac{0.572}{0.18} \\right )^3 =0.011$$
+
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">②计算主梁荷载横向分布影响线<i>η</i> </p>
+
+ <p style="text-align:justify;font-family:times new roman">査参考文献[33]所列刚接板、梁桥横向分布影响线表中四梁式的<i>G</i><sub>η</sub>表，在<i>β</i>=0.080， <i>β</i>=0.010和<i>γ</i>=0.100，<i>γ</i>=0.010之间按内插法得到<a href="#B2.6.6">表2-6-6</a>所列的<i>η</i>值，并由此可绘出<a href="#image2.6.41">图2-6-41</a>和<a href="#image2.6.42">图2-6-42</a>所示边跨1号、2号梁荷载横向分布影响线。</p>
+
+
+ 
+ <style>
+      #biaoge {
+                  border: 2px solid black;
+                  border-collapse: collapse;
+                  margin-bottom:1px;
+                                                     
+                  }
+      th, td {
+                  padding-top: 5px;
+                  padding-bottom:5px;
+                  padding-left:5px;
+                  padding-right:5px;
+                  border: 1px solid black;
+                  vertical-align: middle;
+                                                      
+                  }
+      #eqzs {
+                  border: 0px;
+                  }
+      #dhbg {
+                  vertical-align: middle;
+                  }
+      </style>
+                                             
+      <table id="biaoge" style="font-family:times new roman">
+                                             
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.6.6">表2-6-6 中跨的等刚度简支梁主梁荷载横向分布影响线   </b></caption>	
+                                                           
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">梁&nbsp;&nbsp;&nbsp;号</td>
+      <td align="center" id="dhbg" rowspan="2">β</td>
+      <td align="center" id="dhbg" rowspan="2">γ</td> 
+      <td align="center" id="dhbg" colspan="4"><i>P</i>=1位置(主梁轴线)</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">1号梁</td>
+      <td align="center" id="dhbg">2号梁</td>
+      <td align="center" id="dhbg">3号梁</td>
+      <td align="center" id="dhbg">4号梁</td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">0.008</td>
+      <td align="center" id="dhbg">0.067</td>
+      <td align="center" id="dhbg">0.411</td>
+      <td align="center" id="dhbg">0.289</td>
+      <td align="center" id="dhbg">0.186</td>
+      <td align="center" id="dhbg">0.114</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">0.008</td>
+      <td align="center" id="dhbg">0.067</td>
+      <td align="center" id="dhbg">0.289</td>
+      <td align="center" id="dhbg">0.286</td>
+      <td align="center" id="dhbg">0.239</td>
+      <td align="center" id="dhbg">0.186</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">3</td>
+      <td align="center" id="dhbg">0.008</td>
+      <td align="center" id="dhbg">0.067</td>
+      <td align="center" id="dhbg">0.186</td>
+      <td align="center" id="dhbg">0.239</td>
+      <td align="center" id="dhbg">0.286</td>
+      <td align="center" id="dhbg">0.289</td>
+      </tr>
+      <tr>
+      <td align="center" width="120px" id="dhbg">4</td>
+      <td align="center" width="130px" id="dhbg">0.008</td>
+      <td align="center" width="130px" iid="dhbg">0.067</td>
+      <td align="center" width="130px" iid="dhbg">0.114</td>
+      <td align="center" width="130px" iid="dhbg">0.186</td>
+      <td align="center" width="130px" iid="dhbg">0.289</td>
+      <td align="center" width="130px" iid="dhbg">0.411</td>
+      </tr>
+      </table>
+
+ <p style="text-align:justify;font-family:times new roman">③计算荷载横向分布系数<i>m</i><br> 距离桥面边缘布置0.5 m宽度的护栏，距护栏0.5 m（为路缘带宽）布置车辆荷载，分别按两列车、三列车加载计算。</p>
+
+
+   <body>
+
+ <style type="text/css">
+      #image2.6.43{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.43" src="../_static/fig/2-6-43.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-43  中跨1号梁荷载横向分布影响线（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.43'));</script>
+
+  </body>
+
+  <body>
+
+ <style type="text/css">
+      #image2.6.44{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.44" src="../_static/fig/2-6-44.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-44 中跨2号梁荷载横向分布影响线（尺寸单位：cm）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.44'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">两列车布载：</p>
+
+$$m_1=\\dfrac{0.437+0.360+0.305+0.236}{2}=0.669$$
+$$m_2=\\dfrac{0.298+0.296+0.294+0.269}{2}=0.579$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">三列车布载：</p>
+
+$$m_1=\\dfrac{0.437+0.360+0.305+0.236+0.189+0.142}{2}=0.835$$
+$$m_2=\\dfrac{0.298+0.296+0.294+0.269+0.249+0.216}{2}=0.811$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.58"> [A2-6.58]</a><span id="idA2-6.58">（5）连续梁桥荷载横向分布系数取值</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">通过前面的计算分析可见，四跨连续梁桥的边、中跨荷载横向分布系数是不同的，且1号、2号主梁荷载横向分布系数中跨都大于边梁相应梁位的数值。依据现行《公路桥涵设计通用规范》(JTG D60)对多车道布载的横向折减规定：2车道布载时，横向车道布载系数为1.0；3车道布载时，横向车道布载系数为0.78。将上述计算结果乘以横向车道布载系数后即为最终所求荷载横向分布系数，见表2-6-7。</p>
+
+ <style>
+      #biaoge {
+                  border: 2px solid black;
+                  border-collapse: collapse;
+                  margin-bottom:1px;
+                                                        
+                  }
+      th, td {
+                  padding-top: 5px;
+                  padding-bottom:5px;
+                  padding-left:5px;
+                  padding-right:5px;
+                  border: 1px solid black;
+                  vertical-align: middle;
+                                                         
+                  }
+      #eqzs {
+                  border: 0px;
+                  }
+      #dhbg {
+                  vertical-align: middle;
+                  }
+      </style>
+                                                
+      <table id="biaoge" style="font-family:times new roman">
+                                                
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.6.7">表2-6-7 荷载横向分布系数   </b></caption>	
+                                                              
+      <tr>
+      <td align="center" width="150px" id="dhbg">位&nbsp;&nbsp;&nbsp;置</td>
+      <td align="center" width="150px" id="dhbg">车&nbsp;&nbsp;&nbsp;道&nbsp;&nbsp;&nbsp;数</td>
+      <td align="center" width="150px" id="dhbg">梁&nbsp;&nbsp;&nbsp;号</td> 
+      <td align="center" width="300px" id="dhbg">荷载横向分布系数<i>m</i></td>
+      <td align="center" width="150px" id="dhbg">横&nbsp;&nbsp;&nbsp;向&nbsp;&nbsp;&nbsp;折&nbsp;&nbsp;&nbsp;减</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="4">边跨</td>
+      <td align="center" id="dhbg" rowspan="2">两列车</td>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">0.643</td>
+      <td align="center" id="dhbg">0.643</td>
+      </tr>  
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">0.552</td>
+      <td align="center" id="dhbg">0.552</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">三列车</td>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">0.822</td>
+      <td align="center" id="dhbg">0.641</td>                                 
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">0.780</td>
+      <td align="center" id="dhbg">0.619</td>                                 
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="4">中跨</td>
+      <td align="center" id="dhbg" rowspan="2">两列车</td>
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">0.669</td>
+      <td align="center" id="dhbg">0.669</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">0.579</td>
+      <td align="center" id="dhbg">0.579</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg" rowspan="2">三列车</td>   
+      <td align="center" id="dhbg">1</td>
+      <td align="center" id="dhbg">0.835</td>
+      <td align="center" id="dhbg">0.651</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">2</td>
+      <td align="center" id="dhbg">0.811</td>
+      <td align="center" id="dhbg">0.632</td>
+      </tr>
+      </table>
+
+ <p style="text-align:justify;font-family:times new roman">为简化连续梁的汽车荷载内力计算，全桥偏安全地统一取用跨中主梁荷载横向分布系数<i>m</i>=0.669。<br>求得荷载横向分布系数后，按式（2-4-82）进行可变作用内力计算。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.59"> [A2-6.59]</a><span id="idA2-6.59"> （三）内力(位移)影响线绘制及加载计算<br>连续梁是超静定结构，计算各截面可变作用内力仍以绘制影响线为主。等截面连续梁结构赘余力与截面刚度无关，其影响线纵坐标及面积计算可采用一般资料中的公式和图表进行。对于变截面连续梁，一般借助专业桥梁电算程序计算，具体将在“桥梁结构电算”课程中介绍。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.3"> 三、超静定结构附加内力计算</a> <span id="id2.6.4.3"> </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.60"> [A2-6.60]</a><span id="idA2-6.60"> 桥梁结构在各种内外因素的影响下，可能会受到强迫挠曲变形或轴向伸缩变形影响。对于静定结构而言，这种变形是自由的，因此不会对结构产生附加内力；对于超静定结构来讲，在多余约束处将会产生多余的约束力，从而将产生结构的附加内力。本节将概要介绍预加力、温度变化、基础变位、混凝土材料的收缩和徐变等引起结构附加内力的原因和计算方法，详细计算步骤与分析过程将在“桥梁结构分析与设计”课程中介绍。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.61"> [A2-6.61]</a><span id="idA2-6.61"> 1. 预加力引起的附加内力</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）预加力对结构的影响<br>在预加应力作用下，构件会发生挠曲变形。对于简支梁桥，由于是静定结构，在支座处结构的变形是自由的，因此不会产生附加内力，即预加力仅影响主梁的内部应力。对于连续梁等超静定结构，由于多余约束的存在，结构变形将不再自由，这样就会在多余约束处产生附加内力，而在梁体内产生附加弯矩(或称二次弯矩)。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）预加力附加内力计算方法<br>对于配置直线预应力钢筋（连续直线配束或局部直线配束）的连续梁，可按超静定结构分析的力法原理进行计算；对于配置曲线形预应力钢筋的连续梁，可按超静定结构分析的力法原理进行计算，也可利用等代荷载的方法进行计算。<br><a href="#image2.6.45">图2-6-45</a>所示为两跨连续梁，由于中间支点处的多余约束力 的存在[<a href="#image2.6.45">图2-6-45a）</a>]，除了梁体中的初预矩 [<a href="#image2.6.45">图2-6-45b）</a>]之外，还会产生附加预矩 [<a href="#image2.6.45">图2-6-45c）</a>]，其总预矩 应是初预矩与附加预矩 的代数和[<a href="#image2.6.45">图2-6-45d）</a>]。</p>
+
+   <body>
+
+ <style type="text/css">
+      #image2.6.45{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.45" src="../_static/fig/2-6-45.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-45 连续梁初预矩和总预矩</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.45'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.62"> [A2-6.62]</a><span id="idA2-6.62">2. 温度变化引起的附加内力</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">（1）温度对结构的影响<br>桥梁结构是暴露在大气中的结构物，温度影响包括两部分，即年温差影响与局部温差影响。<br>年温差影响是指气温随季节发生周期性变化时对结构物所引起的作用。一般假定温度沿结构截面方向均匀变化。对无水平约束的结构如简支梁桥、连续梁桥等，年温差只引起结构的均匀伸缩，并不导致结构内附加内力(或温度应力)产生；当结构的均匀伸缩受到约束时，年温差将引起结构内产生附加内力，如拱结构，框架结构及斜拉桥结构等。<br>局部温差影响一般指日照温差或混凝土水化热等影响。混凝土水化热引起结构内的温度变化，问题较为复杂，但可在施工中用温度控制方法予以调节，目前在各国规范中，桥梁温度应力计算一般不包括此项影响，在此亦不予讨论。日照温差对结构的影响，因辐射强度、桥梁方位、日照时间、地理位置、地形地貌等随机因素，使结构表面、内部温差因对流、热辐射和热传导方式等形成瞬时的不均匀分布，一般称为结构的温度场。显然，计算日照温差对结构的效应，温度场的确定是关键。严格地说，桥梁结构属三维热传导问题，结构内任一点的温度<i>T</i><sub>i</sub>是结构三维方向及时间d的函数，考虑到桥梁是一个狭长的结构物，又忽略某些局部区域三维传导性质（如梁端、箱梁角隅区域等），可以认为桥梁在沿长度方向，温度变化是一致的，从而三维热传导问题可以简化为分别以桥梁横向或竖向（沿梁截面高度）的一维热传导分析。这样，温度场的确定简化为沿桥梁横向或沿桥梁竖向的温度梯度型式的确定。公路混凝土桥梁，由于设置人行道，一般桥面板直接受日照，而腹板因悬臂遮荫，两侧温差变化不大，因此对梁桥只考虑沿截面高度方向日照温差的影响。<br>温度梯度模式及温度设计值大小是否接近实际状态是正确计算结构温度应力的关键。温度梯度模式一般可分为线性与非线性分布两种情况，线性分布如<a href="#image2.6.46">图2-6-46a）</a>所示，非线性分布如<a href="#image2.6.46">图2-6-46c）～d）</a>所示。国内外大量实测资料与理论研究分析表明，箱梁沿梁高的温度梯度是非线性分布的。我国现行《公路桥涵设计通用规范》（JTG D60）采用非线性的竖向温度梯度曲线，详见第一篇第三章第一节。温度梯度曲线与温度附加内力的计算有很大关系，如果温度梯度曲线选用不当，即使增大温度设计值，也不能保证结构的抗裂性。这是由于温度自应力会导致在任意截面上的温度应力达到一定数值，有可能增加腹板的主拉应力，恶化斜截面的抗裂性。</p>
+
+    <body>
+
+ <style type="text/css">
+      #image2.6.46{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.46" src="../_static/fig/2-6-46.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-46  温度梯度模式</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.46'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">（2）温度附加内力计算方法<br>确定了温度梯度模式及温度设计值后，温度附加内力可按一般结构力学或有限元方法进行计算。计算时假定：</p>
+ <p style="text-align:justify;font-family:times new roman"> ①沿桥长的温度分布是均匀的。<br>②混凝土是匀质弹性材料。<br>    ③梁的变形服从平截面假定。<br>
+ <br>以两跨等跨连续梁为例(见<a href="#image2.6.47">图2-6-47</a>)。当温度梯度为零(均匀升、降温)时[<a href="#image2.6.47">图2-6-47a）</a>]，结构只有纵向位移，无温度应力。当温度梯度呈线性变化时[<a href="#image2.6.47">图2-6-47b）</a>]，桥跨结构将发生挠曲变形，产生上拱，而且梁在变形后仍然服从平截面假定。在静定结构中，线性变化的温度梯度只引起结构位移，不产生附加内力；而在超静定结构中，不但引起结构位移，而且因多余约束的存在，还会产生结构内的附加内力。温度梯度呈非线性变化，如<a href="#image2.6.47">图2-6-47c）</a>所示，在此类非线性温差分布的情况下，对于静定主梁挠曲变形时，因服从平截面假定，截面上的纵向纤维因温差的伸缩将受到约束，从而产生纵向约束应力，这部分在截面上自相平衡的约束应力称为温度自应力<i>σ</i><sub>s</sub>；对于超静定梁式结构，梁的温度上拱变化受到支承条件约束，还应考虑多余约束阻止结构挠曲而产生的附加内力所引起的温度次应力<i>σ</i><sub>s</sub><sup>'</sup>，温度梯度非线性分布导致的结构温度应力如<a href="#image2.6.48">图2-6-48</a>所示。</p>
+
+    <body>
+
+ <style type="text/css">
+      #image2.6.47{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.47" src="../_static/fig/2-6-47.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-47 不同温度梯度模式作用下的结构效应</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.47'));</script>
+
+  </body>
+
+    <body>
+
+ <style type="text/css">
+      #image2.6.48{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.48" src="../_static/fig/2-6-48.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-48 非线性分布温度梯度引起的温度应力状态</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.48'));</script>
+
+  </body>
+  
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.63"> [A2-6.63]</a><span id="idA2-6.63"> 3. 混凝土徐变和收缩引起的附加内力</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">（1）混凝土徐变和收缩对结构的影响<br>混凝土徐变，是指混凝土在应力不变时，应变随时间而持续增长的特性。徐变的终极值可达初始弹性变形的几倍。持续荷载卸除后，立即发生弹性恢复，随后并有少量的徐变恢复。混凝土蒸发失水时会产生收缩，收缩变形与混凝土中的应力情况无关。混凝土徐变和收缩对于超静定结构的影响，在多余约束处会产生多余约束力，从而产生附加内力。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）混凝土徐变和收缩引起的附加内力计算方法<br>在桥梁结构中，混凝土的使用应力一般不超过其极限强度的40%~50%。在这个范围内，徐变变形与初始弹性变形成比例的线性关系，可按线性理论计算徐变对构件变形(位移或转角)的影响。因混凝土徐变引起的结构徐变变形或附加内力，由于客观因素的复杂性，要精确分析是十分困难的，所以在实际工作中，一般采用以下基本假定：</p>
+ <p style="text-align:justify;font-family:times new roman">①不考虑结构内配筋的影响。把结构当作素混凝土，这对预应力混凝土结构配筋率较小的情况下还是适用的，但对不同材料或相同材料(弹性模量相差较大)组成的复合结构是不适合的。<br>②混凝土的弹性模量假定为常值。尽管试验证明，混凝土的弹性模量随的时间变化而变化，一般可增加10%～15％。但考虑到徐变系数计算值中已部分包括了这一因素，可取常值计算；<br>③采用徐变线性理论，即徐变应变与应力成正比关系的假定。由此“力的独立作用原理”和“应力与应变的叠加原理”等均适用。<br>基于以上假定，可采用有效模量的有限元逐步分析法进行计算。<br>混凝土收缩对连续梁内力的影响，假如支座对梁的收缩变形没有约束，则在梁中不致引起挠曲，一般可不予考虑。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.64"> [A2-6.64]</a><span id="idA2-6.64"> 4. 基础不均匀沉降引起的附加内力</span></p>
+
+ <p style="text-align:justify;font-family:times new roman">（1）基础不均匀沉降对结构的影响<br>连续梁墩台基础的沉降与地基土壤的力学性能有关，一般随时间而递增，要经过相当长时间后，接近总沉降的终极值。如果假定墩台基础的沉降瞬时完成，则其产生的沉降内力可用结构力学方法求得。只要瞬时沉降量不是太大，不致造成结构的受拉区发生有害裂缝，或不使受压区混凝土应力过大。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）基础不均匀沉降引起的附加内力的计算方法<br>为简化分析，假定沉降终极值，可采用力法计算。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.4.4"> 四、作用组合及包络图</a> <span id="id2.6.4.4"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.65"> [A2-6.65]</a><span id="idA2-6.65">1. 作用组合及作用效应设计值<br>桥梁在施工和运营期间要承受多种类型的作用组合，我国现行《公路桥涵设计通用规范》（JTG D60）规定，按承载能力极限状态设计时，作用组合分为基本组合和偶然组合两种；按正常使用极限状态设计时，作用组合可分为频遇组合及准永久组合两种。按荷载组合方式施加于桥跨结构，即可得到结构各控制截面的作用效应设计值。具体内容及参数取值参见本篇第四章相关内容。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.66"> [A2-6.66]</a><span id="idA2-6.66">2. 作用效应设计值包络图<br>如沿主梁的桥跨方向为纵坐标，将各计算截面的最大、最小内力设计值为竖坐标，连接这些坐标点而绘成作用效应设计值包络图。<a href="#image2.6.49">图2-6-49a）</a>表示连续梁在自重作用下的弯矩图；<a href="#image2.6.49">图2-6-49b）</a>表示在自重和汽车荷载作用下的弯矩包络图；<a href="#image2.6.49">图2-6-49c）</a>表示在自重和汽车荷载作用下的剪力包络图。包络图主要为在主梁中配置预应力钢筋、纵向主筋、斜筋和箍筋提供设计依据，并按现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）要求进行各项验算。</span></p>
+
+   <body>
+
+ <style type="text/css">
+      #image2.6.49{
+         margin-left:50px;
+      }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image2.6.49" src="../_static/fig/2-6-49.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-49 连续梁桥作用效应设计值包络图</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.49'));</script>
+
+  </body>
+
+:math:`\ `

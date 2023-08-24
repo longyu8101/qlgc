@@ -1,0 +1,128 @@
+第二节  拱上建筑
+---------------------------------
+
+.. raw:: html
+
+ <h3 id="test111"> 第二节  拱上建筑</h3>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.18"> [A3-2.18]</a><span id="idA3-2.18"> 上承式拱桥的主要承重结构主拱圈是曲线形，车辆无法直接在弧面上行驶，需要在桥面系和主拱圈之间设置传递荷载的构件或填充物，以使车辆能在平顺的桥面上行驶。桥面系与这些传力构件或填充物统称为拱上建筑。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.19"> [A3-2.19]</a><span id="idA3-2.19"> 按照拱上建筑采用的不同构造方式，可分为实腹式拱桥和空腹式拱桥。由于实腹式拱桥拱上建筑构造简单，施工方便，而填料的数量较多，恒载较重，一般情况下，小跨径拱桥多采用实腹式拱桥；为减小恒载重量，大、中跨径拱桥多采用空腹式拱桥。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.2.2.1"> 一、实腹式拱上建筑</a> <span id="id3.2.2.1"> </span> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.20"> [A3-2.20]</a><span id="idA3-2.20"> 实腹式拱上建筑由侧墙、拱肩填料、护拱以及变形缝、防水层、泄水管和桥面等部分组成（<a href="#image3.2.24">图3-2-24</a>）。<br>拱腹填料的做法，可分为填充和砌筑两种方式。<br>填充的方式是在拱圈两侧砌筑侧墙，以承受拱肩填料及汽车荷载所产生的侧压力（推力）。侧墙一般用块石或片石砌筑，为了美观需要，可用粗料石或细石镶面。填充用的材料尽量做到就地取材，通常采用砾石、碎石、粗砂或卵石夹粘土并加以夯实。这些材料的透水性较好，成本较低，而且还能减小对侧墙的推力。在地质条件较差的地区，为了减小拱上建筑的重量，可以采用其他轻质材料（如炉渣、石灰、粘土等混合料）作填料。<br>当填充材料不易取得时，可采用砌筑的方式，即采用干砌圬工或浇筑贫混凝土作为拱肩填料。当用贫混凝土时，往往可以不另设侧墙，而在外露混凝土表面用砂浆饰面或设置镶面。<br>在多孔拱桥中，为了便于敷设防水层和排除积水，又设置了护拱。护拱一般采用现浇混凝土或砌筑块、片石修筑。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.24{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.24" src="../_static/fig/3-2-24.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-24  实腹式拱桥构造</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.24'));</script>
+
+  </body>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.2.2.2"> 二、空腹式拱上建筑</a> <span id="id3.2.2.2"> </span> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.21"> [A3-2.21]</a><span id="idA3-2.21"> 大、中跨径的拱桥，特别是矢高较大时，实腹式拱上建筑的填料用量多，重量大，因而以采用空腹式拱上建筑为宜。空腹式拱上建筑除具有实腹式拱上建筑相同的构造外，还具有腹孔和腹孔墩（<a href="#image3.2.25">图3-2-25</a>）。</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.2.25{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.25" src="../_static/fig/3-2-25.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-25  空腹式拱桥构造图</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.25'));</script>
+
+  </body>  
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.22"> [A3-2.22]</a><span id="idA3-2.22"> 1. 腹孔<br>腹孔的结构形式可分为拱式腹孔（<a href="#image3.2.25">图3-2-25</a>）和梁式腹孔（<a href="#image3.2.26">图3-2-26</a>）。在圬工拱桥中，为了节省钢材，大多采用拱形腹孔。在大跨径钢筋混凝土拱或无支架施工的拱桥中，为了进一步减小重量，降低拱轴系数（使拱上建筑的恒载分布接近于均布荷载），以改善拱圈在施工过程中的受力状况，通常采用钢筋混凝土梁或板式结构的腹孔。腹孔形式和跨径的选择，在因地制宜、就地取材的原则下，应考虑既能尽量减小拱上建筑的重量，又不致因荷载过分集中于腹孔墩处，给主拱圈受力状况造成不利影响。在改善主拱受力性能和便于施工的同时，还要使拱桥外形更加协调和美观。腹孔通常对称布置在拱圈两侧结构高度所容许的范围内。</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）拱式腹孔<br>拱式腹孔（腹拱）一般在每半跨内不超过主拱跨径的1/4～1/3，腹孔跨径一般在2.5～5.5 m，也不宜大于主拱圈跨径的1/15～1/8，比值随主拱圈跨径的增大而减小。腹拱宜做成等跨，以利于腹拱墩的受力和方便施工。腹拱的拱圈，可采用石砌、混凝土预制或现浇的圆弧形板拱，矢跨比一般为1/6～1/2。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）梁式腹孔<br>梁式腹孔的桥道体系可以做成简支、连续和框架式等多种形式（<a href="#image3.2.26">图3-2-26</a>）。</p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.2.26{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.26" src="../_static/fig/3-2-26.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-26  拱上梁式腹孔构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.26'));</script>
+
+  </body>  
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.23"> [A3-2.23]</a><span id="idA3-2.23">简支腹孔由底梁（座）、立柱、盖梁和纵向铺设的桥面板（梁）等组成，由于桥道板（梁）简支在盖梁上，因此基本上不存在拱与拱上结构的联合作用，受力明确。当腹孔跨径在10 m以下时，常采用钢筋混凝土空心板构成∏形板；腹孔跨径在10 m以上时，采用预应力空心板或T形梁结构。<br>连续腹孔由立柱、纵梁、实腹段垫墙及桥面板组成。荷载通过横铺在连续纵梁和拱顶垫墙上的桥道板，传递到拱上立柱处，再经过拱圈传递给墩台。这种形式主要用于肋拱桥中，特点是桥面板横置，拱顶上只有一个板厚（含垫墙）及桥面铺装，建筑高度很小，适合于建筑高度受限制的拱桥。<br>框架腹孔在横桥向根据需要设置，每片间通过系梁形成整体。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-2.24"> [A3-2.24]</a><span id="idA3-2.24">2. 腹孔墩<br>腹孔墩由底梁、墩身和墩帽组成，墩身又可分为横墙式和立柱式两种</span></p>
+ <p style="text-align:justify;font-family:times new roman"> （1）横墙式<br>对于砖、石拱桥，多采用圬工材料砌筑或现浇混凝土做成的横墙式（实体墙）腹孔墩[<a href="#image3.2.27">图3-2-27a）</a>]。为了便于维修、减轻重量，可在横向挖一个或几个孔。横墙式腹孔墩自重较大，但节省钢材，施工方便。腹孔墩的厚度，用浆砌片（块）石时，不宜小于600 mm；用混凝土砌筑时，一般也应大于腹拱圈厚度的一倍。底梁能使横墙传下来的压力较均匀地分布到主拱圈全宽上，每边尺寸较横墙宽50 mm，高度则以使较矮一侧为50～100 mm为原则来确定。底梁常采用素混凝土结构。墩帽宽度宜大于墙宽50 mm，也采用素混凝土。</p>
+ <p style="text-align:justify;font-family:times new roman"> （2）立柱式<br>立柱式腹孔墩[<a href="#image3.2.27">图3-2-27b）</a>]是由立柱和盖梁组成的钢筋混凝土排架结构。为了使立柱传递给主拱圈的压力不至于过分集中，通常在立柱下面设置底梁。立柱一般由2根或多根钢筋混凝土立柱组成，立柱较高时应在各立柱间设置横系梁，以确保立柱的稳定。立柱和横梁常采用矩形截面。截面尺寸及钢筋配置除了满足结构受力需要外，并应考虑和拱桥的外形及构造相协调。底梁可以与拱圈一起施工完成。如采用混凝土浇筑时，可按构造要求布置钢筋。在河流有漂流物或流冰时，如果拱圈会被部分淹没，就不宜采用立柱式腹孔墩。腹孔墩的侧面一般做成竖直的，以方便施工。如果采用斜坡式，则坡度以不超过30：1为宜。在河流有漂流物或流冰时，如果拱圈会被部分淹没，就不宜采用立柱式腹孔墩。</p>
+ 
+ <body>
+
+  <style type="text/css">
+      #image3.2.27{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.27" src="../_static/fig/3-2-27.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-27  腹孔墩构造形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.27'));</script>
+
+  </body>  
+
+
+
+ <p style="text-align:justify;font-family:times new roman">对于框架结构形式的空腹式拱上建筑，拱上结抅与主拱联结成整体，在温度变化或活载等因索作用下，将引起拱上结构变形（<a href="#image3.2.28">图3-2-28</a>），并在立柱中产生附加弯矩。由于矮立柱的刚度较大，附加弯矩也大，立柱上、下结点附近的混凝土极易开裂。为了避免拱上结构参与主拱受力后引起不利因索，可在靠近跨中1〜2根矮立柱的上、下端设罝铰（<a href="#image3.2.29">图3-2-29</a>），释放结点弯矩，使其成为主要承受轴向压力的构件。另外，对于较容易发生裂缝的桥面结构与拱顶相接处，可采取设置横向贯通缝的构造形式，以减小联结刚性。 </p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.2.28{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.28" src="../_static/fig/3-2-28.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-28  拱上结构变形示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.28'));</script>
+
+  </body>  
+
+ <body>
+
+  <style type="text/css">
+      #image3.2.29{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.2.29" src="../_static/fig/3-2-29.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-2-29  拱上立柱连接方式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.2.29'));</script>
+
+  </body>  
+
+
+
+:math:`\ `

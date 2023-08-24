@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box6223{
+                width: 700px;
+                height: 280px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box1{
+                width: 340px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box2{
+                width: 340px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title6223{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:230px;
+                margin-left:35%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box6223">
+           <p class="box1" style="text-align:center;font-family:times new roman"><img id="image6223a" src="../_static/fig/6-2-23a.png" alt="Picture">a）底面直线形盖梁 </p>
+           <p class="box2" style="text-align:center;font-family:times new roman"><img id="image6223b" src="../_static/fig/6-2-23b.png" alt="Picture">b）底面曲线形盖梁</p>
+           <p id="title6223" style="font-family:times new roman">图6-2-23  装配式梁桥盖梁构造示例</p>
+            </div>
+         </div>
+         <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6223a'));
+             var viewer = new Viewer(document.getElementById('image6223b'));
+         </script>
+     </body>
+</html>

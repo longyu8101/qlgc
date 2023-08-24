@@ -19,6 +19,7 @@
         <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
@@ -65,14 +66,43 @@
 <li class="toctree-l2"><a class="reference internal" href="10.3.html">第三节  连续刚构桥构造与设计</a></li>
 <li class="toctree-l2"><a class="reference internal" href="10.4.html">第四节  连续体系梁桥计算</a></li>
 <li class="toctree-l2"><a class="reference internal" href="10.5.html">第五节  连续弯梁桥简介</a></li>
-<li class="toctree-l2"><a class="reference internal" href="10.6.html">第四节  桥梁设计方案比选</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../model.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../15.html">第四章  简单体系拱桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../4-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-2.html">第二章 斜拉桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../5-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-2.html">第二章 悬索桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-2.html">第二章  桥墩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-z.html">总结</a></li>
 </ul>
 
         </div>
@@ -104,7 +134,397 @@
 <h1>第二节  连续梁桥构造与设计<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
 <h3 id="test111"> 第二节  连续梁桥构造与设计</h3>
 <p style="text-align:justify;font-family:times new roman"><a href="#id2.6.2.1">一、钢筋混凝土连续梁桥</a> <span id="id2.6.2.1"> </span></p>
-<p style="text-align:justify;font-family:times new roman"><a href="#id2.6.2.2">二、预应力混凝土连续梁桥</a> <span id="id2.6.2.2"> </span></p></section>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.5"> [A2-6.5]</a><span id="idA2-6.5"> 1. 总体设计<br>钢筋混凝土连续梁桥一般用于中等跨径桥梁，例如髙速公路的跨线立交桥、互通立交的匝道桥，城市道路高架桥等，采用现浇箱形截面，跨径不大于25 m。</span></p>
+<p style="text-align:justify;font-family:times new roman">（1）立面布置<br>大、中跨径的连续梁桥一般采用不等跨布置，但多于三跨的连续梁桥，中间跨一般采用等跨布置。一般边跨为中跨的0.6～1倍，其中较大值适用于五跨及五跨以上连续梁桥，如<a href="#image2.6.2">图2-6-2</a>所示。当边跨小于中跨的0.5倍时，在桥台上必须设拉力支座或压重。</p>
+<p style="text-align:justify;font-family:times new roman">（2）主梁高跨比<br>一般采用等高截面，主梁高度<i>H</i><sub>s</sub>约为最大跨径<i>L</i><sub>m</sub>的1/15，一般都大于1 m。</p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.2{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.2" src="../_static/fig/2-6-2.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-2  钢筋混凝土连续梁桥立面布置</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.2'));</script>
+
+ </body>
+
+
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.6"> [A2-6.6]</a><span id="idA2-6.6"> 2. 一般构造<br>钢筋混凝土连续梁桥采用现浇箱形截面，多是低矮的多室箱，翼板的悬臂长度一般小于2 m，如<a href="#image2.6.3">图2-6-3</a>所示，箱形截面构造要求参照简支梁桥的箱形梁。典型实桥截面形式如<a href="#image2.6.4">图2-6-4</a>所示。</span></p>
+
+
+ <body>
+
+<style type="text/css">
+     #image2.6.3{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.3" src="../_static/fig/2-6-3.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-3  钢筋混凝土连续梁桥典型截面形式——换图</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.3'));</script>
+
+ </body>
+
+  <body>
+
+<style type="text/css">
+     #image2.6.4{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.4" src="../_static/fig/2-6-4.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-4 某高架桥横截面构造示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.4'));</script>
+
+ </body>
+
+ <p style="text-align:justify;font-family:times new roman">为了适应向着支点逐渐增大的负弯矩和剪力的需要，连续梁桥一般采取三种措施：①增大梁高；②加厚腹板；③加厚底板板。如<a href="#image2.6.5">图2-6-5</a>所示，根据结构内力变化，沿梁长采用不同的截面尺寸，以增大混凝土受压面积。</p>
+
+   <body>
+
+<style type="text/css">
+     #image2.6.5{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.5" src="../_static/fig/2-6-5.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-5  箱形-T形组合截面主梁构造</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.5'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.7"> [A2-6.7]</a><span id="idA2-6.7"> 3. 钢筋构造<br>钢筋设计除了根据计算要求设置外，钢筋构造要求与布置方式参照钢筋混凝土箱形梁桥。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.8"> [A2-6.8][例2-4-1]</a><span id="idA2-6.8">某桥上部结构为整体现浇等高度钢筋混凝土连续箱梁，孔跨布置为6×16 m，桥宽为7.5 m，伸缩装置布置在一联的两端。</span></p>
+<p style="text-align:justify;font-family:times new roman">（1）设计参数确定<br>设计荷载：公路—Ⅰ级；<br>建筑材料：混凝土强度等级为C30，钢筋采用HRB400；</p>
+<p style="text-align:justify;font-family:times new roman">（2）截面尺寸拟定<br>主梁截面采用直腹式单箱单室箱形，箱梁顶宽7.50 m，底宽4.50 m，悬臂长1.50 m，梁高1.20 m。顶板厚25 cm；底板厚20 cm，在支点附近加厚至40 cm；腹板厚40 cm，在支点附近加厚至60 cm。中支点横梁宽1.50 m，边支点横梁宽1.10 m，如<a href="#image2.6.6">图2-6-6</a>所示。</p>
+<p style="text-align:justify;font-family:times new roman">（3）结构计算<br>采用一次落架施工方法进行一期恒载内力计算，成桥状态二期恒载、活载内力计算，作用组合的效应设计值计算。持久状况承载能力极限状态和正常使用极限状态作用组合的效应设计值计算结果如<a href="#image2.6.7">图2-6-7</a>所示。在钢筋混凝土连续梁桥设计中，持久状况承载能力极限状态荷载组合计算结果用于截面配筋计算和承载能力极限状态验算；持久状况正常使用极限状态荷载组合计算结果用于裂缝宽度验算和变形验算。</p>
+<p style="text-align:justify;font-family:times new roman">（4）截面配筋设计<br>依据现行《混规》（JTG 3362）规定和”结构设计原理”课程的相关理论和方法，根据截面受力对箱梁抗弯钢筋、抗剪钢筋进行配筋设计，这里不再详述。截面配筋设计结果如<a href="#image2.6.8">图2-6-8</a>所示。</p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.6{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.6" src="../_static/fig/2-6-6.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-6  主梁一般构造示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.6'));</script>
+
+ </body>
+
+<body>
+
+<style type="text/css">
+     #image2.6.7{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.7" src="../_static/fig/2-6-7.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-7  内力计算包络图示例</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.7'));</script>
+
+ </body>
+
+<body>
+
+<style type="text/css">
+     #image2.6.8{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.8" src="../_static/fig/2-6-8.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">a）跨中截面；b）支点截面<br>图2-6-8  主梁横截面钢筋构造示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.8'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#id2.6.2.2">二、预应力混凝土连续梁桥</a> <span id="id2.6.2.2"> </span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.9"> [A2-6.9]</a><span id="idA2-6.9"> （一）总体设计<br>预应力混凝土连续梁桥的总体设计包括立面布置、主梁高跨比确定、桥跨结构截面形式选择等。</span></p>
+<p style="text-align:justify;font-family:times new roman">1. 立面布置<br>（1）等跨径布置：长桥和选用顶推法及简支转连续施工的预应力混凝土连续梁桥，为了使构造简单、预制定型、施工方便，多采用等跨布置。等跨布置的跨径大小主要取决于经济分孔和施工设备条件。<br>（2）不等跨径布置：大、中跨预应力混凝土连续梁桥为了减小边跨跨中正弯矩，有利于对称悬臂施工，宜选用不等跨布置。但多于三跨时，中间跨一般采用等跨布置。边中跨比的选用与施工方法有关：悬臂施工的变高度连续梁桥边中跨比一般为0.5～0.6；满堂支架现浇施工连续梁桥边中跨比一般为0.6～0.8；顶推施工等高度连续梁桥边中跨比一般为0.7～1.0。当边跨采用中跨跨径的0.5或更小时，在桥台上需设拉力支座或压重。两种跨径的多跨连续梁桥相衔接时，宜设过渡跨，过渡跨的跨径一般为相邻跨径的平均值。</p>
+<p style="text-align:justify;font-family:times new roman">2. 主梁高跨比<br>（1）等高度梁</p>
+<p style="text-align:justify;font-family:times new roman">跨径在30～70 m的中等跨径连续梁桥，为了获得较高的经济效益、施工方便、构造简单等，可采用等高度连续梁桥。</p>
+<p style="text-align:justify;font-family:times new roman">梁高可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>H</mi><mo>=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>15</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>30</mn></mfrac></mstyle><mo data-mjx-texclass="CLOSE">)</mo></mrow><msub><mi>L</mi><mrow><mi>m</mi></mrow></msub></math>，常用<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>H</mi><mo>=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>18</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>20</mn></mfrac></mstyle><mo data-mjx-texclass="CLOSE">)</mo></mrow><msub><mi>L</mi><mrow><mi>m</mi></mrow></msub></math>。在顶推施工的等高度连续梁桥中，梁高<i>H</i>与顶推跨径<i>L</i><sub>0</sub>的关系可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>H</mi><mo>=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>12</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>17</mn></mfrac></mstyle><mo data-mjx-texclass="CLOSE">)</mo></mrow><msub><mi>L</mi><mrow><mi>0</mi></mrow></msub></math>；当设有临时支墩时，梁高应按成桥（设计）跨径<i>L</i><sub>m</sub>选择。简支转连续梁桥的梁高<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>H</mi><mo>=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>16</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>25</mn></mfrac></mstyle><mo data-mjx-texclass="CLOSE">)</mo></mrow><msub><mi>L</mi><mrow><mi>m</mi></mrow></msub></math>。</p>
+<p style="text-align:justify;font-family:times new roman">（2）变高度梁</p>
+<p style="text-align:justify;font-family:times new roman">主跨跨径接近或大于70m的大跨连续梁桥主梁一般采用变高度形式，高度变化应与内力变化相适应。梁高的变化规律在立面上用各截面梁底连线来表示，可采用折线、抛物线、圆曲线等形式。因二次抛物线的规律与连续梁桥的弯矩变化规律基本相近，应用较多。抛物线次数选取范围：当跨径小于100 m时，取2次；当跨径大于100 m时，取1.5～1.8次。而折线使桥梁构造简单、施工方便。</p>
+<p style="text-align:justify;font-family:times new roman">变高度连续梁桥一般采用悬臂法或整体支架浇筑法施工。支点梁高<i>H</i><sub>x</sub>取最大跨径<i>L</i><sub>m</sub>的<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>15</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>20</mn></mfrac></mstyle></math>，常用的是<math xmlns="http://www.w3.org/1998/Math/MathML" ><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>18</mn></mfrac></mstyle><msub><mi>L</mi><mi>m</mi></msub></math>，采用整体支架浇筑法施工取小值，悬臂法施工取大值（因悬臂法施工会引起更大的负弯矩）。</p>
+<p style="text-align:justify;font-family:times new roman">变高度连续梁桥的跨中梁高<i>H</i><sub>c</sub>与最大跨径<i>L</i><sub>m</sub>的相关性不明显，一般按构造要求选择，为1.5～4.5 m，也可按<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>H</mi><mi>c</mi></msub><mo>=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>30</mn></mfrac></mstyle><mo>∼</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>50</mn></mfrac></mstyle><mo data-mjx-texclass="CLOSE">)</mo></mrow><msub><mi>L</mi><mrow><mi>m</mi></mrow></msub></math>选定跨中梁高。</p>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.10"> [A2-6.10]</a><span id="idA2-6.10"> （二）主梁截面设计</span></p>
+<p style="text-align:justify;font-family:times new roman">1. 截面形式<br>预应力混凝土连续梁桥主梁多采用箱形截面。箱形截面具有以下特点：</p>
+<p style="text-align:justify;font-family:times new roman">①箱形为闭口截面，抗扭刚度大；<br>②顶板和底板有较大的截面积，可以在跨中或支座部位有效地抵抗正负弯矩；<br>③适应现代化施工方法的要求；<br>④随着箱、室的增多，施工难度加大；常用的箱形截面是单箱单室、单箱双室和分离式双箱单室。</p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.11"> [A2-6.11]</a><span id="idA2-6.11"> 箱形梁的截面形式有单箱单室、单箱双室和分离式箱。单箱双室比单箱单室桥面板的正（负）弯矩可减小50％（70％），顶、底板中的预应力钢束比较容易平弯到肋的两侧锚固，但是单箱双室增加了一条腹板，自重增加，施工困难。采用单箱三室或多于三室，对于改善荷载横向分布并无多大帮助，而且增加施工难度，从经济上讲，最多采用单箱双室，很少采用单箱多室。分离式箱可采用翼板完全分离的双箱，各箱单独采用悬臂法施工。两个分离箱可以采用不同的线形，以适应曲线桥超髙的要求；可变作用（汽车荷载、人群荷载）横向分布较均匀，能有效利用材料，而且分离箱的中间带可不占用桥面的结构建筑面积。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.12"> [A2-6.12]</a><span id="idA2-6.12"> 一般来讲，单箱单室箱梁的室宽控制在8 m以内，翼板设置横向预应力钢筋时，悬出长度控制在5 m以内、不设横向预应力钢筋，悬臂长度控制在3m以内，翼板宽度为室宽的一半。如果上翼板较宽，桥面总宽最大可达18m左右，那么分离式双箱单室桥面就可达到36 m，因此，在宽桥中多采用分离式箱梁。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.13"> [A2-6.13]</a><span id="idA2-6.13"> 宽翼板箱梁与窄翼板箱梁比较，在箱形梁中，采用较长的悬臂板构成宽翼板箱梁，可以用较窄桥墩满足桥面有较宽的行驶宽度，以减少下部工程量。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.14"> [A2-6.14]</a><span id="idA2-6.14"> 为了进一步减小桥墩的宽度和底板的宽度，可以采用外侧斜腹板箱形梁。为了保证负弯矩区域有足够混凝土承压面积，负弯矩较大区域的底板应比直腹板箱形梁厚些。此外，斜腹板不宜用于悬臂施工的变高度箱形梁桥</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.15"> [A2-6.15]</a><span id="idA2-6.15"> 各种形式箱梁的选择视具体情况而定，主要与桥宽直接相关，如<a href="#image2.6.9">图2-6-9</a>所示。在大中跨径连续梁桥中，箱梁形式与跨径的关系不太大；而在中小跨径中，在桥面较宽的情况下选择腹板较少的箱可能导致梁高与腹板厚度不协调。</span></p>
+
+
+<body>
+
+<style type="text/css">
+     #image2.6.9{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.9" src="../_static/fig/2-6-9.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-9  箱形梁截面形式与桥宽的关系</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.9'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.16"> [A2-6.16]</a><span id="idA2-6.16"> 2. 一般构造<br>（1）顶板和底板厚度</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.17"> [A2-6.17]</a><span id="idA2-6.17">  箱形梁顶板和底板除承受法向荷载外，还承受轴向拉、压荷载。顶板的法向荷载有结构自重、桥面可变作用（汽车荷载、人群荷载）和施工荷载；底板的法向荷载有自重和施工荷载。轴向荷载是桥跨方向上由结构自重、汽车荷载及汽车制动力等转换过来的轴向力，以及纵向和横向预应力荷载。因此，顶、底板厚度除按板的构造要求确定之外，还应考虑桥跨方向的弯矩影响。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.18"> [A2-6.18]</a><span id="idA2-6.18">  根部底板厚度一般为墩顶梁高的1/10～1/12。跨中底板厚度一般按构造选定，若不配预应力钢筋，厚度可取15～18 cm；若配有预应力钢筋，厚度可取20～25 cm。边跨两端底板厚度应适当加厚，并应考虑设置人孔，以便检修和维护，也有利于减小箱梁内外温差。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.19"> [A2-6.19]</a><span id="idA2-6.19">  箱梁顶板厚度首先要满足布置纵横预应力钢筋的构造要求。不设横向预应力钢筋时，顶板厚度与腹板间距可以参考<a href="#B2.6.1">表2-6-1</a>选用。当设有横向预应力钢筋时，顶板厚度需有足够布置预应力钢筋的套管并留有混凝土注入的间隙。在结构设计时，尽可能用长悬臂或利用横向坡度和弯折预应力钢筋以调整板中横向弯矩。</span></p>
+
+<style>
+     #biaoge {
+              border: 2px solid black;
+              border-collapse: collapse;
+              margin-bottom:1px;
+
+              }
+     th, td {
+              padding-top: 5px;
+              padding-bottom:5px;
+              padding-left:5px;
+              padding-right:5px;
+              border: 1px solid black;
+              vertical-align: middle;
+
+              }
+     #eqzs {
+              border: 0px;
+              }
+     #dhbg {
+              vertical-align: middle;
+              }
+     </style>
+
+     <table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.6.1">表2-6-1 腹板间距与顶板厚度   </b></caption>
+
+     <tr>
+     <td align="center" width="450px" id="dhbg">腹板间距(m)</td>
+     <td align="center" width="150px" id="dhbg">3.5</td>
+     <td align="center" width="150px" id="dhbg">5</td>
+     <td align="center" width="150px" id="dhbg">7</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">顶板间距(cm)</td>
+     <td align="center" id="dhbg">18</td>
+     <td align="center" id="dhbg">20</td>
+     <td align="center" id="dhbg">28</td>
+     </tr>
+     </table>
+<p></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.20"> [A2-6.20]</a><span id="idA2-6.20">  （2）腹板布置与厚度<br>腹板的布置对顶板和底板的横向受力有重要影响。当腹板处最小负弯矩和桥面板跨中处最大正弯矩数值绝对相等时，桥面板的设计为最佳。桥面板正负弯矩的平衡不仅受腹板数目和间距的影响，也受桥面板跨中和支座处厚度控制。腹板主要承受竖向剪应力和由扭矩产生的剪应力，应根据剪应力的要求、保证混凝土浇筑质量的要求、预应力束的描固构造要求及局部应力的分散要求，综合考虑选择腹板最小厚度。当腹板内无预应力钢筋时，可采用20 cm；有预应力钢筋时，采用25～30 cm；有竖向预应力钢筋时，采用30 cm；有预应力钢筋锚固时，采用35～40 cm。在墩上或靠近桥墩的箱梁根部腹板需加厚到40～100 cm，甚至120 cm。腹板厚一般为20～60 cm，可在腹板设置通风孔，以减小箱内、外温差。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.21"> [A2-6.21]</a><span id="idA2-6.21">  （3）承托<br>在顶板、底板与腹板相交处需设置承托或梗腋，以减少应力集中，提髙端面的抗扭和抗弯刚度，减少箱梁的畸变。承托可以增大桥面板抵抗负弯矩的能力，还为布置预应力钢筋和设置锚头留有足够的空间。一般顶板承托采用<a href="#image2.6.10">图2-6-10a）、b）、c）</a>所示形式，其中<a href="#image2.6.10">图e）</a>所示形式适用于斜腹板箱形梁。底板倒角可以采用<a href="#image2.6.10">图2-6-10f）、g）、h）</a>所示形式。</span></p>
+
+
+<body>
+
+<style type="text/css">
+     #image2.6.10{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.10" src="../_static/fig/2-6-10.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-10  箱梁承托形式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.10'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.22"> [A2-6.22]</a><span id="idA2-6.22">  （4）横隔板<br>横隔板的主要作用是增加箱梁横向刚度，限制箱梁的畸变。箱形截面的抗弯及抗扭刚度较大，除在支点处设置横隔板外，中间横隔板较少布置，目前的趋势是少设或不设中间横隔板，如<a href="#image2.6.11">图2-6-11</a>所示。对于多箱截面，为加强桥面板和各箱间的联系，常在箱间设置横隔梁。采用双柱墩的连续梁，一般在支点处采用两道横隔板，其位置与墩侧壁对应，以便浇筑悬臂时，设置墩、梁临时固结构造，如<a href="#image2.6.112">图2-6-12</a>所示。为满足施工、维修和通风要求，横隔板上应设置过人洞。</span></p>
+
+
+<body>
+
+<style type="text/css">
+     #image2.6.11{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.11" src="../_static/fig/2-6-11.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-11  箱形梁横隔板构造设置示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.11'));</script>
+
+ </body>
+
+<body>
+
+<style type="text/css">
+     #image2.6.12{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.12" src="../_static/fig/2-6-12.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-12  墩顶处箱形梁横隔板构造设置示意</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.12'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.23"> [A2-6.23]</a><span id="idA2-6.23"> 中支点横隔板和端横隔板厚度应由计算确定，但横隔板内的抗剪、抗弯及抗裂钢筋交错密布，导致混凝土浇筑困难且不易振捣密实，因此，横隔板应具有足够的厚度。中支点横隔板厚度，大跨径连续梁桥一般不小于120 cm，中小跨径连续梁桥可取40～60 cm；端横隔板厚度不小于50 cm，如果配置了预应力钢筋，其厚度不宜小于80 cm，同时端横隔板厚度还应考虑伸缩装置预留槽等构造要求。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.24"> [A2-6.24]</a><span id="idA2-6.24"> 直线连续箱梁跨径小于40m可不设中间横隔板；跨径大于40 m可考虑设置中间横隔板。曲线连续箱梁桥应根据曲线半径、跨径大小确定跨间横隔板个数，中间横隔板厚度一般不宜小于30 cm。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.25"> [A2-6.25]</a><span id="idA2-6.25"> 一般情况下横隔板都与箱梁整体浇筑，但也有些后期浇筑的横隔板（例如顶推法施工的连续梁）。整体浇筑横隔板基本可分为三种类型:桁架式、实体式和框架式，如<a href="#image2.6.13">图2-6-13</a>所示。由于连续梁支点传递荷载较大，大多采用实体式刚性横隔板。加劲型的桁架式和框架式横隔板可作为中间腹板的加劲板，也可作为箱梁加固时体外预应力钢束锚固板，还可在施工过程中作为临时预应力钢筋的锚固板</span></p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.13{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.13" src="../_static/fig/2-6-13.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">a）桁架式；b）实体式；c）框架式<br>图2-6-13  横隔板的类型</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.13'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.26"> [A2-6.26]</a><span id="idA2-6.26">  <br>梁端和跨间锚固点的尺寸在规范中没有详细规定，可根据常见锚具的锚固端尺寸和锚座布置方式以及间距来确定，即由锚具体系来布置锚固点。<a href="#image2.6.14">图2-6-14</a>列举了几种典型的锚固点形式。<br>在节段拼装施工的桥梁中，中间节段锚固的钢束锚头一般都不突出到端面以外。在底板或顶板表面锚固的钢束，可以设齿板，当板较厚时也可以挖楔形槽。齿板应分散布置，不宜集中，在一个齿板上铺固吨位较大的钢束应不多于两束；齿板最好布置在混凝土受压部位，以防局部应力集中产生裂缝。 </span></p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.14{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.14" src="../_static/fig/2-6-14.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">a）端锚；b）顶板横向预应力锚；c）底板齿板；d）顶板楔形锚槽<br>图2-6-14  典型锚固点一般构造示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.14'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.27"> [A2-6.27]</a><span id="idA2-6.27">3. 预应力钢筋构造<（1）常用预应力钢筋类型><br>①按受力方向</span></p>
+<p style="text-align:justify;font-family:times new roman"> A. 纵向预应力钢筋：是用以保证桥梁在永久作用、可变作用下纵向跨越能力的主要受力钢筋，也称之为主筋，可布置在顶板、底板和腹板中，宜采用大吨位钢绞线。<br>B. 横向预应力钢筋：是用以保证桥梁的横向整体性、桥面板及横隔板横向抗弯能力的主要受力筋，一般布置在横隔板或顶板中，如<a href="#image2.6.15">图2-6-15</a>所示。由于目前大跨径连续梁都采用箱形截面，顶板厚度一般在25～3 5cm，在保证大量纵向预应力钢筋穿过的前提下，所剩空间位置有限，因此横向预应力钢筋宜采用钢绞线扁锚体系，以减小布筋所需空间。<br>C. 竖向预应力钢筋：是用以提高截面抗剪能力的预应力钢筋，可布置在腹板中，如<a href="#image2.6.15">图2-6-15</a>所示。竖向预应力钢筋比较短，故常采用高强粗钢筋以减少张拉锚固时的回缩损失，在梁体腹板内沿纵向的布置间距可根据竖向剪力的分布进行调整，靠支点截面位置较密，靠跨中位置较疏，一般间距为100 cm。</p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.15{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.15" src="../_static/fig/2-6-15.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-15  箱梁横向及竖向预应力钢筋构造示意</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.15'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.28"> [A2-6.28]</a><span id="idA2-6.28"> ②按工作历时 <br>A. 永久性预应力钢筋：一旦锚固后不再拆除，并在营运状态中受力。<br>B. 临时性预应力钢筋：钢筋只在施工过程中某些阶段受力，而在使用阶段不受力（虽然有时永久地保存在结构中不予拆除）。在顶推法施工的连续梁桥中，因为施工状态的内力与成桥状态完全不一致，常常采用临时预应力钢筋。在设计中，应尽量少用临时预应力钢筋，但综合施工难度、设备采购等因素，在技术经济合理的情况下可以有限使用。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.29"> [A2-6.29]</a><span id="idA2-6.29"> ③按线形 <br>A. 直线配筋：直线形预应力钢筋与预留管道之间的摩阻损失较小，但是完全直线配筋很难适应梁体弯矩的变化和锚固段空间位置的要求。<br>B. 曲线形配筋：在以下情况中需要设置曲、折线形配筋：（i）适应沿配筋方向上的弯矩变化；（ii）需要由预应力钢筋承担一部分剪力；（iii）使预应力钢筋锚固在梁体刚度较大的部位。</span></p>
+<p style="text-align:justify;font-family:times new roman"> <a href="#image2.6.16">图2-6-16a）</a>表示采用顶推法施工的直线形预应力钢筋布置方式，上下通长束使截面接近轴心受压，以抵抗顶推过程中各截面交替承受的正负弯矩。待顶推完成后，再在跨中底部和支点顶部增加局部预应力钢筋，用来满足运营荷载下相应的内力要求。<br><a href="#image2.6.16">图2-6-16b）</a>表示采用预制安装（先简支后连续）施工方法的预应力钢筋布置方式，待墩顶接缝混凝土达到规定强度后，用设置在接缝顶部的局部预应力钢筋来建立结构的连续性。<br><a href="#image2.6.16">图2-6-16c）、d）</a>表示采用悬臂施工方法的曲线形预应力钢筋布置方式，为了能支承梁体和施工荷载，需在悬臂施工时在顶板张拉负弯矩预应力束，在支承体系转换、中跨合龙时再张拉正弯矩束，并补充其他在使用阶段所需的预应力束。<br><a href="#image2.6.16">图2-6-16e）</a>表示整根曲线形预应力束锚固于梁端的布置方式（采用连续配束），常用于小跨径、整联现浇的连续梁桥，若预应力钢筋既长又弯曲次数多，则预应力损失就大，因此，箱梁的联长或预应力钢筋不宜过长。</p>
+
+
+<body>
+
+<style type="text/css">
+     #image2.6.16{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.16" src="../_static/fig/2-6-16.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">图2-6-16  预应力混凝土连续梁预应力钢筋设置方式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.16'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.30"> [A2-6.30]</a><span id="idA2-6.30"> 还有按体位分类有体内预应力钢筋和体外预应力钢筋；按整体性分类有黏结预应力钢筋和无黏结预应力钢筋等。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.31"> [A2-6.31]</a><span id="idA2-6.31"> （2）预应力钢筋设置<br>①预应力混凝土连续梁的部分预应力钢筋，应在靠近端支座区段横桥向对称成对弯起，宜沿梁端面均匀布置。</span></p>
+<p style="text-align:justify;font-family:times new roman">②预应力钢筋管道的设置应符合下列规定：<br>A. 直线管道的净距不应小于40cm，且不宜小于管道直径的0.6；对于预埋的金属或塑料波纹管和铁皮管，在竖直方向可将两管道叠置。<br>B. 管道内径的截面面积不应小于2倍预应力钢筋截面面积。<br>C. 按计算需要设置预拱度时，预留管道也应同时起拱。</p>
+<p style="text-align:justify;font-family:times new roman">③预应力混凝土构件的曲线形预应力钢筋的曲线半径应符合下列规定：<br>A. 钢丝束、钢绞线束的钢丝直径等于或小于5 mm时，不宜小于4 m；钢丝直径大于5 mm时，不宜小于6 m。<br>B. 精轧螺纹钢筋的直径等于或小于25 mm时，不宜小于12 m；直径大于25 mm时，不宜小于 15 m。</p>
+<p style="text-align:justify;font-family:times new roman">④预应力混凝土连续梁在选用预应力体系和布置预应力钢筋时，应采取措施减少摩阻损失。</p>
+<p style="text-align:justify;font-family:times new roman">⑤在连续梁桥全长上，预应力钢筋不宜在某个截面或某个区段急剧增加或减少。在梁的正负弯矩交替区，可设置较长的预应力钢筋重叠搭接段，并宜分散布置。</p>
+<p style="text-align:justify;font-family:times new roman">⑥当箱形截面梁的顶、底板内的预应力钢筋引出板外时，应在专设的齿板上锚固，此时，预应力钢筋宜采用较大弯曲半径。</p>
+<p style="text-align:justify;font-family:times new roman">⑦预应力混凝土梁当设置竖向预应力钢筋时，其纵向间距宜为0.50～1 m。<br></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.32"> [A2-6.32][例2-6-1]</a><span id="idA2-6.32">  某桥采用（72+110+72）m三跨连续梁桥，箱梁横截面构造如<a href="#image2.6.17">图2-6-17</a>所示。该桥采用悬臂浇筑法施工，箱梁中设置了纵、横、竖三向预应力钢筋。箱梁构造特征为单箱单室，腹板和底板沿梁长变厚，在支点和合龙段设置横隔板。</span></p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.17{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.17" src="../_static/fig/2-6-17.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">a）跨中截面；b支点截面）<br>图2-6-17  箱梁横截面一般构造（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.17'));</script>
+
+ </body>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-6.33"> [A2-6.33]</a><span id="idA2-6.33"> 主梁纵向预应力采用19-<i>φ</i><sup>s</sup>15.2 mm、12-<i>φ</i><sup>s</sup>15.2 mm规格的钢绞线，如<a href="#image2.6.18">图2-6-18a）</a>所示。钢束张拉锚下控制应力采用0.75f<sub>pd</sub>=1395 MPa。支点负弯矩区设顶板预应力钢筋46束，腹板预应力钢筋4束，另设预备预应力束孔道2个，如<a href="#image2.6.18">图2-6-18c）</a>所示。边跨设顶板预应力钢筋4束，底板预应力钢筋24束，底板预备预应力束孔道2个；中跨设底板预应力钢筋30束，底板预备预应力束孔道2个，如<a href="#image2.6.18">图2-6-18b）</a>所示。</span></p>
+
+<body>
+
+<style type="text/css">
+     #image2.6.18{
+        margin-left:50px;
+     }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+<div style="text-align:center;"><img id="image2.6.18" src="../_static/fig/2-6-18.jpg" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;font-family:times new roman">a）纵向预应力钢筋布置；b）中跨跨中截面预应力钢筋布置；c）中跨支点截面预应力钢筋布置<br>图2-6-18  箱梁分段及预应力钢筋构造示例（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image2.6.18'));</script>
+
+ </body><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
 
 
            </div>

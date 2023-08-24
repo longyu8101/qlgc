@@ -1,0 +1,322 @@
+第二节  整体“强度—稳定性”验算
+---------------------------------
+
+.. raw:: html
+
+ <h3 id="test111"> 第二节  整体“强度—稳定性”验算</h3>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.15"> [A3-5.15]</a><span id="idA3-5.15"> 宽跨比小于1/20的主拱以及无支架施工的拱桥，应验算拱的横向稳定性。目前，常采用以下公式来验算拱的横向稳定性。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.5.2.1"> 一、纵向稳定性验算</a> <span id="id3.5.2.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.16"> [A3-5.16]</a><span id="idA3-5.16">计算分析和试验均表明，竖向均布荷载作用下，无铰拱和两铰拱在拱轴平面内的失稳形式为反对称失稳，如<a href="#image3.5.1">图3-5-1a）、b）</a>所示；三铰拱的失稳形式则取决于矢跨比<i>f</i>/<i>l</i>，当<i>f</i>/<i>l</i>≥0.3时，发生反对称失稳，当<i>f</i>/<i>l</i> ≤0.2时，将发生对称失稳，如<a href="#image3.5.1">图3-5-1c）</a>所示。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.5.1{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.5.1" src="../_static/fig/3-5-1.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-5-1  各类拱失稳形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.5.1'));</script>
+
+  </body>
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.17"> [A3-5.17]</a><span id="idA3-5.17"> 对长细比不大，矢跨比在0.3以下的拱，纵向稳定性验算一般可表达为承载力校核的形式，即将拱圈（肋）换算为相当长度的压杆，按平均轴向力计算（<a href="#image3.5.2">图3-5-2</a>）。</span></p>
+
+
+    <body>
+
+  <style type="text/css">
+      #image3.5.2{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.5.2" src="../_static/fig/3-5-2.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-5-2  拱圈纵向稳定验算</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.5.2'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman">拱圈（肋）正截面稳定性的验算公式为：</p>
+
+$$砌体（包括砌体与混凝土组合）受压构件：\\gamma_0N_{\\mathrm{d} }<\varphi f_{\\mathrm{cd} }A\\tag{3-5-6}$$
+
+$$混凝土受压构件：\\hspace{1cm} \\gamma_0N_{\\mathrm{d} }\\leq \\varphi f_{\\mathrm{cd} }A_{\\mathrm{c}}\\tag{3-5-7}$$
+
+$$钢筋混凝土构件： \\hspace{1cm}\\gamma_0N_{\\mathrm{d} }\\leq 0.90\\varphi( f_{\\mathrm{cd} }A_{\\mathrm{c}}+f_{\\mathrm{sd} }^{'}A_{\\mathrm{c}}^{'})\\tag{3-5-8}$$
+
+.. raw:: html
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>A</i><sub>c</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">验算截面混凝土受压区面积；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>N</i><sub>d</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">拱的轴向力组合设计值，按式（3-5-5b）计算。</td>
+ </tr>
+  </table>  
+ <p style="text-align:justify;font-family:times new roman">其余符号意义同前。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.5.2.2"> 二、横向稳定性验算</a> <span id="id3.5.2.2"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.18"> [A3-5.18]</a><span id="idA3-5.18"> 宽跨比小于1/20的主拱以及无支架施工的拱桥，应验算拱的横向稳定性。目前，常采用以下公式来验算拱的横向稳定性。</span></p>
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.19"> [A3-5.19]</a><span id="idA3-5.19"> 1. 半拱或采用单肋合龙的拱肋<br>半拱或采用单肋合龙的拱肋可近似用矩形等截面抛物线两铰拱，在均布竖向荷载作用下的横向稳定公式来计算临界轴向力和临界推力。</span></p>
+
+      <style>
+      #biaoge {
+                  border: 2px solid black;
+                  border-collapse: collapse;
+                  margin-bottom:1px;
+                                                                       
+                  }
+      th, td {
+                  padding-top: 5px;
+                  padding-bottom:5px;
+                  padding-left:5px;
+                  padding-right:5px;
+                  border: 1px solid black;
+                  vertical-align: middle;
+                                                                        
+                  }
+      #eqzs {
+                  border: 0px;
+                  }
+      #dhbg {
+                  vertical-align: middle;
+                  }
+      </style>
+                                                               
+      <table id="biaoge" style="font-family:times new roman">
+                                                               
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.5.2">表3-5-2   等截面抛物线两铰拱横向稳定临界荷载系数<i>k</i>   </b></caption>	
+                                                                             
+      <tr>
+      <td align="center" id="dhbg"><i>λ</i><br><i>f</i>/<i>l</i></td>
+      <td align="center" id="dhbg">0.7</td>
+      <td align="center" id="dhbg">1.0</td>
+      <td align="center" id="dhbg">2.0</td>
+      </tr>
+      <tr>
+      <td align="center" width="225px"  id="dhbg">0.1</td>
+      <td align="center" width="225px"  id="dhbg">28.5</td>
+      <td align="center" width="225px"  id="dhbg">28.5</td>
+      <td align="center" width="225px"  id="dhbg">28.0</td> 
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.2</td>
+      <td align="center" id="dhbg">41.5</td>
+      <td align="center" id="dhbg">41.0</td> 
+      <td align="center" id="dhbg">40.0</td>
+      </tr>
+      <tr>
+      <td align="center" id="dhbg">0.3</td>
+      <td align="center" id="dhbg">40.0</td>
+      <td align="center" id="dhbg">38.5</td> 
+      <td align="center" id="dhbg">36.5</td>
+      </tr>                                               
+      </table>
+      <p></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.20"> [A3-5.20]</a><span id="idA3-5.20"> 试验与计算表明，无铰拱的临界荷载比有铰拱大。对悬链线无铰拱的横向稳定性，目前尚无成熟的计算公式，设计中可偏安全地采用两铰拱的计算公式，或者采用圆弧无铰拱的公式计算临界轴向力。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.21"> [A3-5.21]</a><span id="idA3-5.21"> 2. 以横向联结系联结的肋拱及无支架施工时采用双肋合龙的拱桥<br>横向稳定计算比较复杂，在无计算机的条件下，可将拱展开成一个与拱轴等长的平面桁架，按组合压杆计算其稳定性，如<a href="#image3.5.3">图3-5-3</a>所示。临界轴向力按下式计算：</span></p>
+
+$$ N_{\\mathrm{L} }=\\dfrac{\\pi^2E_{\\mathrm{\\mathrm{a} }}I_{\\mathrm{y}}}{L_0^2}\\tag{3-5-12}$$
+
+.. raw:: html
+
+ <body>
+
+  <style type="text/css">
+      #image3.5.3{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.5.3" src="../_static/fig/3-5-3.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-5-3  肋拱稳定计算图式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.5.3'));</script>
+
+  </body>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>I</i><sub>y</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">两拱肋对桥纵轴的惯性矩；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>E</i><sub>a</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">拱肋材料的弹性模量；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>L</i><sub>0</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">组合压杆计算长度，<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mn>0</mn></msub><mo>=</mo><mi>ρ</mi><mo>⋅</mo><mi>a</mi><mo>⋅</mo><mi>S</mi></math>；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>a</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">计算长度系数，无铰拱为O.5，两铰拱为1.0；</td>
+ </tr>
+   </table>
+
+
+
+
+$$ N_{\\mathrm{d} }=H_{\\mathrm{d}}/\\cos \\varphi_{\\mathrm{m}}\\tag{3-5-13}$$
+
+.. raw:: html
+
+ <p style="text-align:justify;font-family:times new roman">其中，<i>L</i><sub>j</sub>=<i>a</i>·<i>S</i></p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>a</i></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">横系梁（或夹木）的间距；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>b</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">两拱肋中距，即横系梁的计算长度；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>I</i><sub>a</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">单根拱肋对自身竖轴的惯性矩；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>I</i><sub>b</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">单根横系梁(或夹木)对竖轴的惯性矩；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>E</i><sub>b</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">横系梁（或夹木）的弹性模量；</td>
+ </tr>
+ <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>β</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">考虑节间局部稳定的有关系数，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>β</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow></msub><mrow><mo>/</mo></mrow><mn>2</mn><msup><mi>π</mi><mn>2</mn></msup><msub><mi>E</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub><msub><mi>I</mi><mrow><mrow><mi mathvariant="normal">a</mi></mrow></mrow></msub></math>，只能通过试算法求解。没有足够数目的横系梁时，可以忽略不计；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>n</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">与横系梁截面形状有关的系数，对矩形截面<i>n</i>=1.2，对圆形截面<i>n</i>=1.1<i>l</i>， <i>na</i>/<i>bA</i><sub>b</sub><i>G</i><sub>c</sub>项系考虑横系梁中剪力的影响，<i>G</i><sub>c</sub>为横系梁的切变模量；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>A</i><sub>b</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">横系梁的截面面积。</td>
+ </tr>
+  </table>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-5.22"> [A3-5.22]</a><span id="idA3-5.22"> 以上介绍了拱的面内、面外稳定性的简单验算，不考虑拱轴变形及材料非线性对拱稳定性的影响。对于复杂结构，坦拱或大跨径拱，需要利用有限元法，对拱进行非线性稳定分析。用有限元法求出拱结构的稳定系数<i>K</i>，只要<i>K</i>≥4～5即可。</span></p>
+
+
+:math:`\ `

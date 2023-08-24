@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box625{
+                width: 700px;
+                height: 210px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box3{
+                width: 230px;
+                height: 145px;
+                box-sizing: border-box;
+                z-index: 9999;   
+             }
+             .box4{
+                width: 230px;
+                height: 145px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             .box5{
+                width: 230px;
+                height: 145px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             #title625{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:180px;
+                margin-left:38%;   
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box625">
+               <p class="box3" style="text-align:center;font-family:times new roman"><img id="image625a" src="./_static/fig/6-2-5a.png" alt="Picture">a）矩形墩 </p>
+               <p class="box4" style="text-align:center;font-family:times new roman"><img id="image625b" src="./_static/fig/6-2-5b.png" alt="Picture">b）圆端形墩 </p>
+               <p class="box5" style="text-align:center;font-family:times new roman"><img id="image625c" src="./_static/fig/6-2-5c.png" alt="Picture">c）尖端形墩</p>
+               <p id="title625" style="font-family:times new roman">图6-2-5  重力式桥墩示例</p>
+               </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image625a'));
+             var viewer = new Viewer(document.getElementById('image625b'));
+             var viewer = new Viewer(document.getElementById('image625c'));
+         </script>
+     </body>
+</html>

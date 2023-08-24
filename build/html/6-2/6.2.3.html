@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第三节 桥墩计算 &mdash; 桥梁工程 第2版</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="第四节 桥墩施工" href="6.2.4.html" />
+    <link rel="prev" title="第二节 桥墩构造与设计" href="6.2.2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> 桥梁工程<br /><br />第2版
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qy.html">第二版前言</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第一篇 总论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02.html">第二章  桥梁总体规划和设计要点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04.html">第四章  桥梁通用构造</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10.html">第六章  连续体系梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../15.html">第四章  简单体系拱桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../4-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-2.html">第二章 斜拉桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../5-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-2.html">第二章 悬索桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../6-2.html">第二章  桥墩</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="6.2.1.html">第一节  概述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.2.2.html">第二节  桥墩构造与设计</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">第三节  桥墩计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.2.4.html">第四节  桥墩施工</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-z.html">总结</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">桥梁工程<br /><br />第2版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../6-2.html">第二章  桥墩</a></li>
+      <li class="breadcrumb-item active">第三节  桥墩计算</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/6-2/6.2.3.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>第三节  桥墩计算<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h3 id="test111">第三节  桥墩计算</h3>
+<p style="text-align:justify"><a href="#idA6-2.49"> [A6-2.49]</a><span id="idA6-2.49"></span>桥墩计算的目的在于确定经济合理的结构尺寸，并保证桥墩在施工和使用阶段的安全。桥墩计算分为作用计算和结构验算两部分内容。</p>
+<p style="text-align:justify"><a href="#idA6-2.50"> [A6-2.50]</a><span id="idA6-2.50"></span>作用计算包括桥墩所受外力计算、外力所用下的桥墩截面内力计算（包括永久作用计算）、作用组合及其效应设计值计算。外力计算时需要分析桥墩所受外荷载的种类、作用形式等，确保计算正确，不漏项。截面内力计算是分析桥墩在外荷载作用下的总体内力分布情况，找出受力控制截面（一个或几个）进行各种可能的最不利作用组合。</p>
+<p style="text-align:justify"><a href="#idA6-2.51"> [A6-2.51]</a><span id="idA6-2.51"></span>结构验算是由控制截面的最不利作用组合效应设计值验算截面承载力、圬工结构截面偏心距（钢筋混凝土结构验算抗裂性）、墩顶弹性水平位移、墩身受压纵向弯曲稳定性、桥墩稳定性等。根据不同桥墩结构类型选取验算项目，确保不漏项。本节仅介绍空心薄壁墩的墩顶弹性水平位移、墩身受压纵向弯曲稳定性计算方法，截面承载力和圬工结构截面偏心距（钢筋混凝土结构验算抗裂性）计算已在“结构设计原理”课程中介绍，本章不再赘述。</p>
+<p><a href="#id6.2.3.1">一、设计荷载</a> <span id="id6.2.3.1"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.52"> [A6-2.52]</a><span id="idA6-2.52"></span>以下各种作用（荷载）的具体计算方法可参见现行《通规》（JTG D60）相关规定。</p>
+<p><a href="#id6.2.3.1.1">1. 作用于桥墩上的永久作用</a> <span id="id6.2.3.1.1"></span></p>
+<p style="text-align:justify" id="aaa">（1）桥跨结构的永久作用对墩帽或拱座产生的支承反力，包括上部构造混凝土收缩及徐变作用；</p>
+<p style="text-align:justify" id="aaa">（2）桥墩自重；</p>
+<p style="text-align:justify" id="aaa">（3）预加力，例如对装配式预应力混凝土空心桥墩所施加的预应力；预应力混凝土盖梁的预加力等；</p>
+<p style="text-align:justify" id="aaa">（4）基础变位作用；</p>
+<p style="text-align:justify"><a href="#idA6-2.53"> [A6-2.53]</a><span id="idA6-2.53"></span>对于奠基于非岩石地基上的超静定结构，应当考虑由于地基压密等引起的支座长期变位的影响，并根据最终位移量按弹性理论计算构件截面的附加内力。</p>
+<p style="text-align:justify" id="aaa">（5）水浮力；</p>
+<p style="text-align:justify"><a href="#idA6-2.54"> [A6-2.54]</a><span id="idA6-2.54"></span>在计算水下部分桥墩时，基础承受着水的浮力，其值等于桥墩浸入水中的体积乘以水的重力密度。位于完整岩石上的桥墩，基础的混凝土与岩石接触良好时，可不考虑水浮力。位于透水性地基上的桥墩，当验算稳定时，应计算设计水位时水的浮力；当验算地基应力时，仅考虑低水位时的浮力。对位于无法肯定是否为透水地基上的桥墩，为安全考虑，应分别按透水与不透水两种情况验算而取其不利者。</p>
+<p style="text-align:justify" id="aaa">（6）土侧压力；</p>
+<p style="text-align:justify"><a href="#idA6-2.55"> [A6-2.55]</a><span id="idA6-2.55"></span>斜坡上的桥墩应计入斜坡土压力对桥墩的作用。</p>
+
+<p><a href="#id6.2.3.1.2">2. 作用于桥墩上的可变作用</a> <span id="id6.2.3.1.2"></span></p>
+<p style="text-align:justify" id="aaa">（1）汽车荷载；</p>
+<p style="text-align:justify" id="aaa">（2）人群荷载；</p>
+<p style="text-align:justify" id="aaa">（3）汽车冲击力；</p>
+<p style="text-align:justify"><a href="#idA6-2.56"> [A6-2.56]</a><span id="idA6-2.56"></span>对轻型桥墩，如钢筋混凝土柱式墩或排架墩，在截面验算时应计入汽车荷载行驶所产生的冲击力，但由于冲击力对重力式桥墩的作用衰减很快，因此，验算时不计冲击力。</p>
+<p style="text-align:justify" id="aaa">（4）汽车离心力；</p>
+<p style="text-align:justify" id="aaa">（5）汽车制动力；</p>
+<p style="text-align:justify"><a href="#idA6-2.57"> [A6-2.57]</a><span id="idA6-2.57"></span>汽车在桥上制动减速或停车时，汽车向前的惯性水平力使车轮与桥面产生滑动摩擦阻力，这种阻力就是制动力；作用方向与汽车前进的方向相同，是桥墩承受的主要顺桥向水平力之一；桥跨结构通过各类支座向桥墩传递的制动力，详见本书第一篇第三章。</p>
+<p style="text-align:justify" id="aaa">（6）作用在桥跨结构与桥面系，以及墩身上的纵、横向风荷载；</p>
+<p style="text-align:justify" id="aaa">（7）作用于墩身上的流水压力、冰压力；</p>
+<p style="text-align:justify" id="aaa">（8）温度作用；</p>
+<p style="text-align:justify"><a href="#idA6-2.58"> [A6-2.58]</a><span id="idA6-2.58"></span>桥跨构造因温度变化对桥墩产生的水平力。</p>
+<p style="text-align:justify">（9）支座摩阻力。</p>
+
+<p><a href="#id6.2.3.1.3">3. 作用于桥墩上的偶然作用</a> <span id="id6.2.3.1.3"></span></p>
+<p style="text-align:justify" id="aaa">（1）船舶的撞击作用（如通航河流上的桥）；</p>
+<p style="text-align:justify" id="aaa">（2）漂浮物的撞击作用（如泄洪河流上的桥）；</p>
+<p style="text-align:justify">（3）汽车撞击作用（如立交桥）。</p>
+<p><a href="#id6.2.3.1.4">4. 作用于桥墩上的地震作用</a> <span id="id6.2.3.1.4"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.59"> [A6-2.59]</a><span id="idA6-2.59"></span>地震作用，对于特大桥、抗震设防烈度高于6度地区的桥梁需计算地震作用。地震作用，对于特大桥、抗震设防烈度高于6度地区的桥梁需计算地震作用。</p>
+<p><a href="#id6.2.3.1.5">5. 作用组合</a> <span id="id6.2.3.1.5"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.60"> [A6-2.60]</a><span id="idA6-2.60"></span>依据现行《公路桥涵设计通用规范桥规》（JTG D60）、《圬工规》（JTG D61）、《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）和桥墩需要验算的项目列出作用组合形式。例如，对于圬工墩，需进行基本组合、偶然组合、地震组合（特大桥、抗震设防烈度高于6度地区的桥梁）计算；对于钢筋混凝土或预应力混凝土墩，需进行基本组合、偶然组合、频遇组合、准永久组合、地震组合（特大桥、抗震设防烈度高于6度地区的桥梁）计算。</p>
+<p style="text-align:justify"><a href="#idA6-2.61"> [A6-2.61]</a><span id="idA6-2.61"></span>在每种形式的组合中，以基本组合为例，会有不同种工作状况（简称工况），例如，汽车荷载的变动对作用组合起着支配作用，应根据不同的验算内容（如墩身截面承载力、作用在墩身截面上合力的偏心矩及桥墩的稳定性等）布置汽车荷载，选择各种可能的最不利作用组合。在作用组合过程中还应注意，不同时出现在结构上的荷载，不可进行组合，参照第一篇第三章相关内容。</p>
+<p style="text-align:justify"><a href="#idA6-2.62"> [A6-2.62]</a><span id="idA6-2.62"></span>桥墩计算时，预先很难确定哪一种作用组合对桥墩的影响最不利，通常需要对各种可能的作用进行组合，并计算效应设计值，应按纵向（顺桥向，与行车方向平行）和横向分别计算。</p>
+
+<p style="text-align:justify" id="aaa"><b>（1）重力式桥墩作用组合及组合效应设计值计算</b></p>
+<p style="text-align:justify" id="aaa">1）基本组合</p>
+<p style="text-align:justify" id="aaa">①桥墩在顺桥向承受最大竖向荷载的组合，见<a href="#image6234">图6-2-34a）</a>。</p>
+<p style="text-align:justify"><a href="#idA6-2.63"> [A6-2.63]</a><span id="idA6-2.63"></span>这种组合用来验算墩身截面承载力和基底最大应力。因此，除了计算永久作用外，应在相邻两桥跨满布汽车荷载或人群荷载的一种或两种。</p>
+<p style="text-align:justify" id="aaa">②桥墩在顺桥向承受最大水平荷载的组合，见<a href="#image6234">图6-2-34b）</a>。</p>
+<p style="text-align:justify"><a href="#idA6-2.64"> [A6-2.64]</a><span id="idA6-2.64"></span>在这种组合情况下，桥墩各截面在顺桥向可能产生最大偏心和最大弯矩，用来验算墩身截面承载力、偏心距、基地应力及桥墩的稳定性。因此，除了计算永久作用外，应在相邻两跨的一跨上（当为不等跨桥梁时则在跨径较大的一跨上）布置汽车荷载或人群荷载的一种或两种，以及可能产生的其他可变作用，例如纵向风荷载、汽车制动力等。</p>
+<p style="text-align:justify" id="aaa">③桥墩承受最大横桥向的偏载、最大竖向荷载，见<a href="#image6234">图6-2-34c）</a>。</p>
+<p style="text-align:justify"><a href="#idA6-2.65"> [A6-2.65]</a><span id="idA6-2.65"></span>在这种组合情况下，桥墩各截面在横桥向可能产生最大偏心和最大弯矩，用来验算横桥方向上的墩身承载力、基地应力、偏心以及桥墩的稳定性。因此，除了计算永久作用外，应将汽车荷载或人群荷载的一种或两种偏于桥面的一侧布置，并且还应考虑其他可变作用，例如横向风荷载、流水压力或冰压力等。</p>
+
+<link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+<script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+
+<div style="text-align:center;"><img id="image6234" src="../_static/fig/6-2-34.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-34  桥墩汽车荷载布置图式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6234'));</script>
+
+<p style="text-align:justify" id="aaa">2）偶然组合</p>
+<p style="text-align:justify" id="aaa">①通航河流上的桥墩，永久作用+汽车荷载或人群荷载的一种或两种（偏于桥面的一侧布置）+流水压力+船舶的撞击作用。</p>
+<p style="text-align:justify" id="aaa">②泄洪河流上的桥墩，永久作用+汽车荷载或人群荷载的一种或两种（偏于桥面的一侧布置）+流水压力+漂流物的撞击作用；</p>
+<p style="text-align:justify" id="aaa"><a href="#idA6-2.66"> [A6-2.66]</a><span id="idA6-2.66"></span>对于有凌汛的河流（如黄河西北地区段）还应验算冰压力的作用组合，即：永久作用+汽车荷载或人群荷载的一种或两种（偏于桥面的一侧布置）+冰压力。</p>
+<p style="text-align:justify"><a href="#idA6-2.67"> [A6-2.67]</a><span id="idA6-2.67"></span>应当注意，流水压力（设计洪水位时的计算值）与冰压力（凌汛期的最不利计算值）不同时发生，因此，应取两种组合对桥墩产生最不利影响的一种组合进行结构设计。</p>
+<p style="text-align:justify" id="aaa">③对于立交桥，永久作用+汽车荷载或人群荷载的一种或两种（偏于桥面的一侧布置）+汽车撞击作用。</p>
+<p style="text-align:justify" id="aaa">3）地震组合</p>
+<p style="text-align:justify"><a href="#idA6-2.68"> [A6-2.68]</a><span id="idA6-2.68"></span>永久作用+地震作用。</p>
+
+<p style="text-align:justify" id="aaa"><b>（2）柱式桥墩作用组合及组合效应设计值计算</b></p>
+<p style="text-align:justify" id="aaa">1）基本组合</p>
+<p style="text-align:justify"><a href="#idA6-2.69"> [A6-2.69]</a><span id="idA6-2.69"></span>参照重力式桥墩计算计算方法。</p>
+<p style="text-align:justify" id="aaa">2）频遇组合、准永久组合</p>
+<p style="text-align:justify"><a href="#idA6-2.70"> [A6-2.70]</a><span id="idA6-2.70"></span>柱式桥墩一般采用钢筋混凝土或预应力混凝土结构形式，在结构计算中需对盖梁和柱身进行抗裂性计算，故应进行频遇组合和准永久组合计算。</p>
+<p style="text-align:justify" id="aaa">3）偶然组合</p>
+<p style="text-align:justify"><a href="#idA6-2.71"> [A6-2.71]</a><span id="idA6-2.71"></span>参照重力式桥墩计算方法。</p>
+
+<p><a href="#id6.2.3.2">二、重力式桥墩计算</a> <span id="id6.2.3.2"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.72"> [A6-2.72]</a><span id="idA6-2.72"></span>重力式桥墩一般设计成圬工结构，计算依据现行《公路桥涵设计通用规范桥规》（JTG D60）和《圬工规》（JTG D61）进行。桥梁墩台各部分的详细尺寸拟定，根据具体情况可采用标准设计图，也可通过力学计算确定。</p>
+
+<p><a href="#id6.2.3.2.1">1. 拟定桥墩各部分尺寸</a> <span id="id6.2.3.2.1"></span></p>
+<p style="text-align:justify" id="aaa"><b>（1）墩帽</b></p>
+<p style="text-align:justify"><a href="#idA6-2.73"> [A6-2.73]</a><span id="idA6-2.73"></span>墩帽尺寸拟定应考虑主梁间距（或支座间距）、支座大小、支座边缘至墩身边缘的最小距离、施工架梁所需尺寸、更换支座所需尺寸等。</p>
+<p style="text-align:justify"><a href="#idA6-2.74"> [A6-2.74]</a><span id="idA6-2.74"></span>顺桥向墩帽最小宽度b（<a href="#image6235">图6-2-35</a>）应满足以下条件：</p>
+<span id="idgs621"></span><p>$$b\geqslant f+\frac a2+\frac{a'}2+2c_1+2c_2\tag{6-2-1}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">f</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">相邻两跨支座间的中心距，即</td>
+ </tr>
+</table>
+<span id="idgs622"></span><p>$$f=\frac{1}{2}(L_K-l_0)+\frac{1}{2}(L_K'-l_0')\tag{6-2-2}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="70px" align='left' id="eqzs">L<sub>K</sub>、<math><semantics><mrow><msubsup><mi>L</mi><mi>K</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msubsup></mrow><annotation encoding="application/x-tex">L_{K}^{\prime}</annotation></semantics></math></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">相邻两桥跨的标准跨径；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">l<sub>0</sub>、<math><semantics><mrow><msubsup><mi>l</mi><mi>0</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msubsup></mrow><annotation encoding="application/x-tex">l_{0}^{\prime}</annotation></semantics></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">相邻两桥跨的计算跨径，mm；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">a、a′</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">为相邻两桥跨支座垫板的顺桥向宽度，mm；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">c<sub>1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">出檐宽度，mm；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">c<sub>2</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">支座外边缘至墩身边缘的最小距离，mm。为了避免支座过于靠近墩身侧面边缘，造成应力集中，提高混凝土的局部抗压能力，考虑施工误差及预留锚栓孔的要求，支座边缘到墩身边缘的最小距离可按跨径大小查<a href="#B6.2.1">表 6-2-1</a>。</td>
+ </tr>
+</table>
+<br>
+
+<div style="text-align:center;"><img id="image6235" src="../_static/fig/6-2-35.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-35  墩帽一般构造（尺寸单位：mm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6235'));</script>
+
+<style>
+     #biaoge {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom:1px;
+
+     }
+     th, td {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        border: 1px solid black;
+     }
+     #eqzs {
+        border: 0px;
+     }
+     #dhbg {
+       vertical-align: middle;
+     }
+</style>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.1">表6-2-1   支座边缘至墩、台身边缘的最小距离（mm）   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" width="200px" rowspan="2">桥 向<br>跨径<i>l</i>(m)</td>
+     <td align="center" id="dhbg" width="100px" rowspan="2">顺 桥 向</td>
+     <td align="center" id="dhbg" width="400px" colspan="2">横 桥 向</td>
+     </tr>
+     <tr>
+     <td align="center" width="300px" id="dhbg">圆弧形端头（自支座边角量起）</td>
+     <td align="center" width="100px" id="dhbg">矩形端头</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">5≤<i>l</i>＜20</td>
+     <td align="center" id="dhbg">150</td>
+     <td align="center" id="dhbg">150</td>
+     <td align="center" id="dhbg">200</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">20≤<i>l</i>＜50</td>
+     <td align="center" id="dhbg">200</td>
+     <td align="center" id="dhbg">200</td>
+     <td align="center" id="dhbg">300</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg">50≤<i>l</i>＜150</td>
+     <td align="center" id="dhbg">250</td>
+     <td align="center" id="dhbg">250</td>
+     <td align="center" id="dhbg">400</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg"><i>l</i>≥150</td>
+     <td align="center" id="dhbg">300</td>
+     <td align="center" id="dhbg">300</td>
+     <td align="center" id="dhbg">500</td>
+     </tr>
+     </table>
+     <p style="text-align:justify">注：采用钢筋混凝土或预应力混凝土悬臂墩帽时，可不受本表限制，应以便于施工、养护和更换支座而定。</p>
+     <br>
+
+<p style="text-align:justify"><a href="#idA6-2.75"> [A6-2.75]</a><span id="idA6-2.75"></span>横桥向墩帽最小宽度（如<a href="#image6235">图6-2-35</a>）应满足以下条件：</p>
+<span id="idgs623"></span><p>$$B\geqslant d+\frac{b}{2}+\frac{b'}{2}+2c_1+2c_2\tag{6-2-3}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="70px" align='left' id="eqzs">d</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">为桥跨结构两侧边主梁外侧支座间的中心距；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">b、b′</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">为桥跨结构两侧边主梁支座垫板的横桥向宽度，mm；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">c<sub>1</sub>、c<sub>2</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">意义同前。</td>
+ </tr>
+</table>
+<br>
+
+<p style="text-align:justify" id="aaa"><b>（2）墩身</b></p>
+<p style="text-align:justify"><a href="#idA6-2.76"> [A6-2.76]</a><span id="idA6-2.76"></span>实体墩身尺寸主要包括墩高、墩身顶面、底面尺寸及墩身侧坡等项。墩高由基础顶面及桥面高程或设计洪水位控制。墩身顶面尺寸，由墩帽控制。</p>
+<p style="text-align:justify"><a href="#idA6-2.77"> [A6-2.77]</a><span id="idA6-2.77"></span>墩身侧面坡度常用20:1～30:1，一般应对称设置，只有在承受不对称推力时，才考虑用不对称的墩身坡度，墩身底截面尺寸受墩帽尺寸、墩高、墩身坡度控制。</p>
+<p style="text-align:justify"><a href="#idA6-2.78"> [A6-2.78]</a><span id="idA6-2.78"></span>用以上方法拟定的墩身尺寸，应按作用于其上的外力来验算，如需改变截面尺寸，可改变墩身坡度，如仍不符合要求，则需调整墩帽尺寸。</p>
+
+<p><a href="#id6.2.3.2.2">2. 作用计算</a> <span id="id6.2.3.2.2"></span></p>
+
+<p style="text-align:justify"><a href="#idA6-2.79"> [A6-2.79]</a><span id="idA6-2.79"></span>计算桥墩的永久作用，并根据不同的验算项目布置汽车荷载、人群荷载等可变作用，以得到最不利荷载布置，分别按顺桥向和横桥向计算出各验算截面的最不利作用组合及其效应设计值（弯矩、轴向力、水平力等）。</p>
+<p><a href="#id6.2.3.2.3">3. 墩身截面验算</a> <span id="id6.2.3.2.3"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.80"> [A6-2.80]</a><span id="idA6-2.80"></span>重力式桥墩为圬工结构，按照概率极限状态法设计，并满足现行《圬工规》（JTG D61）的要求。墩身截面验算包括截面承载力验算和截面合力偏心距验算，验算方法已在“结构设计原理”课程中介绍，这里不再赘述。</p>
+<p style="text-align:justify"><a href="#idA6-2.81"> [A6-2.81]</a><span id="idA6-2.81"></span>[例题6-2-1]一座2跨16m装配式预应力混凝土空心板简支梁桥（<a href="#image6236a">图6-2-36</a>），墩高8m，试对桥墩进行一般构造设计。桥跨结构设计资料如下：</p>
+
+<div style="text-align:center;"><img id="image6236a" src="../_static/fig/6-2-36a.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">a）全桥立面</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6236a'));</script>
+
+<div style="text-align:center;"><img id="image6236b" src="../_static/fig/6-2-36b.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">b）横截面<br>图6-2-36  2跨16m简支梁桥示意（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6236b'));</script>
+
+<style type="text/css">
+     #image6236a{
+        margin-left:106px;
+        }
+     #image6235{
+        margin-left:171px;
+        }
+</style>
+<p style="text-align:justify" id="aaa">（1）预制梁长15.96m，计算跨径l＝15.60m；</p>
+<p style="text-align:justify" id="aaa">（2）桥面宽：净-9m＋2×0.50m防撞护栏（二车道）[<a href="#image6236a">图6-2-36a）</a>]；</p>
+<p style="text-align:justify" id="aaa">（3）设计荷载：公路—Ⅰ级（q<sub>k</sub>=10.50kN/m，P<sub>kM</sub>=291.20kN，P<sub>kV</sub>=349.44kN）。</p>
+<p style="text-align:justify" id="aaa">（4）每块空心板外轮廓尺寸为1050×700mm（含企口缝宽10mm），重182.50kN；</p>
+<p style="text-align:justify" id="aaa">（5）桥面铺装：采用先在空心板上现浇一层100mm厚的C30混凝土，再在其上铺设沥青混凝土层60～130mm[<a href="#image6236b">图6-2-36b）</a>]；</p>
+<p style="text-align:justify" id="aaa">（6）护栏重：3.20kN/m；</p>
+<p style="text-align:justify">（7）支座：采用板式橡胶支座，桥墩上相邻两跨分别设置一个固定支座和一个活动支座。</p>
+
+<p style="text-align:justify" id="aaa"><b>解：1. 桥墩形式</b></p>
+<p style="text-align:justify" id="aaa">本桥墩高8m，拟采用圆端形重力式桥墩，墩帽采用C30钢筋混凝土，墩身采用C25混凝土。</p>
+<p style="text-align:justify" id="aaa"><b>2. 桥墩尺寸拟定</b></p>
+<p style="text-align:justify" id="aaa">桥墩尺寸拟定如<a href="#image6237">图6-2-37</a>所示，从墩身顶面至墩身底面每隔2～3m选一个截面进行验算，本算例仅列出A—A截面和B—B截面的作用计算、作用组合及组合效应设计值计算，其他截面计算方法相同。由计算出的组合效应设计值对相应截面进行验算，截面验算方法已在“结构设计原理”课程中介绍，这里不再赘述。</p>
+
+<div style="text-align:center;"><img id="image6237" src="../_static/fig/6-2-37.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-37  重力式桥墩一般构造（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6237'));</script>
+
+<p style="text-align:justify" id="aaa"><b>3. 永久作用标准值</b></p>
+<p style="text-align:justify" id="aaa">永久作用包括桥跨结构自重、桥墩自重。桥跨结构自重通过支座传递至墩帽，需计算支座反力；桥墩自重为验算截面以上的桥墩圬工体积乘以材料重度。</p>
+<p style="text-align:justify" id="aaa">①桥跨结构自重</p><p>$$
+\begin{aligned}
+&amp;\ q_G=\frac{182.50\times9}{15.96}+(0.50+9+0.50)\times0.10\times25+\frac{(0.06+0.13)}{2}\times9\times24+3.2\times2=154.83(kN/m)\\
+&amp;\ R_G=\frac{q_G\times15.96}{2}\times2=\frac{154.83\times15.96}{2}\times2=2471.09(kN)
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa">②桥墩自重</p><p>$$
+\begin{aligned}
+&amp;\ 墩帽:G_1=(\frac{\pi}{4}\times1.40^2\times0.60+9.50\times1.40\times0.40)\times2.5=156.09(kN)\\
+&amp;\ 墩身:G_2=\bigg[\frac{7.60}{3}\times\frac{\pi}{4}\times(1.20^2+1.8^2+1.20\times1.8)+7.60\times9.50\times(\frac{1.20+1.8}{2})\bigg]\times24=2925.83(kN)
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa">③验算截面中心处永久作用</p><p>$$
+\begin{aligned}
+A—A截面: &amp; 标准值 N_{\mathrm{Gk}}=2471.09+156.09=2627.18(kN) \\
+&amp; 设计值 N_{\text{Gd}}=\gamma_{\text{G}_1}\cdot N_{\text{Gk}}=1.2\times2627.18=3152.62(kN)
+\end{aligned}
+$$</p>
+<p>$$
+\begin{aligned}
+A—A截面: &amp; 标准值 N_{\mathrm{Gk}}=2471.09+156.09+2925.83=5553.01(kN) \\
+&amp; 设计值 N_{\mathsf{G d}}=\gamma_{\mathsf{G}_{1}}\cdot N_{\mathsf{G k}}=1.2\times5553.01=6663.61(kN)
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa"><b>4. 可变作用标准值</b></p>
+<p style="text-align:justify" id="aaa">可变作用包括汽车荷载、汽车制动力，实体墩不计汽车冲击力。暂不考虑风荷载、流水压力等。</p>
+<p style="text-align:justify" id="aaa">（1）单跨、双车道布载（<a href="#image6238">图6-2-38</a>）</p>
+
+<div style="text-align:center;"><img id="image6238" src="../_static/fig/6-2-38.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-38  桥墩单跨布载示意（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6238'));</script>
+
+<p style="text-align:justify" id="aaa">①墩顶截面中心处可变作用标准值</p><p>$$
+\begin{aligned}
+R_1 &amp; =(\frac{1}{2}\times15.80\times1.013\times q_k+P_{kV}\times1.013)\times2 \\
+&amp; =(\frac{1}{2}\times15.80\times1.013\times10.50+349.44\times1.013)\times2=876.02(kN)
+\end{aligned}
+$$</p>
+<p>$$
+\begin{array}
+{l}R_2 &amp;  =0 \\
+\sum R &amp; =R_1+R_2=876.02+0=876.02(kN)
+\end{array}
+$$</p>
+<p style="text-align:justify" id="aaa">一个车道制动力：墩顶分别设置一排固定支座和一排活动支座，加载跨为设置固定支座侧桥跨。</p><p>$$\begin{array}
+{l}H_{x} &amp; =(q_{k}·l+P_{\mathrm{kV}})\times10\% \\
+&amp; =(10.5\times15.80+349.44)\times10\%=51.53\quad(\text{kN})\quad&lt;165.00\quad(\text{kN})
+\end{array}$$</p>
+<p>$$\begin{array}
+{l}故取 H_{x} &amp; =165.00(kN) \\
+二个车道制动力: H_{x} &amp; =165.00\times2=330.00(kN)
+\end{array}$$</p>
+<p style="text-align:justify" id="aaa">②验算截面中心处的可变作用标准值</p><p>$$
+\begin{aligned}
+A—A截面: &amp; N_{{Q_{1}}k}=\sum R=876.02(kN) \\
+&amp; H_{xAk}=330.00(kN) \\
+&amp; H_{yAk}=0 \\
+&amp; M_{x Q_1Ak}=R_1\times0.20+R_2\times0.20=876.02\times0.20+0\times0.20=175.20\quad\text{(kN · m)} \\
+&amp; M_{x Q_2Ak}=H_x\times0.40=330.00\times0.40=132.00\quad\text{(kN · m)} \\
+&amp; M_{y Q_1Ak}=\sum R\times1.55=876.02\times1.55=1357.83\quad\text{(kN · m)}
+\end{aligned}
+$$</p>
+<p>$$
+\begin{aligned}
+B—B截面: &amp; N_{{Q_{1}}k}=\sum R=876.02(kN) \\
+&amp; H_{xBk}=330.00(kN) \\
+&amp; H_{yBk}=0 \\
+&amp; M_{x Q_1Bk}=R_1\times0.20+R_2\times0.20=876.02\times0.20+0\times0.20=175.20\quad\text{(kN · m)} \\
+&amp; M_{x Q_2Bk}=H_x\times0.40=330.00\times8.00=2640.00\quad\text{(kN · m)} \\
+&amp; M_{y Q_1Bk}=\sum R\times1.55=876.02\times1.55=1357.83\quad\text{(kN · m)}
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa">（2）双跨、双车道布载（<a href="#image6239">图6-2-39</a>）</p>
+
+<div style="text-align:center;"><img id="image6239" src="../_static/fig/6-2-39.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-39  桥墩双跨布载示意（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6239'));</script>
+
+<p style="text-align:justify" id="aaa">①墩顶截面中心处的可变作用标准值</p><p>$$
+\begin{aligned}
+R_1 &amp; =(\frac{1}{2}\times15.80\times1.013\times q_k+\frac{\mathrm{P}_{\mathrm{KV}}\times1.013}{2})\times2 \\
+&amp; =(\frac{1}{2}\times15.80\times1.013\times10.5+\frac{349.44\times1.013}{2})\times2=522.04(kN)
+\end{aligned}
+$$</p>
+<p>$$
+\begin{array}
+{l}R_2 &amp;  =R_1=522.04(kN) \\
+\sum R &amp; =R_1+R_2=522.04+522.04=1044.08(kN)
+\end{array}
+$$</p>
+<p style="text-align:justify" id="aaa">一个车道制动力：墩顶分别设置一排固定支座和一排活动支座，加载跨为桥墩两侧桥跨。</p><p>$$\begin{aligned}
+H_x &amp; =(q_k\cdot l+\frac{P_k V}{2})\times10\%+0.3\times(q_k\cdot l+frac{P_{kV}}{2})\times10\% \\
+&amp; =(10.5\times15.80+\frac{349.44}{2})\times10\%+0.3\times(10.5\times15.80+\frac{349.44}{2})\times10\%=44.28\quad(\text{kN})&lt;165.00\quad(\text{kN})
+\end{aligned}$$</p>
+<p>$$\begin{array}
+{l}故取 H_{x} &amp; =165.00(kN) \\
+二个车道制动力: H_{x} &amp; =165.00\times2=330.00(kN)
+\end{array}$$</p>
+<p style="text-align:justify" id="aaa">②验算截面中心处的可变作用标准值</p><p>$$
+\begin{aligned}
+A—A截面: &amp; N_{{Q_{1}}k}=\sum R=1044.08(kN) \\
+&amp; H_{xAk}=330.00(kN) \\
+&amp; H_{yAk}=0 \\
+&amp; M_{x Q_1Ak}=R_1\times0.20-R_2\times0.20=522.04\times0.20-522.04\times0.20=0\quad\text{(kN · m)} \\
+&amp; M_{x Q_2Ak}=H_x\times0.40=330.00\times0.40=132.00\quad\text{(kN · m)} \\
+&amp; M_{y Q_1Ak}=\sum R\times1.55=1044.08\times1.55=1618.32\quad\text{(kN · m)}
+\end{aligned}
+$$</p>
+<p>$$
+\begin{aligned}
+B—B截面: &amp; N_{{Q_{1}}k}=\sum R=1044.08(kN) \\
+&amp; H_{xBk}=330.00(kN) \\
+&amp; H_{yBk}=0 \\
+&amp; M_{x Q_1Bk}=R_1\times0.20-R_2\times0.20=522.04\times0.20-522.04\times0.20=0\quad\text{(kN · m)} \\
+&amp; M_{x Q_2Bk}=H_x\times0.40=330.00\times8.00=2640.00\quad\text{(kN · m)} \\
+&amp; M_{y Q_1Bk}=\sum R\times1.55=1044.08\times1.55=1618.32\quad\text{(kN · m)}
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa"><b>5. 作用组合及其效应设计值</b></p>
+<p style="text-align:justify" id="aaa">依据现行《公路桥涵设计通用规范》（JTG D60）相关规定，或本教材第一篇第三章相关内容对上述计算进行作用组合及其效应设计值计算。本桥为2跨16m，多跨跨径总长为32m，属于中桥，设计安全等级为“一级”，结构重要性系数γ<sub>0</sub>=1.1 。</p>
+<p style="text-align:justify" id="aaa">结构设计使用年限荷载调整系数γ<sub>L</sub>=1.0,γ<sub>L<sub>2</sub></sub>=1.0。</p>
+<p style="text-align:justify" id="aaa">作用的分项系数γ<sub>G<sub>1</sub></sub>=1.2,γ<sub>Q<sub>1</sub></sub>=1.4,γ<sub>Q<sub>2</sub></sub>=1.4。</p>
+<p style="text-align:justify" id="aaa">可变作用的组合值系数ψ<sub>c</sub>=0.75。</p>
+<p style="text-align:justify">基本组合：S<sub>ud</sub>=γ<sub>0</sub>S(γ<sub>G<sub>1</sub></sub>·G<sub>1k</sub>，γ<sub>Q<sub>1</sub></sub>·γ<sub>L</sub>·Q<sub>1k</sub>，ψ<sub>c</sub>·γ<sub>Q<sub>2</sub></sub>·γ<sub>L<sub>2</sub></sub>·Q<sub>2k</sub>)。</p>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2.1">表6-2-2(1)   验算截面作用标准值   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" width="150px" rowspan="3" colspan="2">验算截面</td>
+     <td align="center" id="dhbg" width="100px">永久作用标准值</td>
+     <td align="center" id="dhbg" width="450px" colspan="5">可变作用标准值</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" width="90px"><i>N</i><sub>Gk</sub></td>
+     <td align="center" id="dhbg" width="90px"><i>N</i><sub>Q<sub>i</sub>k</sub></td>
+     <td align="center" id="dhbg" width="90px"><i>H</i><sub>xk</sub></td>
+     <td align="center" id="dhbg" width="90px"><i>H</i><sub>yk</sub></td>
+     <td align="center" id="dhbg" width="90px"><i>M</i><sub>xQ<sub>i</sub>k</sub></td>
+     <td align="center" id="dhbg" width="90px"><i>M</i><sub>yQ<sub>i</sub>k</sub></td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="4">单跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">A-A</td>
+     <td align="center" id="dhbg" rowspan="2">2627.18</td>
+     <td align="center" id="dhbg">876.02</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">175.20</td>
+     <td align="center" id="dhbg">1357.83</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">330.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">132.00</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" rowspan="2">B-B</td>
+     <td align="center" id="dhbg" rowspan="2">5553.01</td>
+     <td align="center" id="dhbg">876.02</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">175.20</td>
+     <td align="center" id="dhbg">1357.83</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">330.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">2640.00</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="4">双跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">A-A</td>
+     <td align="center" id="dhbg" rowspan="2">2627.18</td>
+     <td align="center" id="dhbg">1044.08</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1618.32</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">330.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">132.00</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" rowspan="2">B-B</td>
+     <td align="center" id="dhbg" rowspan="2">5553.01</td>
+     <td align="center" id="dhbg">1044.08</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1618.32</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">330.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">2640.00</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     </table>
+     <br>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.2.2">表6-2-2(2)   验算截面作用组合及其效应设计值   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" rowspan="3" colspan="2">验算<br>截面</td>
+     <td align="center" id="dhbg">永久作<br>用设计<br>值</td>
+     <td align="center" id="dhbg" colspan="5">可变作用设计值</td>
+     <td align="center" id="dhbg" colspan="5">基本组合效应设计值</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg"><i>N</i><sub>Gd</sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>Q<sub>i</sub>d</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xd</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yd</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQ<sub>i</sub>d</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQ<sub>i</sub>d</sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>ud</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xud</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yud</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xud</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yud</sub></td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="4">单<br>跨<br>双<br>车<br>道</td>
+     <td align="center" id="dhbg" rowspan="2">A-A</td>
+     <td align="center" id="dhbg" rowspan="2">3152.62</td>
+     <td align="center" id="dhbg">1226.43</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">245.28</td>
+     <td align="center" id="dhbg">1900.96</td>
+     <td align="center" id="dhbg" rowspan="2">4816.95</td>
+     <td align="center" id="dhbg" rowspan="2">381.15</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">422.27</td>
+     <td align="center" id="dhbg" rowspan="2">2091.06</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">462.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">184.80</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" rowspan="2">B-B</td>
+     <td align="center" id="dhbg" rowspan="2">6663.61</td>
+     <td align="center" id="dhbg">1226.43</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">245.28</td>
+     <td align="center" id="dhbg">1900.96</td>
+     <td align="center" id="dhbg" rowspan="2">8679.04</td>
+     <td align="center" id="dhbg" rowspan="2">381.15</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">3319.01</td>
+     <td align="center" id="dhbg" rowspan="2">2091.06</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">462.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">3696.00</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="4">双<br>跨<br>双<br>车<br>道</td>
+     <td align="center" id="dhbg" rowspan="2">A-A</td>
+     <td align="center" id="dhbg" rowspan="2">3152.62</td>
+     <td align="center" id="dhbg">1461.71</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">2265.65</td>
+     <td align="center" id="dhbg" rowspan="2">5075.76</td>
+     <td align="center" id="dhbg" rowspan="2">381.15</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">152.46</td>
+     <td align="center" id="dhbg" rowspan="2">2492.21</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">462.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">184.80</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" rowspan="2">B-B</td>
+     <td align="center" id="dhbg" rowspan="2">6663.61</td>
+     <td align="center" id="dhbg">1461.71</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">2265.65</td>
+     <td align="center" id="dhbg" rowspan="2">8937.86</td>
+     <td align="center" id="dhbg" rowspan="2">381.15</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">3049.20</td>
+     <td align="center" id="dhbg" rowspan="2">2492.21</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">462.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">3696.00</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     </table>
+     <br>
+
+<p><a href="#id6.2.3.3">三、柱式桥墩计算</a> <span id="id6.2.3.3"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.82"> [A6-2.82]</a><span id="idA6-2.82"></span>柱式桥墩一般设计成钢筋混凝土结构或预应力混凝土结构，计算依据现行《圬工规》（JTG D60）、《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）进行。</p>
+
+<p><a href="#id6.2.3.3.1">1. 盖梁计算</a> <span id="id6.2.3.3.1"></span></p>
+<p style="text-align:justify" id="aaa"><b>（1）计算图式</b></p>
+<p style="text-align:justify"><a href="#idA6-2.83"> [A6-2.83]</a><span id="idA6-2.83"></span>桥跨结构为装配式结构时，柱式墩设有盖梁。在构造上，墩柱的纵向受力钢筋应伸入到盖梁内，并与盖梁钢筋绑扎成整体，因此盖梁与墩柱为刚接，宜按刚架计算，盖梁的计算跨径宜取支承中心的距离。</p>
+<p style="text-align:justify" id="aaa"><b>（2）作用计算</b></p>
+<p style="text-align:justify"><a href="#idA6-2.84"> [A6-2.84]</a><span id="idA6-2.84"></span>作用计算包括桥跨结构永久作用支点反力、盖梁自重和可变作用。可变作用布载要使各种组合为桥上最不利情况，求出支点最大反力。荷载的横向分布计算，当汽车荷载对称布置时，按杠杆法计算；当汽车荷载非对称布置时，按刚性横梁法（或偏心受压法、刚接板梁法或G-M法）计算。在盖梁截面内力计算时，可考虑桩柱支承宽度对削减负弯矩峰值的影响。</p>
+<p style="text-align:justify"><a href="#idA6-2.85"> [A6-2.85]</a><span id="idA6-2.85"></span>盖梁在施工过程中，荷载的不对称性很大，各截面将产生较大的弯矩，因此要根据当时的施工方案对各截面的受弯、受剪进行验算。</p>
+<p style="text-align:justify"><a href="#idA6-2.86"> [A6-2.86]</a><span id="idA6-2.86"></span>公路桥梁桩柱式墩的盖梁通常采用双悬臂式，计算时的控制截面选在支点和跨中截面。在计算支点负弯矩时，采用非对称布置可变作用；在计算跨中正弯矩时，采用对称布置可变作用。桥墩沿纵向的水平力以及当盖梁在沿顺桥向设置两排支座时，应计入桥跨结构可变作用的偏心对盖梁产生的扭矩。</p>
+<p style="text-align:justify" id="aaa"><b>（3）配筋计算</b></p>
+<p style="text-align:justify"><a href="#idA6-2.87"> [A6-2.87]</a><span id="idA6-2.87"></span>盖梁的配筋计算方法与钢筋混凝土梁配筋类同，即根据弯矩包络图配置受弯钢筋，根据剪力包络图配置弯起钢筋和箍筋。在配筋时，还应计算各控制截面扭矩所需要的箍筋及纵向钢筋。当采用预应力混凝土盖梁时，预应力钢筋及普通钢筋的配置同预应力混凝土梁。验算方法已在“结构设计原理”课程中介绍，这里不再赘述。</p>
+<p style="text-align:justify" id="aaa"><b>（4）抗裂验算</b></p>
+<p style="text-align:justify"><a href="#idA6-2.88"> [A6-2.88]</a><span id="idA6-2.88"></span>钢筋混凝土盖梁的最大裂缝宽度按现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）进行计算，验算方法已在“结构设计原理”课程中介绍，这里不再赘述。</p>
+
+<p><a href="#id6.2.3.3.2">2. 墩柱计算</a> <span id="id6.2.3.3.2"></span></p>
+<p style="text-align:justify" id="aaa"><b>（1）作用计算</b></p>
+<p style="text-align:justify"><a href="#idA6-2.89"> [A6-2.89]</a><span id="idA6-2.89"></span>作用于墩柱的作用有永久作用（包括桥跨结构重力、盖梁、系梁及墩身重力）、可变作用（按设计荷载进行最不利荷载布置），计算最不利作用组合。桥墩的水平力有支座摩阻力和汽车制动力等。</p>
+<p style="text-align:justify"><a href="#idA6-2.90"> [A6-2.90]</a><span id="idA6-2.90"></span>桩柱式墩按桩基础的有关内容计算桩柱的内力和桩的入土深度。对于单柱墩，计算弯矩应考虑两个方向弯矩的合力，纵、横方向弯矩合力值为</p>
+<span id="idgs624"></span><p>$$M=\sqrt{M_x^2+M_y^2}\tag{6-2-4}$$</p>
+<p style="text-align:justify">其余计算同双柱墩。</p>
+<p style="text-align:justify" id="aaa"><b>（2）配筋验算</b></p>
+<p style="text-align:justify"><a href="#idA6-2.91"> [A6-2.91]</a><span id="idA6-2.91"></span>在计算最不利的内力组合之后，先配筋，再验算，验算方法按“结构设计原理”课程中介绍的钢筋混凝土偏心受压构件计算，这里不再赘述。</p>
+<p style="text-align:justify" id="aaa"><b>（3）抗裂验算</b></p>
+<p style="text-align:justify"><a href="#idA6-2.92"> [A6-2.92]</a><span id="idA6-2.92"></span>墩柱抗裂验算方法参照盖梁计算。</p>
+<p style="text-align:justify"><a href="#idA6-2.93"> [A6-2.93]</a><span id="idA6-2.93"></span>[例题6-2-2]  一座2跨25m装配式预应力混凝土简支梁桥（<a href="#image6240">图6-2-40</a>），墩高7.5m，试对桥墩进行一般构造设计。桥跨结构设计资料如下：</p>
+
+<div style="text-align:center;"><img id="image6240" src="../_static/fig/6-2-40.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-40  2跨25m简支梁桥立面（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6240'));</script>
+
+<p style="text-align:justify" id="aaa">（1）预制梁长24.94m，计算跨径l＝24.30m，</p>
+<p style="text-align:justify" id="aaa">（2）桥面宽：采用上、下行分幅设计，每幅桥宽为净-11m＋1.0m（内侧防撞护栏）＋0.50m（外侧防撞护栏）（二车道）；</p>
+<p style="text-align:justify" id="aaa">（3）设计荷载：公路—Ⅰ级（q<sub>k</sub>=10.50kN/m，P<sub>kM</sub>=308.60kN，P<sub>kV</sub>=370.32kN）。</p>
+<p style="text-align:justify" id="aaa">（4）每跨采用五片T梁，中梁支座反力为379.34kN，边梁支座反力为396.80kN，1+μ＝1.20；</p>
+<p style="text-align:justify">（5）支座：板式橡胶支座，摩擦系数为f＝0.05。</p>
+
+<p style="text-align:justify" id="aaa"><b>解：1. 桥墩形式</b></p>
+<p style="text-align:justify" id="aaa">本桥墩高7.5m，拟采用双柱式桥墩，盖梁、墩身均采用C30钢筋混凝土，系梁、桩基均采用C25钢筋混凝土。</p>
+<p style="text-align:justify" id="aaa"><b>2. 桥墩尺寸拟定</b></p>
+<p style="text-align:justify" id="aaa">桥墩尺寸拟定如<a href="#image6241">图6-2-41</a>所示。桥墩计算包括盖梁计算和墩柱计算两部分。</p>
+
+<p style="text-align:justify" id="aaa">（1）盖梁</p>
+<p style="text-align:justify" id="aaa">盖梁计算跨径l：墩柱中距为7.00m，净距为5.60m，按现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）第8.2.3条规定，1.15×5.60＝6.44（m），6.44m＜7.00m，故l＝6.44m。</p>
+<p style="text-align:justify" id="aaa">盖梁跨高比l/h＝6.44／1.50＝4.29＜5.0，依据现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362），按钢筋混凝土双悬臂梁计算。本算例盖梁计算从略。</p>
+<p style="text-align:justify" id="aaa">（2）墩柱</p>
+<p style="text-align:justify" id="aaa">从墩柱顶面至墩柱底面每隔2～3m选一个截面进行计算，本算例仅列出墩柱底A—A截面的计算结果，其他截面计算方法相同。</p>
+
+<div style="text-align:center;"><img id="image6241" src="../_static/fig/6-2-41.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-41  双柱墩一般构造（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6241'));</script>
+
+<p style="text-align:justify" id="aaa"><b>3. 永久作用标准值</b></p>
+<p style="text-align:justify" id="aaa">①一跨上部结构自重：3898.16 kN</p>
+<p style="text-align:justify" id="aaa">②盖梁自重（半边盖梁）：363.14 kN</p>
+<p style="text-align:justify" id="aaa">③一根墩柱自重：G<sub>1</sub>=π/4×1.4²×6×25=230.91(kN)</p>
+<p style="text-align:justify" id="aaa">④作用于验算截面A—A中心的永久作用标准值：N<sub>Gk</sub>=3898.16/2+363.14+230.91=2543.13(kN)</p>
+
+<p style="text-align:justify" id="aaa"><b>4. 可变作用标准值</b></p>
+<p style="text-align:justify" id="aaa">可变作用包括汽车荷载、汽车制动力、汽车冲击力，暂不考虑风荷载、流水压力等。</p>
+<p style="text-align:justify" id="aaa">（1）单跨、双车道布载（<a href="#image6242">图6-2-42</a>）</p>
+
+<div style="text-align:center;"><img id="image6242" src="../_static/fig/6-2-42.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-42  桥墩单跨布载示意（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6242'));</script>
+
+<p style="text-align:justify" id="aaa">①作用于单根墩柱顶截面中心的可变作用</p><p>$$
+\begin{aligned}
+R_1 &amp; =(\frac{1}{2}\times24.65\times1.014\times q_k+P_{kV}\times1.014)\times2 \\
+&amp; =(\frac{1}{2}\times24.65\times1.014\times10.50+370.32\times1.014)\times2=1013.46(kN)
+\end{aligned}
+$$</p>
+<p>$$
+\begin{array}
+{l}R_2 &amp;  =0 \\
+\sum R &amp; =R_1+R_2=1013.46+0=1013.46(kN)
+\end{array}
+$$</p>
+<p style="text-align:justify" id="aaa">一个车道制动力：墩顶分别设置一排固定支座和一排活动支座，加载跨为固定支座。</p><p>$$\begin{aligned}
+H_{xk} &amp; =(q_{k}\cdot l+P_{kV})\times10\%=\left(10.5\times24.65+370.32\right)\times10\% \\
+&amp; =62.91\quad\left(kN\right)&lt;165\quad\left(kN\right)
+\end{aligned}$$</p>
+<p>$$\begin{array}
+{l}故取 H_{xk} &amp; =165.00(kN) \\
+二个车道制动力: H_{xk} &amp; =165.00\times2=330.00(kN)
+\end{array}$$</p>
+<p style="text-align:justify" id="aaa">由于墩顶采用的固定支座形式相同，可按双柱平均分配汽车制动力考虑，因此，一根单柱承受的制动力为：H<sub>xk</sub>=330/2=165(kN)。</p>
+<p style="text-align:justify" id="aaa">②作用于验算截面A—A中心的可变作用标准值</p>
+<p style="text-align:justify" id="aaa">横向双车道布载，双柱反力横向分配系数（<a href="#image6243">图6-2-43</a>）：</p>
+
+<div style="text-align:center;"><img id="image6243" src="../_static/fig/6-2-43.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-43  桥墩单柱荷载分配示意（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6243'));</script><p>$$
+\begin{aligned}
+&amp; K_1=\frac{2.80+3.50}{7.00}=0.900 \\
+&amp; K_2=1-0.900=0.100 \\
+&amp; N_{Q_{1k}}=R_1\cdot(1+\mu)=K_1\sum R\cdot(1+\mu)=0.9\times1013.46\times1.2=1094.54\quad\text{(kN)}(考虑冲击力) \\
+&amp; H_{xAk}=165\quad\text{(kN)} \\
+&amp; H_{yAk}=0 \\
+&amp; M_{{xQ}_{1Ak}}=N_{{Q}_{1k}}\times0.35=1094.54\times0.35=383.09\quad\text{(kN·m)} \\
+&amp; M_{xQ_{2Ak}}=H_{xAk}\times(6+1.50)=165\times7.50=1237.50\quad\text{(kN·m)}
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa">（2）双跨、双车道布载（<a href="#image6244">图6-2-44</a>）</p>
+
+<div style="text-align:center;"><img id="image6244" src="../_static/fig/6-2-44.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-44  桥墩双跨布载示意（尺寸单位：cm）</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6244'));</script>
+
+<p style="text-align:justify" id="aaa">①作用于单根墩柱顶截面中心的可变作用标准值</p><p>$$
+\begin{aligned}
+R_1 &amp; =(\frac{1}{2}\times24.65\times1.014\times q_k+\frac{ P_{kV}\times1.014}{2})\times2 \\
+&amp; =(\frac{1}{2}\times24.65\times1.014\times10.5+\frac{370.32\times1.014}{2})\times2=637.95(kN)
+\end{aligned}
+$$</p>
+<p>$$
+\begin{array}
+{l}R_2 &amp; =R_2=637.95(kN) \\
+\sum R &amp; =R_1+R_2=637.95\times2=1275.90(kN)
+\end{array}
+$$</p>
+<p style="text-align:justify" id="aaa">一个车道制动力：墩顶分别设置一排固定支座和一排活动支座。</p><p>$$\begin{aligned}
+H_{xk} &amp; =(q_{k}\cdot l+\frac{P_{kV}}{2})\times10\%+0.3\times(q_{k}\cdot l+\frac{P_{kV}}{2})\times10\% \\
+&amp; =(10.5\times24.65+\frac{370.32}{2})\times1090+0.3\times(10.5\times24.65+\frac{370.32}{2})\times10\%=57.72\quad(kN)&lt;165.00\quad(kN)
+\end{aligned}$$</p>
+<p>$$\begin{array}
+{l}故取 H_{xk} &amp; =165.00(kN) \\
+二个车道制动力: H_{xk} &amp; =165.00\times2=330.00(kN)
+\end{array}$$</p>
+<p style="text-align:justify" id="aaa">由于墩柱顶采用相同的固定支座形式和相同的活动支座形式，可按双柱平均分配汽车制动力考虑，因此，一根单柱承受的制动力为：H<sub>xk</sub>=330/2=165(kN)。</p>
+<p style="text-align:justify" id="aaa">②作用于验算截面A—A中心的可变作用标准值</p>
+<p style="text-align:justify" id="aaa">横向双车道布载，双柱反力横向分配系数：</p><p>$$
+\begin{aligned}
+&amp; K_1=\frac{2.80+3.50}{7.00}=0.900 \\
+&amp; K_2=1-0.900=0.100 \\
+&amp; N_{Q_{1k}}=R_1\cdot(1+\mu)=K_1\sum R\cdot(1+\mu)=0.9\times1275.90\times1.2=1377.97\quad\text{(kN)}(考虑冲击力) \\
+&amp; H_{xAk}=165\quad\text{(kN)} \\
+&amp; H_{yAk}=0 \\
+&amp; M_{{xQ}_{1Ak}}=0 \\
+&amp; M_{xQ_{2Ak}}=H_{xAk}\times(6+1.50)=165\times7.50=1237.50\quad\text{(kN·m)}
+\end{aligned}
+$$</p>
+<p style="text-align:justify" id="aaa"><b>5. 作用组合及其效应设计值</b></p>
+
+<p style="text-align:justify" id="aaa">依据现行《公路桥涵设计通用规范》（JTG D60）相关规定，或本教材第一篇第三章相关内容对上述计算进行作用组合及其效应设计值计算。本桥为2跨25m，多跨跨径总长为50m，属于中桥，设计安全等级为“一级”，结构重要性系数γ<sub>0</sub>=1.1 。</p>
+<p style="text-align:justify" id="aaa">结构设计使用年限荷载调整系数γ<sub>L</sub>=1.0,γ<sub>L<sub>2</sub></sub>=1.0。</p>
+<p style="text-align:justify" id="aaa">作用的分项系数γ<sub>G<sub>1</sub></sub>=1.2,γ<sub>Q<sub>1</sub></sub>=1.4,γ<sub>Q<sub>2</sub></sub>=1.4。</p>
+<p style="text-align:justify" id="aaa">可变作用的组合值系数ψ<sub>c</sub>=0.75。</p>
+<p style="text-align:justify" id="aaa">基本组合：S<sub>ud</sub>=γ<sub>0</sub>S(γ<sub>G<sub>1</sub></sub>·G<sub>1k</sub>，γ<sub>Q<sub>1</sub></sub>·γ<sub>L</sub>·Q<sub>1k</sub>，ψ<sub>c</sub>·γ<sub>Q<sub>2</sub></sub>·γ<sub>L<sub>2</sub></sub>·Q<sub>2k</sub>)。</p>
+<p style="text-align:justify" id="aaa">可变作用的组合值系数S<sub>fd</sub>=S(G<sub>1k</sub>，ψ<sub>f1</sub>·Q<sub>1k</sub>，ψ<sub>q2</sub>·Q<sub>2k</sub>)，汽车荷载（不计汽车冲击力）频遇值系数ψ<sub>f1</sub>=0.7。</p>
+<p style="text-align:justify">准永久组合：S<sub>qd</sub>=S(G<sub>1k</sub>，ψ<sub>q1</sub>·Q<sub>1k</sub>，ψ<sub>q2</sub>·Q<sub>2k</sub>)，汽车荷载（不计汽车冲击力）准永久值系数ψ<sub>q1</sub>=0.4。</p>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3.1">表6-2-3(1)   A-A截面作用标准值   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" width="100px" rowspan="3">计算工况</td>
+     <td align="center" id="dhbg" width="100px">永久作用标准值</td>
+     <td align="center" id="dhbg" width="500px" colspan="5">可变作用标准值</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg"><i>N</i><sub>Gk</sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>Qik</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xk</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yk</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQik</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQik</sub></td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">单跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">2543.13</td>
+     <td align="center" id="dhbg">1094.54</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">383.09</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">165.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1237.50</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">双跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">2543.13</td>
+     <td align="center" id="dhbg">1377.97</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">165.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1237.50</td>
+     <td align="center" id="dhbg">0</td>
+     </tr>
+     </table>
+     <br>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3.2">表6-2-3(2)   A-A截面基本组合效应设计值   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" rowspan="3" width="100px">计算<br>工况</td>
+     <td align="center" id="dhbg">永久作用设<br>计值</td>
+     <td align="center" id="dhbg" colspan="5">可变作用设计值</td>
+     <td align="center" id="dhbg" colspan="5">基本组合效应设计值</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg"><i>N</i><sub>Gd</sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>Q<sub>id</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xd</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yd</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQ<sub>id</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQ<sub>id</sub></sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>ud</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xud</sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yud</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xud</sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yud</sub></td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">单跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">3051.76</td>
+     <td align="center" id="dhbg">1532.36</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">536.33</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg" rowspan="2">5042.53</td>
+     <td align="center" id="dhbg" rowspan="2">190.58</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">2019.27</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">231.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1732.50</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">双跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">3051.76</td>
+     <td align="center" id="dhbg">1929.16</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg" rowspan="2">5479.01</td>
+     <td align="center" id="dhbg" rowspan="2">190.58</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">1429.31</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">231.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1732.50</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     </table>
+     <br>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3.3">表6-2-3(3)   A-A截面频遇组合效应设计值   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" rowspan="4" width="70px">计算<br>工况</td>
+     <td align="center" id="dhbg">永久作用标准值</td>
+     <td align="center" id="dhbg" colspan="5">汽车荷载频遇值（不计冲击力）<br>汽车制动力准永久值</td>
+     <td align="center" id="dhbg" colspan="5">频遇组合效应设计值</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" rowspan="2"><i>N</i><sub>Gk</sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>Q<sub>1fd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xQ<sub>1fd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yQ<sub>1fd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQ<sub>1fd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQ<sub>1fd</sub></sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>N</i><sub>fd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>H</i><sub>xfd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>H</i><sub>yfd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>M</i><sub>xfd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>M</i><sub>yfd</sub></td>
+     </tr>
+     <tr>
+      <!--<th></th>-->
+      <!--<th></th>-->
+     <td align="center" id="dhbg"><i>N</i><sub>Q<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xQ<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yQ<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQ<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQ<sub>2qd</sub></sub></td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">单跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">2543.13</td>
+     <td align="center" id="dhbg">638.48</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">268.16</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg" rowspan="2">3181.61</td>
+     <td align="center" id="dhbg" rowspan="2">165.00</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">1505.66</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">165.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1237.50</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">双跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">2543.13</td>
+     <td align="center" id="dhbg">803.31</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg" rowspan="2">3346.44</td>
+     <td align="center" id="dhbg" rowspan="2">165.00</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">1237.50</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">165.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1237.50</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     </table>
+     <br>
+
+<table id="biaoge" style="font-family:times new roman">
+
+     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.3.4">表6-2-3(4)   A-A截面准永久组合效应设计值   </b></caption>
+
+     <tr>
+     <td align="center" id="dhbg" rowspan="4" width="70px">计算<br>工况</td>
+     <td align="center" id="dhbg">永久作用标准值</td>
+     <td align="center" id="dhbg" colspan="5">可变作用准永久值<br>（不计汽车冲击力）</td>
+     <td align="center" id="dhbg" colspan="5">准永久组合效应设计值</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg" rowspan="2"><i>N</i><sub>Gk</sub></td>
+     <td align="center" id="dhbg"><i>N</i><sub>Q<sub>1qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xQ<sub>1qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yQ<sub>1qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQ<sub>1qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQ<sub>1qd</sub></sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>N</i><sub>qd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>H</i><sub>xqd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>H</i><sub>yqd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>M</i><sub>xqd</sub></td>
+     <td align="center" id="dhbg" rowspan="2"><i>M</i><sub>yqd</sub></td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg"><i>N</i><sub>Q<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>xQ<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>H</i><sub>yQ<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>xQ<sub>2qd</sub></sub></td>
+     <td align="center" id="dhbg"><i>M</i><sub>yQ<sub>2qd</sub></sub></td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN</td>
+     <td align="center" id="dhbg">kN•m</td>
+     <td align="center" id="dhbg">kN•m</td>
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">单跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">2543.13</td>
+     <td align="center" id="dhbg">364.85</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">153.24</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg" rowspan="2">2907.98</td>
+     <td align="center" id="dhbg" rowspan="2">165.00</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">1390.74</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">165.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1237.50</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     <tr>
+     <td align="center" id="dhbg" rowspan="2">双跨<br>双车道</td>
+     <td align="center" id="dhbg" rowspan="2">2543.13</td>
+     <td align="center" id="dhbg">459.03</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg" rowspan="2">3002.16</td>
+     <td align="center" id="dhbg" rowspan="2">165.00</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     <td align="center" id="dhbg" rowspan="2">1237.50</td>
+     <td align="center" id="dhbg" rowspan="2">0</td>
+     </tr>
+     <tr>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">165.00</td>
+     <td align="center" id="dhbg">0</td>
+     <td align="center" id="dhbg">1237.50</td>
+     <td align="center" id="dhbg">0</td>
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     <!--<th></th>-->
+     </tr>
+     </table>
+     <br>
+
+<p><a href="#id6.2.3.4">四、空心薄壁墩计算</a> <span id="id6.2.3.4"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.94"> [A6-2.94]</a><span id="idA6-2.94"></span>空心薄壁墩一般设计成钢筋混凝土结构或预应力混凝土结构，计算依据现行《通规》（JTG D60）和《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）进行。</p>
+<p style="text-align:justify"><a href="#idA6-2.95"> [A6-2.95]</a><span id="idA6-2.95"></span>空心墩属于壳体结构，其受力与重力式桥墩有所不同，可视为空间壳体或组合板结构（一般按壁厚区分）。依据理论分析和模型试验，对于空心高墩，可按悬壁梁式长壳结构进行计算。从我国已建成的混凝土和钢筋混凝土空心墩来看t/D一般为1/8～1/6，略大于薄壁判据数值1/10，不必按壳体计算，如按薄壳结构处理，也只能是近似的。通常空心墩设计计算可按一般材料力学计算其应力和墩顶位移。计算内容除包括一般重力墩的计算内容外，尚应验算空心墩的承载力、整体稳定性和局部稳定性、墩顶位移等。</p>
+<p><a href="#id6.2.3.4.1">1. 承载力与整体稳定性计算</a> <span id="id6.2.3.4.1"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.96"> [A6-2.96]</a><span id="idA6-2.96"></span>在承载能力计算中，按钢筋混凝土偏心受压构件验算截面承载力和整体稳定性，当构件长细比l<sub>0</sub>/i＞17.5时，应考虑偏心受压构件的轴向力承载能力极限状态偏心距增大系数η；同时除应计算弯矩作用平面抗压承载力外，尚应按轴心受压构件验算垂直于弯矩作用平面的抗压承载力，此时不考虑弯矩的作用，但应考虑稳定系数φ的影响；验算方法按现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》（JTG 3362）中的相关规定进行。该部分内容已在“结构设计原理”课程中“钢筋混凝土偏心受压构件验算截面承载力和整体稳定性”计算中介绍，这里不再赘述。</p>
+<p><a href="#id6.2.3.4.2">2. 局部稳定性计算</a> <span id="id6.2.3.4.2"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.97"> [A6-2.97]</a><span id="idA6-2.97"></span>空心墩的局部稳定与桥墩壁厚及是否设置横隔板有关。通过对圆柱形、圆锥形和矩形空心墩混凝土模型试验和理论分析表明：空心墩的局部稳定可按板壳空间结构进行分析，而且局部失稳在弹塑性范围内发生，因此，可以近似地用中心受压作用下的弹塑性临界应力计算。在实际工程中大多采用有限元结构分析软件进行计算。</p>
+<p><a href="#id6.2.3.4.3">3. 墩顶位移计算</a> <span id="id6.2.3.4.3"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.98"> [A6-2.98]</a><span id="idA6-2.98"></span>空心墩墩顶位移应包括离心力、制动力、偏心作用的竖向力、风荷载等引起的水平位移；日照作用下向阳面与背阳面温差引起的位移；以及地基不均匀沉降产生的墩顶位移。计算方法如下：</p>
+<p style="text-align:justify" id="aaa"><b>（1）动力作用下的位移值的计算</b></p>
+<p style="text-align:justify" id="aaa">设计时将墩视为固定在地基上的一个等截面（或变截面）悬臂杆件。</p>
+<p style="text-align:justify" id="aaa">①制动力及梁上风力作用下墩顶位移计算[<a href="#image6245">图6-2-45a）</a>]</p>
+<span id="idgs625"></span><p>$$\mathcal{Y}_1=\frac{PL^3}{3EI}\tag{6-2-5}$$</p>
+<p style="text-align:justify" id="aaa">②风力作用下墩顶位移计算[<a href="#image6245">图6-2-45b）</a>]</p>
+<span id="idgs626"></span><p>$$\mathcal{Y}_2=\frac{qL^4}{8EI}\tag{6-2-6}$$</p>
+<p style="text-align:justify" id="aaa">③弯矩作用下墩顶位移计算[<a href="#image6245">图6-2-45c）</a>）]</p>
+<span id="idgs627"></span><p>$$\mathcal{Y}_3=\frac{M_0 L^2}{2EI}\tag{6-2-7}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">P</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">墩顶集中力；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">L</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">桥墩高度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">E</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">弹性模量；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">I</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">截面惯性矩；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">q</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">均布荷载；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">M<sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">墩顶集中弯矩。</td>
+ </tr>
+</table>
+
+<div style="text-align:center;"><img id="image6245" src="../_static/fig/6-2-45.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-45  墩顶位移计算图式</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6245'));</script>
+
+<p style="text-align:justify" id="aaa"><b>（2）温度位移</b></p>
+<p style="text-align:justify" id="aaa">日照引起的桥墩温度位移是不可忽视的，但目前尚无统一的计算公式。当墩顶无支承约束时，最大墩顶位移Δ<sub>max</sub>常按下式计算：</p>
+<span id="idgs628"></span><p>$$\Delta_{max}=-\frac{\alpha T_0H^2}{2I_0}\left(bK_4-b_0C_4\right)\tag{6-2-8}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="70px" align='left' id="eqzs">H</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">墩高；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">α</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">钢筋混凝土的线膨胀系数，α=1×10<sup>-5</sup>/℃;</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">T<sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">墩身截面的诚大温差；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">b<sub>0</sub>、b</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">截面宽度与空心部分截面宽度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">K<sub>4</sub>、C<sub>4</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">常数。</td>
+ </tr>
+</table>
+<p style="text-align:justify" id="aaa">C<sub>4</sub>的计算见下式。</p>
+<span id="idgs629"></span>
+<span id="idgs6210"></span>
+<span id="idgs6211"></span>
+<span id="idgs6212"></span>
+<span id="idgs6213"></span><p>$$C_1=\frac{e^{-a\delta}-e^{-a(h-\delta)}}{a}\tag{6-2-9}$$
+$$C_2=\frac{e^{-a\delta}\big(1+a\delta\big)-e^{-a(h-\delta)}\big[1+a\big(h-\delta\big)\big]}{a^2}\tag{6-2-10}$$
+$$C_3=\frac{C_2}{C_1}\tag{6-2-11}$$
+$$C_4=C_1\bigl(n-C_3\bigr)\tag{6-2-12}$$
+$$n=\frac{h}{2}\tag{6-2-13}$$</p>
+<p style="text-align:justify" id="aaa">K<sub>4</sub>的计算见下式。</p>
+<span id="idgs6214"></span>
+<span id="idgs6215"></span>
+<span id="idgs6216"></span>
+<span id="idgs6217"></span><p>$$K_1=\frac{1-e^{a h}}{a}\tag{6-2-14}$$
+$$K_2=\frac{1-e^{-ah}\big(1+ah\big)}{a^2}\tag{6-2-15}$$
+$$K_3=\frac{K_2}{K_1}\tag{6-2-16}$$
+$$K_4=K_1\bigl(n-K_3\bigr)\tag{6-2-17}$$</p>
+<table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">h</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">桥墩顺桥向宽度；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">δ</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">墩壁厚度，符号意义如<a href="#image6246">图6-2-46</a>所示；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">a</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">指数，取a=10。</td>
+ </tr>
+</table>
+
+<div style="text-align:center;"><img id="image6246" src="../_static/fig/6-2-46.png" alt="Picture"></div>
+<p style="color: dimgray;text-align: center;">图6-2-46  符号意义示意</p>
+<script type="text/javascript">var viewer = new Viewer(document.getElementById('image6246'));</script>
+
+<p><a href="#id6.2.3.4.4">4. 固端干扰力计算</a> <span id="id6.2.3.4.4"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.99"> [A6-2.99]</a><span id="idA6-2.99"></span>根据混凝土空心墩模型试验和光弹模型试验以及圆柱薄壳应力分析的结果，在距墩顶和墩底实体段一定距离（0.5R～1.0R）外的截面上，其应力分布尚符合材料力学的计算结果,故可把空心墩视为一偏心受压杆件，用结构设计原理有关公式进行计算。但在两端部分（0.5R～1.0R）则应考虑固端应力的影响。由于空心墩承受偏心荷载和横向弯曲荷载，受力情况要比上述中心受压的情况复杂得多，故目前多根据试验资料估算空心墩的固端干扰应力。在一些设计中建议，垂直方向的固端干扰应力按弯曲应力平均值的50％计算。</p>
+<p><a href="#id6.2.3.4.5">5. 温度应力计算</a> <span id="id6.2.3.4.5"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.100"> [A6-2.100]</a><span id="idA6-2.100"></span>在桥梁中，温度变化能产生相当大的温度应力，在某种情况下，可与永久作用、可变作用产生的应力属同一个数量级。日照作用下，钢筋混凝土桥墩向阳壁的表面温度，因太阳光辐射而急剧升髙，背阳面温度随着气温变化而缓慢地变化，待向阳壁表面温度达到最髙温度时，由于钢筋混凝土热传导性能很差，箱形桥墩墩内表面温度比向阳面温度低得多，而与墩内气温相近。当向阳壁温度较小时，向阳壁内表面温度比相邻两壁的内表面温度髙一些，两侧壁靠近向阳壁一端温度也比另一端要高些。总之，箱形桥墩沿截面的温度分布，略去两侧壁内外表面的很小温度差别，以向阳面为基线，随距离的增大而迅速地减小，并按指数函数规律递减。</p>
+<p><a href="#id6.2.3.4.6">6. 空心墩墩帽计算</a> <span id="id6.2.3.4.6"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.101"> [A6-2.101]</a><span id="idA6-2.101"></span>空心墩墩帽是周边支承的厚板，除满足构造要求外，还应通过计算确定墩帽髙度。如果墩帽的刚度不够，其弯曲变形将会对空心墩壁产生附加弯矩，并使空心墩颈口处压弯破坏，因此，应从刚度要求确定墩帽高度。</p>
+<p><a href="#id6.2.3.4.7">7. 桥墩自振周期计算</a> <span id="id6.2.3.4.7"></span></p>
+<p style="text-align:justify"><a href="#idA6-2.102"> [A6-2.102]</a><span id="idA6-2.102"></span>空心墩应特别注意风荷载和地震作用，应考虑风振的影响，并计算其自振周期。空心墩自振周期的计算方法，可参考《结构力学》教材中有关部分，这里不再详述。</p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="6.2.2.html" class="btn btn-neutral float-left" title="第二节 桥墩构造与设计" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="6.2.4.html" class="btn btn-neutral float-right" title="第四节 桥墩施工" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

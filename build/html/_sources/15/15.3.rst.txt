@@ -1,0 +1,158 @@
+第三节  拱圈内力调整
+---------------------------------
+
+.. raw:: html
+
+ <h3 id="test111">第三节  拱圈内力调整</h3>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.24"> [A3-4.24]</a><span id="idA3-4.24"> 主拱计算常常会遇到各控制截面，尤其是拱顶和拱脚两个控制截面的最不利内力与所拟定的截面尺寸不相适应的情况，或者是同一截面的正负弯矩绝对值相差太大使截面配筋发生困难（钢筋混凝土拱），或者是截面上下缘应力相差悬殊，合力偏心距超过限值（石拱或混凝土拱），这就需要修改截面尺寸，甚至调整拱的总体尺寸，重新进行计算。在条件许可时，可从设计上或施工上采取措施，来达到改善主拱截面应力状态的目的。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.4.3.1"> 一、假载法调整内力</a> <span id="id3.4.3.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.25"> [A3-4.25]</a><span id="idA3-4.25"> 所谓假载法，实质上是通过改变拱轴系数来改变拱轴线，进而改善拱的内力分布。当拱顶、拱脚两控制截面，有一个截面的弯矩很大，而另一个截面的弯矩较小时，可以采用假载法进行调整。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.26"> [A3-4.26]</a><span id="idA3-4.26"> 理论和计算表明，当拱的跨径和矢跨比一定时，拱的弯矩随拱轴系数的改变而变化。因此，可适当地增大或减小拱轴系数，人为地使拱轴线与恒载压力线有一定的偏离，这样，即使不计入考虑弹性压缩的影响，也要产生弯矩，进而改善主拱圈的应力状态。例如，当拱脚负弯矩大时，为了降低拱脚上缘的拉应力，拱轴线应向上移，即将拱轴系数<i>m</i>提高；相反，如果拱顶正弯矩大时，为了降低拱顶下缘的拉应力，拱轴线应向下移，将拱轴系数<i>m</i>值降低。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.27"> [A3-4.27]</a><span id="idA3-4.27"> 调整拱轴系数的方法是在计算拱轴系数时，在实际的恒载以外，再加上一个假想的、均布全跨的荷载，故称假载法。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.28"> [A3-4.28]</a><span id="idA3-4.28"> 对于实腹式拱桥，如拱轴系数为<i>m</i>=<i>g</i><sub>j</sub>/<i>g</i><sub>d</sub>，如<a href="#image3.4.22">图3-4-22</a>所示。加上一个假想荷载<i>g</i><sub>i</sub>后，调整后的拱轴系数为</span></p>
+
+$$m^{'}=\\dfrac{g_{\\mathrm{j}}\\pm g_{\\mathrm{i} }}{g_{\\mathrm{d} }\\pm g_{\\mathrm{i} }}\\tag{3-4-69}$$ 
+ 
+.. raw:: html 
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.29"> [A3-4.29]</a><span id="idA3-4.29">拱轴系数的降低或提高一般为一级或半级。降低或提高拱轴系数后，拱轴线与实际恒载压力线偏离。计算时将<i>g</i><sub>i</sub>视为实际荷载，在结构实际恒载及假想荷载共同作用下，拱轴线与荷载压力线重合，可以按<i>m</i><sup>'</sup>计算结构内力，然后再将假想荷载的影响，从恒载内力中扣除。假想荷载<i>g</i><sub>i</sub>所产生内力，可用均布荷载乘以用<i>m</i><sup>'</sup>绘制的内力影响线计算得到。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.4.22{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.4.22" src="../_static/fig/3-4-22.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-22  假载法调整实腹式拱轴线</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.22'));</script>
+
+  </body>  
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.30"> [A3-4.30]</a><span id="idA3-4.30">对于空腹式拱桥，也可以通过调整<i>l</i>/4截面的纵坐标<i>y</i><sub>1/4</sub>来实现。设拱轴系数为<i>m</i>时，<i>l</i>/4截面的纵坐标为<i>y</i><sub>1/4</sub>；拱轴系数为<i>m</i><sup>'</sup>时，<i>l</i>/4截面处的纵坐标为<i>y</i><sup>'</sup><sub>1/4</sub>,则</span></p>
+
+$$\\left. \\begin{array}{l}
+\\dfrac{\\mathrm{y} ^{'}_{1/4}}{f}=\\dfrac{\\sum M_{1/4}\\pm \\dfrac{g_{\\mathrm{i} }l^2}{32}}{\\sum M_{\\mathrm{j}}\\pm\\dfrac{g_{\\mathrm{i} }l^2}{8} }\\\\
+m^{'}=\\dfrac{1}{2}(\\mathrm{y} ^{'}_{1/4}-2)^2-1
+\\end{array}\\right\\}\\tag{3-4-70}$$ 
+ 
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.31"> [A3-4.31]</a><span id="idA3-4.31">拱轴系数调整后，拱的几何尺寸和内力计算应根据<i>m</i><sup>'</sup>确定。空腹式拱恒载内力计算方法与实腹式拱相同。先计算包括假想荷载在内的恒载作用下水平推力<i>H</i><sub>g</sub>及拱圈截面内力，然后再从恒载内力中扣除假想荷载引起的内力。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.32"> [A3-4.32]</a><span id="idA3-4.32">需要指出的是，采用调整拱轴系数法改善主拱某一控制截面的应力状况时，对其他截面则可能引起不利的受力情况。例如，提高拱轴系数<i>m</i>后，会在拱中产生一个附加正弯矩，使拱脚截面负弯矩有所减小，但使拱顶截面正弯矩有所增加；反之，减低拱轴系数<i>m</i>，使拱顶正弯矩有所减小，但拱脚负弯矩有所增加。因此，应全面考虑，适当调整。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.4.3.2"> 二、千斤顶调整内力</a> <span id="id3.3.3.2"> </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.33"> [A3-4.33]</a><span id="idA3-4.33">国外大跨径钢筋混凝土拱桥，多数采用千斤顶来调整内力。具体方法是在拱架上将两半拱建成两悬臂曲梁，在拱顶处预留壁龛形缺口，拱上建筑施工之前，在拱顶预留接头处上、下设置两排千斤顶，形成偏心力，可使拱顶产生负弯矩，拱脚产生正弯矩，达到消除弹性压缩、收缩及徐变产生的内力。另外，采用拱架施工时，设置千斤顶还可以起到脱架的作用。用千斤顶调整内力，效果显著，但施工比较复杂，国内应用较少。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.34"> [A3-4.34]</a><span id="idA3-4.34">最不利作用组合情况下，对于常规拱桥，拱脚及拱顶截面处的应力较高，往往是控制截面，拱脚外缘和拱顶内缘将出现最大拉应力。若在拱顶及拱脚之间作用一对推力<i>H</i><sub>0</sub>，该推力将在拱顶外缘和拱脚内缘引起压应力，从而降低原来的拉应力，<i>H</i><sub>0</sub>同时也将使拱顶外缘和拱脚内缘产生拉应力。理想的<i>H</i><sub>0</sub>应是能使拱顶和拱脚的内、外缘应力趋于均匀。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.4.3.3">三、临时铰调整内力</a> <span id="id3.4.3.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.35"> [A3-4.35]</a><span id="idA3-4.35">修建主拱时，在拱顶和拱脚截面处用铅垫板做成临时铰，拆除拱架后，由于临时铰的存在，拱变成静定的三铰拱，待拱上建筑砌筑完毕后，再将铰封闭，形成无铰拱。亦即主拱的恒载内力可按三铰拱计算，活载和温度内力仍按无铰拱计算，这样就可以消除恒载弹性压缩所产生的附加内力，以及降低一部分在封铰前已发生的由于墩台沉降及混凝土材料收缩所引起的附加内力。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.36"> [A3-4.36]</a><span id="idA3-4.36">如果将临时铰偏心安装，在拱上轴力作用下则可起到类似千斤顶调整内力的作用，可消除混凝土收缩引起的附加内力。无铰拱中混凝土收缩将在拱顶引起正弯矩<i>M</i><sub>d</sub>，在拱脚引起负弯矩<i>M</i><sub>j</sub>，若将临时铰分别对拱轴在拱顶下移<i>e</i><sub>d</sub>及在拱脚处上移<i>e</i><sub>j</sub>（<a href="#image3.4.23">图3-4-23</a>），使拱的恒载在拱顶及拱脚处所产生的偏心弯矩，恰好与混凝土收缩所引起的弯矩相等而方向相反，此时，偏心距<i>e</i><sub>d</sub>、<i>e</i><sub>j</sub>，可由下列公式确定。</span></p>
+ <p style="text-align:justify;font-family:times new roman">将拱移动后的拱矢高变为</p>
+
+$$f_1=f-e_{\\mathrm{d}}-e_{\\mathrm{j}}\\cos \\varphi_{\\mathrm{j}}\\tag{3-4-71}$$ 
+ 
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman"> 恒载推力值相应地变更为</p>
+
+$$H_{\\mathrm{g}}^{''}=H_{\\mathrm{g}}\\dfrac{f}{f_1}\\tag{3-4-72}$$ 
+ 
+.. raw:: html 
+
+ <p style="text-align:justify;font-family:times new roman"> 式中：<i>H</i><sub>g</sub>——不设置临时铰时，拱的恒载推力。</p>
+
+ <p style="text-align:justify;font-family:times new roman"> 按所需调整的弯矩<i>M</i><sub>d</sub>及<i>M</i><sub>j</sub>值便可求得偏心距为</p>
+
+$$e_{\\mathrm{d}}=\\dfrac{M_{\\mathrm{d}}}{H_{\\mathrm{g}}^{'}}=\\dfrac{M_{\\mathrm{d}}}{H_{\\mathrm{g}}}\\dfrac{f_1}{f}$$ 
+
+$$e_{\\mathrm{j}}=\\dfrac{M_{\\mathrm{j}}}{H_{\\mathrm{g}}^{'}\\cos \\varphi ^{'}}=\\dfrac{M_{\\mathrm{j}}}{H_{\\mathrm{g}}}\\dfrac{f_1}{f}\\cos\\varphi^{'}$$ 
+
+$$f_1=f-\\dfrac{M_{\\mathrm{d}}}{H_{\\mathrm{g}}}\\dfrac{f_1}{f}-\\dfrac{M_{\\mathrm{j}}}{H_{\\mathrm{g}}}\\dfrac{f_1}{f}\\cos\varphi_{\\mathrm{j}}=\\dfrac{H_{\\mathrm{g}f^2}}{H_{\\mathrm{g}}f+M_{\\mathrm{d}}+M_{\\mathrm{j}}\\cos^2\\varphi_{\\mathrm{j}}} $$ 
+ 
+.. raw:: html 
+
+ <body>
+
+  <style type="text/css">
+      #image3.4.23{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.4.23" src="../_static/fig/3-4-23.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-23 临时铰安装位置</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.23'));</script>
+
+  </body>  
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.4.3.3">四、改变拱轴线调整内力</a> <span id="id3.4.3.3"> </span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.37"> [A3-4.37]</a><span id="idA3-4.37"> 通过改变拱轴线，使拱轴线与恒载压力线造成有利的偏离，可以消除拱顶和拱脚的偏大弯矩，达到调整拱圈应力的目的。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.38"> [A3-4.38]</a><span id="idA3-4.38"> 由于悬链线拱轴与三铰拱恒载压力线存在近似正弦波形的自然偏离，可以不同程度地减小拱顶、拱脚的偏大弯矩。根据这个原理，可在三铰拱恒载压力线的基础上，根据桥梁实际需要叠加一个正弦波形的调整曲线作为拱轴线，如图3-4-24所示，采用逐次近似法调整，使恒载、弹性压缩和混凝土收缩等固定因素作用下，拱顶、拱脚两截面的总弯矩趋近于零。为了实现上述目的，要求调整曲线的零点通过<i>O</i><sup>'</sup>点，并使拱轴线与三铰拱恒载压力线具有相同的弹性中心。根据弹性中心的定义，则有</span></p>
+ 
+$$ \int _{\\mathrm{s}}\\dfrac{(\\mathrm{y} -\\Delta \\mathrm{y} )}{EI}ds=\\int_{\\mathrm{s}}\\dfrac{\\mathrm{y} ds}{EI}=-\\int_{\\mathrm{s}}\\dfrac{\\Delta \\mathrm{y} ds}{EI}=0$$ 
+ 
+.. raw:: html 
+
+  <p style="text-align:justify;font-family:times new roman">因为</p>  
+
+$$\\int_{\\mathrm{s}}\\dfrac{\\mathrm{y} ds}{EI}=0$$ 
+ 
+.. raw:: html 
+
+  <p style="text-align:justify;font-family:times new roman">故</p>    
+
+$$\\int_{\\mathrm{s}}\\dfrac{\\Delta \\mathrm{y} ds}{EI}=0$$ 
+ 
+.. raw:: html 
+
+  <p style="text-align:justify;font-family:times new roman">拱轴线偏离三铰拱恒载压力线在弹性中心产生的赘余力为</p>   
+
+
+$$ \\left .\\begin{array}{l}
+\\Delta X_1=0\\\\
+\\Delta X_2=H_{\\mathrm{g}}\\dfrac{\\int_{\\mathrm{s}}\\dfrac{\\mathrm{y}\\Delta \\mathrm{y} ds}{EI}}{\\int_{\\mathrm{s}}\\dfrac{\\mathrm{y}^2ds}{EI}}
+\\end{array}\\right\\}\\tag{3-4-73}$$ 
+ 
+.. raw:: html 
+
+  <p style="text-align:justify;font-family:times new roman">由<a href="#image3.4.24">图3-4-24</a>可知，式（3-4-69）中的<i>y</i>和<i>Δy</i>总是同号，因而式中的<i>ΔX</i><sub>2</sub>必为正值（压力）。弹性压缩和混凝土收缩在弹性中心产生一对水平拉力，通过适当地调整曲线竖向坐标<i>y</i>和<i>Δy</i>，使按式（3-4-69）算得的水平力<i>ΔX</i><sub>2</sub>与弹性压缩等所产生的水平力大小相等、方向相反，即可抵消弹性压缩和混凝土收缩在拱顶、拱脚产生的弯矩值，起到调整内力的作用。</p>   
+
+ <body>
+
+  <style type="text/css">
+      #image3.4.24{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.4.24" src="../_static/fig/3-4-24.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-24  改变拱轴线调整内力</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.24'));</script>
+
+  </body>  
+
+
+:math:`\ `
+
+
+
+
+
+
+
+
+
+

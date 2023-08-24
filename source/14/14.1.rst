@@ -1,0 +1,159 @@
+第一节  总体设计
+---------------------------------
+
+.. raw:: html
+
+ <h3 id="test111">第一节  总体设计</h3>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.1"> [A3-3.1]</a><span id="idA3-3.1"> 与其他桥型一样，拱桥的总体布置十分重要。在通过必要的桥位方案比较，确定了桥位之后，再根据桥址地形、水文、地质等具体情况，合理地拟定拱桥的长度、结构形式及结构体系、跨径及跨数、桥面高程及主拱圈的矢跨比等，是拱桥总体设计的主要内容。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.3.1.1"> 一、桥长及孔跨布置</a> <span id="id3.3.1.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.2"> [A3-3.2]</a><span id="idA3-3.2"> 拱桥设计时，应根据桥址地形、水文、地质等具体情况，综合技术、经济、美观等方面的比较，确定两岸桥台台口之间的总长度，再考虑桥梁与两端路线的衔接及桥台的施工等因素，确定桥台的位置和长度，桥梁的全长便确定了。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.3"> [A3-3.3]</a><span id="idA3-3.3"> 在桥梁全长确定后，再根据桥址地形、水文、地质及有无通航等具体情况，并结合结构体系、结构形式和施工条件，对拱桥进行合理分跨，确定选择单跨拱桥还是多跨拱桥。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.4"> [A3-3.4]</a><span id="idA3-3.4"> 对于多跨拱桥，分跨方式是总体布置中一个比较重要的问题。如果拱桥跨越的是通航河流，在确定跨数与跨径时，一般分为通航孔和非通航孔两部分，并确定通航跨数。通航孔的桥下净空尺寸应满足航道等级规定的要求，并与航道部门协商，必要时应进行通航论证。通航孔的位置一般布置在常水位时的河床最深处或正常航行时的航道上，不应由于桥梁的修建而使航道位置有大的改变。对与变迁性河流，鉴于航道位置可能发生变化，应多设几个通航孔，这样，即使主河道位置变迁时，也能保证通航要求。非通航孔或非通航河段，孔跨布置可按经济原则考虑，尽量使上、下部结构的总造价最低。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.5"> [A3-3.5]</a><span id="idA3-3.5"> 在拱桥分跨时，应本着经济适用的原则进行。有时为了避开深水区或不良地质地段（如软土层、溶洞、岩石破碎带等），可根据具体情况将跨径加大。在水下基础结构复杂、施工困难的地方，为了减少基础工程，也可以考虑采用较大跨径。对跨越高山峡谷、水流湍急的河道或宽阔的水库，由于基础及墩台施工困难或费用太大，可考虑采用大跨径跨越。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.6"> [A3-3.6]</a><span id="idA3-3.6"> 一般全桥宜采用等跨或分组等跨的分跨方案，这样，施工方便且可改善下部结构的受力并节省材料。<br>此外，在拱桥分跨时还需注意全桥的造型和美观，特别是建在城市及风景区的拱桥，应从美学上保证桥梁与环境协调。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.3.1.2"> 二、设计高程</a> <span id="id3.3.1.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.7"> [A3-3.7]</a><span id="idA3-3.7"> 确定拱桥高程是拱桥设计中的一个重要环节。拱桥的设计高程主要包括桥面高程、拱顶底面高程、起拱线高程、基础顶面高程（<a href="#image3.3.1">图3-3-1</a>）。在拱桥总体布置中，应根据道路、通航、泄洪等具体要求，合理确定拱桥的设计高程。</span></p>
+ <body>
+
+  <style type="text/css">
+      #image3.3.1{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.3.1" src="../_static/fig/3-3-1.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-3-1  拱桥高程及桥下净空</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.3.1'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.8"> [A3-3.8]</a><span id="idA3-3.8"> 拱桥的桥面高程是指桥面与缘石相接处的高程。桥面高程代表着建桥的高度，特别在平原区，在相同纵坡情况下，桥面高程过高会使两端的引桥或引道工程显著增加，将提高桥梁的总造价；反之，如果桥面高程过低，不但易遭受洪水冲毁，而且影响桥下通航，致使桥梁建成后带来难以挽救的缺陷。位于山区河流上的拱桥，由于两岸公路路线的位置一般较高，桥面高程一般由两岸线路的纵断面设计所控制。对跨越平原区河流的拱桥，为了保证桥梁的安全，桥下必须留有足够的泄洪净空，桥面高程一般由桥下净空所控制。对于有淤积的河床，桥下净空尚应适当加高。对于通航河流，通航孔的最小桥面高度，除满足以上要求外，还应满足对不同航道等级所规定的桥下净空限界的要求。设计通航水位，一般是按照一定的设计洪水频率，按照《公路工程水文勘测设计规范》（JTG C30）公式进行计算，并与航运部门具体协商确定。因此，拱桥桥面高程一方面由两岸线路的纵断面设计来控制，另一方面要保证桥下净空能满足通航、泄洪及立交要求。设计时应综合考虑有关因素，并与有关部门（航运、防洪、水利等）商定。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.9"> [A3-3.9]</a><span id="idA3-3.9"> 拱顶底面高程是在桥面高程确定后，由桥面高程减去拱顶处的建筑高度。<br>拟定起拱线高程时，为了减小墩台身底面的弯矩，节省墩台的圬工数量，一般宜选择低拱脚的设计方案。但在具体设计时，拱脚的位置可能会受到通航净空、排洪、流水等条件限制。对于无铰拱桥，可以将拱脚置于设计水位以下，但通常淹没深度不得超过矢高的2／3。为了保证漂浮物能通过，在任何情况下，拱顶底面至少应高出设计洪水位1.0m。对于有铰拱桥，拱脚需高出设计洪水位以上不少于0.25m。为了防止冰害，有铰或无铰拱拱脚均应高出最高流冰面不少于0.25m。当洪水带有大量漂浮物时，若拱上建筑采用立柱时，宜将起拱线高程提高，使主拱圈不要淹没过多，以防漂浮物对立柱的撞击或挂留。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.10"> [A3-3.10]</a><span id="idA3-3.10"> 拱桥基础顶面高程，主要是根据河流的冲刷深度、桥址处地质情况、通航情况、基础埋置深度要求等因素确定。有时为了美观要求，应避免就地起拱，而应使墩台露出地面一定高度。</span></p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.3.1.3"> 三、矢跨比</a> <span id="id3.3.1.3"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.11"> [A3-3.11]</a><span id="idA3-3.11"> 拱桥主拱圈（或肋拱）的计算矢高<i>f</i>与计算跨径<i>l</i>之比（<i>f</i>/<i>l</i> ），称为矢跨比（<a href="#image3.3.2">图3-3-2</a>）。用于表征拱的坦陡程度，一般将矢跨比小于1/5的拱桥称为坦拱，大于或等于1/5的称为陡拱。矢跨比不但影响主拱圈内力的大小，还影响拱桥的构造形式和施工方法的选择，与整个拱桥的造价密切相关，同时，矢跨比也影响整个桥梁的视觉效果及其与周围景物是否协调。<br>当拱桥的拱顶、拱脚高程确定后，根据拱桥的跨径即可确定拱圈的矢跨比。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.3.2{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.3.2" src="../_static/fig/3-3-2.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-3-2  拱桥矢跨比<i>f</i>/<i>l</i></p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.3.2'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.12"> [A3-3.12]</a><span id="idA3-3.12"> 由结构力学可知，拱脚的恒载水平推力与垂直反力之比值，随矢跨比的减小而增大。对于简单体系拱桥，当矢跨比减小时，拱的推力增大，相应地在主拱圈内产生的轴向压力也大，对主拱圈自身的受力状况是有利的，但对墩台基础是不利的。同时，矢跨比越小，在弹性压缩、混凝土收缩徐变、温度变化及基础变位等因素影响下，主拱圈内引起的附加内力也较大，对主拱圈是不利的。在多孔情况下，矢跨比小的连拱作用较矢跨比大的显著，对主拱圈也不利。在设计时，矢跨比的大小应经过综合比较进行选择。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.13"> [A3-3.13]</a><span id="idA3-3.13"> 对于简单体系拱桥，圬工板拱、双曲拱桥的矢跨比一般可取1/4～1/8，不宜小于1/8；钢筋混凝土箱形拱桥的矢跨比一般为1/5～1/8，不宜小于1/10。对于组合体系拱桥，钢筋混凝土刚架拱、桁架拱桥的矢跨比一般可取1/5～1/10，不宜小于1/12；拱梁（系杆）组合桥，下承式的一般可取1/5～1/10，上承式的一般可取1/6～1/12，中承式的一般可取1/3.5～1/6。</span></p>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.3.1.4"> 四、结构体系与结构类型</a> <span id="id3.3.1.4"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.14"> [A3-3.14]</a><span id="idA3-3.14"> 1. 结构体系</span></p>
+ <p style="text-align:justify;font-family:times new roman">拱桥对设计、施工技术能力的要求要比梁桥复杂的多，基于技术先进的原则尽可能利用成熟先进技术的同时，要选择与实际的设计、施工、监测等技术能力相适应的结构体系。简单体系拱桥与组合体系拱桥，不仅在受力、构造方面有差别，而且在造价及施工方法等方面均有差异。为了选取合适的拱桥结构体系，总体设计应在已知桥位自然条件、通航要求、分孔及道路等级等情况下，从经济合理性、技术可行性、耐久适用性、与周围景观协调性等方面进行综合分析。</p>
+ <p style="text-align:justify;font-family:times new roman">经济合理是一个基本设计原则。拱桥结构体系的选取应与所属道路等级、桥梁地位相协调。低等级、次要的道路，宜考虑采用构造简单、造价及维护费较低的简单体系拱桥，并因地制宜地选用当地建材。高等级道路桥梁也应依其所处环境，选择合适的结构体系。</p>
+ <p style="text-align:justify;font-family:times new roman">技术可行性是指在技术可行的条件下，应按照技术先进的原则进行设计与施工，但是设计也必须考虑经济合理性、适用性、安全性。充分利用成熟的先进技术，结合实际设计与施工能力，才能达到与经济、适用、安全共存的技术可行性。</p>
+ <p style="text-align:justify;font-family:times new roman">耐久适用性涉及到拱桥设计性能的长期维持和维护的经济性。在设计寿命期的使用荷载和环境因素作用下，所选结构体系的拱桥经简便和经济的维护、维修，不应出现功能下降。在特定的荷载与桥位环境下，拱桥体系的选择应同时考虑维护的简便性及经济性。</p>
+ <p style="text-align:justify;font-family:times new roman">景观协调性，所选拱桥结构体系应外形美观，与周围环境协调， 再配以恰当的色彩搭配和灯光设计，可以起到令人赏心悦目的美学效果。城市桥梁和景区桥梁，应考虑建筑艺术需求。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.15"> [A3-3.15]</a><span id="idA3-3.15"> 2. 结构类型</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）结构静力图式</p>
+ <p style="text-align:justify;font-family:times new roman">对于简单体系拱桥，在地基较差地区，一般可考虑采用两铰拱结构，因其仅有一次超静定，较能适应不良地基引起的墩台不均匀沉降、水平位移及转动。虽然静定结构即三铰拱更适合不良地基，但因拱顶铰构造复杂、施工困难及结构整体刚度差等原因，现已极少采用。<br>对于组合体系拱桥，静定与超静定结构均有。当遇到不良地基时，对于结构有水平推力的单跨桁架拱桥或刚架拱桥，可以考虑拱脚设铰的静力图式；对于多跨组合式拱桥，不仅可考虑拱脚设铰，而且也可将桥墩处拱座与承台之间的水平约束释放，使其成为与连续梁一样的外部静力图式。当然，外部静定的组合体系拱桥更适合用于不良地基。</p>
+ <p style="text-align:justify;font-family:times new roman">（2）上部构造形式</p>
+ <p style="text-align:justify;font-family:times new roman">拱桥上部构造的形式，受上部结构的设计高程控制。桥面系在主拱圈立面中的位置（即上承式、中承式或下承式结构），将直接与拱桥跨中桥面高程、拱顶底面高程和起拱线高程有关。一旦拱桥的控制高程确定，拱桥的构造形式也就基本被限定。<br>对于确定的设计跨径，由上述三个控制高程和合理的矢跨比，可判断采用上承式结构的可能性。若桥面与拱脚高差较小、矢跨比不能满足上承式结构要求时，可考虑采用中承式或下承式结构。但需注意，无推力的中承式组合体系拱桥为多跨结构，在单跨情况下只能采用下承式结构。<br>对于平原地区尤其是城市桥梁，由于受到地面建筑物、纵坡等影响，桥面高程是严格控制的；同时桥下净空则受到航道等级、排洪或地面行车等要求的限制时，跨中结构底面高程也被净空下限值所控制。采用中承或下承式拱桥可降低建筑高度，提供较大的桥下净空。</p>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.3.1.5"> 五、拱轴线及拱上建筑</a> <span id="id3.3.1.5"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.16"> [A3-3.16]</a><span id="idA3-3.16"> 1. 拱轴线选择原则与要求<br>由结构力学可知，拱轴线的形状不仅直接影响着拱的内力及截面应力的分布（拱圈的承载力），而且与结构的耐久性（开裂影响）、经济合理性和施工安全性等都有密切的关系。因此，在拱桥设计中，选择合适的拱轴线形是一个需要解决的重要问题。</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）选择原则</p> 
+ <p style="text-align:justify;font-family:times new roman">选择拱轴线的原则，就是尽可能降低由作用产生的拱圈弯矩值。最理想的拱轴线是与拱上各种作用产生的压力线相重合，这时拱圈截面只有轴向力，而无弯矩及剪力效应，能充分利用材料强度和圬工材料的良好抗压性能，这样的拱轴线称为合理拱轴线。然而，合理拱轴线是不存在的，因为除恒载外，拱圈还要受到活载、温度变化、材料收缩徐变等因素的影响，当恒载（结构重力）压力线与拱轴线重合时，在活载（汽车荷载和人群荷载）作用下就不再重合，甚至对应于不同的活载作用位置，压力线也是各不相同的。<br>根据圬工拱桥恒载比重大的特点，在实用中一般采用恒载压力线作为拱轴线，恒载愈大，这种选择就愈合理。选择混凝土拱桥和石拱桥的拱轴线时，应注意降低拱顶截面下缘拉应力；对于大跨径拱桥，应考虑拱圈弹性压缩、混凝土收缩和徐变等因素对拱轴线变形的影响。当采用悬链线作为拱轴线时宜采用较小的拱轴系数 值。必要时，宜对拱上结构的布置进行适当的调整。当采用无支架施工或早期脱架施工，则拱轴线应与施工阶段的压力线偏差较小，以满足裸拱强度和稳定性的要求。</p>  
+ <p style="text-align:justify;font-family:times new roman">（2）基本要求</p>  
+ <p style="text-align:justify;font-family:times new roman">①尽量减小拱圈各截面弯矩，使主拱圈在计入弹性压缩、均匀降温、混凝土收缩等影响下，各主要截面的应力相差不大（<i>σ</i><sub>i</sub>≈<i>σ</i><sub>n</sub>），尽量使各主要截面（拱顶、拱脚、四分跨）拉应力最小。<br>②对于无支架施工的拱桥，应能满足各施工阶段的要求，并应尽量少用或不用临时性施工措施。<br>③线形美观、便于施工。</p>  
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.17"> [A3-3.17]</a><span id="idA3-3.17"> 2. 常用拱轴线形<br>目前，我国拱桥常用的拱轴线形有：圆弧线、悬链线和抛物线。</span></p>
+ <p style="text-align:justify;font-family:times new roman">圆弧形拱轴线与实际的恒载压力线有偏离，使拱圈各截面受力不够均匀。当矢跨比较小时，两者偏离不大，随着矢跨比的增大，偏离逐渐增大。因此，圆弧形拱轴线常用于15～20 m以下的小跨径拱桥和空腹式拱桥的拱式腹拱中。有些大跨径钢筋混凝土拱桥，为简化施工，也有采用圆弧线作为拱轴线的。</p>
+ <p style="text-align:justify;font-family:times new roman">抛物线拱轴线可采用二次抛物线或高次抛物线作为拱轴线。二次抛物线对应于竖向均布荷载作用下拱的压力线。对于恒载强度比较接近均布的拱桥，如中承式肋拱桥、矢跨比较小的空腹式钢筋混凝土拱桥、钢筋混凝土桁架拱和刚架拱等轻型拱上结构的拱桥，可以采用二次抛物线作为拱轴线。在某些大跨径拱桥中，由于特殊的拱上建筑布置，为了尽量使拱轴线与恒载压力线相吻合，可采用高次抛物线作为拱轴线。</p>
+ <p style="text-align:justify;font-family:times new roman">实腹式拱桥的恒载集度（单位长度的恒重）由拱顶到拱脚是连续分布并逐渐增大的[<a href="#image3.3.3">图3-3-3b）</a>]，这种荷载分布图式的拱圈压力线是一条悬链线，因此，实腹式拱桥采用悬链线作为拱轴线。恒载作用下，当不计拱圈弹性压缩的影响时，拱圈截面将只承受轴向力而无弯矩。</p>
+ <p style="text-align:justify;font-family:times new roman">空腹式拱桥由于拱上建筑的形式发生了变化，从拱顶到拱脚的恒载集度也不再是逐渐增加的[<a href="#image3.3.3">图3-3-3a）</a>]。拱圈既承受着自身自重的分布荷载，又承受拱上腹孔墩立柱（横墙）传来的集中荷载，其相应的恒载压力线也不再是悬链线，而是一条在腹孔墩处有转折点的多段曲线。如仍用相应的悬链线作为拱轴线时，恒载压力线与拱轴线将有偏离。然而，理论分析证明，这种偏离对拱圈控制截面（拱顶、两个 <i>l</i>/4截面和两个拱脚截面）的受力是有利的。另一方面，悬链线拱轴线对各种空腹式拱上建筑的适应性较强，并已有现成完备的计算图表可利用。因此，空腹式拱桥也广泛采用悬链线作为拱轴线。悬链线是目前我国大、中跨径拱桥采用最普遍的拱轴线形</p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.3.3{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.3.3" src="../_static/fig/3-3-3.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-3-3  悬链线拱恒载分布图</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.3.3'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.18"> [A3-3.18]</a><span id="idA3-3.18"> 3. 拱上建筑<br>拱上建筑的形式与布置、桥面结构的支承方式，对拱轴线选择有密切的关系。在一般情况下：</span></p>
+ <p style="text-align:justify;font-family:times new roman">（1）小跨径上承式拱桥：采用实腹式的圆弧拱或悬链线拱。<br>（2）大、中跨径上承式拱桥：采用空腹式的悬链线拱。<br>（3）组合体系拱桥：一般采用抛物线拱。</p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.3.1.6"> 六、多跨连续拱桥</a> <span id="id3.3.1.6"> </span></p>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.19"> [A3-3.19]</a><span id="idA3-3.19"> 一般情况下，多孔拱桥最好选用等跨分孔。但有时会受地形、地质、通航等条件的限制，或引桥很长，考虑与桥面纵坡协调一致，以及特殊的美观要求，可以考虑用不等跨分孔的办法处理。<br>由于拱桥采用不等跨，相邻桥孔的恒载推力不相等，使桥墩和基础产生了恒载不平衡推力，不平衡推力导致桥墩和基础受力极为不利。为此，通常有两类处理方法，一是采用无推力的系杆拱以避免水平推力对邻跨的影响；二是减小连拱作用，即可以采取以下措施减小不平衡推力，改善桥墩和基础的受力状况。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.20"> [A3-3.20]</a><span id="idA3-3.20"> 1. 采用不同的矢跨比<br>在跨径一定时，矢跨比与推力大小成反比，因此，在相邻两孔中，大跨径选用矢跨比大的拱（大拱陡），小跨径选用矢跨比小的拱（小拱坦），可使两相邻孔在恒载作用下的水平推力大致相等。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.21"> [A3-3.21]</a><span id="idA3-3.21"> 2. 采用不同的拱脚高程<br>可以将水平推力大的拱脚放在较低的位置，水平推力相对较小的拱脚则放在较高的位置，这样可使两侧水平推力对桥墩基底产生的弯矩相平衡（<a href="#image3.3.64">图3-3-4</a>）。</span></p>
+ 
+   <body>
+
+  <style type="text/css">
+      #image3.3.4{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.3.4" src="../_static/fig/3-3-4.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-3-4  不等跨拱桥拱脚高程设计</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.3.4'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.22"> [A3-3.22]</a><span id="idA3-3.22"> 3. 调整拱上建筑恒载重量<br>对于上承式拱桥，可以通过调整相邻两孔拱上建筑的恒载重量，来达到调整水平推力的目的。大跨径用轻质的拱上填料或采用空腹式拱上建筑；小跨径用重质的拱上填料或采用实腹式拱上建筑。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-3.23"> [A3-3.23]</a><span id="idA3-3.23"> 4. 采用不同类型拱跨结构<br>相邻跨可以采用不同类型的拱跨结构，例如大跨采用中承式肋拱，小跨采用上承式板拱，再加上矢跨比等其他设计参数的调整，相邻跨的拱脚水平推力可做适当调整（<a href="#image3.3.5">图3-3-5</a>）。拱桥的种类繁多，类似调整的方法还有很多，不再一一列举。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.3.5{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.3.5" src="../_static/fig/3-3-5.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-3-5  不同的拱跨结构</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.3.5'));</script>
+
+  </body>
+
+
+:math:`\ `
+
+
+
+
+
+
+
+
+
+

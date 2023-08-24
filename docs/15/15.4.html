@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第四节 有限元分析要点 &mdash; 桥梁工程 第2版</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="第五章 简单体系拱桥承载力与稳定性验算" href="../16.html" />
+    <link rel="prev" title="第三节 拱圈内力调整" href="15.3.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> 桥梁工程<br /><br />第2版
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目次</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qy.html">第二版前言</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第一篇 总论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02.html">第二章  桥梁总体规划和设计要点</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03.html">第三章  作用及作用组合（桥梁设计荷载）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04.html">第四章  桥梁通用构造</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第二篇 梁桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06.html">第二章  简支板桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07.html">第三章  简支梁桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08.html">第四章  简支梁桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09.html">第五章  刚架桥与刚构桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10.html">第六章  连续体系梁桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11.html">第七章  梁桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../15.html">第四章  简单体系拱桥计算</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="15.1.html">第一节  拱桥的特点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15.2.html">第二节  拱圈内力计算</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15.3.html">第三节  拱圈内力调整</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">第四节  有限元分析要点</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../4-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-2.html">第二章 斜拉桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../5-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-2.html">第二章 悬索桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-2.html">第二章  桥墩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../6-z.html">总结</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">桥梁工程<br /><br />第2版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../15.html">第四章  简单体系拱桥计算</a></li>
+      <li class="breadcrumb-item active">第四节  有限元分析要点</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/15/15.4.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>第四节  有限元分析要点<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<h3 id="test111"> 第四节  有限元分析要点</h3>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.39"> [A3-4.39]</a><span id="idA3-4.39"> 随着计算机技术的迅速发展、结构有限单元分析软件功能的完善，桥梁结构电算已是一种简便和实用的方法。虽然简单体系拱桥的计算相对容易，但随着桥梁跨径的增大、控制截面及控制状态的增多，以及结构构造与施工过程的复杂、多样化等难题的出现，仍采用手算配图表的方法进行结构计算，将很难满足设计要求的精度。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.40"> [A3-4.40]</a><span id="idA3-4.40"> 根据拱桥构造特点，可看成由曲板、曲梁、曲杆、平板、直杆等构件所组成。采用结构有限元法进行分析，就是先将整个拱桥简化成板、杆、梁等构件组成的平面（或空间）结构计算模型，利用结构分析软件进行分析计算。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.41"> [A3-4.41]</a><span id="idA3-4.41"> 根据材料力学、结构力学的基本约定，拱桥的计算模型可以用构件轴线及相应约束条件组成。对于施工中的裸拱，根据拱脚的约束条件，平面计算模型可以表示为如<a href="#image3.4.25">图3-4-25</a>所示；上承式拱桥成桥计算模型如<a href="#image3.4.25">图3-4-25a）</a>所示；中承式和下承式拱桥成桥计算模型，分别如<a href="#image3.4.25">图3-4-25b）</a>、<a href="#image3.4.25">图3-4-25c）</a>所示，图中以柔性吊杆为例。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.42"> [A3-4.42]</a><span id="idA3-4.42"> 随着计算机技术的迅速发展、结构有限单元分析软件功能的完善，桥梁结构电算已是一种高效、精确和实用的数值计算方法。虽然简单体系拱桥的计算相对容易，但随着桥梁跨径的增大,对大跨度拱桥必须考虑非线性的影响（包括材料非线性、几何非线性），大跨度拱桥控制截面及控制状态的增多，以及结构构造与施工过程的复杂、多样化等难题的出现，仍采用手算配图表的方法进行结构计算，将很难满足设计要求的精度，故需采用有限元法借助计算机来完成。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.43"> [A3-4.43]</a><span id="idA3-4.43"> 采用结构有限元法进行分析，就是先将整个拱桥简化成板、杆、梁等构件组成的平面（或空间）结构计算模型，利用结构分析软件进行分析计算。根据拱桥构造特点，可看成由曲板、曲梁、曲杆、平板、直杆等构件所组成。整体静力分析时，可采用平面杆系有限元模型计算；动力及整体稳定分析时可采用空间有限元模型计算。根据材料力学、结构力学的基本约定，拱桥的计算模型可以用构件轴线及相应约束条件组成。模型应正确模拟刚度和质量的分布，杆系有限元模型中用梁单元模拟拱圈、立柱、腹拱圈、桥面板等各种具有抗弯能力的构件，用杆单元模拟吊杆等只受轴向力的构件，支座可采用连接单元模拟。吊杆的初拉力可根据所使用计算程序的功能，采用不同方法进行模拟，例如通过对单元施加初应变或对单元降温来模拟。实际工程中的吊杆只受拉，不受压，计算中如果出现受压情况，则计算结果不正确，需进行处理。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.44"> [A3-4.44]</a><span id="idA3-4.44"> 全桥结构离散需根据实际问题的需要及精度要求进行单元划分，单元建立在构件的轴线位置，节点一般应包括构件的转折点、交接点、截面变化点、关键验算截面位置和所有支承点。构件之间的连接关系必须根据实际构造合理模拟，构件之间的内部约束通过对应节点之间的变形协调关系加以实现。如<a href="#image3.4.25">图3-4-25a）</a> 中所示的梁式拱上结构，一般不计拱上结构与主拱圈的联合作用，当模型中将拱上结构计入时，需正确处理主拱与拱上结构的内部约束：拱上立柱柱底和拱圈共用节点，两者平动和转动自由度变形协调；立柱柱顶与简支桥面板两节点间的转动自由度相互无约束。<a href="#image3.4.25">图3-4-25b）</a>、<a href="#image3.4.25">图3-4-25c）</a>中所示的柔性吊杆，上端节点与拱圈节点仅约束平动自由度；下端节点采用全铰或半铰的方式与桥面结构节点连接。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.45"> [A3-4.45]</a><span id="idA3-4.45"> 对于施工中的裸拱，根据拱脚的约束条件，平面计算模型可以表示为如<a href="#image3.4.26">图3-4-26</a>所示。<br>边界条件对计算结果影响较大，应正确模拟，当拱座为刚性基础时拱脚可按固定约束处理，当拱脚仅插入桥台或拱座预留孔中时可假定为铰接。</span></p>
+
+  <body>
+
+ <style type="text/css">
+     #image3.4.25{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.25" src="../_static/fig/3-4-25.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-25  简单体系拱桥全桥有限元计算模型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.25'));</script>
+
+ </body>
+
+ <body>
+
+ <style type="text/css">
+     #image3.4.26{
+        margin-left:50px;
+     }
+ </style>
+
+ <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+ <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+ <div style="text-align:center;"><img id="image3.4.26" src="../_static/fig/3-4-26.jpg" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;font-family:times new roman">图3-4-26  裸拱有限元计算模型</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.4.26'));</script>
+
+ </body>
+
+
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA3-4.46"> [A3-4.46]</a><span id="idA3-4.46"> 在上述计算模型确定过程中应注意几个问题：</span></p>
+<p style="text-align:justify;font-family:times new roman">（1）一般所使用的平面杆系结构有限元分析软件，对于曲线形拱圈都是采用逐段直线杆模拟的，故在单元划分时不宜分得太大。由于结构构造原因，构件联结处的各构件轴线有时不相交于一点，或即使相交于一点但在某一区域内轴线所代表的各构件实际上是一个块体，考虑到这些区域已超出杆系模拟的范围，同时也不会发生像杆系那样的变形，故采用刚臂（刚度很大、没有重量）连接或代替这一区域的轴线。</p>
+<p style="text-align:justify;font-family:times new roman">（2）上述模型可分别作为平面和空间结构看待，单元可以是曲杆也可以是直杆，可以是等截面也可以是变截面。当为平面模型时，没有考虑拱圈受力的横向不均匀性，对于肋拱只考虑了一条拱肋的平面，分析中需考虑拱桥横向分布系数。</p>
+<p style="text-align:justify;font-family:times new roman">（3）由于有限元模型计算单元变形对结构内力影响已自动计入，所以无需像手算那样单独考虑拱圈弹性压缩，拱轴线偏离带来的内力影响。</p>
+<p style="text-align:justify;font-family:times new roman">（4）在分析板拱桥及箱拱桥时，可根据实际情况将拱圈视为板壳结构，采用板单元进行分析计算，对厚度较大的实体板拱，还可采用实体单元作更为精确的分析。</p>
+<p style="text-align:justify;font-family:times new roman">（5）进行桥梁结构有限元分析时，除了应按相关规范要求考虑各种因素（施工荷载、使用荷载等）、时间因素（混凝土徐变、收缩）外，还应逐阶段考虑结构施工步骤、体系变化等过程。拱桥的建成需经历一个复杂的成型、受力过程，结构一次落架、荷载一次施加是不存在的。以往由于受到手算能力及简化分析思路的影响，模拟施工全过程的结构受力分析未能给予足够重视。随着拱桥向大跨径方向发展、施工方法的多样化，在大跨度拱桥的结构设计和施工控制中需进行模拟施工全过程的结构受力分析，可使用商业化的桥梁分析专用软件通过对各施工加载阶段激活或钝化相应的单元，并模拟荷载变异、时间因素、温度、边界条件和约束条件变化的影响，进而得到符合桥梁结构实际受力状态的分析结果。</p><p><span class="math notranslate nohighlight">\(\ \)</span></p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="15.3.html" class="btn btn-neutral float-left" title="第三节 拱圈内力调整" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="../16.html" class="btn btn-neutral float-right" title="第五章 简单体系拱桥承载力与稳定性验算" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 哈尔滨工业大学.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

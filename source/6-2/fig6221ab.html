@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box622{
+                width: 700px;
+                height: 300px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box1{
+                width: 340px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box2{
+                width: 340px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title6221{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:270px;
+                margin-left:40%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box622">
+           <p class="box1" style="text-align:center;font-family:times new roman"><img id="image6221a" src="../_static/fig/6-2-21a.png" alt="Picture">a）</p>
+           <p class="box2" style="text-align:center;font-family:times new roman"><img id="image6221b" src="../_static/fig/6-2-21b.png" alt="Picture">b）</p>
+           <p id="title6221" style="font-family:times new roman">图6-2-21  桥墩破冰棱</p>
+            </div>
+         </div>
+         <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6221a'));
+             var viewer = new Viewer(document.getElementById('image6221b'));
+         </script>
+     </body>
+</html>

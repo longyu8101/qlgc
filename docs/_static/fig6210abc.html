@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box6210{
+                width: 700px;
+                height: 210px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box3{
+                width: 230px;
+                height: 145px;
+                box-sizing: border-box;
+                z-index: 9999;   
+             }
+             .box4{
+                width: 230px;
+                height: 145px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             .box5{
+                width: 230px;
+                height: 145px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             #title6210{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:160px;
+                margin-left:38%;   
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box6210">
+               <p class="box3" style="text-align:center;font-family:times new roman"><img id="image6210a" src="./_static/fig/6-2-10a.png" alt="Picture">a）石板坡长江大桥（单肢薄壁墩） </p>
+               <p class="box4" style="text-align:center;font-family:times new roman"><img id="image6210b" src="./_static/fig/6-2-10b.png" alt="Picture">b）红河大桥（双肢薄壁墩） </p>
+               <p class="box5" style="text-align:center;font-family:times new roman"><img id="image6210c" src="./_static/fig/6-2-10c.png" alt="Picture">c）连续刚构桥（V形刚构墩）</p>
+               <p id="title6210" style="font-family:times new roman">图6-2-10  空心薄壁墩示例</p>
+               </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6210a'));
+             var viewer = new Viewer(document.getElementById('image6210b'));
+             var viewer = new Viewer(document.getElementById('image6210c'));
+         </script>
+     </body>
+</html>

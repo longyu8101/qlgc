@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box627{
+                width: 700px;
+                height: 300px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box6271{
+                width: 340px;
+                height: 300px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box6272{
+                width: 340px;
+                height: 300px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title627{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:260px;
+                margin-left:40%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box627">
+           <p class="box6271" style="text-align:center;font-family:times new roman"><img id="image627a" src="./_static/fig/6-2-7a.png" alt="Picture">a）双柱式</p>
+           <p class="box6272" style="text-align:center;font-family:times new roman"><img id="image627b" src="./_static/fig/6-2-7b.png" alt="Picture">b）哑铃式</p>
+           <p id="title627" style="font-family:times new roman">图6-2-7  柱式桥墩示例</p>
+            </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image627a'));
+             var viewer = new Viewer(document.getElementById('image627b'));
+         </script>
+     </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box62501{
+                width: 700px;
+                height: 230px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box3{
+                width: 230px;
+                height: 390px;
+                box-sizing: border-box;
+                z-index: 9999;   
+             }
+             .box4{
+                width: 230px;
+                height: 390px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             .box5{
+                width: 230px;
+                height: 390px;
+                box-sizing: border-box;
+                z-index: 9999;
+             }
+             #title62501{
+                height:0px;
+                width:100%;
+                position: absolute;
+                margin-top:0px;
+                margin-left:38%;   
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box62501">
+               <p class="box3" style="text-align:center;font-family:times new roman"><img id="image6250a" src="../_static/fig/6-2-50a.png" alt="Picture">a）预制场预制桥墩和箱梁</p>
+               <p class="box4" style="text-align:center;font-family:times new roman"><img id="image6250b" src="../_static/fig/6-2-50b.png" alt="Picture">b）龙门吊将桥墩运至岸边</p>
+               <p class="box5" style="text-align:center;font-family:times new roman"><img id="image6250c" src="../_static/fig/6-2-50c.png" alt="Picture">c）桥墩装运至岸边浮吊船</p>
+               </div>
+         </div>
+         <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6250a'));
+             var viewer = new Viewer(document.getElementById('image6250b'));
+             var viewer = new Viewer(document.getElementById('image6250c'));
+         </script>
+     </body>
+</html>

@@ -23,7 +23,7 @@
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="第一节 概述" href="11/11.1.html" />
-    <link rel="prev" title="第四节 桥梁设计方案比选" href="10/10.6.html" /> 
+    <link rel="prev" title="第五节 连续弯梁桥简介" href="10/10.5.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -68,7 +68,37 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">第三篇 拱桥</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="model.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13.html">第二章  简单体系拱桥构造</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14.html">第三章  简单体系拱桥设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15.html">第四章  简单体系拱桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16.html">第五章  简单体系拱桥承载力与稳定性验算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="17.html">第六章  拱桥连拱计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="18.html">第七章  组合体系拱桥</a></li>
+<li class="toctree-l1"><a class="reference internal" href="19.html">第八章  拱桥施工</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第四篇 斜拉桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="4-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-2.html">第二章 斜拉桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-3.html">第三章 斜拉桥计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-4.html">第四章 斜拉桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第五篇 悬索桥</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="5-1.html">第一章  概论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-2.html">第二章 悬索桥构造与设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-3.html">第三章 悬索桥结构计算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-4.html">第四章 悬索桥施工</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-z.html">总结</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">第六篇  桥梁支座与墩台</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="6-1.html">第一章  桥梁支座</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-2.html">第二章  桥墩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-3.html">第三章  桥台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-z.html">总结</a></li>
 </ul>
 
         </div>
@@ -101,13 +131,15 @@
 </div>
 <h3 id="test111">第一节  概述</h3>
 
-<p style="text-align:justify;font-family:times new roman"><a href="#idA2-100"> [A2-100]</a><span id="idA2-100">在桥梁工程中，桥梁设计与施工既密切联系，又相互影响。桥梁设计时必须明确考虑相匹配的施工方法，施工方法对设计结果有直接影响。因此，了解不同施工方法对桥跨结构受力的影响是十分必要的。这也是《桥梁工程》课程关于“桥梁施工”部分内容的侧重点，对于各种施工方法的具体工艺、操作流程等将在《桥梁施工》课程介绍。<br>桥梁施工过程，就是由构件逐步形成结构体系的过程，也即结构永久作用（恒载）逐渐作用于结构体系的过程。对于桥跨结构而言，结构重力产生的截面内力包括一期恒载（主梁自重）引起的主梁内力Sg1和二期恒载（桥面铺装、人行道、栏杆、灯柱等桥面系设备）引起的主梁内力Sg2。一期恒载内力计算与桥梁结构施工方法密切相关，不同施工方法对应的永久作用内力各不相同。例如，相同桥型布置、相同跨径和截面尺寸的连续梁桥，按满堂支架浇注施工时，在中墩支承处的负弯矩小于悬臂施工的负弯矩，但跨中正弯矩大于悬臂施工的正弯矩，因此，一期恒载内力计算时，不能不考虑施工方法而简单地都按一次落架进行计算。二期恒载内力计算时，主梁结构已形成最终体系（即成桥状态），故可将桥面系模拟为均布荷载，采用结构力学方法进行内力计算，也可以利用影响线加载求解。本章主要讨论采用不同施工方法时，结构体系及构件截面内力随施工进程的变化过程及规律，为可靠、有效的桥梁设计提供必须的概念及计算方法支持。</span></p></section>
+
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-7.1"> [A2-7.1]</a><span id="idA2-7.1"> 在桥梁工程中，桥梁设计与施工既密切联系，又相互影响。桥梁设计时必须明确考虑相匹配的施工方法，施工方法对设计结果有直接影响。因此，了解不同施工方法对桥跨结构受力的影响是十分必要的。这也是《桥梁工程》课程关于“桥梁施工”部分内容的侧重点，对于各种施工方法的具体工艺、操作流程等将在《桥梁施工》课程介绍。</span></p>
+<p style="text-align:justify;font-family:times new roman"><a href="#idA2-7.2"> [A2-7.2]</a><span id="idA2-7.2"> 桥梁施工过程，就是由构件逐步形成结构体系的过程，也即结构永久作用（恒载）逐渐作用于结构体系的过程。对于桥跨结构而言，结构重力产生的截面内力包括一期恒载（主梁自重）引起的主梁内力Sg1和二期恒载（桥面铺装、人行道、栏杆、灯柱等桥面系设备）引起的主梁内力Sg2。一期恒载内力计算与桥梁结构施工方法密切相关，不同施工方法对应的永久作用内力各不相同。例如，相同桥型布置、相同跨径和截面尺寸的连续梁桥，按满堂支架浇注施工时，在中墩支承处的负弯矩小于悬臂施工的负弯矩，但跨中正弯矩大于悬臂施工的正弯矩，因此，一期恒载内力计算时，不能不考虑施工方法而简单地都按一次落架进行计算。二期恒载内力计算时，主梁结构已形成最终体系（即成桥状态），故可将桥面系模拟为均布荷载，采用结构力学方法进行内力计算，也可以利用影响线加载求解。本章主要讨论采用不同施工方法时，结构体系及构件截面内力随施工进程的变化过程及规律，为可靠、有效的桥梁设计提供必须的概念及计算方法支持。</span></p></section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="10/10.6.html" class="btn btn-neutral float-left" title="第四节 桥梁设计方案比选" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="10/10.5.html" class="btn btn-neutral float-left" title="第五节 连续弯梁桥简介" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="11/11.1.html" class="btn btn-neutral float-right" title="第一节 概述" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

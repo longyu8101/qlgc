@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+             .box632{
+                width: 700px;
+                height: 400px;
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+             }
+             .box1{
+                width: 340px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             .box2{
+                width: 340px;
+                height: 250px;
+                box-sizing: border-box;
+                
+                z-index: 9999;
+             }
+             #title632{
+                height:20px;
+                width:100%;
+                position: absolute;
+                margin-top:350px;
+                margin-left:40%;
+             }
+         </style>
+     </head>
+     <body>
+         <div>
+            <div class="box632">
+           <p class="box1" style="text-align:center;font-family:times new roman"><img id="image632a" src="./_static/fig/6-3-2a.png" alt="Picture">a）U形桥台</p>
+           <p class="box2" style="text-align:center;font-family:times new roman"><img id="image632b" src="./_static/fig/6-3-2b.png" alt="Picture">b）埋置衡重式桥台（立面）</p>
+           <p id="title632" style="font-family:times new roman">图6-3-2  重力式桥台</p>
+            </div>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image632a'));
+             var viewer = new Viewer(document.getElementById('image632b'));
+         </script>
+     </body>
+</html>
