@@ -4,10 +4,108 @@
 .. raw:: html
 
  <h3 id="test111">第四节  无推力组合体系拱桥计算</h3>
- 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.36"> [A3-7.36]</a><span id="idA3-7.36"> 拱梁或拱杆组合桥是一种在构造、受力、施工等方面很有特点的组合体系拱桥，这些特点也对设计计算提出了更高的要求。随着有限元技术分析水平的提高、大型结构分析软件的普及应用和对结构设计更高的精度要求，拱梁（杆）组合体系桥主要采用有限元分析法进行计算（也称电算或者数值模拟计算）。</span></p>
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.4.1">一、计算方法</a> <span id="id3.7.4.1"> </span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.37"> [A3-7.37]</a><span id="idA3-7.37"> 目前拱梁（杆）组合体系桥采用有限元分析建模时需主要注意以下问题（为简化图式，各示例均以平面杆系有限单元模型的形式显示）：</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.38"> [A3-7.39]</a><span id="idA3-7.38"> （1）拱-梁组合体系桥主要采用柔性吊杆，因而不能受压，建模分析时应采用索单元或杆单元（不能出现压应力）；施工过程中应进行吊杆力张拉，可采用整体一次张拉，也可分批多次张拉，具体实施措施应与结构理想成桥状态相匹配；一般而言，确定柔性吊杆初张力的方法同混凝土斜拉桥确定初始索力的方法相似，可参考“钢管混凝土系杆拱桥”<sup>[参考文献号]</sup>相关内容，在此不再赘述。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.39"> [A3-7.30]</a><span id="idA3-7.39"> （2）拱-梁组合体系桥是一种复杂的空间结构，因此，在目前实用计算中多采用空间结构模型进行整体分析。当然，由于此类桥梁纵、横构件构造很有规律，也可采用空间结构平面化的方法，并计算横向分布系数反映活载的影响来近似简化计算。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.40"> [A3-7.40]</a><span id="idA3-7.40"> （3）拱-杆组合体系桥采用柔性系杆时，建模分析中系杆应采用索单元或杆单元（不能出现压应力），此时桥面结构与系杆应分别建模（如<a href="#image3.7.28">图3-7-28b）</a>所示；对于采用刚性系杆（系梁）的组合拱，其系杆（系梁）往往为纵梁上张拉预应力实现平衡拱脚水平推力，建模时可直接建立系梁单元而无需单独考虑系杆，如<a href="#image3.7.28">图3-7-28a）</a>所示；模拟系杆时应注意施工过程中系杆的多次张拉问题。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.28{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.28" src="../_static/fig/3-7-28.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-28  下承式简支拱式组合桥的计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.28'));</script>
+
+  </body>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.41"> [A3-7.41]</a><span id="idA3-7.41"> （4）拱-梁（杆）组合体系桥目前多采用钢管混凝土的结构型式，往往采用无支架法施工，建模时应充分考虑从空钢管结构、到灌注管内混凝土、再到桥面系结构施工及后续使用状态时拱肋截面的变化和应力的累计影响。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.42"> [A3-7.42]</a><span id="idA3-7.42"> （5）双拱肋的中承式与下承式拱-梁组合结构的横梁与纵梁刚性联结，结点处又与吊杆联结；横梁两端的这种弹性固结作用，横梁其处于较复杂的受力状态，在局部荷载（如车辆荷载）作用下，纵梁对横梁的约束作用接近于两端刚性固结[<a href="#image3.7.29">图3-7-29a）</a>]；而在满跨车道荷载作用下，纵梁对横梁的约束则接近于两端铰接[<a href="#image3.7.29">图3-7-29b）</a>]。为了简化横梁构件的活载内力计算，可偏安全地取按上述两种计算模型得到的内力包络值；而对于恒载作用下的横梁内力，考虑到横梁的整体变形受纵梁约束的影响很小，也可采用简支计算模型进行计算。上承式、多拱肋的中承式与下承式拱-梁组合体系结构的横梁，可考虑按弹性支承连续梁计算。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.29{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.29" src="../_static/fig/3-7-29.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-29  横梁计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.29'));</script>
+
+  </body>  
+
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.4.2">二、计算模型</a> <span id="id3.7.4.2"> </span></p>
- 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.43"> [A3-7.43]</a><span id="idA3-7.43"> 1. 简支拱梁（杆）组合桥<br>下承式简支拱梁组合桥是一种外部静定、内部超静定的结构。刚性系梁与柔性系梁建模方式有所不同，前者刚性系梁与桥面作为一体纵向连续，吊杆为多点弹性支承，如<a href="#image3.7.28">图3-7-28a）</a>所示；后者桥面结构作为附属结构悬吊于拱肋，系杆独立锚固，系杆与拱脚用刚臂进行连接，计算模型如<a href="#image3.7.28">图3-7-28b）</a>所示。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.44"> [A3-7.44]</a><span id="idA3-7.44"> 2. 下承式拱-连续梁组合桥<br>下承式拱-连续梁组合桥一般采用三跨连续构造，外部和内部均为超静定。刚性连续梁承担桥面纵向连续其模型应纵向一体并由吊杆支撑，其桥计算模型见<a href="#image3.7.30">图3-7-30</a>。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.30{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.30" src="../_static/fig/3-7-30.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-30  下承式拱-连续梁组合桥的计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.30'));</script>
+
+  </body>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.45"> [A3-7.45]</a><span id="idA3-7.45"> 3. 中承式连续拱梁组合桥<br>中承式连续拱梁组合桥一般为三跨连续构造，内部与外部均为超静定。刚性系杆和柔性系杆两种结构形式都常采用，可采用同上文一样的方法建立计算模型（<a href="#image3.7.31">图3-7-31</a>）；同时，梁与拱结合端（类似实腹段）应设置刚臂，并根据拱上立柱与梁的连接实际构造考虑立柱上端是否有设铰；下拱脚与拱座的联结，应考虑在施工期间是否设临时铰及封铰问题；拱座与承台之间的联结在施工期间与使用期间是否改变；桥面结构纵向在拱肋处的约束或支承条件。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.31{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.31" src="../_static/fig/3-7-31.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-31  中承式连续拱式组合桥的计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.31'));</script>
+
+  </body>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.46"> [A3-7.46]</a><span id="idA3-7.46"> 4. 上承式连续拱梁组合桥<br>上承式连续拱梁组合桥一般也为三跨连续，内部和外部均为超静定。计算模型中有关结点、轴线连接等问题的处理均同上；拱脚与拱座联结的临时设铰及其封铰问题，同中承式连续拱梁组合结构处理方法一样。计算模型见<a href="#image3.7.32">图3-7-32</a>。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.32{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.32" src="../_static/fig/3-7-32.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-32  上承式连续拱梁组合桥的计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.32'));</script>
+
+  </body>  
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.47"> [A3-7.47]</a><span id="idA3-7.47"> 对于刚构与拱组合的建模分析要点与上述内容基本一致，这里就不再赘述。上述结构的计算模型，除在各构件联结点设计算节点外，还应在构件中设置适当数量的节点，尤其是一些变截面和曲线构件；在一个构件中，两相邻节点间为一个计算单元。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.48"> [A3-7.48]</a><span id="idA3-7.48"> 本教材所指的拱梁组合结构均需采用预应力。拱梁组合结构的预应力都施加在受拉的系梁上，预应力度的大小影响着梁的徐变。但拱内压应力的大小往往取决于结构的构造布置，尤其在矢跨比较小时拱内的压应力将急剧上升。拱和梁内压应力的相对水平，影响着结构长期变形和受力的趋势，对于内部高次超静定的拱梁组合结构，不协调的恒载受力状态将对结构的最终状态产生很不利的影响。因此，设计计算不仅是给出相应的计算结果，更重要的是为结构选择一种良好的永久荷载状态。值得注意的是，尽管影响拱、梁内压应力的因素很多，但拱与梁内相近的压应力水平，对结构长期变形与受力极为有利。</span></p>
+
  
 
 :math:`\ `

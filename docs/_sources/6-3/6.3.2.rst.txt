@@ -6,7 +6,7 @@
 
  <h3 id="test111">第二节  桥台构造与设计</h3>
  <p><a href="#id6.3.2.1">一、重力式桥台</a> <span id="id6.3.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA6-3.11"> [A6-3.11]</a><span id="idA6-3.11"></span>常用的重力式桥台为U形桥台，从梁桥（<a href="#image6311">图6-3-11</a>）与拱桥（<a href="#image6312">图6-3-12</a>）的U形桥台构造比较来看，二者除在台帽部分有所差别外，其余部分基本相同；从一般构造设计来讲，拱桥桥台一般较梁桥桥台要大，这是因为拱桥桥台要承担相当大的水平推力。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.11"> [A6-3.11]</a><span id="idA6-3.11"></span>常用的重力式桥台为U形桥台，从梁桥（<a href="#image6311">图6-3-11</a>）与拱桥（<a href="#image6312">图6-3-12</a>）的U形桥台构造比较来看，二者除在台帽部分有所差别外，其余部分基本相同；从一般构造设计来讲，拱桥桥台一般较梁桥桥台要大，这是因为拱桥桥台要承担相当大的水平推力。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -19,31 +19,26 @@
  <p style="color: dimgray;text-align: center;">图6-3-12  拱桥U形桥台纵刨面</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6312'));</script>
 
- <style type="text/css">
-      #image6312{
-         margin-left:191px;
-         }
- </style>
- 
+
  <p><a href="#id6.3.2.1.1">1．台帽</a> <span id="id6.3.2.1.1"></span></p>
- <p style="text-align:justify" id="aaa"><b>（1）一般构造</b></p>
- <p style="text-align:justify"><a href="#idA6-3.12"> [A6-3.12]</a><span id="idA6-3.12"></span>梁桥台帽的构造和尺寸要求与相应的桥墩墩帽有许多共同之处，不同的是台帽顶面只设单排支座，在另一侧则要浇筑背墙以支挡路堤填土。背墙顶宽，对于片石砌体不得小于50cm，对于块石、料石砌体及混凝土不宜小于40cm。背墙一般设计成垂直，也可设计成与前墙背面同坡度，并与两侧侧墙连接。在台帽放置支座部分的构造尺寸、钢筋配置及混凝土标号可按相应的墩帽构造进行设计。</p>
- <p style="text-align:justify"><a href="#idA6-3.13"> [A6-3.13]</a><span id="idA6-3.13"></span>拱桥桥台只在前墙桥跨一侧设置拱座，其构造和尺寸可参照相应拱桥桥墩的拱座拟定。对于空腹式拱桥，在前墙顶面上还要砌筑背墙，用来支挡路堤填土和支承腹拱。</p>
- <p style="text-align:justify" id="aaa"><b>（2）钢筋构造</b></p>
- <p style="text-align:justify"><a href="#idA6-3.14"> [A6-3.14]</a><span id="idA6-3.14"></span>同重力式桥墩墩帽设计。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）一般构造</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.12"> [A6-3.12]</a><span id="idA6-3.12"></span>梁桥台帽的构造和尺寸要求与相应的桥墩墩帽有许多共同之处，不同的是台帽顶面只设单排支座，在另一侧则要浇筑背墙以支挡路堤填土。背墙顶宽，对于片石砌体不得小于50cm，对于块石、料石砌体及混凝土不宜小于40cm。背墙一般设计成垂直，也可设计成与前墙背面同坡度，并与两侧侧墙连接。在台帽放置支座部分的构造尺寸、钢筋配置及混凝土标号可按相应的墩帽构造进行设计。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.13"> [A6-3.13]</a><span id="idA6-3.13"></span>拱桥桥台只在前墙桥跨一侧设置拱座，其构造和尺寸可参照相应拱桥桥墩的拱座拟定。对于空腹式拱桥，在前墙顶面上还要砌筑背墙，用来支挡路堤填土和支承腹拱。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）钢筋构造</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.14"> [A6-3.14]</a><span id="idA6-3.14"></span>同重力式桥墩墩帽设计。</p>
 
  <p><a href="#id6.3.2.1.2">2．台身</a> <span id="id6.3.2.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA6-3.15"> [A6-3.15]</a><span id="idA6-3.15"></span>台身由前墙和侧墙构成，并结合成一体，兼有挡土墙和支撑墙的作用。侧墙正面一般是直立的，其长度视桥台高度和锥坡坡度而定。桥台越高，侧墙则越长。侧墙尾端，应有不小于0.75m的长度伸入路堤内，以保证与路堤有良好的衔接。台身宽度通常与路基宽度相同。</p>
- <p style="text-align:justify"><a href="#idA6-3.16"> [A6-3.16]</a><span id="idA6-3.16"></span>现行《圬工规》（JTG D61）规定，无论是梁桥还是拱桥，桥台前墙顶面宽度不宜小于0.50m，其任一水平截面的宽度，不宜小于该截面至墙顶高度的0.4倍。桥台侧墙顶面宽度不宜小于0.50m，其任一水平截面的宽度，对于片石砌体不宜小于该截止面至墙顶高度的0.4倍；对于块石、粗料石砌体或混凝体不宜小于0.35倍；如桥台内填料为中、粗砂或砾砂时，则上述两项可分别相应减为0.35和0.30倍，如<a href="#image6313">图6-3-13</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.15"> [A6-3.15]</a><span id="idA6-3.15"></span>台身由前墙和侧墙构成，并结合成一体，兼有挡土墙和支撑墙的作用。侧墙正面一般是直立的，其长度视桥台高度和锥坡坡度而定。桥台越高，侧墙则越长。侧墙尾端，应有不小于0.75m的长度伸入路堤内，以保证与路堤有良好的衔接。台身宽度通常与路基宽度相同。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.16"> [A6-3.16]</a><span id="idA6-3.16"></span>现行《圬工规》（JTG D61）规定，无论是梁桥还是拱桥，桥台前墙顶面宽度不宜小于0.50m，其任一水平截面的宽度，不宜小于该截面至墙顶高度的0.4倍。桥台侧墙顶面宽度不宜小于0.50m，其任一水平截面的宽度，对于片石砌体不宜小于该截止面至墙顶高度的0.4倍；对于块石、粗料石砌体或混凝体不宜小于0.35倍；如桥台内填料为中、粗砂或砾砂时，则上述两项可分别相应减为0.35和0.30倍，如<a href="#image6313">图6-3-13</a>所示。</p>
  
  <div style="text-align:center;"><img id="image6313" src="../_static/fig/6-3-13.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">b<sub>1</sub>≥0.50；b<sub>2</sub>≥（0.3～0.4）h；b<sub>3</sub>≥0.4h<br>图6-3-13  U形桥台一般构造示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6313'));</script>
 
- <p style="text-align:justify"><a href="#idA6-3.17"> [A6-3.17]</a><span id="idA6-3.17"></span>两个侧墙之间应填以渗透性较好的土壤。为了排除桥台前墙后部积水，应于侧墙间在略高于高水位的平面上铺一层向路堤方向设有斜坡的夯实粘土作为不透水层，并在粘土层上再铺一层碎石，将积水引向设于台后横穿路堤的盲沟内[<a href="#image6311">图6-3-11a）</a>）、<a href="#image6312">图6-3-12</a>]。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.17"> [A6-3.17]</a><span id="idA6-3.17"></span>两个侧墙之间应填以渗透性较好的土壤。为了排除桥台前墙后部积水，应于侧墙间在略高于高水位的平面上铺一层向路堤方向设有斜坡的夯实粘土作为不透水层，并在粘土层上再铺一层碎石，将积水引向设于台后横穿路堤的盲沟内[<a href="#image6311">图6-3-11a）</a>）、<a href="#image6312">图6-3-12</a>]。</p>
  
  <p><a href="#id6.3.2.2">二、轻型桥台</a> <span id="id6.3.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA6-3.18"> [A6-3.18]</a><span id="idA6-3.18"></span>轻型桥台中应用较广的是埋置式桥台，是由台帽（或盖梁）、背墙、耳墙、台身和基础组成，不需要侧墙，仅附有短小的钢筋混凝土耳墙，耳墙厚一般不小于25cm。台帽部分的内角到护坡表面的距离不应小于50cm，否则应在台帽两侧设置挡块，用以挡住护坡的填土，并防止土、雪等拥入支承平台上去，影响支座正常工作；或增加耳墙长度，使路堤填土后移。耳墙与路堤衔接，伸入路堤的长度一般不小于75cm。台帽（或盖梁）设计可参照桥墩墩帽（或盖梁）的相关内容，不再详述。埋置式桥台有多种类型（<a href="#image633">图6-3-3</a>～<a href="#image636">图6-3-6</a>），主要区别在于墩身形式，当桥墩采用柱式墩时，桥台一般采用柱式桥台（<a href="#image6314">图6-3-14</a>）。<a href="#image6315">图6-3-15</a>为肋形埋置式桥台一般构造示意图，<a href="#image6316">图6-3-16</a>为桥台耳墙和背墙钢筋构造图，仅供参考，台帽钢筋构造图可参照桥墩墩帽钢筋构造图。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.18"> [A6-3.18]</a><span id="idA6-3.18"></span>轻型桥台中应用较广的是埋置式桥台，是由台帽（或盖梁）、背墙、耳墙、台身和基础组成，不需要侧墙，仅附有短小的钢筋混凝土耳墙，耳墙厚一般不小于25cm。台帽部分的内角到护坡表面的距离不应小于50cm，否则应在台帽两侧设置挡块，用以挡住护坡的填土，并防止土、雪等拥入支承平台上去，影响支座正常工作；或增加耳墙长度，使路堤填土后移。耳墙与路堤衔接，伸入路堤的长度一般不小于75cm。台帽（或盖梁）设计可参照桥墩墩帽（或盖梁）的相关内容，不再详述。埋置式桥台有多种类型（<a href="#image633">图6-3-3</a>～<a href="#image636">图6-3-6</a>），主要区别在于墩身形式，当桥墩采用柱式墩时，桥台一般采用柱式桥台（<a href="#image6314">图6-3-14</a>）。<a href="#image6315">图6-3-15</a>为肋形埋置式桥台一般构造示意图，<a href="#image6316">图6-3-16</a>为桥台耳墙和背墙钢筋构造图，仅供参考，台帽钢筋构造图可参照桥墩墩帽钢筋构造图。</p>
  
  <div style="text-align:center;"><img id="image6314" src="../_static/fig/6-3-14.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图6-3-14  双柱式桥台一般构造示意</p>
@@ -57,10 +52,10 @@
  <p style="color: dimgray;text-align: center;">图6-3-16  桥台耳墙、背墙钢筋构造示例（尺寸单位：cm）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image6316'));</script>
 
- <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
- <p style="text-align:justify"><a href="#idA6-3.19"> [A6-3.19]</a><span id="idA6-3.19"></span>桥台的构造包括台帽、台身、基础，本章主要介绍台帽和台身，桥台基础在“基础工程”课程中介绍。</p>
- <p style="text-align:justify"><a href="#idA6-3.20"> [A6-3.20]</a><span id="idA6-3.20"></span>桥台台身类型取决于桥、路分界处路基填土高度、工程地质和桥涵水文条件等。重力式桥台墩帽尺寸拟定方法参照重力式桥墩；柱式桥台盖梁尺寸拟定方法参照柱式桥墩，注意耳墙的设置。刚架桥角隅节点的设计除满足受力要求外，还应满足构造要求，并方便施工。</p>
- <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.19"> [A6-3.19]</a><span id="idA6-3.19"></span>桥台的构造包括台帽、台身、基础，本章主要介绍台帽和台身，桥台基础在“基础工程”课程中介绍。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-3.20"> [A6-3.20]</a><span id="idA6-3.20"></span>桥台台身类型取决于桥、路分界处路基填土高度、工程地质和桥涵水文条件等。重力式桥台墩帽尺寸拟定方法参照重力式桥墩；柱式桥台盖梁尺寸拟定方法参照柱式桥墩，注意耳墙的设置。刚架桥角隅节点的设计除满足受力要求外，还应满足构造要求，并方便施工。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[思考与练习]</b></p>
  <ol>
  <li>梁桥桥台与拱桥的桥台有哪些区别？</li>
  <li>如何拟定桥台尺寸？</li>

@@ -4,14 +4,14 @@
 .. raw:: html
 
  <h3 id="test111">第三节  索塔构造与设计</h3>
- <p style="text-align:justify"><a href="#idA4-2.65"> [A4-2.65]</a><span id="idA4-2.65"></span>索塔通过斜拉索与主梁相连，索塔自身承担主梁的恒载与活载，同时索塔与斜拉索及主梁共同形成高次超静定结构，因此还承担温度变化、支座沉降、混凝士收缩和徐变等因素引起的次内力。此外，作用在主梁的风力、地震力也通过索塔传至地基。斜拉索传递到塔柱的力主要是垂直力和水平分力，通常在自重作用下塔柱两侧水平力基本平衡，塔柱主要承担轴向压力，但是在活载和次内力作用下塔柱将承担不平衡水平力，从而处于偏心受压状态。因此，塔柱必须具有足够的强度和刚度来保证体系的稳定，同时塔柱的刚度以及与主梁连接形式又影响体系的受力性能。</p>
- <p style="text-align:justify"><a href="#idA4-2.66"> [A4-2.66]</a><span id="idA4-2.66"></span>索塔设计包括索塔造型设计、索塔构造设计、索塔锚固点设计等。索塔的顶部通常有一些附属建筑，如观光厅等旅游设施、避雷针、航空与航道用的标志灯等，设计时也应予考虑。在设计中根据不同需要，索塔可布置为独塔、双塔或多塔形式，可采用混凝土索塔、钢索塔或钢—混凝土组合索塔。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.65"> [A4-2.65]</a><span id="idA4-2.65"></span>索塔通过斜拉索与主梁相连，索塔自身承担主梁的恒载与活载，同时索塔与斜拉索及主梁共同形成高次超静定结构，因此还承担温度变化、支座沉降、混凝士收缩和徐变等因素引起的次内力。此外，作用在主梁的风力、地震力也通过索塔传至地基。斜拉索传递到塔柱的力主要是垂直力和水平分力，通常在自重作用下塔柱两侧水平力基本平衡，塔柱主要承担轴向压力，但是在活载和次内力作用下塔柱将承担不平衡水平力，从而处于偏心受压状态。因此，塔柱必须具有足够的强度和刚度来保证体系的稳定，同时塔柱的刚度以及与主梁连接形式又影响体系的受力性能。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.66"> [A4-2.66]</a><span id="idA4-2.66"></span>索塔设计包括索塔造型设计、索塔构造设计、索塔锚固点设计等。索塔的顶部通常有一些附属建筑，如观光厅等旅游设施、避雷针、航空与航道用的标志灯等，设计时也应予考虑。在设计中根据不同需要，索塔可布置为独塔、双塔或多塔形式，可采用混凝土索塔、钢索塔或钢—混凝土组合索塔。</p>
 
  <p><a href="#id4.2.3.1">一、索塔造型</a> <span id="id4.2.3.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.67"> [A4-2.67]</a><span id="idA4-2.67"></span>索塔造型形式较多，分为顺桥向与横桥向不同形式。不仅与拉索索面数有关，还与结构体系、斜拉桥跨径、桥面宽度、索塔高度、塔底支承形式等有关，同时还应考虑美观。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.67"> [A4-2.67]</a><span id="idA4-2.67"></span>索塔造型形式较多，分为顺桥向与横桥向不同形式。不仅与拉索索面数有关，还与结构体系、斜拉桥跨径、桥面宽度、索塔高度、塔底支承形式等有关，同时还应考虑美观。</p>
  
  <p><a href="#id4.2.3.1.1"> 1. 顺桥向结构形式</a> <span id="id4.2.3.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.68"> [A4-2.68]</a><span id="idA4-2.68"></span>索塔顺桥向造型和相应的受力条件必须同时满足足够的纵向稳定性和在运营条件下发挥正常功能的要求。索塔顺桥向形式选择与结构体系、索塔高度、塔底支承形式等有关，常用的有单柱式、A形（或倒V形）及倒Y形等，如<a href="#image4218">图4-2-18</a>所示。单柱式索塔造型简单，一般设计成竖直式，也可根据需要设计成倾斜式（如无背索斜拉桥的索塔）；A形、倒V形、倒Y形在顺桥向索塔刚度大，有利于抵抗索塔两侧拉索的不平衡拉力，能承受较大的顺桥向弯矩，并有更良好的抗震能力，但由于施工较复杂，这类索塔采用不多，主要用于多塔斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.68"> [A4-2.68]</a><span id="idA4-2.68"></span>索塔顺桥向造型和相应的受力条件必须同时满足足够的纵向稳定性和在运营条件下发挥正常功能的要求。索塔顺桥向形式选择与结构体系、索塔高度、塔底支承形式等有关，常用的有单柱式、A形（或倒V形）及倒Y形等，如<a href="#image4218">图4-2-18</a>所示。单柱式索塔造型简单，一般设计成竖直式，也可根据需要设计成倾斜式（如无背索斜拉桥的索塔）；A形、倒V形、倒Y形在顺桥向索塔刚度大，有利于抵抗索塔两侧拉索的不平衡拉力，能承受较大的顺桥向弯矩，并有更良好的抗震能力，但由于施工较复杂，这类索塔采用不多，主要用于多塔斜拉桥。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -21,23 +21,23 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4218'));</script>
  
  <p><a href="#id4.2.3.1.2">2. 横桥向结构形式</a> <span id="id4.2.3.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.69"> [A4-2.69]</a><span id="idA4-2.69"></span>索塔的横桥向形式选择与斜拉索索面数、斜拉桥结构体系、桥面宽度、索塔高度、塔底支承形式等有关。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.69"> [A4-2.69]</a><span id="idA4-2.69"></span>索塔的横桥向形式选择与斜拉索索面数、斜拉桥结构体系、桥面宽度、索塔高度、塔底支承形式等有关。</p>
 
- <p style="text-align:justify" id="aaa"><b>（1）单索面</b></p>
- <p style="text-align:justify"><a href="#idA4-2.70"> [A4-2.70]</a><span id="idA4-2.70"></span>单索面斜拉桥索塔横桥向结构形式，通常可设计成单柱式、倒V形和倒Y形，如<a href="#image4219">图4-2-19</a>所示。单柱式通常用于主梁抗扭刚度较大的单索面斜拉桥，塔、梁固结体系或刚构体系斜拉桥。倒V形和倒Y形索塔的特点是结构横向刚度大，常用于抗风、抗震要求较高的大跨径斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）单索面</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.70"> [A4-2.70]</a><span id="idA4-2.70"></span>单索面斜拉桥索塔横桥向结构形式，通常可设计成单柱式、倒V形和倒Y形，如<a href="#image4219">图4-2-19</a>所示。单柱式通常用于主梁抗扭刚度较大的单索面斜拉桥，塔、梁固结体系或刚构体系斜拉桥。倒V形和倒Y形索塔的特点是结构横向刚度大，常用于抗风、抗震要求较高的大跨径斜拉桥。</p>
  
  <div style="text-align:center;"><img id="image4219" src="../_static/fig/4-2-19.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）单柱式；b）倒V形；c）倒Y形<br>图4-2-19  单索面索塔横桥向结构形式</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4219'));</script>
 
- <p style="text-align:justify" id="aaa"><b>（2）双索面</b></p>
- <p style="text-align:justify"><a href="#idA4-2.71"> [A4-2.71]</a><span id="idA4-2.71"></span>双索面斜拉桥索塔横桥向结构形式，通常可设计成双柱式、门形、H形（斜腿H形）、倒V形和倒Y形，如<a href="#image4220">图4-2-20</a>所示。门形和H形索塔抵抗横向水平荷载的能力较强，横梁起到提高横向刚度的作用，适用于桥面宽度不大的双索面斜拉桥；斜腿H形的塔柱一般在折点处设置横梁，横梁除承担自重弯矩外还将承担水平压力或拉力，用于塔高较高、桥面较宽的平行双索面斜拉桥；倒V形和倒Y形常用于抗风、抗震要求较高的大跨径非平行双索面斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）双索面</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.71"> [A4-2.71]</a><span id="idA4-2.71"></span>双索面斜拉桥索塔横桥向结构形式，通常可设计成双柱式、门形、H形（斜腿H形）、倒V形和倒Y形，如<a href="#image4220">图4-2-20</a>所示。门形和H形索塔抵抗横向水平荷载的能力较强，横梁起到提高横向刚度的作用，适用于桥面宽度不大的双索面斜拉桥；斜腿H形的塔柱一般在折点处设置横梁，横梁除承担自重弯矩外还将承担水平压力或拉力，用于塔高较高、桥面较宽的平行双索面斜拉桥；倒V形和倒Y形常用于抗风、抗震要求较高的大跨径非平行双索面斜拉桥。</p>
  
  <div style="text-align:center;"><img id="image4220" src="../_static/fig/4-2-20.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）双柱式；b）门式；c）H形；d）倒V形；e）倒Y形<br>图4-2-20  双索面索塔横桥向结构形式</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4220'));</script>
 
- <p style="text-align:justify"><a href="#idA4-2.72"> [A4-2.72]</a><span id="idA4-2.72"></span><b>（3）</b>在梁体高出塔基较多时，斜拉桥索塔所采用的横桥向形式可设计成<a href="#image4221">图4-2-21</a>的形式。为了减小基础的横向宽度，可以在桥面以下将两墩柱靠拢形成宝石形[<a href="#image4221">图4-2-21c）</a>]。采用半漂浮体系主梁时，主梁一部分重量支承在下横梁上。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.72"> [A4-2.72]</a><span id="idA4-2.72"></span><b>（3）</b>在梁体高出塔基较多时，斜拉桥索塔所采用的横桥向形式可设计成<a href="#image4221">图4-2-21</a>的形式。为了减小基础的横向宽度，可以在桥面以下将两墩柱靠拢形成宝石形[<a href="#image4221">图4-2-21c）</a>]。采用半漂浮体系主梁时，主梁一部分重量支承在下横梁上。</p>
  
  <div style="text-align:center;"><img id="image4221" src="../_static/fig/4-2-21.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）单柱式；b）A形；c）宝石形；d）门形；e）H形<br>图4-2-21  高出塔基较多的索塔横桥向结构形式</p>
@@ -45,23 +45,23 @@
 
  <p><a href="#id4.2.3.2">二、索塔构造</a> <span id="id4.2.3.2"></span></p>
  <p><a href="#id4.2.3.2.1"> 1. 索塔高度</a> <span id="id4.2.3.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.73"> [A4-2.73]</a><span id="idA4-2.73"></span>索塔高度H是指从主梁与索塔交界处以上的有效高度，与斜拉索的倾角有关。索塔的有效高度越高，斜拉索的倾角越大，索力垂直分力对主梁的弹性支承效果也越大，但索塔与斜拉索的长度也要增加，因此，索塔的适宜高度H要通过技术经济比较来决定。根据已有统计资料，最外侧斜拉索的倾角，无论是双塔三跨式或独塔两跨式斜拉桥，宜控制在25°～45°左右，竖琴形布置较多取26°～30°，放射形或扇形布置，倾角在21°～30°范围内，以25°最为普遍。</p>
- <p style="text-align:justify"><a href="#idA4-2.74"> [A4-2.74]</a><span id="idA4-2.74"></span>索塔高度H的确定，应根据索塔形状、拉索布置、主梁断面形式，从结构分析、施工方法、降低材料用量及造价、结合景观要求等综合考虑。双塔、多塔斜拉桥桥面以上索塔的高度H与主跨跨径<i>L</i><sub>2</sub>之比H/<i>L</i><sub>2</sub>宜为1/4〜1/7；独塔斜拉桥塔高通过外索控制，H/<i>L</i><sub>2</sub>宜为1/2.7〜1/4.7，外索水平倾角不宜小于22°，如<a href="#image4222">图4-2-22</a>所示。</p>
- <p style="text-align:justify"><a href="#idA4-2.75"> [A4-2.75]</a><span id="idA4-2.75"></span>景观要求是决定塔高的另一主要因素，一般在城市或宽阔的水面上较高的塔高可以使全桥显得更加雄伟，相比之下我国斜拉索塔高的取值比国外略高。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.73"> [A4-2.73]</a><span id="idA4-2.73"></span>索塔高度H是指从主梁与索塔交界处以上的有效高度，与斜拉索的倾角有关。索塔的有效高度越高，斜拉索的倾角越大，索力垂直分力对主梁的弹性支承效果也越大，但索塔与斜拉索的长度也要增加，因此，索塔的适宜高度H要通过技术经济比较来决定。根据已有统计资料，最外侧斜拉索的倾角，无论是双塔三跨式或独塔两跨式斜拉桥，宜控制在25°～45°左右，竖琴形布置较多取26°～30°，放射形或扇形布置，倾角在21°～30°范围内，以25°最为普遍。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.74"> [A4-2.74]</a><span id="idA4-2.74"></span>索塔高度H的确定，应根据索塔形状、拉索布置、主梁断面形式，从结构分析、施工方法、降低材料用量及造价、结合景观要求等综合考虑。双塔、多塔斜拉桥桥面以上索塔的高度H与主跨跨径<i>L</i><sub>2</sub>之比H/<i>L</i><sub>2</sub>宜为1/4〜1/7；独塔斜拉桥塔高通过外索控制，H/<i>L</i><sub>2</sub>宜为1/2.7〜1/4.7，外索水平倾角不宜小于22°，如<a href="#image4222">图4-2-22</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.75"> [A4-2.75]</a><span id="idA4-2.75"></span>景观要求是决定塔高的另一主要因素，一般在城市或宽阔的水面上较高的塔高可以使全桥显得更加雄伟，相比之下我国斜拉索塔高的取值比国外略高。</p>
  
  <div style="text-align:center;"><img id="image4222" src="../_static/fig/4-2-22.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）双塔三跨式；b）独塔双跨式<br>图4-2-22  索塔在桥面上的高度</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4222'));</script>
 
- <p style="text-align:justify"><a href="#idA4-2.76"> [A4-2.76]</a><span id="idA4-2.76"></span>对于部分斜拉桥，塔高与跨径之比在1/7. 4～1/14之间，多数在1/8～1/12之间。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.76"> [A4-2.76]</a><span id="idA4-2.76"></span>对于部分斜拉桥，塔高与跨径之比在1/7. 4～1/14之间，多数在1/8～1/12之间。</p>
 
  <p><a href="#id4.2.3.2.2"> 2. 索塔截面形式</a> <span id="id4.2.3.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.77"> [A4-2.77]</a><span id="idA4-2.77"></span>组成索塔的塔柱及横梁的截面形状和截面尺寸应根据结构强度、刚度、稳定性要求，并结合拉索在索塔上的锚固构造要求和桥梁美学要求来确定。索塔可采用不同的材料建造，有混凝土索塔、钢索塔或钢—混组合索塔。混凝土索塔塔柱可采用实心或空心截面，截面形式有矩形、工字形或箱形，沿塔高又可采用等截面或变截面布置。塔柱截面基本形状采用矩形，纵桥向（桥轴方向）采用长边L，横桥向（塔轴方向）采用短边B，如<a href="#image4223">图4-2-23</a>所示。</p>
- <p style="text-align:justify"><a href="#idA4-2.78"> [A4-2.78]</a><span id="idA4-2.78"></span>采用实体塔柱时，斜拉索在塔柱中作交错锚固，因此，塔柱上部的斜拉索锚固区可在塔轴线两侧布置斜拉索锚头的部位各挖一槽口，使截面成为[<a href="#image4223">图4-2-23b）</a>]所示的H形。实体塔柱一般适用于中、小跨度的斜拉桥，小跨度时可采用等截面，中等跨度时可采用变截面。一般情况下仅变化长边尺寸L，而将短边尺寸B维持等值。</p>
- <p style="text-align:justify"><a href="#idA4-2.79"> [A4-2.79]</a><span id="idA4-2.79"></span>采用空心塔柱时，斜拉索在塔柱的箱室中锚固，故一般在塔轴线的两侧可以不挖槽口，而是改在箱室内壁增设锚固斜索用的锯齿形凸块（也称锚固齿块），为了改善外观，常在箱形柱体外面的四周增设一些线条。空心箱形塔柱一般用于较大跨度的斜拉桥，故一般采用变截面，并且较多的是只变化长边尺寸L，如[<a href="#image4223">图4-2-23c）</a>]所示。</p>
- <p style="text-align:justify"><a href="#idA4-2.80"> [A4-2.80]</a><span id="idA4-2.80"></span>为了增加线条以改善外观，且有利于抗风，塔柱矩形截面的四个角应设计成倒角或圆角[<a href="#image4223">图4-2-23d）</a>]。具有两根塔柱时，每根在横桥向可做成非矩形的五角形、六角形或八角形截面，如[<a href="#image4223">图4-2-23e）</a>]所示。</p>
- <p style="text-align:justify"><a href="#idA4-2.81"> [A4-2.81]</a><span id="idA4-2.81"></span>塔柱之间的横梁以及塔柱之间的其他连接构件，截面形式由塔柱截面形式决定，一般采用矩形、T形、工字形等实体截面，受力较大时采用矩形空心截面。</p>
- <p style="text-align:justify"><a href="#idA4-2.82"> [A4-2.82]</a><span id="idA4-2.82"></span><a href="#B4.2.6">表 4-2-6</a>列出了国内外已建成的混凝土斜拉桥索塔塔柱截面资料，供参考。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.77"> [A4-2.77]</a><span id="idA4-2.77"></span>组成索塔的塔柱及横梁的截面形状和截面尺寸应根据结构强度、刚度、稳定性要求，并结合拉索在索塔上的锚固构造要求和桥梁美学要求来确定。索塔可采用不同的材料建造，有混凝土索塔、钢索塔或钢—混组合索塔。混凝土索塔塔柱可采用实心或空心截面，截面形式有矩形、工字形或箱形，沿塔高又可采用等截面或变截面布置。塔柱截面基本形状采用矩形，纵桥向（桥轴方向）采用长边L，横桥向（塔轴方向）采用短边B，如<a href="#image4223">图4-2-23</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.78"> [A4-2.78]</a><span id="idA4-2.78"></span>采用实体塔柱时，斜拉索在塔柱中作交错锚固，因此，塔柱上部的斜拉索锚固区可在塔轴线两侧布置斜拉索锚头的部位各挖一槽口，使截面成为[<a href="#image4223">图4-2-23b）</a>]所示的H形。实体塔柱一般适用于中、小跨度的斜拉桥，小跨度时可采用等截面，中等跨度时可采用变截面。一般情况下仅变化长边尺寸L，而将短边尺寸B维持等值。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.79"> [A4-2.79]</a><span id="idA4-2.79"></span>采用空心塔柱时，斜拉索在塔柱的箱室中锚固，故一般在塔轴线的两侧可以不挖槽口，而是改在箱室内壁增设锚固斜索用的锯齿形凸块（也称锚固齿块），为了改善外观，常在箱形柱体外面的四周增设一些线条。空心箱形塔柱一般用于较大跨度的斜拉桥，故一般采用变截面，并且较多的是只变化长边尺寸L，如[<a href="#image4223">图4-2-23c）</a>]所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.80"> [A4-2.80]</a><span id="idA4-2.80"></span>为了增加线条以改善外观，且有利于抗风，塔柱矩形截面的四个角应设计成倒角或圆角[<a href="#image4223">图4-2-23d）</a>]。具有两根塔柱时，每根在横桥向可做成非矩形的五角形、六角形或八角形截面，如[<a href="#image4223">图4-2-23e）</a>]所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.81"> [A4-2.81]</a><span id="idA4-2.81"></span>塔柱之间的横梁以及塔柱之间的其他连接构件，截面形式由塔柱截面形式决定，一般采用矩形、T形、工字形等实体截面，受力较大时采用矩形空心截面。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.82"> [A4-2.82]</a><span id="idA4-2.82"></span><a href="#B4.2.6">表 4-2-6</a>列出了国内外已建成的混凝土斜拉桥索塔塔柱截面资料，供参考。</p>
 
  <div style="text-align:center;"><img id="image4223" src="../_static/fig/4-2-23.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）矩形；b）工字型；c）箱型；d）荆州长江大索塔柱截面；e）南京长江二索塔柱截面<br>图4-2-23  混凝土索塔截面构造示例（尺寸单位：cm）</p>
@@ -259,7 +259,7 @@
 
  <p><a href="#id4.2.3.3">三、索塔锚固构造</a> <span id="id4.2.3.3"></span></p>
  <p><a href="#id4.2.3.3.1">1. 常规斜拉桥</a> <span id="id4.2.3.3.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.83"> [A4-2.83]</a><span id="idA4-2.83"></span>斜拉索与混凝土索塔锚固的主要形式有：侧壁锚固、钢锚梁锚固、交错锚固、钢锚箱锚固等，如<a href="#image4224">图4-2-24</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.83"> [A4-2.83]</a><span id="idA4-2.83"></span>斜拉索与混凝土索塔锚固的主要形式有：侧壁锚固、钢锚梁锚固、交错锚固、钢锚箱锚固等，如<a href="#image4224">图4-2-24</a>所示。</p>
 
  <p style="text-align:justify;" id="aaa">（1）交错锚固，一般用于实心断面塔柱，应在塔柱中埋设钢管、设置锚垫板，但不需要在混凝土塔壁上配置预应力钢筋。如<a href="#image4224">图4-2-24a）</a>所示。</p>
  <p style="text-align:justify;" id="aaa">（2）侧壁锚固，一般用于空心断面塔柱，要在混凝土塔壁上配置环向预应力钢筋，防止混凝土拉裂。如<a href="#image4224">图4-2-24b）</a>所示。</p>
@@ -271,13 +271,13 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4224'));</script>
  
  <p><a href="#id4.2.3.3.2">2. 部分斜拉桥</a> <span id="id4.2.3.3.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.84"> [A4-2.84]</a><span id="idA4-2.84"></span>部分斜拉桥采用鞍孔式索塔锚固区结构形式，如<a href="#image4225">图4-2-25</a>所示。由于部分斜拉桥索塔较矮，为了最大限度地利用塔高使拉索水平倾角变大，拉索通过塔顶的位置尽可能密集地布置在塔柱上部区段；同时，由于部分斜拉桥拉索倾角一般较小，使得拉索连续通过索塔时可以采用较大的弯曲半径。因此，索塔上一般不设置锚固端，而是在混凝土塔柱上设置鞍孔，使斜拉索连续穿过索塔。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.84"> [A4-2.84]</a><span id="idA4-2.84"></span>部分斜拉桥采用鞍孔式索塔锚固区结构形式，如<a href="#image4225">图4-2-25</a>所示。由于部分斜拉桥索塔较矮，为了最大限度地利用塔高使拉索水平倾角变大，拉索通过塔顶的位置尽可能密集地布置在塔柱上部区段；同时，由于部分斜拉桥拉索倾角一般较小，使得拉索连续通过索塔时可以采用较大的弯曲半径。因此，索塔上一般不设置锚固端，而是在混凝土塔柱上设置鞍孔，使斜拉索连续穿过索塔。</p>
 
  <div style="text-align:center;"><img id="image4225" src="../_static/fig/4-2-25.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-2-25  部分斜拉桥索塔鞍孔构造示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4225'));</script>
 
- <p style="text-align:justify"><a href="#idA4-2.85"> [A4-2.85]</a><span id="idA4-2.85"></span>部分斜拉桥索塔一般采用混凝土实心截面，塔柱内埋设钢管构成鞍孔。鞍孔构造简单，占用空间较小，弯曲形状相似，因而可以将塔上索距设置的很小，最大限度地提高拉索使用效率。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.85"> [A4-2.85]</a><span id="idA4-2.85"></span>部分斜拉桥索塔一般采用混凝土实心截面，塔柱内埋设钢管构成鞍孔。鞍孔构造简单，占用空间较小，弯曲形状相似，因而可以将塔上索距设置的很小，最大限度地提高拉索使用效率。</p>
 
  
 

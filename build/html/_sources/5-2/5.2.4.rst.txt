@@ -6,7 +6,7 @@
  <h3 id="test111">第四节  桥塔设计</h3>
  <p><a href="#id5.2.4.1">一、结构形式</a> <span id="id5.2.4.1"></span></p>
  <p><a href="#id5.2.4.1.1">1. 顺挢向形式</a> <span id="id5.2.4.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA5-2.90"> [A5-2.90]</a><span id="idA5-2.90"></span>按力学性质可分为刚性塔 、柔性塔和摇柱塔三种结构形式。如<a href="#image5213a">图5-2-13</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.90"> [A5-2.90]</a><span id="idA5-2.90"></span>按力学性质可分为刚性塔 、柔性塔和摇柱塔三种结构形式。如<a href="#image5213a">图5-2-13</a>所示。</p>
 
 .. raw:: html
    :file: ./fig5213abc.html
@@ -14,11 +14,11 @@
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#idA5-2.91"> [A5-2.91]</a><span id="idA5-2.91"></span>刚性塔。是指塔顶水平变位量相对较小的桥塔。刚性塔可以作成单柱形状，也可以作成A字形状，多用于早期较小跨径的悬索桥和现代多跨悬索桥中，为提高结构刚度时采用。</p>
- <p style="text-align:justify"><a href="#idA5-2.92"> [A5-2.92]</a><span id="idA5-2.92"></span>柔性塔。是指塔顶水平变位量相对较大的桥塔。柔性塔则是大跨径现代悬索桥最常用的结构，为下端固接的单柱形式。</p>
- <p style="text-align:justify"><a href="#idA5-2.93"> [A5-2.93]</a><span id="idA5-2.93"></span>摇柱塔。仅用于跨径较小的悬索桥，下端为铰接式单柱结构。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.91"> [A5-2.91]</a><span id="idA5-2.91"></span>刚性塔。是指塔顶水平变位量相对较小的桥塔。刚性塔可以作成单柱形状，也可以作成A字形状，多用于早期较小跨径的悬索桥和现代多跨悬索桥中，为提高结构刚度时采用。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.92"> [A5-2.92]</a><span id="idA5-2.92"></span>柔性塔。是指塔顶水平变位量相对较大的桥塔。柔性塔则是大跨径现代悬索桥最常用的结构，为下端固接的单柱形式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.93"> [A5-2.93]</a><span id="idA5-2.93"></span>摇柱塔。仅用于跨径较小的悬索桥，下端为铰接式单柱结构。</p>
  <p><a href="#id5.2.4.1.2">2. 横桥向形式</a> <span id="id5.2.4.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA5-2.94"> [A5-2.94]</a><span id="idA5-2.94"></span>横桥向桥塔采用的形式，有桁架式、刚架式、混合式结构三种形式，如<a href="#image5214">图5-2-14</a>所示。这些形式都为了抵抗横桥向的风荷载或地震作用。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.94"> [A5-2.94]</a><span id="idA5-2.94"></span>横桥向桥塔采用的形式，有桁架式、刚架式、混合式结构三种形式，如<a href="#image5214">图5-2-14</a>所示。这些形式都为了抵抗横桥向的风荷载或地震作用。</p>
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -27,31 +27,31 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image5214'));</script>
  
  <p><a href="#id5.2.4.2">二、材料</a> <span id="id5.2.4.2"></span></p>
- <p style="text-align:justify"><a href="#idA5-2.95"> [A5-2.95]</a><span id="idA5-2.95"></span>现代悬索桥塔柱一般采用混凝土或钢材建造。美国悬索桥的桥塔一般采用钢结构，欧洲各国及中国悬索桥的桥塔多采用混凝土结构。</p>
- <p style="text-align:justify"><a href="#idA5-2.96"> [A5-2.96]</a><span id="idA5-2.96"></span>混凝土桥塔塔柱一般采用空心矩形截面形式，混凝土强度等级不应低于C40，多采用C50。钢桥塔塔柱可采用单室箱形（<a href="#image5215">图5-2-15</a>）或多室箱形、十字形和T形截面等形式。钢材应采用国标规定的《桥梁用结构钢》、《碳素结构钢》、《低合金高强度结构钢》或其他适用于桥梁结构的碳素钢和低合金钢。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.95"> [A5-2.95]</a><span id="idA5-2.95"></span>现代悬索桥塔柱一般采用混凝土或钢材建造。美国悬索桥的桥塔一般采用钢结构，欧洲各国及中国悬索桥的桥塔多采用混凝土结构。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.96"> [A5-2.96]</a><span id="idA5-2.96"></span>混凝土桥塔塔柱一般采用空心矩形截面形式，混凝土强度等级不应低于C40，多采用C50。钢桥塔塔柱可采用单室箱形（<a href="#image5215">图5-2-15</a>）或多室箱形、十字形和T形截面等形式。钢材应采用国标规定的《桥梁用结构钢》、《碳素结构钢》、《低合金高强度结构钢》或其他适用于桥梁结构的碳素钢和低合金钢。</p>
 
  <div style="text-align:center;"><img id="image5215" src="../_static/fig/5-2-15.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图5-2-15  桥塔单室箱形截面示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image5215'));</script>
 
  <p><a href="#id5.2.4.3">三、主要设计参数</a> <span id="id5.2.4.3"></span></p>
- <p style="text-align:justify"><a href="#idA5-2.97"> [A5-2.97]</a><span id="idA5-2.97"></span>影响桥塔设计的参数主要有：材料参数、环境参数、结构尺寸参数。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.97"> [A5-2.97]</a><span id="idA5-2.97"></span>影响桥塔设计的参数主要有：材料参数、环境参数、结构尺寸参数。</p>
  <p><a href="#id5.2.4.3.1">1.材料参数</a> <span id="id5.2.4.3.1"></span></p>
- <p style="text-align:justify" id="aaa"><b>（1）混凝土桥塔</b></p>
- <p style="text-align:justify"><a href="#idA5-2.98"> [A5-2.98]</a><span id="idA5-2.98"></span>混凝土桥塔在材料选择时，除了应满足受力及耐久性要求外，还应考虑混凝土施工泵送的流动性、和易性，以满足混凝土的泵送高度，同时不会发生离析现象。塔柱一般采用滑模、翻模或爬模施工，要求混凝土应具有一定的早强性，确定混凝土收缩徐变设计参数时应考虑这些因素。混凝土桥塔一般采用不低于C50级的混凝土。主要设计参数有：弹性模量、线膨胀系数、密度、泊松比、轴心抗压设计强度、抗拉设计强度、标准抗压强度、标准抗拉强度以及收缩徐变参数等。这些参数在设计阶段可根据规范规定取值，在施工控制阶段根据实际施工的混凝土配合比，经试验确定。</p>
- <p style="text-align:justify"><a href="#idA5-2.99"> [A5-2.99]</a><span id="idA5-2.99"></span>钢筋材料的选用一般应考虑塔柱强度需要，以及施工时为确保塔柱线形所需的刚度要求。桥塔主筋一般应选择强度不小于HRB400等级的钢筋，并且钢筋直径不宜小于28mm。设计参数有：抗拉设计强度、抗压设计强度及标准强度。这些参数根据规范规定取值。</p>
- <p style="text-align:justify"><a href="#idA5-2.100"> [A5-2.100]</a><span id="idA5-2.100"></span>预应力材料一般采用符合现行《预应力混凝土用钢绞线》(GB/T 5224)、公称直径为15.2mm 的钢绞线。预应力材料设计参数有：标准强度、抗拉设计强度、弹性模量、松弛率、实际线径等。设计阶段根据规范规定取值，施工阶段参照工厂及监理检测试验结果取值。</p>
- <p style="text-align:justify" id="aaa"><b>（2）钢桥塔</b></p>
- <p style="text-align:justify"><a href="#idA5-2.101"> [A5-2.101]</a><span id="idA5-2.101"></span>钢桥塔材料的选择应考虑强度、刚度及可焊性，一般选择现行《低合金高强度结构钢》(GB/T 1591)规定的钢材。钢桥塔钢材的设计参数有：弹性模量、线膨胀系数、密度、泊松比、屈服强度、抗拉强度、板厚等，可采用规范规定的值。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）混凝土桥塔</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.98"> [A5-2.98]</a><span id="idA5-2.98"></span>混凝土桥塔在材料选择时，除了应满足受力及耐久性要求外，还应考虑混凝土施工泵送的流动性、和易性，以满足混凝土的泵送高度，同时不会发生离析现象。塔柱一般采用滑模、翻模或爬模施工，要求混凝土应具有一定的早强性，确定混凝土收缩徐变设计参数时应考虑这些因素。混凝土桥塔一般采用不低于C50级的混凝土。主要设计参数有：弹性模量、线膨胀系数、密度、泊松比、轴心抗压设计强度、抗拉设计强度、标准抗压强度、标准抗拉强度以及收缩徐变参数等。这些参数在设计阶段可根据规范规定取值，在施工控制阶段根据实际施工的混凝土配合比，经试验确定。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.99"> [A5-2.99]</a><span id="idA5-2.99"></span>钢筋材料的选用一般应考虑塔柱强度需要，以及施工时为确保塔柱线形所需的刚度要求。桥塔主筋一般应选择强度不小于HRB400等级的钢筋，并且钢筋直径不宜小于28mm。设计参数有：抗拉设计强度、抗压设计强度及标准强度。这些参数根据规范规定取值。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.100"> [A5-2.100]</a><span id="idA5-2.100"></span>预应力材料一般采用符合现行《预应力混凝土用钢绞线》(GB/T 5224)、公称直径为15.2mm 的钢绞线。预应力材料设计参数有：标准强度、抗拉设计强度、弹性模量、松弛率、实际线径等。设计阶段根据规范规定取值，施工阶段参照工厂及监理检测试验结果取值。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）钢桥塔</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.101"> [A5-2.101]</a><span id="idA5-2.101"></span>钢桥塔材料的选择应考虑强度、刚度及可焊性，一般选择现行《低合金高强度结构钢》(GB/T 1591)规定的钢材。钢桥塔钢材的设计参数有：弹性模量、线膨胀系数、密度、泊松比、屈服强度、抗拉强度、板厚等，可采用规范规定的值。</p>
  <p><a href="#id5.2.4.3.2">2.环境参数</a> <span id="id5.2.4.3.2"></span></p>
- <p style="text-align:justify" id="aaa"><b>（1）温度参数</b></p>
- <p style="text-align:justify"><a href="#idA5-2.102"> [A5-2.102]</a><span id="idA5-2.102"></span>设计需要的桥位区域温度参数应通过专题研究确定。不同的桥塔材料采用不同的温度参数，如：混凝土桥塔采用最大、最小月平均气温作为体系升降温的计算参数，钢桥塔则采用极端最高、最低气温作为体系升降温的计算参数。设计计算需要的温度参数有：极端最高温度、极端最低温度、月平均最高温度、月平均最低温度、施工合龙温度、塔柱截面内外温差等。</p>
- <p style="text-align:justify" id="aaa"><b>（2）风参数</b></p>
- <p style="text-align:justify"><a href="#idA5-2.103"> [A5-2.103]</a><span id="idA5-2.103"></span>通过桥位区域风速梯度观测以及与附近具有长期风速资料的气象风速观测站进行同步观测，经专题研究后确定各设计风参数。风参数往往是桥塔设计计算的控制性参数，必须认真研究确定。设计风参数有：设计基本风速、风速随高度变化规律、阵风系数、塔柱断面形状系数、与活载组合的桥面风速等。根据现行《公路桥梁抗风设计规范》（JTG/T 3360-01），设计基本风速采用10m高度100年一遇10min平均最大风速值。施工阶段的设计风速一般采用10～30年一遇10min平均最大风速值。与活载组合的桥面风速一般采用25m/s。</p>
- <p style="text-align:justify" id="aaa"><b>（3）地震动参数</b></p>
- <p style="text-align:justify"><a href="#idA5-2.104"> [A5-2.104]</a><span id="idA5-2.104"></span>地震动参数是高耸桥塔设计十分重要的计算参数，应通过专门的地震安全性评价，取得桥塔位置处的各项地震动参数。地震动参数有：抗震设防标准、基岩及各土层峰值加速度、加速度反应谱等。根据桥梁重要性等级，一般采用二级设防水准，采用100年超越概率10%作为强度设计标准，100年超越概率2%或3%作为结构延性校核计算标准。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）温度参数</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.102"> [A5-2.102]</a><span id="idA5-2.102"></span>设计需要的桥位区域温度参数应通过专题研究确定。不同的桥塔材料采用不同的温度参数，如：混凝土桥塔采用最大、最小月平均气温作为体系升降温的计算参数，钢桥塔则采用极端最高、最低气温作为体系升降温的计算参数。设计计算需要的温度参数有：极端最高温度、极端最低温度、月平均最高温度、月平均最低温度、施工合龙温度、塔柱截面内外温差等。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）风参数</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.103"> [A5-2.103]</a><span id="idA5-2.103"></span>通过桥位区域风速梯度观测以及与附近具有长期风速资料的气象风速观测站进行同步观测，经专题研究后确定各设计风参数。风参数往往是桥塔设计计算的控制性参数，必须认真研究确定。设计风参数有：设计基本风速、风速随高度变化规律、阵风系数、塔柱断面形状系数、与活载组合的桥面风速等。根据现行《公路桥梁抗风设计规范》（JTG/T 3360-01），设计基本风速采用10m高度100年一遇10min平均最大风速值。施工阶段的设计风速一般采用10～30年一遇10min平均最大风速值。与活载组合的桥面风速一般采用25m/s。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（3）地震动参数</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.104"> [A5-2.104]</a><span id="idA5-2.104"></span>地震动参数是高耸桥塔设计十分重要的计算参数，应通过专门的地震安全性评价，取得桥塔位置处的各项地震动参数。地震动参数有：抗震设防标准、基岩及各土层峰值加速度、加速度反应谱等。根据桥梁重要性等级，一般采用二级设防水准，采用100年超越概率10%作为强度设计标准，100年超越概率2%或3%作为结构延性校核计算标准。</p>
  <p><a href="#id5.2.4.3.3">3.结构尺寸参数</a> <span id="id5.2.4.3.3"></span></p>
- <p style="text-align:justify"><a href="#idA5-2.105"> [A5-2.105]</a><span id="idA5-2.105"></span>桥塔整体结构尺寸参数主要由主跨跨径、垂跨比、桥下通航净空、通航水位、桥面净宽、两根主缆的横桥向间距、主索鞍及鞍罩构造等因素决定。主要的尺寸参数有：塔高、桥面处塔柱横桥向净距、塔顶横桥向间距、塔柱在塔顶的平面尺寸、塔柱底截面的尺寸、横梁或斜腹杆的高度和宽度、混凝土桥塔的塔柱、横梁壁厚、钢桥塔的钢板厚度等。国内外一些已建成悬索桥结构尺寸参数见<a href="#B5.2.8">表 5-2-8</a>～<a href="#B5.2.10">表 5-2-10</a>。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-2.105"> [A5-2.105]</a><span id="idA5-2.105"></span>桥塔整体结构尺寸参数主要由主跨跨径、垂跨比、桥下通航净空、通航水位、桥面净宽、两根主缆的横桥向间距、主索鞍及鞍罩构造等因素决定。主要的尺寸参数有：塔高、桥面处塔柱横桥向净距、塔顶横桥向间距、塔柱在塔顶的平面尺寸、塔柱底截面的尺寸、横梁或斜腹杆的高度和宽度、混凝土桥塔的塔柱、横梁壁厚、钢桥塔的钢板厚度等。国内外一些已建成悬索桥结构尺寸参数见<a href="#B5.2.8">表 5-2-8</a>～<a href="#B5.2.10">表 5-2-10</a>。</p>
  
  <style>
       #biaoge {

@@ -4,10 +4,241 @@
 .. raw:: html
 
  <h3 id="test111"> 第二节  有推力组合体系拱桥计算</h3>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.17"> [A3-7.17]</a><span id="idA3-7.17"> 桁架拱桥和刚架拱桥的计算分析，可分为采用解析法计算（手算）和采用有限元方法利用结构分析软件进行计算（计算机计算）两种方法。在计算中应注意以下问题：第一，不论是桁架拱桥还是刚架拱桥，桥面板都是在预制的桁架拱片或刚架拱纵梁上逐步施工成型的，桥面板初期不参与拱片受力，因此，计算恒载时只考虑上弦杆或纵梁截面在施工过程中的变化及相应的徐变效应。第二，整体式拱桥横向是由多个整体式拱片通过横向联结系形成整体的，计算中可分析一个拱片受力（手算法多用），然后考虑横向分布系数，而有限元法求解目前多采用空间整体模型进行分析；第三，拱脚处应按实际施工及使用状态模拟为铰接或固结。</span></p>
  
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.2.1">一、桁架拱桥</a> <span id="id3.7.2.1"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.18"> [A3-7.18]</a><span id="idA3-7.18"> 1. 解析法计算简介<br>当采用力法手算桁架拱桥时，为简化计算，以单片拱片为计算对象，以各杆件的轴线形成结构计算图线，将桁架拱的结点处理为理想铰接。在桁架与实腹段联结的截面处，按平截面假定利用刚臂将各构件计算图线相连。这样可将桁架拱桥可简化为外部一次超静定、内部静定的双铰桁架拱式结构，以水平推力H作为赘余力，简化计算模型如<a href="#image3.7.8">图3-7-8</a>所示。</span></p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.7.8{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.8" src="../_static/fig/3-7-8.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-8  桁架拱桥上邵结构简化计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.8'));</script>
+
+  </body>
+ 
+  <p style="text-align:justify;font-family:times new roman">由H方向的结构变形协调条件，可得：</p>
+ 
+$$\\tag{3-7-1}$$ 
+
+.. raw:: html
+
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><i>Δ</i><sub>HP</sub></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">外荷载作用下基本结构在H方向的变位；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>δ</i><sub>HH</sub></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">基本结构在赘余力<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><mi>H</mi><mo accent="false">¯</mo></mover><mo>=</mo><mn>1</mn></math>作用下支点的水平变位。</td>
+ </tr>
+  </table>
+      
+  <p style="text-align:justify;font-family:times new roman">计算<i>Δ</i><sub>HP</sub>、<i>δ</i><sub>HH</sub>时，桁架部分的杆件只考虑轴向力，实腹段部分只考虑弯矩（轴向力影响很小，可不考虑）。因此：</p>
+
+$$\\left.\\begin{array}{l}
+\\delta _{\\mathrm{HH} }=\\sum\\dfrac{\\overline{N^2_{\\mathrm{H} }}l}{EA}+\\sum\\dfrac{\\overline{N^2_{\\mathrm{H} }}\\Delta l}{EI}\\\\
+\\Delta _{\\mathrm{HP} }=\\sum\\dfrac{\\overline{N_{\\mathrm{H} }}N_{\\mathrm{\\mathrm{p}}}l}{EA}+\\sum\\dfrac{\\overline{M_{\\mathrm{H} }}M_{\\mathrm{p}}\\Delta l}{EI}
+\\end{array}\\right\\}\\tag{3-7-2}$$ 
+
+.. raw:: html
+
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="70px" align='right'  id="eqzs" >式中：</td>
+ <td width="70px" align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">H</mi></mrow></mrow></msub><mo accent="false">¯</mo></mover><mo>、</mo><msub><mi>N</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub></math></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">分别为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><mi>H</mi><mo accent="false">¯</mo></mover><mo>=</mo><mn>1</mn></math>和外荷载作用于基本结构时桁架杆件的轴向力；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mover><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">H</mi></mrow></mrow></msub><mo accent="false">¯</mo></mover><mo>、</mo><msub><mi>M</mi><mrow><mrow><mi mathvariant="normal">p</mi></mrow></mrow></msub></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">分别为<math xmlns="http://www.w3.org/1998/Math/MathML" ><mover><mi>H</mi><mo accent="false">¯</mo></mover><mo>=</mo><mn>1</mn></math>和外荷载作用于基本结构时实腹段截面的弯矩；</td>
+ </tr>
+   <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>l</i>、<i>A</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">桁架杆件的长度和截面面积；</td>
+ </tr>
+   <tr>
+ <td  align='left' id="eqzs"> </td>
+ <td  align='right'  id="eqzs" ><i>Δl</i>、<i>I</i></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">用分段总和法计算实腹段变位时，实腹各分段的长度和截面惯性矩。</td>
+ </tr>
+ </table>
+      
+  <p style="text-align:justify;font-family:times new roman">在进行活载内力计算时，只要将外荷载取为<i>P</i>=1，并依次作用于桁架拱上弦各结点与跨中实腹段各分段点，按式（3-7-1）求出相应的<i>H</i>值，即求得<i>H</i>的影响线。然后再用静力平衡条件求得各杆件的内力影响线及实腹段的弯矩影响线。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.18"> [A3-7.18]</a><span id="idA3-7.18"> 2. 有限元法分析要点<br>桁架拱桥的结构分析主要采用结构有限元分析软件进行计算。<br>以各构件的轴线作为计算图线，同时应注意施工过程中上弦杆和实腹段截面将由预制截面变成与桥面板组合的组合截面的变化过程（<a href="#image3.7.9">图3-7-9</a>）。各杆件之间的连接可不再假定为铰接，即视为刚结。值得注意的是，由于桁架拱桥这类桥型自身的组合结构导致整体性不足的特点，国内已经较少修建，所以桁架拱有限元计算分析时往往面对的是服役多年的桁架拱桥，此类桥梁建模时应注意各杆件之间的连接是否已经开裂，从而在模拟中按照其实际状况处理为铰接或者刚接</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.9{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.9" src="../_static/fig/3-7-9.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-9  桁架拱桥实腹段与空腹上弦杆组合截面</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.9'));</script>
+
+  </body>
+  
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.2.2">二、刚架拱桥</a> <span id="id3.7.2.2"> </span></p>
- 
- 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.18"> [A3-7.18]</a><span id="idA3-7.18"> 刚架拱桥除两个边腹孔纵梁为受弯构件外，其余杆件，如拱腿、内腹孔纵梁、斜撑及实腹段，均属于压弯构件，部分具有刚架的受力特点。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.18"> [A3-7.18]</a><span id="idA3-7.18"> 1. 解析法计算简介<br>当采用力法手算刚架拱桥时，为简化计算，以单片刚架拱片为计算对象，以刚架拱各杆件的轴线为计算图线。在空、实腹交界的截面处，利用刚臂将各构件计算图线相连。假定斜撑以半铰的方式与空腹段纵梁连接（试验证明，半铰假定是合理的）。可将刚架拱桥简化为五次超静定结构，恒载计算时，可按照对称性将模型进一步简化为三次超静定结构，计算模型如<a href="#image3.7.10">图3-7-10</a>所示。</span></p>
+ <body>
+
+  <style type="text/css">
+      #image3.12.10{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.10" src="../_static/fig/3-7-10.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-10  刚架拱桥简化计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.10'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman">按结构力学中的力法方程， 取<a href="#image3.7.10">图3-7-10a）</a>所示的基本结构，赘余力方向变形协调方程为：</p>
+
+$$\\left.\\begin{array}{l}
+\\delta _{11}X_1+\\delta _{12}X_2+\\delta _{13}X_3+\\Delta _{1\\mathrm{P} }=0\\\\
+\\delta _{21}X_1+\\delta _{22}X_2+\\delta _{23}X_3+\\Delta _{2\\mathrm{P} }=0\\\\
+\\delta _{31}X_1+\\delta _{32}X_2+\\delta _{33}X_3+\\Delta _{3\\mathrm{P} }=0
+\\end{array}\\right\\}\\tag{3-7-3}$$ 
+
+.. raw:: html
+
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="150px" align='right'  id="eqzs" >式中：&ensp; &ensp; &ensp; &ensp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>X</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo>=</mo><mn>1</mn><mo>∼</mo><mn>3</mn><mo stretchy="false">)</mo></math></td>
+ <td width="50px" align='left'   id="eqzs">——</td>
+ <td width="750px" align='left'  id="eqzs">刚架拱结构的赘余力；</td>
+ </tr>
+  <tr>
+ <td  align='left' id="eqzs"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>δ</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">j</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo>=</mo><mn>1</mn><mo>∼</mo><mn>3</mn><mo>,</mo><mi>j</mi><mo>=</mo><mn>1</mn><mo>∼</mo><mn>3</mn><mo stretchy="false">)</mo></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">单位力在基本结构赘余力方向产生的变位；</td>
+ </tr>
+   <tr>
+ <td  align='left' id="eqzs">&ensp; &ensp; &ensp; &ensp;<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi mathvariant="normal">Δ</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">p</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo>=</mo><mn>1</mn><mo>∼</mo><mn>3</mn><mo stretchy="false">)</mo></math></td>
+ <td  align='left' id="eqzs">——</td>
+ <td  align='left'  id="eqzs">外荷载在基本结构赘余力方向产生的变位。</td>
+ </tr>
+ </table>
+      
+  <p style="text-align:justify;font-family:times new roman">方程式（3-7-3）中各项位移的计算公式可参见结构力学，此处不再列出。根据刚架拱桥的受力特点，位移计算时可以忽略轴向力对变形的影响。<br>求出赘余力之后，求解赘余力或赘余力影响线，利用静力平衡条件求解各截面的内力及内力影响线，并最终求得结构内力。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.18"> [A3-7.18]</a><span id="idA3-7.18"> 2. 有限元法分析要点<br>与桁架拱桥一样，刚架拱桥的结构计算目前以有限元分析计算为主。随着有限元分析软件的不断更新，目前多以空间整体建模为主。模型处理中刚架拱片各构件之间的联结均视为刚结，实腹段与主梁的连接，次拱腿（斜撑）与边腹孔纵梁的连接往往处理为刚性联结，如<a href="#image3.7.11">图3-7-11</a>所示。</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.11{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.11" src="../_static/fig/3-7-11.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-11  刚架拱上部结构考虑组合截面影响的简化计算模型</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.11'));</script>
+
+  </body>
 
 :math:`\ `

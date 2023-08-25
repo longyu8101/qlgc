@@ -10,10 +10,6 @@
   
   <body>
 
- <style type="text/css">
-      #image2.2.3{
-         margin-left:50px;
-      }
  </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
@@ -33,12 +29,6 @@
  </ol>
  <body>
 
- <style type="text/css">
-      #image2.2.4{
-         margin-left:50px;
-      }
- </style>
-
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
  <div style="text-align:center;"><img id="image2.2.4" src="../_static/fig/2-2-4.png" alt="Picture"></div>
@@ -51,11 +41,6 @@
  <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.8"> [A2-2.8]</a><span id="idA2-2.8"> 当跨径增大时，为减轻自重，并充分合理地利用材料，宜采用空心板截面。空心板是在板截面中开孔，挖空部分混凝土，主要开孔形式有矩形、圆形、圆端形、菱形等，如<a href="#image2.2.5">图2-2-5</a>所示。其中<a href="#image2.2.5">图2-2-5a）</a>和<a href="#image2.2.5">图2-2-5b）</a>为单孔，挖空率大，重量轻，但顶板需配置横向受力钢筋，以承担荷载的作用；<a href="#image2.2.5">图2-2-5c）</a>图为双圆孔，施工时可用无缝钢管（或充气囊）作芯模，但挖空率小，自重较大；<a href="#image2.2.5">图2-2-5d）</a>所示芯模则由两个半圆和两块侧模板组成，当板的厚度改变时，只需改变侧模板高度即可。空心板横截面的顶板和底板应有足够厚度，以保证施工质量和受力需要，《混规》（JTG 3362—2018）规定：空心板梁的顶板和底板厚度，均不应小于80 mm。空心板两端的空洞端部应予填封。</span></p>
  <body>
 
- <style type="text/css">
-      #image2.2.5{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -73,11 +58,6 @@
  
   <body>
 
- <style type="text/css">
-      #image2.2.6{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -100,11 +80,6 @@
  
   <body>
 
- <style type="text/css">
-      #image2.2.7{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -119,12 +94,6 @@
 
 
   <body>
-
- <style type="text/css">
-      #image2.2.8{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -146,12 +115,6 @@
  <p style="text-align:justify;font-family:times new roman"><a href="#idA2-2.12"> [A2-2.12]</a><span id="idA2-2.12"> 漫水桥不设抬高的人行道和缘石，而在桥面净宽以外设置目标柱或活动栏杆，目标柱的间距一般取8～15 m。为增加行车宽度，也可将目标柱埋置在桥墩顶部。</span></p>
  
   <body>
-
- <style type="text/css">
-      #image2.2.9{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>

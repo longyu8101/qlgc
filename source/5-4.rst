@@ -19,7 +19,7 @@
 .. raw:: html
 
  
- <p style="text-align:justify"><a href="#idA5-4.1"> [A5-4.1]</a><span id="idA5-4.1"></span>悬索桥的施工工序为：锚碇基础施工、锚碇施工、桥塔基础施工、桥塔施工、主缆施工、加劲梁施工、桥面系施工等。锚碇基础和桥塔基础根据地基岩性采用不同类型，施工方法将在《基础工程》课程中介绍。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.1"> [A5-4.1]</a><span id="idA5-4.1"></span>悬索桥的施工工序为：锚碇基础施工、锚碇施工、桥塔基础施工、桥塔施工、主缆施工、加劲梁施工、桥面系施工等。锚碇基础和桥塔基础根据地基岩性采用不同类型，施工方法将在《基础工程》课程中介绍。</p>
  
 .. raw:: html
 

@@ -4,8 +4,8 @@
 .. raw:: html
 
  <h3 id="test111">第二节  斜拉桥的结构体系</h3>
- <p style="text-align:justify"><a href="#idA4-1.9"> [A4-1.9]</a><span id="idA4-1.9"></span>为适应不同地形地貌特征、气象条件、水文及工程地质条件、抗震要求等，斜拉桥的塔、梁、墩之间采用不同的连接方式，形成了斜拉桥的不同结构体系，影响了结构体系内部荷载的传递，因此，了解塔、梁、墩组成哪些结构体系是十分必要的。</p>
- <p style="text-align:justify"><a href="#idA4-1.10"> [A4-1.10]</a><span id="idA4-1.10"></span>斜拉桥的结构体系主要涉及结构内部荷载的传递方式及其平衡时的内力状态，同一桥型体系的结构受力形态也是千差万别，最主要的影响因素可归纳为两个方面：①结构内部主要受力构件之间的连接（传力）形式，如索塔、梁、墩的连接形式将影响结构体系内部荷载的传递。②外界对结构体系的约束（如自锚式、地锚式或部分地锚式斜拉桥），将决定温度、支座沉降等对结构体系的影响。斜拉桥结构体系的分类如<a href="#B4.1.1">表 4-1-1</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.9"> [A4-1.9]</a><span id="idA4-1.9"></span>为适应不同地形地貌特征、气象条件、水文及工程地质条件、抗震要求等，斜拉桥的塔、梁、墩之间采用不同的连接方式，形成了斜拉桥的不同结构体系，影响了结构体系内部荷载的传递，因此，了解塔、梁、墩组成哪些结构体系是十分必要的。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.10"> [A4-1.10]</a><span id="idA4-1.10"></span>斜拉桥的结构体系主要涉及结构内部荷载的传递方式及其平衡时的内力状态，同一桥型体系的结构受力形态也是千差万别，最主要的影响因素可归纳为两个方面：①结构内部主要受力构件之间的连接（传力）形式，如索塔、梁、墩的连接形式将影响结构体系内部荷载的传递。②外界对结构体系的约束（如自锚式、地锚式或部分地锚式斜拉桥），将决定温度、支座沉降等对结构体系的影响。斜拉桥结构体系的分类如<a href="#B4.1.1">表 4-1-1</a>所示。</p>
  
  <style>
       #biaoge {
@@ -47,8 +47,8 @@
  <p></p>
  
  <p><a href="#id4.1.2.1"> 一、按内部连接分类</a> <span id="id4.1.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.11"> [A4-1.11]</a><span id="idA4-1.11"></span>常规斜拉桥（主要是指除特殊结构体系斜拉桥以外的自锚斜拉桥）体系内部连接方式的不同主要体现在塔、墩、梁的连接方式，即主梁与索塔及各个桥墩之间在竖向、纵向、横向三个方向的连接方式。内部连接方式的改变对斜拉桥体系的结构受力特性将产生影响。</p>
- <p style="text-align:justify"><a href="#idA4-1.12"> [A4-1.12]</a><span id="idA4-1.12"></span>斜拉桥按照塔、墩、梁的不同连接方式可分为四种基本结构体系（<a href="#image416">图4-1-6</a>）：塔墩固结（塔墩整体化）、塔梁分离体系（根据主梁在索塔处有无竖向支承又可分为飘浮体系和半漂浮体系）；塔墩分离、塔梁固结体系（固结体系）；塔、墩、梁固结体系（刚构体系）。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.11"> [A4-1.11]</a><span id="idA4-1.11"></span>常规斜拉桥（主要是指除特殊结构体系斜拉桥以外的自锚斜拉桥）体系内部连接方式的不同主要体现在塔、墩、梁的连接方式，即主梁与索塔及各个桥墩之间在竖向、纵向、横向三个方向的连接方式。内部连接方式的改变对斜拉桥体系的结构受力特性将产生影响。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.12"> [A4-1.12]</a><span id="idA4-1.12"></span>斜拉桥按照塔、墩、梁的不同连接方式可分为四种基本结构体系（<a href="#image416">图4-1-6</a>）：塔墩固结（塔墩整体化）、塔梁分离体系（根据主梁在索塔处有无竖向支承又可分为飘浮体系和半漂浮体系）；塔墩分离、塔梁固结体系（固结体系）；塔、墩、梁固结体系（刚构体系）。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -70,70 +70,62 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image417d'));</script>
 
  <p><a href="#id4.1.2.1.1"> 1. 飘浮体系</a> <span id="id4.1.2.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.13"> [A4-1.13]</a><span id="idA4-1.13"></span>飘浮体系[<a href="#image417a">图4-1-7a）</a>]的特点是塔墩固接、塔梁分离。主梁除有端支承外，其余全部用斜拉索悬吊，形成多跨弹性支承连续梁；主梁在顺桥向变形不受索塔约束，主梁水平荷载不直接传递到索塔。斜拉索不能对梁提供有效的横向支承，为了抵抗由于风力等引起的主梁横向水平位移，一般应在塔柱和主梁之间设置一种用来限制侧向变位的板式或聚四氟乙烯盆式橡胶支座，简称侧向限位支座。</p>
- <p style="text-align:justify"><a href="#idA4-1.14"> [A4-1.14]</a><span id="idA4-1.14"></span>飘浮体系的主要优点是：主跨满载时，塔柱处的主梁截面无负弯矩峰值；由于主梁可以随塔柱的缩短而下降，所以温度、混凝土收缩和徐变内力均较小。密索体系（详见第二章第二节，斜拉索布置）中主梁各截面的变形和内力的变化较平缓，受力较均匀；地震时允许全梁纵向摆荡，成为长周期运动，从而吸震消能。目前，采用飘浮体系斜拉桥比较多，为了防止过大的纵向变位，一般设置纵向限位或阻尼装置。</p>
- <p style="text-align:justify"><a href="#idA4-1.15"> [A4-1.15]</a><span id="idA4-1.15"></span>飘浮体系的缺点是：当采用悬臂施工时，塔柱处主梁需临时固接，以抵抗施工过程中的不平衡弯矩和纵向剪力。</p>
- <p style="text-align:justify"><a href="#idA4-1.16"> [A4-1.16]</a><span id="idA4-1.16"></span>国内外采用漂浮体系的典型斜拉桥有：武汉长江公路桥、重庆长江二桥、铜陵长江大桥、上海南浦大桥和杨浦大桥、岳阳洞庭湖大桥、美国Columbia Bridge桥和东亨丁顿大桥等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.13"> [A4-1.13]</a><span id="idA4-1.13"></span>飘浮体系[<a href="#image417a">图4-1-7a）</a>]的特点是塔墩固接、塔梁分离。主梁除有端支承外，其余全部用斜拉索悬吊，形成多跨弹性支承连续梁；主梁在顺桥向变形不受索塔约束，主梁水平荷载不直接传递到索塔。斜拉索不能对梁提供有效的横向支承，为了抵抗由于风力等引起的主梁横向水平位移，一般应在塔柱和主梁之间设置一种用来限制侧向变位的板式或聚四氟乙烯盆式橡胶支座，简称侧向限位支座。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.14"> [A4-1.14]</a><span id="idA4-1.14"></span>飘浮体系的主要优点是：主跨满载时，塔柱处的主梁截面无负弯矩峰值；由于主梁可以随塔柱的缩短而下降，所以温度、混凝土收缩和徐变内力均较小。密索体系（详见第二章第二节，斜拉索布置）中主梁各截面的变形和内力的变化较平缓，受力较均匀；地震时允许全梁纵向摆荡，成为长周期运动，从而吸震消能。目前，采用飘浮体系斜拉桥比较多，为了防止过大的纵向变位，一般设置纵向限位或阻尼装置。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.15"> [A4-1.15]</a><span id="idA4-1.15"></span>飘浮体系的缺点是：当采用悬臂施工时，塔柱处主梁需临时固接，以抵抗施工过程中的不平衡弯矩和纵向剪力。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.16"> [A4-1.16]</a><span id="idA4-1.16"></span>国内外采用漂浮体系的典型斜拉桥有：武汉长江公路桥、重庆长江二桥、铜陵长江大桥、上海南浦大桥和杨浦大桥、岳阳洞庭湖大桥、美国Columbia Bridge桥和东亨丁顿大桥等。</p>
 
  <p><a href="#id4.1.2.1.2"> 2. 支承体系</a> <span id="id4.1.2.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.17"> [A4-1.17]</a><span id="idA4-1.17"></span>支承体系[<a href="#image417b">图4-1-7b）</a>]的特点是塔墩固接，主梁在塔墩横梁上设置竖向支承并在顺桥向有一定水平约束（其中半飘浮体系在顺桥向无约束），成为具有多点弹性支承的多跨连续梁，可以是一个固定支座、多个活动支座，也可以是多个活动支座，一般均设活动支座，以避免由于不对称约束而导致不均衡温度变位。</p>
- <p style="text-align:justify"><a href="#idA4-1.18"> [A4-1.18]</a><span id="idA4-1.18"></span>支承体系由于主梁支承在索塔的横梁上，整体刚度比飘浮体系大。支承体系中，索塔对主梁的纵向水平约束刚度需根据结构受力要求通过试算确定，一般约束刚度越小，结构受到的水平地震作用也就越小，但顺桥向的水平变形增大。</p>
- <p style="text-align:justify"><a href="#idA4-1.19"> [A4-1.19]</a><span id="idA4-1.19">支承体系不足之处是刚度较大的支点使得主梁在该处出现比较大的负弯矩（其中温度和混凝土收缩徐变产生的主梁内力较大），若采用一般支座来处理则无明显优势。若在墩顶设置一种可以用来调节高度的支座或弹簧支承来替代从索塔中心悬吊下来的拉索（一般称“零号索”），并在成桥时调整支座反力，以消除大部分收缩、徐变等的不利影响，这样就可以与飘浮体系相媲美，并且在经济上和减小纵向飘移方面将会有一定好处。</p>
- <p style="text-align:justify"><a href="#idA4-1.20"> [A4-1.20]</a><span id="idA4-1.20"></span>国内采用支承体系（包括半飘浮体系）的典型斜拉桥有：苏通大桥、杭州湾大桥北（南）航道桥、香港昂船洲大桥、青洲闽江大桥等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.17"> [A4-1.17]</a><span id="idA4-1.17"></span>支承体系[<a href="#image417b">图4-1-7b）</a>]的特点是塔墩固接，主梁在塔墩横梁上设置竖向支承并在顺桥向有一定水平约束（其中半飘浮体系在顺桥向无约束），成为具有多点弹性支承的多跨连续梁，可以是一个固定支座、多个活动支座，也可以是多个活动支座，一般均设活动支座，以避免由于不对称约束而导致不均衡温度变位。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.18"> [A4-1.18]</a><span id="idA4-1.18"></span>支承体系由于主梁支承在索塔的横梁上，整体刚度比飘浮体系大。支承体系中，索塔对主梁的纵向水平约束刚度需根据结构受力要求通过试算确定，一般约束刚度越小，结构受到的水平地震作用也就越小，但顺桥向的水平变形增大。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.19"> [A4-1.19]</a><span id="idA4-1.19">支承体系不足之处是刚度较大的支点使得主梁在该处出现比较大的负弯矩（其中温度和混凝土收缩徐变产生的主梁内力较大），若采用一般支座来处理则无明显优势。若在墩顶设置一种可以用来调节高度的支座或弹簧支承来替代从索塔中心悬吊下来的拉索（一般称“零号索”），并在成桥时调整支座反力，以消除大部分收缩、徐变等的不利影响，这样就可以与飘浮体系相媲美，并且在经济上和减小纵向飘移方面将会有一定好处。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.20"> [A4-1.20]</a><span id="idA4-1.20"></span>国内采用支承体系（包括半飘浮体系）的典型斜拉桥有：苏通大桥、杭州湾大桥北（南）航道桥、香港昂船洲大桥、青洲闽江大桥等。</p>
  
  <p><a href="#id4.1.2.1.3"> 3. 塔梁固接体系</a> <span id="id4.1.2.1.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.21"> [A4-1.21]</a><span id="idA4-1.21"></span>塔梁固接体系[<a href="#image417c">图4-1-7c）</a>]的特点是将塔梁固接并支承在桥墩上，斜拉索变为弹性支承。主梁的内力与挠度直接同主梁与索塔的弯曲刚度及其比值有关。固结体系的塔梁支承在桥墩上，主梁相当于顶面用拉索加强、施加了体外预应力的连续梁，主梁和索塔的受力与塔梁弯曲刚度及其比值有关。这种体系的主梁一般只在一个塔墩处设置固定支座，而其余均为纵向可以活动的支座。</p>
- <p style="text-align:justify"><a href="#idA4-1.22"> [A4-1.22]</a><span id="idA4-1.22"></span>塔梁固接体系的优点是：显著减小索塔的弯矩和主梁中央段承受的轴向拉力，整体升降温引起的结构温度应力较小。</p>
- <p style="text-align:justify"><a href="#idA4-1.23"> [A4-1.23]</a><span id="idA4-1.23">塔梁固接体系的缺点是：中孔满载时，主梁在墩顶处转角位移导致索塔倾斜，使塔顶产生较大的水平位移，从而显著增大主梁跨中挠度和边跨负弯矩。另外，上部结构重量和活载反力都需由支座传给桥墩，需要设置很大吨位（是指承载力高）的支座；在大跨径斜拉桥中，这种支座甚至达到上万吨级，这样给支座的设计、制造及日后养护、更换均带来较大的困难。</p>
- <p style="text-align:justify"><a href="#idA4-1.24"> [A4-1.24]</a><span id="idA4-1.24"></span>国内外采用塔梁固接体系的典型斜拉桥有：上海泖港大桥、法国The Brotonne Bridge等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.21"> [A4-1.21]</a><span id="idA4-1.21"></span>塔梁固接体系[<a href="#image417c">图4-1-7c）</a>]的特点是将塔梁固接并支承在桥墩上，斜拉索变为弹性支承。主梁的内力与挠度直接同主梁与索塔的弯曲刚度及其比值有关。固结体系的塔梁支承在桥墩上，主梁相当于顶面用拉索加强、施加了体外预应力的连续梁，主梁和索塔的受力与塔梁弯曲刚度及其比值有关。这种体系的主梁一般只在一个塔墩处设置固定支座，而其余均为纵向可以活动的支座。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.22"> [A4-1.22]</a><span id="idA4-1.22"></span>塔梁固接体系的优点是：显著减小索塔的弯矩和主梁中央段承受的轴向拉力，整体升降温引起的结构温度应力较小。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.23"> [A4-1.23]</a><span id="idA4-1.23">塔梁固接体系的缺点是：中孔满载时，主梁在墩顶处转角位移导致索塔倾斜，使塔顶产生较大的水平位移，从而显著增大主梁跨中挠度和边跨负弯矩。另外，上部结构重量和活载反力都需由支座传给桥墩，需要设置很大吨位（是指承载力高）的支座；在大跨径斜拉桥中，这种支座甚至达到上万吨级，这样给支座的设计、制造及日后养护、更换均带来较大的困难。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.24"> [A4-1.24]</a><span id="idA4-1.24"></span>国内外采用塔梁固接体系的典型斜拉桥有：上海泖港大桥、法国The Brotonne Bridge等。</p>
  
 
  <p><a href="#id4.1.2.1.4"> 4. 刚构体系</a> <span id="id4.1.2.1.4"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.25"> [A4-1.25]</a><span id="idA4-1.25"></span>刚构体系[<a href="#image417d">图4-1-7d）</a>]的特点是塔、梁、墩相互固接，形成跨度内具有多点弹性支承的刚构。</p>
- <p style="text-align:justify"><a href="#idA4-1.26"> [A4-1.26]</a><span id="idA4-1.26"></span>刚构体系的优点是：既免除了大型支座、结构易维护，又能满足悬臂施工的稳定要求，而且结构的整体刚度较好，主梁挠度较小。</p>
- <p style="text-align:justify"><a href="#idA4-1.27"> [A4-1.27]</a><span id="idA4-1.27"></span>刚构体系的缺点是：主梁固接处负弯矩大，固接处附近截面需要加大，索塔还需要承受固接体系产生的温度应力以及水平地震作用，因此这种体系最适用于独塔斜拉桥。为减小温度应力，应用于双塔斜拉桥时跨度不宜过大，且要求墩身具有一定的柔性（如采用高墩），以避免出现过大的附加内力。</p>
- <p style="text-align:justify"><a href="#idA4-1.28"> [A4-1.28]</a><span id="idA4-1.28"></span>采用刚构体系的斜拉桥有：广东崖门大桥、广东金马大桥、广州海印大桥、长沙湘江北大桥、法国Millau大桥（各塔独立）、美国Dame Point桥和Sunshine Skyway桥等。</p>
- <p style="text-align:justify"><a href="#idA4-1.29"> [A4-1.29]</a><span id="idA4-1.29"></span>刚构体系较适合于独塔双跨式斜拉桥。在桥墩较高的双塔三跨式斜拉桥中，可采用双薄壁柔性墩以减小温度等荷载的不利影响，如<a href="#image418">图4-1-8</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.25"> [A4-1.25]</a><span id="idA4-1.25"></span>刚构体系[<a href="#image417d">图4-1-7d）</a>]的特点是塔、梁、墩相互固接，形成跨度内具有多点弹性支承的刚构。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.26"> [A4-1.26]</a><span id="idA4-1.26"></span>刚构体系的优点是：既免除了大型支座、结构易维护，又能满足悬臂施工的稳定要求，而且结构的整体刚度较好，主梁挠度较小。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.27"> [A4-1.27]</a><span id="idA4-1.27"></span>刚构体系的缺点是：主梁固接处负弯矩大，固接处附近截面需要加大，索塔还需要承受固接体系产生的温度应力以及水平地震作用，因此这种体系最适用于独塔斜拉桥。为减小温度应力，应用于双塔斜拉桥时跨度不宜过大，且要求墩身具有一定的柔性（如采用高墩），以避免出现过大的附加内力。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.28"> [A4-1.28]</a><span id="idA4-1.28"></span>采用刚构体系的斜拉桥有：广东崖门大桥、广东金马大桥、广州海印大桥、长沙湘江北大桥、法国Millau大桥（各塔独立）、美国Dame Point桥和Sunshine Skyway桥等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.29"> [A4-1.29]</a><span id="idA4-1.29"></span>刚构体系较适合于独塔双跨式斜拉桥。在桥墩较高的双塔三跨式斜拉桥中，可采用双薄壁柔性墩以减小温度等荷载的不利影响，如<a href="#image418">图4-1-8</a>所示。</p>
  
- <style type="text/css">
-      #image418{
-         margin-left:125px;
-         }
-      #image4113{
-         margin-left:125px;  
-         }
- </style>
  <div style="text-align:center;"><img id="image418" src="../_static/fig/4-1-8.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-8  刚构体系双薄壁柔性墩</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image418'));</script>
 
- <p style="text-align:justify"><a href="#idA4-1.30"> [A4-1.30]</a><span id="idA4-1.30"></span>主梁除了采用连续梁体系外，早期也曾有个别斜拉桥采用在跨中无索区段设置挂梁的形式，但这有损于桥梁的整体性和桥面的连续性，对行车不利，因此现已很少采用。此外，也有在主梁跨中设铰的布置（例如钱塘江嘉绍大桥），这种剪力铰的功能是只传递剪力和轴力，不传递弯矩，剪力铰可以起到缓解温度应力的作用，但同样对行车不利，加之剪力铰在设计、施工及养护等方面的难度，故一般很少采用。</p>
- <p style="text-align:justify"><a href="#idA4-1.31"> [A4-1.31]</a><span id="idA4-1.31"></span>[例4-1-1]某桥为主跨330m、边跨135m的双塔双索面混凝土斜拉桥，采用相同的结构尺寸，分别按上述四种基本结构体系进行结构计算，汽车荷载作用于中跨时的内力分布，如<a href="#image419">图4-1-9</a>所示。</p>
- <p style="text-align:justify"><a href="#idA4-1.32"> [A4-1.32]</a><span id="idA4-1.32"></span>由<a href="#image419">图4-1-9</a>可以看出：飘浮体系的主梁弯矩图比较均匀，塔墩处没有突变，当中跨均布活载时边跨负弯矩与支承体系、刚构体系接近，明显小于固结体系。飘浮体系的整体刚度与支承体系接近，大于固结体系，但小于刚构体系。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.30"> [A4-1.30]</a><span id="idA4-1.30"></span>主梁除了采用连续梁体系外，早期也曾有个别斜拉桥采用在跨中无索区段设置挂梁的形式，但这有损于桥梁的整体性和桥面的连续性，对行车不利，因此现已很少采用。此外，也有在主梁跨中设铰的布置（例如钱塘江嘉绍大桥），这种剪力铰的功能是只传递剪力和轴力，不传递弯矩，剪力铰可以起到缓解温度应力的作用，但同样对行车不利，加之剪力铰在设计、施工及养护等方面的难度，故一般很少采用。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.31"> [A4-1.31]</a><span id="idA4-1.31"></span>[例4-1-1]某桥为主跨330m、边跨135m的双塔双索面混凝土斜拉桥，采用相同的结构尺寸，分别按上述四种基本结构体系进行结构计算，汽车荷载作用于中跨时的内力分布，如<a href="#image419">图4-1-9</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.32"> [A4-1.32]</a><span id="idA4-1.32"></span>由<a href="#image419">图4-1-9</a>可以看出：飘浮体系的主梁弯矩图比较均匀，塔墩处没有突变，当中跨均布活载时边跨负弯矩与支承体系、刚构体系接近，明显小于固结体系。飘浮体系的整体刚度与支承体系接近，大于固结体系，但小于刚构体系。</p>
  
  <div style="text-align:center;"><img id="image419" src="../_static/fig/4-1-9.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-9  汽车荷载作用于中跨时的内力与变形</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image419'));</script>
  
- <p style="text-align:justify"><a href="#idA4-1.33"> [A4-1.33]</a><span id="idA4-1.33"></span>支承体系在塔墩处由于增加了竖向支承，因此主梁出现较大的负弯矩。但与飘浮体系相比，主梁跨中弯矩和挠度并未明显减小。上部结构恒载和活载仍然主要通过拉索传递到索塔和基础，在塔墩支承点的反力并不是很大，容易设置支座，有支承时施工主梁比飘浮体系方便。</p>
- <p style="text-align:justify"><a href="#idA4-1.34"> [A4-1.34]</a><span id="idA4-1.34"></span>固结体系的主梁轴力分布最为有利，跨中轴向拉力最小，接近于零，而塔墩处压力最大，这对于混凝土斜拉桥是十分有利的。但这种体系刚度小，在中跨均布活载时边跨的负弯矩特别大。</p>
- <p style="text-align:justify"><a href="#idA4-1.35"> [A4-1.35]</a><span id="idA4-1.35"></span>刚构体系的整体刚度大，但这种体系的主梁在塔梁墩固结处会产生巨大的负弯矩。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.33"> [A4-1.33]</a><span id="idA4-1.33"></span>支承体系在塔墩处由于增加了竖向支承，因此主梁出现较大的负弯矩。但与飘浮体系相比，主梁跨中弯矩和挠度并未明显减小。上部结构恒载和活载仍然主要通过拉索传递到索塔和基础，在塔墩支承点的反力并不是很大，容易设置支座，有支承时施工主梁比飘浮体系方便。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.34"> [A4-1.34]</a><span id="idA4-1.34"></span>固结体系的主梁轴力分布最为有利，跨中轴向拉力最小，接近于零，而塔墩处压力最大，这对于混凝土斜拉桥是十分有利的。但这种体系刚度小，在中跨均布活载时边跨的负弯矩特别大。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.35"> [A4-1.35]</a><span id="idA4-1.35"></span>刚构体系的整体刚度大，但这种体系的主梁在塔梁墩固结处会产生巨大的负弯矩。</p>
  
  
  <p><a href="#id4.1.2.2">二、按外部约束分类</a> <span id="id4.1.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.36"> [A4-1.36]</a><span id="idA4-1.36"></span>斜拉桥根据边跨斜拉索锚固形式的不同，可分为地锚斜拉桥、自锚斜拉桥和部分地锚斜拉桥体系。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.36"> [A4-1.36]</a><span id="idA4-1.36"></span>斜拉桥根据边跨斜拉索锚固形式的不同，可分为地锚斜拉桥、自锚斜拉桥和部分地锚斜拉桥体系。</p>
 
  <p><a href="#id4.1.2.2.1"> 1. 自锚斜拉桥体系</a> <span id="id4.1.2.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.37"> [A4-1.37]</a><span id="idA4-1.37"></span>自锚斜拉桥索塔两侧的斜拉索均匀锚固在主梁上。双塔斜拉桥的主梁除跨中无索区外均承受轴向压力（<a href="#image414">图4-1-4</a>），施工方便且不需修建锚碇。但随着跨径的增加，索塔处主梁轴向压力迅速增加，成为限制自锚斜拉桥跨径进一步增大的主要原因。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.37"> [A4-1.37]</a><span id="idA4-1.37"></span>自锚斜拉桥索塔两侧的斜拉索均匀锚固在主梁上。双塔斜拉桥的主梁除跨中无索区外均承受轴向压力（<a href="#image414">图4-1-4</a>），施工方便且不需修建锚碇。但随着跨径的增加，索塔处主梁轴向压力迅速增加，成为限制自锚斜拉桥跨径进一步增大的主要原因。</p>
 
  <p><a href="#id4.1.2.2.2"> 2. 地锚斜拉桥体系</a> <span id="id4.1.2.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.38"> [A4-1.38]</a><span id="idA4-1.38"></span>地锚斜拉桥索塔后侧的拉索集中锚固在岩体或锚块（锚墩，锚箱）上，如<a href="#image4110">图4-1-10</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.38"> [A4-1.38]</a><span id="idA4-1.38"></span>地锚斜拉桥索塔后侧的拉索集中锚固在岩体或锚块（锚墩，锚箱）上，如<a href="#image4110">图4-1-10</a>所示。</p>
 
  <div style="text-align:center;"><img id="image4110" src="../_static/fig/4-1-10.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-10  斜拉桥边跨边索锚固示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4110'));</script>
 
- <p style="text-align:justify"><a href="#idA4-1.39"> [A4-1.39]</a><span id="idA4-1.39"></span>已建成的贵州遵义芙蓉江大桥为独塔单跨地锚混凝土斜拉桥，为减小后锚索拉力，索塔向地锚侧倾斜，从而可减少锚体规模。如<a href="#image4111a">图4-1-11</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.39"> [A4-1.39]</a><span id="idA4-1.39"></span>已建成的贵州遵义芙蓉江大桥为独塔单跨地锚混凝土斜拉桥，为减小后锚索拉力，索塔向地锚侧倾斜，从而可减少锚体规模。如<a href="#image4111a">图4-1-11</a>所示。</p>
  
  <div style="text-align:center;"><img id="image4111a" src="../_static/fig/4-1-11a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）立面</p>
@@ -143,21 +135,21 @@
  <p style="color: dimgray;text-align: center;">b）施工示例<br>图4-1-11  贵州遵义芙蓉江大桥示例（尺寸单位：cm）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4111b'));</script>
 
- <p style="text-align:justify"><a href="#idA4-1.40"> [A4-1.40]</a><span id="idA4-1.40"></span>独塔双跨斜拉桥，在特定的条件下，可以布置成部分地锚式，即一部分拉索锚固在边跨，其余索锚固在重力式大体积桥台上。拉索的不平衡水平力一部分由边跨梁体传递给索塔，另一部分由桥台平衡。</p>
- <p style="text-align:justify"><a href="#idA4-1.41"> [A4-1.41]</a><span id="idA4-1.41"></span>双塔地锚斜拉桥在不同支承情况下的主梁轴力分布如<a href="#image4112">图4-1-12</a>所示。<a href="#image4112">图4-1-12a）</a>所示为主梁两端固定，跨中设置伸缩铰，主梁受压；<a href="#image4112">图4-1-12b）</a>所示为主梁两端可活动，主梁受拉。当然，介于这两者之间的体系也是成立的。地锚斜拉桥体系一般应用于特殊地形条件下。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.40"> [A4-1.40]</a><span id="idA4-1.40"></span>独塔双跨斜拉桥，在特定的条件下，可以布置成部分地锚式，即一部分拉索锚固在边跨，其余索锚固在重力式大体积桥台上。拉索的不平衡水平力一部分由边跨梁体传递给索塔，另一部分由桥台平衡。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.41"> [A4-1.41]</a><span id="idA4-1.41"></span>双塔地锚斜拉桥在不同支承情况下的主梁轴力分布如<a href="#image4112">图4-1-12</a>所示。<a href="#image4112">图4-1-12a）</a>所示为主梁两端固定，跨中设置伸缩铰，主梁受压；<a href="#image4112">图4-1-12b）</a>所示为主梁两端可活动，主梁受拉。当然，介于这两者之间的体系也是成立的。地锚斜拉桥体系一般应用于特殊地形条件下。</p>
 
  <div style="text-align:center;"><img id="image4112" src="../_static/fig/4-1-12.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-12  双塔地锚斜拉桥主梁轴力示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4112'));</script>
 
  <p><a href="#id4.1.2.2.3"> 3. 部分地锚斜拉桥体系</a> <span id="id4.1.2.2.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.42"> [A4-1.42]</a><span id="idA4-1.42"></span>随着斜拉桥跨径的增大，主梁将承受更大的轴向压力。为减小主梁轴力，可以将一部分轴力转移出去，由单独设立的锚碇承担，减轻主梁的负担，从而形成了部分地锚斜拉桥体系。部分地锚斜拉桥结构受力介于自锚和地锚结构体系之间，双塔斜拉桥跨中一部分主梁受拉，其余均为受压（<a href="#image4113">图4-1-13</a>）。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.42"> [A4-1.42]</a><span id="idA4-1.42"></span>随着斜拉桥跨径的增大，主梁将承受更大的轴向压力。为减小主梁轴力，可以将一部分轴力转移出去，由单独设立的锚碇承担，减轻主梁的负担，从而形成了部分地锚斜拉桥体系。部分地锚斜拉桥结构受力介于自锚和地锚结构体系之间，双塔斜拉桥跨中一部分主梁受拉，其余均为受压（<a href="#image4113">图4-1-13</a>）。</p>
  
  <div style="text-align:center;"><img id="image4113" src="../_static/fig/4-1-13.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-13  双塔部分地锚斜拉桥主梁轴力示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4113'));</script>
  
- <p style="text-align:justify"><a href="#idA4-1.43"> [A4-1.43]</a><span id="idA4-1.43"></span>部分地锚斜拉桥体系还适用于边中跨比较小的情况，例如，西班牙Luna桥，跨径（67+440+67）m，为避免索塔设置在水中，边跨仅为67m，边中跨比只有0.152，边跨另设35m长的地锚。我国湖北郧阳汉江大桥[<a href="#image4114a">图4-1-14a）</a>]，跨径（43+414+43）m，边跨与主跨之比仅为0.203，边跨另设43.8m长地锚，塔后侧的拉索只有4根锚于极短的边跨主梁上，另外21根拉索全部锚在大体积混凝土桥台（重力式平衡桥台）上。我国陕西东庄水库泾河大桥为独塔双跨斜拉桥，跨径（103+27）m，边主跨比0.262，边跨另设17m地锚结构，如<a href="#image4114b">图4-1-14b）</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.43"> [A4-1.43]</a><span id="idA4-1.43"></span>部分地锚斜拉桥体系还适用于边中跨比较小的情况，例如，西班牙Luna桥，跨径（67+440+67）m，为避免索塔设置在水中，边跨仅为67m，边中跨比只有0.152，边跨另设35m长的地锚。我国湖北郧阳汉江大桥[<a href="#image4114a">图4-1-14a）</a>]，跨径（43+414+43）m，边跨与主跨之比仅为0.203，边跨另设43.8m长地锚，塔后侧的拉索只有4根锚于极短的边跨主梁上，另外21根拉索全部锚在大体积混凝土桥台（重力式平衡桥台）上。我国陕西东庄水库泾河大桥为独塔双跨斜拉桥，跨径（103+27）m，边主跨比0.262，边跨另设17m地锚结构，如<a href="#image4114b">图4-1-14b）</a>所示。</p>
  
  <div style="text-align:center;"><img id="image4114a" src="../_static/fig/4-1-14a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）湖北郧阳汉江大桥立面</p>
@@ -167,8 +159,8 @@
  <p style="color: dimgray;text-align: center;">b）陕西东庄水库泾河大桥立面<br>图4-1-14  部分地锚式斜拉桥示例（尺寸单位：cm，高程和里程单位：m）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4114b'));</script>
  
- <p style="text-align:justify"><a href="#idA4-1.44"> [A4-1.44]</a><span id="idA4-1.44"></span>部分地锚斜拉桥的锚碇规模一般比悬索桥要小很多，对地质条件的要求较悬索桥要低。在自锚斜拉桥跨径受限而地质条件适宜修建锚碇的情况下，跨径在1100～1600m范围内，部分地锚斜拉桥可与悬索桥进行优选。</p>
- <p style="text-align:justify"><a href="#idA4-1.45"> [A4-1.45]</a><span id="idA4-1.45"></span>自锚斜拉桥、地锚斜拉桥、部分地锚斜拉桥主梁轴力图比较，如<a href="#image4115">图4-1-15</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.44"> [A4-1.44]</a><span id="idA4-1.44"></span>部分地锚斜拉桥的锚碇规模一般比悬索桥要小很多，对地质条件的要求较悬索桥要低。在自锚斜拉桥跨径受限而地质条件适宜修建锚碇的情况下，跨径在1100～1600m范围内，部分地锚斜拉桥可与悬索桥进行优选。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.45"> [A4-1.45]</a><span id="idA4-1.45"></span>自锚斜拉桥、地锚斜拉桥、部分地锚斜拉桥主梁轴力图比较，如<a href="#image4115">图4-1-15</a>所示。</p>
 
  <div style="text-align:center;"><img id="image4115" src="../_static/fig/4-1-15.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-15  不同外部约束情况下的主梁轴力比较<br>a）自锚斜拉桥；b）地锚斜拉桥；c）部分地锚斜拉桥</p>
@@ -178,23 +170,23 @@
  <p><a href="#id4.1.2.3">三、其他结构体系</a> <span id="id4.1.2.3"></span></p>
  
  <p><a href="#id4.1.2.3.1"> 1. 部分斜拉桥</a> <span id="id4.1.2.3.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.46"> [A4-1.46]</a><span id="idA4-1.46"></span>常规斜拉桥中主梁被视为支承在斜拉索上的连续梁，主梁在恒载作用下只承担局部弯矩，这就要求斜拉索的倾角不能太小，所以索塔必须保持一定的高度，一般为主跨跨径的1/4~1/7。如果塔高太低，斜拉索将不能有效支承主梁，需要增加斜拉索用量从而增加造价。</p>
- <p style="text-align:justify"><a href="#idA4-1.47"> [A4-1.47]</a><span id="idA4-1.47"></span>如果将斜拉索视为布置在连续梁或连续刚构体外的预应力束，而索塔视为体外预应力束的转向装置，则全桥体系就变成梁桥。通过改变索塔的高度和斜拉索的初张力，可以改变斜拉索与主梁承担外荷载的比例关系。当索塔比较低时，斜拉索只分担部分荷载，其他荷载仍然由主梁内的预应力承担，这就成为所谓的部分斜拉桥，如<a href="#image4116">图4-1-16</a>所示。法国工程师，形象地将这时的斜拉索称为超剂量预应力，因此部分斜拉桥在国外被称为Extra-Dosed Prestressed Concrete Bridge（超剂量预应力混凝土桥）。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.46"> [A4-1.46]</a><span id="idA4-1.46"></span>常规斜拉桥中主梁被视为支承在斜拉索上的连续梁，主梁在恒载作用下只承担局部弯矩，这就要求斜拉索的倾角不能太小，所以索塔必须保持一定的高度，一般为主跨跨径的1/4~1/7。如果塔高太低，斜拉索将不能有效支承主梁，需要增加斜拉索用量从而增加造价。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.47"> [A4-1.47]</a><span id="idA4-1.47"></span>如果将斜拉索视为布置在连续梁或连续刚构体外的预应力束，而索塔视为体外预应力束的转向装置，则全桥体系就变成梁桥。通过改变索塔的高度和斜拉索的初张力，可以改变斜拉索与主梁承担外荷载的比例关系。当索塔比较低时，斜拉索只分担部分荷载，其他荷载仍然由主梁内的预应力承担，这就成为所谓的部分斜拉桥，如<a href="#image4116">图4-1-16</a>所示。法国工程师，形象地将这时的斜拉索称为超剂量预应力，因此部分斜拉桥在国外被称为Extra-Dosed Prestressed Concrete Bridge（超剂量预应力混凝土桥）。</p>
  
  <div style="text-align:center;"><img id="image4116" src="../_static/fig/4-1-16.png" alt="Picture"></div>
- <p style="color: dimgray;text-align: center;">图1-1-16  部分（矮塔）斜拉桥示意<br><i>l</i>—跨径；<i>H</i>—索塔高度；<i>h</i><sub>1</sub>—跨中梁高；<i>h</i><sub>2</sub>—支点梁高；<i>d</i>—斜拉索梁上间距；<i>α</i>—斜拉索倾角</p>
+ <p style="color: dimgray;text-align: center;">图4-1-16  部分（矮塔）斜拉桥示意<br><i>l</i>—跨径；<i>H</i>—索塔高度；<i>h</i><sub>1</sub>—跨中梁高；<i>h</i><sub>2</sub>—支点梁高；<i>d</i>—斜拉索梁上间距；<i>α</i>—斜拉索倾角</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4116'));</script>
  
- <p style="text-align:justify"><a href="#idA4-1.48"> [A4-1.48]</a><span id="idA4-1.48"></span>部分斜拉桥中塔高取值比常规斜拉桥矮，一般为主跨的1/8~1/13，所以，部分斜拉桥也被称作矮塔斜拉桥。由于塔高矮，斜拉索只承担总荷载效应的30%左右，其余由主梁承担。同时，斜拉索在活载作用下的应力变化幅度也较小，一般在50MPa左右，而常规斜拉桥斜拉索的活载应力变化幅度在150MPa以上。在低应力变化幅度下，斜拉索的疲劳问题可以大大缓解，从而可以提高利用钢丝的容许应力，达到节省造价的目的。因此，这种界于梁桥与常规斜拉桥之间的桥型得到了越来越广泛的应用。我国已经建成了漳州战备桥（主跨120m）等多座部分斜拉桥，芜湖长江大桥是一座公铁两用钢桁架主梁的部分斜拉桥，为了达到312m的跨度，用斜拉索承担了部分荷载，同时加强了钢桁梁的刚度。</p>
- <p style="text-align:justify"><a href="#idA4-1.49"> [A4-1.49]</a><span id="idA4-1.49"></span>对于100～250m跨径的桥梁，桥型采用部分斜拉桥，可以大大降低主梁高度，增加与连续梁桥和连续刚构桥的竞争能力。<a href="#image4117">图4-1-17</a>显示了由连续梁桥、连续刚构桥、T形刚构桥衍生的部分斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.48"> [A4-1.48]</a><span id="idA4-1.48"></span>部分斜拉桥中塔高取值比常规斜拉桥矮，一般为主跨的1/8~1/13，所以，部分斜拉桥也被称作矮塔斜拉桥。由于塔高矮，斜拉索只承担总荷载效应的30%左右，其余由主梁承担。同时，斜拉索在活载作用下的应力变化幅度也较小，一般在50MPa左右，而常规斜拉桥斜拉索的活载应力变化幅度在150MPa以上。在低应力变化幅度下，斜拉索的疲劳问题可以大大缓解，从而可以提高利用钢丝的容许应力，达到节省造价的目的。因此，这种界于梁桥与常规斜拉桥之间的桥型得到了越来越广泛的应用。我国已经建成了漳州战备桥（主跨120m）等多座部分斜拉桥，芜湖长江大桥是一座公铁两用钢桁架主梁的部分斜拉桥，为了达到312m的跨度，用斜拉索承担了部分荷载，同时加强了钢桁梁的刚度。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.49"> [A4-1.49]</a><span id="idA4-1.49"></span>对于100～250m跨径的桥梁，桥型采用部分斜拉桥，可以大大降低主梁高度，增加与连续梁桥和连续刚构桥的竞争能力。<a href="#image4117">图4-1-17</a>显示了由连续梁桥、连续刚构桥、T形刚构桥衍生的部分斜拉桥。</p>
  
  <div style="text-align:center;"><img id="image4117" src="../_static/fig/4-1-17.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-17  部分斜拉桥的结构体系<br>（ a)连续梁体系；b)连续刚构体系；c)T型刚构体系）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4117'));</script>
 
  <p><a href="#id4.1.2.3.2"> 2. 多塔斜拉桥</a> <span id="id4.1.2.3.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.50"> [A4-1.50]</a><span id="idA4-1.50"></span>在需要以多个大孔径跨越宽阔的湖泊或海峡时，多塔斜拉桥可作为选择的方案之一。与传统的双塔三跨斜拉桥相比，多塔斜拉桥除边塔外，中间索塔均没有背索的锚固作用。活载作用下中间索塔将向荷载作用跨弯曲，使该跨主梁的弯矩及挠度大大增加，同时，活载作用于相邻跨主梁产生向上的弯矩及挠度，如<a href="#image4118">图4-1-18</a>所示。</p>
- <p style="text-align:justify"><a href="#idA4-1.51"> [A4-1.51]</a><span id="idA4-1.51"></span>多塔斜拉桥设计的关键是控制中间塔顶在活载作用下的水平位移、减小主梁跨中弯矩。多塔斜拉桥的桥长一般较长，在提高结构刚度的同时保证主梁在常年温差下的自由伸缩是设计中的另一个关键问题。提高全桥结构刚度的措施主要有：提高索塔及主梁的抗弯刚度、塔顶设置加劲索[<a href="#image4119">图4-1-19a）</a>]、中塔顶与边塔设置斜向加劲索[<a href="#image4119">图4-1-19b）</a>]等。香港汀九大桥是三塔斜拉桥，主跨475m，采用<a href="#image4119">图4-1-19b）</a>方式在中塔顶和边塔与主梁交界点之间设置了加劲索，以提高中塔在活载作用下的抗弯能力，并能显著提高施工期间和成桥状态下的抗风性能。法国米佑大桥为七塔斜拉桥（<a href="#image4120">图4-1-20</a>），墩高为77～245m，采用中间分离式双薄壁索塔以提高索塔的纵向刚度；每座塔都是独立的刚构体系斜拉桥，减小了活载作用跨的结构变形对其他各跨的影响；在跨中设置特殊的伸缩装置以适应主梁温差产生的伸缩变形。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.50"> [A4-1.50]</a><span id="idA4-1.50"></span>在需要以多个大孔径跨越宽阔的湖泊或海峡时，多塔斜拉桥可作为选择的方案之一。与传统的双塔三跨斜拉桥相比，多塔斜拉桥除边塔外，中间索塔均没有背索的锚固作用。活载作用下中间索塔将向荷载作用跨弯曲，使该跨主梁的弯矩及挠度大大增加，同时，活载作用于相邻跨主梁产生向上的弯矩及挠度，如<a href="#image4118">图4-1-18</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.51"> [A4-1.51]</a><span id="idA4-1.51"></span>多塔斜拉桥设计的关键是控制中间塔顶在活载作用下的水平位移、减小主梁跨中弯矩。多塔斜拉桥的桥长一般较长，在提高结构刚度的同时保证主梁在常年温差下的自由伸缩是设计中的另一个关键问题。提高全桥结构刚度的措施主要有：提高索塔及主梁的抗弯刚度、塔顶设置加劲索[<a href="#image4119">图4-1-19a）</a>]、中塔顶与边塔设置斜向加劲索[<a href="#image4119">图4-1-19b）</a>]等。香港汀九大桥是三塔斜拉桥，主跨475m，采用<a href="#image4119">图4-1-19b）</a>方式在中塔顶和边塔与主梁交界点之间设置了加劲索，以提高中塔在活载作用下的抗弯能力，并能显著提高施工期间和成桥状态下的抗风性能。法国米佑大桥为七塔斜拉桥（<a href="#image4120">图4-1-20</a>），墩高为77～245m，采用中间分离式双薄壁索塔以提高索塔的纵向刚度；每座塔都是独立的刚构体系斜拉桥，减小了活载作用跨的结构变形对其他各跨的影响；在跨中设置特殊的伸缩装置以适应主梁温差产生的伸缩变形。</p>
  
  <div style="text-align:center;"><img id="image4118" src="../_static/fig/4-1-18.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-18  多塔斜拉桥受力示意<br>a)多塔连续斜拉桥立面布置；b)中跨作用荷载时的变形；<br>c)次中跨作用荷载时的变形；d)采用墩梁分离时挠度只与主梁刚度有关</p>
@@ -209,19 +201,19 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4120'));</script>
 
  <p><a href="#id4.1.2.3.3"> 3. 无背索斜拉桥</a> <span id="id4.1.2.3.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-1.52"> [A4-1.52]</a><span id="idA4-1.52"></span>无背索斜拉桥是指将索塔边跨侧的斜拉索去掉，并将混凝土索塔向该侧倾斜，以索塔自重平衡主跨斜拉索索力，形成无背索斜拉桥。无背索斜拉桥常用于跨度一般不大于200m、景观要求高的桥梁，且一般采用独塔无背索斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.52"> [A4-1.52]</a><span id="idA4-1.52"></span>无背索斜拉桥是指将索塔边跨侧的斜拉索去掉，并将混凝土索塔向该侧倾斜，以索塔自重平衡主跨斜拉索索力，形成无背索斜拉桥。无背索斜拉桥常用于跨度一般不大于200m、景观要求高的桥梁，且一般采用独塔无背索斜拉桥。</p>
  
  <div style="text-align:center;"><img id="image4121" src="../_static/fig/4-1-21.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-1-21  无背索斜拉桥示例（尺寸单位：cm）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4121'));</script>
 
 
- <p style="text-align:justify" id="aaa"><b>[拓展小知识5-1]独塔斜拉桥</b></p>
- <p style="text-align:justify"><a href="#idA4-1.53"> [A4-1.53]</a><span id="idA4-1.53"></span>独塔斜拉桥采用非对称设计（不等跨设计）时，为平衡两跨恒载，应采取一些措施，例如：在小跨加平衡重，或小跨采用混凝土箱梁、大跨采用钢箱梁，或在小跨加设辅助墩等，构造上较对称设计（等跨设计）的斜拉桥复杂。但采用对称设计时，结构的活载弯矩、活载变形、温度效应、体系刚度都大于非对称设计的独塔斜拉桥。</p>
- <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[拓展小知识5-1]独塔斜拉桥</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.53"> [A4-1.53]</a><span id="idA4-1.53"></span>独塔斜拉桥采用非对称设计（不等跨设计）时，为平衡两跨恒载，应采取一些措施，例如：在小跨加平衡重，或小跨采用混凝土箱梁、大跨采用钢箱梁，或在小跨加设辅助墩等，构造上较对称设计（等跨设计）的斜拉桥复杂。但采用对称设计时，结构的活载弯矩、活载变形、温度效应、体系刚度都大于非对称设计的独塔斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[学习提示]</b></p>
 
- <p style="text-align:justify"><a href="#idA4-1.54"> [A4-1.54]</a><span id="idA4-1.54"></span>斜拉桥的桥跨结构是由主梁、索塔和斜拉索三部分组成（<a href="#image411">图4-1-1</a>），在竖向荷载作用下索受拉、塔受压又受弯、梁受弯又受压，因此，桥跨结构是受拉、受压、受弯三种受力形式的组合结构，当然，在横桥向不均衡活载作用下，主梁还将受扭，将是受拉、受压、受弯、受扭四种受力形式的组合结构。由于是多次超静定结构，应利用结构有限元分析软件进行计算，详细计算方法将在“桥梁结构分析与设计”课程中介绍，感兴趣的读者可参阅与本教材配套的《桥梁结构分析与设计》教材。</p>
- <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-1.54"> [A4-1.54]</a><span id="idA4-1.54"></span>斜拉桥的桥跨结构是由主梁、索塔和斜拉索三部分组成（<a href="https://qlgc.readthedocs.io/zh/latest/4-1/4.1.1.html#image411">图4-1-1</a>），在竖向荷载作用下索受拉、塔受压又受弯、梁受弯又受压，因此，桥跨结构是受拉、受压、受弯三种受力形式的组合结构，当然，在横桥向不均衡活载作用下，主梁还将受扭，将是受拉、受压、受弯、受扭四种受力形式的组合结构。由于是多次超静定结构，应利用结构有限元分析软件进行计算，详细计算方法将在“桥梁结构分析与设计”课程中介绍，感兴趣的读者可参阅与本教材配套的《桥梁结构分析与设计》教材。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[思考与练习]</b></p>
  <ol>
  <li>斜拉桥的基本组成是什么？各组成部分的受力特点是什么？</li>
  <li>简述斜拉桥常用结构体系和特殊结构体系有哪些？适用于哪些情况？</li>

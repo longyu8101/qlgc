@@ -5,7 +5,7 @@
 .. raw:: html
 
  <h3 id="test111">第三节  索塔构造与设计</h3>
- <p style="text-align:justify"><a href="#idA4-2.86"> [A4-2.86]</a><span id="idA4-2.86"></span>斜拉桥的主梁按材料不同分为混凝土梁、钢箱梁、钢桁梁、钢—混组合梁等，如<a href="#image4226">图4-2-26</a>所示。主梁截面形式应根据材料、跨径、索距、桥宽、索面数等，并综合考虑结构受力、耐久性、抗风稳定性和施工方法进行选用。不同材料的主梁适用范围见<a href="#B4.2.7">表 4-2-7</a>，主跨在400m以下的双塔斜拉桥宜采用混凝土主梁，预应力混凝土梁的混凝土强度等级不宜小于C50；主跨在600m以上的斜拉桥宜采用钢主梁或钢—混混合梁；主跨在400〜600m的斜拉桥，应对组合梁、钢主梁、混凝土梁、混合梁等类型主梁进行经济技术比较后采用。本节重点介绍斜拉桥混凝土主梁的构造，其他材料建造的主梁将在“钢桥”课程中介绍。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.86"> [A4-2.86]</a><span id="idA4-2.86"></span>斜拉桥的主梁按材料不同分为混凝土梁、钢箱梁、钢桁梁、钢—混组合梁等，如<a href="#image4226">图4-2-26</a>所示。主梁截面形式应根据材料、跨径、索距、桥宽、索面数等，并综合考虑结构受力、耐久性、抗风稳定性和施工方法进行选用。不同材料的主梁适用范围见<a href="#B4.2.7">表 4-2-7</a>，主跨在400m以下的双塔斜拉桥宜采用混凝土主梁，预应力混凝土梁的混凝土强度等级不宜小于C50；主跨在600m以上的斜拉桥宜采用钢主梁或钢—混混合梁；主跨在400〜600m的斜拉桥，应对组合梁、钢主梁、混凝土梁、混合梁等类型主梁进行经济技术比较后采用。本节重点介绍斜拉桥混凝土主梁的构造，其他材料建造的主梁将在“钢桥”课程中介绍。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -77,25 +77,25 @@
  <p></p>
 
  <p><a href="#id4.2.4.1">一、主梁截面形式</a> <span id="id4.2.4.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.87"> [A4-2.87]</a><span id="idA4-2.87"></span>混凝土主梁由于受到斜拉索的支承作用，特别是密索斜拉桥中主梁的受力以压力为主，弯矩较小，因此主梁受力特性已经不同于传统的梁桥，主梁高度可以大大降低。通过斜拉索的索力调整，可以使恒载弯矩减小到很低的程度，引起主梁弯矩的主要因素是活载及温差等附加荷载。影响活载及温度附加荷载弯矩的主要因素是索塔的刚度、主梁与索塔的连接方法、索的面积及索型。在双索面情况下主梁在两边均有斜拉索支承，主梁横向受力以正弯矩为主，而采用单索面时主梁横向受力基本为负弯矩，同时还要承担不对称活载扭矩，因此索面的空间形式对主梁截面有决定性的影响。所以主梁的设计必须综合考虑主梁、索塔、拉索三者之间的相互关系。在大跨径斜拉桥中，由于采用密索体系，主梁相对刚度越来越小，抗风稳定性问题越来越突出，往往成为决定现代斜拉桥主梁截面形状的主要因素，一般而言，主梁截面必须有较好的流线型和较大的抗扭刚度。</p>
- <p style="text-align:justify"><a href="#idA4-2.88"> [A4-2.88]</a><span id="idA4-2.88"></span>斜拉桥混凝土主梁截面有实心板截面、肋板式截面、边箱梁截面（PK梁）、箱形截面、带斜撑箱形截面等（<a href="#image4227">图4-2-27</a>）。设计中应考虑纵、横向受力情况，合理选择截面形式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.87"> [A4-2.87]</a><span id="idA4-2.87"></span>混凝土主梁由于受到斜拉索的支承作用，特别是密索斜拉桥中主梁的受力以压力为主，弯矩较小，因此主梁受力特性已经不同于传统的梁桥，主梁高度可以大大降低。通过斜拉索的索力调整，可以使恒载弯矩减小到很低的程度，引起主梁弯矩的主要因素是活载及温差等附加荷载。影响活载及温度附加荷载弯矩的主要因素是索塔的刚度、主梁与索塔的连接方法、索的面积及索型。在双索面情况下主梁在两边均有斜拉索支承，主梁横向受力以正弯矩为主，而采用单索面时主梁横向受力基本为负弯矩，同时还要承担不对称活载扭矩，因此索面的空间形式对主梁截面有决定性的影响。所以主梁的设计必须综合考虑主梁、索塔、拉索三者之间的相互关系。在大跨径斜拉桥中，由于采用密索体系，主梁相对刚度越来越小，抗风稳定性问题越来越突出，往往成为决定现代斜拉桥主梁截面形状的主要因素，一般而言，主梁截面必须有较好的流线型和较大的抗扭刚度。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.88"> [A4-2.88]</a><span id="idA4-2.88"></span>斜拉桥混凝土主梁截面有实心板截面、肋板式截面、边箱梁截面（PK梁）、箱形截面、带斜撑箱形截面等（<a href="#image4227">图4-2-27</a>）。设计中应考虑纵、横向受力情况，合理选择截面形式。</p>
 
  <div style="text-align:center;"><img id="image4227" src="../_static/fig/4-2-27.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-2-27  混凝土斜拉桥主梁典型截面示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4227'));</script>
 
- <p style="text-align:justify"><a href="#idA4-2.89"> [A4-2.89]</a><span id="idA4-2.89"></span>实心板截面适用于跨径200m以下的混凝土斜拉桥，板式截面最简单，迎风面积小。为了锚固斜拉索需要，边缘厚度适当加厚。在索距较密而桥梁跨度、宽度不大的情况下，可采用这种形式的主梁。板式双主梁截面为双主梁截面的一种改进形式，构造简单，施工方便，用料较省。</p>
- <p style="text-align:justify"><a href="#idA4-2.90"> [A4-2.90]</a><span id="idA4-2.90"></span>肋板式截面及边箱梁截面适用于双索面斜拉桥；由于单索面的结构扭转刚度比较小，一般采用抗扭刚度比较大的箱形截面，有单箱单室、单箱多室两种形式。</p>
- <p style="text-align:justify"><a href="#idA4-2.91"> [A4-2.91]</a><span id="idA4-2.91"></span>闭合箱形截面有较大的抗弯和抗扭能力，将外侧腹板做成倾斜式，既可改善空气动力性能，又可减小桥墩（台）宽度。缺点是节段重量较大。</p>
- <p style="text-align:justify"><a href="#idA4-2.92"> [A4-2.92]</a><span id="idA4-2.92"></span>当桥面很宽时，主梁截面可考虑设为单箱多室截面、肋板式截面及边箱梁截面，必要时适当增加在中间板部分的梁肋数。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.89"> [A4-2.89]</a><span id="idA4-2.89"></span>实心板截面适用于跨径200m以下的混凝土斜拉桥，板式截面最简单，迎风面积小。为了锚固斜拉索需要，边缘厚度适当加厚。在索距较密而桥梁跨度、宽度不大的情况下，可采用这种形式的主梁。板式双主梁截面为双主梁截面的一种改进形式，构造简单，施工方便，用料较省。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.90"> [A4-2.90]</a><span id="idA4-2.90"></span>肋板式截面及边箱梁截面适用于双索面斜拉桥；由于单索面的结构扭转刚度比较小，一般采用抗扭刚度比较大的箱形截面，有单箱单室、单箱多室两种形式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.91"> [A4-2.91]</a><span id="idA4-2.91"></span>闭合箱形截面有较大的抗弯和抗扭能力，将外侧腹板做成倾斜式，既可改善空气动力性能，又可减小桥墩（台）宽度。缺点是节段重量较大。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.92"> [A4-2.92]</a><span id="idA4-2.92"></span>当桥面很宽时，主梁截面可考虑设为单箱多室截面、肋板式截面及边箱梁截面，必要时适当增加在中间板部分的梁肋数。</p>
 
  <p><a href="#id4.2.4.2">二、合龙段</a> <span id="id4.2.4.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.93"> [A4-2.93]</a><span id="idA4-2.93"></span>采用悬臂法施工时，一般混凝土斜拉桥合龙段长度小一些，可取2.0～3.0m，工程上大多采用2.0m；钢或钢-混凝土组合梁斜拉桥合龙段长一些。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.93"> [A4-2.93]</a><span id="idA4-2.93"></span>采用悬臂法施工时，一般混凝土斜拉桥合龙段长度小一些，可取2.0～3.0m，工程上大多采用2.0m；钢或钢-混凝土组合梁斜拉桥合龙段长一些。</p>
 
  <p><a href="#id4.2.4.3">三、主梁高度</a> <span id="id4.2.4.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.94"> [A4-2.94]</a><span id="idA4-2.94"></span>斜拉桥主梁是弹性支承连续梁，在密索体系时恒载弯矩只与索距有关，而与桥梁跨径无关，只有活载内力与跨径有关，在大跨径桥梁中活载弯矩的绝对值较小，因此，斜拉桥的主梁高度不像其他体系桥梁的梁高随跨径增大而明显增大，而是与索塔刚度、索距、索型、拉索刚度、主梁的结构体系及截面形式等因素相关，特别是与索距大小有直接关系。对于密索体系且索距沿纵向等距布置时，通常主梁可做成等高度形式以简化施工。</p>
- <p style="text-align:justify"><a href="#idA4-2.95"> [A4-2.95]</a><span id="idA4-2.95"></span>双塔三跨斜拉桥梁高与跨径之比，双索面或单索面的混凝土主梁宜采用1/100〜1/220，组合梁宜采用1/125〜1/200，钢主梁宜采用1/150〜1/330，跨径越大，相对梁高越低。双索面密索体系相对梁高较低；而单索面体系则用较高值，同时高宽比一般不宜小于1/10。不同的主梁截面形式，梁高的取值会有所不同，如选用实体双主梁截面，且取主梁高度等于横梁高，则主梁高度将取决于横向弯矩的大小，即主梁高度与桥宽和横向索距相关。</p>
- <p style="text-align:justify"><a href="#idA4-2.96"> [A4-2.96]</a><span id="idA4-2.96"></span>独塔斜拉桥梁高视主跨长度、索面数、截面形式等变化较大，可略低于同跨径的双塔斜拉桥。国内、外已建成混凝土斜拉桥相关参数见如<a href="#B4.2.9">表 4-2-9</a>、<a href="#B4.2.10">表 4-2-10</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.94"> [A4-2.94]</a><span id="idA4-2.94"></span>斜拉桥主梁是弹性支承连续梁，在密索体系时恒载弯矩只与索距有关，而与桥梁跨径无关，只有活载内力与跨径有关，在大跨径桥梁中活载弯矩的绝对值较小，因此，斜拉桥的主梁高度不像其他体系桥梁的梁高随跨径增大而明显增大，而是与索塔刚度、索距、索型、拉索刚度、主梁的结构体系及截面形式等因素相关，特别是与索距大小有直接关系。对于密索体系且索距沿纵向等距布置时，通常主梁可做成等高度形式以简化施工。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.95"> [A4-2.95]</a><span id="idA4-2.95"></span>双塔三跨斜拉桥梁高与跨径之比，双索面或单索面的混凝土主梁宜采用1/100〜1/220，组合梁宜采用1/125〜1/200，钢主梁宜采用1/150〜1/330，跨径越大，相对梁高越低。双索面密索体系相对梁高较低；而单索面体系则用较高值，同时高宽比一般不宜小于1/10。不同的主梁截面形式，梁高的取值会有所不同，如选用实体双主梁截面，且取主梁高度等于横梁高，则主梁高度将取决于横向弯矩的大小，即主梁高度与桥宽和横向索距相关。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.96"> [A4-2.96]</a><span id="idA4-2.96"></span>独塔斜拉桥梁高视主跨长度、索面数、截面形式等变化较大，可略低于同跨径的双塔斜拉桥。国内、外已建成混凝土斜拉桥相关参数见如<a href="#B4.2.9">表 4-2-9</a>、<a href="#B4.2.10">表 4-2-10</a>所示。</p>
  
  <table id="biaoge" style="font-family:times new roman">
  <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.9">表4-2-9 国内混凝土斜拉桥有关资料</b></caption>	    
@@ -430,10 +430,10 @@
 	</tr>
  </table>
  <p></p>
- <p style="text-align:justify"><a href="#idA4-2.97"> [A4-2.97]</a><span id="idA4-2.97"></span>对于部分斜拉桥，边、主跨跨径比在0.36～0.76之间，多数在0.50～0. 65之间，与混凝土连续梁的边、中跨跨径比非常接近。梁高与主跨之比在1/35～1/45之间，多数在1/35～1/40之间（平均梁高），较常规斜拉桥大；跨径较大时，靠近塔处梁高可增大，形成变截面。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.97"> [A4-2.97]</a><span id="idA4-2.97"></span>对于部分斜拉桥，边、主跨跨径比在0.36～0.76之间，多数在0.50～0. 65之间，与混凝土连续梁的边、中跨跨径比非常接近。梁高与主跨之比在1/35～1/45之间，多数在1/35～1/40之间（平均梁高），较常规斜拉桥大；跨径较大时，靠近塔处梁高可增大，形成变截面。</p>
  
  <p><a href="#id4.2.4.4">四、主梁宽度</a> <span id="id4.2.4.4"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.98"> [A4-2.98]</a><span id="idA4-2.98"></span>主梁宽度B主要取决于使用要求与构造要求（<a href="#image4228">图4-2-28</a>，<a href="#image4229">图4-2-29</a>），即宽度等于行车道、人行道、分隔带﹑拉索锚固区宽度的总和。但是，在大跨度斜拉桥中抗风稳定性有时成为决定性因素，从提高主梁横向抗风稳定性考虑，主梁全宽B与主梁高度h的比值宜大于等于8，梁宽B和主跨L2的比值宜大于等于1/30。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.98"> [A4-2.98]</a><span id="idA4-2.98"></span>主梁宽度B主要取决于使用要求与构造要求（<a href="#image4228">图4-2-28</a>，<a href="#image4229">图4-2-29</a>），即宽度等于行车道、人行道、分隔带﹑拉索锚固区宽度的总和。但是，在大跨度斜拉桥中抗风稳定性有时成为决定性因素，从提高主梁横向抗风稳定性考虑，主梁全宽B与主梁高度h的比值宜大于等于8，梁宽B和主跨L2的比值宜大于等于1/30。</p>
  
  <div style="text-align:center;"><img id="image4228" src="../_static/fig/4-2-28.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-2-28  单索面斜拉桥净空条件</p>
@@ -444,27 +444,27 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4229'));</script>
  
  <p><a href="#id4.2.4.5">五、横梁和桥面板</a> <span id="id4.2.4.5"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.99"> [A4-2.99]</a><span id="idA4-2.99"></span>在密索斜拉桥主梁上，一般在斜拉索锚固点处设置主要横梁，在纵桥向两个锚固点之间位置可设置次要横梁。横梁主要承担横向弯矩，可以按简支梁或悬臂梁进行设计，同时按空间结构进行验算。</p>
- <p style="text-align:justify"><a href="#idA4-2.100"> [A4-2.100]</a><span id="idA4-2.100"></span>一般可以根据桥面局部荷载按常规方法确定横梁和桥面板的尺寸。由主梁所承受的轴向力及构造要求确定主梁截面积大小，进而确定主梁截面各细部构造尺寸。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.99"> [A4-2.99]</a><span id="idA4-2.99"></span>在密索斜拉桥主梁上，一般在斜拉索锚固点处设置主要横梁，在纵桥向两个锚固点之间位置可设置次要横梁。横梁主要承担横向弯矩，可以按简支梁或悬臂梁进行设计，同时按空间结构进行验算。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.100"> [A4-2.100]</a><span id="idA4-2.100"></span>一般可以根据桥面局部荷载按常规方法确定横梁和桥面板的尺寸。由主梁所承受的轴向力及构造要求确定主梁截面积大小，进而确定主梁截面各细部构造尺寸。</p>
  
  <p><a href="#id4.2.4.6">六、主梁锚固构造</a> <span id="id4.2.4.6"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.101"> [A4-2.101]</a><span id="idA4-2.101"></span>主梁腹板壁厚较薄，斜拉索强大的锚固力必须通过实体的锚固块分散传递到主梁的顶底板及腹板上。斜拉索与混凝土主梁锚固所采用的形式有：梁底锚固、箱内锚固、顶板锚固、斜隔板锚固、梁体两侧锚固和，如<a href="#image4230">图4-2-30</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.101"> [A4-2.101]</a><span id="idA4-2.101"></span>主梁腹板壁厚较薄，斜拉索强大的锚固力必须通过实体的锚固块分散传递到主梁的顶底板及腹板上。斜拉索与混凝土主梁锚固所采用的形式有：梁底锚固、箱内锚固、顶板锚固、斜隔板锚固、梁体两侧锚固和，如<a href="#image4230">图4-2-30</a>所示。</p>
  
- <p style="text-align:justify" id="aaa"><b>（1）梁底锚固</b></p>
- <p style="text-align:justify"><a href="#idA4-2.102"> [A4-2.102]</a><span id="idA4-2.102"></span>当采用带实心边缘的三角形主梁、实心双主梁或板式主梁时，斜拉索穿过主梁锚固在梁底，构造如<a href="#image4230">图4-2-30a）</a>所示。由于主梁高度比较小，一般不宜在梁底开槽，而在梁底设置锚固块，直接将锚头锚固在锚固块上，张拉完成后用保护罩保护锚头。</p>
- <p style="text-align:justify"><a href="#idA4-2.103"> [A4-2.103]</a><span id="idA4-2.103"></span>当主梁截面采用箱梁，拉索穿过边箱梁锚固时，一般在锚点处要设置斜横隔板，如<a href="#image4230">图4-2-30c）</a>所示。锚头可以直接锚固在设置于底板上的锚固块上，也可以锚固在底板的齿槽内，以使主梁底面平整。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）梁底锚固</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.102"> [A4-2.102]</a><span id="idA4-2.102"></span>当采用带实心边缘的三角形主梁、实心双主梁或板式主梁时，斜拉索穿过主梁锚固在梁底，构造如<a href="#image4230">图4-2-30a）</a>所示。由于主梁高度比较小，一般不宜在梁底开槽，而在梁底设置锚固块，直接将锚头锚固在锚固块上，张拉完成后用保护罩保护锚头。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.103"> [A4-2.103]</a><span id="idA4-2.103"></span>当主梁截面采用箱梁，拉索穿过边箱梁锚固时，一般在锚点处要设置斜横隔板，如<a href="#image4230">图4-2-30c）</a>所示。锚头可以直接锚固在设置于底板上的锚固块上，也可以锚固在底板的齿槽内，以使主梁底面平整。</p>
 
- <p style="text-align:justify" id="aaa"><b>（2）箱梁内锚固</b></p>
- <p style="text-align:justify"><a href="#idA4-2.104"> [A4-2.104]</a><span id="idA4-2.104"></span>在箱梁内锚固时，斜拉索锚头一般锚固在横梁与顶板交接处的后方，如<a href="#image4230">图4-2-30b）</a>所示。锚点处的横隔板一般比非锚点处强大，以抵抗斜拉索的锚固力。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）箱梁内锚固</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.104"> [A4-2.104]</a><span id="idA4-2.104"></span>在箱梁内锚固时，斜拉索锚头一般锚固在横梁与顶板交接处的后方，如<a href="#image4230">图4-2-30b）</a>所示。锚点处的横隔板一般比非锚点处强大，以抵抗斜拉索的锚固力。</p>
 
- <p style="text-align:justify" id="aaa"><b>（3）横梁锚固</b></p>
- <p style="text-align:justify"><a href="#idA4-2.105"> [A4-2.105]</a><span id="idA4-2.105"></span>这种锚固形式是设置横贯主梁全宽的横梁，横梁与主梁浇筑在一起，倾斜设置于主梁内，两端悬出主梁外侧，斜拉索锚固在横梁两端。由于横梁悬出主梁且局部受力很大，故横梁的断面一般比较大，需设置横向预应力筋予以加强。斜拉索通过在横梁端部内的钢管锚固在横梁的下缘，如<a href="#image4230">图4-2-30d）</a>所示。这种锚固方式的锚固力较大，同时斜拉索不占用桥面，但是锚固横梁材料用量多，且从侧面看景观效果较差。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（3）横梁锚固</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.105"> [A4-2.105]</a><span id="idA4-2.105"></span>这种锚固形式是设置横贯主梁全宽的横梁，横梁与主梁浇筑在一起，倾斜设置于主梁内，两端悬出主梁外侧，斜拉索锚固在横梁两端。由于横梁悬出主梁且局部受力很大，故横梁的断面一般比较大，需设置横向预应力筋予以加强。斜拉索通过在横梁端部内的钢管锚固在横梁的下缘，如<a href="#image4230">图4-2-30d）</a>所示。这种锚固方式的锚固力较大，同时斜拉索不占用桥面，但是锚固横梁材料用量多，且从侧面看景观效果较差。</p>
  
  <div style="text-align:center;"><img id="image4230" src="../_static/fig/4-2-30.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）梁底锚固；b）箱内锚固；c）斜隔板锚固；d）梁体两侧锚固<br>图4-2-30  混凝土梁斜拉索锚固形式</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4230'));</script>
  
- <p style="text-align:justify"><a href="#idA4-2.106"> [A4-2.106]</a><span id="idA4-2.106"></span>一般斜拉索穿过主梁处应设钢套筒，如<a href="#image4231a">图4-2-31</a>所示。套筒下端设锚垫板，上端伸出桥面一段距离以保护斜拉索不被车辆撞击，套筒上一般要焊接多道剪力环以帮助锚垫板传力。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.106"> [A4-2.106]</a><span id="idA4-2.106"></span>一般斜拉索穿过主梁处应设钢套筒，如<a href="#image4231a">图4-2-31</a>所示。套筒下端设锚垫板，上端伸出桥面一段距离以保护斜拉索不被车辆撞击，套筒上一般要焊接多道剪力环以帮助锚垫板传力。</p>
  
  <div style="text-align:center;"><img id="image4231a" src="../_static/fig/4-2-31a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）混凝土主梁</p>
@@ -474,10 +474,10 @@
  <p style="color: dimgray;text-align: center;">b）钢箱主梁<br>图4-2-31  斜拉索穿过主梁处的钢套筒</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4231b'));</script>
  
- <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
- <p style="text-align:justify"><a href="#idA4-2.107"> [A4-2.107]</a><span id="idA4-2.107"></span>斜拉桥设计，首先根据地形、地质、水文、气象、通航等条件确定桥位、桥高、桥长、合理分跨等。其次是选择合适的结构体系，高地震烈度区可采用漂浮体系或支承体系（半漂浮体系）；在主跨跨径不是很大、单索面设计时，一般采用塔梁固结体系；当地震烈度小于7度，桥高较高时，可采用刚构体系。最后是各构件设计，主梁类型选择与截面设计，桥塔形式选择与截面设计，拉索形式确定与类型（成品索）选择，支座类型（成品支座）选择或特别设计，塔墩设计，基础设计等。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.107"> [A4-2.107]</a><span id="idA4-2.107"></span>斜拉桥设计，首先根据地形、地质、水文、气象、通航等条件确定桥位、桥高、桥长、合理分跨等。其次是选择合适的结构体系，高地震烈度区可采用漂浮体系或支承体系（半漂浮体系）；在主跨跨径不是很大、单索面设计时，一般采用塔梁固结体系；当地震烈度小于7度，桥高较高时，可采用刚构体系。最后是各构件设计，主梁类型选择与截面设计，桥塔形式选择与截面设计，拉索形式确定与类型（成品索）选择，支座类型（成品支座）选择或特别设计，塔墩设计，基础设计等。</p>
  
- <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[思考与练习]</b></p>
  <ol>
  <li>斜拉桥的主梁常采用哪些形式，各有何特点？如何考虑选择不同材料的主梁？</li>
  <li>斜拉桥拉索的锚固方式有哪些？部分斜拉桥与常规斜拉桥斜拉索的锚固有何区别？</li>

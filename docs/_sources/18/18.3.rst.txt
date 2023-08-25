@@ -4,11 +4,311 @@
 .. raw:: html
 
  <h3 id="test111">第三节  无推力组合体系拱桥构造</h3>
-
  <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.3.1">一、结构类型</a> <span id="id3.7.3.1"> </span></p> 
- <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.3.2">二、结构特点</a> <span id="id3.7.3.2"> </span></p>
- <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.3.3">三、结构构造</a> <span id="id3.7.3.3"> </span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.19"> [A3-7.19]</a><span id="idA3-7.19"> 无推力组合体系拱桥的结构类型主要有简支式、单悬臂式和连续式三种。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.20"> [A3-7.20]</a><span id="idA3-7.20"> 1. 简支式<br>简支式无推力组合体系拱桥是一种单跨、下承式组合体系拱桥（<a href="#image3.7.12">图3-7-12</a>）。由于平衡拱脚水平推力的构件不同，结构形式分为两种：第一种结构由拱肋、纵梁、吊杆、横梁与桥面板等组成，拱肋和纵梁共同受力、拱的水平推力由纵梁承担，称作“拱-梁”组合结构；第二种结构则由拱肋、系杆、吊杆、横梁和桥面板等组成，桥面结构悬吊在拱肋上，拱的水平推力则由与桥面结构分离的系杆承担，称作“拱-系杆”组合结构，也称作系杆拱。简支式无推力组合体系拱桥在结构受力、整体刚度、跨越能力、构造要求及外形协调性等方面,均有一定的优势。</span></p>
  
+ <body>
+
+  <style type="text/css">
+      #image3.7.12{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.12" src="../_static/fig/3-7-12.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-12  简支式组合体系拱桥</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.12'));</script>
+
+  </body>
+
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.21"> [A3-7.21]</a><span id="idA3-7.21"> 2. 连续式<br>连续式无推力组合体系拱桥，是指三跨或多跨结构连续的组合体系拱桥（<a href="#image3.7.13">图3-7-13</a>）。根据桥面系与拱圈的相对位置，连续式无推力组合体系拱桥分为上承式[<a href="#image3.7.13">图3-7-13a）</a>]、中承式[<a href="#image3.7.13">图3-7-13b）</a>]及下承式[<a href="#image3.7.13">图3-7-13c）</a>]三种结构类型。<br>上承式结构由拱肋、立柱、纵梁、横向联系和桥面板等组成，是一种拱与梁组合的结构，梁与拱共同受力并承担拱产生的水平推力，如<a href="#image3.7.14">图3-7-14a）</a>所示。<br>中承式结构有两种形式：第一种结构由拱肋、纵梁、吊杆、立柱、横梁与桥面板等组成，拱和梁共同受力、拱的水平推力由梁承担；第二种结构由拱肋、系杆、吊杆、立柱、横梁、边纵梁、桥面板等组成，桥面结构悬吊在拱肋上，拱的水平推力则由与桥面结构分离的系杆承担，如<a href="#image3.7.14">图3-7-14b）</a>所示。<br>下承式结构为纵梁采用多跨连续梁形式，拱圈与连续梁结合，基本组成和构造形式与简支式组合体系拱桥相似，边跨采用与中跨截面相似的纵梁，如<a href="#image3.7.14">图3-7-14c）</a>所示。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.13{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.13" src="../_static/fig/3-7-13.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-13  连续式组合体系拱桥</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.13'));</script>
+
+  </body>
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.14{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.14" src="../_static/fig/3-7-14.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-14  连续式组合体系拱桥示例</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.14'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.3.2">二、结构特点</a> <span id="id3.7.3.2"> </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.20"> [A3-7.20]</a><span id="idA3-7.20"> 简支式无推力组合体系拱桥是外部静定结构，对下部结构无水平推力作用。<br>连续式无推力组合体系拱桥，与简支式无推力组合体系拱桥有很多共同之处，区别主要在于系梁为刚性连续梁，在构造上可以处理成完全无水平冗余约束或在成桥后才形成冗余约束的两种方式。即使有水平多余约束，也是在桥梁建成后才起作用，大部分永久作用并不引起水平推力，表现出连续梁桥的外部受力特点。有推力组合拱桥多为有冗余水平约束的上、中承式“连续梁-拱”或者“刚架-拱”组合桥，仍然具有连拱的某些受力特点，拱脚处还有一定的水平推力。当跨径较大时，活载引起的拱脚水平推力也较大，这时连续梁的受力特点不再明显，更多地呈现出连续刚构的受力特点。无推力组合体系拱桥的结构特点，是根据结构外部受力要求布置拱与梁（或系杆）的相对位置、调整结构内力分布。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.21"> [A3-7.21]</a><span id="idA3-7.21"> 例如：<br>从结构体系角度分析：——邹存俊</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 1）对于单跨无推力组合体系拱桥，为外部简支体系，荷载作用下，下承式组合体系拱桥的跨中都通过拉开拱与梁(或系杆)的相对距离，利用拱、梁(或系杆)的压力与拉力形成自平衡的段，抵抗力矩，以平衡外荷载弯矩。</p>
+ <p style="text-align:justify;font-family:times new roman"> 2）对于多跨无推力组合体系拱桥，当为连续下承式组合体系拱桥时，通过对中跨的加强平衡内力，中跨与边跨的相互影响大为减弱，边跨出现负反力的可能性大大减小,使非通航边跨的跨度达到了最小值。当为连续上承式和中承式组合体系拱桥时，通过加强中支点旁区段(设置较长的空腹段)，扩大负弯矩作用区段的范围、调整结构内力分布。</p>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#id3.7.3.3">三、结构构造</a> <span id="id3.7.3.3"> </span></p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.22"> [A3-7.22]</a><span id="idA3-7.22"> 1. 总体布置<br>无推力组合体系拱桥根据构造主要有五种形式，每一种形式都有其特殊的总体构造特点与要求。<a href="#image3.7.15">图3-7-15</a>给出了无推力组合体系拱桥的适用跨径、分跨比例、矢跨比及其他参数。</span></p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.7.15{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.15" src="../_static/fig/3-7-15.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-15  无推力组合体系拱桥总体构造参数</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.15'));</script>
+
+  </body>
+ 
+ <p style="text-align:justify;font-family:times new roman">中承和下承式结构，可以是单拱肋式或多拱肋式。若采用多拱肋，拱肋之间横向一般需设置风撑；不设风撑时必须采用强大的端横梁，若为拱梁组合结构则应取用抗扭刚度较大的纵梁。单拱肋的拱梁组合结构，纵梁必须采用箱梁，以保证空间稳定的要求。</p>
+ <p style="text-align:justify;font-family:times new roman">上承式结构为多肋式构造，拱肋间距一般为4～6 m，肋间应设置横向联系。空腹范围内节间长度和实腹范围内的横梁间距大致为<i>l</i>/10～<i>l</i>/16，一般限制在10 m以内。</p>
+ <p style="text-align:justify;font-family:times new roman">上承和中承式结构在拱脚处立柱间、拱脚与近拱脚的拱肋间设置剪刀撑，以保证桥梁横向及拱肋纵向的整体性。</p> 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.23"> [A3-7.23]</a><span id="idA3-7.23"> 2. 一般构造</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.24"> [A3-7.24]</a><span id="idA3-7.24"> （1）拱肋<br>拱肋一般采用钢筋混凝土结构、劲性钢骨混凝土结构或钢管混凝土结构，拱肋的构造参照本章第一节“肋拱”相关部分。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.25"> [A3-7.25]</a><span id="idA3-7.25"> （2）纵梁与系杆<br>纵梁承受着拉弯组合作用，构造上与拱肋、横梁及吊杆或立柱联结在一起。纵梁采用预应力混凝土材料，截面形式有矩形、工字形或箱形（<a href="#image3.7.16">图3-7-16</a>），应根据跨径、梁高、拱肋布置形式等情况选用。对于双肋式构造，当吊杆的间距较小时，常采用矩形截面。截面的构造（尤其是工字形和箱形截面）须与其他构造要求（如预应力钢筋布置等）综合考虑，详见纵梁、横梁、吊杆的联结构造要求。为了保证拱肋的稳定性，非箱形截面的纵梁与桥面板之间须有可靠的联结，提供足够的整体刚度、确保吊杆能产生有效的非保向力效应（<a href="#image3.7.17">图3-7-17</a>）。对于刚拱柔梁的下承式与中承式结构，纵梁虽在构造上仍与拱肋、横梁及吊杆等联结，但已趋向主要承受拉力作用的构件（系杆）。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.16{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.16" src="../_static/fig/3-7-16.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-16  纵梁截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.16'));</script>
+
+  </body>
+
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.17{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.17" src="../_static/fig/3-7-17.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-17  吊杆非保向力效应示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.17'));</script>
+
+  </body>
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.26"> [A3-7.26]</a><span id="idA3-7.26"> 系杆的构造、受力与纵梁完全不同。有些桥面结构虽也设(小)纵梁，或中承式结构的边跨也可设置与拱梁组合结构相似的纵梁，但这些纵梁并不承担拱肋产生的水平推力。系杆的作用主要是承担拱肋所产生的水平推力，不承担桥面局部荷载和参与拱肋抗弯作用，故在构造上系杆一般采用抗弯刚度较小的柔性构件，并且系杆与横梁、吊杆或立柱不产生共同作用。系杆的构造方式目前常用的有三种：a.在横梁顶面设置纵向可自由滑动的系杆箱，内分隔成多室，穿入高强钢丝或钢绞线成品索[<a href="#image3.7.18">图3-7-18a）</a>]；b.在横梁顶面设置滚轮，其上放置髙强钢丝或钢绞线成品索[<a href="#image3.7.18">图3-7-18b）</a>]；c.在横梁上预设纵向可自由滑动的系杆孔(道)，内穿高强钢丝或钢绞线成品索[<a href="#image3.7.18">图3-7-18c）</a>]。</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.18{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.18" src="../_static/fig/3-7-18.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-18  系杆构造形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.18'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.27"> [A3-7.27]</a><span id="idA3-7.27"> （3）横梁及桥面结构<br>根据纵梁或吊杆横向之间的跨径，横梁可以采用钢筋混凝土或预应力混凝土结构，截面形式有矩形、工字形、丁形、凸字形及带凸头工字形等（<a href="#image3.7.19">图3-7-19</a>）。为形成桥面横坡，横梁一般为变髙度的。对于拱梁组合结构，矩形、工字形、凸字形及带凸头工字形横梁，在其两端与纵梁联结后，梁顶作为桥面板的支承面，并与预制桥面板通过现浇混凝土结合成桥面结构。丁字形横梁为带翼的肋板式梁，翼板作为桥面板的一部分,同时横梁之间也留有一部分现浇的桥面板。丁字形横梁钢筋用量较省、桥面结构整体性较好，但吊装重量较大。其他不带翼横梁预制截面的形心偏低、用钢量较大，梁与板的结合性能相对较差。为了保证桥面以上拱肋平面外稳定性，桥面处的拱肋横梁应构造强大，起到约束拱在平面外转动的作用。在大跨径结构中，此横梁可采用箱形截面。有关横梁端部构造及预应力钢筋布置等要求，见纵梁、横梁、吊杆的联结构造。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.19{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.19" src="../_static/fig/3-7-19.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-19  横梁截面形式</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.19'));</script>
+
+  </body>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.28"> [A3-7.28]</a><span id="idA3-7.28"> 对于拱-系杆组合结构，横梁与桥面板或与带（小）纵梁的桥面板等构件形成桥面结构。为了不使桥面结构参与承担拱的水平推力，避免收缩、徐变和温度变化对结构整体受力的影响，常在近拱脚处（下承式结构）或拱肋与桥面交点的横梁处（中承式结构），设横向断缝并设置滑动支承。但桥面结构对拱肋仍存在较弱的加劲作用。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.29"> [A3-7.29]</a><span id="idA3-7.29"> （4）吊杆<br>下承式和中承式结构的吊杆可采用预应力混凝土、预应力钢管混凝土材料，也可用热挤PE护套的平行钢丝成品索。吊杆的构造参照本章第一节“吊杆”相关部分。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.30"> [A3-7.30]</a><span id="idA3-7.30"> （5）立柱<br>上承式和中承式结构的立柱为受压构件，通常采用钢筋混凝土矩形截面。在拱梁组合部分，预应力引起的拱、梁变形不协调，以及车辆荷载作用下纵梁的局部弯曲变形，都将在立柱的两端尤其是上端引起较大的弯矩。这些因素往往会造成立柱端部开裂，主要是近实腹段的短柱。因此，靠近实腹段的几根短柱的上端一般需要设铰，常用构造见<a href="#image3.7.20">图3-7-20</a>。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.20{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.20" src="../_static/fig/3-7-20.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-20  立柱上端设铰构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.20'));</script>
+
+  </body>
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.31"> [A3-7.31]</a><span id="idA3-7.31"> （6）拱肋、纵梁及横梁的联结<br>拱助、纵梁及横梁的联结点，是下承和中承式拱梁组合结构的重要构造（<a href="#image3.7.21">图3-7-21</a>）。从简支拱梁组合结构在该结点处的主应力迹线[<a href="#image3.7.22">图3-7-22a）</a>]可见，主应力方向变化很大；同时，该处的构造难点在于纵横向预应力钢筋、普通钢筋和拱肋钢筋相互交叉，以及横向预应力钢筋需锚固，简支结构还需锚固纵向预应力钢筋。<a href="#image3.7.22">图3-7-22b）</a>为简支结构在该结点处的钢筋构造图，其中为了简化构造、改善受力，可将纵向预应力钢筋的锚固端块加长、锚固点后移的措施，这个措施对桥梁整体构造布置无任何不利影响。钢管混凝土拱桥在该结点处的联结构造，由于钢管的定位安装、管内混凝土灌注导致拱座承受很大压力等因素，需设置以下钢筋：①在拱座中预埋连接件，以便钢管连接定位；②在钢管四周设置防崩钢筋，防止拱肋钢管在灌注混凝土时引起开裂；③管内混凝土灌注时，钢管底部将产生很大的压力，需在钢管底部设置局部承压钢筋。如<a href="#image3.7.22">图3-7-22c）</a>所示。<br>对于上承式、中承式结构边跨的端部，拱肋与纵梁的联结构造与整体式拱桥相似，但也应考虑纵横向预应力钢筋、普通钢筋和拱肋钢筋的构造要求。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.21{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.21" src="../_static/fig/3-7-21.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-21  拱肋、纵梁及横梁联结点构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.21'));</script>
+
+  </body>  
+
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.22{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.22" src="../_static/fig/3-7-22.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-22  拱梁组合简支结构拱脚联结点示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.22'));</script>
+
+  </body>  
+
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.32"> [A3-7.32]</a><span id="idA3-7.32"> （7）纵梁、横梁及吊杆的联结<br>纵梁、横梁及吊杆联结点的构造要点，应使纵向、横向预应力钢筋和普通钢筋，以及吊杆及其锚点互不干扰。为此，纵向预应力钢筋可避开吊杆及其结点布置范围，并让出横向预应力钢筋的锚固空间；横梁端部截面横向扩大、横向预应力钢筋在进入纵梁前向两侧分开，让出吊杆布置及锚固空间；横梁的普通钢筋避开纵梁钢筋（可取横梁高度低于纵梁），详见<a href="#image3.7.23">图3-7-23</a>所示。</span></p>
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.23{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.23" src="../_static/fig/3-7-23.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-23  纵梁、横梁及吊杆联结点钢筋构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.23'));</script>
+
+  </body>  
+
+  <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.33"> [A3-7.33]</a><span id="idA3-7.33"> （8）吊杆与拱肋的联结<br>吊杆与拱肋的联结构造的关键是吊杆的锚固构造。对于钢筋混凝土拱肋，若吊杆内采用多锚头分散的预应力钢筋，则在锚固区的构造同一般预应力构件相似[<a href="#image3.7.24">图3-7-24</a>a）]；如果吊杆内采用集中单锚的髙强碳素钢丝束，或吊杆采用热挤护套的平行钢丝成品索，因锚固力大而集中，一般须采取钢锚箱等构造[<a href="#image3.7.24">图3-7-24</a>b）]，这种构造也便于吊杆（索）的更换与维护。</span></p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image3.7.24{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.24" src="../_static/fig/3-7-24.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-24  吊杆与拱肋联结构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.24'));</script>
+
+  </body>  
+ 
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.34"> [A3-7.34]</a><span id="idA3-7.34"> （9）拱脚与拱座的联结<br>上承式和中承式拱肋通过拱座与下部结构联结。从拱肋施工起始至桥梁建成，拱脚截面弯矩变化幅度可能很大。为此，对于钢筋混凝土拱肋[<a href="#image3.7.25">图3-7-25a）</a>]，可采取在拱脚处将拱肋截面上、下缘外层钢筋暂不与拱座内钢筋相连的措施，以释放拱脚不利弯矩,待上部结构合龙后的某一工况再进行连接。对于钢管混凝土拱肋[<a href="#image3.7.25">图3-7-25b）、c）</a>]，可采取临时铰的构造措施,既可以释放施工阶段的不利弯矩，也便于在安装钢管拱时调整拱肋高程。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.25{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.25" src="../_static/fig/3-7-25.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-25  拱肋与拱座联结构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.25'));</script>
+
+  </body>  
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA3-7.35"> [A3-7.35]</a><span id="idA3-7.35"> （10）拱肋间的横向联系<br>为了保证拱肋平面外稳定性，拱肋间常用设置横向联系。桥面以上的拱助可采用风撑[<a href="#image3.7.26">图3-7-26a）</a>]，桥面以下部分的拱肋则采用横系梁[<a href="#image3.7.26">图3-7-26b）</a>]。风撑的构造主要有简单的直横联形、K形等。K形风撑能有效抵抗横向S形失稳模态,也有利于减少横向偏载引起的拱肋纵向相对错动变形。若拱肋平面外抗弯刚度较小时,易出现平面外单波形横向失稳模态。此时，拱顶直横联形风撑截面的长边应垂直于拱轴线、竖向刚度应取得较大，以提高拱肋横向稳定性。但有时这种构造方式也不能起有效作用,只能从改变拱肋截面入手。桥面以下拱肋之间的横系梁应设置在立柱处，以有效抵抗立柱压力对拱肋横向失稳的不利效应；横系梁截面的长边一般沿拱轴线方向布置，以加强拱肋纵向变形的整体性。<br>对于上承式和中承式结构，在拱座顶立柱横向之间应设置斜撑或剪刀撑，拱脚与靠近拱脚第一排立柱的拱肋横向之间应设置剪刀撑，以保证桥梁横向及拱肋纵向相对的整体性（<a href="#image3.7.27">图3-7-27</a>）。</span></p>
+
+ <body>
+
+  <style type="text/css">
+      #image3.7.26{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.26" src="../_static/fig/3-7-26.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-26  拱肋间横向联系构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.26'));</script>
+
+  </body>  
+
+  <body>
+
+  <style type="text/css">
+      #image3.7.27{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image3.7.27" src="../_static/fig/3-7-27.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图3-7-27  立柱间横向构造示意</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image3.7.27'));</script>
+
+  </body>  
 
 :math:`\ `
 

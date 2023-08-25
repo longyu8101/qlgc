@@ -10,11 +10,6 @@
  <p style="text-align:justify"><a href="#idA2-2.2"> [A2-2.2]</a><span id="idA2-2.2"> 整体式板桥桥跨结构一般设计成实体式等厚度的矩形截面整体板[<a href="#image2.2.1">图2-2-1a）</a>]，为了减轻板的自重也可将受拉区稍加挖空设计成矮肋板式截面[<a href="#image2.2.1">图2-2-1b）</a>]。</span></p>
    <body>
 
- <style type="text/css">
-      #image2.2.1{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -34,11 +29,6 @@
 
    <body>
 
- <style type="text/css">
-      #image2.2.2{
-         margin-left:50px;
-      }
- </style>
 
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>

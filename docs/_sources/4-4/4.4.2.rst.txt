@@ -4,11 +4,11 @@
 .. raw:: html
 
  <h3 id="test111">第二节  主梁施工</h3>
- <p style="text-align:justify"><a href="#idA4-4.5"> [A4-4.5]</a><span id="idA4-4.5"></span>梁桥主梁的施工方法一般均适用于斜拉桥的主梁施工，常用施工方法有顶推法、平转法、支架法和悬臂法等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.5"> [A4-4.5]</a><span id="idA4-4.5"></span>梁桥主梁的施工方法一般均适用于斜拉桥的主梁施工，常用施工方法有顶推法、平转法、支架法和悬臂法等。</p>
  <p><a href="#id4.4.2.1">一、顶推法</a> <span id="id4.4.2.1"></span></p>
  <p><a href="#id4.4.2.1.1">1. 施工方法</a> <span id="id4.4.2.1.1"></span></p>
 
- <p style="text-align:justify"><a href="#idA4-4.6"> [A4-4.6]</a><span id="idA4-4.6"></span>斜拉桥采用的顶推施工方法与连续梁桥类似。顶推施工方法特别适用于桥下净高小、临时墩造价较低、支墩不影响通航、能反复承受正负弯矩的钢主梁斜拉桥施工。<a href="#image442">图4-4-2</a>所示为法国millau大桥整体顶推法施工。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.6"> [A4-4.6]</a><span id="idA4-4.6"></span>斜拉桥采用的顶推施工方法与连续梁桥类似。顶推施工方法特别适用于桥下净高小、临时墩造价较低、支墩不影响通航、能反复承受正负弯矩的钢主梁斜拉桥施工。<a href="#image442">图4-4-2</a>所示为法国millau大桥整体顶推法施工。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -17,56 +17,44 @@
  <p style="color: dimgray;text-align: center;">图4-4-2  整体顶推法施工示例（法国millau大桥）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image442'));</script>
  
- <style type="text/css">
-      #image442{
-         margin-left:52px;
-         }
-      #image443{
-         margin-left:88px;
-         }
-      #image444{
-         margin-left:68px;
-         }
- </style>
- 
  <p><a href="#id4.4.2.1.2">2. 受力特点</a> <span id="id4.4.2.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-4.7"> [A4-4.7]</a><span id="idA4-4.7"></span>斜拉桥采用顶推法施工时需要在跨间设置若干临时墩，顶推过程中主梁要反复承受正负弯矩。对于混凝土主梁的斜拉桥，一般在斜拉索张拉前先顶推主梁，即主梁先就位，然后再张拉斜拉索。挂索张拉前主梁的受力状态与连续梁桥相同。临时墩间距如不能满足主梁负担自重弯矩时，需在主梁内设置临时预应力束。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.7"> [A4-4.7]</a><span id="idA4-4.7"></span>斜拉桥采用顶推法施工时需要在跨间设置若干临时墩，顶推过程中主梁要反复承受正负弯矩。对于混凝土主梁的斜拉桥，一般在斜拉索张拉前先顶推主梁，即主梁先就位，然后再张拉斜拉索。挂索张拉前主梁的受力状态与连续梁桥相同。临时墩间距如不能满足主梁负担自重弯矩时，需在主梁内设置临时预应力束。</p>
  
  <p><a href="#id4.4.2.2">二、支架法</a> <span id="id4.4.2.2"></span></p>
  <p><a href="#id4.4.2.2.1">1. 施工方法</a> <span id="id4.4.2.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-4.8"> [A4-4.8]</a><span id="idA4-4.8"></span>支架法施工有在支架上现浇、在临时墩间设托架或劲性骨架现浇、在临时墩上架设预制梁段等方法。支架法适用于桥下净空小、搭设支架不影响桥下交通的情况。</p>
- <p style="text-align:justify"><a href="#idA4-4.9"> [A4-4.9]</a><span id="idA4-4.9"></span>施工工序：在支架上施工主梁、安装斜拉索、张拉并调整索力、拆除支架、第二次张拉并调整索力、桥面系施工等。<a href="#image443">图4-4-3</a>所示为西安浐灞二号桥支架法施工示例。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.8"> [A4-4.8]</a><span id="idA4-4.8"></span>支架法施工有在支架上现浇、在临时墩间设托架或劲性骨架现浇、在临时墩上架设预制梁段等方法。支架法适用于桥下净空小、搭设支架不影响桥下交通的情况。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.9"> [A4-4.9]</a><span id="idA4-4.9"></span>施工工序：在支架上施工主梁、安装斜拉索、张拉并调整索力、拆除支架、第二次张拉并调整索力、桥面系施工等。<a href="#image443">图4-4-3</a>所示为西安浐灞二号桥支架法施工示例。</p>
  
  <div style="text-align:center;"><img id="image443" src="../_static/fig/4-4-3.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-4-3  支架法施工主梁示例（西安浐灞二号桥）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image443'));</script>
  
  <p><a href="#id4.4.2.2.2">2. 受力特点</a> <span id="id4.4.2.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-4.10"> [A4-4.10]</a><span id="idA4-4.10"></span>斜拉桥主梁、斜拉索安装完毕后、拆除支架前：主梁结构自重落在支架上，结构还未开始受力。张拉并调整索力时以控制主梁上、下缘应力为主，主梁线形应在立模时调整。混凝土截面主梁线形若靠拉索拉力调整，很难实现，并且易导致拉索拉力过大而断丝或主梁应力过大而开裂现象。拆除支架后，结构开始承受自重作用，主梁在拉索支承下类似于弹性支承的多跨连续梁，应控制好梁的上下缘应力在限值范围内。第二次调索时也应以控制主梁上、下缘应力为主。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.10"> [A4-4.10]</a><span id="idA4-4.10"></span>斜拉桥主梁、斜拉索安装完毕后、拆除支架前：主梁结构自重落在支架上，结构还未开始受力。张拉并调整索力时以控制主梁上、下缘应力为主，主梁线形应在立模时调整。混凝土截面主梁线形若靠拉索拉力调整，很难实现，并且易导致拉索拉力过大而断丝或主梁应力过大而开裂现象。拆除支架后，结构开始承受自重作用，主梁在拉索支承下类似于弹性支承的多跨连续梁，应控制好梁的上下缘应力在限值范围内。第二次调索时也应以控制主梁上、下缘应力为主。</p>
  
  <p><a href="#id4.4.2.3">三、平转法</a> <span id="id4.4.2.3"></span></p>
  <p><a href="#id4.4.2.3.1">1. 施工方法</a> <span id="id4.4.2.3.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-4.11"> [A4-4.11]</a><span id="idA4-4.11"></span>施工工序：分别在两岸或一岸顺河流（或下方路线）方向的支架上现浇主梁、安装斜拉索、张拉并调整索力、拆除支架、以塔墩为圆心整体旋转到桥位、合龙、第二次张拉并调整索力、桥面系施工等。该方法适用于桥址地形平坦、墩身较低和结构体系适合整体转动的中小跨径斜拉桥施工。<a href="#image444">图4-4-4</a>所示为某大桥平转法施工示例。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.11"> [A4-4.11]</a><span id="idA4-4.11"></span>施工工序：分别在两岸或一岸顺河流（或下方路线）方向的支架上现浇主梁、安装斜拉索、张拉并调整索力、拆除支架、以塔墩为圆心整体旋转到桥位、合龙、第二次张拉并调整索力、桥面系施工等。该方法适用于桥址地形平坦、墩身较低和结构体系适合整体转动的中小跨径斜拉桥施工。<a href="#image444">图4-4-4</a>所示为某大桥平转法施工示例。</p>
 
  <div style="text-align:center;"><img id="image444" src="../_static/fig/4-4-4.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-4-4  平转法施工示例</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image444'));</script>
  
  <p><a href="#id4.4.2.3.2">2. 受力特点</a> <span id="id4.4.2.3.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-4.12"> [A4-4.12]</a><span id="idA4-4.12"></span>斜拉桥主梁安装完毕后、拆除支架前：主梁结构自重落在支架上，结构还未开始受力。拆除支架后：主梁在拉索支承下类似于弹性支承的多跨连续梁。拉索初张拉以及合龙后的第二次张拉要求同支架法。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.12"> [A4-4.12]</a><span id="idA4-4.12"></span>斜拉桥主梁安装完毕后、拆除支架前：主梁结构自重落在支架上，结构还未开始受力。拆除支架后：主梁在拉索支承下类似于弹性支承的多跨连续梁。拉索初张拉以及合龙后的第二次张拉要求同支架法。</p>
  
  <p><a href="#id4.4.2.4">四、悬臂法</a> <span id="id4.4.2.4"></span></p>
  <p><a href="#id4.4.2.4.1">1. 施工方法</a> <span id="id4.4.2.4.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-4.13"> [A4-4.13]</a><span id="idA4-4.13"></span>悬臂法分为悬臂浇筑法和悬臂拼装法，与连续梁的悬臂施工方法类似。悬臂法较其他方法具有明显优势，是斜拉桥应用最为广泛的施工方法。</p>
- <p style="text-align:justify"><a href="#idA4-4.14"> [A4-4.14]</a><span id="idA4-4.14"></span>（1）主梁悬臂浇筑法施工工序：</p>
- <p style="text-align:justify" id="aaa">①支架上浇筑0号块主梁、塔梁临时固接、安装悬臂段挂篮。</p>
- <p style="text-align:justify" id="aaa">②浇筑悬臂段主梁、张拉主梁预应力束、前移挂篮、安装斜拉索、张拉并调整索力（<a href="#image445">图4-4-5</a>）。</p>
- <p style="text-align:justify" id="aaa">③重复步骤②，在辅助墩位置与辅助墩连接。</p>
- <p style="text-align:justify" id="aaa">④边跨合龙。</p>
- <p style="text-align:justify" id="aaa">⑤中跨合龙：按合龙段重量进行配重、合龙段劲性骨架安装、拆除塔墩临时固接、浇筑合龙段混凝土、逐步拆除配重、主梁预应力束张拉等。</p>
- <p style="text-align:justify">⑥第二次调整索力（如果需要），桥面系施工等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.13"> [A4-4.13]</a><span id="idA4-4.13"></span>悬臂法分为悬臂浇筑法和悬臂拼装法，与连续梁的悬臂施工方法类似。悬臂法较其他方法具有明显优势，是斜拉桥应用最为广泛的施工方法。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.14"> [A4-4.14]</a><span id="idA4-4.14"></span>（1）主梁悬臂浇筑法施工工序：</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">①支架上浇筑0号块主梁、塔梁临时固接、安装悬臂段挂篮。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">②浇筑悬臂段主梁、张拉主梁预应力束、前移挂篮、安装斜拉索、张拉并调整索力（<a href="#image445">图4-4-5</a>）。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">③重复步骤②，在辅助墩位置与辅助墩连接。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">④边跨合龙。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">⑤中跨合龙：按合龙段重量进行配重、合龙段劲性骨架安装、拆除塔墩临时固接、浇筑合龙段混凝土、逐步拆除配重、主梁预应力束张拉等。</p>
+ <p style="text-align:justify;font-family:times new roman">⑥第二次调整索力（如果需要），桥面系施工等。</p>
 
- <p style="text-align:justify"><a href="#idA4-4.15"> [A4-4.15]</a><span id="idA4-4.15"></span>悬臂浇筑法主要用在预应力混凝土主梁的斜拉桥上，如<a href="#image446">图4-4-6</a>所示。主梁混凝土的悬臂浇筑与一般预应力混凝土梁式桥的基本相同。这种方法的优点是结构的整体性好，施工中不需用大吨位悬臂吊机和运输预制节段块件的驳船；但不足之处是在整个施工过程中必须严格控制挂篮的变形和混凝土收缩、徐变的影响，相对于悬臂拼装法而言施工周期较长。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.15"> [A4-4.15]</a><span id="idA4-4.15"></span>悬臂浇筑法主要用在预应力混凝土主梁的斜拉桥上，如<a href="#image446">图4-4-6</a>所示。主梁混凝土的悬臂浇筑与一般预应力混凝土梁式桥的基本相同。这种方法的优点是结构的整体性好，施工中不需用大吨位悬臂吊机和运输预制节段块件的驳船；但不足之处是在整个施工过程中必须严格控制挂篮的变形和混凝土收缩、徐变的影响，相对于悬臂拼装法而言施工周期较长。</p>
  
  <div style="text-align:center;"><img id="image445" src="../_static/fig/4-4-5.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-4-5  悬臂浇筑法施工示意</p>
@@ -76,14 +64,14 @@
  <p style="color: dimgray;text-align: center;">图4-4-6  悬臂浇筑法施工示例</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image446'));</script>
  
- <p style="text-align:justify"><a href="#idA4-4.16"> [A4-4.16]</a><span id="idA4-4.16"></span>（2）主梁悬臂拼装法施工工序：</p>
- <p style="text-align:justify" id="aaa">①支架上浇筑0号块主梁；</p>
- <p style="text-align:justify" id="aaa">②将预制好的梁段运至现场；</p>
- <p style="text-align:justify" id="aaa">③从索塔两侧依次对称拼装梁段，同时逐段安装斜拉索并调整索力；</p>
- <p style="text-align:justify" id="aaa">④边跨合龙；</p>
- <p style="text-align:justify" id="aaa">⑤中跨合龙；</p>
- <p style="text-align:justify">⑥第二次调整索力（如果需要），桥面系施工等。</p>
- <p style="text-align:justify"><a href="#idA4-4.17"> [A4-4.17]</a><span id="idA4-4.17"></span>悬臂拼装法主要用在钢主梁（钢桁梁，钢箱梁，钢-混组合梁的钢梁部分）的斜拉桥上，如<a href="#image447">图4-4-7</a>所示。钢主梁一般先在工厂加工制作，再运至桥位处吊装就位。钢梁预制节段长度应从起吊能力和方便施工考虑，一般以布置1～2根斜拉索和2～4根横梁为宜，节段与节段之间的连接分全断面焊接和全断面高强螺栓连接，连接之后必须严格按照设计精度进行预拼装和校正。悬臂拼装法的优点是钢主梁和索塔可以同时施工，因此具有施工快捷和方便的特点。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.16"> [A4-4.16]</a><span id="idA4-4.16"></span>（2）主梁悬臂拼装法施工工序：</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">①支架上浇筑0号块主梁；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">②将预制好的梁段运至现场；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">③从索塔两侧依次对称拼装梁段，同时逐段安装斜拉索并调整索力；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">④边跨合龙；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">⑤中跨合龙；</p>
+ <p style="text-align:justify;font-family:times new roman">⑥第二次调整索力（如果需要），桥面系施工等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.17"> [A4-4.17]</a><span id="idA4-4.17"></span>悬臂拼装法主要用在钢主梁（钢桁梁，钢箱梁，钢-混组合梁的钢梁部分）的斜拉桥上，如<a href="#image447">图4-4-7</a>所示。钢主梁一般先在工厂加工制作，再运至桥位处吊装就位。钢梁预制节段长度应从起吊能力和方便施工考虑，一般以布置1～2根斜拉索和2～4根横梁为宜，节段与节段之间的连接分全断面焊接和全断面高强螺栓连接，连接之后必须严格按照设计精度进行预拼装和校正。悬臂拼装法的优点是钢主梁和索塔可以同时施工，因此具有施工快捷和方便的特点。</p>
 
  <div style="text-align:center;"><img id="image447" src="../_static/fig/4-4-7.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-4-7  主梁悬臂拼装法施工示例</p>
@@ -91,12 +79,12 @@
 
  <p><a href="#id4.4.2.4.2">2. 受力特点</a> <span id="id4.4.2.4.2"></span></p>
 
- <p style="text-align:justify"><a href="#idA4-4.18"> [A4-4.18]</a><span id="idA4-4.18"></span>（1）主梁悬臂浇筑法施工</p>
- <p style="text-align:justify" id="aaa">①在进行索力调整时，应控制好主梁桥面板受力大小，不可因索力调整导致开裂。</p>
- <p style="text-align:justify">②线形调整以立模高程控制，不要靠拉索调整线形，易导致拉索拉力过大而断丝或主梁应力过大而开裂现象。</p>
- <p style="text-align:justify"><a href="#idA4-4.19"> [A4-4.19]</a><span id="idA4-4.19"></span>（2）主梁悬臂拼装法施工</p>
- <p style="text-align:justify" id="aaa">①在施工过程中注意钢梁预制节段的吊装受力和连接拼装精度控制。</p>
- <p style="text-align:justify">②由于施工不可能做到完全对称，成桥后解除临时固接时，主梁会发生纵向摆动，应予注意。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.18"> [A4-4.18]</a><span id="idA4-4.18"></span>（1）主梁悬臂浇筑法施工</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">①在进行索力调整时，应控制好主梁桥面板受力大小，不可因索力调整导致开裂。</p>
+ <p style="text-align:justify;font-family:times new roman">②线形调整以立模高程控制，不要靠拉索调整线形，易导致拉索拉力过大而断丝或主梁应力过大而开裂现象。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-4.19"> [A4-4.19]</a><span id="idA4-4.19"></span>（2）主梁悬臂拼装法施工</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">①在施工过程中注意钢梁预制节段的吊装受力和连接拼装精度控制。</p>
+ <p style="text-align:justify;font-family:times new roman">②由于施工不可能做到完全对称，成桥后解除临时固接时，主梁会发生纵向摆动，应予注意。</p>
  
 
 

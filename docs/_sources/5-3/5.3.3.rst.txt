@@ -4,9 +4,9 @@
 .. raw:: html
 
  <h3 id="test111">第三节  悬索桥结构分析案例</h3>
- <p style="text-align:justify"><a href="#idA5-3.25"> [A5-3.25]</a><span id="idA5-3.25"></span>悬索桥的施工工序为锚碇和桥塔施工、猫道架设、缆索架设、加劲梁安装及桥面系施工等。在完成主缆施工并安装吊索后，即可进行加劲梁安装施工。悬索桥加劲梁可采用先从跨中节段开始向两侧桥塔方向推进的架设方法。加劲梁的架设须考虑主缆变形对加劲梁线形的影响。应在施工前做加劲梁施工架设的模型分析，据此来验证或修正架设工序。一般在架设中，为使加劲梁的线形能适应主缆大变形，架设上的各加劲梁节段之间先临时铰接，待某一区段或全桥加劲梁吊装完毕后，再做永久性连接。加劲梁架设方案应根据悬索桥所在环境条件及运输条件合理选用。跨越大江大河、海湾的大跨径悬索桥，一般具有良好的水上运输条件，宜采用钢箱梁。同时，由于钢箱梁截面细部构造复杂，分析时还需特别注意截面剪切刚度的正确模拟。以某钢箱梁悬索桥为例，简要介绍计算流程与方法。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.25"> [A5-3.25]</a><span id="idA5-3.25"></span>悬索桥的施工工序为锚碇和桥塔施工、猫道架设、缆索架设、加劲梁安装及桥面系施工等。在完成主缆施工并安装吊索后，即可进行加劲梁安装施工。悬索桥加劲梁可采用先从跨中节段开始向两侧桥塔方向推进的架设方法。加劲梁的架设须考虑主缆变形对加劲梁线形的影响。应在施工前做加劲梁施工架设的模型分析，据此来验证或修正架设工序。一般在架设中，为使加劲梁的线形能适应主缆大变形，架设上的各加劲梁节段之间先临时铰接，待某一区段或全桥加劲梁吊装完毕后，再做永久性连接。加劲梁架设方案应根据悬索桥所在环境条件及运输条件合理选用。跨越大江大河、海湾的大跨径悬索桥，一般具有良好的水上运输条件，宜采用钢箱梁。同时，由于钢箱梁截面细部构造复杂，分析时还需特别注意截面剪切刚度的正确模拟。以某钢箱梁悬索桥为例，简要介绍计算流程与方法。</p>
  <p><a href="#id5.3.3.1">一、工程概况</a> <span id="id5.3.3.1"></span></p>
- <p style="text-align:justify"><a href="#idA5-3.26"> [A5-3.26]</a><span id="idA5-3.26"></span>某桥为双塔单跨钢桁架悬索桥，跨径布置为（248＋1 088+228）m，加劲梁总长为1 088m。左侧边中跨比为0.228，纵坡为2.2%；右侧边中跨比为0.210，纵坡为1.0%。全桥总体布置如<a href="#image536">图5-3-6</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.26"> [A5-3.26]</a><span id="idA5-3.26"></span>某桥为双塔单跨钢桁架悬索桥，跨径布置为（248＋1 088+228）m，加劲梁总长为1 088m。左侧边中跨比为0.228，纵坡为2.2%；右侧边中跨比为0.210，纵坡为1.0%。全桥总体布置如<a href="#image536">图5-3-6</a>所示。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -16,7 +16,7 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image536'));</script>
  
  <p><a href="#id5.3.3.1.1">1. 计算模式</a> <span id="id5.3.3.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA5-3.27"> [A5-3.27]</a><span id="idA5-3.27"></span>静力计算采用有限元结构分析软件进行计算分析。应用有限位移理论，采用三维有限元模型计算，全桥共分为2984个节点、4814个单元，单元及节点的划分如<a href="#image537">图5-3-7</a>所示，全桥结构模型如<a href="#image538">图5-3-8</a>所示，中央扣局部模型如<a href="#image539">图5-3-9</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.27"> [A5-3.27]</a><span id="idA5-3.27"></span>静力计算采用有限元结构分析软件进行计算分析。应用有限位移理论，采用三维有限元模型计算，全桥共分为2984个节点、4814个单元，单元及节点的划分如<a href="#image537">图5-3-7</a>所示，全桥结构模型如<a href="#image538">图5-3-8</a>所示，中央扣局部模型如<a href="#image539">图5-3-9</a>所示。</p>
  
  <div style="text-align:center;"><img id="image537" src="../_static/fig/5-3-7.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图5-3-7  全桥结构离散化示意</p>
@@ -30,10 +30,10 @@
  <p style="color: dimgray;text-align: center;">图5-3-9  中央扣局部模型示意</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image539'));</script>
  
- <p style="text-align:justify"><a href="#idA5-3.28"> [A5-3.28]</a><span id="idA5-3.28"></span>全桥计算模型由钢桁架、桥塔、主缆和吊索等构成空间结构；主缆和吊索采用索单元，桥塔和钢桁梁采用空间梁单元。边界条件：主桥采用单跨简支体系，钢桁梁在端部设有竖向和横向线位移约束，桥塔根部及主缆锚固位置均为固定约束（未考虑桥塔基桩刚度影响）。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.28"> [A5-3.28]</a><span id="idA5-3.28"></span>全桥计算模型由钢桁架、桥塔、主缆和吊索等构成空间结构；主缆和吊索采用索单元，桥塔和钢桁梁采用空间梁单元。边界条件：主桥采用单跨简支体系，钢桁梁在端部设有竖向和横向线位移约束，桥塔根部及主缆锚固位置均为固定约束（未考虑桥塔基桩刚度影响）。</p>
  
  <p><a href="#id5.3.3.1.2">2. 结构几何特性及物理力学参数</a> <span id="id5.3.3.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA5-3.29"> [A5-3.29]</a><span id="idA5-3.29"></span>主缆参数见<a href="#B5.3.1">表 5-3-1</a>，桥塔混凝土材料特性见<a href="#B5.3.2">表 5-3-2</a>。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.29"> [A5-3.29]</a><span id="idA5-3.29"></span>主缆参数见<a href="#B5.3.1">表 5-3-1</a>，桥塔混凝土材料特性见<a href="#B5.3.2">表 5-3-2</a>。</p>
 
  <style>
       #biaoge {
@@ -185,12 +185,12 @@
       </table>
       <br>
  <p><a href="#id5.3.3.1.3">3. 计算荷载</a> <span id="id5.3.3.1.3"></span></p>
- <p style="text-align:justify" id="aaa"><b>（1）汽车荷载</b></p>
- <p style="text-align:justify"><a href="#idA5-3.30"> [A5-3.30]</a><span id="idA5-3.30"></span>根据现行《公路桥涵设计通用规范》（JTG D60），汽车荷载采用公路-I级，横桥向按6车道布置计算，横向折减系数取0.55，纵向折减系数取0.93。</p>
- <p style="text-align:justify" id="aaa"><b>（2）下检修道人群荷载</b></p>
- <p style="text-align:justify"><a href="#idA5-3.31"> [A5-3.31]</a><span id="idA5-3.31"></span>下检修道人群荷载标准值采用2.5kN/m2，考虑下检修道荷载计算宽度1.6m。</p>
- <p style="text-align:justify" id="aaa"><b>（3）温度荷载</b></p>
- <p style="text-align:justify"><a href="#idA5-3.32"> [A5-3.32]</a><span id="idA5-3.32"></span>温度作用如<a href="#B5.3.3">表 5-3-3</a>所示，合龙温度：15~20℃。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）汽车荷载</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.30"> [A5-3.30]</a><span id="idA5-3.30"></span>根据现行《公路桥涵设计通用规范》（JTG D60），汽车荷载采用公路-I级，横桥向按6车道布置计算，横向折减系数取0.55，纵向折减系数取0.93。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）下检修道人群荷载</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.31"> [A5-3.31]</a><span id="idA5-3.31"></span>下检修道人群荷载标准值采用2.5kN/m2，考虑下检修道荷载计算宽度1.6m。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（3）温度荷载</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.32"> [A5-3.32]</a><span id="idA5-3.32"></span>温度作用如<a href="#B5.3.3">表 5-3-3</a>所示，合龙温度：15~20℃。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                     
@@ -213,22 +213,22 @@
       </tr>           
       </table>
       <br>
- <p style="text-align:justify" id="aaa"><b>（4）风荷载</b></p>
- <p style="text-align:justify" id="aaa">①桥位处百年一遇风荷载</p>
- <p style="text-align:justify">按照位处百年——桥面风速25.9m/s计算：<i>v</i><sub>梁</sub>＝25.9m/s,<i>v</i><sub>塔</sub>＝26.3m/s</p>
- <p style="text-align:justify" id="aaa">②与汽车荷载组合的风荷载</p>
- <p style="text-align:justify">按照桥位处行车——桥面风速25.0m/s计算：<i>v</i><sub>梁</sub>＝25.0m/s,<i>v</i><sub>塔</sub>＝25.3m/s</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（4）风荷载</b></p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">①桥位处百年一遇风荷载</p>
+ <p style="text-align:justify;font-family:times new roman">按照位处百年——桥面风速25.9m/s计算：<i>v</i><sub>梁</sub>＝25.9m/s,<i>v</i><sub>塔</sub>＝26.3m/s</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">②与汽车荷载组合的风荷载</p>
+ <p style="text-align:justify;font-family:times new roman">按照桥位处行车——桥面风速25.0m/s计算：<i>v</i><sub>梁</sub>＝25.0m/s,<i>v</i><sub>塔</sub>＝25.3m/s</p>
 
  <p><a href="#id5.3.3.1.4">4. 作用组合</a> <span id="id5.3.3.1.4"></span></p>
- <p style="text-align:justify" id="aaa">组合一：永久作用＋汽车荷载＋人群荷载；</p>
- <p style="text-align:justify" id="aaa">组合二：永久作用＋汽车荷载＋人群荷载＋运营风；</p>
- <p style="text-align:justify" id="aaa">组合三：永久作用＋百年风；</p>
- <p style="text-align:justify" id="aaa">组合四：永久作用＋汽车荷载＋人群荷载＋升温＋运营风；</p>
- <p style="text-align:justify">组合五：永久作用＋汽车荷载＋人群荷载＋降温＋运营风。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">组合一：永久作用＋汽车荷载＋人群荷载；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">组合二：永久作用＋汽车荷载＋人群荷载＋运营风；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">组合三：永久作用＋百年风；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">组合四：永久作用＋汽车荷载＋人群荷载＋升温＋运营风；</p>
+ <p style="text-align:justify;font-family:times new roman">组合五：永久作用＋汽车荷载＋人群荷载＋降温＋运营风。</p>
 
  <p><a href="#id5.3.3.1.5">5. 计算成果</a> <span id="id5.3.3.1.5"></span></p>
- <p style="text-align:justify" id="aaa"><b>（1）主缆轴力</b></p>
- <p style="text-align:justify"><a href="#idA5-3.33"> [A5-3.33]</a><span id="idA5-3.33"></span>主缆轴力计算结果见<a href="#B5.3.4">表 5-3-4</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（1）主缆轴力</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.33"> [A5-3.33]</a><span id="idA5-3.33"></span>主缆轴力计算结果见<a href="#B5.3.4">表 5-3-4</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                        
@@ -335,8 +335,8 @@
       </tr>
       </table>
       <br>
- <p style="text-align:justify" id="aaa"><b>（2）吊索拉力</b></p>
- <p style="text-align:justify"><a href="#idA5-3.34"> [A5-3.34]</a><span id="idA5-3.34"></span>吊索拉力计算结果见<a href="#B5.3.5">表 5-3-5</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（2）吊索拉力</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.34"> [A5-3.34]</a><span id="idA5-3.34"></span>吊索拉力计算结果见<a href="#B5.3.5">表 5-3-5</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                           
@@ -423,8 +423,8 @@
       </tr>
       </table>
       <br>
- <p style="text-align:justify" id="aaa"><b>（3）钢桁梁杆件轴力</b></p>
- <p style="text-align:justify"><a href="#idA5-3.35"> [A5-3.35]</a><span id="idA5-3.35"></span>主缆轴力计算结果见<a href="#B5.3.6">表 5-3-6</a>所示。</p>    
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（3）钢桁梁杆件轴力</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.35"> [A5-3.35]</a><span id="idA5-3.35"></span>主缆轴力计算结果见<a href="#B5.3.6">表 5-3-6</a>所示。</p>    
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                              
       <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B5.3.6">表5-3-6   主桁杆件轴力（单位：kN）   </b></caption>	
@@ -519,10 +519,10 @@
       <td align="center" id="dhbg">-2611</td>
       </tr>
       </table>
-      <p style="text-align:justify">注：压为正，拉为负</p>
+      <p style="text-align:justify;font-family:times new roman">注：压为正，拉为负</p>
       <br>
- <p style="text-align:justify" id="aaa"><b>（4）钢桁梁挠度</b></p>
- <p style="text-align:justify"><a href="#idA5-3.36"> [A5-3.36]</a><span id="idA5-3.36"></span>钢桁梁竖向挠度计算结果见<a href="#B5.3.7">表 5-3-7</a>所示，横向位移计算结果见<a href="#B5.3.8">表 5-3-8</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（4）钢桁梁挠度</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.36"> [A5-3.36]</a><span id="idA5-3.36"></span>钢桁梁竖向挠度计算结果见<a href="#B5.3.7">表 5-3-7</a>所示，横向位移计算结果见<a href="#B5.3.8">表 5-3-8</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                                 
@@ -619,8 +619,8 @@
       </tr>
       </table>
       <br>
- <p style="text-align:justify" id="aaa"><b>（5）梁端水平位移</b></p>
- <p style="text-align:justify"><a href="#idA5-3.37"> [A5-3.37]</a><span id="idA5-3.37"></span>梁端水平位移计算结果见<a href="#B5.3.9">表 5-3-9</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（5）梁端水平位移</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.37"> [A5-3.37]</a><span id="idA5-3.37"></span>梁端水平位移计算结果见<a href="#B5.3.9">表 5-3-9</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                                       
@@ -667,8 +667,8 @@
       </table>
       <br>
 
- <p style="text-align:justify" id="aaa"><b>（6）塔顶水平位移</b></p>
- <p style="text-align:justify"><a href="#idA5-3.38"> [A5-3.38]</a><span id="idA5-3.38"></span>塔顶水平位移计算结果见<a href="#B5.3.10">表 5-3-10</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（6）塔顶水平位移</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.38"> [A5-3.38]</a><span id="idA5-3.38"></span>塔顶水平位移计算结果见<a href="#B5.3.10">表 5-3-10</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                                          
@@ -712,8 +712,8 @@
       </table>
       <br>
       
- <p style="text-align:justify" id="aaa"><b>（7）塔顶最大不平衡水平力</b></p>
- <p style="text-align:justify"><a href="#idA5-3.39"> [A5-3.39]</a><span id="idA5-3.39"></span>塔顶最大不平衡水平力计算结果见<a href="#B5.3.11">表 5-3-11</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（7）塔顶最大不平衡水平力</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.39"> [A5-3.39]</a><span id="idA5-3.39"></span>塔顶最大不平衡水平力计算结果见<a href="#B5.3.11">表 5-3-11</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                                             
@@ -751,8 +751,8 @@
       </table>
       <br>
       
- <p style="text-align:justify" id="aaa"><b>（8）设置中央扣——梁端水平位移比较</b></p>
- <p style="text-align:justify"><a href="#idA5-3.40"> [A5-3.40]</a><span id="idA5-3.40"></span>设置中央扣——梁端水平位移比较见<a href="#B5.3.12">表 5-3-12</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（8）设置中央扣——梁端水平位移比较</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.40"> [A5-3.40]</a><span id="idA5-3.40"></span>设置中央扣——梁端水平位移比较见<a href="#B5.3.12">表 5-3-12</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                                                
@@ -809,8 +809,8 @@
       </table>
       <br>
 
- <p style="text-align:justify" id="aaa"><b>（9）中央扣内力</b></p>
- <p style="text-align:justify"><a href="#idA5-3.41"> [A5-3.41]</a><span id="idA5-3.41"></span>按六车道计算中央扣内力，计算结果见<a href="#B5.3.13">表 5-3-13</a>。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>（9）中央扣内力</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.41"> [A5-3.41]</a><span id="idA5-3.41"></span>按六车道计算中央扣内力，计算结果见<a href="#B5.3.13">表 5-3-13</a>。</p>
  
  <table id="biaoge" style="font-family:times new roman">
                                                                                                                                                                   
@@ -864,18 +864,18 @@
       </table>
       <br>
 
- <p style="text-align:justify"><a href="#idA5-3.42"> [A5-3.42]</a><span id="idA5-3.42"></span>根据以上计算结果，按照现行《公路悬索桥设计规范》（JTG/T D65-05）规定，对主缆、吊索、加劲梁（钢桁梁各构件）、桥塔、中央扣等进行相关项目验算。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.42"> [A5-3.42]</a><span id="idA5-3.42"></span>根据以上计算结果，按照现行《公路悬索桥设计规范》（JTG/T D65-05）规定，对主缆、吊索、加劲梁（钢桁梁各构件）、桥塔、中央扣等进行相关项目验算。</p>
  
  
- <p style="text-align:justify" id="aaa"><b>[拓展小知识5-3] 弹性计算理论不适合大跨径悬索桥计算的原因</b></p>
- <p style="text-align:justify"><a href="#idA5-3.43"> [A5-3.43]</a><span id="idA5-3.43"></span>弹性计算理论没有考虑结构体系变形对内力的影响，即假定缆索形状在加载前后不发生变化，显然与实际不符，实际上悬索桥结构的变形是对内力有影响的。按弹性理论所计算的索力和加劲梁弯矩，将随跨径的增大而减小，在跨度小于200m的悬索桥设计中，采用弹性理论是合适的。对于大跨的悬索桥结构，弹性理论在计算时没有考虑到恒载对悬索桥刚度的有利影响及悬索桥结构非线性大位移影响，导致按弹性理论做的设计太保守，偏安全，浪费材料。因此，在大于200m的大跨悬索桥设计时，为了计入结构体系变形对内力的影响，应采用挠度理论或者有限位移理论。</p>
- <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
- <p style="text-align:justify"><a href="#idA5-3.44"> [A5-3.44]</a><span id="idA5-3.44"></span>悬索桥在偏心荷载作用下,可以分别按照竖向（或横向）荷载和扭转荷载的作用进行计算，然后进行应力叠加。</p>
- <p style="text-align:justify"><a href="#idA5-3.45"> [A5-3.45]</a><span id="idA5-3.45"></span>悬索桥桥塔由于需要承受主缆不平衡力的作用，迫使鞍座和塔顶发生纵向位移，是一个纵向偏心受压构件。</p>
- <p style="text-align:justify"><a href="#idA5-3.46"> [A5-3.46]</a><span id="idA5-3.46"></span>悬索桥在设计完成后，应根据桥梁设计技术标准进行最不利荷载组合验算，主要验算内容有：缆索应力验算、加劲梁验算、吊索及索夹应力验算、索塔验算、锚碇验算等。</p>
- <p style="text-align:justify"><a href="#idA5-3.47"> [A5-3.47]</a><span id="idA5-3.47"></span>计算悬索桥在空间荷载(风载、地震荷载、局部温差等)作用下的静力响应时，一般采用空间杆系模型，根据加劲梁的单元划分类型，悬索桥的有限元空间杆系模型主要有“鱼骨式”、“双梁式”、“三梁式”三种形式。</p>
- <p style="text-align:justify"><a href="#idA5-3.48"> [A5-3.48]</a><span id="idA5-3.48"></span>悬索桥在承受风荷载时，由于风荷载的动力作用，会导致悬索桥出现颤振、驰振、涡激共振、抖振等动力失稳，所以在计算时必须考虑风荷载带来的动力作用。</p>
- <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[拓展小知识5-3] 弹性计算理论不适合大跨径悬索桥计算的原因</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.43"> [A5-3.43]</a><span id="idA5-3.43"></span>弹性计算理论没有考虑结构体系变形对内力的影响，即假定缆索形状在加载前后不发生变化，显然与实际不符，实际上悬索桥结构的变形是对内力有影响的。按弹性理论所计算的索力和加劲梁弯矩，将随跨径的增大而减小，在跨度小于200m的悬索桥设计中，采用弹性理论是合适的。对于大跨的悬索桥结构，弹性理论在计算时没有考虑到恒载对悬索桥刚度的有利影响及悬索桥结构非线性大位移影响，导致按弹性理论做的设计太保守，偏安全，浪费材料。因此，在大于200m的大跨悬索桥设计时，为了计入结构体系变形对内力的影响，应采用挠度理论或者有限位移理论。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.44"> [A5-3.44]</a><span id="idA5-3.44"></span>悬索桥在偏心荷载作用下,可以分别按照竖向（或横向）荷载和扭转荷载的作用进行计算，然后进行应力叠加。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.45"> [A5-3.45]</a><span id="idA5-3.45"></span>悬索桥桥塔由于需要承受主缆不平衡力的作用，迫使鞍座和塔顶发生纵向位移，是一个纵向偏心受压构件。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.46"> [A5-3.46]</a><span id="idA5-3.46"></span>悬索桥在设计完成后，应根据桥梁设计技术标准进行最不利荷载组合验算，主要验算内容有：缆索应力验算、加劲梁验算、吊索及索夹应力验算、索塔验算、锚碇验算等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.47"> [A5-3.47]</a><span id="idA5-3.47"></span>计算悬索桥在空间荷载(风载、地震荷载、局部温差等)作用下的静力响应时，一般采用空间杆系模型，根据加劲梁的单元划分类型，悬索桥的有限元空间杆系模型主要有“鱼骨式”、“双梁式”、“三梁式”三种形式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-3.48"> [A5-3.48]</a><span id="idA5-3.48"></span>悬索桥在承受风荷载时，由于风荷载的动力作用，会导致悬索桥出现颤振、驰振、涡激共振、抖振等动力失稳，所以在计算时必须考虑风荷载带来的动力作用。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[思考与练习]</b></p>
  <ol>
  <li>悬索桥分析计算理论有哪些？</li>
  <li>悬索桥结构计算内容主要包括哪几部分？</li>

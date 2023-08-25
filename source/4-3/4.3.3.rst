@@ -4,9 +4,9 @@
 .. raw:: html
 
  <h3 id="test111">第三节  斜拉桥结构分析案例</h3>
- <p style="text-align:justify"><a href="#idA4-3.67"> [A4-3.67]</a><span id="idA4-3.67"></span>斜拉桥采用悬臂法施工时，主梁选用材料不同，施工方法不尽相同，在进行结构分析时，所考虑的因素也略有区别。采用混凝土主梁时，大跨径混凝土斜拉桥多采用悬臂浇筑施工。施工过程中，主梁在恒载及斜拉索张力共同作用下，梁体弯矩较小，梁体内预应力钢束大多按直线布置，下弯束较少；分析计算时，应特别注意斜拉索的张拉时机与节段混凝土浇筑龄期以及预应力束张拉时机的关系。采用钢箱主梁时，大跨径钢箱梁斜拉桥多采用悬臂拼装法施工。施工过程中，需考虑悬拼吊机自重等施工临时荷载，分析时应正确模拟斜拉索的张拉时机与钢箱梁节段连接的关系，同时，由于钢箱梁截面细部构造复杂，分析时还需特别注意截面剪切刚度的正确模拟。以某座斜拉桥为例，简要介绍斜拉桥的计算方法。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.67"> [A4-3.67]</a><span id="idA4-3.67"></span>斜拉桥采用悬臂法施工时，主梁选用材料不同，施工方法不尽相同，在进行结构分析时，所考虑的因素也略有区别。采用混凝土主梁时，大跨径混凝土斜拉桥多采用悬臂浇筑施工。施工过程中，主梁在恒载及斜拉索张力共同作用下，梁体弯矩较小，梁体内预应力钢束大多按直线布置，下弯束较少；分析计算时，应特别注意斜拉索的张拉时机与节段混凝土浇筑龄期以及预应力束张拉时机的关系。采用钢箱主梁时，大跨径钢箱梁斜拉桥多采用悬臂拼装法施工。施工过程中，需考虑悬拼吊机自重等施工临时荷载，分析时应正确模拟斜拉索的张拉时机与钢箱梁节段连接的关系，同时，由于钢箱梁截面细部构造复杂，分析时还需特别注意截面剪切刚度的正确模拟。以某座斜拉桥为例，简要介绍斜拉桥的计算方法。</p>
  <p><a href="#id4.3.3.1">一、工程概况</a> <span id="id4.3.3.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.68"> [A4-3.68]</a><span id="idA4-3.68"></span>某桥为双塔双索面钢箱梁斜拉桥，全桥采用半漂浮体系。跨径布置为（110+236+458+236+110）m，全长1150m。仅在中跨和次边跨布设斜拉索，边跨不布设斜拉索。斜拉索采用双索面扇形式布置，标准索距为15m。全桥总体布置如<a href="#image439">图4-3-9</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.68"> [A4-3.68]</a><span id="idA4-3.68"></span>某桥为双塔双索面钢箱梁斜拉桥，全桥采用半漂浮体系。跨径布置为（110+236+458+236+110）m，全长1150m。仅在中跨和次边跨布设斜拉索，边跨不布设斜拉索。斜拉索采用双索面扇形式布置，标准索距为15m。全桥总体布置如<a href="#image439">图4-3-9</a>所示。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -15,62 +15,55 @@
  <p style="color: dimgray;text-align: center;">图4-3-9  全桥总布置图（尺寸单位：m）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image439'));</script>
  
- <p style="text-align:justify"><a href="#idA4-3.69"> [A4-3.69]</a><span id="idA4-3.69"></span>主梁采用带风嘴的扁平流线型截面，截面构造如<a href="#image4310">图4-3-10</a>所示。钢箱梁梁顶宽33.8m（不计风嘴），底板宽21.2m，梁高4.5m，风嘴长度为2.6m，在钢箱梁外侧边腹板锚固。主梁结构除边跨跨中处梁段采用Q420qD外，其余均为Q345qD。根据构造，全桥钢箱梁划分A~S共18种类型、85个梁段，索区梁段采用悬臂拼装法安装，索塔塔区节段和边跨区梁段安装采用大节段整体吊装法架设。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.69"> [A4-3.69]</a><span id="idA4-3.69"></span>主梁采用带风嘴的扁平流线型截面，截面构造如<a href="#image4310">图4-3-10</a>所示。钢箱梁梁顶宽33.8m（不计风嘴），底板宽21.2m，梁高4.5m，风嘴长度为2.6m，在钢箱梁外侧边腹板锚固。主梁结构除边跨跨中处梁段采用Q420qD外，其余均为Q345qD。根据构造，全桥钢箱梁划分A~S共18种类型、85个梁段，索区梁段采用悬臂拼装法安装，索塔塔区节段和边跨区梁段安装采用大节段整体吊装法架设。</p>
  
- <style type="text/css">
-      #image4310{
-         margin-left:80px;
-         }
- </style>
-
  <div style="text-align:center;"><img id="image4310" src="../_static/fig/4-3-10.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-3-10  钢箱梁截面构造（尺寸单位：mm）</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4310'));</script>
  
- <p style="text-align:justify"><a href="#idA4-3.70"> [A4-3.70]</a><span id="idA4-3.70"></span>索塔采用横向H形框架，总高163m。塔柱为钢筋混凝土构件，采用C50混凝土；下横梁为预应力混凝土构件，为底缘呈圆弧形的变高度结构；上横梁剪力撑采用钢结构，采用“中国结”造型；索塔锚固结构采用内置钢锚箱构造。钢锚箱根据构造不同分为A、B、C三类钢锚箱，共分12节。单节钢锚箱长5.2m，宽1m，A、B类钢锚箱高2.5m，C类钢锚箱高3m。钢锚箱总高度为30.5m，向索塔内侧倾斜5.10°。索塔、钢锚箱节段划分示意如<a href="#image4311a">图4-3-11</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.70"> [A4-3.70]</a><span id="idA4-3.70"></span>索塔采用横向H形框架，总高163m。塔柱为钢筋混凝土构件，采用C50混凝土；下横梁为预应力混凝土构件，为底缘呈圆弧形的变高度结构；上横梁剪力撑采用钢结构，采用“中国结”造型；索塔锚固结构采用内置钢锚箱构造。钢锚箱根据构造不同分为A、B、C三类钢锚箱，共分12节。单节钢锚箱长5.2m，宽1m，A、B类钢锚箱高2.5m，C类钢锚箱高3m。钢锚箱总高度为30.5m，向索塔内侧倾斜5.10°。索塔、钢锚箱节段划分示意如<a href="#image4311a">图4-3-11</a>所示。</p>
  
-.. raw:: html
-   :file: ./fig4311ab.html
-
-
-.. raw:: html
+ <div style="text-align:center;"><img id="image4311" src="../_static/fig/4-3-11.png" alt="Picture"></div>
+ <p style="color: dimgray;text-align: center;">图4-3-11 索塔和钢锚箱节段划分示意（尺寸单位：m）</p>
+ <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4311'));</script>
+ 
  
  <p><a href="#id4.3.3.2">二、数值分析模型</a> <span id="id4.3.3.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.71"> [A4-3.71]</a><span id="idA4-3.71"></span>在斜拉桥静力分析中，往往将主梁模拟为空间梁单元，采用鱼骨梁模型、双主梁模型或三主梁模型。采用鱼骨-单梁模型模拟主梁，采用悬链线索单元模拟斜拉索，杆系有限元模型如<a href="#image4312">图4-3-12</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.71"> [A4-3.71]</a><span id="idA4-3.71"></span>在斜拉桥静力分析中，往往将主梁模拟为空间梁单元，采用鱼骨梁模型、双主梁模型或三主梁模型。采用鱼骨-单梁模型模拟主梁，采用悬链线索单元模拟斜拉索，杆系有限元模型如<a href="#image4312">图4-3-12</a>所示。</p>
  
  <div style="text-align:center;"><img id="image4312" src="../_static/fig/4-3-12.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-3-12  杆系有限元模型</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4312'));</script>
  
- <p style="text-align:justify"><a href="#idA4-3.72"> [A4-3.72]</a><span id="idA4-3.72"></span>在杆系有限元模型中，本桥主要的边界条件有：</p>
- <p style="text-align:justify" id="aaa">（1）索塔墩底采用固结形式；</p>
- <p style="text-align:justify" id="aaa">（2）斜拉索与主梁、索塔之间采用刚臂连接；下横梁与索塔塔柱之间采用刚臂连接；结形撑与上塔柱采用刚臂连接；</p>
- <p style="text-align:justify" id="aaa">（3）施工过程中索塔区主梁与下横梁的两排临时固结采用弹性连接模拟，约束竖向、横向及纵桥向线位移自由度；成桥阶段主墩塔梁支座采用一般弹性连接模拟；</p>
- <p style="text-align:justify">（4）索塔、辅助墩和过渡墩对钢箱梁的支撑为多点弹性支承处理。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.72"> [A4-3.72]</a><span id="idA4-3.72"></span>在杆系有限元模型中，本桥主要的边界条件有：</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（1）索塔墩底采用固结形式；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（2）斜拉索与主梁、索塔之间采用刚臂连接；下横梁与索塔塔柱之间采用刚臂连接；结形撑与上塔柱采用刚臂连接；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（3）施工过程中索塔区主梁与下横梁的两排临时固结采用弹性连接模拟，约束竖向、横向及纵桥向线位移自由度；成桥阶段主墩塔梁支座采用一般弹性连接模拟；</p>
+ <p style="text-align:justify;font-family:times new roman">（4）索塔、辅助墩和过渡墩对钢箱梁的支撑为多点弹性支承处理。</p>
 
  <p><a href="#id4.3.3.3">三、非线性效应</a> <span id="id4.3.3.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.73"> [A4-3.73]</a><span id="idA4-3.73"></span>大跨度桥梁结构非线性主要涉及材料非线性和几何非线性两方面的内容。斜拉桥作为高次超静定柔性结构，在施工过程和正常使用阶段，影响其非线性的主要因素是几何非线性和索塔混凝土的收缩徐变。因此在施工监控结构分析中考虑的非线性因素包括：</p>
- <p style="text-align:justify" id="aaa">（1）斜拉索垂度效应：以精确悬链线单元（可带刚臂）模拟斜拉索的垂度效应；</p>
- <p style="text-align:justify" id="aaa">（2）结构大位移：通过拖动坐标法计入大位移效应；</p>
- <p style="text-align:justify" id="aaa">（3）P-Δ效应：引入梁单元的几何刚度矩阵；</p>
- <p style="text-align:justify">（4）索塔混凝土收缩徐变采用公路桥规中收缩徐变计算模式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.73"> [A4-3.73]</a><span id="idA4-3.73"></span>大跨度桥梁结构非线性主要涉及材料非线性和几何非线性两方面的内容。斜拉桥作为高次超静定柔性结构，在施工过程和正常使用阶段，影响其非线性的主要因素是几何非线性和索塔混凝土的收缩徐变。因此在施工监控结构分析中考虑的非线性因素包括：</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（1）斜拉索垂度效应：以精确悬链线单元（可带刚臂）模拟斜拉索的垂度效应；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（2）结构大位移：通过拖动坐标法计入大位移效应；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（3）P-Δ效应：引入梁单元的几何刚度矩阵；</p>
+ <p style="text-align:justify;font-family:times new roman">（4）索塔混凝土收缩徐变采用公路桥规中收缩徐变计算模式。</p>
  
  <p><a href="#id4.3.3.4">四、施工阶段划分</a> <span id="id4.3.3.4"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.74"> [A4-3.74]</a><span id="idA4-3.74"></span>根据本桥设计思路与施工组织设计中的施工流程，该桥施工阶段仿真分析共分为136个施工阶段，主要施工流程<a href="#image4313">图4-3-13</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.74"> [A4-3.74]</a><span id="idA4-3.74"></span>根据本桥设计思路与施工组织设计中的施工流程，该桥施工阶段仿真分析共分为136个施工阶段，主要施工流程<a href="#image4313">图4-3-13</a>所示。</p>
 
  <div style="text-align:center;"><img id="image4313" src="../_static/fig/4-3-13.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-3-13  主要施工流程</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4313'));</script>
 
- <p style="text-align:justify"><a href="#idA4-3.75"> [A4-3.75]</a><span id="idA4-3.75"></span>对于钢箱梁标准梁段悬拼施工工序主要施工流程有以下四步：</p>
- <p style="text-align:justify" id="aaa">（1）第一步：采用桥面吊机对当前施工梁段起吊，完成与相邻节段的临时匹配连接；</p>
- <p style="text-align:justify" id="aaa">（2）第二步：精调调整当前梁段，完成与相邻节段的工地连接；</p>
- <p style="text-align:justify" id="aaa">（3）第三步：安装当前梁段拉索，并进行初次张拉；</p>
- <p style="text-align:justify">（4）第四步：吊机前移就位，当前梁段拉索第二次张拉。</p>
- <p style="text-align:justify"><a href="#idA4-3.76"> [A4-3.76]</a><span id="idA4-3.76"></span>为准确分析本桥成桥、运营和施工状态空间受力行为，分别采用空间梁单元模型与三维实体、板壳精细化模型，对成桥状态、运营阶段和施工阶段进行了仿真分析，对比分析了空间杆系有限元与三维实体、板壳有限元的计算结果，以分析本桥静力性能。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.75"> [A4-3.75]</a><span id="idA4-3.75"></span>对于钢箱梁标准梁段悬拼施工工序主要施工流程有以下四步：</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（1）第一步：采用桥面吊机对当前施工梁段起吊，完成与相邻节段的临时匹配连接；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（2）第二步：精调调整当前梁段，完成与相邻节段的工地连接；</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa">（3）第三步：安装当前梁段拉索，并进行初次张拉；</p>
+ <p style="text-align:justify;font-family:times new roman">（4）第四步：吊机前移就位，当前梁段拉索第二次张拉。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.76"> [A4-3.76]</a><span id="idA4-3.76"></span>为准确分析本桥成桥、运营和施工状态空间受力行为，分别采用空间梁单元模型与三维实体、板壳精细化模型，对成桥状态、运营阶段和施工阶段进行了仿真分析，对比分析了空间杆系有限元与三维实体、板壳有限元的计算结果，以分析本桥静力性能。</p>
  
  <p><a href="#id4.3.3.5">五、成桥状态受力行为分析</a> <span id="id4.3.3.5"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.77"> [A4-3.77]</a><span id="idA4-3.77"></span>本桥合理成桥状态下梁单元模型与精细化模型内力与变形计算结果如<a href="#image4314a">图4-3-14</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向边跨侧117mm和120mm，相差2.5%；钢箱梁跨中上挠值分别为220mm和240mm，相差8.3%；索塔塔底弯矩、主梁弯矩值和斜拉索索力较为接近，相差不超过1.7%；主梁弯矩最大值出现在边跨跨中位置处。梁单元分析结果与精细化模型分析结果较为接近，结构受力与变形差异很小。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.77"> [A4-3.77]</a><span id="idA4-3.77"></span>本桥合理成桥状态下梁单元模型与精细化模型内力与变形计算结果如<a href="#image4314a">图4-3-14</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向边跨侧117mm和120mm，相差2.5%；钢箱梁跨中上挠值分别为220mm和240mm，相差8.3%；索塔塔底弯矩、主梁弯矩值和斜拉索索力较为接近，相差不超过1.7%；主梁弯矩最大值出现在边跨跨中位置处。梁单元分析结果与精细化模型分析结果较为接近，结构受力与变形差异很小。</p>
  
  <div style="text-align:center;"><img id="image4314a" src="../_static/fig/4-3-14a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）钢箱梁与索塔弯矩与变形</p>
@@ -85,7 +78,7 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4314c'));</script>
  
  <p><a href="#id4.3.3.6">六、运营阶段受力行为分析</a> <span id="id4.3.3.6"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.78"> [A4-3.78]</a><span id="idA4-3.78"></span>本桥运营状态下梁单元模型与精细化模型内力与变形计算结果如<a href="#image4315a">图4-3-15</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向中跨侧255mm、261mm，相差2.3%；钢箱梁跨中上挠值分别为557mm和573mm，相差2.8%。杆系有限元变形计算结果小于精细有限元模型；索塔塔底弯矩、主梁弯矩值和斜拉索索力较为接近，相差不超过3.5%。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.78"> [A4-3.78]</a><span id="idA4-3.78"></span>本桥运营状态下梁单元模型与精细化模型内力与变形计算结果如<a href="#image4315a">图4-3-15</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向中跨侧255mm、261mm，相差2.3%；钢箱梁跨中上挠值分别为557mm和573mm，相差2.8%。杆系有限元变形计算结果小于精细有限元模型；索塔塔底弯矩、主梁弯矩值和斜拉索索力较为接近，相差不超过3.5%。</p>
  
  <div style="text-align:center;"><img id="image4315a" src="../_static/fig/4-3-15a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）钢箱梁与索塔弯矩与变形</p>
@@ -100,9 +93,9 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4315c'));</script>
  
  <p><a href="#id4.3.3.7">七、施工阶段受力行为分析</a> <span id="id4.3.3.7"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.79"> [A4-3.79]</a><span id="idA4-3.79"></span>进行斜拉桥分析时，需对每个施工阶段结构受力状态进行分析，选取具有代表性的最大双悬臂、最大单悬臂和正装成桥状态三个典型施工阶段分析结果进行展示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.79"> [A4-3.79]</a><span id="idA4-3.79"></span>进行斜拉桥分析时，需对每个施工阶段结构受力状态进行分析，选取具有代表性的最大双悬臂、最大单悬臂和正装成桥状态三个典型施工阶段分析结果进行展示。</p>
  <p><a href="#id4.3.3.7.1">1. 最大双悬臂状态</a> <span id="id4.3.3.7.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.80"> [A4-3.80]</a><span id="idA4-3.80"></span>本桥在最大双悬臂状态梁单元模型与精细化模型内力与变形计算结果如<a href="#image4316a">图4-3-16</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向中跨侧6和8mm，索塔偏位值较小；钢箱梁中跨大悬臂端上挠值分别为125和134mm，边跨大悬臂端上挠212和217mm；索塔塔底弯矩、主梁弯矩值和斜拉索索力相差不超过7.0%。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.80"> [A4-3.80]</a><span id="idA4-3.80"></span>本桥在最大双悬臂状态梁单元模型与精细化模型内力与变形计算结果如<a href="#image4316a">图4-3-16</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向中跨侧6和8mm，索塔偏位值较小；钢箱梁中跨大悬臂端上挠值分别为125和134mm，边跨大悬臂端上挠212和217mm；索塔塔底弯矩、主梁弯矩值和斜拉索索力相差不超过7.0%。</p>
  
  <div style="text-align:center;"><img id="image4316a" src="../_static/fig/4-3-16a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）钢箱梁与索塔弯矩与变形</p>
@@ -117,7 +110,7 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4316c'));</script>
  
  <p><a href="#id4.3.3.7.2">2. 最大单悬臂状态</a> <span id="id4.3.3.7.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.81"> [A4-3.81]</a><span id="idA4-3.81"></span>本桥在最大单悬臂状态梁单元模型与精细化模型内力与变形计算结果如<a href="#image4317a">图4-3-17</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向边跨侧400mm和410mm，由于最大单悬臂状态结构不对称的影响，索塔偏位值较大；钢箱梁中跨大悬臂端上挠值分别为1239mm和1258mm，钢箱梁变形较大；索塔塔底弯矩、主梁弯矩值和斜拉索索力相差不超过6.7%。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.81"> [A4-3.81]</a><span id="idA4-3.81"></span>本桥在最大单悬臂状态梁单元模型与精细化模型内力与变形计算结果如<a href="#image4317a">图4-3-17</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向边跨侧400mm和410mm，由于最大单悬臂状态结构不对称的影响，索塔偏位值较大；钢箱梁中跨大悬臂端上挠值分别为1239mm和1258mm，钢箱梁变形较大；索塔塔底弯矩、主梁弯矩值和斜拉索索力相差不超过6.7%。</p>
  
  <div style="text-align:center;"><img id="image4317a" src="../_static/fig/4-3-17a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）钢箱梁与索塔弯矩与变形</p>
@@ -132,7 +125,7 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4317c'));</script>
  
  <p><a href="#id4.3.3.7.3">3. 正成桥状态</a> <span id="id4.3.3.7.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-3.82"> [A4-3.82]</a><span id="idA4-3.82"></span>本桥在正装成桥状态梁单元模型与精细化模型内力与变形计算结果如<a href="#image4318a">图4-3-18</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向边跨侧279mm和285mm，相差2.1%；钢箱梁跨中上挠值分别为770mm和789mm，相差2.4%；索塔塔底弯矩和主梁弯矩值较为接近，相差不超3.4%。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.82"> [A4-3.82]</a><span id="idA4-3.82"></span>本桥在正装成桥状态梁单元模型与精细化模型内力与变形计算结果如<a href="#image4318a">图4-3-18</a>所示。由计算结果可知，梁单元与精细化模型中索塔偏位分别偏向边跨侧279mm和285mm，相差2.1%；钢箱梁跨中上挠值分别为770mm和789mm，相差2.4%；索塔塔底弯矩和主梁弯矩值较为接近，相差不超3.4%。</p>
  
  <div style="text-align:center;"><img id="image4318a" src="../_static/fig/4-3-18a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）钢箱梁与索塔弯矩与变形</p>
@@ -146,28 +139,13 @@
  <p style="color: dimgray;text-align: center;">c）斜拉索索力<br>图4-3-18  正装成桥状态结构内力与变形</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image4318c'));</script>
  
- <style type="text/css">
-      #image4314a,#image4315a,#image4316a,#image4317a,#image4318a{
-         margin-left:80px;
-         }
-      #image4314b,#image4315b,#image4316b,#image4317b,#image4318b{
-         margin-left:159px;
-         }
-      #image4314c,#image4315c,#image4316c,#image4317c{
-         margin-left:196px;
-         }
-      #image4318c{
-         margin-left:111px;
-         }
- </style>
-
- <p style="text-align:justify"><a href="#idA4-3.83"> [A4-3.83]</a><span id="idA4-3.83"></span>根据以上计算结果，按照第一篇第三章介绍的作用组合方法与现行《公路桥涵设计通用规范》（JTG D60）规定，对索塔塔、斜拉索和主梁各构件控制截面内力进行作用组合，并计算组合效应设计值，从而进行相关项目验算。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.83"> [A4-3.83]</a><span id="idA4-3.83"></span>根据以上计算结果，按照第一篇第三章介绍的作用组合方法与现行《公路桥涵设计通用规范》（JTG D60）规定，对索塔塔、斜拉索和主梁各构件控制截面内力进行作用组合，并计算组合效应设计值，从而进行相关项目验算。</p>
  
- <p style="text-align:justify" id="aaa"><b>[学习提示]</b></p>
- <p style="text-align:justify"><a href="#idA4-3.84"> [A4-3.84]</a><span id="idA4-3.84"></span>斜拉桥的桥跨结构是由主梁、索塔和斜拉索三部分组成（图4-1-1），在竖向荷载作用下索受拉、塔受压又受弯、梁受弯又受压，因此，桥跨结构是受拉、受压、受弯三种受力形式的组合结构，当然，在横桥向不均衡活载作用下，主梁还将受扭，将是受拉、受压、受弯、受扭四种受力形式的组合结构。由于是多次超静定结构，应利用结构有限元分析软件进行计算，详细计算方法将在“桥梁结构分析与设计”课程中介绍，感兴趣的读者可参阅与本教材配套的《桥梁结构分析与设计》教材。</p>
- <p style="text-align:justify"><a href="#idA4-3.85"> [A4-3.85]</a><span id="idA4-3.85"></span>斜拉桥设计，首先根据地形、地质、水文、气象、通航等条件确定桥位、桥高、桥长、合理分跨等。其次是选择合适的结构体系，高地震烈度区可采用漂浮体系或支承体系（半漂浮体系）；在主跨跨径不是很大、单索面设计时，一般采用塔梁固结体系；当地震烈度小于7度，桥高较高时，可采用刚构体系。最后是各构件设计，主梁类型选择与截面设计，桥塔形式选择与截面设计，拉索形式确定与类型（成品索）选择，支座类型（成品支座）选择或特别设计，塔墩设计，基础设计等。</p>
- <p style="text-align:justify"><a href="#idA4-3.86"> [A4-3.86]</a><span id="idA4-3.86"></span>斜拉桥施工方法可参照梁桥施工，所不同的是斜拉索的挂索和索力调整，索力调整过程与施工方法有关，需计算确定。</p>
- <p style="text-align:justify" id="aaa"><b>[思考与练习]</b></p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[学习提示]</b></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.84"> [A4-3.84]</a><span id="idA4-3.84"></span>斜拉桥的桥跨结构是由主梁、索塔和斜拉索三部分组成（图4-1-1），在竖向荷载作用下索受拉、塔受压又受弯、梁受弯又受压，因此，桥跨结构是受拉、受压、受弯三种受力形式的组合结构，当然，在横桥向不均衡活载作用下，主梁还将受扭，将是受拉、受压、受弯、受扭四种受力形式的组合结构。由于是多次超静定结构，应利用结构有限元分析软件进行计算，详细计算方法将在“桥梁结构分析与设计”课程中介绍，感兴趣的读者可参阅与本教材配套的《桥梁结构分析与设计》教材。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.85"> [A4-3.85]</a><span id="idA4-3.85"></span>斜拉桥设计，首先根据地形、地质、水文、气象、通航等条件确定桥位、桥高、桥长、合理分跨等。其次是选择合适的结构体系，高地震烈度区可采用漂浮体系或支承体系（半漂浮体系）；在主跨跨径不是很大、单索面设计时，一般采用塔梁固结体系；当地震烈度小于7度，桥高较高时，可采用刚构体系。最后是各构件设计，主梁类型选择与截面设计，桥塔形式选择与截面设计，拉索形式确定与类型（成品索）选择，支座类型（成品支座）选择或特别设计，塔墩设计，基础设计等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-3.86"> [A4-3.86]</a><span id="idA4-3.86"></span>斜拉桥施工方法可参照梁桥施工，所不同的是斜拉索的挂索和索力调整，索力调整过程与施工方法有关，需计算确定。</p>
+ <p style="text-align:justify;font-family:times new roman" id="aaa"><b>[思考与练习]</b></p>
  <ol>
  <li>斜拉桥计算包括哪些内容？分别解决什么问题？</li>
  </ol>

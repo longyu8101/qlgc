@@ -5,12 +5,12 @@
 .. raw:: html
 
  <h3 id="test111">第一节  总体设计</h3>
- <p style="text-align:justify"><a href="#idA4-2.2"> [A4-2.2]</a><span id="idA4-2.2"></span>斜拉桥总体设计主要是确定斜拉桥的跨径布置和结构体系。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.2"> [A4-2.2]</a><span id="idA4-2.2"></span>斜拉桥总体设计主要是确定斜拉桥的跨径布置和结构体系。</p>
  <p><a href="#id4.2.1.1"> 一、跨径布置</a> <span id="id4.2.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.3"> [A4-2.3]</a><span id="idA4-2.3"></span>斜拉桥跨径布置主要可分为独塔双跨式、双塔三跨式和多塔多跨式三种形式。一般按照恒载平衡的原则确定边、中跨比例。双跨斜拉桥以跨度较大者为主跨，三跨斜拉桥或多跨斜拉桥以中跨为主跨。在特殊情况下，斜拉桥也可以布置成独塔单跨式（无背索结构体系）或混合式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.3"> [A4-2.3]</a><span id="idA4-2.3"></span>斜拉桥跨径布置主要可分为独塔双跨式、双塔三跨式和多塔多跨式三种形式。一般按照恒载平衡的原则确定边、中跨比例。双跨斜拉桥以跨度较大者为主跨，三跨斜拉桥或多跨斜拉桥以中跨为主跨。在特殊情况下，斜拉桥也可以布置成独塔单跨式（无背索结构体系）或混合式。</p>
  
  <p><a href="#id4.2.1.1.1"> 1. 双塔三跨式</a> <span id="id4.2.1.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.4"> [A4-2.4]</a><span id="idA4-2.4"></span>双塔三跨式是一种最常见的斜拉桥跨径布置方式，如<a href="#image421">图4-2-1</a>所示，通常布置成两个边跨跨度相等的对称形式，也可以布置成两个边跨跨度不等的非对称形式。由于中跨跨度较大，一般可适用于跨越较大的河流、山谷和海峡。双塔三跨式斜拉桥边跨与中跨的比例通常取0.3〜0.5，其中混凝土梁宜为0.4〜0.45，组合梁宜为0.4〜0.5，混合梁宜为0.3〜0.4，钢梁宜为0.3〜0.5。一般来说较小的边跨使边跨斜拉索对塔顶的锚固作用增大，从而对提高主跨的刚度有利，同时也有利于降低端锚索的活载应力幅，因此，从经济角度考虑大多为0. 40左右。在特殊地形条件下可采用更小的边中跨比，或边跨采用地锚形式。当边中跨比较大时，应设辅助墩以提高边跨斜拉索的锚固刚度，同时可降低应力幅。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.4"> [A4-2.4]</a><span id="idA4-2.4"></span>双塔三跨式是一种最常见的斜拉桥跨径布置方式，如<a href="#image421">图4-2-1</a>所示，通常布置成两个边跨跨度相等的对称形式，也可以布置成两个边跨跨度不等的非对称形式。由于中跨跨度较大，一般可适用于跨越较大的河流、山谷和海峡。双塔三跨式斜拉桥边跨与中跨的比例通常取0.3〜0.5，其中混凝土梁宜为0.4〜0.45，组合梁宜为0.4〜0.5，混合梁宜为0.3〜0.4，钢梁宜为0.3〜0.5。一般来说较小的边跨使边跨斜拉索对塔顶的锚固作用增大，从而对提高主跨的刚度有利，同时也有利于降低端锚索的活载应力幅，因此，从经济角度考虑大多为0. 40左右。在特殊地形条件下可采用更小的边中跨比，或边跨采用地锚形式。当边中跨比较大时，应设辅助墩以提高边跨斜拉索的锚固刚度，同时可降低应力幅。</p>
  
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -20,17 +20,17 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image421'));</script>
 
  <p><a href="#id4.2.1.1.2"> 2. 独塔双跨式</a> <span id="id4.2.1.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.5"> [A4-2.5]</a><span id="idA4-2.5"></span>独塔双跨式是一种常见的斜拉桥跨径布置方式，如<a href="#image422">图4-2-2</a>所示，可以布置成两跨不对称的形式，即分为主跨与边跨，也可以布置成两跨对称，即等跨布置形式。为利用端锚索提高刚度，以两跨不对称的形式较多，也较合理。由于其主跨跨径一般比双塔三跨式的主跨跨径小，故一般适用于跨越中小河流、谷地及交通道路，也可用于跨越较大河流的主航道部分。</p>
- <p style="text-align:justify"><a href="#idA4-2.6"> [A4-2.6]</a><span id="idA4-2.6"></span>独塔双跨式斜拉桥的边跨与主跨跨径比例应考虑地形条件和跨越能力，通常取0.5〜1.0，但多数接近于0.8〜0.9。当边跨跨径较大时，边跨设置辅助墩或者增大索塔刚度；当边跨跨径较小时，要注意设置压重，避免支座出现负反力。</p>
- <p style="text-align:justify"><a href="#idA4-2.7"> [A4-2.7]</a><span id="idA4-2.7"></span>在特殊的地形条件下，可采用更小跨径比的无背索斜拉桥或地锚式斜拉桥。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.5"> [A4-2.5]</a><span id="idA4-2.5"></span>独塔双跨式是一种常见的斜拉桥跨径布置方式，如<a href="#image422">图4-2-2</a>所示，可以布置成两跨不对称的形式，即分为主跨与边跨，也可以布置成两跨对称，即等跨布置形式。为利用端锚索提高刚度，以两跨不对称的形式较多，也较合理。由于其主跨跨径一般比双塔三跨式的主跨跨径小，故一般适用于跨越中小河流、谷地及交通道路，也可用于跨越较大河流的主航道部分。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.6"> [A4-2.6]</a><span id="idA4-2.6"></span>独塔双跨式斜拉桥的边跨与主跨跨径比例应考虑地形条件和跨越能力，通常取0.5〜1.0，但多数接近于0.8〜0.9。当边跨跨径较大时，边跨设置辅助墩或者增大索塔刚度；当边跨跨径较小时，要注意设置压重，避免支座出现负反力。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.7"> [A4-2.7]</a><span id="idA4-2.7"></span>在特殊的地形条件下，可采用更小跨径比的无背索斜拉桥或地锚式斜拉桥。</p>
 
  <div style="text-align:center;"><img id="image422" src="../_static/fig/4-2-2.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">图4-2-2  双塔三跨式斜拉桥</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image422'));</script>
 
  <p><a href="#id4.2.1.1.3"> 3. 多塔多跨式</a> <span id="id4.2.1.1.3"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.8"> [A4-2.8]</a><span id="idA4-2.8"></span>多塔多跨式斜拉桥应用较少，这是由于中间塔顶没有端锚索来有效地限制塔顶变位，结构刚度较低。增加主梁的刚度可以在一定程度上提高多塔斜拉桥的整体刚度，但会增加桥梁的自重。在必须采用多塔多跨式斜拉桥时，可将中间塔做成刚性索塔（<a href="#image423a">图4-2-3</a>），此时索塔和基础的工程量将会增加很多；或用长拉索（辅助索）对中间塔顶加劲[<a href="#image4120">图4-2-20a）</a>]，分别锚固在两个边塔的塔顶或塔底，但这种长索柔度较大，且影响桥梁的美观。</p>
- <p style="text-align:justify"><a href="#idA4-2.9"> [A4-2.9]</a><span id="idA4-2.9"></span>多塔多跨式斜拉桥边中跨比可参照双塔三跨式斜拉桥选用，一般为0.4左右。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.8"> [A4-2.8]</a><span id="idA4-2.8"></span>多塔多跨式斜拉桥应用较少，这是由于中间塔顶没有端锚索来有效地限制塔顶变位，结构刚度较低。增加主梁的刚度可以在一定程度上提高多塔斜拉桥的整体刚度，但会增加桥梁的自重。在必须采用多塔多跨式斜拉桥时，可将中间塔做成刚性索塔（<a href="#image423a">图4-2-3</a>），此时索塔和基础的工程量将会增加很多；或用长拉索（辅助索）对中间塔顶加劲[<a href="#image4120">图4-2-20a）</a>]，分别锚固在两个边塔的塔顶或塔底，但这种长索柔度较大，且影响桥梁的美观。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.9"> [A4-2.9]</a><span id="idA4-2.9"></span>多塔多跨式斜拉桥边中跨比可参照双塔三跨式斜拉桥选用，一般为0.4左右。</p>
  
  <div style="text-align:center;"><img id="image423a" src="../_static/fig/4-2-3a.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a） 中塔采用刚性塔</p>
@@ -41,15 +41,15 @@
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image423b'));</script>
 
  <p><a href="#id4.2.1.1.4"> 4. 辅助墩及边引跨</a> <span id="id4.2.1.1.4"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.10"> [A4-2.10]</a><span id="idA4-2.10"></span>为了提高斜拉桥的结构整体刚度，减小活载在边跨主梁端部附近产生的正弯矩和梁端转动变形，有时在非通航的边跨适当设置辅助墩，或通过加长边跨主梁以形成引跨，来约束主梁的变形，如<a href="#image425">图4-2-5</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.10"> [A4-2.10]</a><span id="idA4-2.10"></span>为了提高斜拉桥的结构整体刚度，减小活载在边跨主梁端部附近产生的正弯矩和梁端转动变形，有时在非通航的边跨适当设置辅助墩，或通过加长边跨主梁以形成引跨，来约束主梁的变形，如<a href="#image425">图4-2-5</a>所示。</p>
  
  <div style="text-align:center;"><img id="image425" src="../_static/fig/4-2-5.png" alt="Picture"></div>
  <p style="color: dimgray;text-align: center;">a）设置边引跨；b）设置辅助墩<br>图4-2-5  辅助墩及边引跨</p>
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image425'));</script>
  
- <p style="text-align:justify"><a href="#idA4-2.11"> [A4-2.11]</a><span id="idA4-2.11"></span>设置辅助墩既可以减小斜拉索应力变幅，提高结构刚度，又能缓和端支点负反力，减少施工时上部构件架设的最大双悬臂长度，是大跨度斜拉桥中常用的方法。当然，辅助墩数量不宜过多，否则对提高斜拉桥刚度的效果并不显著。</p>
- <p style="text-align:justify"><a href="#idA4-2.12"> [A4-2.12]</a><span id="idA4-2.12"></span>在斜拉桥中，边跨还经常采用端锚索来约束索塔的变形。端锚索是最上端的背索，张力比其他拉索大，设计时一般采用截面较大的拉索。</p>
- <p style="text-align:justify"><a href="#idA4-2.13"> [A4-2.13]</a><span id="idA4-2.13"></span>国内、外已建成斜拉桥的设计资料（一部分）如<a href="#B4.2.1">表 4-2-1</a>、<a href="#B4.2.2">表 4-2-2</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.11"> [A4-2.11]</a><span id="idA4-2.11"></span>设置辅助墩既可以减小斜拉索应力变幅，提高结构刚度，又能缓和端支点负反力，减少施工时上部构件架设的最大双悬臂长度，是大跨度斜拉桥中常用的方法。当然，辅助墩数量不宜过多，否则对提高斜拉桥刚度的效果并不显著。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.12"> [A4-2.12]</a><span id="idA4-2.12"></span>在斜拉桥中，边跨还经常采用端锚索来约束索塔的变形。端锚索是最上端的背索，张力比其他拉索大，设计时一般采用截面较大的拉索。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.13"> [A4-2.13]</a><span id="idA4-2.13"></span>国内、外已建成斜拉桥的设计资料（一部分）如<a href="#B4.2.1">表 4-2-1</a>、<a href="#B4.2.2">表 4-2-2</a>所示。</p>
 
  <style>
       #biaoge {
@@ -263,15 +263,15 @@
  <p><a href="#id4.2.1.2"> 二、结构体系</a> <span id="id4.2.1.2"></span></p>
  
  <p><a href="#id4.2.1.2.1"> 1. 双塔、独塔斜拉桥</a> <span id="id4.2.1.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.14"> [A4-2.14]</a><span id="idA4-2.14"></span>跨度较大、索距较密或在有抗震要求地区的斜拉桥，宜选择飘浮体系或者半飘浮体系。飘浮和半飘浮体系在双塔斜拉桥中，用得最广泛，特别适用于有抗震要求的密索斜拉桥，地震时可作纵向摆动，其自振频率与地震频率不一致，不会发生共振，可确保安全。</p>
- <p style="text-align:justify"><a href="#idA4-2.15"> [A4-2.15]</a><span id="idA4-2.15"></span>支承体系（不包括半飘浮体系）宜用于跨度较小的斜拉桥；塔梁固接体系宜用于塔根弯矩小和温度内力小的斜拉桥；刚构体系适用于独塔或双塔高墩和对变形要求较高的斜拉桥。有水平约束的支承体系及塔梁固接体系，应用较少。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.14"> [A4-2.14]</a><span id="idA4-2.14"></span>跨度较大、索距较密或在有抗震要求地区的斜拉桥，宜选择飘浮体系或者半飘浮体系。飘浮和半飘浮体系在双塔斜拉桥中，用得最广泛，特别适用于有抗震要求的密索斜拉桥，地震时可作纵向摆动，其自振频率与地震频率不一致，不会发生共振，可确保安全。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.15"> [A4-2.15]</a><span id="idA4-2.15"></span>支承体系（不包括半飘浮体系）宜用于跨度较小的斜拉桥；塔梁固接体系宜用于塔根弯矩小和温度内力小的斜拉桥；刚构体系适用于独塔或双塔高墩和对变形要求较高的斜拉桥。有水平约束的支承体系及塔梁固接体系，应用较少。</p>
 
  <p><a href="#id4.2.1.2.2"> 2. 多塔斜拉桥</a> <span id="id4.2.1.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA4-2.16"> [A4-2.16]</a><span id="idA4-2.16"></span>多塔斜拉桥宜采用飘浮体系或半飘浮体系（有时中塔墩与梁做成刚构体系），并可采取下列措施提高其整体刚度：</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.16"> [A4-2.16]</a><span id="idA4-2.16"></span>多塔斜拉桥宜采用飘浮体系或半飘浮体系（有时中塔墩与梁做成刚构体系），并可采取下列措施提高其整体刚度：</p>
  <p style="text-indent:2em;text-align:justify;" id="aaa">①增大主梁、中间索塔刚度；</p>
  <p style="text-indent:2em;text-align:justify;" id="aaa">②采用斜拉索对中间索塔顶加劲；</p>
  <p style="text-indent:2em;text-align:justify;">③在边孔设辅助墩，增大边孔斜拉索面积，减小边孔索距。</p>
- <p style="text-align:justify"><a href="#idA4-2.17"> [A4-2.17]</a><span id="idA4-2.17"></span><a href="#B4.2.3">表 4-2-3</a>对各种体系斜拉桥的主要受力特点进行了汇总。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.17"> [A4-2.17]</a><span id="idA4-2.17"></span><a href="#B4.2.3">表 4-2-3</a>对各种体系斜拉桥的主要受力特点进行了汇总。</p>
 
  <table id="biaoge" style="font-family:times new roman">
  <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.3">表4-2-3 斜拉桥的结构体系比较</b></caption>	    
@@ -306,7 +306,7 @@
  </table>
  <p></p>
 
- <p style="text-align:justify"><a href="#idA4-2.18"> [A4-2.18]</a><span id="idA4-2.18"></span>除固结体系外，其余的连接方式都可应用在大跨径斜拉桥中，一些比较典型的斜拉桥工程实例见<a href="#B4.2.4">表 4-2-4</a>所示。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA4-2.18"> [A4-2.18]</a><span id="idA4-2.18"></span>除固结体系外，其余的连接方式都可应用在大跨径斜拉桥中，一些比较典型的斜拉桥工程实例见<a href="#B4.2.4">表 4-2-4</a>所示。</p>
 
  <table id="biaoge" style="font-family:times new roman">
  <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.4">表4-2-4 国内外典型大跨径斜拉桥的结构体系</b></caption>	    

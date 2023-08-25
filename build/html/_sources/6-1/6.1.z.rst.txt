@@ -4,10 +4,10 @@
 .. raw:: html
 
  <h3 id="test111">总结</h3>
- <p style="text-align:justify"><a href="#idA6-1.112"> [A6-1.112]</a><span id="idA6-1.112"></span>桥梁支座是设置在桥梁上、下部结构之间的传力装置，必须满足上部结构的变形要求，使桥梁的实际受力情况符合结构计算图式。</p>
- <p style="text-align:justify"><a href="#idA6-1.113"> [A6-1.113]</a><span id="idA6-1.113"></span>桥梁支座按其容许变位方式分为固定支座与活动支座，活动支座又分为单向活动支座与多向活动支座。</p>
- <p style="text-align:justify"><a href="#idA6-1.114"> [A6-1.114]</a><span id="idA6-1.114"></span>支座按制作材料分为钢支座、橡胶支座、混凝土支座等。公路桥梁常用的支座有橡胶支座、球形钢支座、减隔震支座等。</p>
- <p style="text-align:justify"><a href="#idA6-1.115"> [A6-1.115]</a><span id="idA6-1.115"></span>公路桥梁常用的橡胶支座主要有板式橡胶支座和盆式橡胶支座。板式橡胶支座从构造上一般无固定支座与活动支座之分，但在外观上可以区分，固定支座一般较薄，活动支座较厚。盆式橡胶支座的固定支座和多向活动支座在构造上是有区别的，但从外观上难以区分，多向活动支座的下支座中间衬板上有聚四氟乙烯板、上支座底面有不锈钢滑板，而固定支座的下支座中间衬板上无聚四氟乙烯板、上支座底面亦无不锈钢滑板。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-1.112"> [A6-1.112]</a><span id="idA6-1.112"></span>桥梁支座是设置在桥梁上、下部结构之间的传力装置，必须满足上部结构的变形要求，使桥梁的实际受力情况符合结构计算图式。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-1.113"> [A6-1.113]</a><span id="idA6-1.113"></span>桥梁支座按其容许变位方式分为固定支座与活动支座，活动支座又分为单向活动支座与多向活动支座。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-1.114"> [A6-1.114]</a><span id="idA6-1.114"></span>支座按制作材料分为钢支座、橡胶支座、混凝土支座等。公路桥梁常用的支座有橡胶支座、球形钢支座、减隔震支座等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA6-1.115"> [A6-1.115]</a><span id="idA6-1.115"></span>公路桥梁常用的橡胶支座主要有板式橡胶支座和盆式橡胶支座。板式橡胶支座从构造上一般无固定支座与活动支座之分，但在外观上可以区分，固定支座一般较薄，活动支座较厚。盆式橡胶支座的固定支座和多向活动支座在构造上是有区别的，但从外观上难以区分，多向活动支座的下支座中间衬板上有聚四氟乙烯板、上支座底面有不锈钢滑板，而固定支座的下支座中间衬板上无聚四氟乙烯板、上支座底面亦无不锈钢滑板。</p>
  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
 

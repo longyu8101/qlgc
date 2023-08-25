@@ -5,18 +5,18 @@
 
  <h3 id="test111">第二节  桥塔施工</h3>
  <p><a href="#id5.4.2.1">一、施工方法</a> <span id="id5.4.2.1"></span></p>
- <p style="text-align:justify"><a href="#idA5-4.7"> [A5-4.7]</a><span id="idA5-4.7"></span>悬索桥桥塔施工，视钢桥塔和混凝土桥塔而有不同的施工方法。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.7"> [A5-4.7]</a><span id="idA5-4.7"></span>悬索桥桥塔施工，视钢桥塔和混凝土桥塔而有不同的施工方法。</p>
  <p><a href="#id5.4.2.1.1">1. 钢桥塔施工</a> <span id="id5.4.2.1.1"></span></p>
- <p style="text-align:justify"><a href="#idA5-4.8"> [A5-4.8]</a><span id="idA5-4.8"></span>依据钢桥塔的规模、类型、施工地点的地形条件并考虑经济适用性，主要有：浮式吊机施工法，塔式吊机施工法，爬升吊机施工法等。</p>
- <p style="text-align:justify"><a href="#idA5-4.9"> [A5-4.9]</a><span id="idA5-4.9"></span>浮式吊机施工法是将桥塔施工的钢构件或钢桥塔节段由水上浮运吊装架设施工。采用该方法可缩短施工工期，依据浮吊的起吊能力和起吊高度，对于塔高在80m以下的中等跨径悬索桥较为适用。</p>
- <p style="text-align:justify"><a href="#idA5-4.10"> [A5-4.10]</a><span id="idA5-4.10"></span>塔式吊机施工法是在桥塔侧旁预先安装塔式吊机，作为桥塔节段的起吊架设施工设备。因为施工机具和设备与桥塔无关，所以桥塔施工的垂直度容易得到控制。</p>
- <p style="text-align:justify"><a href="#idA5-4.11"> [A5-4.11]</a><span id="idA5-4.11"></span>爬升式吊机施工法是在桥塔塔柱上安装爬升轨道，爬升式吊机沿此轨道，随桥塔的施工增高而向上爬升的施工方法。因为施工中吊机的重力和吊机的爬升是靠桥塔支撑的，所以桥塔施工中的垂直度应严格控制。采用爬升式吊机施工时是先作爬升式吊机的安装，然后作桥塔底部的施工，再作塔柱的施工和附属工程的施工。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.8"> [A5-4.8]</a><span id="idA5-4.8"></span>依据钢桥塔的规模、类型、施工地点的地形条件并考虑经济适用性，主要有：浮式吊机施工法，塔式吊机施工法，爬升吊机施工法等。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.9"> [A5-4.9]</a><span id="idA5-4.9"></span>浮式吊机施工法是将桥塔施工的钢构件或钢桥塔节段由水上浮运吊装架设施工。采用该方法可缩短施工工期，依据浮吊的起吊能力和起吊高度，对于塔高在80m以下的中等跨径悬索桥较为适用。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.10"> [A5-4.10]</a><span id="idA5-4.10"></span>塔式吊机施工法是在桥塔侧旁预先安装塔式吊机，作为桥塔节段的起吊架设施工设备。因为施工机具和设备与桥塔无关，所以桥塔施工的垂直度容易得到控制。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.11"> [A5-4.11]</a><span id="idA5-4.11"></span>爬升式吊机施工法是在桥塔塔柱上安装爬升轨道，爬升式吊机沿此轨道，随桥塔的施工增高而向上爬升的施工方法。因为施工中吊机的重力和吊机的爬升是靠桥塔支撑的，所以桥塔施工中的垂直度应严格控制。采用爬升式吊机施工时是先作爬升式吊机的安装，然后作桥塔底部的施工，再作塔柱的施工和附属工程的施工。</p>
  <p><a href="#id5.4.2.1.2">2. 混凝土桥塔施工</a> <span id="id5.4.2.1.2"></span></p>
- <p style="text-align:justify"><a href="#idA5-4.12"> [A5-4.12]</a><span id="idA5-4.12"></span>塔身常采用的施工方法为：翻模法、滑模法、爬模法和提升支架法等。施工方法与斜拉桥桥塔施工类似，可参照第四篇第四章“斜拉桥施工”相关内容，这里不再详述。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.12"> [A5-4.12]</a><span id="idA5-4.12"></span>塔身常采用的施工方法为：翻模法、滑模法、爬模法和提升支架法等。施工方法与斜拉桥桥塔施工类似，可参照第四篇第四章“斜拉桥施工”相关内容，这里不再详述。</p>
  <p><a href="#id5.4.2.1.3">3. 主索鞍（鞍座）施工</a> <span id="id5.4.2.1.3"></span></p>
- <p style="text-align:justify"><a href="#idA5-4.13"> [A5-4.13]</a><span id="idA5-4.13"></span>在桥塔施工完毕后，安装主索鞍。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.13"> [A5-4.13]</a><span id="idA5-4.13"></span>在桥塔施工完毕后，安装主索鞍。</p>
 
  <p><a href="#id5.4.2.2">二、受力特点及技术措施</a> <span id="id5.4.2.2"></span></p>
- <p style="text-align:justify"><a href="#idA5-4.14"> [A5-4.14]</a><span id="idA5-4.14"></span>钢桥塔施工对塔的垂直度和钢材焊接质量要求很高。若塔在施工过程中垂直度有偏差不能满足规范要求时，不仅会导致桥塔受弯，甚至会引起失稳破坏。钢桥塔都是通过若干块件组拼而成的，在块件拼装过程中，若焊接工艺和焊缝质量达不到设计要求，将导致结构损伤，甚至引起垮桥事故。桥塔主体工程完成后，主缆尚未架设前，桥塔为上端自由的悬臂梁，因桥塔固有周期长，在低风速下易发生振动，此时的振动虽然使桥塔产生的应力很小，但塔上施工人员会感到眩晕，使施工效率降低。当风速大时，桥塔会有明显的振动，给施工带来很大威胁。因此，应安装桥塔抗风减振装置。</p>
- <p style="text-align:justify"><a href="#idA5-4.15"> [A5-4.15]</a><span id="idA5-4.15"></span>混凝土塔在施工中的受力特点可参照第四篇第四章“斜拉桥施工”相关内容，这里不再详述。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.14"> [A5-4.14]</a><span id="idA5-4.14"></span>钢桥塔施工对塔的垂直度和钢材焊接质量要求很高。若塔在施工过程中垂直度有偏差不能满足规范要求时，不仅会导致桥塔受弯，甚至会引起失稳破坏。钢桥塔都是通过若干块件组拼而成的，在块件拼装过程中，若焊接工艺和焊缝质量达不到设计要求，将导致结构损伤，甚至引起垮桥事故。桥塔主体工程完成后，主缆尚未架设前，桥塔为上端自由的悬臂梁，因桥塔固有周期长，在低风速下易发生振动，此时的振动虽然使桥塔产生的应力很小，但塔上施工人员会感到眩晕，使施工效率降低。当风速大时，桥塔会有明显的振动，给施工带来很大威胁。因此，应安装桥塔抗风减振装置。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA5-4.15"> [A5-4.15]</a><span id="idA5-4.15"></span>混凝土塔在施工中的受力特点可参照第四篇第四章“斜拉桥施工”相关内容，这里不再详述。</p>
  
